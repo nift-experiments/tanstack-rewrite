@@ -1,0 +1,2204 @@
+{
+  "pin": "862ccc3d191818320c3e6d217542883f80cb907a",
+  "patterns": [
+    {
+      "pattern": "/",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/admin",
+      "classification": "auth/session-sensitive application",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/account",
+      "classification": "auth/session-sensitive application",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/ads",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/application-starter",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/blog",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/brand-guide",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/builder",
+      "classification": "complex client + backend application",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/chat",
+      "classification": "complex client + backend application",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/chat-access",
+      "classification": "auth/session-sensitive application",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/community-projects",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/dashboard",
+      "classification": "auth/session-sensitive application",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/ds",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/ethos",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/explore",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/feedback-leaderboard",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/learn",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/libraries",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/llms-full.txt",
+      "classification": "generated/negotiated output",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/llms.txt",
+      "classification": "generated/negotiated output",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/login",
+      "classification": "auth/session-sensitive application",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/maintainers",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/merch",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/paid-support",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/partners",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/partners-embed",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/privacy",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/robots.txt",
+      "classification": "generated/negotiated output",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/rss.xml",
+      "classification": "generated/negotiated output",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/shop",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/showcases",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/sitemap.xml",
+      "classification": "generated/negotiated output",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/sponsors-embed",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/support",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/tenets",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/terms",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/workshops",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/$libraryId",
+      "classification": "public page/application route",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/.well-known/oauth-authorization-server",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/account/feedback",
+      "classification": "auth/session-sensitive application",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/account/integrations",
+      "classification": "auth/session-sensitive application",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/account/notes",
+      "classification": "auth/session-sensitive application",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/account/submissions",
+      "classification": "auth/session-sensitive application",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/admin/audit",
+      "classification": "auth/session-sensitive application",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/admin/chat-access",
+      "classification": "auth/session-sensitive application",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/admin/docs",
+      "classification": "auth/session-sensitive application",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/admin/github-stats",
+      "classification": "auth/session-sensitive application",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/admin/intent",
+      "classification": "auth/session-sensitive application",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/admin/logins",
+      "classification": "auth/session-sensitive application",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/admin/npm-stats",
+      "classification": "auth/session-sensitive application",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/admin/users",
+      "classification": "auth/session-sensitive application",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/uploadthing",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/application-starter/docs",
+      "classification": "documentation publication + client state",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/auth/cli",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/auth/popup-success",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/auth/signout",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/blog/$",
+      "classification": "public page/application route",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/builder/$id",
+      "classification": "complex client + backend application",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/builder/ai",
+      "classification": "complex client + backend application",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/builder/esbuild",
+      "classification": "complex client + backend application",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/builder/llms.txt",
+      "classification": "complex client + backend application",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/builder/new",
+      "classification": "complex client + backend application",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/chat/charts",
+      "classification": "complex client + backend application",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/chat/new-project",
+      "classification": "complex client + backend application",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/chat/shared",
+      "classification": "complex client + backend application",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/ds/avatar",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/ds/badges",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/ds/breadcrumbs",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/ds/buttons",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/ds/cards",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/ds/colors",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/ds/dialog",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/ds/drawer",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/ds/dropdown",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/ds/effects",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/ds/eyebrow",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/ds/iconography",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/ds/inputs",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/ds/logos",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/ds/maintainers",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/ds/navbar",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/ds/overlays",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/ds/page-header",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/ds/palette",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/ds/panel",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/ds/partner-rail",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/ds/semantic",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/ds/shadows",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/ds/spinner",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/ds/stats",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/ds/tabs",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/ds/takeover",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/ds/typography",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/libraries/$framework",
+      "classification": "public page/application route",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/oauth/authorize",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/oauth/register",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/oauth/token",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/partners/$partner",
+      "classification": "public page/application route",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/partners/netlify",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/partners/railway",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/partners/render",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/shop/$handle",
+      "classification": "public page/application route",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/shop/cart",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/shop/search",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/showcase/$id",
+      "classification": "public page/application route",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/showcase/submit",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/stack/$category",
+      "classification": "public page/application route",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/account/",
+      "classification": "auth/session-sensitive application",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/admin/",
+      "classification": "auth/session-sensitive application",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/application-starter/",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/blog/",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/chat/",
+      "classification": "complex client + backend application",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/ds/",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/partners/",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/shop/",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/showcase/",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/stats/",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/$libraryId/$version",
+      "classification": "public page/application route",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/charts/catalog",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/admin/feedback/$id",
+      "classification": "auth/session-sensitive application",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/admin/roles/$roleId",
+      "classification": "auth/session-sensitive application",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/admin/showcases/$id",
+      "classification": "auth/session-sensitive application",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/admin/users/$userId",
+      "classification": "auth/session-sensitive application",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/application-starter/compile",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/application-starter/compile-attributed",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/application-starter/download",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/application-starter/feature-artifacts",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/application-starter/features",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/application-starter/load-remote-addon",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/application-starter/load-remote-template",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/application-starter/load-template",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/application-starter/resolve",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/application-starter/suggest",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/application-starter/validate",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/activity",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/app-version",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/bootstrap",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/bots",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/connection",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/device-transport",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/draft",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/files",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/model-options",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/models",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/plugins",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/policy",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/project-snapshots",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/projects",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/recipes",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/references",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/sections",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/skills",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/workspace",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/workspace-history",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/workspace-index",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/data/libraries",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/data/partners",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/discord/interactions",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/example/deploy",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/github/webhook",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/mcp/$",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/og/{$}.png",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/readme/{$}.png",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/auth/$provider/start",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/auth/mcp/callback",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/auth/mcp/client-metadata",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/builder/p/$hash",
+      "classification": "complex client + backend application",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/charts/catalog/catalog.json",
+      "classification": "generated/negotiated output",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/chat/b/$botId",
+      "classification": "complex client + backend application",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/chat/c/$conversationId",
+      "classification": "complex client + backend application",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/chat/p/$hash",
+      "classification": "complex client + backend application",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/chat/project/$projectId",
+      "classification": "complex client + backend application",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/chat/w/$workspaceId",
+      "classification": "complex client + backend application",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/intent/registry/$packageName",
+      "classification": "public page/application route",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/shop/collections/$handle",
+      "classification": "public page/application route",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/shop/pages/$handle",
+      "classification": "public page/application route",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/shop/policies/$handle",
+      "classification": "public page/application route",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/shop/products/$handle",
+      "classification": "public page/application route",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/showcase/edit/$id",
+      "classification": "public page/application route",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/stats/npm/$packages",
+      "classification": "public page/application route",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/stats/npm/embed",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/$libraryId/",
+      "classification": "public page/application route",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/admin/feedback/",
+      "classification": "auth/session-sensitive application",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/admin/notes/",
+      "classification": "auth/session-sensitive application",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/admin/roles/",
+      "classification": "auth/session-sensitive application",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/admin/showcases/",
+      "classification": "auth/session-sensitive application",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/mcp/",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/intent/registry/",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/stats/npm/",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/$libraryId/$version/docs",
+      "classification": "documentation publication + client state",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/$libraryId/$version/llms.txt",
+      "classification": "generated/negotiated output",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/charts/catalog/all",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/application-starter/deploy/check-name",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/application-starter/deploy/github",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/auth/callback/$provider",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/auth/cli/create-ticket",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/account/devices",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/account/onboarding",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/account/preferences",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/bot-drafts/$id",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/bots/$id",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/bots/bulk",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/bots/move",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/copies/$id",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/kody/account",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/kody/callback",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/kody/community",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/kody/connect",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/kody/memories",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/kody/runs",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/kody/servers",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/kody/sync",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/kody/unlink",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/kody/usage",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/mcp/$",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/mcp/contract",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/openrouter/callback",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/plugins/$id",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/project-snapshots/$hash",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/projects/$id",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/recipes/$id",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/retries/$id",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/sections/$id",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/skills/$id",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/workspace-index/activity",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/workspace-sync/$operation",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/intent/registry/$packageName/$skillName",
+      "classification": "public page/application route",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/intent/registry/$packageName/{$}.md",
+      "classification": "generated/negotiated output",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/$libraryId/$version/",
+      "classification": "public page/application route",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/ai/$version/",
+      "classification": "public page/application route",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/charts/$version/",
+      "classification": "public page/application route",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/charts/catalog/",
+      "classification": "public page/application route",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/cli/$version/",
+      "classification": "public page/application route",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/config/$version/",
+      "classification": "public page/application route",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/db/$version/",
+      "classification": "public page/application route",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/devtools/$version/",
+      "classification": "public page/application route",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/form/$version/",
+      "classification": "public page/application route",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/highlight/$version/",
+      "classification": "public page/application route",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/hotkeys/$version/",
+      "classification": "public page/application route",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/intent/$version/",
+      "classification": "public page/application route",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/markdown/$version/",
+      "classification": "public page/application route",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/pacer/$version/",
+      "classification": "public page/application route",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/query/$version/",
+      "classification": "public page/application route",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/ranger/$version/",
+      "classification": "public page/application route",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/router/$version/",
+      "classification": "public page/application route",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/start/$version/",
+      "classification": "public page/application route",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/store/$version/",
+      "classification": "public page/application route",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/table/$version/",
+      "classification": "public page/application route",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/virtual/$version/",
+      "classification": "public page/application route",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/workflow/$version/",
+      "classification": "public page/application route",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/intent/registry/$packageName/",
+      "classification": "public page/application route",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/$libraryId/$version/docs/$",
+      "classification": "documentation publication + client state",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/$libraryId/$version/docs/blog",
+      "classification": "documentation publication + client state",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/$libraryId/$version/docs/community-resources",
+      "classification": "documentation publication + client state",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/$libraryId/$version/docs/contributors",
+      "classification": "documentation publication + client state",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/$libraryId/$version/docs/index.md",
+      "classification": "documentation publication + client state",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/$libraryId/$version/docs/npm-stats",
+      "classification": "documentation publication + client state",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/$libraryId/$version/docs/{$}.md",
+      "classification": "documentation publication + client state",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/charts/catalog/charts/$caseId",
+      "classification": "public page/application route",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/charts/catalog/collections/$collectionId",
+      "classification": "public page/application route",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/auth/cli/status/$ticketId",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/bot-drafts/$id/files",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/bots/$id/$operation",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/bots/$id/files",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/conversations/$id/$operation",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/conversations/$id/files",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/conversations/$id/memories",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/conversations/$id/references",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/kody/community/$listingId",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/kody/mail/inboxes",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/kody/mail/messages",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/kody/memories/$memoryId",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/kody/resources/$kind",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/kody/runs/$runId",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/project-snapshots/$hash/quarantine",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/projects/$id/sync",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/references/kody/inspect",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/references/kody/refresh",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/references/tools/refresh",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/retries/$id/prepare",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/charts/catalog/previews/$revision/{$caseId}.svg",
+      "classification": "generated/negotiated output",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/chat/c/$conversationId/m/$messageId",
+      "classification": "complex client + backend application",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/chat/w/$workspaceId/b/$botId",
+      "classification": "complex client + backend application",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/chat/w/$workspaceId/home/$homeSection",
+      "classification": "complex client + backend application",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/$libraryId/$version/docs/",
+      "classification": "documentation publication + client state",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/account/composer-drafts/$accountId/$scope",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/bot-drafts/$id/files/$fileId",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/bots/$id/files/$fileId",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/conversations/$id/files/$fileId",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/conversations/$id/files/import",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/conversations/$id/memories/$memoryId",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/conversations/$id/workflow-runs/$runId",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/conversations/$id/workflows/$workflowId",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/kody/jobs/$jobId/enabled",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/kody/mail/messages/$messageId",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/kody/memories/$memoryId/apply",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/kody/memories/$memoryId/review",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/kody/memories/create/apply",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/kody/memories/create/review",
+      "classification": "backend/service protocol",
+      "parameterized": false,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/kody/packages/$packageId/document",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/kody/runs/$runId/triage",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/kody/servers/$serverId/check",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/kody/servers/$serverId/enabled",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/kody/servers/$serverId/reconnect",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/$libraryId/$version/docs/framework/",
+      "classification": "documentation publication + client state",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/$libraryId/$version/docs/framework/$framework/$",
+      "classification": "documentation publication + client state",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/$libraryId/$version/docs/framework/$framework/{$}.md",
+      "classification": "documentation publication + client state",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/bot-drafts/$id/files/$fileId/content",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/bots/$id/files/$fileId/content",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/conversations/$id/execution/snapshots/$snapshotId",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/conversations/$id/files/$fileId/content",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/api/chat/conversations/$id/workflow-runs/$runId/cancel",
+      "classification": "backend/service protocol",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/$libraryId/$version/docs/framework/$framework/",
+      "classification": "documentation publication + client state",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    },
+    {
+      "pattern": "/$libraryId/$version/docs/framework/$framework/examples/$",
+      "classification": "documentation publication + client state",
+      "parameterized": true,
+      "preserve": true,
+      "status": "inventoried; concrete/state proof pending"
+    }
+  ],
+  "warning": "314 router pattern identities are not 314 static pages; parameter/query/auth state spaces require family-level and concrete-case contracts. No private route is silently excluded."
+}

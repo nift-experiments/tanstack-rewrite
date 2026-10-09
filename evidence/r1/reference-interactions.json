@@ -1,0 +1,28 @@
+{
+  "scope": "Reference only; not candidate parity",
+  "results": [
+    {
+      "width": 1440,
+      "contract": "search open/input/Escape",
+      "pass": true,
+      "external_results": "Controlled transport; not live provider certification"
+    },
+    {
+      "width": 1440,
+      "contract": "theme toggle",
+      "root_class": "theme-switching light",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "contract": "mobile menu",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "contract": "search open/input/Escape",
+      "pass": true,
+      "external_results": "Controlled transport; not live provider certification"
+    }
+  ]
+}

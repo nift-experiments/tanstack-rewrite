@@ -1,0 +1,142 @@
+[
+  {
+    "route": "/",
+    "request_headers": {},
+    "status": 200,
+    "headers": {
+      "Transfer-Encoding": "chunked",
+      "Content-Type": "text/html; charset=utf-8",
+      "Cache-Control": "public, max-age=300, stale-while-revalidate=3600, stale-if-error=3600",
+      "Link": "</assets/index-CkPMwtIG.js>; rel=modulepreload; as=script, </assets/rolldown-runtime-DwyjGMXk.js>; rel=modulepreload; as=script, </assets/tanstack-router-0U6bpk3R.js>; rel=modulepreload; as=script, </assets/tanstack-query-CX3PTdhE.js>; rel=modulepreload; as=script, </assets/shared-constants-CaD3CTjf.js>; rel=modulepreload; as=script, </assets/index-CaKFzcjh.css>; rel=preload; as=style, </assets/routes-Dvpu4RbE.js>; rel=modulepreload; as=script, </assets/CalendarDots.es-B6Y-q9wt.js>; rel=modulepreload; as=script, </assets/Check.es-LgcdJpcL.js>; rel=modulepreload; as=script, </assets/DownloadSimple.es-CZ0RjrvN.js>; rel=modulepreload; as=script, </assets/Envelope.es-B30vqnkm.js>; rel=modulepreload; as=script, </assets/EnvelopeSimple.es-DaQqjbks.js>; rel=modulepreload; as=script, </assets/Lightning.es-fz12iotF.js>; rel=modulepreload; as=script, </assets/Pause.es-CYXmGJs5.js>; rel=modulepreload; as=script, </assets/Play.es-C9ycyphN.js>; rel=modulepreload; as=script, </assets/Shield.es-Dqiajn3t.js>; rel=modulepreload; as=script, </assets/Star.es-Da0bN5NY.js>; rel=modulepreload; as=script, </assets/users.functions-fZ61L8Y-.js>; rel=modulepreload; as=script",
+      "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+      "Permissions-Policy": "camera=(), microphone=(), geolocation=()",
+      "Referrer-Policy": "strict-origin-when-cross-origin",
+      "X-Content-Type-Options": "nosniff",
+      "X-Frame-Options": "DENY",
+      "X-XSS-Protection": "1; mode=block",
+      "cloudflare-cdn-cache-control": "public, max-age=300, stale-while-revalidate=3600"
+    },
+    "bytes": 263838,
+    "sha256": "dd01008946444dcd058845fe740a542e2f6ff9911349d2e8150687f0039fa7c3"
+  },
+  {
+    "route": "/query/latest/docs",
+    "request_headers": {},
+    "status": 307,
+    "headers": {
+      "Content-Length": "0",
+      "Location": "/query/latest/docs/framework/react/overview",
+      "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+      "Permissions-Policy": "camera=(), microphone=(), geolocation=()",
+      "Referrer-Policy": "strict-origin-when-cross-origin",
+      "X-Content-Type-Options": "nosniff",
+      "X-Frame-Options": "DENY",
+      "X-XSS-Protection": "1; mode=block"
+    },
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "route": "/query/v5/docs/framework/react/overview.md",
+    "request_headers": {},
+    "status": 200,
+    "headers": {
+      "Content-Length": "4744",
+      "Content-Type": "text/markdown",
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "Content-Disposition": "inline; filename=\"framework-react-overview.md\"; filename*=UTF-8''framework-react-overview.md",
+      "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+      "Vary": "Accept, Accept-Encoding, Sec-Fetch-Dest, Sec-Fetch-Mode",
+      "Cache-Tag": "docs:all,docs:query,docs:query:branch:main",
+      "Cloudflare-CDN-Cache-Control": "public, max-age=3600, stale-while-revalidate=86400",
+      "Permissions-Policy": "camera=(), microphone=(), geolocation=()",
+      "Referrer-Policy": "strict-origin-when-cross-origin",
+      "X-Content-Type-Options": "nosniff",
+      "X-Frame-Options": "DENY",
+      "X-XSS-Protection": "1; mode=block"
+    },
+    "bytes": 4744,
+    "sha256": "040288e68505ce35c1b5e74dde2632f9c04155e4310b6ddca73314e0e274d944"
+  },
+  {
+    "route": "/query/latest/docs/framework/react/overview",
+    "request_headers": {
+      "Accept": "text/markdown"
+    },
+    "status": 200,
+    "headers": {
+      "Content-Length": "4744",
+      "Content-Type": "text/markdown",
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "Content-Disposition": "inline; filename=\"framework-react-overview.md\"; filename*=UTF-8''framework-react-overview.md",
+      "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+      "Vary": "Accept, Accept-Encoding, Sec-Fetch-Dest, Sec-Fetch-Mode",
+      "Cache-Tag": "docs:all,docs:query,docs:query:branch:main",
+      "Cloudflare-CDN-Cache-Control": "public, max-age=3600, stale-while-revalidate=86400",
+      "Permissions-Policy": "camera=(), microphone=(), geolocation=()",
+      "Referrer-Policy": "strict-origin-when-cross-origin",
+      "X-Content-Type-Options": "nosniff",
+      "X-Frame-Options": "DENY",
+      "X-XSS-Protection": "1; mode=block"
+    },
+    "bytes": 4744,
+    "sha256": "040288e68505ce35c1b5e74dde2632f9c04155e4310b6ddca73314e0e274d944"
+  },
+  {
+    "route": "/robots.txt",
+    "request_headers": {},
+    "status": 200,
+    "headers": {
+      "Content-Length": "65",
+      "Content-Type": "text/plain; charset=utf-8",
+      "Cache-Control": "public, max-age=300, must-revalidate",
+      "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+      "Permissions-Policy": "camera=(), microphone=(), geolocation=()",
+      "Referrer-Policy": "strict-origin-when-cross-origin",
+      "X-Content-Type-Options": "nosniff",
+      "X-Frame-Options": "DENY",
+      "X-XSS-Protection": "1; mode=block",
+      "cloudflare-cdn-cache-control": "public, max-age=3600, stale-while-revalidate=3600"
+    },
+    "bytes": 65,
+    "sha256": "5f8b9f8e20c4b656c2cdb52689fddc63d0cd59b75b886671a61472aacb24f547"
+  },
+  {
+    "route": "/missing-baseline-route",
+    "request_headers": {},
+    "status": 404,
+    "headers": {
+      "Transfer-Encoding": "chunked",
+      "Content-Type": "text/html; charset=utf-8",
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "Link": "</assets/index-CkPMwtIG.js>; rel=modulepreload; as=script, </assets/rolldown-runtime-DwyjGMXk.js>; rel=modulepreload; as=script, </assets/tanstack-router-0U6bpk3R.js>; rel=modulepreload; as=script, </assets/tanstack-query-CX3PTdhE.js>; rel=modulepreload; as=script, </assets/shared-constants-CaD3CTjf.js>; rel=modulepreload; as=script, </assets/index-CaKFzcjh.css>; rel=preload; as=style, </assets/_library-CQTdj7dA.js>; rel=modulepreload; as=script, </assets/LibraryLayout-DRb4PYb2.js>; rel=modulepreload; as=script, </assets/route-D6ZRwGOj.js>; rel=modulepreload; as=script",
+      "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+      "Permissions-Policy": "camera=(), microphone=(), geolocation=()",
+      "Referrer-Policy": "strict-origin-when-cross-origin",
+      "X-Content-Type-Options": "nosniff",
+      "X-Frame-Options": "DENY",
+      "X-XSS-Protection": "1; mode=block",
+      "cloudflare-cdn-cache-control": "no-store"
+    },
+    "bytes": 131897,
+    "sha256": "ab30ac2373ad484519e37bd5347b13b88ec5c82ee54a0fa31e61c95a808f7d5a"
+  },
+  {
+    "route": "/api/auth/cli/status/unknown-fixture-ticket",
+    "request_headers": {},
+    "status": 400,
+    "headers": {
+      "Content-Length": "29",
+      "Content-Type": "application/json",
+      "Cache-Control": "no-store",
+      "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+      "Permissions-Policy": "camera=(), microphone=(), geolocation=()",
+      "Referrer-Policy": "strict-origin-when-cross-origin",
+      "X-Content-Type-Options": "nosniff",
+      "X-Frame-Options": "DENY",
+      "X-XSS-Protection": "1; mode=block"
+    },
+    "bytes": 29,
+    "sha256": "7ed291dd92ee7f46751ec8046bf113682081ee95c07b91b26da5d5dea0b31f75"
+  }
+]

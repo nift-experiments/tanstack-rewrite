@@ -1,0 +1,24 @@
+{
+  "upstream_pin": "862ccc3d191818320c3e6d217542883f80cb907a",
+  "reference_output_files": 1867,
+  "independent_reference_copy_byte_equal": true,
+  "route_patterns": 314,
+  "route_source_files": 322,
+  "maintained_inputs": 7601,
+  "render_candidates": 7528,
+  "roots": 25,
+  "nonempty_render_candidates": 7527,
+  "static_assets": 244,
+  "static_asset_bytes": 111985406,
+  "browser_reference_recapture": {
+    "states": 96,
+    "errors": 0,
+    "rich_tab_assertions": 8,
+    "candidate_parity": false,
+    "further_interactions": {
+      "assertions": 4,
+      "scope": "reference mobile menu, search Escape and desktop theme; full navigation/a11y/service contracts pending"
+    }
+  },
+  "core_changed": false
+}

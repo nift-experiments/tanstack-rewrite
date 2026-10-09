@@ -317,3 +317,11 @@ Prefer documented Nift behaviour and the existing project structure over guessin
 ## TanStack rewrite / R0
 
 This project intentionally replaces architecture while preserving exact observable TanStack.com design/behavior. Follow REWRITE.md and the user rewrite contract over the generic advice to keep an incumbent architecture. Upstream pin 862ccc3d191818320c3e6d217542883f80cb907a; independent rewrite repository; accepted migrations remain untouched. Nift 4.10.0 binary frozen outside the checkout with SHA in evidence/r0/initialization.json. R1 inventories routes, dynamic/session/service boundaries and freezes reference before any representative rewrite. Starter is not a parity result.
+
+## Rewrite campaign progress
+
+R0 is committed and pushed on `master` (`8bb2a68`). R1 now freezes the 314-pattern route inventory, 7,601 source identities and independent 1,867-file production output. The corrected representative reference capture has 96 states, zero browser errors and eight rich-tab assertions. Further interaction/service/session contracts remain pending, so this is not full reference or candidate certification.
+
+R2 proposal is `investigation/ARCHITECTURE.md`: authored/hybrid sources, Nift-owned article HTML outside scoped React roots, explicit request composition and independent backend build. R3 has only a three-real-document parser equivalence proof so far. Four pure pinned upstream files are retained; the independent parser build works with pinned dependencies. No full candidate parity or performance campaign yet. Continue through the representative proof before scaling; no real stop condition has been demonstrated.
+
+Reference server runs locally on 4121 with controlled external fixtures and an independent output copy under `../tanstack-rewrite-baseline`. All browser image/raw logs stay there. Do not write through the baseline's links to accepted migration fixtures. Nift core and accepted migration/Labs trees remain untouched.

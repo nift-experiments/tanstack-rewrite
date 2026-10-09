@@ -41,3 +41,7 @@ GATE: complete validation precedes profiling/optimization; full revalidation pre
 ## R0 accepted — initialized, not rewritten
 
 `nift init --rewrite` on frozen Nift 4.10.0 succeeds and builds the starter. Generated workbooks/method preserved verbatim in evidence/r0/generated-workflow with hashes. Original upstream pin unchanged. Starter output is placeholder and contributes no parity or benchmark evidence. R1 observable contract inventory and reference freeze are next. No core changes, no service deployment, no production credentials.
+
+## R1 in progress
+
+Inventory and independent output freeze complete; representative browser reference recapture in progress after correcting a sandbox-frame initializer defect. No candidate parity claimed. Authenticated/service, keyboard/search/navigation and fresh-session reference contracts remain to be recorded. R2 architecture and R3 representative implementation are pending; broad rebuilding remains gated.
