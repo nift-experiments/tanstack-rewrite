@@ -1,0 +1,8 @@
+.nift/.lock
+
+node_modules/
+.work/
+.toolchain/
+__pycache__/
+services/dist/
+frontend/dist/

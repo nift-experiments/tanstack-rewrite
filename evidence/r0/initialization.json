@@ -1,0 +1,22 @@
+{
+  "command": "nift init --rewrite",
+  "version": "Nift v4.10.0",
+  "binary_sha256": "e6f0100771e79ae5b79ab9f00662482de254f35309a13147b5b9d242ad0508f6",
+  "starter_build_success": true,
+  "generated_guidance_sha256": {
+    "AGENTS.md": "c55823c68eeb6e658924d0038906083fe1d0fec31db2a897a131d1760feaca54",
+    "REWRITE.md": "9b45b95b6411895ac4c1faec8ea727b8dc7d1e28a3c67ccd6925d1a0aa27ed55",
+    "HANDOVER.md": "bfa18c5c5b676e2887513d979ad2ca9b6c97367e3a7699ba6cd64e932b588709",
+    "README.md": "6c96c205e1f8236bf6be7d3184341a5b1252865589ba9e41a87122c3139a1da3",
+    "investigation/KNOWN-DIVERGENCES.md": "99cd7db5be089feb5906194494ff5316c784349e44e3fac9ccb079032ad38564",
+    "investigation/EXTERNAL-INPUTS.md": "37bfa7b66b40940d06b1e40f384e75e5add49f780f776f2e33f6df3be275e0de",
+    "investigation/BEHAVIOR-CONTRACT.md": "a501135c45cba8165758099568e76d7c02d9e250af5fe041865c2aeb04ef8f2a",
+    "investigation/README.md": "6204e0e087cdf7a259e65501f92d3324592403626bcf244ac65912b2c11f1554",
+    "investigation/DESIGN-CONTRACT.md": "42e6e43f381f967efd159f52d46c3744125c6d01b580622aa6036ae5baf2ae38",
+    "investigation/STATUS.md": "69a5062ae9b7f8714b041ea109a88709999d3a3a80ee1d349e3dbfcd26f4d3c5",
+    "investigation/REFERENCE.md": "c200d3bef3b0102257eff0f499c57d9627f24a0406049d678ca5d69eca987dfe",
+    "investigation/CONTENT-INVENTORY.md": "8fc7340ca0450840def4ac243c33a45cacb5f69d84be2b6317495db843c1d7b2"
+  },
+  "upstream_commit": "862ccc3d191818320c3e6d217542883f80cb907a",
+  "core_modified": false
+}
