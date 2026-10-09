@@ -1,0 +1,27 @@
+{
+  "upstream": "https://github.com/TanStack/tanstack.com",
+  "pin": "862ccc3d191818320c3e6d217542883f80cb907a",
+  "purpose": "Exact pure parser semantics; no Start application graph",
+  "files": [
+    {
+      "file": "src/utils/example-workspace.ts",
+      "bytes": 6609,
+      "sha256": "fa3889eb2b75973e82f85e8f663048d90dd1b4622e069e25853e3953b7d261d4"
+    },
+    {
+      "file": "src/utils/builder-environment.ts",
+      "bytes": 18806,
+      "sha256": "976487f8b1e09bd2a8b702d4dfe4cf90a06d75c90b9301ed744b7bcd05dab57c"
+    },
+    {
+      "file": "src/utils/markdown/live-example.ts",
+      "bytes": 6099,
+      "sha256": "bfe553eef6290c4041a161bc507bb3e9c9181aad385b2c306df0866cc166bace"
+    },
+    {
+      "file": "src/utils/markdown/processor.ts",
+      "bytes": 8028,
+      "sha256": "e0eb4c6b3fede39329b0bf711ca99743eb112916a7e6dae8482789d2b6a2f4f8"
+    }
+  ]
+}

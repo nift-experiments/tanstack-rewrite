@@ -1,0 +1,38 @@
+[
+  {
+    "repo": "tanstack/query",
+    "ref": "main",
+    "commit": "aab352876a01f76fd0e00b0b500a85907ec7c8b4",
+    "file": "docs/framework/react/overview.md",
+    "source": "sources/docs/tanstack--query--main/docs/framework/react/overview.md",
+    "render": true,
+    "request_time": false,
+    "original_sha256": "6b83435a4bba0e13061ad9529df35d5fc02d27d311b04474c68c6dc193ab204b",
+    "original_git_blob": "d65e33cbddc31efc357a376752f6544ab02088bf",
+    "rewrite_source": "sources/representative/tanstack--query--overview.md"
+  },
+  {
+    "repo": "tanstack/query",
+    "ref": "main",
+    "commit": "aab352876a01f76fd0e00b0b500a85907ec7c8b4",
+    "file": "docs/framework/react/comparison.md",
+    "source": "sources/docs/tanstack--query--main/docs/framework/react/comparison.md",
+    "render": true,
+    "request_time": false,
+    "original_sha256": "5037af0f815d5e76565b865183eb77f28983c4792966a76ca044415e3a1cbce5",
+    "original_git_blob": "1fe965bdc4dab778f633c313d17a5defe2702a95",
+    "rewrite_source": "sources/representative/tanstack--query--comparison.md"
+  },
+  {
+    "repo": "tanstack/router",
+    "ref": "main",
+    "commit": "17a3121ff494a481518d54732cdb939c7f61eb2c",
+    "file": "docs/start/framework/react/build-from-scratch.md",
+    "source": "sources/docs/tanstack--router--main/docs/start/framework/react/build-from-scratch.md",
+    "render": true,
+    "request_time": false,
+    "original_sha256": "4edc74f062f2c14af44ab130e18072ea90b2136d58230d0791cb32bf143e2aa3",
+    "original_git_blob": "a0a04f06d43aacb896cad6d57f0d90afe42c5d15",
+    "rewrite_source": "sources/representative/tanstack--router--build-from-scratch.md"
+  }
+]

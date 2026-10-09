@@ -45,3 +45,9 @@ GATE: complete validation precedes profiling/optimization; full revalidation pre
 ## R1 in progress
 
 Inventory and independent output freeze complete; representative browser reference recapture in progress after correcting a sandbox-frame initializer defect. No candidate parity claimed. Authenticated/service, keyboard/search/navigation and fresh-session reference contracts remain to be recorded. R2 architecture and R3 representative implementation are pending; broad rebuilding remains gated.
+
+## R2 design / R3 bounded proof in progress
+
+Architecture proposal recorded in ARCHITECTURE.md. Authored/hybrid maintained sources are selected; scope and output remain unchanged. This proposal is not a representative parity acceptance.
+
+Three real documents produce exactly the pinned parser AST with four pure upstream files and independent pinned dependencies. An isolated Nift raw-composition + scoped adapted upstream Tabs proof passes: literal syntax survives, rendered-file dependencies invalidate output, Home/End tab behavior works, article edits survive hydration and tab rerenders, and request seeds are fresh. This is technical boundary evidence only. Whole-page rendering, shell/navigation/search/Query/complex-island and service/session parity remain pending. Do not scale or benchmark yet.

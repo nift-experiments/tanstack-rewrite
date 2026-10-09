@@ -1,0 +1,11 @@
+{
+  "scope": "Isolated technical boundary with real authored document and adapted upstream Tabs; whole-site parity, original request shell and service contracts pending",
+  "raw_literal_preserved": true,
+  "real_tab_keyboard_home_end": true,
+  "hydration_pageerrors": [],
+  "article_survives_activation_and_tab_changes": true,
+  "changed_rendered_input_invalidates_nift_output": true,
+  "changed_article_survives_hydration": true,
+  "fresh_request_seed": true,
+  "backend_build_invoked_for_article_edit": false
+}

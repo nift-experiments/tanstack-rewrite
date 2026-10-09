@@ -1,0 +1,26 @@
+{
+  "scope": "Pure parser equivalence only; custom component rendering, browser ownership and full parity not yet proved",
+  "results": [
+    {
+      "file": "sources/representative/tanstack--query--overview.md",
+      "source_sha256": "6b83435a4bba0e13061ad9529df35d5fc02d27d311b04474c68c6dc193ab204b",
+      "exact_ast_equal": true,
+      "headings": 3,
+      "blocks": 18
+    },
+    {
+      "file": "sources/representative/tanstack--query--comparison.md",
+      "source_sha256": "5037af0f815d5e76565b865183eb77f28983c4792966a76ca044415e3a1cbce5",
+      "exact_ast_equal": true,
+      "headings": 1,
+      "blocks": 6
+    },
+    {
+      "file": "sources/representative/tanstack--router--build-from-scratch.md",
+      "source_sha256": "4edc74f062f2c14af44ab130e18072ea90b2136d58230d0791cb32bf143e2aa3",
+      "exact_ast_equal": true,
+      "headings": 7,
+      "blocks": 46
+    }
+  ]
+}

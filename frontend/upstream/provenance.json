@@ -1,0 +1,5 @@
+{
+  "pin": "862ccc3d191818320c3e6d217542883f80cb907a",
+  "adaptation": "Tabs receives framework route state explicitly instead of consulting a whole-application Router context; rendering, state and keyboard code unchanged",
+  "original_tabs_sha256": "133bd42a8a7382a78c89843276d33a06289fe3b92995f7dcd6c94f44e700ff1c"
+}
