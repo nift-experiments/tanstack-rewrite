@@ -16,7 +16,8 @@
     "proof:session": "node scripts/proof-session.mjs",
     "proof:auth": "node scripts/proof-auth.mjs",
     "proof:article:pixels": "node scripts/proof-article-pixels.mjs && python3 scripts/verify-article-pixels.py",
-    "proof:real-literal": "node scripts/proof-real-literal.mjs"
+    "proof:real-literal": "node scripts/proof-real-literal.mjs",
+    "proof:file-tabs": "node scripts/proof-file-tabs.mjs"
   },
   "dependencies": {
     "@phosphor-icons/react": "2.1.10",

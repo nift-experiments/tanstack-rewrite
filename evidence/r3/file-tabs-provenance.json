@@ -1,0 +1,7 @@
+{
+  "upstream_commit": "862ccc3d191818320c3e6d217542883f80cb907a",
+  "path": "src/components/markdown/FileTabs.tsx",
+  "sha256": "447d5611dcc54762d4b595e7d96cfbfb09ac88d57203ca6014aa426e2692b201",
+  "adaptations": [],
+  "scope": "Exact file-tab view; real document and browser parity proof pending"
+}

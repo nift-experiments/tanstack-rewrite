@@ -1,0 +1,12 @@
+{
+  "scope": "First real Form overview file-tab block; isolated DOM/controller proof, not full-page certification",
+  "source": "../tanstack/sources/docs/tanstack--form--main/docs/overview.md",
+  "source_sha256": "6d367e70b6f7a56f5563e2d239d0a4a53db05f9923d5ae080f9bb7cffd7defc7",
+  "excerpt_sha256": "493363b587937bebe4ce7c45488b87fbfac7ebd0c56281f5d7e1a926953c5f99",
+  "exact_dom": true,
+  "normalization": "Bijective React generated ID prefixes and CSSOM style serialization only",
+  "independent_groups": true,
+  "keyboard_home_end": true,
+  "literal_preserved": true,
+  "errors": []
+}
