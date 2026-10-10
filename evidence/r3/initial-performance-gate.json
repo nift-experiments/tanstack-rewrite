@@ -1,0 +1,290 @@
+{
+  "scope": "Incomplete interim decision campaign, before optimization; fresh/backend samples not run. Individual RSS is not aggregate tree RSS.",
+  "results": [
+    {
+      "scenario": "warm-full",
+      "samples": 3,
+      "elapsedSeconds": {
+        "median": 232.01,
+        "min": 204.08,
+        "max": 234.71
+      },
+      "maximumIndividualProcessPhaseRssMiB": {
+        "median": 5690.234375,
+        "min": 5690.0,
+        "max": 5691.94140625
+      },
+      "sampledDescendantRssMiB": {
+        "median": 5809.3203125,
+        "min": 5809.1796875,
+        "max": 5810.61328125
+      },
+      "niftExclusiveWallSeconds": {
+        "median": 89.723,
+        "min": 88.792,
+        "max": 95.511
+      },
+      "browserBundlingRan": [
+        true,
+        true,
+        true
+      ],
+      "backendBuildRan": [
+        true,
+        true,
+        true
+      ],
+      "peakProcesses": [
+        {
+          "pid": 3015135,
+          "rssKiB": 5828208,
+          "name": "nift",
+          "phase": "Nift build (may include producer children)",
+          "executable": "nift"
+        },
+        {
+          "pid": 3023165,
+          "rssKiB": 5828916,
+          "name": "nift",
+          "phase": "Nift build (may include producer children)",
+          "executable": "nift"
+        },
+        {
+          "pid": 3025487,
+          "rssKiB": 5830272,
+          "name": "nift",
+          "phase": "Nift build (may include producer children)",
+          "executable": "nift"
+        }
+      ]
+    },
+    {
+      "scenario": "unchanged",
+      "samples": 3,
+      "elapsedSeconds": {
+        "median": 5.79,
+        "min": 5.69,
+        "max": 5.81
+      },
+      "maximumIndividualProcessPhaseRssMiB": {
+        "median": 114.01171875,
+        "min": 113.76171875,
+        "max": 114.58984375
+      },
+      "sampledDescendantRssMiB": {
+        "median": 167.37109375,
+        "min": 167.140625,
+        "max": 173.84375
+      },
+      "niftExclusiveWallSeconds": {
+        "median": 2.803,
+        "min": 2.754,
+        "max": 2.945
+      },
+      "browserBundlingRan": [
+        false,
+        false,
+        false
+      ],
+      "backendBuildRan": [
+        false,
+        false,
+        false
+      ],
+      "peakProcesses": [
+        {
+          "pid": 3026868,
+          "rssKiB": 118564,
+          "name": "node-MainThread",
+          "phase": "orchestration",
+          "executable": "node"
+        },
+        {
+          "pid": 3026942,
+          "rssKiB": 118528,
+          "name": "node-MainThread",
+          "phase": "orchestration",
+          "executable": "node"
+        },
+        {
+          "pid": 3027021,
+          "rssKiB": 118316,
+          "name": "node-MainThread",
+          "phase": "orchestration",
+          "executable": "node"
+        }
+      ]
+    },
+    {
+      "scenario": "docs-edit",
+      "samples": 3,
+      "elapsedSeconds": {
+        "median": 63.4,
+        "min": 61.31,
+        "max": 89.55
+      },
+      "maximumIndividualProcessPhaseRssMiB": {
+        "median": 1602.82421875,
+        "min": 1577.5078125,
+        "max": 1622.85546875
+      },
+      "sampledDescendantRssMiB": {
+        "median": 1784.09375,
+        "min": 1748.140625,
+        "max": 1805.06640625
+      },
+      "niftExclusiveWallSeconds": {
+        "median": 3.361,
+        "min": 3.271,
+        "max": 3.589
+      },
+      "browserBundlingRan": [
+        false,
+        false,
+        false
+      ],
+      "backendBuildRan": [
+        false,
+        false,
+        false
+      ],
+      "peakProcesses": [
+        {
+          "pid": 3027131,
+          "rssKiB": 1602012,
+          "name": "node-MainThread",
+          "phase": "corpus preparation",
+          "executable": "node"
+        },
+        {
+          "pid": 3027535,
+          "rssKiB": 1658392,
+          "name": "node-MainThread",
+          "phase": "corpus preparation",
+          "executable": "node"
+        },
+        {
+          "pid": 3027890,
+          "rssKiB": 1636240,
+          "name": "node-MainThread",
+          "phase": "corpus preparation",
+          "executable": "node"
+        }
+      ]
+    },
+    {
+      "scenario": "shared-layout",
+      "samples": 3,
+      "elapsedSeconds": {
+        "median": 73.43,
+        "min": 61.77,
+        "max": 75.71
+      },
+      "maximumIndividualProcessPhaseRssMiB": {
+        "median": 5425.64453125,
+        "min": 5423.50390625,
+        "max": 5425.99609375
+      },
+      "sampledDescendantRssMiB": {
+        "median": 5551.74609375,
+        "min": 5549.7421875,
+        "max": 5552.27734375
+      },
+      "niftExclusiveWallSeconds": {
+        "median": 70.469,
+        "min": 59.101,
+        "max": 72.503
+      },
+      "browserBundlingRan": [
+        false,
+        false,
+        false
+      ],
+      "backendBuildRan": [
+        false,
+        false,
+        false
+      ],
+      "peakProcesses": [
+        {
+          "pid": 3028625,
+          "rssKiB": 5557844,
+          "name": "nift",
+          "phase": "Nift build (individual native process)",
+          "executable": "nift"
+        },
+        {
+          "pid": 3029165,
+          "rssKiB": 5555552,
+          "name": "nift",
+          "phase": "Nift build (individual native process)",
+          "executable": "nift"
+        },
+        {
+          "pid": 3029990,
+          "rssKiB": 5557556,
+          "name": "nift",
+          "phase": "Nift build (individual native process)",
+          "executable": "nift"
+        }
+      ]
+    },
+    {
+      "scenario": "frontend-edit",
+      "samples": 3,
+      "elapsedSeconds": {
+        "median": 482.51,
+        "min": 478.06,
+        "max": 494.58
+      },
+      "maximumIndividualProcessPhaseRssMiB": {
+        "median": 5448.69140625,
+        "min": 5446.84375,
+        "max": 5449.87109375
+      },
+      "sampledDescendantRssMiB": {
+        "median": 5568.625,
+        "min": 5566.68359375,
+        "max": 5569.53125
+      },
+      "niftExclusiveWallSeconds": {
+        "median": 82.795,
+        "min": 80.321,
+        "max": 83.613
+      },
+      "browserBundlingRan": [
+        true,
+        true,
+        true
+      ],
+      "backendBuildRan": [
+        false,
+        false,
+        false
+      ],
+      "peakProcesses": [
+        {
+          "pid": 3034572,
+          "rssKiB": 5580132,
+          "name": "nift",
+          "phase": "Nift build (individual native process)",
+          "executable": "nift"
+        },
+        {
+          "pid": 3038433,
+          "rssKiB": 5583004,
+          "name": "nift",
+          "phase": "Nift build (individual native process)",
+          "executable": "nift"
+        },
+        {
+          "pid": 3042594,
+          "rssKiB": 5581968,
+          "name": "nift",
+          "phase": "Nift build (individual native process)",
+          "executable": "nift"
+        }
+      ]
+    }
+  ]
+}
