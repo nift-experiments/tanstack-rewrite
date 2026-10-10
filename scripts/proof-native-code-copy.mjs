@@ -3,7 +3,7 @@ import path from 'node:path'
 import http from 'node:http'
 import assert from 'node:assert/strict'
 import {createRequire} from 'node:module'
-const require=createRequire(path.resolve('../tanstack/runtime/package.json'))
+const require=createRequire(path.resolve('package.json'))
 const {build}=require('esbuild')
 await build({stdin:{contents:`import {installCodeCopy} from './frontend/publication/code-copy';window.copies=[];window.toasts=[];window.stopCopy=installCodeCopy(document.querySelector('main'),async text=>window.copies.push(text),(content,options)=>window.toasts.push(options.id));document.documentElement.dataset.ready='true'`,resolveDir:process.cwd(),loader:'tsx'},outfile:'.work/native-code-copy.js',bundle:true,platform:'browser',format:'esm',alias:{react:require.resolve('react')}})
 const {renderDocument}=await import('../.work/render-document.mjs')

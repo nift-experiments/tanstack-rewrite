@@ -3,7 +3,7 @@ import path from 'node:path'
 import assert from 'node:assert/strict'
 import {createHash} from 'node:crypto'
 import {createRequire} from 'node:module'
-const runtimeRequire=createRequire(path.resolve('../tanstack/runtime/package.json'))
+const runtimeRequire=createRequire(path.resolve('package.json'))
 import {build} from 'esbuild'
 await build({entryPoints:['publisher/project-posts.ts'],outfile:'.work/project-posts.mjs',bundle:true,platform:'node',format:'esm',packages:'external',banner:{js:"import {createRequire} from 'node:module';const require=createRequire(import.meta.url);"},alias:{yaml:runtimeRequire.resolve('yaml')}})
 const {projectPosts}=await import('../.work/project-posts.mjs')

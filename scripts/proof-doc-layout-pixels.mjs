@@ -2,7 +2,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 import assert from 'node:assert/strict'
 import {createRequire} from 'node:module'
-const require=createRequire(path.resolve('../tanstack/runtime/package.json'))
+const require=createRequire(path.resolve('package.json'))
 const {transformSync}=require('esbuild')
 const feedbackCode=transformSync(fs.readFileSync('frontend/retained/src/utils/docFeedback.ts','utf8'),{loader:'ts',format:'esm'}).code.replace(/^import .*?;$/gm,'').replace(/export \{[\s\S]*?\};/g,'')
 const inspectFeedback=new Function(feedbackCode+';return findReferenceableBlocks(document.querySelector(".styled-markdown-content > .relative")).map(element=>({selector:generateBlockSelector(element),text:element.textContent.trim()}))').toString()

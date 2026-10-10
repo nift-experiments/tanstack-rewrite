@@ -1,5 +1,5 @@
 import fs from 'node:fs';import path from 'node:path';import {createRequire} from 'node:module';import assert from 'node:assert/strict';import {createHash} from 'node:crypto';
-const req=createRequire(path.resolve('../tanstack/runtime/package.json')),{Miniflare,convertV4MiniflareOptions}=req('miniflare');
+const req=createRequire(path.resolve('package.json')),{Miniflare,convertV4MiniflareOptions}=req('miniflare');
 process.env.SESSION_SECRET=fs.readFileSync('.work/local-session-secret','utf8');
 const nodeApi=(await import('../.work/full-api-prototype/dist/server/index.js')).default;
 const runtime=new Miniflare(convertV4MiniflareOptions({modules:true,script:fs.readFileSync('.work/worker-runtime/entry.js','utf8'),compatibilityDate:'2026-06-19',compatibilityFlags:['nodejs_compat'],bindings:{SESSION_SECRET:process.env.SESSION_SECRET},cf:false,host:'127.0.0.1',port:0,inspectorPort:0,durableObjects:{STREAMS:{className:'StreamObject',useSQLite:true},WORKSPACE_SYNC:{className:'WorkspaceSync',useSQLite:true},CONVERSATIONS:{className:'Conversation',useSQLite:true}},isolatedResourcePersistencePath:'.work/runtime-state/protocol/durable-objects',resourcePersistencePath:'.work/runtime-state/protocol/shared'}));

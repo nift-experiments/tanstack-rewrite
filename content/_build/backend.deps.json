@@ -3,9 +3,19 @@
     "services/backend/",
     "services/full-api-proof/",
     "scripts/probe-full-api-build.mjs",
-    "public/_build/posts.json"
+    "public/_build/posts.json",
+    "package.json",
+    "pnpm-lock.yaml",
+    "pnpm-workspace.yaml",
+    "patches/"
   ],
   "dependencies": [
+    "package.json",
+    "patches/",
+    "patches/@tanstack__openai-base@0.10.11.patch",
+    "patches/postgres@3.4.8.patch",
+    "pnpm-lock.yaml",
+    "pnpm-workspace.yaml",
     "public/_build/posts.json",
     "scripts/probe-full-api-build.mjs",
     "scripts/refresh-build-dependencies.mjs",

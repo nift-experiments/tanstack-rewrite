@@ -1,0 +1,6 @@
+{
+  "scope": "Explicit isolated local fixture only; final maintained Drizzle schema plus retained final SQL function/trigger definitions. No production database or publication-driven DDL.",
+  "functions": 15,
+  "triggers": 26,
+  "originalFunctionDeclarations": 18
+}

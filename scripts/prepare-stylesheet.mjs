@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {createRequire} from 'node:module';
-const req=createRequire(path.resolve('../tanstack/runtime/package.json'));
+const req=createRequire(path.resolve('package.json'));
 const postcss=req('postcss'),parseValue=req('postcss-value-parser');
 
 function projectStylesheet(file,name,tracked,write){
@@ -32,7 +32,7 @@ function projectStylesheet(file,name,tracked,write){
 export function prepareStylesheet(tracked,write){
  let checkedReferences=projectStylesheet('sources/styles/site.css','assets/site',tracked,write);
  const generated=new Map();
- for(const root of ['.work/shell-prototype/dist/client','.work/publication-ssr']){
+ for(const root of ['.work/shell-prototype/dist/client','.work/publication-ssr','.work/publication-preparation-ssr']){
   for(const directory of ['assets','static']){
    if(!fs.existsSync(root+'/'+directory))continue;
    for(const file of fs.readdirSync(root+'/'+directory,{recursive:true})){

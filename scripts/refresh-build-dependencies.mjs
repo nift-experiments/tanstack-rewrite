@@ -4,7 +4,7 @@ import fs from 'node:fs';import path from 'node:path';
 export function refreshBuildDependencies(){
  for(const action of ['frontend','preparation','backend','posts','worker']){
   const filename='content/_build/'+action+'.deps.json',previous=JSON.parse(fs.readFileSync(filename,'utf8')),roots=previous.inputRoots??previous.dependencies,dependencies=new Set(['scripts/refresh-build-dependencies.mjs']);
-  function visit(filename){const stat=fs.lstatSync(filename);if(stat.isSymbolicLink())throw Error('Build input root contains symlink: '+filename);dependencies.add(filename.replaceAll(path.sep,'/'));if(stat.isDirectory())for(const entry of fs.readdirSync(filename).sort())visit(path.join(filename,entry))}
+  function visit(filename){if(!fs.existsSync(filename)&&['public/_build/frontend.json','public/_build/posts.json','public/_build/backend.json'].includes(filename)){dependencies.add(filename);return;}const stat=fs.lstatSync(filename);if(stat.isSymbolicLink())throw Error('Build input root contains symlink: '+filename);dependencies.add(filename.replaceAll(path.sep,'/'));if(stat.isDirectory())for(const entry of fs.readdirSync(filename).sort())visit(path.join(filename,entry))}
   for(const root of roots)visit(root);
   const next=JSON.stringify({inputRoots:roots,dependencies:[...dependencies].sort()},null,2)+'\n';if(fs.readFileSync(filename,'utf8')!==next)fs.writeFileSync(filename,next);
  }

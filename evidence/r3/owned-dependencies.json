@@ -1,0 +1,621 @@
+{
+  "scope": "Direct locked package versions and actual normal browser, request/preparation SSR, Node API and Worker compiler graphs. Clean-checkout and full runtime acceptance are separate gates.",
+  "packageManager": "pnpm@11.1.0",
+  "packages": [
+    {
+      "name": "@ag-ui/core",
+      "version": "0.1.1-canary.beta.0"
+    },
+    {
+      "name": "@babel/core",
+      "version": "7.20.12"
+    },
+    {
+      "name": "@babel/generator",
+      "version": "7.20.14"
+    },
+    {
+      "name": "@babel/parser",
+      "version": "7.29.9"
+    },
+    {
+      "name": "@babel/traverse",
+      "version": "7.20.13"
+    },
+    {
+      "name": "@babel/types",
+      "version": "7.29.8"
+    },
+    {
+      "name": "@base-ui/react",
+      "version": "1.8.0"
+    },
+    {
+      "name": "@cfworker/json-schema",
+      "version": "4.1.1"
+    },
+    {
+      "name": "@cloudflare/workers-types",
+      "version": "5.20261001.1"
+    },
+    {
+      "name": "@codemirror/lang-css",
+      "version": "6.3.1"
+    },
+    {
+      "name": "@codemirror/lang-html",
+      "version": "6.4.12"
+    },
+    {
+      "name": "@codemirror/lang-javascript",
+      "version": "6.2.5"
+    },
+    {
+      "name": "@codemirror/lang-json",
+      "version": "6.0.2"
+    },
+    {
+      "name": "@codemirror/language",
+      "version": "6.12.4"
+    },
+    {
+      "name": "@codemirror/state",
+      "version": "6.7.1"
+    },
+    {
+      "name": "@dnd-kit/dom",
+      "version": "0.5.0"
+    },
+    {
+      "name": "@dnd-kit/react",
+      "version": "0.5.0"
+    },
+    {
+      "name": "@durable-streams/client",
+      "version": "0.2.7"
+    },
+    {
+      "name": "@durable-streams/server-cloudflare",
+      "version": "0.1.1"
+    },
+    {
+      "name": "@durable-streams/tanstack-ai-transport",
+      "version": "0.0.10"
+    },
+    {
+      "name": "@fingerprintjs/fingerprintjs-pro-react",
+      "version": "2.7.1"
+    },
+    {
+      "name": "@floating-ui/react",
+      "version": "0.27.19"
+    },
+    {
+      "name": "@js-temporal/polyfill",
+      "version": "0.5.1"
+    },
+    {
+      "name": "@lezer/highlight",
+      "version": "1.2.3"
+    },
+    {
+      "name": "@modelcontextprotocol/sdk",
+      "version": "1.31.0"
+    },
+    {
+      "name": "@octokit/graphql",
+      "version": "9.0.3"
+    },
+    {
+      "name": "@phosphor-icons/react",
+      "version": "2.1.10"
+    },
+    {
+      "name": "@radix-ui/react-dialog",
+      "version": "1.1.15"
+    },
+    {
+      "name": "@radix-ui/react-dropdown-menu",
+      "version": "2.1.16"
+    },
+    {
+      "name": "@radix-ui/react-tooltip",
+      "version": "1.2.8"
+    },
+    {
+      "name": "@react-three/drei",
+      "version": "10.7.7"
+    },
+    {
+      "name": "@react-three/fiber",
+      "version": "9.5.0"
+    },
+    {
+      "name": "@rsbuild/core",
+      "version": "2.2.12"
+    },
+    {
+      "name": "@rsbuild/plugin-react",
+      "version": "2.1.1"
+    },
+    {
+      "name": "@sentry/browser",
+      "version": "10.47.0"
+    },
+    {
+      "name": "@sentry/node",
+      "version": "10.47.0"
+    },
+    {
+      "name": "@sentry/tanstackstart-react",
+      "version": "10.47.0"
+    },
+    {
+      "name": "@shopify/hydrogen-react",
+      "version": "2026.4.0"
+    },
+    {
+      "name": "@tailwindcss/postcss",
+      "version": "4.2.2"
+    },
+    {
+      "name": "@tailwindcss/typography",
+      "version": "0.5.19"
+    },
+    {
+      "name": "@tailwindcss/vite",
+      "version": "4.3.0"
+    },
+    {
+      "name": "@tanstack/ai",
+      "version": "0.58.0"
+    },
+    {
+      "name": "@tanstack/ai-anthropic",
+      "version": "0.18.6"
+    },
+    {
+      "name": "@tanstack/ai-client",
+      "version": "0.31.1"
+    },
+    {
+      "name": "@tanstack/ai-cloudflare",
+      "version": "0.1.5"
+    },
+    {
+      "name": "@tanstack/ai-gemini",
+      "version": "0.31.2"
+    },
+    {
+      "name": "@tanstack/ai-grok",
+      "version": "0.18.10"
+    },
+    {
+      "name": "@tanstack/ai-groq",
+      "version": "0.7.9"
+    },
+    {
+      "name": "@tanstack/ai-openai",
+      "version": "0.22.6"
+    },
+    {
+      "name": "@tanstack/ai-openrouter",
+      "version": "0.19.9"
+    },
+    {
+      "name": "@tanstack/ai-react",
+      "version": "0.27.3"
+    },
+    {
+      "name": "@tanstack/ai-typesafe",
+      "version": "0.1.1"
+    },
+    {
+      "name": "@tanstack/ai-vercel-gateway",
+      "version": "0.2.16"
+    },
+    {
+      "name": "@tanstack/charts",
+      "version": "1.0.0"
+    },
+    {
+      "name": "@tanstack/create",
+      "version": "0.70.1"
+    },
+    {
+      "name": "@tanstack/highlight",
+      "version": "1.0.0"
+    },
+    {
+      "name": "@tanstack/markdown",
+      "version": "1.0.0"
+    },
+    {
+      "name": "@tanstack/pacer",
+      "version": "0.21.1"
+    },
+    {
+      "name": "@tanstack/react-db",
+      "version": "0.4.1"
+    },
+    {
+      "name": "@tanstack/react-hotkeys",
+      "version": "0.10.0"
+    },
+    {
+      "name": "@tanstack/react-pacer",
+      "version": "0.22.1"
+    },
+    {
+      "name": "@tanstack/react-query",
+      "version": "5.102.8"
+    },
+    {
+      "name": "@tanstack/react-router",
+      "version": "1.170.41"
+    },
+    {
+      "name": "@tanstack/react-router-devtools",
+      "version": "1.167.1"
+    },
+    {
+      "name": "@tanstack/react-router-ssr-query",
+      "version": "1.167.2"
+    },
+    {
+      "name": "@tanstack/react-start",
+      "version": "1.168.60"
+    },
+    {
+      "name": "@tanstack/react-start-client",
+      "version": "1.168.39"
+    },
+    {
+      "name": "@tanstack/react-table",
+      "version": "9.0.0"
+    },
+    {
+      "name": "@tanstack/react-virtual",
+      "version": "3.14.9"
+    },
+    {
+      "name": "@tanstack/workflow-core",
+      "version": "0.0.4"
+    },
+    {
+      "name": "@tanstack/workflow-runtime",
+      "version": "0.0.3"
+    },
+    {
+      "name": "@tanstack/workflow-store-drizzle-postgres",
+      "version": "0.0.5"
+    },
+    {
+      "name": "@types/d3",
+      "version": "7.4.3"
+    },
+    {
+      "name": "@types/node",
+      "version": "25.5.0"
+    },
+    {
+      "name": "@types/react",
+      "version": "19.2.14"
+    },
+    {
+      "name": "@types/react-dom",
+      "version": "19.2.3"
+    },
+    {
+      "name": "@uploadthing/react",
+      "version": "7.3.3"
+    },
+    {
+      "name": "@vitejs/plugin-react",
+      "version": "6.0.1"
+    },
+    {
+      "name": "@webcontainer/api",
+      "version": "1.6.1"
+    },
+    {
+      "name": "@xstate/react",
+      "version": "6.1.0"
+    },
+    {
+      "name": "@xterm/addon-fit",
+      "version": "0.10.0"
+    },
+    {
+      "name": "@xterm/xterm",
+      "version": "5.5.0"
+    },
+    {
+      "name": "algoliasearch",
+      "version": "5.50.0"
+    },
+    {
+      "name": "cheerio",
+      "version": "1.2.0"
+    },
+    {
+      "name": "cmdk",
+      "version": "1.1.1"
+    },
+    {
+      "name": "codemirror",
+      "version": "6.0.2"
+    },
+    {
+      "name": "d3",
+      "version": "7.9.0"
+    },
+    {
+      "name": "d3-interpolate",
+      "version": "3.0.1"
+    },
+    {
+      "name": "d3-scale",
+      "version": "4.0.2"
+    },
+    {
+      "name": "d3-shape",
+      "version": "3.2.0"
+    },
+    {
+      "name": "diff",
+      "version": "8.0.4"
+    },
+    {
+      "name": "discord-interactions",
+      "version": "4.4.0"
+    },
+    {
+      "name": "drizzle-kit",
+      "version": "0.31.10"
+    },
+    {
+      "name": "drizzle-orm",
+      "version": "0.45.2"
+    },
+    {
+      "name": "encoding-sniffer",
+      "version": "0.2.1"
+    },
+    {
+      "name": "esbuild",
+      "version": "0.27.4"
+    },
+    {
+      "name": "esbuild-wasm",
+      "version": "0.27.4"
+    },
+    {
+      "name": "fflate",
+      "version": "0.8.3"
+    },
+    {
+      "name": "figma-squircle",
+      "version": "1.1.0"
+    },
+    {
+      "name": "gifenc",
+      "version": "1.0.3"
+    },
+    {
+      "name": "gray-matter",
+      "version": "4.0.3"
+    },
+    {
+      "name": "iconv-lite",
+      "version": "0.7.2"
+    },
+    {
+      "name": "jose",
+      "version": "6.2.12"
+    },
+    {
+      "name": "jsonc-parser",
+      "version": "3.3.1"
+    },
+    {
+      "name": "jszip",
+      "version": "3.10.1"
+    },
+    {
+      "name": "linkify-it",
+      "version": "6.1.0"
+    },
+    {
+      "name": "lru-cache",
+      "version": "11.2.7"
+    },
+    {
+      "name": "lucide-react",
+      "version": "1.49.0"
+    },
+    {
+      "name": "maath",
+      "version": "0.10.8"
+    },
+    {
+      "name": "match-sorter",
+      "version": "8.3.0"
+    },
+    {
+      "name": "mermaid",
+      "version": "11.14.0"
+    },
+    {
+      "name": "miniflare",
+      "version": "5.20260921.0-alpha"
+    },
+    {
+      "name": "motion",
+      "version": "13.4.6"
+    },
+    {
+      "name": "octane",
+      "version": "0.1.13"
+    },
+    {
+      "name": "parse5",
+      "version": "7.3.0"
+    },
+    {
+      "name": "parse5-parser-stream",
+      "version": "7.1.2"
+    },
+    {
+      "name": "postcss",
+      "version": "8.5.8"
+    },
+    {
+      "name": "postcss-value-parser",
+      "version": "4.2.0"
+    },
+    {
+      "name": "postgres",
+      "version": "3.4.8"
+    },
+    {
+      "name": "react",
+      "version": "19.2.3"
+    },
+    {
+      "name": "react-colorful",
+      "version": "5.6.1"
+    },
+    {
+      "name": "react-dom",
+      "version": "19.2.3"
+    },
+    {
+      "name": "react-easy-crop",
+      "version": "5.5.7"
+    },
+    {
+      "name": "react-instantsearch",
+      "version": "7.29.0"
+    },
+    {
+      "name": "remove-markdown",
+      "version": "0.6.3"
+    },
+    {
+      "name": "resend",
+      "version": "6.10.0"
+    },
+    {
+      "name": "seroval",
+      "version": "1.5.4"
+    },
+    {
+      "name": "sharp",
+      "version": "0.34.5"
+    },
+    {
+      "name": "sonner",
+      "version": "2.0.7"
+    },
+    {
+      "name": "tailwind-merge",
+      "version": "3.5.0"
+    },
+    {
+      "name": "tailwindcss",
+      "version": "4.2.2"
+    },
+    {
+      "name": "takumi-js",
+      "version": "2.5.4"
+    },
+    {
+      "name": "tar-stream",
+      "version": "3.1.8"
+    },
+    {
+      "name": "three",
+      "version": "0.183.2"
+    },
+    {
+      "name": "troika-three-text",
+      "version": "0.52.4"
+    },
+    {
+      "name": "tsx",
+      "version": "4.21.0"
+    },
+    {
+      "name": "tw-fade",
+      "version": "0.8.0"
+    },
+    {
+      "name": "typescript",
+      "version": "6.0.2"
+    },
+    {
+      "name": "uploadthing",
+      "version": "7.7.4"
+    },
+    {
+      "name": "valibot",
+      "version": "1.3.1"
+    },
+    {
+      "name": "vite-bundle-analyzer",
+      "version": "1.3.6"
+    },
+    {
+      "name": "wrangler",
+      "version": "4.147.0"
+    },
+    {
+      "name": "ws",
+      "version": "8.19.0"
+    },
+    {
+      "name": "xstate",
+      "version": "5.30.0"
+    },
+    {
+      "name": "yaml",
+      "version": "2.9.0"
+    },
+    {
+      "name": "zod",
+      "version": "4.3.6"
+    },
+    {
+      "name": "zustand",
+      "version": "5.0.12"
+    }
+  ],
+  "graphs": [
+    {
+      "filename": "shell-module-manifests/client.json",
+      "moduleIdentifiers": 9039,
+      "sha256": "00ec514df3116fab139294cc49dd7ce4bf81400164be6c65c45db5f1f6ac6e7a"
+    },
+    {
+      "filename": "ssr-module-manifests/publication.json",
+      "moduleIdentifiers": 6996,
+      "sha256": "8d9a95ece4abcba13b6a2793f6307ce9c1f83f723c46541d6ba0d77a3a23cf0d"
+    },
+    {
+      "filename": "ssr-module-manifests/preparation.json",
+      "moduleIdentifiers": 2742,
+      "sha256": "77f45a7aba7ea13fe7962aed1738d9c87687eda847384927e4a2cfc98f89166f"
+    },
+    {
+      "filename": "full-api-module-manifests/ssr.json",
+      "moduleIdentifiers": 6656,
+      "sha256": "70f270c6f47f04d37081113c082506ea2e3a53181f813e21c55c3101d7366445"
+    },
+    {
+      "filename": "full-api-module-manifests/worker-ssr.json",
+      "moduleIdentifiers": 6672,
+      "sha256": "6179526f9b26d963b46823398ef5372f1a17cbc1b8ffc47339758ff03ff87125"
+    }
+  ]
+}

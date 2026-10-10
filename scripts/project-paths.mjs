@@ -1,5 +1,5 @@
 import fs from 'node:fs';import path from 'node:path';import {createRequire} from 'node:module';
-const {parseFragment}=createRequire(path.resolve('../tanstack/runtime/package.json'))('parse5');
+const {parseFragment}=createRequire(path.resolve('package.json'))('parse5');
 // Nift resolves and checks every implemented page/asset identity. The local
 // request-time shell consumes this derived map; it does not guess geometry.
 export function prepareProjectPaths(routes,tracked,write){

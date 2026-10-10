@@ -3,7 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {createRequire} from 'node:module';
 import {createHash} from 'node:crypto';
-const parser=createRequire(path.resolve('../tanstack/runtime/package.json'))('@babel/parser');
+const parser=createRequire(path.resolve('package.json'))('@babel/parser');
 const upstream=path.resolve('../tanstack-upstream/src');
 const destination=path.resolve('frontend/application/views');
 const inventory=JSON.parse(fs.readFileSync('.work/special-family-stage/route-adaptation-inventory.json'));

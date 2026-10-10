@@ -1,0 +1,32 @@
+{
+  "scope": "Normal preview HTTP, real PostgreSQL triggers, actual WorkspaceSync/StreamObject classes, signed identity, mutation and replay/delta contracts. Local fixture; chat turns, models and full workflow parity remain separate.",
+  "steps": [
+    {
+      "operation": "actual-durable-snapshot",
+      "status": 200
+    },
+    {
+      "operation": "actual-durable-stream-replay",
+      "status": 200,
+      "schemaValid": true
+    },
+    {
+      "operation": "original-section-mutation",
+      "status": 200
+    },
+    {
+      "operation": "sql-trigger-to-durable-projection",
+      "status": 200,
+      "versionAdvanced": true
+    },
+    {
+      "operation": "incremental-stream-delta",
+      "status": 200,
+      "schemaValid": true
+    },
+    {
+      "operation": "anonymous-denied",
+      "status": 401
+    }
+  ]
+}

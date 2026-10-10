@@ -2,9 +2,19 @@
   "inputRoots": [
     "sources/site/blog/",
     "publisher/project-posts.ts",
-    "scripts/prepare-posts.mjs"
+    "scripts/prepare-posts.mjs",
+    "package.json",
+    "pnpm-lock.yaml",
+    "pnpm-workspace.yaml",
+    "patches/"
   ],
   "dependencies": [
+    "package.json",
+    "patches/",
+    "patches/@tanstack__openai-base@0.10.11.patch",
+    "patches/postgres@3.4.8.patch",
+    "pnpm-lock.yaml",
+    "pnpm-workspace.yaml",
     "publisher/project-posts.ts",
     "scripts/prepare-posts.mjs",
     "scripts/refresh-build-dependencies.mjs",

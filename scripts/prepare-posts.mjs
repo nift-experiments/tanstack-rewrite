@@ -1,5 +1,5 @@
 import fs from 'node:fs';import path from 'node:path';import {createRequire} from 'node:module';import {build} from 'esbuild';
-const req=createRequire(path.resolve('../tanstack/runtime/package.json'));
+const req=createRequire(path.resolve('package.json'));
 await build({entryPoints:['publisher/project-posts.ts'],outfile:'.work/project-posts.mjs',bundle:true,platform:'node',format:'esm',packages:'external',banner:{js:"import {createRequire} from 'node:module';const require=createRequire(import.meta.url);"},alias:{yaml:req.resolve('yaml')}});
 const {projectPosts}=await import('../.work/project-posts.mjs');const output='export const allPosts='+JSON.stringify(projectPosts('sources/site/blog'))+';\n';if(!fs.existsSync('.work/backend-post-projection.mjs')||fs.readFileSync('.work/backend-post-projection.mjs','utf8')!==output)fs.writeFileSync('.work/backend-post-projection.mjs',output);
 fs.mkdirSync('public/_build',{recursive:true});const receipt=JSON.stringify({posts:projectPosts('sources/site/blog').length,projectionBytes:Buffer.byteLength(output)});if(!fs.existsSync('public/_build/posts.json')||fs.readFileSync('public/_build/posts.json','utf8')!==receipt)fs.writeFileSync('public/_build/posts.json',receipt);

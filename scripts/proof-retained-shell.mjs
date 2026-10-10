@@ -69,7 +69,7 @@ if (layoutProof) {
   const {
       parseSiteMarkdown
     } = await import('../.work/parser.mjs'),
-    runtimeRequire = createRequire(path.resolve('../tanstack/runtime/package.json')),
+    runtimeRequire = createRequire(path.resolve('package.json')),
     {
       parse
     } = runtimeRequire('yaml'),

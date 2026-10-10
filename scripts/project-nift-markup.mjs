@@ -1,5 +1,5 @@
 import fs from 'node:fs';import path from 'node:path';import {createRequire} from 'node:module';
-const {parseFragment}=createRequire(path.resolve('../tanstack/runtime/package.json'))('parse5');
+const {parseFragment}=createRequire(path.resolve('package.json'))('parse5');
 // Source offsets keep literal HTML/code bytes intact. Only actual URL attributes
 // become Nift expressions. Literal chunks are JSON values, never Nift source.
 export function projectNiftMarkup(html,pathname,routes,dataFile,binding="parts"){

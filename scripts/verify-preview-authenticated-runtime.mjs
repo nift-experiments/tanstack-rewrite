@@ -9,7 +9,7 @@ import {build} from 'esbuild';
 // removed. No production credentials or mock application responses are used.
 const databaseUrl=process.env.TANSTACK_FIXTURE_DATABASE_URL;
 if(!databaseUrl||!['127.0.0.1','localhost'].includes(new URL(databaseUrl).hostname))throw Error('Set TANSTACK_FIXTURE_DATABASE_URL to the isolated local fixture database');
-const requireRuntime=createRequire(path.resolve('../tanstack/runtime/package.json')),postgres=requireRuntime('postgres');
+const requireRuntime=createRequire(path.resolve('package.json')),postgres=requireRuntime('postgres');
 await build({entryPoints:['services/backend/src/auth/session.server.ts'],outfile:'.work/preview-session-test.mjs',bundle:true,platform:'node',format:'esm',packages:'external'});
 const {SessionService}=await import('../.work/preview-session-test.mjs');
 const sql=postgres(databaseUrl,{max:1}),userId=randomUUID(),secret=fs.readFileSync('.work/local-session-secret','utf8'),origin=process.env.TANSTACK_CANDIDATE_ORIGIN??'http://127.0.0.1:4173';

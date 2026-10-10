@@ -1,0 +1,19 @@
+{
+  "scope": "Independent deep-copied source with frozen installation and native build; successful recovery after two failed bootstrap attempts. Not the final pristine clean-checkout acceptance or benchmark.",
+  "frozenInstall": {
+    "success": true,
+    "logLocation": "ignored .work/owned-clean-install.log"
+  },
+  "nativePublication": {
+    "success": true,
+    "affectedOutputs": 28629,
+    "wholeCommandSeconds": 209.34,
+    "maxIndividualProcessRssKiB": 5832868,
+    "measurement": "single integration diagnostic /usr/bin/time -v; no sampled process-tree claim"
+  },
+  "correctedDefects": [
+    "generated landing metadata imported before corpus producer",
+    "missing producer output incorrectly required before native DAG execution"
+  ],
+  "finalCleanCheckoutRequired": true
+}

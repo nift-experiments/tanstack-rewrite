@@ -1,4 +1,4 @@
 import {externalBlogFixture} from './external-blog-fixture.mjs';
 import path from 'node:path';import {createRequire} from 'node:module';import {build} from 'esbuild';
-const req=createRequire(path.resolve('../tanstack/runtime/package.json'));
+const req=createRequire(path.resolve('package.json'));
 export async function prepareBlogIndex(){await build({entryPoints:['publisher/blog-index.ts'],outfile:'.work/blog-index-publication.mjs',bundle:true,platform:'node',format:'esm',packages:'external',banner:{js:'import {createRequire as __createRequire} from "node:module";const require=__createRequire('+JSON.stringify(req.resolve('match-sorter'))+');'},alias:{'lru-cache':req.resolve('lru-cache'),'match-sorter':req.resolve('match-sorter'),'~':path.resolve('services/backend/src'),'content-collections':path.resolve('.work/backend-post-projection.mjs')},define:{'import.meta.env.DEV':'false'}});const {getBlogIndexPosts,configureExternalBlogTransport}=await import('../.work/blog-index-publication.mjs');if(process.env.TANSTACK_BLOG_FIXTURE_DIR)configureExternalBlogTransport(externalBlogFixture(process.env.TANSTACK_BLOG_FIXTURE_DIR));return getBlogIndexPosts();}

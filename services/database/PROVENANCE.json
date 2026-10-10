@@ -1,0 +1,217 @@
+{
+  "source": "tanstack/tanstack.com",
+  "commit": "862ccc3d191818320c3e6d217542883f80cb907a",
+  "scope": "Byte-preserved SQL migrations and migration journal. Database maintenance is explicit; publication never runs schema changes. Final schema source remains services/backend/src/db/schema.ts.",
+  "files": [
+    {
+      "file": "0000_builder_durability.sql",
+      "bytes": 21722,
+      "sha256": "7bfbb69ca1dc2e32fa96bf3e8a5b5d00363c88aecc84cbdfe94bee683ecb5c4b"
+    },
+    {
+      "file": "0001_showcase_placements.sql",
+      "bytes": 810,
+      "sha256": "03f9f9e5ca2907e0877b53e468c77988351f811b76d9d2f7f65cb93d68b6df5c"
+    },
+    {
+      "file": "0002_tanchat_account_workspace.sql",
+      "bytes": 3310,
+      "sha256": "96d61c5e219de6e3cb8146cb7670e238f19d4aa9a7f1666301b124fdd676f84c"
+    },
+    {
+      "file": "0003_tanchat_conversation_identity.sql",
+      "bytes": 810,
+      "sha256": "8b17edaf44abc883c86cdd02e1a946b70a13ac04a7f43a034a158cd5b8c1370c"
+    },
+    {
+      "file": "0004_tanchat_thread_context.sql",
+      "bytes": 1268,
+      "sha256": "e829d82eb171d6f0f2f799ddad901f745a3c69a710258aed58680414fd96af31"
+    },
+    {
+      "file": "0005_tanchat_thread_requests.sql",
+      "bytes": 1088,
+      "sha256": "baea0418ee583f697dd2f9d4353c5562eb2ac306e75be749bfb4f661ba42d993"
+    },
+    {
+      "file": "0006_tanchat_credentials.sql",
+      "bytes": 309,
+      "sha256": "9017c820a0ccc30ef6cc2ea60cd764d1b633ea100ce3d0bbe21bdbb27b374581"
+    },
+    {
+      "file": "0007_tanchat_account_preferences.sql",
+      "bytes": 593,
+      "sha256": "24780eb896b5071593dbf61b847bbb00164effb99454d3c762319bce5933a20b"
+    },
+    {
+      "file": "0008_tanchat_conversation_memory.sql",
+      "bytes": 2408,
+      "sha256": "4c02ba6f482504c1aad5187fcf0120ebf63c9492aecdca24b3741678b05e49b9"
+    },
+    {
+      "file": "0009_tanchat_composer_drafts.sql",
+      "bytes": 612,
+      "sha256": "2b124b678b77c922bb6ef594ad3773eee2a9d024b7135ff3ae4239c7a73ea0fa"
+    },
+    {
+      "file": "0010_tanchat_saved_files.sql",
+      "bytes": 9278,
+      "sha256": "40995419eb71721bfbb7390736a5c6dfdf620aa5ca0bdd4f3b61a0dd76e4333d"
+    },
+    {
+      "file": "0011_tanchat_first_send_receipts.sql",
+      "bytes": 446,
+      "sha256": "b5b23105f50fda1f5a3c8a970e27002a55fde593d74e79e744ac9ab2b91c1525"
+    },
+    {
+      "file": "0012_tanchat_first_send_identity.sql",
+      "bytes": 89,
+      "sha256": "de7940de955034cf86a80b1f250f084b0bbdab7f9fc8e7d0f132b5e3f139cee8"
+    },
+    {
+      "file": "0013_tanchat_skills.sql",
+      "bytes": 2583,
+      "sha256": "afbfbad6b13704d92871883cfd9d85fb0de5ea022ef6cb9857c25746359262eb"
+    },
+    {
+      "file": "0014_pale_risque.sql",
+      "bytes": 551,
+      "sha256": "3088024fd1b5d9577647f34df4a3e089641e7f317a918c903ca0f6027fcc6957"
+    },
+    {
+      "file": "0015_married_machine_man.sql",
+      "bytes": 394,
+      "sha256": "4fdea21aaef6abfbc73d7fb86379857986827a714b6a87af52816b3c220a75e2"
+    },
+    {
+      "file": "0016_crazy_cable.sql",
+      "bytes": 1780,
+      "sha256": "f1d9ea639867ecb511fcfbd921b82a531e48b1928b1f96f2be858bec8eb80f63"
+    },
+    {
+      "file": "0017_messy_sabretooth.sql",
+      "bytes": 4990,
+      "sha256": "9527bef15af9bbaaa6249f92cda969766b4aefdfa245875b3b6790f21233c6cc"
+    },
+    {
+      "file": "0018_large_rawhide_kid.sql",
+      "bytes": 1757,
+      "sha256": "a166c3825c5513631925cbeb19fd5dc64fa888a6cb587766fcb7f2cd3dc9f183"
+    },
+    {
+      "file": "0019_slow_power_pack.sql",
+      "bytes": 1180,
+      "sha256": "0c722be8c1ac852165697f18fbbe873b4a9007c98383c15f35ced64588be4ca5"
+    },
+    {
+      "file": "0020_tranquil_harpoon.sql",
+      "bytes": 2598,
+      "sha256": "79d008db167475bae85c13a7d3f779439595d0974e75cc159e3dc5915962c044"
+    },
+    {
+      "file": "0021_even_roulette.sql",
+      "bytes": 1034,
+      "sha256": "65962e8fccb8ca7c80f96bf280d1d510970fdc496c8e52c810c08eba46dd9cb4"
+    },
+    {
+      "file": "0022_tricky_texas_twister.sql",
+      "bytes": 1452,
+      "sha256": "324d14ab96f0247b7cb9255d8c2bb5776aa9c8e8b14caa8f4dea153d3ccaef04"
+    },
+    {
+      "file": "0023_productive_the_spike.sql",
+      "bytes": 4371,
+      "sha256": "ee7725ccf5494224700b223bc7cf207d3580b330293c3e206d0a26787d2f2216"
+    },
+    {
+      "file": "0024_worried_dazzler.sql",
+      "bytes": 2298,
+      "sha256": "17107e139b374084e8266965e2b0afc744af4dd54ec7cb0f28bfb7eec6345a32"
+    },
+    {
+      "file": "0025_crazy_emma_frost.sql",
+      "bytes": 1914,
+      "sha256": "cc6e4818e99d11dba3d6fd03af31742a6da0b761e40f934329322b07ba396285"
+    },
+    {
+      "file": "0026_youthful_maria_hill.sql",
+      "bytes": 3241,
+      "sha256": "8add55b9cef41340768d478c8acca24098743447bbdde23e962aea2246456528"
+    },
+    {
+      "file": "0027_certain_captain_stacy.sql",
+      "bytes": 68,
+      "sha256": "578d739686a339ccb488b06710b6d239c38423d70f33eb47b22b86d3b32da415"
+    },
+    {
+      "file": "0028_nebulous_songbird.sql",
+      "bytes": 2710,
+      "sha256": "c1025b0230a32846d56e53d413d224ffcd572a45a8543fa9b61f56ac8c141634"
+    },
+    {
+      "file": "0029_faithful_loa.sql",
+      "bytes": 464,
+      "sha256": "f93ae4da60af4e3cc10c965b3ace6043a1475d4ef55f7ec86188ffe6a38aa2da"
+    },
+    {
+      "file": "0030_last_expediter.sql",
+      "bytes": 870,
+      "sha256": "be246f87afcaf7204d84c88163921089b2e1748276338809392957ed4b80e6ee"
+    },
+    {
+      "file": "0031_sloppy_mesmero.sql",
+      "bytes": 1086,
+      "sha256": "3b614029cb8fa2f21b7da59e9536a25feb324f754fc5f92f2c8cc1c7ad892dc5"
+    },
+    {
+      "file": "0032_low_jack_murdock.sql",
+      "bytes": 449,
+      "sha256": "01e8de46a892684bf6cdadb6c9669f1958baaad4d64f3f1d955870d948acc5a9"
+    },
+    {
+      "file": "0033_breezy_mister_sinister.sql",
+      "bytes": 7456,
+      "sha256": "336e204afcfb3028c7e4bbfeb482171de9a5941d5ac901bf8723ec65a1f9fb4b"
+    },
+    {
+      "file": "0034_tanchat_parent_guards.sql",
+      "bytes": 1983,
+      "sha256": "f7b75380a984d6e9a385a8b25670ea9e76d33d369663de072891396c034d7780"
+    },
+    {
+      "file": "0035_tanchat_saved_actions.sql",
+      "bytes": 434,
+      "sha256": "2132edd46695974672641e7cb0395277c08e24ad55390c45835726e1d2aebe06"
+    },
+    {
+      "file": "0036_tanchat_onboarding.sql",
+      "bytes": 941,
+      "sha256": "6e4c027f245fce47e55c0ebe8dbeaecaf6532a3e4751d95092b7f34328b42f61"
+    },
+    {
+      "file": "0037_tanchat_kody_oauth.sql",
+      "bytes": 459,
+      "sha256": "15bf7e7f4a874cc1dd471f7548ec9d4e2a9c1d2ef8a21fe90416ab8b4360ed04"
+    },
+    {
+      "file": "0038_tanchat_cascade_lifecycle.sql",
+      "bytes": 2293,
+      "sha256": "b72f40c5c13003ad72f60c41878480a8fc8ffbcd18051d0b24ad5571142c1f21"
+    },
+    {
+      "file": "0039_tanchat_invites.sql",
+      "bytes": 656,
+      "sha256": "101194ab4425c9674d1959d9b3d5f1d822ca7113050f319299ac9b65cb8165d4"
+    },
+    {
+      "file": "0040_tanchat_waitlist.sql",
+      "bytes": 157,
+      "sha256": "cdc863792fde2eebd73f157ad4826b74dad0404162bdbadbdfe48a4eb207f84f"
+    },
+    {
+      "file": "0041_tanchat_usage_reservation.sql",
+      "bytes": 4530,
+      "sha256": "f8081ae9cb4239b253ee3ca6a1dc2873c4b12c68fe1073bac2e895b333811d8b"
+    }
+  ]
+}
