@@ -1,0 +1,61 @@
+{
+  "upstreamCommit": "862ccc3d191818320c3e6d217542883f80cb907a",
+  "records": [
+    {
+      "owned": "frontend/layout/DocumentHead.ts",
+      "sources": [
+        {
+          "source": "src/routes/__root.tsx",
+          "sha256": "cd04975169c4b51439f5f8e5f093f71b850eb73898c4a6b9ffff8cb2cf20fbc7"
+        },
+        {
+          "source": "src/routes/index.tsx",
+          "sha256": "562a94209d3d8b9115fa9909a8ec1dba8e03a38f87be05635e9b045f263bd18e"
+        },
+        {
+          "source": "src/routes/blog.tsx",
+          "sha256": "19457142739bad6a9324b3b4d053ec58b4e593be55a39636c86d3510d789178d"
+        }
+      ],
+      "adaptation": "Extracted authored head callbacks and shared bootstrap; official Router HeadContent owns tag resolution."
+    },
+    {
+      "owned": "frontend/layout/DocsHead.ts",
+      "sources": [
+        {
+          "source": "src/routes/_library/$libraryId/$version.docs.$.tsx",
+          "sha256": "e84e527e5350ca9243df8832b4dc320b8cc863543f3f7352990472a100d5e0c8"
+        },
+        {
+          "source": "src/routes/_library/$libraryId/$version.docs.framework.$framework.$.tsx",
+          "sha256": "00ab05240433a03340c225f92eb216d864b30958b05bff0fea38377fb17a540e"
+        },
+        {
+          "source": "src/components/landing/LibraryLanding.tsx",
+          "sha256": "604af8ce32f73d2057c08dc639263406c7103913d0bb5953ee85bf1fbb594921"
+        }
+      ],
+      "adaptation": "Shared native route heads preserve original docs and landing semantics."
+    },
+    {
+      "owned": "publisher/document-excerpt.ts",
+      "sources": [
+        {
+          "source": "src/utils/documents.server.ts",
+          "sha256": "0f8b046eca9e8fac3692d80d23ff66e00cf57adba517350b26e4bfcd259c5f8e"
+        }
+      ],
+      "adaptation": "Reuse already parsed Markdown AST for the original excerpt algorithm; no second Markdown parse."
+    },
+    {
+      "owned": "sources/semantics/doc-keywords.ts",
+      "sources": [
+        {
+          "source": "src/utils/documents.server.ts",
+          "sha256": "0f8b046eca9e8fac3692d80d23ff66e00cf57adba517350b26e4bfcd259c5f8e"
+        }
+      ],
+      "adaptation": "Extracted pure keyword normalizer."
+    }
+  ]
+}

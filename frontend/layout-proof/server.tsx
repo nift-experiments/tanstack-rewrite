@@ -1,3 +1,4 @@
+import {THEME_BOOTSTRAP,HIGHLIGHT_THEME_CSS} from 'owned-layout/DocumentHead'
 import {applicationBody,refreshApplicationRegion} from '../../publisher/application-regions'
 import {requestHandler} from '@tanstack/react-start/server'
 import {runWithStartContext} from '@tanstack/start-storage-context'
@@ -6,14 +7,14 @@ import {marketingViews} from 'owned-marketing/MarketingPublication'
 import React from 'react'
 import {PassThrough} from 'node:stream'
 import {renderToPipeableStream,renderToString} from 'react-dom/server'
-import {RouterProvider} from '@tanstack/react-router'
+import {RouterProvider,RouterContextProvider,HeadContent} from '@tanstack/react-router'
 import {getRouter} from './router'
 export async function renderShell(initialPath:string,initialHtml:string,initialUser:unknown=null,requestData:any={},transport?:{request:Request;fetch:(url:string,init:RequestInit)=>Promise<Response>}){
  if(transport){const response=await requestHandler(()=>runWithStartContext({request:transport.request,getRouter:()=>getRouter({initialPath,initialHtml,initialUser,...requestData,server:true}),startOptions:{serverFns:{fetch:transport.fetch}},contextAfterGlobalMiddlewares:{},executedRequestMiddlewares:new Set(),handlerType:"router"},async()=>new Response(await renderShell(initialPath,initialHtml,initialUser,requestData))))(transport.request);if(response.status>=300)throw response;return response.text()}
  const applicationPublication=requestData.includeApplications?{phase:'prepare',html:initialHtml}:undefined
  const router=getRouter({initialPath,initialHtml,initialUser,...requestData,applicationPublication,server:true})
  await router.load()
- requestData.onPublicationHead?.({meta:router.state.matches.flatMap(match=>match.meta??[]),links:router.state.matches.flatMap(match=>match.links??[]),scripts:router.state.matches.flatMap(match=>match.scripts??[])})
+ requestData.onPublicationHead?.({meta:router.state.matches.flatMap(match=>match.meta??[]),links:router.state.matches.flatMap(match=>match.links??[]),scripts:router.state.matches.flatMap(match=>match.scripts??[]),html:renderToString(<RouterContextProvider router={router}><HeadContent/></RouterContextProvider>)})
  // Same redirect outcome used by the pinned Router request handler.
  const result=(router as any)._serverResult
  if(result?.type==='redirect')throw result.redirect
@@ -47,3 +48,5 @@ export {getRouter as createPublicationRouter}
 
 export function applicationDefinitions(){const router=getRouter({initialPath:'/',initialHtml:'',includeApplications:true,server:true});return (router as any).publicationApplications.definitions()}
 export function applicationContract(pathname:string){const router=getRouter({initialPath:pathname,initialHtml:'',includeApplications:true,server:true});const match=router.matchRoutes(pathname).at(-1);const route=match?router.routesById[match.routeId]:null;return (route?.options.staticData?.publicationFamily==='application'||route?.options.staticData?.publicationRedirect)?(router as any).publicationApplications.definitions().find((record:any)=>record.id===route.id):null}
+
+export function publicationDocumentShellHead(){return '<script>'+THEME_BOOTSTRAP+'</script><style id="tanstack-highlight-theme">'+HIGHLIGHT_THEME_CSS+'</style><script defer src="https://namethathost.com/tracker.js" data-site="b7d91d66-ccee-480a-9d33-f7a9f109edc4" referrerpolicy="no-referrer"></script>'}

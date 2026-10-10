@@ -8598,6 +8598,7 @@
     "sources/generated/charts/previews/scatter-bubble.svg",
     "sources/semantics/",
     "sources/semantics/PROVENANCE.json",
+    "sources/semantics/doc-keywords.ts",
     "sources/semantics/docs-source.ts",
     "sources/site/blog/",
     "sources/site/blog/ag-grid-partnership.md",

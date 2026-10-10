@@ -245,3 +245,5 @@ function toFrontMatterValue(value: unknown): FrontMatterValue | undefined {
   return undefined
 }
 export {replaceContent,replaceSections,replaceProjectImageBranch,parseFrontMatter};
+
+export {extractFrontMatterKeywords} from './doc-keywords'

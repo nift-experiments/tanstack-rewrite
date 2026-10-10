@@ -5,5 +5,7 @@
   "homeToLanding": true,
   "sameDocumentLifetime": true,
   "nativeHeadingIdentityAndEditSurviveShellOverlay": true,
+  "routeTitleAndSocialURLUpdate": true,
+  "unrelatedHeadNodeIdentityPreserved": true,
   "errors": []
 }

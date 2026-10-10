@@ -13,7 +13,7 @@ export function prepareApplicationPublication(tracked,write) {
     tracked.push({name:'publication-applications/'+definition.publicationKey,title:definition.pattern,template:'templates/corpus-raw.html'});
   }
   write('content/application-envelope.html','<!--REQUEST_SHELL_START--><div data-published-region style="display:contents"></div><!--REQUEST_SHELL_END-->');
-  write('templates/application-envelope.html','<!doctype html><html lang="en" class="dark"><head><!--REQUEST_HEAD_START--><!--REQUEST_HEAD_END-->@input("templates/page-head.html")</head><body class="overflow-x-hidden"><!--REQUEST_CONTEXT_START--><script type="application/json" id="shell-request-context">{}</script><!--REQUEST_CONTEXT_END--><div id="shell" data-ssr="true">@content</div></body></html>');
+  write('templates/application-envelope.html','<!doctype html><html lang="en" class=""><head><!--REQUEST_HEAD_START--><!--REQUEST_HEAD_END-->@input("templates/page-head.html")</head><body class="overflow-x-hidden"><!--REQUEST_CONTEXT_START--><script type="application/json" id="shell-request-context">{}</script><!--REQUEST_CONTEXT_END--><div id="shell" data-ssr="true">@content</div></body></html>');
   tracked.push({name:'application-envelope',title:'Request-time application document',template:'templates/application-envelope.html'});
   return definitions;
 }

@@ -40,3 +40,9 @@ The shared browser path interface now includes checked navigation identities and
 ## Application-family runtime publication
 
 Maintained application views and structured original route identities compile independently of backend implementations. Nift owns the shared application envelope and 114 endpoint-family native boundaries (100 application views and 14 route controls). Request-scoped original loaders evaluate current sessions/service data; SSR fills only declared request slots, and React portals activate only the explicit application island. The preview reads these built artifacts and does not manufacture publication files. A family boundary is a runtime contract, not a statically completed page. Browser smoke does not establish configured backend/visual parity. CSS bundles are projected through checked Nift URL expressions; Vite development-only HMR is disabled in the production browser compiler.
+
+## Shared document head and local runtime hosting
+
+Maintained original head semantics → official Router head/tag resolution → transient head HTML → Nift checked head include → declared request-time head slot. Client transitions reconcile that slot only; stylesheet/bootstrap/unrelated nodes retain their producer. Parsed document excerpts/keywords remain source-derived, without serializing AST into the browser.
+
+Local runtime adapter owns workerd lifetime and request-scoped bindings, not publication. Actual durable/R2/workflow classes run from the separately built Worker artifact; the normal Node HTTP dispatcher retains portable publication source providers and passes real bindings into original backend handlers. Explicit configuration and persistent local service state live outside public. Complete deployment portability and full workflow/provider parity remain tracked gaps.

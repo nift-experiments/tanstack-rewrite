@@ -1,8 +1,9 @@
 {
-  "status": "Owned API/class artifact packages via native _build/worker; selected workerd protocol/persistence checks pass",
+  "status": "Normal preview uses actual workerd durable/R2/workflow bindings; signed local database bootstrap, selected protocol/persistence checks pass",
   "evidence": [
     "evidence/r3/worker-api-protocol.json",
-    "evidence/r3/worker-durable-persistence.json"
+    "evidence/r3/worker-durable-persistence.json",
+    "evidence/r3/preview-authenticated-runtime.json"
   ],
   "remaining": [
     "Full chat and workflow execution",

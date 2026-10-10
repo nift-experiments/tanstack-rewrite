@@ -1,0 +1,4297 @@
+{
+  "scope": "Ten representative HTTP document heads against pinned upstream; title, metadata, canonical, icons and manifest only. Bundled PNG URLs compared by exact asset SHA-256; runtime OG paths/query preserved. Does not certify SPA head updates or all routes.",
+  "rows": [
+    {
+      "pathname": "/",
+      "status": 200,
+      "match": true,
+      "expected": [
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/apple-touch-icon.png",
+            "rel": "apple-touch-icon",
+            "sizes": "180x180"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-16x16.png",
+            "rel": "icon",
+            "sizes": "16x16",
+            "type": "image/png"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-32x32.png",
+            "rel": "icon",
+            "sizes": "32x32",
+            "type": "image/png"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-dark.svg",
+            "media": "(prefers-color-scheme: dark)",
+            "rel": "icon",
+            "type": "image/svg+xml"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-light.svg",
+            "media": "(prefers-color-scheme: light)",
+            "rel": "icon",
+            "type": "image/svg+xml"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon.ico",
+            "rel": "icon",
+            "type": "image/x-icon"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/site.webmanifest",
+            "rel": "manifest"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "https://tanstack.com/",
+            "rel": "canonical"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "charset": "utf-8"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "@tan_stack",
+            "name": "twitter:creator"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "@tan_stack",
+            "name": "twitter:site"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "#111111",
+            "media": "(prefers-color-scheme: dark)",
+            "name": "theme-color"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "asset-sha256:fb07bfbf41a69a532c6b64e90e8ea31970bb19eaee6f25102e1c8a9f49f87722",
+            "name": "twitter:image"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "asset-sha256:fb07bfbf41a69a532c6b64e90e8ea31970bb19eaee6f25102e1c8a9f49f87722",
+            "property": "og:image"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Headless, type-safe, composable tools for building modern web applications that work naturally for developers and reliably for agents.",
+            "name": "description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Headless, type-safe, composable tools for building modern web applications that work naturally for developers and reliably for agents.",
+            "name": "twitter:description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Headless, type-safe, composable tools for building modern web applications that work naturally for developers and reliably for agents.",
+            "property": "og:description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "https://tanstack.com/",
+            "name": "twitter:url"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "https://tanstack.com/",
+            "property": "og:url"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "summary_large_image",
+            "name": "twitter:card"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack | High Quality Open-Source Software for Web Developers",
+            "name": "twitter:image:alt"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack | High Quality Open-Source Software for Web Developers",
+            "property": "og:image:alt"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack | The open-source application stack for the web.",
+            "name": "twitter:title"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack | The open-source application stack for the web.",
+            "property": "og:title"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack",
+            "property": "og:site_name"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "website",
+            "property": "og:type"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "width=device-width, initial-scale=1",
+            "name": "viewport"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "name": "keywords"
+          }
+        },
+        {
+          "tag": "title",
+          "attrs": {},
+          "text": "TanStack | The open-source application stack for the web."
+        }
+      ],
+      "candidate": [
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/apple-touch-icon.png",
+            "rel": "apple-touch-icon",
+            "sizes": "180x180"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-16x16.png",
+            "rel": "icon",
+            "sizes": "16x16",
+            "type": "image/png"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-32x32.png",
+            "rel": "icon",
+            "sizes": "32x32",
+            "type": "image/png"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-dark.svg",
+            "media": "(prefers-color-scheme: dark)",
+            "rel": "icon",
+            "type": "image/svg+xml"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-light.svg",
+            "media": "(prefers-color-scheme: light)",
+            "rel": "icon",
+            "type": "image/svg+xml"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon.ico",
+            "rel": "icon",
+            "type": "image/x-icon"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/site.webmanifest",
+            "rel": "manifest"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "https://tanstack.com/",
+            "rel": "canonical"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "charset": "utf-8"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "@tan_stack",
+            "name": "twitter:creator"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "@tan_stack",
+            "name": "twitter:site"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "#111111",
+            "media": "(prefers-color-scheme: dark)",
+            "name": "theme-color"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "asset-sha256:fb07bfbf41a69a532c6b64e90e8ea31970bb19eaee6f25102e1c8a9f49f87722",
+            "name": "twitter:image"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "asset-sha256:fb07bfbf41a69a532c6b64e90e8ea31970bb19eaee6f25102e1c8a9f49f87722",
+            "property": "og:image"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Headless, type-safe, composable tools for building modern web applications that work naturally for developers and reliably for agents.",
+            "name": "description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Headless, type-safe, composable tools for building modern web applications that work naturally for developers and reliably for agents.",
+            "name": "twitter:description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Headless, type-safe, composable tools for building modern web applications that work naturally for developers and reliably for agents.",
+            "property": "og:description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "https://tanstack.com/",
+            "name": "twitter:url"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "https://tanstack.com/",
+            "property": "og:url"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "summary_large_image",
+            "name": "twitter:card"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack | High Quality Open-Source Software for Web Developers",
+            "name": "twitter:image:alt"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack | High Quality Open-Source Software for Web Developers",
+            "property": "og:image:alt"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack | The open-source application stack for the web.",
+            "name": "twitter:title"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack | The open-source application stack for the web.",
+            "property": "og:title"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack",
+            "property": "og:site_name"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "website",
+            "property": "og:type"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "width=device-width, initial-scale=1",
+            "name": "viewport"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "name": "keywords"
+          }
+        },
+        {
+          "tag": "title",
+          "attrs": {},
+          "text": "TanStack | The open-source application stack for the web."
+        }
+      ]
+    },
+    {
+      "pathname": "/ads",
+      "status": 200,
+      "match": true,
+      "expected": [
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/apple-touch-icon.png",
+            "rel": "apple-touch-icon",
+            "sizes": "180x180"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-16x16.png",
+            "rel": "icon",
+            "sizes": "16x16",
+            "type": "image/png"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-32x32.png",
+            "rel": "icon",
+            "sizes": "32x32",
+            "type": "image/png"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-dark.svg",
+            "media": "(prefers-color-scheme: dark)",
+            "rel": "icon",
+            "type": "image/svg+xml"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-light.svg",
+            "media": "(prefers-color-scheme: light)",
+            "rel": "icon",
+            "type": "image/svg+xml"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon.ico",
+            "rel": "icon",
+            "type": "image/x-icon"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/site.webmanifest",
+            "rel": "manifest"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "https://tanstack.com/ads",
+            "rel": "canonical"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "charset": "utf-8"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "@tan_stack",
+            "name": "twitter:creator"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "@tan_stack",
+            "name": "twitter:site"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "#111111",
+            "media": "(prefers-color-scheme: dark)",
+            "name": "theme-color"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Ads & Partnerships | TanStack",
+            "name": "twitter:title"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Ads & Partnerships | TanStack",
+            "property": "og:title"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "asset-sha256:fb07bfbf41a69a532c6b64e90e8ea31970bb19eaee6f25102e1c8a9f49f87722",
+            "name": "twitter:image"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "asset-sha256:fb07bfbf41a69a532c6b64e90e8ea31970bb19eaee6f25102e1c8a9f49f87722",
+            "property": "og:image"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "How TanStack approaches ads and partnerships to sustain open source development.",
+            "name": "description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "How TanStack approaches ads and partnerships to sustain open source development.",
+            "name": "twitter:description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "How TanStack approaches ads and partnerships to sustain open source development.",
+            "property": "og:description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "https://tanstack.com/ads",
+            "name": "twitter:url"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "https://tanstack.com/ads",
+            "property": "og:url"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "summary_large_image",
+            "name": "twitter:card"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack | High Quality Open-Source Software for Web Developers",
+            "name": "twitter:image:alt"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack | High Quality Open-Source Software for Web Developers",
+            "property": "og:image:alt"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack",
+            "property": "og:site_name"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "website",
+            "property": "og:type"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "width=device-width, initial-scale=1",
+            "name": "viewport"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "name": "keywords"
+          }
+        },
+        {
+          "tag": "title",
+          "attrs": {},
+          "text": "Ads & Partnerships | TanStack"
+        }
+      ],
+      "candidate": [
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/apple-touch-icon.png",
+            "rel": "apple-touch-icon",
+            "sizes": "180x180"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-16x16.png",
+            "rel": "icon",
+            "sizes": "16x16",
+            "type": "image/png"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-32x32.png",
+            "rel": "icon",
+            "sizes": "32x32",
+            "type": "image/png"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-dark.svg",
+            "media": "(prefers-color-scheme: dark)",
+            "rel": "icon",
+            "type": "image/svg+xml"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-light.svg",
+            "media": "(prefers-color-scheme: light)",
+            "rel": "icon",
+            "type": "image/svg+xml"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon.ico",
+            "rel": "icon",
+            "type": "image/x-icon"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/site.webmanifest",
+            "rel": "manifest"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "https://tanstack.com/ads",
+            "rel": "canonical"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "charset": "utf-8"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "@tan_stack",
+            "name": "twitter:creator"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "@tan_stack",
+            "name": "twitter:site"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "#111111",
+            "media": "(prefers-color-scheme: dark)",
+            "name": "theme-color"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Ads & Partnerships | TanStack",
+            "name": "twitter:title"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Ads & Partnerships | TanStack",
+            "property": "og:title"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "asset-sha256:fb07bfbf41a69a532c6b64e90e8ea31970bb19eaee6f25102e1c8a9f49f87722",
+            "name": "twitter:image"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "asset-sha256:fb07bfbf41a69a532c6b64e90e8ea31970bb19eaee6f25102e1c8a9f49f87722",
+            "property": "og:image"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "How TanStack approaches ads and partnerships to sustain open source development.",
+            "name": "description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "How TanStack approaches ads and partnerships to sustain open source development.",
+            "name": "twitter:description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "How TanStack approaches ads and partnerships to sustain open source development.",
+            "property": "og:description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "https://tanstack.com/ads",
+            "name": "twitter:url"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "https://tanstack.com/ads",
+            "property": "og:url"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "summary_large_image",
+            "name": "twitter:card"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack | High Quality Open-Source Software for Web Developers",
+            "name": "twitter:image:alt"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack | High Quality Open-Source Software for Web Developers",
+            "property": "og:image:alt"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack",
+            "property": "og:site_name"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "website",
+            "property": "og:type"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "width=device-width, initial-scale=1",
+            "name": "viewport"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "name": "keywords"
+          }
+        },
+        {
+          "tag": "title",
+          "attrs": {},
+          "text": "Ads & Partnerships | TanStack"
+        }
+      ]
+    },
+    {
+      "pathname": "/ethos",
+      "status": 200,
+      "match": true,
+      "expected": [
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/apple-touch-icon.png",
+            "rel": "apple-touch-icon",
+            "sizes": "180x180"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-16x16.png",
+            "rel": "icon",
+            "sizes": "16x16",
+            "type": "image/png"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-32x32.png",
+            "rel": "icon",
+            "sizes": "32x32",
+            "type": "image/png"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-dark.svg",
+            "media": "(prefers-color-scheme: dark)",
+            "rel": "icon",
+            "type": "image/svg+xml"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-light.svg",
+            "media": "(prefers-color-scheme: light)",
+            "rel": "icon",
+            "type": "image/svg+xml"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon.ico",
+            "rel": "icon",
+            "type": "image/x-icon"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/site.webmanifest",
+            "rel": "manifest"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "https://tanstack.com/ethos",
+            "rel": "canonical"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "charset": "utf-8"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "@tan_stack",
+            "name": "twitter:creator"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "@tan_stack",
+            "name": "twitter:site"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "#111111",
+            "media": "(prefers-color-scheme: dark)",
+            "name": "theme-color"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "asset-sha256:fb07bfbf41a69a532c6b64e90e8ea31970bb19eaee6f25102e1c8a9f49f87722",
+            "name": "twitter:image"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "asset-sha256:fb07bfbf41a69a532c6b64e90e8ea31970bb19eaee6f25102e1c8a9f49f87722",
+            "property": "og:image"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "https://tanstack.com/ethos",
+            "name": "twitter:url"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "https://tanstack.com/ethos",
+            "property": "og:url"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Our philosophy and commitment to building for the open web.",
+            "name": "description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Our philosophy and commitment to building for the open web.",
+            "name": "twitter:description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Our philosophy and commitment to building for the open web.",
+            "property": "og:description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "summary_large_image",
+            "name": "twitter:card"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack | High Quality Open-Source Software for Web Developers",
+            "name": "twitter:image:alt"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack | High Quality Open-Source Software for Web Developers",
+            "property": "og:image:alt"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack Ethos",
+            "name": "twitter:title"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack Ethos",
+            "property": "og:title"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack",
+            "property": "og:site_name"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "website",
+            "property": "og:type"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "width=device-width, initial-scale=1",
+            "name": "viewport"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "name": "keywords"
+          }
+        },
+        {
+          "tag": "title",
+          "attrs": {},
+          "text": "TanStack Ethos"
+        }
+      ],
+      "candidate": [
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/apple-touch-icon.png",
+            "rel": "apple-touch-icon",
+            "sizes": "180x180"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-16x16.png",
+            "rel": "icon",
+            "sizes": "16x16",
+            "type": "image/png"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-32x32.png",
+            "rel": "icon",
+            "sizes": "32x32",
+            "type": "image/png"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-dark.svg",
+            "media": "(prefers-color-scheme: dark)",
+            "rel": "icon",
+            "type": "image/svg+xml"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-light.svg",
+            "media": "(prefers-color-scheme: light)",
+            "rel": "icon",
+            "type": "image/svg+xml"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon.ico",
+            "rel": "icon",
+            "type": "image/x-icon"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/site.webmanifest",
+            "rel": "manifest"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "https://tanstack.com/ethos",
+            "rel": "canonical"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "charset": "utf-8"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "@tan_stack",
+            "name": "twitter:creator"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "@tan_stack",
+            "name": "twitter:site"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "#111111",
+            "media": "(prefers-color-scheme: dark)",
+            "name": "theme-color"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "asset-sha256:fb07bfbf41a69a532c6b64e90e8ea31970bb19eaee6f25102e1c8a9f49f87722",
+            "name": "twitter:image"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "asset-sha256:fb07bfbf41a69a532c6b64e90e8ea31970bb19eaee6f25102e1c8a9f49f87722",
+            "property": "og:image"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "https://tanstack.com/ethos",
+            "name": "twitter:url"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "https://tanstack.com/ethos",
+            "property": "og:url"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Our philosophy and commitment to building for the open web.",
+            "name": "description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Our philosophy and commitment to building for the open web.",
+            "name": "twitter:description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Our philosophy and commitment to building for the open web.",
+            "property": "og:description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "summary_large_image",
+            "name": "twitter:card"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack | High Quality Open-Source Software for Web Developers",
+            "name": "twitter:image:alt"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack | High Quality Open-Source Software for Web Developers",
+            "property": "og:image:alt"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack Ethos",
+            "name": "twitter:title"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack Ethos",
+            "property": "og:title"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack",
+            "property": "og:site_name"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "website",
+            "property": "og:type"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "width=device-width, initial-scale=1",
+            "name": "viewport"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "name": "keywords"
+          }
+        },
+        {
+          "tag": "title",
+          "attrs": {},
+          "text": "TanStack Ethos"
+        }
+      ]
+    },
+    {
+      "pathname": "/query/latest",
+      "status": 200,
+      "match": true,
+      "expected": [
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/apple-touch-icon.png",
+            "rel": "apple-touch-icon",
+            "sizes": "180x180"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-16x16.png",
+            "rel": "icon",
+            "sizes": "16x16",
+            "type": "image/png"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-32x32.png",
+            "rel": "icon",
+            "sizes": "32x32",
+            "type": "image/png"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-dark.svg",
+            "media": "(prefers-color-scheme: dark)",
+            "rel": "icon",
+            "type": "image/svg+xml"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-light.svg",
+            "media": "(prefers-color-scheme: light)",
+            "rel": "icon",
+            "type": "image/svg+xml"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon.ico",
+            "rel": "icon",
+            "type": "image/x-icon"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/site.webmanifest",
+            "rel": "manifest"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "https://tanstack.com/query/latest",
+            "rel": "canonical"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "charset": "utf-8"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "@tan_stack",
+            "name": "twitter:creator"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "@tan_stack",
+            "name": "twitter:site"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "#111111",
+            "media": "(prefers-color-scheme: dark)",
+            "name": "theme-color"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "https://tanstack.com/query/latest",
+            "name": "twitter:url"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "https://tanstack.com/query/latest",
+            "property": "og:url"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Powerful asynchronous state management, server-state utilities and data fetching. Fetch, cache, update, and wrangle all forms of async data in your TS/JS, React, Vue, Solid, Svelte, Angular & Lit applications all without touching any \"global state\"",
+            "name": "description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Powerful asynchronous state management, server-state utilities and data fetching. Fetch, cache, update, and wrangle all forms of async data in your TS/JS, React, Vue, Solid, Svelte, Angular & Lit applications all without touching any \"global state\"",
+            "name": "twitter:description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Powerful asynchronous state management, server-state utilities and data fetching. Fetch, cache, update, and wrangle all forms of async data in your TS/JS, React, Vue, Solid, Svelte, Angular & Lit applications all without touching any \"global state\"",
+            "property": "og:description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "runtime-og:/api/og/query.png?v=2",
+            "name": "twitter:image"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "runtime-og:/api/og/query.png?v=2",
+            "property": "og:image"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "summary_large_image",
+            "name": "twitter:card"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack Query",
+            "name": "twitter:image:alt"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack Query",
+            "name": "twitter:title"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack Query",
+            "property": "og:image:alt"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack Query",
+            "property": "og:title"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack",
+            "property": "og:site_name"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "website",
+            "property": "og:type"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "width=device-width, initial-scale=1",
+            "name": "viewport"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "name": "keywords"
+          }
+        },
+        {
+          "tag": "title",
+          "attrs": {},
+          "text": "TanStack Query"
+        }
+      ],
+      "candidate": [
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/apple-touch-icon.png",
+            "rel": "apple-touch-icon",
+            "sizes": "180x180"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-16x16.png",
+            "rel": "icon",
+            "sizes": "16x16",
+            "type": "image/png"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-32x32.png",
+            "rel": "icon",
+            "sizes": "32x32",
+            "type": "image/png"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-dark.svg",
+            "media": "(prefers-color-scheme: dark)",
+            "rel": "icon",
+            "type": "image/svg+xml"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-light.svg",
+            "media": "(prefers-color-scheme: light)",
+            "rel": "icon",
+            "type": "image/svg+xml"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon.ico",
+            "rel": "icon",
+            "type": "image/x-icon"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/site.webmanifest",
+            "rel": "manifest"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "https://tanstack.com/query/latest",
+            "rel": "canonical"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "charset": "utf-8"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "@tan_stack",
+            "name": "twitter:creator"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "@tan_stack",
+            "name": "twitter:site"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "#111111",
+            "media": "(prefers-color-scheme: dark)",
+            "name": "theme-color"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "https://tanstack.com/query/latest",
+            "name": "twitter:url"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "https://tanstack.com/query/latest",
+            "property": "og:url"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Powerful asynchronous state management, server-state utilities and data fetching. Fetch, cache, update, and wrangle all forms of async data in your TS/JS, React, Vue, Solid, Svelte, Angular & Lit applications all without touching any \"global state\"",
+            "name": "description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Powerful asynchronous state management, server-state utilities and data fetching. Fetch, cache, update, and wrangle all forms of async data in your TS/JS, React, Vue, Solid, Svelte, Angular & Lit applications all without touching any \"global state\"",
+            "name": "twitter:description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Powerful asynchronous state management, server-state utilities and data fetching. Fetch, cache, update, and wrangle all forms of async data in your TS/JS, React, Vue, Solid, Svelte, Angular & Lit applications all without touching any \"global state\"",
+            "property": "og:description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "runtime-og:/api/og/query.png?v=2",
+            "name": "twitter:image"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "runtime-og:/api/og/query.png?v=2",
+            "property": "og:image"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "summary_large_image",
+            "name": "twitter:card"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack Query",
+            "name": "twitter:image:alt"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack Query",
+            "name": "twitter:title"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack Query",
+            "property": "og:image:alt"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack Query",
+            "property": "og:title"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack",
+            "property": "og:site_name"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "website",
+            "property": "og:type"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "width=device-width, initial-scale=1",
+            "name": "viewport"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "name": "keywords"
+          }
+        },
+        {
+          "tag": "title",
+          "attrs": {},
+          "text": "TanStack Query"
+        }
+      ]
+    },
+    {
+      "pathname": "/query/latest/docs/framework/react/overview",
+      "status": 200,
+      "match": true,
+      "expected": [
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/apple-touch-icon.png",
+            "rel": "apple-touch-icon",
+            "sizes": "180x180"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-16x16.png",
+            "rel": "icon",
+            "sizes": "16x16",
+            "type": "image/png"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-32x32.png",
+            "rel": "icon",
+            "sizes": "32x32",
+            "type": "image/png"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-dark.svg",
+            "media": "(prefers-color-scheme: dark)",
+            "rel": "icon",
+            "type": "image/svg+xml"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-light.svg",
+            "media": "(prefers-color-scheme: light)",
+            "rel": "icon",
+            "type": "image/svg+xml"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon.ico",
+            "rel": "icon",
+            "type": "image/x-icon"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/site.webmanifest",
+            "rel": "manifest"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "https://tanstack.com/query/latest/docs/framework/react/overview",
+            "rel": "canonical"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "charset": "utf-8"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "@tan_stack",
+            "name": "twitter:creator"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "@tan_stack",
+            "name": "twitter:site"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "#111111",
+            "media": "(prefers-color-scheme: dark)",
+            "name": "theme-color"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "https://tanstack.com/query/latest/docs/framework/react/overview",
+            "name": "twitter:url"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "https://tanstack.com/query/latest/docs/framework/react/overview",
+            "property": "og:url"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Overview | TanStack Query React Docs",
+            "name": "twitter:image:alt"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Overview | TanStack Query React Docs",
+            "name": "twitter:title"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Overview | TanStack Query React Docs",
+            "property": "og:image:alt"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Overview | TanStack Query React Docs",
+            "property": "og:title"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "runtime-og:/api/og/query.png?v=2&title=Overview&description=TanStack+Query+%28formerly+known+as+React+Query%29+is+often+described+as+the+missing+data-fetching+library+for+web+applications%2C+but+in+more+technical+terms%2C+it+ma%E2%80%A6",
+            "name": "twitter:image"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "runtime-og:/api/og/query.png?v=2&title=Overview&description=TanStack+Query+%28formerly+known+as+React+Query%29+is+often+described+as+the+missing+data-fetching+library+for+web+applications%2C+but+in+more+technical+terms%2C+it+ma%E2%80%A6",
+            "property": "og:image"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "summary_large_image",
+            "name": "twitter:card"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack Query (formerly known as React Query) is often described as the missing data-fetching library for web applications, but in more technical terms, it makes fetching, caching, synchronizing and...",
+            "name": "description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack Query (formerly known as React Query) is often described as the missing data-fetching library for web applications, but in more technical terms, it makes fetching, caching, synchronizing and...",
+            "name": "twitter:description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack Query (formerly known as React Query) is often described as the missing data-fetching library for web applications, but in more technical terms, it makes fetching, caching, synchronizing and...",
+            "property": "og:description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack",
+            "property": "og:site_name"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "website",
+            "property": "og:type"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "width=device-width, initial-scale=1",
+            "name": "viewport"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "name": "keywords"
+          }
+        },
+        {
+          "tag": "title",
+          "attrs": {},
+          "text": "Overview | TanStack Query React Docs"
+        }
+      ],
+      "candidate": [
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/apple-touch-icon.png",
+            "rel": "apple-touch-icon",
+            "sizes": "180x180"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-16x16.png",
+            "rel": "icon",
+            "sizes": "16x16",
+            "type": "image/png"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-32x32.png",
+            "rel": "icon",
+            "sizes": "32x32",
+            "type": "image/png"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-dark.svg",
+            "media": "(prefers-color-scheme: dark)",
+            "rel": "icon",
+            "type": "image/svg+xml"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-light.svg",
+            "media": "(prefers-color-scheme: light)",
+            "rel": "icon",
+            "type": "image/svg+xml"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon.ico",
+            "rel": "icon",
+            "type": "image/x-icon"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/site.webmanifest",
+            "rel": "manifest"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "https://tanstack.com/query/latest/docs/framework/react/overview",
+            "rel": "canonical"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "charset": "utf-8"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "@tan_stack",
+            "name": "twitter:creator"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "@tan_stack",
+            "name": "twitter:site"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "#111111",
+            "media": "(prefers-color-scheme: dark)",
+            "name": "theme-color"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "https://tanstack.com/query/latest/docs/framework/react/overview",
+            "name": "twitter:url"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "https://tanstack.com/query/latest/docs/framework/react/overview",
+            "property": "og:url"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Overview | TanStack Query React Docs",
+            "name": "twitter:image:alt"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Overview | TanStack Query React Docs",
+            "name": "twitter:title"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Overview | TanStack Query React Docs",
+            "property": "og:image:alt"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Overview | TanStack Query React Docs",
+            "property": "og:title"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "runtime-og:/api/og/query.png?v=2&title=Overview&description=TanStack+Query+%28formerly+known+as+React+Query%29+is+often+described+as+the+missing+data-fetching+library+for+web+applications%2C+but+in+more+technical+terms%2C+it+ma%E2%80%A6",
+            "name": "twitter:image"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "runtime-og:/api/og/query.png?v=2&title=Overview&description=TanStack+Query+%28formerly+known+as+React+Query%29+is+often+described+as+the+missing+data-fetching+library+for+web+applications%2C+but+in+more+technical+terms%2C+it+ma%E2%80%A6",
+            "property": "og:image"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "summary_large_image",
+            "name": "twitter:card"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack Query (formerly known as React Query) is often described as the missing data-fetching library for web applications, but in more technical terms, it makes fetching, caching, synchronizing and...",
+            "name": "description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack Query (formerly known as React Query) is often described as the missing data-fetching library for web applications, but in more technical terms, it makes fetching, caching, synchronizing and...",
+            "name": "twitter:description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack Query (formerly known as React Query) is often described as the missing data-fetching library for web applications, but in more technical terms, it makes fetching, caching, synchronizing and...",
+            "property": "og:description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack",
+            "property": "og:site_name"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "website",
+            "property": "og:type"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "width=device-width, initial-scale=1",
+            "name": "viewport"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "name": "keywords"
+          }
+        },
+        {
+          "tag": "title",
+          "attrs": {},
+          "text": "Overview | TanStack Query React Docs"
+        }
+      ]
+    },
+    {
+      "pathname": "/query/v4/docs/framework/react/overview",
+      "status": 200,
+      "match": true,
+      "expected": [
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/apple-touch-icon.png",
+            "rel": "apple-touch-icon",
+            "sizes": "180x180"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-16x16.png",
+            "rel": "icon",
+            "sizes": "16x16",
+            "type": "image/png"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-32x32.png",
+            "rel": "icon",
+            "sizes": "32x32",
+            "type": "image/png"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-dark.svg",
+            "media": "(prefers-color-scheme: dark)",
+            "rel": "icon",
+            "type": "image/svg+xml"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-light.svg",
+            "media": "(prefers-color-scheme: light)",
+            "rel": "icon",
+            "type": "image/svg+xml"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon.ico",
+            "rel": "icon",
+            "type": "image/x-icon"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/site.webmanifest",
+            "rel": "manifest"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "https://tanstack.com/query/latest/docs/framework/react/overview",
+            "rel": "canonical"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "charset": "utf-8"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "@tan_stack",
+            "name": "twitter:creator"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "@tan_stack",
+            "name": "twitter:site"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "#111111",
+            "media": "(prefers-color-scheme: dark)",
+            "name": "theme-color"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "https://tanstack.com/query/latest/docs/framework/react/overview",
+            "name": "twitter:url"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "https://tanstack.com/query/latest/docs/framework/react/overview",
+            "property": "og:url"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Overview | TanStack Query React Docs",
+            "name": "twitter:image:alt"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Overview | TanStack Query React Docs",
+            "name": "twitter:title"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Overview | TanStack Query React Docs",
+            "property": "og:image:alt"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Overview | TanStack Query React Docs",
+            "property": "og:title"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "runtime-og:/api/og/query.png?v=2&title=Overview&description=TanStack+Query+%28FKA+React+Query%29+is+often+described+as+the+missing+data-fetching+library+for+web+applications%2C+but+in+more+technical+terms%2C+it+makes+fetching%2C%E2%80%A6",
+            "name": "twitter:image"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "runtime-og:/api/og/query.png?v=2&title=Overview&description=TanStack+Query+%28FKA+React+Query%29+is+often+described+as+the+missing+data-fetching+library+for+web+applications%2C+but+in+more+technical+terms%2C+it+makes+fetching%2C%E2%80%A6",
+            "property": "og:image"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "summary_large_image",
+            "name": "twitter:card"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack Query (FKA React Query) is often described as the missing data-fetching library for web applications, but in more technical terms, it makes fetching, caching, synchronizing and updating...",
+            "name": "description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack Query (FKA React Query) is often described as the missing data-fetching library for web applications, but in more technical terms, it makes fetching, caching, synchronizing and updating...",
+            "name": "twitter:description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack Query (FKA React Query) is often described as the missing data-fetching library for web applications, but in more technical terms, it makes fetching, caching, synchronizing and updating...",
+            "property": "og:description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack",
+            "property": "og:site_name"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "website",
+            "property": "og:type"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "width=device-width, initial-scale=1",
+            "name": "viewport"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "name": "keywords"
+          }
+        },
+        {
+          "tag": "title",
+          "attrs": {},
+          "text": "Overview | TanStack Query React Docs"
+        }
+      ],
+      "candidate": [
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/apple-touch-icon.png",
+            "rel": "apple-touch-icon",
+            "sizes": "180x180"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-16x16.png",
+            "rel": "icon",
+            "sizes": "16x16",
+            "type": "image/png"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-32x32.png",
+            "rel": "icon",
+            "sizes": "32x32",
+            "type": "image/png"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-dark.svg",
+            "media": "(prefers-color-scheme: dark)",
+            "rel": "icon",
+            "type": "image/svg+xml"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-light.svg",
+            "media": "(prefers-color-scheme: light)",
+            "rel": "icon",
+            "type": "image/svg+xml"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon.ico",
+            "rel": "icon",
+            "type": "image/x-icon"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/site.webmanifest",
+            "rel": "manifest"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "https://tanstack.com/query/latest/docs/framework/react/overview",
+            "rel": "canonical"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "charset": "utf-8"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "@tan_stack",
+            "name": "twitter:creator"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "@tan_stack",
+            "name": "twitter:site"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "#111111",
+            "media": "(prefers-color-scheme: dark)",
+            "name": "theme-color"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "https://tanstack.com/query/latest/docs/framework/react/overview",
+            "name": "twitter:url"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "https://tanstack.com/query/latest/docs/framework/react/overview",
+            "property": "og:url"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Overview | TanStack Query React Docs",
+            "name": "twitter:image:alt"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Overview | TanStack Query React Docs",
+            "name": "twitter:title"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Overview | TanStack Query React Docs",
+            "property": "og:image:alt"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Overview | TanStack Query React Docs",
+            "property": "og:title"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "runtime-og:/api/og/query.png?v=2&title=Overview&description=TanStack+Query+%28FKA+React+Query%29+is+often+described+as+the+missing+data-fetching+library+for+web+applications%2C+but+in+more+technical+terms%2C+it+makes+fetching%2C%E2%80%A6",
+            "name": "twitter:image"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "runtime-og:/api/og/query.png?v=2&title=Overview&description=TanStack+Query+%28FKA+React+Query%29+is+often+described+as+the+missing+data-fetching+library+for+web+applications%2C+but+in+more+technical+terms%2C+it+makes+fetching%2C%E2%80%A6",
+            "property": "og:image"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "summary_large_image",
+            "name": "twitter:card"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack Query (FKA React Query) is often described as the missing data-fetching library for web applications, but in more technical terms, it makes fetching, caching, synchronizing and updating...",
+            "name": "description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack Query (FKA React Query) is often described as the missing data-fetching library for web applications, but in more technical terms, it makes fetching, caching, synchronizing and updating...",
+            "name": "twitter:description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack Query (FKA React Query) is often described as the missing data-fetching library for web applications, but in more technical terms, it makes fetching, caching, synchronizing and updating...",
+            "property": "og:description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack",
+            "property": "og:site_name"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "website",
+            "property": "og:type"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "width=device-width, initial-scale=1",
+            "name": "viewport"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "name": "keywords"
+          }
+        },
+        {
+          "tag": "title",
+          "attrs": {},
+          "text": "Overview | TanStack Query React Docs"
+        }
+      ]
+    },
+    {
+      "pathname": "/blog",
+      "status": 200,
+      "match": true,
+      "expected": [
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/apple-touch-icon.png",
+            "rel": "apple-touch-icon",
+            "sizes": "180x180"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-16x16.png",
+            "rel": "icon",
+            "sizes": "16x16",
+            "type": "image/png"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-32x32.png",
+            "rel": "icon",
+            "sizes": "32x32",
+            "type": "image/png"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-dark.svg",
+            "media": "(prefers-color-scheme: dark)",
+            "rel": "icon",
+            "type": "image/svg+xml"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-light.svg",
+            "media": "(prefers-color-scheme: light)",
+            "rel": "icon",
+            "type": "image/svg+xml"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon.ico",
+            "rel": "icon",
+            "type": "image/x-icon"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/site.webmanifest",
+            "rel": "manifest"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "https://tanstack.com/blog",
+            "rel": "canonical"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "charset": "utf-8"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "@tan_stack",
+            "name": "twitter:creator"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "@tan_stack",
+            "name": "twitter:site"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "#111111",
+            "media": "(prefers-color-scheme: dark)",
+            "name": "theme-color"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "asset-sha256:fb07bfbf41a69a532c6b64e90e8ea31970bb19eaee6f25102e1c8a9f49f87722",
+            "name": "twitter:image"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "asset-sha256:fb07bfbf41a69a532c6b64e90e8ea31970bb19eaee6f25102e1c8a9f49f87722",
+            "property": "og:image"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Blog | TanStack",
+            "name": "twitter:title"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Blog | TanStack",
+            "property": "og:title"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "https://tanstack.com/blog",
+            "name": "twitter:url"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "https://tanstack.com/blog",
+            "property": "og:url"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "summary_large_image",
+            "name": "twitter:card"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack | High Quality Open-Source Software for Web Developers",
+            "name": "twitter:image:alt"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack | High Quality Open-Source Software for Web Developers",
+            "property": "og:image:alt"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack",
+            "property": "og:site_name"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "The latest news and blog posts from TanStack!",
+            "name": "description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "The latest news and blog posts from TanStack!",
+            "name": "twitter:description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "The latest news and blog posts from TanStack!",
+            "property": "og:description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "website",
+            "property": "og:type"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "width=device-width, initial-scale=1",
+            "name": "viewport"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "name": "keywords"
+          }
+        },
+        {
+          "tag": "title",
+          "attrs": {},
+          "text": "Blog"
+        }
+      ],
+      "candidate": [
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/apple-touch-icon.png",
+            "rel": "apple-touch-icon",
+            "sizes": "180x180"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-16x16.png",
+            "rel": "icon",
+            "sizes": "16x16",
+            "type": "image/png"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-32x32.png",
+            "rel": "icon",
+            "sizes": "32x32",
+            "type": "image/png"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-dark.svg",
+            "media": "(prefers-color-scheme: dark)",
+            "rel": "icon",
+            "type": "image/svg+xml"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-light.svg",
+            "media": "(prefers-color-scheme: light)",
+            "rel": "icon",
+            "type": "image/svg+xml"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon.ico",
+            "rel": "icon",
+            "type": "image/x-icon"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/site.webmanifest",
+            "rel": "manifest"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "https://tanstack.com/blog",
+            "rel": "canonical"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "charset": "utf-8"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "@tan_stack",
+            "name": "twitter:creator"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "@tan_stack",
+            "name": "twitter:site"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "#111111",
+            "media": "(prefers-color-scheme: dark)",
+            "name": "theme-color"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "asset-sha256:fb07bfbf41a69a532c6b64e90e8ea31970bb19eaee6f25102e1c8a9f49f87722",
+            "name": "twitter:image"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "asset-sha256:fb07bfbf41a69a532c6b64e90e8ea31970bb19eaee6f25102e1c8a9f49f87722",
+            "property": "og:image"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Blog | TanStack",
+            "name": "twitter:title"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Blog | TanStack",
+            "property": "og:title"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "https://tanstack.com/blog",
+            "name": "twitter:url"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "https://tanstack.com/blog",
+            "property": "og:url"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "summary_large_image",
+            "name": "twitter:card"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack | High Quality Open-Source Software for Web Developers",
+            "name": "twitter:image:alt"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack | High Quality Open-Source Software for Web Developers",
+            "property": "og:image:alt"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack",
+            "property": "og:site_name"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "The latest news and blog posts from TanStack!",
+            "name": "description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "The latest news and blog posts from TanStack!",
+            "name": "twitter:description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "The latest news and blog posts from TanStack!",
+            "property": "og:description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "website",
+            "property": "og:type"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "width=device-width, initial-scale=1",
+            "name": "viewport"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "name": "keywords"
+          }
+        },
+        {
+          "tag": "title",
+          "attrs": {},
+          "text": "Blog"
+        }
+      ]
+    },
+    {
+      "pathname": "/libraries",
+      "status": 200,
+      "match": true,
+      "expected": [
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/apple-touch-icon.png",
+            "rel": "apple-touch-icon",
+            "sizes": "180x180"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-16x16.png",
+            "rel": "icon",
+            "sizes": "16x16",
+            "type": "image/png"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-32x32.png",
+            "rel": "icon",
+            "sizes": "32x32",
+            "type": "image/png"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-dark.svg",
+            "media": "(prefers-color-scheme: dark)",
+            "rel": "icon",
+            "type": "image/svg+xml"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-light.svg",
+            "media": "(prefers-color-scheme: light)",
+            "rel": "icon",
+            "type": "image/svg+xml"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon.ico",
+            "rel": "icon",
+            "type": "image/x-icon"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/site.webmanifest",
+            "rel": "manifest"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "https://tanstack.com/libraries",
+            "rel": "canonical"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "charset": "utf-8"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "@tan_stack",
+            "name": "twitter:creator"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "@tan_stack",
+            "name": "twitter:site"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "#111111",
+            "media": "(prefers-color-scheme: dark)",
+            "name": "theme-color"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "asset-sha256:fb07bfbf41a69a532c6b64e90e8ea31970bb19eaee6f25102e1c8a9f49f87722",
+            "name": "twitter:image"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "asset-sha256:fb07bfbf41a69a532c6b64e90e8ea31970bb19eaee6f25102e1c8a9f49f87722",
+            "property": "og:image"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Explore TanStack libraries for routing, server state, tables, forms, virtualization, sync, AI, and developer tooling.",
+            "name": "description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Explore TanStack libraries for routing, server state, tables, forms, virtualization, sync, AI, and developer tooling.",
+            "name": "twitter:description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Explore TanStack libraries for routing, server state, tables, forms, virtualization, sync, AI, and developer tooling.",
+            "property": "og:description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "https://tanstack.com/libraries",
+            "name": "twitter:url"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "https://tanstack.com/libraries",
+            "property": "og:url"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "summary_large_image",
+            "name": "twitter:card"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack | High Quality Open-Source Software for Web Developers",
+            "name": "twitter:image:alt"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack | High Quality Open-Source Software for Web Developers",
+            "property": "og:image:alt"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack Libraries: Type-Safe Tools for Modern Web Apps",
+            "name": "twitter:title"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack Libraries: Type-Safe Tools for Modern Web Apps",
+            "property": "og:title"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack",
+            "property": "og:site_name"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "website",
+            "property": "og:type"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "width=device-width, initial-scale=1",
+            "name": "viewport"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "name": "keywords"
+          }
+        },
+        {
+          "tag": "title",
+          "attrs": {},
+          "text": "TanStack Libraries: Type-Safe Tools for Modern Web Apps"
+        }
+      ],
+      "candidate": [
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/apple-touch-icon.png",
+            "rel": "apple-touch-icon",
+            "sizes": "180x180"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-16x16.png",
+            "rel": "icon",
+            "sizes": "16x16",
+            "type": "image/png"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-32x32.png",
+            "rel": "icon",
+            "sizes": "32x32",
+            "type": "image/png"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-dark.svg",
+            "media": "(prefers-color-scheme: dark)",
+            "rel": "icon",
+            "type": "image/svg+xml"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-light.svg",
+            "media": "(prefers-color-scheme: light)",
+            "rel": "icon",
+            "type": "image/svg+xml"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon.ico",
+            "rel": "icon",
+            "type": "image/x-icon"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/site.webmanifest",
+            "rel": "manifest"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "https://tanstack.com/libraries",
+            "rel": "canonical"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "charset": "utf-8"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "@tan_stack",
+            "name": "twitter:creator"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "@tan_stack",
+            "name": "twitter:site"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "#111111",
+            "media": "(prefers-color-scheme: dark)",
+            "name": "theme-color"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "asset-sha256:fb07bfbf41a69a532c6b64e90e8ea31970bb19eaee6f25102e1c8a9f49f87722",
+            "name": "twitter:image"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "asset-sha256:fb07bfbf41a69a532c6b64e90e8ea31970bb19eaee6f25102e1c8a9f49f87722",
+            "property": "og:image"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Explore TanStack libraries for routing, server state, tables, forms, virtualization, sync, AI, and developer tooling.",
+            "name": "description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Explore TanStack libraries for routing, server state, tables, forms, virtualization, sync, AI, and developer tooling.",
+            "name": "twitter:description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Explore TanStack libraries for routing, server state, tables, forms, virtualization, sync, AI, and developer tooling.",
+            "property": "og:description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "https://tanstack.com/libraries",
+            "name": "twitter:url"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "https://tanstack.com/libraries",
+            "property": "og:url"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "summary_large_image",
+            "name": "twitter:card"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack | High Quality Open-Source Software for Web Developers",
+            "name": "twitter:image:alt"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack | High Quality Open-Source Software for Web Developers",
+            "property": "og:image:alt"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack Libraries: Type-Safe Tools for Modern Web Apps",
+            "name": "twitter:title"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack Libraries: Type-Safe Tools for Modern Web Apps",
+            "property": "og:title"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack",
+            "property": "og:site_name"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "website",
+            "property": "og:type"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "width=device-width, initial-scale=1",
+            "name": "viewport"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "name": "keywords"
+          }
+        },
+        {
+          "tag": "title",
+          "attrs": {},
+          "text": "TanStack Libraries: Type-Safe Tools for Modern Web Apps"
+        }
+      ]
+    },
+    {
+      "pathname": "/login",
+      "status": 200,
+      "match": true,
+      "expected": [
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/apple-touch-icon.png",
+            "rel": "apple-touch-icon",
+            "sizes": "180x180"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-16x16.png",
+            "rel": "icon",
+            "sizes": "16x16",
+            "type": "image/png"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-32x32.png",
+            "rel": "icon",
+            "sizes": "32x32",
+            "type": "image/png"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-dark.svg",
+            "media": "(prefers-color-scheme: dark)",
+            "rel": "icon",
+            "type": "image/svg+xml"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-light.svg",
+            "media": "(prefers-color-scheme: light)",
+            "rel": "icon",
+            "type": "image/svg+xml"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon.ico",
+            "rel": "icon",
+            "type": "image/x-icon"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/site.webmanifest",
+            "rel": "manifest"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "charset": "utf-8"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "@tan_stack",
+            "name": "twitter:creator"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "@tan_stack",
+            "name": "twitter:site"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "#111111",
+            "media": "(prefers-color-scheme: dark)",
+            "name": "theme-color"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "asset-sha256:fb07bfbf41a69a532c6b64e90e8ea31970bb19eaee6f25102e1c8a9f49f87722",
+            "name": "twitter:image"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "asset-sha256:fb07bfbf41a69a532c6b64e90e8ea31970bb19eaee6f25102e1c8a9f49f87722",
+            "property": "og:image"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Headless, type-safe, powerful utilities for complex workflows like Data Management, Data Visualization, Charts, Tables, and UI Components.",
+            "name": "description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Headless, type-safe, powerful utilities for complex workflows like Data Management, Data Visualization, Charts, Tables, and UI Components.",
+            "name": "twitter:description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Headless, type-safe, powerful utilities for complex workflows like Data Management, Data Visualization, Charts, Tables, and UI Components.",
+            "property": "og:description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "https://tanstack.com/login",
+            "name": "twitter:url"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "https://tanstack.com/login",
+            "property": "og:url"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "noindex, nofollow",
+            "name": "robots"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "summary_large_image",
+            "name": "twitter:card"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack | High Quality Open-Source Software for Web Developers",
+            "name": "twitter:image:alt"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack | High Quality Open-Source Software for Web Developers",
+            "name": "twitter:title"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack | High Quality Open-Source Software for Web Developers",
+            "property": "og:image:alt"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack | High Quality Open-Source Software for Web Developers",
+            "property": "og:title"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "tanstack,react,reactjs,react query,react table,open source,open source software,oss,software",
+            "name": "keywords"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack",
+            "property": "og:site_name"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "website",
+            "property": "og:type"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "width=device-width, initial-scale=1",
+            "name": "viewport"
+          }
+        },
+        {
+          "tag": "title",
+          "attrs": {},
+          "text": "TanStack | High Quality Open-Source Software for Web Developers"
+        }
+      ],
+      "candidate": [
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/apple-touch-icon.png",
+            "rel": "apple-touch-icon",
+            "sizes": "180x180"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-16x16.png",
+            "rel": "icon",
+            "sizes": "16x16",
+            "type": "image/png"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-32x32.png",
+            "rel": "icon",
+            "sizes": "32x32",
+            "type": "image/png"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-dark.svg",
+            "media": "(prefers-color-scheme: dark)",
+            "rel": "icon",
+            "type": "image/svg+xml"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-light.svg",
+            "media": "(prefers-color-scheme: light)",
+            "rel": "icon",
+            "type": "image/svg+xml"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon.ico",
+            "rel": "icon",
+            "type": "image/x-icon"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/site.webmanifest",
+            "rel": "manifest"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "charset": "utf-8"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "@tan_stack",
+            "name": "twitter:creator"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "@tan_stack",
+            "name": "twitter:site"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "#111111",
+            "media": "(prefers-color-scheme: dark)",
+            "name": "theme-color"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "asset-sha256:fb07bfbf41a69a532c6b64e90e8ea31970bb19eaee6f25102e1c8a9f49f87722",
+            "name": "twitter:image"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "asset-sha256:fb07bfbf41a69a532c6b64e90e8ea31970bb19eaee6f25102e1c8a9f49f87722",
+            "property": "og:image"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Headless, type-safe, powerful utilities for complex workflows like Data Management, Data Visualization, Charts, Tables, and UI Components.",
+            "name": "description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Headless, type-safe, powerful utilities for complex workflows like Data Management, Data Visualization, Charts, Tables, and UI Components.",
+            "name": "twitter:description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Headless, type-safe, powerful utilities for complex workflows like Data Management, Data Visualization, Charts, Tables, and UI Components.",
+            "property": "og:description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "https://tanstack.com/login",
+            "name": "twitter:url"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "https://tanstack.com/login",
+            "property": "og:url"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "noindex, nofollow",
+            "name": "robots"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "summary_large_image",
+            "name": "twitter:card"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack | High Quality Open-Source Software for Web Developers",
+            "name": "twitter:image:alt"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack | High Quality Open-Source Software for Web Developers",
+            "name": "twitter:title"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack | High Quality Open-Source Software for Web Developers",
+            "property": "og:image:alt"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack | High Quality Open-Source Software for Web Developers",
+            "property": "og:title"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "tanstack,react,reactjs,react query,react table,open source,open source software,oss,software",
+            "name": "keywords"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack",
+            "property": "og:site_name"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "website",
+            "property": "og:type"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "width=device-width, initial-scale=1",
+            "name": "viewport"
+          }
+        },
+        {
+          "tag": "title",
+          "attrs": {},
+          "text": "TanStack | High Quality Open-Source Software for Web Developers"
+        }
+      ]
+    },
+    {
+      "pathname": "/ds/buttons",
+      "status": 200,
+      "match": true,
+      "expected": [
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/apple-touch-icon.png",
+            "rel": "apple-touch-icon",
+            "sizes": "180x180"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-16x16.png",
+            "rel": "icon",
+            "sizes": "16x16",
+            "type": "image/png"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-32x32.png",
+            "rel": "icon",
+            "sizes": "32x32",
+            "type": "image/png"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-dark.svg",
+            "media": "(prefers-color-scheme: dark)",
+            "rel": "icon",
+            "type": "image/svg+xml"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-light.svg",
+            "media": "(prefers-color-scheme: light)",
+            "rel": "icon",
+            "type": "image/svg+xml"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon.ico",
+            "rel": "icon",
+            "type": "image/x-icon"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/site.webmanifest",
+            "rel": "manifest"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "https://tanstack.com/ds/buttons",
+            "rel": "canonical"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "charset": "utf-8"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "@tan_stack",
+            "name": "twitter:creator"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "@tan_stack",
+            "name": "twitter:site"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "#111111",
+            "media": "(prefers-color-scheme: dark)",
+            "name": "theme-color"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "asset-sha256:fb07bfbf41a69a532c6b64e90e8ea31970bb19eaee6f25102e1c8a9f49f87722",
+            "name": "twitter:image"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "asset-sha256:fb07bfbf41a69a532c6b64e90e8ea31970bb19eaee6f25102e1c8a9f49f87722",
+            "property": "og:image"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Buttons | TanStack Design System",
+            "name": "twitter:title"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Buttons | TanStack Design System",
+            "property": "og:title"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "https://tanstack.com/ds/buttons",
+            "name": "twitter:url"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "https://tanstack.com/ds/buttons",
+            "property": "og:url"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "summary_large_image",
+            "name": "twitter:card"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack | High Quality Open-Source Software for Web Developers",
+            "name": "twitter:image:alt"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack | High Quality Open-Source Software for Web Developers",
+            "property": "og:image:alt"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack",
+            "property": "og:site_name"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "The polymorphic Button — variants, colors, sizes, states.",
+            "name": "description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "The polymorphic Button — variants, colors, sizes, states.",
+            "name": "twitter:description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "The polymorphic Button — variants, colors, sizes, states.",
+            "property": "og:description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "website",
+            "property": "og:type"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "width=device-width, initial-scale=1",
+            "name": "viewport"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "name": "keywords"
+          }
+        },
+        {
+          "tag": "title",
+          "attrs": {},
+          "text": "Buttons | TanStack Design System"
+        }
+      ],
+      "candidate": [
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/apple-touch-icon.png",
+            "rel": "apple-touch-icon",
+            "sizes": "180x180"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-16x16.png",
+            "rel": "icon",
+            "sizes": "16x16",
+            "type": "image/png"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-32x32.png",
+            "rel": "icon",
+            "sizes": "32x32",
+            "type": "image/png"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-dark.svg",
+            "media": "(prefers-color-scheme: dark)",
+            "rel": "icon",
+            "type": "image/svg+xml"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon-light.svg",
+            "media": "(prefers-color-scheme: light)",
+            "rel": "icon",
+            "type": "image/svg+xml"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/favicon.ico",
+            "rel": "icon",
+            "type": "image/x-icon"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "/site.webmanifest",
+            "rel": "manifest"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "https://tanstack.com/ds/buttons",
+            "rel": "canonical"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "charset": "utf-8"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "@tan_stack",
+            "name": "twitter:creator"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "@tan_stack",
+            "name": "twitter:site"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "#111111",
+            "media": "(prefers-color-scheme: dark)",
+            "name": "theme-color"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "asset-sha256:fb07bfbf41a69a532c6b64e90e8ea31970bb19eaee6f25102e1c8a9f49f87722",
+            "name": "twitter:image"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "asset-sha256:fb07bfbf41a69a532c6b64e90e8ea31970bb19eaee6f25102e1c8a9f49f87722",
+            "property": "og:image"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Buttons | TanStack Design System",
+            "name": "twitter:title"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "Buttons | TanStack Design System",
+            "property": "og:title"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "https://tanstack.com/ds/buttons",
+            "name": "twitter:url"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "https://tanstack.com/ds/buttons",
+            "property": "og:url"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "summary_large_image",
+            "name": "twitter:card"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack | High Quality Open-Source Software for Web Developers",
+            "name": "twitter:image:alt"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack | High Quality Open-Source Software for Web Developers",
+            "property": "og:image:alt"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "TanStack",
+            "property": "og:site_name"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "The polymorphic Button — variants, colors, sizes, states.",
+            "name": "description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "The polymorphic Button — variants, colors, sizes, states.",
+            "name": "twitter:description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "The polymorphic Button — variants, colors, sizes, states.",
+            "property": "og:description"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "website",
+            "property": "og:type"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "content": "width=device-width, initial-scale=1",
+            "name": "viewport"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "name": "keywords"
+          }
+        },
+        {
+          "tag": "title",
+          "attrs": {},
+          "text": "Buttons | TanStack Design System"
+        }
+      ]
+    }
+  ]
+}

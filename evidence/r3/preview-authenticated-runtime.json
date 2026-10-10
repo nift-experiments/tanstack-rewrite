@@ -1,0 +1,31 @@
+{
+  "scope": "Normal preview HTTP dispatcher, owned bootstrap, signed session, local PostgreSQL and actual workerd bindings. Does not certify chat turns, provider or workflow execution.",
+  "status": 200,
+  "signedDatabaseIdentity": true,
+  "personalWorkspace": true,
+  "fixtureResponse": false,
+  "keys": [
+    "workspace",
+    "policy",
+    "bots",
+    "sections",
+    "activity",
+    "recipes",
+    "workspaces",
+    "user",
+    "onboarding",
+    "personalAssistant",
+    "fixture",
+    "browserExecution",
+    "kodyConnected",
+    "kodyNeedsSignIn",
+    "kodyPrimary",
+    "connection",
+    "includedModel",
+    "connections",
+    "mcpServers",
+    "usage",
+    "dailyTurnLimit",
+    "fundedSpend"
+  ]
+}
