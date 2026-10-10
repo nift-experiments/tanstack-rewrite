@@ -147,10 +147,20 @@
   "renderFailures": [],
   "applicationFamilies": [
     {
+      "pattern": "/builder",
+      "id": "/builder",
+      "pathname": "/builder",
+      "leaf": true,
+      "redirect": true,
+      "publicationKey": "builder",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
       "pattern": "/chat-access",
       "id": "/chat-access",
       "pathname": "/chat-access",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "chat-access",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -159,6 +169,7 @@
       "id": "/community-projects",
       "pathname": "/community-projects",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "community-projects",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -167,6 +178,7 @@
       "id": "/dashboard",
       "pathname": "/dashboard",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "dashboard",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -175,6 +187,7 @@
       "id": "/explore",
       "pathname": "/explore",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "explore",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -183,6 +196,7 @@
       "id": "/feedback-leaderboard",
       "pathname": "/feedback-leaderboard",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "feedback-leaderboard",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -191,6 +205,7 @@
       "id": "/libraries",
       "pathname": "/libraries",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "libraries",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -199,6 +214,7 @@
       "id": "/login",
       "pathname": "/login",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "login",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -207,7 +223,17 @@
       "id": "/maintainers",
       "pathname": "/maintainers",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "maintainers",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/showcases",
+      "id": "/showcases",
+      "pathname": "/showcases",
+      "leaf": true,
+      "redirect": true,
+      "publicationKey": "showcases",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
     {
@@ -215,6 +241,7 @@
       "id": "/sponsors-embed",
       "pathname": "/sponsors-embed",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "sponsors-embed",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -223,6 +250,7 @@
       "id": "/workshops",
       "pathname": "/workshops",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "workshops",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -231,6 +259,7 @@
       "id": "/account/",
       "pathname": "/account/",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "account_",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -239,6 +268,7 @@
       "id": "/account/feedback",
       "pathname": "/account/feedback",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "account_feedback",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -247,6 +277,7 @@
       "id": "/account/integrations",
       "pathname": "/account/integrations",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "account_integrations",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -255,6 +286,7 @@
       "id": "/account/notes",
       "pathname": "/account/notes",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "account_notes",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -263,6 +295,7 @@
       "id": "/account/submissions",
       "pathname": "/account/submissions",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "account_submissions",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -271,6 +304,7 @@
       "id": "/admin/",
       "pathname": "/admin/",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "admin_",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -279,6 +313,7 @@
       "id": "/admin/audit",
       "pathname": "/admin/audit",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "admin_audit",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -287,6 +322,7 @@
       "id": "/admin/chat-access",
       "pathname": "/admin/chat-access",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "admin_chat-access",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -295,6 +331,7 @@
       "id": "/admin/docs",
       "pathname": "/admin/docs",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "admin_docs",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -303,6 +340,7 @@
       "id": "/admin/github-stats",
       "pathname": "/admin/github-stats",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "admin_github-stats",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -311,6 +349,7 @@
       "id": "/admin/intent",
       "pathname": "/admin/intent",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "admin_intent",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -319,6 +358,7 @@
       "id": "/admin/logins",
       "pathname": "/admin/logins",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "admin_logins",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -327,6 +367,7 @@
       "id": "/admin/npm-stats",
       "pathname": "/admin/npm-stats",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "admin_npm-stats",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -335,6 +376,7 @@
       "id": "/admin/users",
       "pathname": "/admin/users",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "admin_users",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -343,6 +385,7 @@
       "id": "/application-starter/",
       "pathname": "/application-starter/",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "application-starter_",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -351,6 +394,7 @@
       "id": "/application-starter/docs",
       "pathname": "/application-starter/docs",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "application-starter_docs",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -359,6 +403,7 @@
       "id": "/auth/cli",
       "pathname": "/auth/cli",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "auth_cli",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -367,7 +412,44 @@
       "id": "/auth/popup-success",
       "pathname": "/auth/popup-success",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "auth_popup-success",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/builder_/$id",
+      "id": "/builder/$id",
+      "pathname": "/builder/$id",
+      "leaf": true,
+      "redirect": true,
+      "publicationKey": "builder__id",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/builder_/ai",
+      "id": "/builder/ai",
+      "pathname": "/builder/ai",
+      "leaf": true,
+      "redirect": true,
+      "publicationKey": "builder__ai",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/builder_/esbuild",
+      "id": "/builder/esbuild",
+      "pathname": "/builder/esbuild",
+      "leaf": true,
+      "redirect": true,
+      "publicationKey": "builder__esbuild",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/builder_/new",
+      "id": "/builder/new",
+      "pathname": "/builder/new",
+      "leaf": true,
+      "redirect": true,
+      "publicationKey": "builder__new",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
     {
@@ -375,6 +457,7 @@
       "id": "/chat/",
       "pathname": "/chat/",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "chat_",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -383,7 +466,17 @@
       "id": "/chat/charts",
       "pathname": "/chat/charts",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "chat_charts",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/chat/new-project",
+      "id": "/chat/new-project",
+      "pathname": "/chat/new-project",
+      "leaf": true,
+      "redirect": true,
+      "publicationKey": "chat_new-project",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
     {
@@ -391,6 +484,7 @@
       "id": "/chat/shared",
       "pathname": "/chat/shared",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "chat_shared",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -399,6 +493,7 @@
       "id": "/ds/",
       "pathname": "/ds/",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "ds_",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -407,6 +502,7 @@
       "id": "/ds/avatar",
       "pathname": "/ds/avatar",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "ds_avatar",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -415,6 +511,7 @@
       "id": "/ds/badges",
       "pathname": "/ds/badges",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "ds_badges",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -423,6 +520,7 @@
       "id": "/ds/breadcrumbs",
       "pathname": "/ds/breadcrumbs",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "ds_breadcrumbs",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -431,6 +529,7 @@
       "id": "/ds/buttons",
       "pathname": "/ds/buttons",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "ds_buttons",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -439,6 +538,7 @@
       "id": "/ds/cards",
       "pathname": "/ds/cards",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "ds_cards",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -447,6 +547,7 @@
       "id": "/ds/colors",
       "pathname": "/ds/colors",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "ds_colors",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -455,6 +556,7 @@
       "id": "/ds/dialog",
       "pathname": "/ds/dialog",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "ds_dialog",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -463,6 +565,7 @@
       "id": "/ds/drawer",
       "pathname": "/ds/drawer",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "ds_drawer",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -471,6 +574,7 @@
       "id": "/ds/dropdown",
       "pathname": "/ds/dropdown",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "ds_dropdown",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -479,6 +583,7 @@
       "id": "/ds/effects",
       "pathname": "/ds/effects",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "ds_effects",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -487,6 +592,7 @@
       "id": "/ds/eyebrow",
       "pathname": "/ds/eyebrow",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "ds_eyebrow",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -495,6 +601,7 @@
       "id": "/ds/inputs",
       "pathname": "/ds/inputs",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "ds_inputs",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -503,7 +610,17 @@
       "id": "/ds/logos",
       "pathname": "/ds/logos",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "ds_logos",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/ds/maintainers",
+      "id": "/ds/maintainers",
+      "pathname": "/ds/maintainers",
+      "leaf": true,
+      "redirect": true,
+      "publicationKey": "ds_maintainers",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
     {
@@ -511,6 +628,7 @@
       "id": "/ds/navbar",
       "pathname": "/ds/navbar",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "ds_navbar",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -519,6 +637,7 @@
       "id": "/ds/overlays",
       "pathname": "/ds/overlays",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "ds_overlays",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -527,6 +646,7 @@
       "id": "/ds/page-header",
       "pathname": "/ds/page-header",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "ds_page-header",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -535,6 +655,7 @@
       "id": "/ds/palette",
       "pathname": "/ds/palette",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "ds_palette",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -543,6 +664,7 @@
       "id": "/ds/panel",
       "pathname": "/ds/panel",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "ds_panel",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -551,6 +673,7 @@
       "id": "/ds/partner-rail",
       "pathname": "/ds/partner-rail",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "ds_partner-rail",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -559,6 +682,7 @@
       "id": "/ds/semantic",
       "pathname": "/ds/semantic",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "ds_semantic",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -567,6 +691,7 @@
       "id": "/ds/shadows",
       "pathname": "/ds/shadows",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "ds_shadows",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -575,6 +700,7 @@
       "id": "/ds/spinner",
       "pathname": "/ds/spinner",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "ds_spinner",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -583,6 +709,7 @@
       "id": "/ds/stats",
       "pathname": "/ds/stats",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "ds_stats",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -591,6 +718,7 @@
       "id": "/ds/tabs",
       "pathname": "/ds/tabs",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "ds_tabs",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -599,6 +727,7 @@
       "id": "/ds/takeover",
       "pathname": "/ds/takeover",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "ds_takeover",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -607,6 +736,7 @@
       "id": "/ds/typography",
       "pathname": "/ds/typography",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "ds_typography",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -615,6 +745,7 @@
       "id": "/libraries/$framework",
       "pathname": "/libraries/$framework",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "libraries__framework",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -623,6 +754,7 @@
       "id": "/oauth/authorize",
       "pathname": "/oauth/authorize",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "oauth_authorize",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -631,6 +763,7 @@
       "id": "/partners/",
       "pathname": "/partners/",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "partners_",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -639,6 +772,7 @@
       "id": "/partners/$partner",
       "pathname": "/partners/$partner",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "partners_partner",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -647,6 +781,7 @@
       "id": "/shop/",
       "pathname": "/shop/",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "shop_",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -655,6 +790,7 @@
       "id": "/shop/$handle",
       "pathname": "/shop/$handle",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "shop_handle",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -663,6 +799,7 @@
       "id": "/shop/cart",
       "pathname": "/shop/cart",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "shop_cart",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -671,6 +808,7 @@
       "id": "/shop/search",
       "pathname": "/shop/search",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "shop_search",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -679,6 +817,7 @@
       "id": "/showcase/",
       "pathname": "/showcase/",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "showcase_",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -687,6 +826,7 @@
       "id": "/showcase/$id",
       "pathname": "/showcase/$id",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "showcase_id",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -695,6 +835,7 @@
       "id": "/showcase/submit",
       "pathname": "/showcase/submit",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "showcase_submit",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -703,7 +844,17 @@
       "id": "/stack/$category",
       "pathname": "/stack/$category",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "stack_category",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/stats/",
+      "id": "/stats/",
+      "pathname": "/stats/",
+      "leaf": true,
+      "redirect": true,
+      "publicationKey": "stats_",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
     {
@@ -711,6 +862,7 @@
       "id": "/admin/feedback/",
       "pathname": "/admin/feedback/",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "admin_feedback_",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -719,6 +871,7 @@
       "id": "/admin/feedback/$id",
       "pathname": "/admin/feedback/$id",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "admin_feedback__id",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -727,6 +880,7 @@
       "id": "/admin/notes/",
       "pathname": "/admin/notes/",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "admin_notes_",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -735,6 +889,7 @@
       "id": "/admin/roles/",
       "pathname": "/admin/roles/",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "admin_roles_",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -743,6 +898,7 @@
       "id": "/admin/roles/$roleId",
       "pathname": "/admin/roles/$roleId",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "admin_roles_roleId",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -751,6 +907,7 @@
       "id": "/admin/showcases/",
       "pathname": "/admin/showcases/",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "admin_showcases_",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -759,6 +916,7 @@
       "id": "/admin/showcases/$id",
       "pathname": "/admin/showcases/$id",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "admin_showcases__id",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -767,7 +925,17 @@
       "id": "/admin/users/$userId",
       "pathname": "/admin/users/$userId",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "admin_users_userId",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/builder_/p/$hash",
+      "id": "/builder/p/$hash",
+      "pathname": "/builder/p/$hash",
+      "leaf": true,
+      "redirect": true,
+      "publicationKey": "builder__p_hash",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
     {
@@ -775,6 +943,7 @@
       "id": "/chat/b/$botId",
       "pathname": "/chat/b/$botId",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "chat_b_botId",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -783,6 +952,7 @@
       "id": "/chat/c/$conversationId",
       "pathname": "/chat/c/$conversationId",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "chat_c_conversationId",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -791,7 +961,17 @@
       "id": "/chat/p/$hash",
       "pathname": "/chat/p/$hash",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "chat_p_hash",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/chat/project/$projectId",
+      "id": "/chat/project/$projectId",
+      "pathname": "/chat/project/$projectId",
+      "leaf": true,
+      "redirect": true,
+      "publicationKey": "chat_project_projectId",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
     {
@@ -799,6 +979,7 @@
       "id": "/chat/w/$workspaceId",
       "pathname": "/chat/w/$workspaceId",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "chat_w_workspaceId",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -807,6 +988,7 @@
       "id": "/intent/registry/",
       "pathname": "/intent/registry/",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "intent_registry_",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -815,6 +997,7 @@
       "id": "/shop/collections/$handle",
       "pathname": "/shop/collections/$handle",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "shop_collections_handle",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -823,6 +1006,7 @@
       "id": "/shop/pages/$handle",
       "pathname": "/shop/pages/$handle",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "shop_pages_handle",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -831,6 +1015,7 @@
       "id": "/shop/policies/$handle",
       "pathname": "/shop/policies/$handle",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "shop_policies_handle",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -839,6 +1024,7 @@
       "id": "/shop/products/$handle",
       "pathname": "/shop/products/$handle",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "shop_products_handle",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -847,6 +1033,7 @@
       "id": "/showcase/edit/$id",
       "pathname": "/showcase/edit/$id",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "showcase_edit_id",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -855,6 +1042,7 @@
       "id": "/stats/npm/",
       "pathname": "/stats/npm/",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "stats_npm_",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -863,6 +1051,7 @@
       "id": "/stats/npm/$packages",
       "pathname": "/stats/npm/$packages",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "stats_npm_packages",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -871,6 +1060,7 @@
       "id": "/stats/npm/embed",
       "pathname": "/stats/npm/embed",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "stats_npm_embed",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -879,7 +1069,17 @@
       "id": "/_library/charts/catalog/",
       "pathname": "/charts/catalog/",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "library_charts_catalog_",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/_library/charts/catalog/all",
+      "id": "/_library/charts/catalog/all",
+      "pathname": "/charts/catalog/all",
+      "leaf": true,
+      "redirect": true,
+      "publicationKey": "library_charts_catalog_all",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
     {
@@ -887,6 +1087,7 @@
       "id": "/intent/registry/$packageName/",
       "pathname": "/intent/registry/$packageName/",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "intent_registry_packageName_",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -895,6 +1096,7 @@
       "id": "/intent/registry/$packageName/$skillName",
       "pathname": "/intent/registry/$packageName/$skillName",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "intent_registry_packageName_skillName",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -903,6 +1105,7 @@
       "id": "/_library/$libraryId/$version/docs/community-resources",
       "pathname": "/$libraryId/$version/docs/community-resources",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "library_libraryId_version_docs_community-resources",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -911,6 +1114,7 @@
       "id": "/_library/$libraryId/$version/docs/contributors",
       "pathname": "/$libraryId/$version/docs/contributors",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "library_libraryId_version_docs_contributors",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -919,6 +1123,7 @@
       "id": "/_library/$libraryId/$version/docs/npm-stats",
       "pathname": "/$libraryId/$version/docs/npm-stats",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "library_libraryId_version_docs_npm-stats",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -927,6 +1132,7 @@
       "id": "/_library/charts/catalog/charts/$caseId",
       "pathname": "/charts/catalog/charts/$caseId",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "library_charts_catalog_charts_caseId",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
@@ -935,7 +1141,26 @@
       "id": "/_library/charts/catalog/collections/$collectionId",
       "pathname": "/charts/catalog/collections/$collectionId",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "library_charts_catalog_collections_collectionId",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/chat/w/$workspaceId/b/$botId",
+      "id": "/chat/w/$workspaceId/b/$botId",
+      "pathname": "/chat/w/$workspaceId/b/$botId",
+      "leaf": true,
+      "redirect": true,
+      "publicationKey": "chat_w_workspaceId_b_botId",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/chat/w/$workspaceId/home/$homeSection",
+      "id": "/chat/w/$workspaceId/home/$homeSection",
+      "pathname": "/chat/w/$workspaceId/home/$homeSection",
+      "leaf": true,
+      "redirect": true,
+      "publicationKey": "chat_w_workspaceId_home_homeSection",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
     {
@@ -943,16 +1168,12 @@
       "id": "/_library/$libraryId/$version/docs/framework/$framework/examples/$",
       "pathname": "/$libraryId/$version/docs/framework/$framework/examples/$",
       "leaf": true,
+      "redirect": false,
       "publicationKey": "library_libraryId_version_docs_framework_framework_examples_",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     }
   ],
   "unimplementedRouteFamilies": [
-    {
-      "pattern": "/builder",
-      "classification": "complex client + backend application",
-      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
-    },
     {
       "pattern": "/llms-full.txt",
       "classification": "generated/negotiated output",
@@ -971,11 +1192,6 @@
     {
       "pattern": "/rss.xml",
       "classification": "generated/negotiated output",
-      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
-    },
-    {
-      "pattern": "/showcases",
-      "classification": "public page/application route",
       "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
@@ -1009,42 +1225,12 @@
       "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
-      "pattern": "/builder/$id",
-      "classification": "complex client + backend application",
-      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
-    },
-    {
-      "pattern": "/builder/ai",
-      "classification": "complex client + backend application",
-      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
-    },
-    {
-      "pattern": "/builder/esbuild",
-      "classification": "complex client + backend application",
-      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
-    },
-    {
       "pattern": "/builder/llms.txt",
       "classification": "complex client + backend application",
       "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
-      "pattern": "/builder/new",
-      "classification": "complex client + backend application",
-      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
-    },
-    {
-      "pattern": "/chat/new-project",
-      "classification": "complex client + backend application",
-      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
-    },
-    {
       "pattern": "/ds/iconography",
-      "classification": "public page/application route",
-      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
-    },
-    {
-      "pattern": "/ds/maintainers",
       "classification": "public page/application route",
       "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
@@ -1060,11 +1246,6 @@
     },
     {
       "pattern": "/blog/",
-      "classification": "public page/application route",
-      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
-    },
-    {
-      "pattern": "/stats/",
       "classification": "public page/application route",
       "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
@@ -1289,18 +1470,8 @@
       "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
-      "pattern": "/builder/p/$hash",
-      "classification": "complex client + backend application",
-      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
-    },
-    {
       "pattern": "/charts/catalog/catalog.json",
       "classification": "generated/negotiated output",
-      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
-    },
-    {
-      "pattern": "/chat/project/$projectId",
-      "classification": "complex client + backend application",
       "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
@@ -1316,11 +1487,6 @@
     {
       "pattern": "/$libraryId/$version/llms.txt",
       "classification": "generated/negotiated output",
-      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
-    },
-    {
-      "pattern": "/charts/catalog/all",
-      "classification": "public page/application route",
       "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
@@ -1714,16 +1880,6 @@
       "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
-      "pattern": "/chat/w/$workspaceId/b/$botId",
-      "classification": "complex client + backend application",
-      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
-    },
-    {
-      "pattern": "/chat/w/$workspaceId/home/$homeSection",
-      "classification": "complex client + backend application",
-      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
-    },
-    {
       "pattern": "/api/chat/account/composer-drafts/$accountId/$scope",
       "classification": "backend/service protocol",
       "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
@@ -1844,18 +2000,6 @@
       "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     }
   ],
-  "sharedGaps": [
-    "authenticated sessions/database writes/provider callbacks",
-    "search live-service parity",
-    "production asset independence",
-    "dynamic hosting guide",
-    "redirect/content-negotiation and SEO completeness",
-    "chart/live/client example interaction owners",
-    "complete viewport/browser parity",
-    "documentation image/static-asset URL resolution",
-    "Cloudflare Worker-backed chat stream runtime verification",
-    "independent clean-checkout packaging"
-  ],
   "workerRuntime": {
     "status": "Owned API/class artifact packages via native _build/worker; selected workerd protocol/persistence checks pass",
     "evidence": [
@@ -1870,5 +2014,17 @@
       "Malformed server-function error-path parity",
       "Independent dependencies/toolchains"
     ]
-  }
+  },
+  "sharedGaps": [
+    "authenticated sessions/database writes/provider callbacks",
+    "search live-service parity",
+    "production asset independence",
+    "dynamic hosting guide",
+    "redirect/content-negotiation and SEO completeness",
+    "chart/live/client example interaction owners",
+    "complete viewport/browser parity",
+    "documentation image/static-asset URL resolution",
+    "Cloudflare Worker-backed chat stream runtime verification",
+    "independent clean-checkout packaging"
+  ]
 }

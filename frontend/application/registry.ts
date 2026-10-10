@@ -1,3 +1,17 @@
+import * as redirectView125 from "./views/stats/index"
+import * as redirectView124 from "./views/_library/charts.catalog.all"
+import * as redirectView123 from "./views/showcases"
+import * as redirectView122 from "./views/ds.maintainers"
+import * as redirectView121 from "./views/chat.w.$workspaceId.home.$homeSection"
+import * as redirectView120 from "./views/chat.w.$workspaceId.b.$botId"
+import * as redirectView119 from "./views/chat.project.$projectId"
+import * as redirectView118 from "./views/chat.new-project"
+import * as redirectView117 from "./views/builder_.p.$hash"
+import * as redirectView116 from "./views/builder_.new"
+import * as redirectView115 from "./views/builder_.esbuild"
+import * as redirectView114 from "./views/builder_.ai"
+import * as redirectView113 from "./views/builder_.$id"
+import * as redirectView112 from "./views/builder"
 import * as view0 from "./views/_library"
 import * as view1 from "./views/_library/$libraryId/$version.docs.community-resources"
 import * as view2 from "./views/_library/$libraryId/$version.docs.contributors"
@@ -223,4 +237,18 @@ export const applicationViews={
 "src/routes/stats/npm/embed": {pattern:"/stats/npm/embed",options:view109.routeOptions},
 "src/routes/stats/npm/index": {pattern:"/stats/npm/",options:view110.routeOptions},
 "src/routes/workshops": {pattern:"/workshops",options:view111.routeOptions},
+ "src/routes/builder": {pattern:"/builder",options:redirectView112.routeOptions},
+ "src/routes/builder_.$id": {pattern:"/builder_/$id",options:redirectView113.routeOptions},
+ "src/routes/builder_.ai": {pattern:"/builder_/ai",options:redirectView114.routeOptions},
+ "src/routes/builder_.esbuild": {pattern:"/builder_/esbuild",options:redirectView115.routeOptions},
+ "src/routes/builder_.new": {pattern:"/builder_/new",options:redirectView116.routeOptions},
+ "src/routes/builder_.p.$hash": {pattern:"/builder_/p/$hash",options:redirectView117.routeOptions},
+ "src/routes/chat.new-project": {pattern:"/chat/new-project",options:redirectView118.routeOptions},
+ "src/routes/chat.project.$projectId": {pattern:"/chat/project/$projectId",options:redirectView119.routeOptions},
+ "src/routes/chat.w.$workspaceId.b.$botId": {pattern:"/chat/w/$workspaceId/b/$botId",options:redirectView120.routeOptions},
+ "src/routes/chat.w.$workspaceId.home.$homeSection": {pattern:"/chat/w/$workspaceId/home/$homeSection",options:redirectView121.routeOptions},
+ "src/routes/ds.maintainers": {pattern:"/ds/maintainers",options:redirectView122.routeOptions},
+ "src/routes/showcases": {pattern:"/showcases",options:redirectView123.routeOptions},
+ "src/routes/_library/charts.catalog.all": {pattern:"/_library/charts/catalog/all",options:redirectView124.routeOptions},
+ "src/routes/stats/index": {pattern:"/stats/",options:redirectView125.routeOptions},
 }

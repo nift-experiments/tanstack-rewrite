@@ -1,6 +1,6 @@
 # TanStack rewrite experiment
 
-The rewrite is in progress. Maintained Markdown produces **14,107 documentation URLs from 7,527 unique authored documents**, alongside the homepage, 44 library landings, 14 marketing pages and 81 blog pages/index: **14,247 complete publications**. There are also **100 request-time application-family boundaries** backed by 112 authored view/options bindings. Family availability is not final semantic, visual or service parity; see [the gap ledger](investigation/CORPUS-GAPS.json).
+The rewrite is in progress. Maintained Markdown produces **14,107 documentation URLs from 7,527 unique authored documents**, alongside the homepage, 44 library landings, 14 marketing pages and 81 blog pages/index: **14,247 complete publications**. There are also **114 request-time family boundaries** (100 application views and 14 route controls) backed by 126 authored view/options bindings. Family availability is not final semantic, visual or service parity; see [the gap ledger](investigation/CORPUS-GAPS.json).
 
 ## Build and serve locally
 

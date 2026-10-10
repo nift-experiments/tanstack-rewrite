@@ -1,0 +1,15 @@
+{
+  "status": "Owned API/class artifact packages via native _build/worker; selected workerd protocol/persistence checks pass",
+  "evidence": [
+    "evidence/r3/worker-api-protocol.json",
+    "evidence/r3/worker-durable-persistence.json"
+  ],
+  "remaining": [
+    "Full chat and workflow execution",
+    "Authenticated class/service/provider parity",
+    "Publication hosting and portable document providers",
+    "Complete production bindings",
+    "Malformed server-function error-path parity",
+    "Independent dependencies/toolchains"
+  ]
+}

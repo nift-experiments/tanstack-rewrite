@@ -1,0 +1,159 @@
+{
+  "scope": "Pinned reference vs owned shared route controls; anonymous redirects with query/hash preservation, not full authenticated chat parity",
+  "rows": [
+    {
+      "pathname": "/builder",
+      "reference": {
+        "status": 307,
+        "location": "/chat"
+      },
+      "candidate": {
+        "status": 307,
+        "location": "/chat"
+      }
+    },
+    {
+      "pathname": "/builder/ai",
+      "reference": {
+        "status": 307,
+        "location": "/chat"
+      },
+      "candidate": {
+        "status": 307,
+        "location": "/chat"
+      }
+    },
+    {
+      "pathname": "/builder/esbuild",
+      "reference": {
+        "status": 307,
+        "location": "/chat"
+      },
+      "candidate": {
+        "status": 307,
+        "location": "/chat"
+      }
+    },
+    {
+      "pathname": "/builder/new?template=react",
+      "reference": {
+        "status": 307,
+        "location": "/chat/new-project?template=react"
+      },
+      "candidate": {
+        "status": 307,
+        "location": "/chat/new-project?template=react"
+      }
+    },
+    {
+      "pathname": "/builder/fixture-project",
+      "reference": {
+        "status": 307,
+        "location": "/chat/project/fixture-project"
+      },
+      "candidate": {
+        "status": 307,
+        "location": "/chat/project/fixture-project"
+      }
+    },
+    {
+      "pathname": "/builder/p/fixture-share",
+      "reference": {
+        "status": 307,
+        "location": "/chat/p/fixture-share"
+      },
+      "candidate": {
+        "status": 307,
+        "location": "/chat/p/fixture-share"
+      }
+    },
+    {
+      "pathname": "/ds/maintainers",
+      "reference": {
+        "status": 307,
+        "location": "/ds/avatar#maintainer-card"
+      },
+      "candidate": {
+        "status": 307,
+        "location": "/ds/avatar#maintainer-card"
+      }
+    },
+    {
+      "pathname": "/showcases?sort=popular",
+      "reference": {
+        "status": 307,
+        "location": "/showcase?sort=popular"
+      },
+      "candidate": {
+        "status": 307,
+        "location": "/showcase?sort=popular"
+      }
+    },
+    {
+      "pathname": "/stats",
+      "reference": {
+        "status": 307,
+        "location": "/stats/npm"
+      },
+      "candidate": {
+        "status": 307,
+        "location": "/stats/npm"
+      }
+    },
+    {
+      "pathname": "/charts/catalog/all",
+      "reference": {
+        "status": 307,
+        "location": "/charts/catalog"
+      },
+      "candidate": {
+        "status": 307,
+        "location": "/charts/catalog"
+      }
+    },
+    {
+      "pathname": "/chat/new-project",
+      "reference": {
+        "status": 307,
+        "location": "/chat-access"
+      },
+      "candidate": {
+        "status": 307,
+        "location": "/chat-access"
+      }
+    },
+    {
+      "pathname": "/chat/project/fixture-project",
+      "reference": {
+        "status": 307,
+        "location": "/chat-access"
+      },
+      "candidate": {
+        "status": 307,
+        "location": "/chat-access"
+      }
+    },
+    {
+      "pathname": "/chat/w/fixture-workspace/b/fixture-bot",
+      "reference": {
+        "status": 307,
+        "location": "/chat-access"
+      },
+      "candidate": {
+        "status": 307,
+        "location": "/chat-access"
+      }
+    },
+    {
+      "pathname": "/chat/w/fixture-workspace/home/attention",
+      "reference": {
+        "status": 307,
+        "location": "/chat-access"
+      },
+      "candidate": {
+        "status": 307,
+        "location": "/chat-access"
+      }
+    }
+  ]
+}

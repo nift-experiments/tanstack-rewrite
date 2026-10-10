@@ -66,6 +66,13 @@
       "adaptation": "Route-independent authored options/view; owned route identity binding"
     },
     {
+      "source": "src/routes/_library/$libraryId/$version.docs.index.tsx",
+      "file": "_library/$libraryId/$version.docs.index.tsx",
+      "pattern": "/_library/$libraryId/$version/docs/",
+      "sourceSha256": "144d182b9194b167311bb6e3a7b9a5d710124e6bbaa17ddc810a5dbdc5385424",
+      "adaptation": "Route-independent authored options/view; owned route identity binding"
+    },
+    {
       "source": "src/routes/_library/$libraryId/$version.docs.npm-stats.tsx",
       "file": "_library/$libraryId/$version.docs.npm-stats.tsx",
       "pattern": "/_library/$libraryId/$version/docs/npm-stats",
@@ -80,10 +87,24 @@
       "adaptation": "Route-independent authored options/view; owned route identity binding"
     },
     {
+      "source": "src/routes/_library/$libraryId/$version.index.tsx",
+      "file": "_library/$libraryId/$version.index.tsx",
+      "pattern": "/_library/$libraryId/$version/",
+      "sourceSha256": "c045dabf0c4a58302986f69eb2c227bf95e5f61ecc0604d28453bf1073919706",
+      "adaptation": "Route-independent authored options/view; owned route identity binding"
+    },
+    {
       "source": "src/routes/_library/$libraryId/$version.tsx",
       "file": "_library/$libraryId/$version.tsx",
       "pattern": "/_library/$libraryId/$version",
       "sourceSha256": "0d88b0c0290226d9dfc53b8166339379ccd3eb22867a99cf1f643a685b9a8dc4",
+      "adaptation": "Route-independent authored options/view; owned route identity binding"
+    },
+    {
+      "source": "src/routes/_library/$libraryId/index.tsx",
+      "file": "_library/$libraryId/index.tsx",
+      "pattern": "/_library/$libraryId/",
+      "sourceSha256": "f0b273408fc900d7ed0bc87a3f8cbf52e0c79c5f8a5d330f224897352f44d6d5",
       "adaptation": "Route-independent authored options/view; owned route identity binding"
     },
     {
@@ -105,6 +126,13 @@
       "file": "_library/charts.$version.index.tsx",
       "pattern": "/_library/charts/$version/",
       "sourceSha256": "8594e16fd94ff0862e172e85410798ff4bda6aa3710d32bf642417813e4a430f",
+      "adaptation": "Route-independent authored options/view; owned route identity binding"
+    },
+    {
+      "source": "src/routes/_library/charts.catalog.all.tsx",
+      "file": "_library/charts.catalog.all.tsx",
+      "pattern": "/_library/charts/catalog/all",
+      "sourceSha256": "303c594dcc587db018c7b5e4c03fe34ad6083b1bf564c3f84da6b96f6bbe4c46",
       "adaptation": "Route-independent authored options/view; owned route identity binding"
     },
     {
@@ -521,6 +549,48 @@
       "adaptation": "Route-independent authored options/view; owned route identity binding"
     },
     {
+      "source": "src/routes/builder_.$id.tsx",
+      "file": "builder_.$id.tsx",
+      "pattern": "/builder_/$id",
+      "sourceSha256": "90cc9a684844b22b668a6745a51644c50ab78447b315996aeed0d7b5aaa97cfb",
+      "adaptation": "Route-independent authored options/view; owned route identity binding"
+    },
+    {
+      "source": "src/routes/builder_.ai.tsx",
+      "file": "builder_.ai.tsx",
+      "pattern": "/builder_/ai",
+      "sourceSha256": "fefed77526d923f130c714e3845a81f62eabd2868c79373da57c27f25641cc0d",
+      "adaptation": "Route-independent authored options/view; owned route identity binding"
+    },
+    {
+      "source": "src/routes/builder_.esbuild.tsx",
+      "file": "builder_.esbuild.tsx",
+      "pattern": "/builder_/esbuild",
+      "sourceSha256": "32ba6c637453d5c06b6f9055b0d12369ebb6105b549e7b93a9f0e02e320c708b",
+      "adaptation": "Route-independent authored options/view; owned route identity binding"
+    },
+    {
+      "source": "src/routes/builder_.new.tsx",
+      "file": "builder_.new.tsx",
+      "pattern": "/builder_/new",
+      "sourceSha256": "cc5be67f6fc5ce5ecc86251e207140d93ce087caf20d8f296af0005b295c9cda",
+      "adaptation": "Route-independent authored options/view; owned route identity binding"
+    },
+    {
+      "source": "src/routes/builder_.p.$hash.tsx",
+      "file": "builder_.p.$hash.tsx",
+      "pattern": "/builder_/p/$hash",
+      "sourceSha256": "1f47f9091378606532327483c45a731fce4b611870b974eae1de9273a00cf237",
+      "adaptation": "Route-independent authored options/view; owned route identity binding"
+    },
+    {
+      "source": "src/routes/builder.tsx",
+      "file": "builder.tsx",
+      "pattern": "/builder",
+      "sourceSha256": "e03500f1affc14789fab88ac16966dbf4a79b8ff428fe6a850b7dda3c4e68015",
+      "adaptation": "Route-independent authored options/view; owned route identity binding"
+    },
+    {
       "source": "src/routes/chat-access.tsx",
       "file": "chat-access.tsx",
       "pattern": "/chat-access",
@@ -556,10 +626,24 @@
       "adaptation": "Route-independent authored options/view; owned route identity binding"
     },
     {
+      "source": "src/routes/chat.new-project.tsx",
+      "file": "chat.new-project.tsx",
+      "pattern": "/chat/new-project",
+      "sourceSha256": "825dfc01fa976af4351e984711249c33da39b06263e94522ed70d9441468b67b",
+      "adaptation": "Route-independent authored options/view; owned route identity binding"
+    },
+    {
       "source": "src/routes/chat.p.$hash.tsx",
       "file": "chat.p.$hash.tsx",
       "pattern": "/chat/p/$hash",
       "sourceSha256": "ca02e7d827583d45f413a8e6d755c6bccd078e98e33625e70b3b17253c87595b",
+      "adaptation": "Route-independent authored options/view; owned route identity binding"
+    },
+    {
+      "source": "src/routes/chat.project.$projectId.tsx",
+      "file": "chat.project.$projectId.tsx",
+      "pattern": "/chat/project/$projectId",
+      "sourceSha256": "151fd8ba97442a31f1bef180b28d4b3f6b4982204e6cb7ca2dd3880c3937a5f2",
       "adaptation": "Route-independent authored options/view; owned route identity binding"
     },
     {
@@ -574,6 +658,20 @@
       "file": "chat.tsx",
       "pattern": "/chat",
       "sourceSha256": "c5e15a48c3d37f0912134ca727a479676401e7e1567959533428bece36438272",
+      "adaptation": "Route-independent authored options/view; owned route identity binding"
+    },
+    {
+      "source": "src/routes/chat.w.$workspaceId.b.$botId.tsx",
+      "file": "chat.w.$workspaceId.b.$botId.tsx",
+      "pattern": "/chat/w/$workspaceId/b/$botId",
+      "sourceSha256": "fbd6f800261ccff8d9bcc6b91c27f9682a705b5b33b87af8424f2d59dd37994b",
+      "adaptation": "Route-independent authored options/view; owned route identity binding"
+    },
+    {
+      "source": "src/routes/chat.w.$workspaceId.home.$homeSection.tsx",
+      "file": "chat.w.$workspaceId.home.$homeSection.tsx",
+      "pattern": "/chat/w/$workspaceId/home/$homeSection",
+      "sourceSha256": "2d2485bc8e3c24f97f6f82226278d0e48f24acfc96f5caa6ffa740b6e736937a",
       "adaptation": "Route-independent authored options/view; owned route identity binding"
     },
     {
@@ -693,6 +791,13 @@
       "file": "ds.logos.tsx",
       "pattern": "/ds/logos",
       "sourceSha256": "6fbf3e1e88e409af49262cdebd0813a71bea720b6fdb8b100e1a086510c4c06a",
+      "adaptation": "Route-independent authored options/view; owned route identity binding"
+    },
+    {
+      "source": "src/routes/ds.maintainers.tsx",
+      "file": "ds.maintainers.tsx",
+      "pattern": "/ds/maintainers",
+      "sourceSha256": "e87e8c5ea49b586791b7cf7a57be12fd3b85af7d430bc53675d209d3fbe69569",
       "adaptation": "Route-independent authored options/view; owned route identity binding"
     },
     {
@@ -1053,6 +1158,13 @@
       "adaptation": "Route-independent authored options/view; owned route identity binding"
     },
     {
+      "source": "src/routes/showcases.tsx",
+      "file": "showcases.tsx",
+      "pattern": "/showcases",
+      "sourceSha256": "559e520d48ce5bed69d75a28f22393a99ae460c26cd46dd886e428cda07a3696",
+      "adaptation": "Route-independent authored options/view; owned route identity binding"
+    },
+    {
       "source": "src/routes/sponsors-embed.tsx",
       "file": "sponsors-embed.tsx",
       "pattern": "/sponsors-embed",
@@ -1064,6 +1176,13 @@
       "file": "stack.$category.tsx",
       "pattern": "/stack/$category",
       "sourceSha256": "b6a27cc72dff9267c92ceae9047efa0278a7e86198e975a71f4488a053dc2cb7",
+      "adaptation": "Route-independent authored options/view; owned route identity binding"
+    },
+    {
+      "source": "src/routes/stats/index.tsx",
+      "file": "stats/index.tsx",
+      "pattern": "/stats/",
+      "sourceSha256": "deb8cb0a192072c59ebc712fae7db496565cb32e21e0a76a312685195cdda36d",
       "adaptation": "Route-independent authored options/view; owned route identity binding"
     },
     {

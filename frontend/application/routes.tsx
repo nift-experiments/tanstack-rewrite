@@ -46,7 +46,9 @@ export function createApplicationRoutes(root:any,publication?:{phase:string;html
       // A view with nested parameter routes can still be its own endpoint.
       // The initialized Router's actual index/priority rules are authoritative.
       for(const {pattern,route,view}of bindings){
-        if(!view.options.component||router.matchRoutes(route.fullPath).at(-1)?.routeId!==route.id)continue
+        if(router.matchRoutes(route.fullPath).at(-1)?.routeId!==route.id)continue
+        if(!view.options.component&&!view.options.beforeLoad)continue
+        if(!view.options.component)route.options.staticData.publicationRedirect=true
         route.options.staticData.publicationFamily='application'
         if(environment?.server)continue
         const originalLoader=route.options.loader
@@ -61,6 +63,6 @@ export function createApplicationRoutes(root:any,publication?:{phase:string;html
       }
     },
     count:bindings.length,
-    definitions:()=>bindings.map(({pattern,route})=>({pattern,id:route.id,pathname:route.fullPath,leaf:route.options.staticData?.publicationFamily==='application',publicationKey:applicationPublicationKey(pattern)})),
+    definitions:()=>bindings.map(({pattern,route})=>({pattern,id:route.id,pathname:route.fullPath,leaf:route.options.staticData?.publicationFamily==='application',redirect:Boolean(route.options.staticData?.publicationRedirect),publicationKey:applicationPublicationKey(pattern)})),
   }
 }

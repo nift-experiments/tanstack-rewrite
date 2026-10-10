@@ -52,7 +52,9 @@ function visit(file){
   fs.writeFileSync(output,maintained);
   records.push({source:'src/routes/'+relative,file:relative,pattern:binding??null,sourceSha256:createHash('sha256').update(source).digest('hex'),adaptation:binding?'Route-independent authored options/view; owned route identity binding':'Exact shared route-local helper'});
 }
-for(const record of inventory.records.filter(row=>row.component&&!row.service))visit(path.resolve('../tanstack-upstream',record.source));
+const redirectsOnly=process.argv.includes('--redirects-only');
+for(const record of inventory.records.filter(row=>!row.service&&(redirectsOnly?!row.component&&row.options.includes('beforeLoad'):row.component)))visit(path.resolve('../tanstack-upstream',record.source));
+if(redirectsOnly){const previous=JSON.parse(fs.readFileSync('frontend/application/PROVENANCE.json')).records;for(const record of previous)if(!records.some(row=>row.source===record.source))records.push(record)}
 records.sort((a,b)=>a.source.localeCompare(b.source));
 fs.writeFileSync('frontend/application/PROVENANCE.json',JSON.stringify({upstreamCommit:'862ccc3d191818320c3e6d217542883f80cb907a',scope:'Owned authored application views; import does not claim publication or runtime parity',records},null,2)+'\n');
 console.log('Owned application source modules:',records.length);
