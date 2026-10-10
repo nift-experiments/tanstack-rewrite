@@ -13,7 +13,8 @@
     "proof:document": "node scripts/proof-document.mjs",
     "proof:codeblock": "node scripts/proof-codeblock.mjs",
     "proof:article-controls": "node scripts/proof-article-controls.mjs",
-    "proof:session": "node scripts/proof-session.mjs"
+    "proof:session": "node scripts/proof-session.mjs",
+    "proof:auth": "node scripts/proof-auth.mjs"
   },
   "dependencies": {
     "@phosphor-icons/react": "2.1.10",

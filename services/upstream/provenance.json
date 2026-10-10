@@ -14,5 +14,9 @@
       "file": "auth/types.ts",
       "sha256": "d533682044057e611283eba2dd7b89832648f278c58c6dd653539d0dae091a8a"
     }
-  ]
+  ],
+  "auth_service_adaptation": {
+    "original_sha256": "0e74a96ee511bb19acf43851c9f64f5a0e4c58c3da4a95b057f3460872060e9b",
+    "change": "Database availability check becomes an explicit constructor dependency; original session validation, revocation, mapping and guard semantics retained. No fake framework/database module."
+  }
 }

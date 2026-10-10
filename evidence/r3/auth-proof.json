@@ -1,0 +1,11 @@
+{
+  "scope": "Owned auth service/guards with injected local repositories; provider callbacks, real database adapter and full HTTP/chat integration pending",
+  "authenticated_user_roundtrip": true,
+  "anonymous_rejected": true,
+  "required_capability_enforced": true,
+  "admin_override_retained": true,
+  "session_version_revocation": true,
+  "missing_user_rejected": true,
+  "development_unconfigured_database_anon": true,
+  "private_credentials_used": false
+}
