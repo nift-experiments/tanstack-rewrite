@@ -1,0 +1,51 @@
+{
+  "scope": "Paired pinned production route; real lazy import, metadata, paging, filter, clipboard, weight and size at desktop/mobile. Only external transports blocked.",
+  "rows": [
+    {
+      "width": 1440,
+      "sides": [
+        {
+          "title": "Iconography | TanStack Design System",
+          "initial": 120,
+          "afterControls": 120,
+          "weight": "bold",
+          "size": 32,
+          "clipboard": "<AcornIcon />",
+          "errors": []
+        },
+        {
+          "title": "Iconography | TanStack Design System",
+          "initial": 120,
+          "afterControls": 120,
+          "weight": "bold",
+          "size": 32,
+          "clipboard": "<AcornIcon />",
+          "errors": []
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "sides": [
+        {
+          "title": "Iconography | TanStack Design System",
+          "initial": 120,
+          "afterControls": 120,
+          "weight": "bold",
+          "size": 32,
+          "clipboard": "<AcornIcon />",
+          "errors": []
+        },
+        {
+          "title": "Iconography | TanStack Design System",
+          "initial": 120,
+          "afterControls": 120,
+          "weight": "bold",
+          "size": 32,
+          "clipboard": "<AcornIcon />",
+          "errors": []
+        }
+      ]
+    }
+  ]
+}

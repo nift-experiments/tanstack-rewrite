@@ -597,6 +597,15 @@
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
     {
+      "pattern": "/ds/iconography",
+      "id": "/ds/iconography",
+      "pathname": "/ds/iconography",
+      "leaf": true,
+      "redirect": false,
+      "publicationKey": "ds_iconography",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
       "pattern": "/ds/inputs",
       "id": "/ds/inputs",
       "pathname": "/ds/inputs",
@@ -1143,6 +1152,15 @@
       "leaf": true,
       "redirect": false,
       "publicationKey": "library_charts_catalog_collections_collectionId",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/chat/c/$conversationId/m/$messageId",
+      "id": "/chat/c/$conversationId/m/$messageId",
+      "pathname": "/chat/c/$conversationId/m/$messageId",
+      "leaf": true,
+      "redirect": false,
+      "publicationKey": "chat_c_conversationId_m_messageId",
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
     {
@@ -1887,11 +1905,6 @@
       "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
-      "pattern": "/ds/iconography",
-      "classification": "public page/application route",
-      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
-    },
-    {
       "pattern": "/blog/",
       "classification": "public page/application route",
       "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
@@ -2010,22 +2023,21 @@
       "pattern": "/workflow/$version/",
       "classification": "public page/application route",
       "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
-    },
-    {
-      "pattern": "/chat/c/$conversationId/m/$messageId",
-      "classification": "complex client + backend application",
-      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     }
   ],
   "workerRuntime": {
-    "status": "Normal preview uses actual workerd durable/R2/workflow bindings; signed local database bootstrap, selected protocol/persistence checks pass",
+    "status": "Actual workerd durable/R2/workflow bindings; signed bootstrap, workspace projection, selected protocols and retained provider-backed conversation pass with explicit local transport fixtures",
     "evidence": [
       "evidence/r3/worker-api-protocol.json",
       "evidence/r3/worker-durable-persistence.json",
-      "evidence/r3/preview-authenticated-runtime.json"
+      "evidence/r3/preview-authenticated-runtime.json",
+      "evidence/r3/preview-workspace-sync.json",
+      "evidence/r3/runtime-storage-contract.json",
+      "evidence/r3/preview-conversation.json",
+      "evidence/r3/preview-workflow.json"
     ],
     "remaining": [
-      "Full chat and workflow execution",
+      "Broader tool-bearing conversations, workflow interactions and live provider behavior",
       "Authenticated class/service/provider parity",
       "Publication hosting and portable document providers",
       "Complete production bindings",

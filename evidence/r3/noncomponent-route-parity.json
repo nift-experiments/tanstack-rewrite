@@ -1,0 +1,31 @@
+{
+  "scope": "Pinned generated route tree, actual production HTTP status/redirect/title. Empty active child route retained; lazy iconography metadata and component belong to the active pinned route tree.",
+  "rows": [
+    {
+      "route": "/ds/iconography",
+      "reference": {
+        "status": 200,
+        "location": null,
+        "title": "Iconography | TanStack Design System"
+      },
+      "candidate": {
+        "status": 200,
+        "location": null,
+        "title": "Iconography | TanStack Design System"
+      }
+    },
+    {
+      "route": "/chat/c/00000000-0000-4000-8000-000000000000/m/fixture-message",
+      "reference": {
+        "status": 307,
+        "location": "/chat-access",
+        "title": null
+      },
+      "candidate": {
+        "status": 307,
+        "location": "/chat-access",
+        "title": null
+      }
+    }
+  ]
+}

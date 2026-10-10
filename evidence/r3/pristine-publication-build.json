@@ -1,0 +1,18 @@
+{
+  "copiedMaintainedFiles": 11990,
+  "generatedWorkAbsent": true,
+  "nativeCacheAbsent": true,
+  "nodeModulesAbsent": true,
+  "scope": "Independent maintained source copy, no generated artifacts/native cache/packages at staging, owned frozen offline install and normal native full build. Concurrent parity work makes elapsed times unsuitable as benchmark claims. Runtime-only hosting refinements after staging remain separately tested.",
+  "frozenInstallPassed": true,
+  "normalBuildPassed": true,
+  "producerReceipts": [
+    "posts.json",
+    "backend.json",
+    "frontend.json",
+    "preparation.json",
+    "worker.json"
+  ],
+  "nativeOutputs": 28633,
+  "homepagePresent": true
+}

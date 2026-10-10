@@ -1,3 +1,5 @@
+import * as leafControl1 from "./views/ds.iconography"
+import * as leafControl0 from "./views/chat.c.$conversationId.m.$messageId"
 import * as redirectView125 from "./views/stats/index"
 import * as redirectView124 from "./views/_library/charts.catalog.all"
 import * as redirectView123 from "./views/showcases"
@@ -251,4 +253,6 @@ export const applicationViews={
  "src/routes/showcases": {pattern:"/showcases",options:redirectView123.routeOptions},
  "src/routes/_library/charts.catalog.all": {pattern:"/_library/charts/catalog/all",options:redirectView124.routeOptions},
  "src/routes/stats/index": {pattern:"/stats/",options:redirectView125.routeOptions},
+"src/routes/chat.c.$conversationId.m.$messageId": {pattern:"/chat/c/$conversationId/m/$messageId",options:leafControl0.routeOptions},
+"src/routes/ds.iconography": {pattern:"/ds/iconography",options:leafControl1.routeOptions,lazy:()=>import("./views/ds.iconography.lazy").then(module=>module.routeOptions)},
 }

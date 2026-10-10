@@ -1,14 +1,14 @@
 {
   "scope": "All 96 pinned browser sample states, fresh paired upstream and rewrite with identical public transport, no database, fallback fonts, reduced motion, settled chart state, and matched real upstream partner-placement seed. No pixel masks or screenshot normalization. Frozen snapshots remain unchanged.",
   "states": 96,
-  "passing": 87,
+  "passing": 91,
   "rows": [
     {
       "index": 0,
       "route": "/",
       "width": 1440,
       "theme": "dark",
-      "matchedPlacementSeed": "3874bafb-f25d-4cd0-9fdf-bf9cdaddc130",
+      "matchedPlacementSeed": "96374f12-4733-421c-a3d5-b79cd970e180",
       "differences": [],
       "sides": [
         {
@@ -30,20 +30,15 @@
         1440,
         8318
       ],
-      "differenceBounds": [
-        19,
-        694,
-        1421,
-        7601
-      ],
-      "pixelDifference": "RGB"
+      "differenceBounds": null,
+      "pixelDifference": null
     },
     {
       "index": 1,
       "route": "/ethos",
       "width": 1440,
       "theme": "dark",
-      "matchedPlacementSeed": "398e80a9-04ad-48e9-8d9a-50e9b37ca3f2",
+      "matchedPlacementSeed": "256f15a3-4692-49e3-acc7-260ea145fb3e",
       "differences": [],
       "sides": [
         {
@@ -73,7 +68,7 @@
       "route": "/brand-guide",
       "width": 1440,
       "theme": "dark",
-      "matchedPlacementSeed": "e3a97847-5d4b-43e8-9b5f-22c3e02273f7",
+      "matchedPlacementSeed": "64373a89-8f1b-44fc-ab38-347b99ec457f",
       "differences": [],
       "sides": [
         {
@@ -103,7 +98,7 @@
       "route": "/blog/announcing-tanstack-query-v5",
       "width": 1440,
       "theme": "dark",
-      "matchedPlacementSeed": "d78c6fd4-08d1-4458-bff5-75dfa8af3411",
+      "matchedPlacementSeed": "77e3b698-ba83-403b-b3e4-f40dc865769a",
       "differences": [],
       "sides": [
         {
@@ -133,7 +128,7 @@
       "route": "/query/latest/docs/framework/react/overview",
       "width": 1440,
       "theme": "dark",
-      "matchedPlacementSeed": "305e42cb-d0e7-469a-9760-c07819db98eb",
+      "matchedPlacementSeed": "4e17de8b-2dfb-47cb-90a2-1f23bcb4532e",
       "differences": [],
       "sides": [
         {
@@ -163,7 +158,7 @@
       "route": "/start/latest/docs/framework/react/build-from-scratch",
       "width": 1440,
       "theme": "dark",
-      "matchedPlacementSeed": "8b741218-7560-4caf-a977-300b44e15e10",
+      "matchedPlacementSeed": "4d70adf6-8648-4fc1-9c5b-a015874b6b0b",
       "differences": [],
       "sides": [
         {
@@ -193,7 +188,7 @@
       "route": "/query/latest/docs/framework/react/comparison",
       "width": 1440,
       "theme": "dark",
-      "matchedPlacementSeed": "1584f9b7-0b1a-4c08-9fb5-fe097fa003bd",
+      "matchedPlacementSeed": "43b0653a-48f7-47a4-a5bd-24d1dbb7f640",
       "differences": [],
       "sides": [
         {
@@ -223,7 +218,7 @@
       "route": "/stats/npm",
       "width": 1440,
       "theme": "dark",
-      "matchedPlacementSeed": "fb49fdcd-a272-46b9-b232-d0c36dc82bfc",
+      "matchedPlacementSeed": "1509064e-73cc-4dc1-a594-b089ce6d4da5",
       "differences": [],
       "sides": [
         {
@@ -253,7 +248,7 @@
       "route": "/charts/catalog/charts/01-line-gaps/",
       "width": 1440,
       "theme": "dark",
-      "matchedPlacementSeed": "65171296-908d-488f-85f8-f7dd2d56264a",
+      "matchedPlacementSeed": "d8aad901-5c0a-4342-a120-42c4bc7f480a",
       "differences": [],
       "sides": [
         {
@@ -283,7 +278,7 @@
       "route": "/chat",
       "width": 1440,
       "theme": "dark",
-      "matchedPlacementSeed": "54fe4500-be8c-4304-bd2d-4e4ff3791359",
+      "matchedPlacementSeed": "f4b8c8eb-7bf4-4411-8583-23670f6648df",
       "differences": [],
       "sides": [
         {
@@ -313,7 +308,7 @@
       "route": "/login",
       "width": 1440,
       "theme": "dark",
-      "matchedPlacementSeed": "e8aa2fe8-e1dc-4059-ac3b-710ab374a519",
+      "matchedPlacementSeed": "5ed0975e-50bf-4df0-8df0-890692cdd7b4",
       "differences": [],
       "sides": [
         {
@@ -343,7 +338,7 @@
       "route": "/not-a-real-page",
       "width": 1440,
       "theme": "dark",
-      "matchedPlacementSeed": "6bcd7101-f980-4599-b644-16b9eadde0d3",
+      "matchedPlacementSeed": "70ff0f79-5c7e-448e-8e7a-dbe49a6af7c2",
       "differences": [],
       "sides": [
         {
@@ -373,7 +368,7 @@
       "route": "/",
       "width": 1440,
       "theme": "light",
-      "matchedPlacementSeed": "5d2b687c-62ff-47b4-81de-3e8f911aafdd",
+      "matchedPlacementSeed": "cd121d34-add9-4daf-9743-359aee644d3a",
       "differences": [],
       "sides": [
         {
@@ -396,10 +391,10 @@
         8318
       ],
       "differenceBounds": [
-        19,
-        694,
-        1421,
-        7537
+        241,
+        992,
+        258,
+        997
       ],
       "pixelDifference": "RGB"
     },
@@ -408,7 +403,7 @@
       "route": "/ethos",
       "width": 1440,
       "theme": "light",
-      "matchedPlacementSeed": "f1a581c4-6fa1-4076-b48d-d9f8ad43b972",
+      "matchedPlacementSeed": "56f55820-7261-4a31-802a-de7f619c8f70",
       "differences": [],
       "sides": [
         {
@@ -438,7 +433,7 @@
       "route": "/brand-guide",
       "width": 1440,
       "theme": "light",
-      "matchedPlacementSeed": "411667d8-2fdf-45c2-82f1-4db1f60f77b1",
+      "matchedPlacementSeed": "2340bc63-47ee-41ba-a36c-111b2740bc17",
       "differences": [],
       "sides": [
         {
@@ -468,7 +463,7 @@
       "route": "/blog/announcing-tanstack-query-v5",
       "width": 1440,
       "theme": "light",
-      "matchedPlacementSeed": "6d694fd5-bfa6-4e02-b23c-2c783035988b",
+      "matchedPlacementSeed": "88e91b8a-486f-4256-8d39-3e8945087014",
       "differences": [],
       "sides": [
         {
@@ -498,7 +493,7 @@
       "route": "/query/latest/docs/framework/react/overview",
       "width": 1440,
       "theme": "light",
-      "matchedPlacementSeed": "6e93875c-c2e8-470a-bdc7-2f0f2dfc440d",
+      "matchedPlacementSeed": "9f5c228d-c350-4c1c-a107-0eb6bbfc5b0d",
       "differences": [],
       "sides": [
         {
@@ -528,7 +523,7 @@
       "route": "/start/latest/docs/framework/react/build-from-scratch",
       "width": 1440,
       "theme": "light",
-      "matchedPlacementSeed": "c2f82ff0-dbf9-4db4-934e-62c40ecb7eb3",
+      "matchedPlacementSeed": "e0ef45ff-8dc6-43ff-8894-0b6b6cd127b2",
       "differences": [],
       "sides": [
         {
@@ -558,7 +553,7 @@
       "route": "/query/latest/docs/framework/react/comparison",
       "width": 1440,
       "theme": "light",
-      "matchedPlacementSeed": "5e95e839-b7d5-475f-a050-dbb83f3730a8",
+      "matchedPlacementSeed": "4ea89226-3186-4709-80d7-c3c3b72015a0",
       "differences": [],
       "sides": [
         {
@@ -588,7 +583,7 @@
       "route": "/stats/npm",
       "width": 1440,
       "theme": "light",
-      "matchedPlacementSeed": "01021e4e-5e29-4c9e-a318-bd4d34175b11",
+      "matchedPlacementSeed": "974d2d19-63f3-41fe-881e-6bc339c9a728",
       "differences": [],
       "sides": [
         {
@@ -618,7 +613,7 @@
       "route": "/charts/catalog/charts/01-line-gaps/",
       "width": 1440,
       "theme": "light",
-      "matchedPlacementSeed": "5365d118-91bb-4508-b7c9-2dded1a4c150",
+      "matchedPlacementSeed": "c7fe6e88-0f10-44a7-9400-d3d0a07db5af",
       "differences": [],
       "sides": [
         {
@@ -640,15 +635,20 @@
         1440,
         1583
       ],
-      "differenceBounds": null,
-      "pixelDifference": null
+      "differenceBounds": [
+        1419,
+        967,
+        1423,
+        971
+      ],
+      "pixelDifference": "RGB"
     },
     {
       "index": 21,
       "route": "/chat",
       "width": 1440,
       "theme": "light",
-      "matchedPlacementSeed": "b2eb6d3f-02aa-48bd-a9ac-85dd42cd93c2",
+      "matchedPlacementSeed": "fc6119e4-9a9c-4536-b392-1ea16c3dbd41",
       "differences": [],
       "sides": [
         {
@@ -678,7 +678,7 @@
       "route": "/login",
       "width": 1440,
       "theme": "light",
-      "matchedPlacementSeed": "2b223a63-3519-47b4-bab0-1f550c852e54",
+      "matchedPlacementSeed": "29df5ef8-8041-451c-bb76-12c194448d74",
       "differences": [],
       "sides": [
         {
@@ -708,7 +708,7 @@
       "route": "/not-a-real-page",
       "width": 1440,
       "theme": "light",
-      "matchedPlacementSeed": "25b2290d-9ee3-468b-b575-3bbd3bf4a1a6",
+      "matchedPlacementSeed": "1b3b5da8-879f-4336-ba71-6a97546dbb39",
       "differences": [],
       "sides": [
         {
@@ -738,7 +738,7 @@
       "route": "/",
       "width": 768,
       "theme": "dark",
-      "matchedPlacementSeed": "aff1eec7-7cab-4e3e-ab25-d7d82fa03a97",
+      "matchedPlacementSeed": "5ecfff39-a459-4a86-b75e-420007599ca4",
       "differences": [],
       "sides": [
         {
@@ -760,20 +760,15 @@
         768,
         11310
       ],
-      "differenceBounds": [
-        16,
-        719,
-        752,
-        9950
-      ],
-      "pixelDifference": "RGB"
+      "differenceBounds": null,
+      "pixelDifference": null
     },
     {
       "index": 25,
       "route": "/ethos",
       "width": 768,
       "theme": "dark",
-      "matchedPlacementSeed": "87504687-3653-4949-97be-0765fa436007",
+      "matchedPlacementSeed": "86db42b0-02c9-4174-bbfa-595a36ed7e20",
       "differences": [],
       "sides": [
         {
@@ -803,7 +798,7 @@
       "route": "/brand-guide",
       "width": 768,
       "theme": "dark",
-      "matchedPlacementSeed": "13f62e46-0654-4843-9de4-ecd4124e0526",
+      "matchedPlacementSeed": "4af391b6-8ac3-49fb-85e6-8926734faf0e",
       "differences": [],
       "sides": [
         {
@@ -833,7 +828,7 @@
       "route": "/blog/announcing-tanstack-query-v5",
       "width": 768,
       "theme": "dark",
-      "matchedPlacementSeed": "bb45a36c-d8b7-43d4-9670-6083a33022ec",
+      "matchedPlacementSeed": "739f23ef-9a9d-44cc-b4e3-88b8c9a437b6",
       "differences": [],
       "sides": [
         {
@@ -863,7 +858,7 @@
       "route": "/query/latest/docs/framework/react/overview",
       "width": 768,
       "theme": "dark",
-      "matchedPlacementSeed": "4fb0e3d0-cbef-4ef4-8486-73fec95a5eb1",
+      "matchedPlacementSeed": "d80a0236-82c0-43a8-8f1a-90a665454fc9",
       "differences": [],
       "sides": [
         {
@@ -893,7 +888,7 @@
       "route": "/start/latest/docs/framework/react/build-from-scratch",
       "width": 768,
       "theme": "dark",
-      "matchedPlacementSeed": "b1b42d8f-c918-47f1-8435-2df22ce69490",
+      "matchedPlacementSeed": "7b8a4fe1-50dc-4dd1-bcbb-884b4e67c630",
       "differences": [],
       "sides": [
         {
@@ -923,7 +918,7 @@
       "route": "/query/latest/docs/framework/react/comparison",
       "width": 768,
       "theme": "dark",
-      "matchedPlacementSeed": "e5b7d36b-69ce-4a63-886f-49d9e00310cb",
+      "matchedPlacementSeed": "1459da64-a21c-468b-9f1d-c80311becc5a",
       "differences": [],
       "sides": [
         {
@@ -953,7 +948,7 @@
       "route": "/stats/npm",
       "width": 768,
       "theme": "dark",
-      "matchedPlacementSeed": "5c7a874b-81dd-4063-b589-038422c6729f",
+      "matchedPlacementSeed": "c0b3e43f-3ee0-49ab-868d-aa10c687034b",
       "differences": [],
       "sides": [
         {
@@ -983,7 +978,7 @@
       "route": "/charts/catalog/charts/01-line-gaps/",
       "width": 768,
       "theme": "dark",
-      "matchedPlacementSeed": "c91ec07a-d9b0-4461-af96-74fc91f599f8",
+      "matchedPlacementSeed": "62f4be09-134a-4b5e-a57f-ffab10574285",
       "differences": [],
       "sides": [
         {
@@ -1013,7 +1008,7 @@
       "route": "/chat",
       "width": 768,
       "theme": "dark",
-      "matchedPlacementSeed": "e5c12444-1864-4467-91df-91ba4ec7ebbd",
+      "matchedPlacementSeed": "f744411f-f7ed-4da8-a795-2c87dd967aca",
       "differences": [],
       "sides": [
         {
@@ -1043,7 +1038,7 @@
       "route": "/login",
       "width": 768,
       "theme": "dark",
-      "matchedPlacementSeed": "6a0f8628-7bcc-4d0e-96df-0b4d4e99938c",
+      "matchedPlacementSeed": "7ccf99c3-3c87-4ff3-aef7-35e767106bbb",
       "differences": [],
       "sides": [
         {
@@ -1073,7 +1068,7 @@
       "route": "/not-a-real-page",
       "width": 768,
       "theme": "dark",
-      "matchedPlacementSeed": "3e0b2ccb-f9c1-4466-848c-cfe4d97efa23",
+      "matchedPlacementSeed": "7c43b2df-3e6c-4105-a00e-b4ab68d2a14c",
       "differences": [],
       "sides": [
         {
@@ -1103,7 +1098,7 @@
       "route": "/",
       "width": 768,
       "theme": "light",
-      "matchedPlacementSeed": "25b28332-e87b-4663-b45e-81265396c61f",
+      "matchedPlacementSeed": "3448154d-0ece-4f64-ba40-91e9d1f7dc7f",
       "differences": [],
       "sides": [
         {
@@ -1125,20 +1120,15 @@
         768,
         11310
       ],
-      "differenceBounds": [
-        16,
-        719,
-        752,
-        9943
-      ],
-      "pixelDifference": "RGB"
+      "differenceBounds": null,
+      "pixelDifference": null
     },
     {
       "index": 37,
       "route": "/ethos",
       "width": 768,
       "theme": "light",
-      "matchedPlacementSeed": "09d2c51c-c382-4bc8-8e3f-352a4a181f1e",
+      "matchedPlacementSeed": "824d0aca-34d1-4330-9b12-d9e603a682f1",
       "differences": [],
       "sides": [
         {
@@ -1168,7 +1158,7 @@
       "route": "/brand-guide",
       "width": 768,
       "theme": "light",
-      "matchedPlacementSeed": "ff24706e-22e0-439e-a1e9-81df1a423795",
+      "matchedPlacementSeed": "658f3784-bf1d-4fe0-ad5a-4abb808a55b7",
       "differences": [],
       "sides": [
         {
@@ -1198,7 +1188,7 @@
       "route": "/blog/announcing-tanstack-query-v5",
       "width": 768,
       "theme": "light",
-      "matchedPlacementSeed": "f56952ac-065d-45ac-a4fc-d645cd718033",
+      "matchedPlacementSeed": "deb613af-8684-4379-b4fd-0e7810f2dd73",
       "differences": [],
       "sides": [
         {
@@ -1228,7 +1218,7 @@
       "route": "/query/latest/docs/framework/react/overview",
       "width": 768,
       "theme": "light",
-      "matchedPlacementSeed": "f4efd62b-fa8a-429c-a7c4-02b831f0850b",
+      "matchedPlacementSeed": "9652d079-ca0f-4d2d-aa25-b13b9b88323d",
       "differences": [],
       "sides": [
         {
@@ -1258,7 +1248,7 @@
       "route": "/start/latest/docs/framework/react/build-from-scratch",
       "width": 768,
       "theme": "light",
-      "matchedPlacementSeed": "9b3913a5-25f9-4594-bd03-4bc7de6f5354",
+      "matchedPlacementSeed": "9405c803-35bc-4907-88a3-26a6d6c0c89a",
       "differences": [],
       "sides": [
         {
@@ -1288,7 +1278,7 @@
       "route": "/query/latest/docs/framework/react/comparison",
       "width": 768,
       "theme": "light",
-      "matchedPlacementSeed": "9fe3b2db-c7fc-4ef8-ada7-e47ae1e9c441",
+      "matchedPlacementSeed": "72f93dda-41c9-4bfc-88b4-6e8006715820",
       "differences": [],
       "sides": [
         {
@@ -1318,7 +1308,7 @@
       "route": "/stats/npm",
       "width": 768,
       "theme": "light",
-      "matchedPlacementSeed": "f82b9e7b-0a8c-4669-abb0-0f69116c3f1d",
+      "matchedPlacementSeed": "55115132-9dd7-4093-99f7-e395f4d048d1",
       "differences": [],
       "sides": [
         {
@@ -1348,7 +1338,7 @@
       "route": "/charts/catalog/charts/01-line-gaps/",
       "width": 768,
       "theme": "light",
-      "matchedPlacementSeed": "3eba7e6f-ab49-4d3a-8902-f5e94a1b7dc9",
+      "matchedPlacementSeed": "db22c25c-fbd3-434e-b851-c9c9fd57a783",
       "differences": [],
       "sides": [
         {
@@ -1378,7 +1368,7 @@
       "route": "/chat",
       "width": 768,
       "theme": "light",
-      "matchedPlacementSeed": "5b41615b-cb2c-406f-badb-c8d1c9730bcd",
+      "matchedPlacementSeed": "87b7393e-b111-40b6-9129-cf2015ef14a6",
       "differences": [],
       "sides": [
         {
@@ -1408,7 +1398,7 @@
       "route": "/login",
       "width": 768,
       "theme": "light",
-      "matchedPlacementSeed": "aff52f4c-6270-4bd3-9982-331f8a67d1d3",
+      "matchedPlacementSeed": "586aea6c-d2b5-4098-88bd-55c483c6ef47",
       "differences": [],
       "sides": [
         {
@@ -1438,7 +1428,7 @@
       "route": "/not-a-real-page",
       "width": 768,
       "theme": "light",
-      "matchedPlacementSeed": "c198dccd-3610-4f5b-befa-6f12b2d36585",
+      "matchedPlacementSeed": "4128a40f-b087-40a1-a6cf-d49e6840b113",
       "differences": [],
       "sides": [
         {
@@ -1468,7 +1458,7 @@
       "route": "/",
       "width": 390,
       "theme": "dark",
-      "matchedPlacementSeed": "6b4da213-a449-4560-b7ee-8218cc0913a3",
+      "matchedPlacementSeed": "988750e1-94e4-440a-be3e-401e5347b261",
       "differences": [],
       "sides": [
         {
@@ -1490,20 +1480,15 @@
         390,
         12820
       ],
-      "differenceBounds": [
-        2,
-        58,
-        388,
-        10959
-      ],
-      "pixelDifference": "RGB"
+      "differenceBounds": null,
+      "pixelDifference": null
     },
     {
       "index": 49,
       "route": "/ethos",
       "width": 390,
       "theme": "dark",
-      "matchedPlacementSeed": "c57bce6f-6625-45d4-b854-1cbe348aa13f",
+      "matchedPlacementSeed": "7435dd6f-d52d-4fb5-8fdb-e2b48c123bd3",
       "differences": [],
       "sides": [
         {
@@ -1533,7 +1518,7 @@
       "route": "/brand-guide",
       "width": 390,
       "theme": "dark",
-      "matchedPlacementSeed": "3371ac1a-3f0f-494d-9a35-f519d194df7a",
+      "matchedPlacementSeed": "55f6b930-3d37-4bd4-bd2d-118a58b7b589",
       "differences": [],
       "sides": [
         {
@@ -1563,7 +1548,7 @@
       "route": "/blog/announcing-tanstack-query-v5",
       "width": 390,
       "theme": "dark",
-      "matchedPlacementSeed": "6ba133de-6727-4846-8251-8297f3404d12",
+      "matchedPlacementSeed": "8cd82b03-7f0e-43f8-8fab-4792ca463d6a",
       "differences": [],
       "sides": [
         {
@@ -1593,7 +1578,7 @@
       "route": "/query/latest/docs/framework/react/overview",
       "width": 390,
       "theme": "dark",
-      "matchedPlacementSeed": "15c416ff-bece-4c7c-9e07-53d230485e91",
+      "matchedPlacementSeed": "a4af31f1-4e88-4c2d-a2eb-37a0b8b94c9b",
       "differences": [],
       "sides": [
         {
@@ -1623,7 +1608,7 @@
       "route": "/start/latest/docs/framework/react/build-from-scratch",
       "width": 390,
       "theme": "dark",
-      "matchedPlacementSeed": "599ba345-8fd8-40e8-b4ca-d51b13d92c59",
+      "matchedPlacementSeed": "2c6e7b19-88a7-4952-b889-fd69e4d26d1a",
       "differences": [],
       "sides": [
         {
@@ -1653,7 +1638,7 @@
       "route": "/query/latest/docs/framework/react/comparison",
       "width": 390,
       "theme": "dark",
-      "matchedPlacementSeed": "e31ea2ce-1da5-4525-96d9-1de6b3c96087",
+      "matchedPlacementSeed": "e004758e-b0fb-4e0b-9b46-e4efac7c44be",
       "differences": [],
       "sides": [
         {
@@ -1683,7 +1668,7 @@
       "route": "/stats/npm",
       "width": 390,
       "theme": "dark",
-      "matchedPlacementSeed": "7fb22715-1e3a-43fe-a312-3af4e52967fe",
+      "matchedPlacementSeed": "c265f777-d344-46ef-8b15-da9bb10d921d",
       "differences": [],
       "sides": [
         {
@@ -1713,7 +1698,7 @@
       "route": "/charts/catalog/charts/01-line-gaps/",
       "width": 390,
       "theme": "dark",
-      "matchedPlacementSeed": "cdc5e465-d5fd-4339-8bed-2538bf5d1f59",
+      "matchedPlacementSeed": "6e40c2c0-9f86-4dfe-820a-663f427a57bd",
       "differences": [],
       "sides": [
         {
@@ -1735,15 +1720,20 @@
         390,
         2742
       ],
-      "differenceBounds": null,
-      "pixelDifference": null
+      "differenceBounds": [
+        17,
+        994,
+        373,
+        998
+      ],
+      "pixelDifference": "RGB"
     },
     {
       "index": 57,
       "route": "/chat",
       "width": 390,
       "theme": "dark",
-      "matchedPlacementSeed": "bc56ed88-734e-4a64-a562-0fdaea59a489",
+      "matchedPlacementSeed": "f049f7c1-f734-4884-98f7-bcca4bf92794",
       "differences": [],
       "sides": [
         {
@@ -1773,7 +1763,7 @@
       "route": "/login",
       "width": 390,
       "theme": "dark",
-      "matchedPlacementSeed": "2a1f6075-a9a2-4c90-98f6-ac6ac59cec52",
+      "matchedPlacementSeed": "52c6650f-5f62-4370-a969-b4d41d91caff",
       "differences": [],
       "sides": [
         {
@@ -1803,7 +1793,7 @@
       "route": "/not-a-real-page",
       "width": 390,
       "theme": "dark",
-      "matchedPlacementSeed": "cb525496-655e-4d65-886b-04d4abb599bd",
+      "matchedPlacementSeed": "7d90656e-e19c-4f80-a4e2-438d522fe6e7",
       "differences": [],
       "sides": [
         {
@@ -1833,7 +1823,7 @@
       "route": "/",
       "width": 390,
       "theme": "light",
-      "matchedPlacementSeed": "cf593fdb-c046-4555-9e2f-83ea2262b9f6",
+      "matchedPlacementSeed": "00f620a8-8a44-4a9d-8510-a7ab6c23b377",
       "differences": [],
       "sides": [
         {
@@ -1855,20 +1845,15 @@
         390,
         12850
       ],
-      "differenceBounds": [
-        2,
-        59,
-        388,
-        10987
-      ],
-      "pixelDifference": "RGB"
+      "differenceBounds": null,
+      "pixelDifference": null
     },
     {
       "index": 61,
       "route": "/ethos",
       "width": 390,
       "theme": "light",
-      "matchedPlacementSeed": "00a926b9-a69a-40ae-a094-6a2d0b5fea9e",
+      "matchedPlacementSeed": "3b33dbbf-1a59-4cde-b852-c7795288750e",
       "differences": [],
       "sides": [
         {
@@ -1898,7 +1883,7 @@
       "route": "/brand-guide",
       "width": 390,
       "theme": "light",
-      "matchedPlacementSeed": "2b479191-9ee6-4562-ad35-3e1e5e06f2a5",
+      "matchedPlacementSeed": "e83fce49-cb19-4882-bc96-ea0f92e9cf0e",
       "differences": [],
       "sides": [
         {
@@ -1928,7 +1913,7 @@
       "route": "/blog/announcing-tanstack-query-v5",
       "width": 390,
       "theme": "light",
-      "matchedPlacementSeed": "fbe1efed-fb16-490c-81c3-58c1f6df9613",
+      "matchedPlacementSeed": "20d8d8e9-77c6-4b5b-91b4-d8cbb61d2447",
       "differences": [],
       "sides": [
         {
@@ -1958,7 +1943,7 @@
       "route": "/query/latest/docs/framework/react/overview",
       "width": 390,
       "theme": "light",
-      "matchedPlacementSeed": "03d15eb6-291e-4798-9bc1-064906555846",
+      "matchedPlacementSeed": "f6073662-c5b3-4d11-8195-b03f4e138017",
       "differences": [],
       "sides": [
         {
@@ -1988,7 +1973,7 @@
       "route": "/start/latest/docs/framework/react/build-from-scratch",
       "width": 390,
       "theme": "light",
-      "matchedPlacementSeed": "7681e54b-9de8-4c18-a087-a87f37ddf608",
+      "matchedPlacementSeed": "782bfbce-d771-4f20-ba8c-fca648fa812a",
       "differences": [],
       "sides": [
         {
@@ -2018,7 +2003,7 @@
       "route": "/query/latest/docs/framework/react/comparison",
       "width": 390,
       "theme": "light",
-      "matchedPlacementSeed": "6ba7fc68-c182-4fe7-af23-b9189b284526",
+      "matchedPlacementSeed": "47275b4f-14c4-458c-9e9b-c1fe3afb87c7",
       "differences": [],
       "sides": [
         {
@@ -2048,7 +2033,7 @@
       "route": "/stats/npm",
       "width": 390,
       "theme": "light",
-      "matchedPlacementSeed": "5d141bd0-2629-41d5-be5e-0a566591fe40",
+      "matchedPlacementSeed": "8b906f5d-b894-4c4c-ac59-15f87a7e7943",
       "differences": [],
       "sides": [
         {
@@ -2078,7 +2063,7 @@
       "route": "/charts/catalog/charts/01-line-gaps/",
       "width": 390,
       "theme": "light",
-      "matchedPlacementSeed": "d00197da-9f15-42e9-8597-9c07ced8249a",
+      "matchedPlacementSeed": "140a87cf-8654-43ad-8ba5-ebe3aa6581d4",
       "differences": [],
       "sides": [
         {
@@ -2100,15 +2085,20 @@
         390,
         2742
       ],
-      "differenceBounds": null,
-      "pixelDifference": null
+      "differenceBounds": [
+        17,
+        994,
+        373,
+        998
+      ],
+      "pixelDifference": "RGB"
     },
     {
       "index": 69,
       "route": "/chat",
       "width": 390,
       "theme": "light",
-      "matchedPlacementSeed": "e61b715c-911e-431b-9aea-8194ab8cb906",
+      "matchedPlacementSeed": "df93c081-d1e0-4423-9588-e282ee988c93",
       "differences": [],
       "sides": [
         {
@@ -2138,7 +2128,7 @@
       "route": "/login",
       "width": 390,
       "theme": "light",
-      "matchedPlacementSeed": "6275f637-84e7-4591-a165-662e8fe135bc",
+      "matchedPlacementSeed": "44fc841a-83dd-40a8-87fc-2c82dc11fa3c",
       "differences": [],
       "sides": [
         {
@@ -2168,7 +2158,7 @@
       "route": "/not-a-real-page",
       "width": 390,
       "theme": "light",
-      "matchedPlacementSeed": "80d30c4b-d5e9-4ee0-a83b-121a623bc5bc",
+      "matchedPlacementSeed": "b17f032b-f41c-4b5b-adfa-2f71bdce5beb",
       "differences": [],
       "sides": [
         {
@@ -2198,7 +2188,7 @@
       "route": "/",
       "width": 320,
       "theme": "dark",
-      "matchedPlacementSeed": "de284354-2f55-4e42-aeac-be2fb922758c",
+      "matchedPlacementSeed": "8564ebd2-32fd-44d6-b21f-4991c0426487",
       "differences": [],
       "sides": [
         {
@@ -2220,20 +2210,15 @@
         320,
         12858
       ],
-      "differenceBounds": [
-        2,
-        58,
-        320,
-        10973
-      ],
-      "pixelDifference": "RGB"
+      "differenceBounds": null,
+      "pixelDifference": null
     },
     {
       "index": 73,
       "route": "/ethos",
       "width": 320,
       "theme": "dark",
-      "matchedPlacementSeed": "dbcaf9f3-4108-4417-ba28-3e8a1fc09fb1",
+      "matchedPlacementSeed": "b1bbf2ae-7189-4177-97a6-793ec0b7b4e0",
       "differences": [],
       "sides": [
         {
@@ -2263,7 +2248,7 @@
       "route": "/brand-guide",
       "width": 320,
       "theme": "dark",
-      "matchedPlacementSeed": "a310b35f-e59f-4dd0-958b-a35bcc82f1a5",
+      "matchedPlacementSeed": "501aec31-0db5-41ee-8be0-a562b772df4a",
       "differences": [],
       "sides": [
         {
@@ -2293,7 +2278,7 @@
       "route": "/blog/announcing-tanstack-query-v5",
       "width": 320,
       "theme": "dark",
-      "matchedPlacementSeed": "98533c28-6995-4e92-9a74-146b3f3ac87f",
+      "matchedPlacementSeed": "13cfbc92-e3cc-4c97-96e5-504417c55e27",
       "differences": [],
       "sides": [
         {
@@ -2323,7 +2308,7 @@
       "route": "/query/latest/docs/framework/react/overview",
       "width": 320,
       "theme": "dark",
-      "matchedPlacementSeed": "654959e3-bdb9-4fe4-bee7-cec53349626c",
+      "matchedPlacementSeed": "7caa5189-a1e3-4450-abb6-229946532ee1",
       "differences": [],
       "sides": [
         {
@@ -2353,7 +2338,7 @@
       "route": "/start/latest/docs/framework/react/build-from-scratch",
       "width": 320,
       "theme": "dark",
-      "matchedPlacementSeed": "280ea1d7-5f07-43ac-9baa-33655288a783",
+      "matchedPlacementSeed": "ec65de82-ec5e-49c2-baf8-63e146d94918",
       "differences": [],
       "sides": [
         {
@@ -2383,7 +2368,7 @@
       "route": "/query/latest/docs/framework/react/comparison",
       "width": 320,
       "theme": "dark",
-      "matchedPlacementSeed": "da298d94-d280-4cd1-8db6-23d773417b1e",
+      "matchedPlacementSeed": "205f3209-3afb-49e5-bc74-8e3a3c361f51",
       "differences": [],
       "sides": [
         {
@@ -2413,7 +2398,7 @@
       "route": "/stats/npm",
       "width": 320,
       "theme": "dark",
-      "matchedPlacementSeed": "bb94f7ed-d0a9-4912-9f8e-31840c05fea9",
+      "matchedPlacementSeed": "a348dcd6-aed9-4360-bd89-dd35d8f476d8",
       "differences": [],
       "sides": [
         {
@@ -2443,7 +2428,367 @@
       "route": "/charts/catalog/charts/01-line-gaps/",
       "width": 320,
       "theme": "dark",
-      "matchedPlacementSeed": "87f8c809-42a6-4776-b0ae-70fcf50a8dfa",
+      "matchedPlacementSeed": "033e6545-f853-426b-944e-53e0e201eb01",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "1512779f994a2085fc627e5e251a0146119c04a47c5f37d9b547ccb489c0df0a",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "1512779f994a2085fc627e5e251a0146119c04a47c5f37d9b547ccb489c0df0a",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        320,
+        2766
+      ],
+      "candidateDimensions": [
+        320,
+        2766
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 81,
+      "route": "/chat",
+      "width": 320,
+      "theme": "dark",
+      "matchedPlacementSeed": "dfe814d3-2fb9-4660-b732-f04c711fbd87",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "9d290813918dceb68d6197ca6cd555e483309b6e056636f92b3d4c7a892d03e5",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "9d290813918dceb68d6197ca6cd555e483309b6e056636f92b3d4c7a892d03e5",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        320,
+        2315
+      ],
+      "candidateDimensions": [
+        320,
+        2315
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 82,
+      "route": "/login",
+      "width": 320,
+      "theme": "dark",
+      "matchedPlacementSeed": "0beca25c-80ed-4df8-b476-7381de89dfbf",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "852c1a0cc28cc170f585bf0743d414a00cd77d5e7c895288660442dd53a7a835",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "852c1a0cc28cc170f585bf0743d414a00cd77d5e7c895288660442dd53a7a835",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        320,
+        2783
+      ],
+      "candidateDimensions": [
+        320,
+        2783
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 83,
+      "route": "/not-a-real-page",
+      "width": 320,
+      "theme": "dark",
+      "matchedPlacementSeed": "5e13bca9-bc36-4e1f-a910-5850b45a74bc",
+      "differences": [],
+      "sides": [
+        {
+          "status": 404,
+          "textSha256": "f725eb30054fa95eeb75dd098aa99b07cc9362496959a8c253e004adb0cf7ff1",
+          "errors": []
+        },
+        {
+          "status": 404,
+          "textSha256": "f725eb30054fa95eeb75dd098aa99b07cc9362496959a8c253e004adb0cf7ff1",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        320,
+        3194
+      ],
+      "candidateDimensions": [
+        320,
+        3194
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 84,
+      "route": "/",
+      "width": 320,
+      "theme": "light",
+      "matchedPlacementSeed": "15480144-37a7-4dce-9fdc-82aefde80ae4",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "20619411c1cad1d3e64a932aa5cd96afaf1ecb20c545a167eb85ab86ca92b0f7",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "20619411c1cad1d3e64a932aa5cd96afaf1ecb20c545a167eb85ab86ca92b0f7",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        320,
+        12892
+      ],
+      "candidateDimensions": [
+        320,
+        12892
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 85,
+      "route": "/ethos",
+      "width": 320,
+      "theme": "light",
+      "matchedPlacementSeed": "a8b10d94-f53e-4aa4-a2a2-5aa8b81db4bc",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "cfcc5c27a08887ea76245d84b9484409da8d638ccf56cbdc69b3e901c6624ec1",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "cfcc5c27a08887ea76245d84b9484409da8d638ccf56cbdc69b3e901c6624ec1",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        320,
+        5837
+      ],
+      "candidateDimensions": [
+        320,
+        5837
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 86,
+      "route": "/brand-guide",
+      "width": 320,
+      "theme": "light",
+      "matchedPlacementSeed": "346604b6-7aaa-4f61-9e92-5b934ab0858c",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "b7a962faca3dab8549d04e4e52f6abf4ee0df93a538f39c1fbd50527c5f4b9d8",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "b7a962faca3dab8549d04e4e52f6abf4ee0df93a538f39c1fbd50527c5f4b9d8",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        320,
+        4531
+      ],
+      "candidateDimensions": [
+        320,
+        4531
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 87,
+      "route": "/blog/announcing-tanstack-query-v5",
+      "width": 320,
+      "theme": "light",
+      "matchedPlacementSeed": "e0e4adec-fc42-48eb-815f-84b3e3f3565c",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "59bc12a6cd23514ad46e9c34c97bf7072b31a5f46e84db12026e2e042f3ac534",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "59bc12a6cd23514ad46e9c34c97bf7072b31a5f46e84db12026e2e042f3ac534",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        320,
+        7639
+      ],
+      "candidateDimensions": [
+        320,
+        7639
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 88,
+      "route": "/query/latest/docs/framework/react/overview",
+      "width": 320,
+      "theme": "light",
+      "matchedPlacementSeed": "3be0e5a4-b4a3-4a38-9dec-632812056231",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "fd51d13a415ad23c262ebb84300b9f311435adbec11384b2c91c4859fc01b8fe",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "fd51d13a415ad23c262ebb84300b9f311435adbec11384b2c91c4859fc01b8fe",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        320,
+        6008
+      ],
+      "candidateDimensions": [
+        320,
+        6008
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 89,
+      "route": "/start/latest/docs/framework/react/build-from-scratch",
+      "width": 320,
+      "theme": "light",
+      "matchedPlacementSeed": "a7713ad3-2bf2-4898-9dc5-deeb14c7cf99",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "0b962f5946ac972c2e73cd66ec46afc20830b5be371d82a8681bff959a80654c",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "0b962f5946ac972c2e73cd66ec46afc20830b5be371d82a8681bff959a80654c",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        320,
+        9246
+      ],
+      "candidateDimensions": [
+        320,
+        9246
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 90,
+      "route": "/query/latest/docs/framework/react/comparison",
+      "width": 320,
+      "theme": "light",
+      "matchedPlacementSeed": "44f36ac4-75a5-4cff-a788-2c7a98e914ee",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "f155b12c6c6002142d2732f261b6fb31787a7fbda6ff26e1af4cbca7fa77832e",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "f155b12c6c6002142d2732f261b6fb31787a7fbda6ff26e1af4cbca7fa77832e",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        320,
+        7633
+      ],
+      "candidateDimensions": [
+        320,
+        7633
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 91,
+      "route": "/stats/npm",
+      "width": 320,
+      "theme": "light",
+      "matchedPlacementSeed": "cf506bfa-439d-469d-9a14-79d92399e238",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "7b01424c228979d826916e42e05889370b7f7e7cfcc45900283057eb7af6b178",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "7b01424c228979d826916e42e05889370b7f7e7cfcc45900283057eb7af6b178",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        320,
+        5677
+      ],
+      "candidateDimensions": [
+        320,
+        5677
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 92,
+      "route": "/charts/catalog/charts/01-line-gaps/",
+      "width": 320,
+      "theme": "light",
+      "matchedPlacementSeed": "414093fb-cda2-4ddb-beee-69e86d4b88da",
       "differences": [],
       "sides": [
         {
@@ -2474,376 +2819,11 @@
       "pixelDifference": "RGB"
     },
     {
-      "index": 81,
-      "route": "/chat",
-      "width": 320,
-      "theme": "dark",
-      "matchedPlacementSeed": "1698129b-5fc0-4f4b-914e-cb1600bd4eae",
-      "differences": [],
-      "sides": [
-        {
-          "status": 200,
-          "textSha256": "9d290813918dceb68d6197ca6cd555e483309b6e056636f92b3d4c7a892d03e5",
-          "errors": []
-        },
-        {
-          "status": 200,
-          "textSha256": "9d290813918dceb68d6197ca6cd555e483309b6e056636f92b3d4c7a892d03e5",
-          "errors": []
-        }
-      ],
-      "referenceDimensions": [
-        320,
-        2315
-      ],
-      "candidateDimensions": [
-        320,
-        2315
-      ],
-      "differenceBounds": null,
-      "pixelDifference": null
-    },
-    {
-      "index": 82,
-      "route": "/login",
-      "width": 320,
-      "theme": "dark",
-      "matchedPlacementSeed": "d79353e2-fa91-4141-a621-e967e692a76c",
-      "differences": [],
-      "sides": [
-        {
-          "status": 200,
-          "textSha256": "852c1a0cc28cc170f585bf0743d414a00cd77d5e7c895288660442dd53a7a835",
-          "errors": []
-        },
-        {
-          "status": 200,
-          "textSha256": "852c1a0cc28cc170f585bf0743d414a00cd77d5e7c895288660442dd53a7a835",
-          "errors": []
-        }
-      ],
-      "referenceDimensions": [
-        320,
-        2783
-      ],
-      "candidateDimensions": [
-        320,
-        2783
-      ],
-      "differenceBounds": null,
-      "pixelDifference": null
-    },
-    {
-      "index": 83,
-      "route": "/not-a-real-page",
-      "width": 320,
-      "theme": "dark",
-      "matchedPlacementSeed": "00740b30-5aad-42bc-9654-c88fb3bef83a",
-      "differences": [],
-      "sides": [
-        {
-          "status": 404,
-          "textSha256": "f725eb30054fa95eeb75dd098aa99b07cc9362496959a8c253e004adb0cf7ff1",
-          "errors": []
-        },
-        {
-          "status": 404,
-          "textSha256": "f725eb30054fa95eeb75dd098aa99b07cc9362496959a8c253e004adb0cf7ff1",
-          "errors": []
-        }
-      ],
-      "referenceDimensions": [
-        320,
-        3194
-      ],
-      "candidateDimensions": [
-        320,
-        3194
-      ],
-      "differenceBounds": null,
-      "pixelDifference": null
-    },
-    {
-      "index": 84,
-      "route": "/",
-      "width": 320,
-      "theme": "light",
-      "matchedPlacementSeed": "78814015-dcf4-44df-8b31-740e9177a9dc",
-      "differences": [],
-      "sides": [
-        {
-          "status": 200,
-          "textSha256": "20619411c1cad1d3e64a932aa5cd96afaf1ecb20c545a167eb85ab86ca92b0f7",
-          "errors": []
-        },
-        {
-          "status": 200,
-          "textSha256": "20619411c1cad1d3e64a932aa5cd96afaf1ecb20c545a167eb85ab86ca92b0f7",
-          "errors": []
-        }
-      ],
-      "referenceDimensions": [
-        320,
-        12892
-      ],
-      "candidateDimensions": [
-        320,
-        12892
-      ],
-      "differenceBounds": [
-        3,
-        59,
-        320,
-        11000
-      ],
-      "pixelDifference": "RGB"
-    },
-    {
-      "index": 85,
-      "route": "/ethos",
-      "width": 320,
-      "theme": "light",
-      "matchedPlacementSeed": "7458c4d4-b01d-4dd8-a99f-ca4ad1d36ea3",
-      "differences": [],
-      "sides": [
-        {
-          "status": 200,
-          "textSha256": "cfcc5c27a08887ea76245d84b9484409da8d638ccf56cbdc69b3e901c6624ec1",
-          "errors": []
-        },
-        {
-          "status": 200,
-          "textSha256": "cfcc5c27a08887ea76245d84b9484409da8d638ccf56cbdc69b3e901c6624ec1",
-          "errors": []
-        }
-      ],
-      "referenceDimensions": [
-        320,
-        5837
-      ],
-      "candidateDimensions": [
-        320,
-        5837
-      ],
-      "differenceBounds": null,
-      "pixelDifference": null
-    },
-    {
-      "index": 86,
-      "route": "/brand-guide",
-      "width": 320,
-      "theme": "light",
-      "matchedPlacementSeed": "4d68d289-0572-4697-9ef8-e438d4da7a3a",
-      "differences": [],
-      "sides": [
-        {
-          "status": 200,
-          "textSha256": "b7a962faca3dab8549d04e4e52f6abf4ee0df93a538f39c1fbd50527c5f4b9d8",
-          "errors": []
-        },
-        {
-          "status": 200,
-          "textSha256": "b7a962faca3dab8549d04e4e52f6abf4ee0df93a538f39c1fbd50527c5f4b9d8",
-          "errors": []
-        }
-      ],
-      "referenceDimensions": [
-        320,
-        4531
-      ],
-      "candidateDimensions": [
-        320,
-        4531
-      ],
-      "differenceBounds": null,
-      "pixelDifference": null
-    },
-    {
-      "index": 87,
-      "route": "/blog/announcing-tanstack-query-v5",
-      "width": 320,
-      "theme": "light",
-      "matchedPlacementSeed": "e320e04d-8ae8-4cd5-8a5a-f3dc3ee042ef",
-      "differences": [],
-      "sides": [
-        {
-          "status": 200,
-          "textSha256": "59bc12a6cd23514ad46e9c34c97bf7072b31a5f46e84db12026e2e042f3ac534",
-          "errors": []
-        },
-        {
-          "status": 200,
-          "textSha256": "59bc12a6cd23514ad46e9c34c97bf7072b31a5f46e84db12026e2e042f3ac534",
-          "errors": []
-        }
-      ],
-      "referenceDimensions": [
-        320,
-        7639
-      ],
-      "candidateDimensions": [
-        320,
-        7639
-      ],
-      "differenceBounds": null,
-      "pixelDifference": null
-    },
-    {
-      "index": 88,
-      "route": "/query/latest/docs/framework/react/overview",
-      "width": 320,
-      "theme": "light",
-      "matchedPlacementSeed": "4874fa77-765d-4652-b3a7-fee6d04df810",
-      "differences": [],
-      "sides": [
-        {
-          "status": 200,
-          "textSha256": "fd51d13a415ad23c262ebb84300b9f311435adbec11384b2c91c4859fc01b8fe",
-          "errors": []
-        },
-        {
-          "status": 200,
-          "textSha256": "fd51d13a415ad23c262ebb84300b9f311435adbec11384b2c91c4859fc01b8fe",
-          "errors": []
-        }
-      ],
-      "referenceDimensions": [
-        320,
-        6008
-      ],
-      "candidateDimensions": [
-        320,
-        6008
-      ],
-      "differenceBounds": null,
-      "pixelDifference": null
-    },
-    {
-      "index": 89,
-      "route": "/start/latest/docs/framework/react/build-from-scratch",
-      "width": 320,
-      "theme": "light",
-      "matchedPlacementSeed": "584ef548-55e5-448e-a667-fbfa4ffe85d6",
-      "differences": [],
-      "sides": [
-        {
-          "status": 200,
-          "textSha256": "0b962f5946ac972c2e73cd66ec46afc20830b5be371d82a8681bff959a80654c",
-          "errors": []
-        },
-        {
-          "status": 200,
-          "textSha256": "0b962f5946ac972c2e73cd66ec46afc20830b5be371d82a8681bff959a80654c",
-          "errors": []
-        }
-      ],
-      "referenceDimensions": [
-        320,
-        9246
-      ],
-      "candidateDimensions": [
-        320,
-        9246
-      ],
-      "differenceBounds": null,
-      "pixelDifference": null
-    },
-    {
-      "index": 90,
-      "route": "/query/latest/docs/framework/react/comparison",
-      "width": 320,
-      "theme": "light",
-      "matchedPlacementSeed": "b382c5f6-f0a8-4db6-b4d3-bc8d6bdd4981",
-      "differences": [],
-      "sides": [
-        {
-          "status": 200,
-          "textSha256": "f155b12c6c6002142d2732f261b6fb31787a7fbda6ff26e1af4cbca7fa77832e",
-          "errors": []
-        },
-        {
-          "status": 200,
-          "textSha256": "f155b12c6c6002142d2732f261b6fb31787a7fbda6ff26e1af4cbca7fa77832e",
-          "errors": []
-        }
-      ],
-      "referenceDimensions": [
-        320,
-        7633
-      ],
-      "candidateDimensions": [
-        320,
-        7633
-      ],
-      "differenceBounds": null,
-      "pixelDifference": null
-    },
-    {
-      "index": 91,
-      "route": "/stats/npm",
-      "width": 320,
-      "theme": "light",
-      "matchedPlacementSeed": "e8582c19-1469-4d3c-bc0e-b899377fdb4e",
-      "differences": [],
-      "sides": [
-        {
-          "status": 200,
-          "textSha256": "7b01424c228979d826916e42e05889370b7f7e7cfcc45900283057eb7af6b178",
-          "errors": []
-        },
-        {
-          "status": 200,
-          "textSha256": "7b01424c228979d826916e42e05889370b7f7e7cfcc45900283057eb7af6b178",
-          "errors": []
-        }
-      ],
-      "referenceDimensions": [
-        320,
-        5677
-      ],
-      "candidateDimensions": [
-        320,
-        5677
-      ],
-      "differenceBounds": null,
-      "pixelDifference": null
-    },
-    {
-      "index": 92,
-      "route": "/charts/catalog/charts/01-line-gaps/",
-      "width": 320,
-      "theme": "light",
-      "matchedPlacementSeed": "b1389c3b-393e-4da2-95b6-ca79c8a7cc87",
-      "differences": [],
-      "sides": [
-        {
-          "status": 200,
-          "textSha256": "1512779f994a2085fc627e5e251a0146119c04a47c5f37d9b547ccb489c0df0a",
-          "errors": []
-        },
-        {
-          "status": 200,
-          "textSha256": "1512779f994a2085fc627e5e251a0146119c04a47c5f37d9b547ccb489c0df0a",
-          "errors": []
-        }
-      ],
-      "referenceDimensions": [
-        320,
-        2766
-      ],
-      "candidateDimensions": [
-        320,
-        2766
-      ],
-      "differenceBounds": null,
-      "pixelDifference": null
-    },
-    {
       "index": 93,
       "route": "/chat",
       "width": 320,
       "theme": "light",
-      "matchedPlacementSeed": "8b2a5e9d-d1a7-4471-a242-fc940bc23316",
+      "matchedPlacementSeed": "07e3cff2-6b25-40ae-ac76-a6757e8fc837",
       "differences": [],
       "sides": [
         {
@@ -2873,7 +2853,7 @@
       "route": "/login",
       "width": 320,
       "theme": "light",
-      "matchedPlacementSeed": "dba2572f-6839-42d8-8dd6-cbb70925a4e6",
+      "matchedPlacementSeed": "e24593f3-ebf0-4017-be4f-f6ab3cea7670",
       "differences": [],
       "sides": [
         {
@@ -2903,7 +2883,7 @@
       "route": "/not-a-real-page",
       "width": 320,
       "theme": "light",
-      "matchedPlacementSeed": "6922523e-3941-46ed-a273-357fa0762770",
+      "matchedPlacementSeed": "b41c67e2-5aac-4ee8-b286-416d581eafca",
       "differences": [],
       "sides": [
         {
@@ -2929,5 +2909,5 @@
       "pixelDifference": null
     }
   ],
-  "frontendReceiptSha256": "363142be827fc1d38faf55d41418cb91d3151d1b8fb0bae82a8cde288693ef99"
+  "frontendReceiptSha256": "ba9a452970699280c678f6bfad1237158bfba547e98de4fe760f2635441592ba"
 }

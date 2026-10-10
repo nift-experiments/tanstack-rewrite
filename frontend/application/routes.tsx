@@ -1,6 +1,6 @@
 import {publicationAssetURL} from 'owned-publication/publication-urls'
 import {applicationPublicationKey} from './publication-key'
-import {createRoute, Outlet} from '@tanstack/react-router'
+import {createRoute, createLazyRoute, Outlet} from '@tanstack/react-router'
 import hierarchy from './route-hierarchy.json'
 import {applicationViews} from './registry'
 import {configureOwnedRouteIdentity} from './RouteBinding'
@@ -31,6 +31,7 @@ export function createApplicationRoutes(root:any,publication?:{phase:string;html
       component,
       staticData:{...view?.options.staticData},
     } as any)
+    if(view?.lazy)route.lazy(async()=>createLazyRoute(route.id)(await view.lazy()))
     routes.set(name,route)
     if(view)bindings.push({pattern:view.pattern,route,view})
     const siblings=children.get(definition.parent)??[]
@@ -47,8 +48,7 @@ export function createApplicationRoutes(root:any,publication?:{phase:string;html
       // The initialized Router's actual index/priority rules are authoritative.
       for(const {pattern,route,view}of bindings){
         if(router.matchRoutes(route.fullPath).at(-1)?.routeId!==route.id)continue
-        if(!view.options.component&&!view.options.beforeLoad)continue
-        if(!view.options.component)route.options.staticData.publicationRedirect=true
+        if(!view.options.component&&view.options.beforeLoad)route.options.staticData.publicationRedirect=true
         route.options.staticData.publicationFamily='application'
         if(environment?.server)continue
         const originalLoader=route.options.loader

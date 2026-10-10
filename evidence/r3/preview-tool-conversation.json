@@ -1,0 +1,29 @@
+{
+  "scope": "Real retained Conversation, provider adapter and permission-aware list_files tool over local SQL/workerd/R2. External model response only is a controlled fixture.",
+  "steps": [
+    {
+      "operation": "bootstrap",
+      "status": 200
+    },
+    {
+      "operation": "connection",
+      "status": 200
+    },
+    {
+      "operation": "bots",
+      "status": 200
+    },
+    {
+      "operation": "conversations/chat%3Aa2d27f05-3a3c-46ba-b689-de26f4deea53%3A24a61277-ad27-40a2-bd88-94752243cbb3/send",
+      "status": 200
+    },
+    {
+      "operation": "conversations/chat%3Aa2d27f05-3a3c-46ba-b689-de26f4deea53%3A24a61277-ad27-40a2-bd88-94752243cbb3/history",
+      "status": 200
+    }
+  ],
+  "tool": "list_files",
+  "toolState": "complete",
+  "toolOutputPersisted": true,
+  "assistantReplyPersisted": true
+}

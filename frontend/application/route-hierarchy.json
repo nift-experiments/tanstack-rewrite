@@ -1,5 +1,7 @@
 {
-  "scope": "Frozen route identity/parent inventory only; generated original implementation is not imported",
+  "scope": "Pinned production route identity/parent/lazy-source inventory only; generated upstream implementation is not imported",
+  "upstreamCommit": "862ccc3d191818320c3e6d217542883f80cb907a",
+  "sourceSha256": "604679ac7abe702f444412598427baa9e618c738dac0a66043840d6af5a240f7",
   "records": [
     {
       "name": "IndexRoute",
@@ -580,6 +582,14 @@
       "parent": "DsRoute",
       "id": "/eyebrow",
       "path": "/eyebrow"
+    },
+    {
+      "name": "DsIconographyRoute",
+      "source": "src/routes/ds.iconography",
+      "parent": "DsRoute",
+      "id": "/iconography",
+      "path": "/iconography",
+      "lazySource": "src/routes/ds.iconography.lazy"
     },
     {
       "name": "DsInputsRoute",

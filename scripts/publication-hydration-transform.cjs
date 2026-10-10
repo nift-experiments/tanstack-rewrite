@@ -12,6 +12,6 @@ module.exports=function({types:t}){return {visitor:{
   if(!t.isIdentifier(path.node.callee)||!path.node.arguments.length)return;
   const binding=path.scope.getBinding(path.node.callee.name);
   if(!binding?.path.isImportSpecifier()||binding.path.node.imported.name!=='createPortal'||binding.path.parent.source.value!=='react-dom')return;
-  path.node.arguments[0]=t.callExpression(t.identifier('__publicationPortal'),[path.node.arguments[0]]);path.findParent(parent=>parent.isProgram()).setData('publicationPortalUsed',true);
+  path.node.arguments[0]=t.callExpression(t.identifier('__publicationPortal'),[path.node.arguments[0],path.node.arguments[1]]);path.findParent(parent=>parent.isProgram()).setData('publicationPortalUsed',true);
  }
 }}}

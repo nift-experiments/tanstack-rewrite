@@ -24,7 +24,7 @@ function visit(file){
   for(const statement of ast.program.body){
     if(statement.type==='ExportNamedDeclaration'&&statement.declaration?.type==='VariableDeclaration'){
       const declaration=statement.declaration.declarations.find(item=>item.id.name==='Route');
-      if(declaration?.init?.callee?.callee?.name==='createFileRoute'){
+      if(['createFileRoute','createLazyFileRoute'].includes(declaration?.init?.callee?.callee?.name)){
         if(statement.declaration.declarations.length!==1)throw Error('Mixed route declaration '+file);
         binding=declaration.init.callee.arguments[0].value;
         const options=declaration.init.arguments[0];
@@ -52,9 +52,11 @@ function visit(file){
   fs.writeFileSync(output,maintained);
   records.push({source:'src/routes/'+relative,file:relative,pattern:binding??null,sourceSha256:createHash('sha256').update(source).digest('hex'),adaptation:binding?'Route-independent authored options/view; owned route identity binding':'Exact shared route-local helper'});
 }
-const redirectsOnly=process.argv.includes('--redirects-only');
-for(const record of inventory.records.filter(row=>!row.service&&(redirectsOnly?!row.component&&row.options.includes('beforeLoad'):row.component)))visit(path.resolve('../tanstack-upstream',record.source));
-if(redirectsOnly){const previous=JSON.parse(fs.readFileSync('frontend/application/PROVENANCE.json')).records;for(const record of previous)if(!records.some(row=>row.source===record.source))records.push(record)}
+const redirectsOnly=process.argv.includes('--redirects-only'),leafControls=process.argv.includes('--leaf-controls');
+const hierarchy=JSON.parse(fs.readFileSync('frontend/application/route-hierarchy.json')).records,parentNames=new Set(hierarchy.map(row=>row.parent));const controlSources=new Set(hierarchy.filter(row=>!parentNames.has(row.name)).map(row=>row.source));
+for(const record of inventory.records.filter(row=>!row.service&&(leafControls?!row.component&&!row.options.includes('beforeLoad')&&controlSources.has(row.source.replace(/\.(tsx?|jsx?)$/,''))&&!/^\/_library(?:\/|$)/.test(row.pattern)&&!['/','/blog','/blog/','/blog/$'].includes(row.pattern):redirectsOnly?!row.component&&row.options.includes('beforeLoad'):row.component)))visit(path.resolve('../tanstack-upstream',record.source));
+if(leafControls)for(const record of hierarchy.filter(row=>row.lazySource&&controlSources.has(row.source)))visit(path.resolve('../tanstack-upstream',record.lazySource+'.tsx'));
+if(redirectsOnly||leafControls){const previous=JSON.parse(fs.readFileSync('frontend/application/PROVENANCE.json')).records;for(const record of previous)if(!records.some(row=>row.source===record.source))records.push(record)}
 records.sort((a,b)=>a.source.localeCompare(b.source));
 fs.writeFileSync('frontend/application/PROVENANCE.json',JSON.stringify({upstreamCommit:'862ccc3d191818320c3e6d217542883f80cb907a',scope:'Owned authored application views; import does not claim publication or runtime parity',records},null,2)+'\n');
 console.log('Owned application source modules:',records.length);

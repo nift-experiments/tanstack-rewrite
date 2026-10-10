@@ -605,6 +605,13 @@
       "adaptation": "Route-independent authored options/view; owned route identity binding"
     },
     {
+      "source": "src/routes/chat.c.$conversationId.m.$messageId.tsx",
+      "file": "chat.c.$conversationId.m.$messageId.tsx",
+      "pattern": "/chat/c/$conversationId/m/$messageId",
+      "sourceSha256": "51c2e7cae803e5bd0b8e0c1b22b4ce5913e46fe6b1ad29d8db6e0c361153ba50",
+      "adaptation": "Route-independent authored options/view; owned route identity binding"
+    },
+    {
       "source": "src/routes/chat.c.$conversationId.tsx",
       "file": "chat.c.$conversationId.tsx",
       "pattern": "/chat/c/$conversationId",
@@ -770,6 +777,20 @@
       "file": "ds.eyebrow.tsx",
       "pattern": "/ds/eyebrow",
       "sourceSha256": "424fc068f9388529608ec826e7870de06276a83cba21a77a4faf868f236a6523",
+      "adaptation": "Route-independent authored options/view; owned route identity binding"
+    },
+    {
+      "source": "src/routes/ds.iconography.lazy.tsx",
+      "file": "ds.iconography.lazy.tsx",
+      "pattern": "/ds/iconography",
+      "sourceSha256": "97fd1102f15bdbdfec7083d47f7410fb7c2bad1ebc015b2fb21ef7f9db82dcf9",
+      "adaptation": "Route-independent authored options/view; owned route identity binding"
+    },
+    {
+      "source": "src/routes/ds.iconography.tsx",
+      "file": "ds.iconography.tsx",
+      "pattern": "/ds/iconography",
+      "sourceSha256": "b117055cd93f12562a0e13c99d034cc4e322613bcb69c547d2d226c0d36cdcf5",
       "adaptation": "Route-independent authored options/view; owned route identity binding"
     },
     {

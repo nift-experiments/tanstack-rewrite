@@ -1,8 +1,8 @@
 {
   "upstream_commit": "862ccc3d191818320c3e6d217542883f80cb907a",
-  "scope": "Exact shared Navbar, providers, documentation, marketing and application UI/helper import closure. Route views are maintained separately; original route tree and API implementations are excluded.; exact shared root chrome/error UI closure",
-  "files_count": 934,
-  "files_bytes": 7073240,
+  "scope": "Exact shared Navbar, providers, documentation, marketing and application UI/helper import closure. Route views are maintained separately; original route tree and API implementations are excluded.; exact shared root chrome/error UI closure; exact shared application UI import closure (route-independent views owned separately; no service implementation)",
+  "files_count": 935,
+  "files_bytes": 7246892,
   "adaptations": [],
   "compile_time_inputs": [
     {
@@ -2156,6 +2156,11 @@
       "path": "components/ds/overlay-audit/StarterDeployDialogSpecimen.tsx",
       "bytes": 3421,
       "sha256": "c4926e7be1dcda8be891fb85b9ea573eb4c1780377dd841f52cdea625663ecf7"
+    },
+    {
+      "path": "components/ds/phosphor-icons.generated.ts",
+      "bytes": 173652,
+      "sha256": "527e97da3aeae659c26b34f23e1fc1f762022bf7a7d381796910ed6b0d86921e"
     },
     {
       "path": "components/ds/pixel-spinner-frames.ts",

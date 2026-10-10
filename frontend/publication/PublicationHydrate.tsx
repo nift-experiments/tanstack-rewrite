@@ -1,16 +1,22 @@
 import * as React from 'react'
 import {Hydrate as OriginalHydrate} from '@tanstack/react-start'
 
-const PublicationPortal=React.createContext(false)
-export function publicationPortal(children:React.ReactNode){return <PublicationPortal.Provider value>{children}</PublicationPortal.Provider>}
-function ActivatedContent({children,onHydrated}:{children:React.ReactNode;onHydrated?:()=>void}){React.useEffect(()=>{onHydrated?.()},[onHydrated]);return children}
-// Start's deferred boundary assumes React hydrates existing SSR nodes. A Nift
-// portal is a new mount in an explicitly activated region: deferring it again
-// would replace the published content with an offscreen skeleton. Activate its
-// children with the same wrapper/Suspense contract; ordinary Start boundaries
-// retain the original strategy. This eager work belongs in pipeline measurements.
+const publishedMarkup=new WeakMap<Element,string>()
+const PublicationPortal=React.createContext<string|null>(null)
+// Capture only the region explicitly surrendered by the publication owner.
+export function clearPublicationIsland(host:Element){publishedMarkup.set(host,host.innerHTML);host.replaceChildren()}
+export function publicationPortal(children:React.ReactNode,host:Element){return <PublicationPortal.Provider value={publishedMarkup.get(host)??null}>{children}</PublicationPortal.Provider>}
+// A fresh portal cannot hydrate the server nodes. Keep their published projection
+// as its initial fallback while the original strategy controls activation. Nested
+// boundaries retain Start's ordinary strategy and query timing.
 export function Hydrate(props:React.ComponentProps<typeof OriginalHydrate>){
- const activated=React.useContext(PublicationPortal)
- if(!activated)return <OriginalHydrate {...props}/>
- return <div><React.Suspense fallback={props.fallback??null}><ActivatedContent onHydrated={props.onHydrated}>{props.children}</ActivatedContent></React.Suspense></div>
+ const markup=React.useContext(PublicationPortal)
+ const fallback=React.useMemo(()=>{
+  if(markup===null)return props.fallback
+  const holder=document.createElement('div');holder.innerHTML=markup
+  const first=holder.firstElementChild
+  const body=holder.childElementCount===1&&first?.tagName==='DIV'?first.innerHTML:markup
+  return <div style={{display:'contents'}} dangerouslySetInnerHTML={{__html:body}}/>
+ },[markup,props.fallback])
+ return <OriginalHydrate {...props} fallback={fallback}><PublicationPortal.Provider value={null}>{props.children}</PublicationPortal.Provider></OriginalHydrate>
 }
