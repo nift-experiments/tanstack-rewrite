@@ -1,0 +1,176 @@
+---
+id: SolidFormApi
+title: SolidFormApi
+---
+
+Defined in: [packages/solid-form/src/createForm.tsx:16](https://github.com/TanStack/form/blob/main/packages/solid-form/src/createForm.tsx#L16)
+
+## Type Parameters
+
+### TParentData
+
+`TParentData`
+
+### TFormOnMount
+
+`TFormOnMount` *extends* `undefined` \| `FormValidateOrFn`\<`TParentData`\>
+
+### TFormOnChange
+
+`TFormOnChange` *extends* `undefined` \| `FormValidateOrFn`\<`TParentData`\>
+
+### TFormOnChangeAsync
+
+`TFormOnChangeAsync` *extends* `undefined` \| `FormAsyncValidateOrFn`\<`TParentData`\>
+
+### TFormOnBlur
+
+`TFormOnBlur` *extends* `undefined` \| `FormValidateOrFn`\<`TParentData`\>
+
+### TFormOnBlurAsync
+
+`TFormOnBlurAsync` *extends* `undefined` \| `FormAsyncValidateOrFn`\<`TParentData`\>
+
+### TFormOnSubmit
+
+`TFormOnSubmit` *extends* `undefined` \| `FormValidateOrFn`\<`TParentData`\>
+
+### TFormOnSubmitAsync
+
+`TFormOnSubmitAsync` *extends* `undefined` \| `FormAsyncValidateOrFn`\<`TParentData`\>
+
+### TFormOnDynamic
+
+`TFormOnDynamic` *extends* `undefined` \| `FormValidateOrFn`\<`TParentData`\>
+
+### TFormOnDynamicAsync
+
+`TFormOnDynamicAsync` *extends* `undefined` \| `FormAsyncValidateOrFn`\<`TParentData`\>
+
+### TFormOnServer
+
+`TFormOnServer` *extends* `undefined` \| `FormAsyncValidateOrFn`\<`TParentData`\>
+
+### TSubmitMeta
+
+`TSubmitMeta`
+
+## Properties
+
+### Field
+
+```ts
+Field: FieldComponent<TParentData, TFormOnMount, TFormOnChange, TFormOnChangeAsync, TFormOnBlur, TFormOnBlurAsync, TFormOnSubmit, TFormOnSubmitAsync, TFormOnDynamic, TFormOnDynamicAsync, TFormOnServer, TSubmitMeta>;
+```
+
+Defined in: [packages/solid-form/src/createForm.tsx:30](https://github.com/TanStack/form/blob/main/packages/solid-form/src/createForm.tsx#L30)
+
+***
+
+### FormGroup
+
+```ts
+FormGroup: FormGroupComponent<TParentData, TFormOnMount, TFormOnChange, TFormOnChangeAsync, TFormOnBlur, TFormOnBlurAsync, TFormOnSubmit, TFormOnSubmitAsync, TFormOnDynamic, TFormOnDynamicAsync, TFormOnServer, TSubmitMeta>;
+```
+
+Defined in: [packages/solid-form/src/createForm.tsx:44](https://github.com/TanStack/form/blob/main/packages/solid-form/src/createForm.tsx#L44)
+
+***
+
+### Subscribe()
+
+```ts
+Subscribe: <TSelected>(props) => Element;
+```
+
+Defined in: [packages/solid-form/src/createForm.tsx:131](https://github.com/TanStack/form/blob/main/packages/solid-form/src/createForm.tsx#L131)
+
+#### Type Parameters
+
+##### TSelected
+
+`TSelected` = `NoInfer`\<`FormState`\<`TParentData`, `TFormOnMount`, `TFormOnChange`, `TFormOnChangeAsync`, `TFormOnBlur`, `TFormOnBlurAsync`, `TFormOnSubmit`, `TFormOnSubmitAsync`, `TFormOnDynamic`, `TFormOnDynamicAsync`, `TFormOnServer`\>\>
+
+#### Parameters
+
+##### props
+
+###### children
+
+`Element` \| (`state`) => `Element`
+
+###### selector?
+
+(`state`) => `TSelected`
+
+#### Returns
+
+`Element`
+
+***
+
+### useSelector()
+
+```ts
+useSelector: <TSelected>(selector?) => () => TSelected;
+```
+
+Defined in: [packages/solid-form/src/createForm.tsx:58](https://github.com/TanStack/form/blob/main/packages/solid-form/src/createForm.tsx#L58)
+
+#### Type Parameters
+
+##### TSelected
+
+`TSelected` = `NoInfer`\<`FormState`\<`TParentData`, `TFormOnMount`, `TFormOnChange`, `TFormOnChangeAsync`, `TFormOnBlur`, `TFormOnBlurAsync`, `TFormOnSubmit`, `TFormOnSubmitAsync`, `TFormOnDynamic`, `TFormOnDynamicAsync`, `TFormOnServer`\>\>
+
+#### Parameters
+
+##### selector?
+
+(`state`) => `TSelected`
+
+#### Returns
+
+```ts
+(): TSelected;
+```
+
+##### Returns
+
+`TSelected`
+
+***
+
+### ~~useStore()~~
+
+```ts
+useStore: <TSelected>(selector?) => () => TSelected;
+```
+
+Defined in: [packages/solid-form/src/createForm.tsx:96](https://github.com/TanStack/form/blob/main/packages/solid-form/src/createForm.tsx#L96)
+
+#### Type Parameters
+
+##### TSelected
+
+`TSelected` = `NoInfer`\<`FormState`\<`TParentData`, `TFormOnMount`, `TFormOnChange`, `TFormOnChangeAsync`, `TFormOnBlur`, `TFormOnBlurAsync`, `TFormOnSubmit`, `TFormOnSubmitAsync`, `TFormOnDynamic`, `TFormOnDynamicAsync`, `TFormOnServer`\>\>
+
+#### Parameters
+
+##### selector?
+
+(`state`) => `TSelected`
+
+#### Returns
+
+```ts
+(): TSelected;
+```
+
+##### Returns
+
+`TSelected`
+
+#### Deprecated
+
+Use `form.useSelector` instead.

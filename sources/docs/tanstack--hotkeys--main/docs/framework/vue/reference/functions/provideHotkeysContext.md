@@ -1,0 +1,20 @@
+---
+id: provideHotkeysContext
+title: provideHotkeysContext
+---
+
+```ts
+function provideHotkeysContext(defaultOptions?): void;
+```
+
+Defined in: [HotkeysProviderContext.ts:26](https://github.com/TanStack/hotkeys/blob/main/packages/vue-hotkeys/src/HotkeysProviderContext.ts#L26)
+
+## Parameters
+
+### defaultOptions?
+
+`MaybeRefOrGetter`\<[`HotkeysProviderOptions`](../interfaces/HotkeysProviderOptions.md)\>
+
+## Returns
+
+`void`

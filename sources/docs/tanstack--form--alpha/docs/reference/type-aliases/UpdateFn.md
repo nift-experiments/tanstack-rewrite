@@ -1,0 +1,26 @@
+---
+id: UpdateFn
+title: UpdateFn
+---
+
+```ts
+type UpdateFn<TValue> = (previousValue) => TValue;
+```
+
+Defined in: [types.public.ts:3](https://github.com/TanStack/form/blob/main/packages/form-core/src/types.public.ts#L3)
+
+## Type Parameters
+
+### TValue
+
+`TValue`
+
+## Parameters
+
+### previousValue
+
+`TValue`
+
+## Returns
+
+`TValue`

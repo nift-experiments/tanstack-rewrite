@@ -1,0 +1,328 @@
+{
+  "scope": "Exact original blog collection fields/body derived from maintained authored sources; no Content Collections/Markdown AST in API graph",
+  "posts": 80,
+  "pinned_website_commit": "862ccc3d191818320c3e6d217542883f80cb907a",
+  "whole_collection_exact": true,
+  "sources": [
+    {
+      "file": "ag-grid-partnership.md",
+      "sha256": "a20e3100164a938f3cf7bc60ee6cba86002f1041971f2b701925132c7060d862"
+    },
+    {
+      "file": "ag-ui-compliance.md",
+      "sha256": "7de8364c0c1e057697ccd3c51201f7834a553a86fb061799f9f4cc80c15a8373"
+    },
+    {
+      "file": "announcing-tanstack-form-v1.md",
+      "sha256": "8be909685f928642c0b7817c792e37ef05958e87728c541dec9933ef6743483c"
+    },
+    {
+      "file": "announcing-tanstack-form-v2-alpha.md",
+      "sha256": "c06d211c7080f6e2a60c1558f05bf587c433061d8be9b115c0d02fadcd4bf3d6"
+    },
+    {
+      "file": "announcing-tanstack-query-v4.md",
+      "sha256": "affca28e2ff506c59dad43df1731bde481f75f84903d371c0b4720810aab26a0"
+    },
+    {
+      "file": "announcing-tanstack-query-v5.md",
+      "sha256": "16aff73be9dd81293f2c2093dfcd739a034b096199a9b490cda88fa81adaec02"
+    },
+    {
+      "file": "announcing-tanstack-start-v1.md",
+      "sha256": "d51cfdc39e878a53035de39b74fd4d439edb1004f1809b2dc3f22f8e93c95ef0"
+    },
+    {
+      "file": "announcing-tanstack-table-v9.md",
+      "sha256": "7183f99063bfe2b5256c7e506794c0755734ef582891a77a177e35145ca962c6"
+    },
+    {
+      "file": "clerk-partnership.md",
+      "sha256": "46c186c6c23ab362c3743ddd5b520a6080d853f06f2a8dafe43dba5937777167"
+    },
+    {
+      "file": "cloudflare-partnership.md",
+      "sha256": "2867512bd2577ff9764149b369043be06c81c1b358499495bc61a5bfe59141cf"
+    },
+    {
+      "file": "coderabbit-partnership.md",
+      "sha256": "3ebe1027730076e56b05c3b3a2fb0b188161a1863f4cda7d7c1cea024ae228f6"
+    },
+    {
+      "file": "debug-logging-for-tanstack-ai.md",
+      "sha256": "981ca8fc7c7dcb458754d2c61ef0532e489a10b73be01bd5592524f2ca2b9659"
+    },
+    {
+      "file": "directives-and-the-platform-boundary.md",
+      "sha256": "848792c258d746eb3bee6a124e373aa68cd18e9d3d088792c53a3abd3fb05e3f"
+    },
+    {
+      "file": "electric-partnership.md",
+      "sha256": "9c2500cab0afdfef00c6967970165ccee4aa43f4fc80a35cd01d6175b0cf88e5"
+    },
+    {
+      "file": "from-docs-to-agents.md",
+      "sha256": "38f9dfd81f27b196fe327c700f4002ea08bc61d802904a1c69d477ea975cade9"
+    },
+    {
+      "file": "generation-hooks.md",
+      "sha256": "fb5c585903ff55d90633ff51b5f995cb93a9e7d9c167fac290d404487dae2104"
+    },
+    {
+      "file": "how-we-test-tanstack-ai-across-7-providers.md",
+      "sha256": "48d5fd017a2f843282bf3680c4beb3b6782baeee5aebe42acd7196343f4ef3a9"
+    },
+    {
+      "file": "incident-followup.md",
+      "sha256": "fbc27ba16568c379f4f0beb56d0b828bfb337bc9d04c0129cb86f15c8402e54f"
+    },
+    {
+      "file": "intent-0.5-skills-you-can-maintain.md",
+      "sha256": "046b3b5593bb1ae059acb78c2b73fbebe76b2597b4d36dcbf460583a504f56ad"
+    },
+    {
+      "file": "introducing-tanstack-markdown-and-highlight.md",
+      "sha256": "a8583fb845a115824e12ceb527f30db428a41436b77f8e2452a999a418042aa8"
+    },
+    {
+      "file": "lovable-partnership.md",
+      "sha256": "692c3ffbb8429666d5730c4ef2f9269e022868a737c99d1d3a807c4c87e7c55e"
+    },
+    {
+      "file": "multi-turn-structured-output.md",
+      "sha256": "993f61af1780c204755725eb6d46773df8d6b5cf2cb9e5f2d62d961445e49895"
+    },
+    {
+      "file": "netlify-partnership.md",
+      "sha256": "f7d0ddc6bb2604396cb5d0e818989f904a359fb82350d1b461ff0fef4debeac2"
+    },
+    {
+      "file": "npm-stats-the-right-way.md",
+      "sha256": "e67ab3251af80ddac0c107d605f73e5234aef809739c541cc09c271d6a983004"
+    },
+    {
+      "file": "npm-supply-chain-compromise-postmortem.md",
+      "sha256": "c65e27b09072d876eccc05b08ab34e19a2215917b891bd7e28184b6b35e493cb"
+    },
+    {
+      "file": "openrouter-partnership.md",
+      "sha256": "a3e251be16b7f12fc3434391b9304f4f98aaea26fdd7d56d0bbf48ad9100d609"
+    },
+    {
+      "file": "power-in-pragmatism.md",
+      "sha256": "d657361126ce627e5d6b328044e886c70894085ee0c38c12148493c92f1a6e92"
+    },
+    {
+      "file": "prisma-partnership.md",
+      "sha256": "93eb3e25123273e134f5db492c1dab9e1731d3ee01b8db5e6b67f31f41612705"
+    },
+    {
+      "file": "railway-partnership.md",
+      "sha256": "1973169b869433f0a4f9f39cc4048b37d391316d7d1ecb202cddb8daea74663a"
+    },
+    {
+      "file": "react-server-components.md",
+      "sha256": "3803719bcae44bddd4363a81d000d4ca2a6f196f41927d825d103559f0b31695"
+    },
+    {
+      "file": "removing-third-party-ads.md",
+      "sha256": "eda824f60f28eb5fa2f988db67df732d5059637bc60652c114c8fa27f6704986"
+    },
+    {
+      "file": "render-partnership.md",
+      "sha256": "58daad8882364ee515c68c72db44b8f03051e59016bd8f615079a8414d91601b"
+    },
+    {
+      "file": "run-coding-agents-in-a-sandbox.md",
+      "sha256": "5f618ffd599813314dc6d3fdd0e6a619ab9eafe0b69cb62f46cef61f7ec36506"
+    },
+    {
+      "file": "scarf-partnership.md",
+      "sha256": "dcf1831710d03f68ef0b150b67d2fdaff8ad525a29043c7c300ee0eab2ad3f1b"
+    },
+    {
+      "file": "search-params-are-state.md",
+      "sha256": "dde47b1925e2725755346411b1e18a7aa45c02c5b38cc40d24402ac9f6d91ee2"
+    },
+    {
+      "file": "sentry-partnership.md",
+      "sha256": "6af231a6936eafc7e95bc195134f683249470627674470c4a1e6e9e0869c6f3d"
+    },
+    {
+      "file": "serpapi-partnership.md",
+      "sha256": "e8173a693ca6444cf729c6a372af99e0b1ad314d53c9552476de1c96bdab0de2"
+    },
+    {
+      "file": "start-adds-rsbuild-support.md",
+      "sha256": "113f4153ffaa011cf17b522eaf6d78d88e91ad8af6117ae09a8c3b252a60a187"
+    },
+    {
+      "file": "streaming-structured-output.md",
+      "sha256": "9771d64d623747f1258874d5aa41933483653f80c8ea0ceb57d6da2943c06327"
+    },
+    {
+      "file": "tanstack-2-years.md",
+      "sha256": "cf62941da3f29a23b7f163889d45227cd626ecc7368a17e9c8134e9f6e9f9995"
+    },
+    {
+      "file": "tanstack-ai-alpha-2.md",
+      "sha256": "75fd1b99f28d801f643e30f94278e0f33b93dc442db57c0bb193dfd9df6355fe"
+    },
+    {
+      "file": "tanstack-ai-alpha-your-ai-your-way.md",
+      "sha256": "abee14a7467856f899d5c6b261c143449ef26cc55f4f24ae1bad29a10b941e61"
+    },
+    {
+      "file": "tanstack-ai-audio-generation.md",
+      "sha256": "44d2ac35b736a9f0258a4ee5205aba032de759638f69be3d8235c233d1968c2f"
+    },
+    {
+      "file": "tanstack-ai-beta.md",
+      "sha256": "9f10800a4086d3fe221bc85a85632bf712fd8bf4dc4d26b87723471e7eff326d"
+    },
+    {
+      "file": "tanstack-ai-code-mode.md",
+      "sha256": "ec0fc5b4b3f7418be05ee203fbfdcdfb11c88806f5cb4b830a2502a95a609ddc"
+    },
+    {
+      "file": "tanstack-ai-lazy-tool-discovery.md",
+      "sha256": "b5f2ab55bef36c5360d593b35db27e549672617f6ff2ab4c0075c994a3448310"
+    },
+    {
+      "file": "tanstack-ai-middleware.md",
+      "sha256": "d6bc3d5b8efd6573d586df4b8e7a9acb9bba473864c9799dd52d2df1d5b28688"
+    },
+    {
+      "file": "tanstack-ai-orchestration.md",
+      "sha256": "0f5833a89ea08b48472f16db2bea44f045ac2cf23b3c17b7f3bb1a474a3edfb7"
+    },
+    {
+      "file": "tanstack-ai-rc.md",
+      "sha256": "fa73c5d4bdcdeb3dbf6bb1707e0897fcac072e6e1e6a6428a9d07220cd8b78ba"
+    },
+    {
+      "file": "tanstack-ai-realtime-voice-chat.md",
+      "sha256": "d257e9d7aca46c5ec2c9a65a6ccaf178fe68ec3223e5a9a0ae661f70915837d1"
+    },
+    {
+      "file": "tanstack-ai-the-ai-function-postmortem.md",
+      "sha256": "676d986224434c08502f5c480729509223b769d80089ee8f0ff7491f52ff6d58"
+    },
+    {
+      "file": "tanstack-ai-why-we-split-the-adapters.md",
+      "sha256": "6fb4727938d74669507168d703bcae96bd1683eba75ce7ed70787a3d33f0744c"
+    },
+    {
+      "file": "tanstack-charts-1-0.md",
+      "sha256": "cf3c500c879a3b0a4bfdf910ffe272dd2b0d331b9a871f9b1c6aa8ac17ae6e6d"
+    },
+    {
+      "file": "tanstack-db-0.1-the-embedded-client-database-for-tanstack-query.md",
+      "sha256": "fb359ed1dfc99a139ae6f952422d6fc500c637b23d89d2f3086ea4d199da2631"
+    },
+    {
+      "file": "tanstack-db-0.5-query-driven-sync.md",
+      "sha256": "3a26661f362689dbcda216418f92effbc781886f452c9c9a36c9be75534f751c"
+    },
+    {
+      "file": "tanstack-db-0.6-app-ready-with-persistence-and-includes.md",
+      "sha256": "a6de7887c95f54fe0139d55ed4eba2f61a250ec808edf6ce1128c0a2fde226eb"
+    },
+    {
+      "file": "tanstack-has-a-new-look.md",
+      "sha256": "46fd882b12cf9ccbf748681f0ef507049a64c4b9b872151671f6e0e426eb5099"
+    },
+    {
+      "file": "tanstack-open-source-awards-2026.md",
+      "sha256": "1d9dd4a5ffb594057d660bbfe30de9f7df8c7989da8fa1b5ced4fe805dcaa3c8"
+    },
+    {
+      "file": "tanstack-router-navigation-lanes.md",
+      "sha256": "e872a6d7ae07765a0bbcc4250e005f756abda95b752323c04c9ad815886ea0da"
+    },
+    {
+      "file": "tanstack-router-route-matching-tree-rewrite.md",
+      "sha256": "34d5deef4167937b0932f3272bc19dae8d854e97a73d8fa4a19d1c53b06873d3"
+    },
+    {
+      "file": "tanstack-router-signal-graph.md",
+      "sha256": "426489bc7a2c5b525c71f895545f8952da2bae2560d3bf8b9890d60abef81ef3"
+    },
+    {
+      "file": "tanstack-router-typescript-performance.md",
+      "sha256": "0b5e6fa2bd0f0aebb717ff312022ef8b1bd1c95ae7e8533aad5fa00237be223a"
+    },
+    {
+      "file": "tanstack-start-5x-ssr-throughput.md",
+      "sha256": "bb41d6de217c7f404ca929a0a9166918838a45a6398cedc4884b53e9a10089b0"
+    },
+    {
+      "file": "tanstack-start-security-update-cve-2026-102989.md",
+      "sha256": "8cff48cc9a90517362a9023a9e363eaac20af93b71bdc0f5fee0cb01a777a6af"
+    },
+    {
+      "file": "tanstack-start-solid-v2.md",
+      "sha256": "1fca788c0f138b93c452b91f157e483ff4d592bb02685c42550d8f2e36aa1d1c"
+    },
+    {
+      "file": "tanstack-table-v9-memory-performance.md",
+      "sha256": "08be9c9576f423a2c0401b5088dc73b84340aa3b00b4d7fdd8b2b8ea4f142b9b"
+    },
+    {
+      "file": "tanstack-table-v9-reactivity.md",
+      "sha256": "de5c3064d2343c8a00be25cd64967e5290a6d8a3ac18cf383ef9ff57d77f5281"
+    },
+    {
+      "file": "tanstack-table-v9-taking-form.md",
+      "sha256": "f5b57fc5a09631f362e4e91dcc268440977506a056499367bb8b0054f66d04c8"
+    },
+    {
+      "file": "tanstack-table-v9-typescript-performance.md",
+      "sha256": "22095d00b1c73a37461095857a543755bf3d0111c5b6fe65f313f7b58322582d"
+    },
+    {
+      "file": "tanstack-virtual-chat.md",
+      "sha256": "7338e2b0d5ade07d7402051ce410977ca057f95bfa9a188697f8eedd10dac03d"
+    },
+    {
+      "file": "tanstack-virtual-perf-and-ios.md",
+      "sha256": "b2a4cec008f1bce715dca6a1f1ca6e42ba71d3b078f4462f9777210ac5941948"
+    },
+    {
+      "file": "type-safe-provider-tools-tanstack-ai.md",
+      "sha256": "494c50c6fcfa4e6e95d0b898b89ee5be6dd23bc88c3ae14f6d15d69157316d46"
+    },
+    {
+      "file": "unkey-partnership.md",
+      "sha256": "8ac52474aff22ced4260747aea233c98dacf9e65a9cb0a113a56690c781b803a"
+    },
+    {
+      "file": "vercel-partnership.md",
+      "sha256": "0583883b5218e759130c01560cfd9f8ef9073f659c1f9178f1007e8df17c1111"
+    },
+    {
+      "file": "we-stopped-using-rsc-on-tanstack-com.md",
+      "sha256": "52d370d9ac1e0914f663fc73785cfcc0e972374cd4d8cedab4caebdf8d3b3327"
+    },
+    {
+      "file": "who-owns-the-tree.md",
+      "sha256": "d9d6ae4df31a18caf2d1271ede7208ca237f4118ec83b829451f08c6d3d2a25e"
+    },
+    {
+      "file": "why-tanstack-start-and-router.md",
+      "sha256": "90fed157d54a1b03208e1cf053feef5c512af98ced58f446a295d11f19defa49"
+    },
+    {
+      "file": "why-tanstack-start-is-ditching-adapters.md",
+      "sha256": "103978106f7c0280a8c7aeae0d5074a2abf73f26fc82acd98fbca92570bdd83e"
+    },
+    {
+      "file": "workos-partnership.md",
+      "sha256": "cc36b3acdfa3b15642919eb203a97b25864509fb79bf3369adbbd2529268197c"
+    },
+    {
+      "file": "your-mcp-your-way.md",
+      "sha256": "fcf4e84ec467a581654c49f54e3ae8dc307dd5e85b80810d19adbf0e6885b048"
+    }
+  ]
+}

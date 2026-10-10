@@ -1,0 +1,64 @@
+---
+id: matchesKeyboardEvent
+title: matchesKeyboardEvent
+---
+
+```ts
+function matchesKeyboardEvent(
+   event, 
+   hotkey, 
+   platform?): boolean;
+```
+
+Defined in: [match.ts:49](https://github.com/TanStack/hotkeys/blob/main/packages/hotkeys/src/match.ts#L49)
+
+Checks if a KeyboardEvent matches a hotkey.
+
+Physical bindings such as `Mod+[KeyS]` match `event.code` exactly.
+Logical bindings use `event.key`, with a fallback to `code`
+for letter keys, digit keys (0-9), and punctuation keys when `key` produces special
+characters (e.g., macOS Option+letter, Shift+number, or Option+punctuation).
+Letter keys are matched case-insensitively.
+
+Also handles "dead key" events where `event.key` is `'Dead'` instead of the expected
+character. This commonly occurs on macOS with Option+letter combinations (e.g., Option+E,
+Option+I, Option+U, Option+N) and on Windows/Linux with international keyboard layouts.
+In these cases, `event.code` is used to determine the physical key.
+
+## Parameters
+
+### event
+
+`KeyboardEvent`
+
+The KeyboardEvent to check
+
+### hotkey
+
+  \| [`Hotkey`](../type-aliases/Hotkey.md)
+  \| [`ParsedHotkey`](../type-aliases/ParsedHotkey.md)
+
+The hotkey string or ParsedHotkey to match against
+
+### platform?
+
+`"mac"` \| `"windows"` \| `"linux"`
+
+The target platform for resolving 'Mod' (defaults to auto-detection)
+
+## Returns
+
+`boolean`
+
+True if the event matches the hotkey
+
+## Example
+
+```ts
+document.addEventListener('keydown', (event) => {
+  if (matchesKeyboardEvent(event, 'Mod+S')) {
+    event.preventDefault()
+    handleSave()
+  }
+})
+```

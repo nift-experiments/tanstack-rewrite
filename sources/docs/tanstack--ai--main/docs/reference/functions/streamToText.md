@@ -1,0 +1,40 @@
+---
+id: streamToText
+title: streamToText
+---
+
+```ts
+function streamToText(stream): Promise<string>;
+```
+
+Defined in: [packages/ai/src/stream-to-response.ts:49](https://github.com/TanStack/ai/blob/main/packages/ai/src/stream-to-response.ts#L49)
+
+Collect all text content from a StreamChunk async iterable and return as a string.
+
+This function consumes the entire stream, accumulating content from TEXT_MESSAGE_CONTENT events,
+and returns the final concatenated text.
+
+## Parameters
+
+### stream
+
+`AsyncIterable`\<[`AGUIEvent`](../type-aliases/AGUIEvent.md)\>
+
+AsyncIterable of StreamChunks from chat()
+
+## Returns
+
+`Promise`\<`string`\>
+
+Promise<string> - The accumulated text content
+
+## Example
+
+```typescript
+const stream = chat({
+  adapter: openaiText('gpt-5.5'),
+  messages: [{ role: 'user', content: 'Hello!' }]
+});
+const text = await streamToText(stream);
+console.log(text); // "Hello! How can I help you today?"
+```

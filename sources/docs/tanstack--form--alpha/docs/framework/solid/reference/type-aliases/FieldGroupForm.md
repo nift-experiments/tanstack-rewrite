@@ -1,0 +1,20 @@
+---
+id: FieldGroupForm
+title: FieldGroupForm
+---
+
+```ts
+type FieldGroupForm<TFieldComponents, TFormData> = FormApi<TFormData, any> & SolidTanStackFormComponents<TFormData, any, TFieldComponents>;
+```
+
+Defined in: [packages/solid-form/src/FieldGroup/withFields.public.ts:35](https://github.com/TanStack/form/blob/main/packages/solid-form/src/FieldGroup/withFields.public.ts#L35)
+
+## Type Parameters
+
+### TFieldComponents
+
+`TFieldComponents` *extends* `Record`\<`string`, `Component`\<`any`\>\> = `Record`\<`never`, `never`\>
+
+### TFormData
+
+`TFormData` = `any`

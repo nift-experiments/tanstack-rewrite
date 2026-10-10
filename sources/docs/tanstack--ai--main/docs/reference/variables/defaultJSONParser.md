@@ -1,0 +1,12 @@
+---
+id: defaultJSONParser
+title: defaultJSONParser
+---
+
+```ts
+const defaultJSONParser: PartialJSONParser;
+```
+
+Defined in: [packages/ai/src/activities/chat/stream/json-parser.ts:49](https://github.com/TanStack/ai/blob/main/packages/ai/src/activities/chat/stream/json-parser.ts#L49)
+
+Default parser instance

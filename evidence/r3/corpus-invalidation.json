@@ -1,0 +1,21 @@
+{
+  "scope": "Shared authored source updates both latest and explicit-version aliases; original bytes restored. Diagnostic runs, not final production benchmark.",
+  "runs": [
+    {
+      "label": "changed-source",
+      "rendered": 2,
+      "reused": 14105,
+      "elapsedSeconds": 6.695094815,
+      "maxProcessRssMiB": 355.03125,
+      "memoryQualification": "GNU time maximum process RSS, not aggregate tree RSS"
+    },
+    {
+      "label": "restored-source",
+      "rendered": 2,
+      "reused": 14105,
+      "elapsedSeconds": 6.404907338,
+      "maxProcessRssMiB": 349.26953125,
+      "memoryQualification": "GNU time maximum process RSS, not aggregate tree RSS"
+    }
+  ]
+}

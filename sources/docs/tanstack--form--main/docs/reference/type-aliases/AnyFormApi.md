@@ -1,0 +1,12 @@
+---
+id: AnyFormApi
+title: AnyFormApi
+---
+
+```ts
+type AnyFormApi = FormApi<any, any, any, any, any, any, any, any, any, any, any, any>;
+```
+
+Defined in: [packages/form-core/src/FormApi.ts:915](https://github.com/TanStack/form/blob/main/packages/form-core/src/FormApi.ts#L915)
+
+A type representing the Form API with all generics set to `any` for convenience.

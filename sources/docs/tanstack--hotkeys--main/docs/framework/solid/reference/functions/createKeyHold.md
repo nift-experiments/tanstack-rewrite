@@ -1,0 +1,60 @@
+---
+id: createKeyHold
+title: createKeyHold
+---
+
+```ts
+function createKeyHold(key): () => boolean;
+```
+
+Defined in: [createKeyHold.ts:46](https://github.com/TanStack/hotkeys/blob/main/packages/solid-hotkeys/src/createKeyHold.ts#L46)
+
+SolidJS primitive that returns whether a specific key is currently being held.
+
+This primitive uses `useSelector` from `@tanstack/solid-store` to subscribe
+to the global KeyStateTracker and uses a selector to determine if the
+specified key is held.
+
+## Parameters
+
+### key
+
+`IndividualKey` \| (() => `IndividualKey`)
+
+The key to check (e.g., 'Shift', 'Control', 'A') - can be an accessor function
+
+## Returns
+
+Signal accessor that returns true if the key is currently held down
+
+() => `boolean`
+
+## Examples
+
+```tsx
+function ShiftIndicator() {
+  const isShiftHeld = createKeyHold('Shift')
+
+  return (
+    <div style={{ opacity: isShiftHeld() ? 1 : 0.5 }}>
+      {isShiftHeld() ? 'Shift is pressed!' : 'Press Shift'}
+    </div>
+  )
+}
+```
+
+```tsx
+function ModifierIndicators() {
+  const ctrl = createKeyHold('Control')
+  const shift = createKeyHold('Shift')
+  const alt = createKeyHold('Alt')
+
+  return (
+    <div>
+      <span style={{ opacity: ctrl() ? 1 : 0.3 }}>Ctrl</span>
+      <span style={{ opacity: shift() ? 1 : 0.3 }}>Shift</span>
+      <span style={{ opacity: alt() ? 1 : 0.3 }}>Alt</span>
+    </div>
+  )
+}
+```

@@ -1,0 +1,40 @@
+---
+id: FieldGroupWithFieldsFn
+title: FieldGroupWithFieldsFn
+---
+
+```ts
+type FieldGroupWithFieldsFn<TGroup> = <TProps, TPropName>(Component, fieldsPropName) => <TFormData>(options) => SvelteComponent & Component<any> & WithoutFunction<Component>;
+```
+
+Defined in: [packages/svelte-form/src/FieldGroup/withFields.public.ts:60](https://github.com/TanStack/form/blob/main/packages/svelte-form/src/FieldGroup/withFields.public.ts#L60)
+
+## Type Parameters
+
+### TGroup
+
+`TGroup` *extends* `object`
+
+## Type Parameters
+
+### TProps
+
+`TProps` *extends* `object`
+
+### TPropName
+
+`TPropName` *extends* `FieldGroupFieldsPropName`\<`TProps`, `TGroup`\>
+
+## Parameters
+
+### Component
+
+`Component`\<`TProps`\>
+
+### fieldsPropName
+
+`TPropName`
+
+## Returns
+
+\<`TFormData`\>(`options`) => `SvelteComponent` & `Component`\<`any`\> & [`WithoutFunction`](WithoutFunction.md)\<`Component`\>

@@ -1,0 +1,47 @@
+---
+id: resolveModifier
+title: resolveModifier
+---
+
+```ts
+function resolveModifier(modifier, platform?): CanonicalModifier;
+```
+
+Defined in: [platform.ts:58](https://github.com/TanStack/hotkeys/blob/main/packages/hotkeys/src/platform.ts#L58)
+
+Resolves the platform-adaptive 'Mod' modifier to the appropriate canonical modifier.
+
+The 'Mod' token represents the "primary modifier" on each platform:
+- macOS: 'Meta' (Command key ⌘)
+- Windows/Linux: 'Control' (Ctrl key)
+
+This enables cross-platform hotkey definitions like 'Mod+S' that automatically
+map to Command+S on Mac and Ctrl+S on Windows/Linux.
+
+## Parameters
+
+### modifier
+
+`"Mod"` \| [`CanonicalModifier`](../type-aliases/CanonicalModifier.md)
+
+The modifier to resolve. If 'Mod', resolves based on platform.
+
+### platform?
+
+`"mac"` \| `"windows"` \| `"linux"`
+
+The target platform. Defaults to auto-detection.
+
+## Returns
+
+[`CanonicalModifier`](../type-aliases/CanonicalModifier.md)
+
+The canonical modifier name ('Control', 'Shift', 'Alt', or 'Meta')
+
+## Example
+
+```ts
+resolveModifier('Mod', 'mac') // 'Meta'
+resolveModifier('Mod', 'windows') // 'Control'
+resolveModifier('Control', 'mac') // 'Control' (unchanged)
+```

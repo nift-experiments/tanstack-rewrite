@@ -1,0 +1,16 @@
+---
+id: Nullable
+title: Nullable
+---
+
+```ts
+type Nullable<T> = T & undefined | null;
+```
+
+Defined in: [packages/form-core/src/util-types.ts:106](https://github.com/TanStack/form/blob/main/packages/form-core/src/util-types.ts#L106)
+
+## Type Parameters
+
+### T
+
+`T`

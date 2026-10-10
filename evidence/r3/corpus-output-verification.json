@@ -1,0 +1,9 @@
+{
+  "routes": 14107,
+  "uniqueAuthoredDocuments": 7527,
+  "niftArticleBytesVerified": 14107,
+  "metadataFilesVerified": 14107,
+  "markdownDownloadsVerified": 14107,
+  "scope": "Corpus coverage and raw composition integrity; not full browser parity",
+  "importedSourceFilesByteEqualToPinnedInputs": 7601
+}

@@ -1,0 +1,16 @@
+---
+id: ToFormGroupErrorTypes
+title: ToFormGroupErrorTypes
+---
+
+```ts
+type ToFormGroupErrorTypes<TGroupValidators> = ToValidatorErrorTypes<TGroupValidators, FormGroupValidators<any>, never>;
+```
+
+Defined in: [validation.public.ts:752](https://github.com/TanStack/form/blob/main/packages/form-core/src/validation.public.ts#L752)
+
+## Type Parameters
+
+### TGroupValidators
+
+`TGroupValidators` *extends* [`FormGroupValidators`](FormGroupValidators.md)\<`any`\>

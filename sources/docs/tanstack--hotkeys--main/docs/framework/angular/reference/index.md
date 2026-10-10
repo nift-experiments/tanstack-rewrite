@@ -1,0 +1,37 @@
+---
+id: "@tanstack/angular-hotkeys"
+title: "@tanstack/angular-hotkeys"
+---
+
+## Interfaces
+
+- [AngularHotkeyRecorder](interfaces/AngularHotkeyRecorder.md)
+- [AngularHotkeySequenceRecorder](interfaces/AngularHotkeySequenceRecorder.md)
+- [HotkeyRegistrationsResult](interfaces/HotkeyRegistrationsResult.md)
+- [HotkeysContextValue](interfaces/HotkeysContextValue.md)
+- [HotkeysProviderOptions](interfaces/HotkeysProviderOptions.md)
+- [InjectHotkeyDefinition](interfaces/InjectHotkeyDefinition.md)
+- [InjectHotkeyOptions](interfaces/InjectHotkeyOptions.md)
+- [InjectHotkeySequenceDefinition](interfaces/InjectHotkeySequenceDefinition.md)
+- [InjectHotkeySequenceOptions](interfaces/InjectHotkeySequenceOptions.md)
+
+## Variables
+
+- [HOTKEYS\_INJECTION\_TOKEN](variables/HOTKEYS_INJECTION_TOKEN.md)
+
+## Functions
+
+- [injectDefaultHotkeysOptions](functions/injectDefaultHotkeysOptions.md)
+- [injectHeldKeyCodes](functions/injectHeldKeyCodes.md)
+- [injectHeldKeys](functions/injectHeldKeys.md)
+- [injectHotkey](functions/injectHotkey.md)
+- [injectHotkeyHint](functions/injectHotkeyHint.md)
+- [injectHotkeyRecorder](functions/injectHotkeyRecorder.md)
+- [injectHotkeyRegistrations](functions/injectHotkeyRegistrations.md)
+- [injectHotkeys](functions/injectHotkeys.md)
+- [injectHotkeysContext](functions/injectHotkeysContext.md)
+- [injectHotkeySequence](functions/injectHotkeySequence.md)
+- [injectHotkeySequenceRecorder](functions/injectHotkeySequenceRecorder.md)
+- [injectHotkeySequences](functions/injectHotkeySequences.md)
+- [injectKeyHold](functions/injectKeyHold.md)
+- [provideHotkeys](functions/provideHotkeys.md)

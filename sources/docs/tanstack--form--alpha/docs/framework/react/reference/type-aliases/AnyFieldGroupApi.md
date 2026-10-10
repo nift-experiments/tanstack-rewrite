@@ -1,0 +1,10 @@
+---
+id: AnyFieldGroupApi
+title: AnyFieldGroupApi
+---
+
+```ts
+type AnyFieldGroupApi = FieldGroupApi<any, Record<string, FunctionComponent<any>>>;
+```
+
+Defined in: [packages/react-form/src/FieldGroup/FieldGroupApi.public.ts:186](https://github.com/TanStack/form/blob/main/packages/react-form/src/FieldGroup/FieldGroupApi.public.ts#L186)

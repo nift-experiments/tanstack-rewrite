@@ -1,0 +1,20 @@
+---
+id: SubscribeSource
+title: SubscribeSource
+---
+
+```ts
+type SubscribeSource<TValue> = 
+  | Atom<TValue>
+  | ReadonlyAtom<TValue>
+  | Store<TValue>
+| ReadonlyStore<TValue>;
+```
+
+Defined in: [packages/react-form/src/Subscribe.public.tsx:10](https://github.com/TanStack/form/blob/main/packages/react-form/src/Subscribe.public.tsx#L10)
+
+## Type Parameters
+
+### TValue
+
+`TValue`

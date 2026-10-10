@@ -1,0 +1,10 @@
+---
+id: defaultValidationLogic
+title: defaultValidationLogic
+---
+
+```ts
+const defaultValidationLogic: ValidationLogicFn;
+```
+
+Defined in: [packages/form-core/src/ValidationLogic.ts:134](https://github.com/TanStack/form/blob/main/packages/form-core/src/ValidationLogic.ts#L134)

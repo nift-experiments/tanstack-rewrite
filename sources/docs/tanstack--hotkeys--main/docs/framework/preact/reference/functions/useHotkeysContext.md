@@ -1,0 +1,14 @@
+---
+id: useHotkeysContext
+title: useHotkeysContext
+---
+
+```ts
+function useHotkeysContext(): HotkeysContextValue | null;
+```
+
+Defined in: [HotkeysProvider.tsx:49](https://github.com/TanStack/hotkeys/blob/main/packages/preact-hotkeys/src/HotkeysProvider.tsx#L49)
+
+## Returns
+
+`HotkeysContextValue` \| `null`

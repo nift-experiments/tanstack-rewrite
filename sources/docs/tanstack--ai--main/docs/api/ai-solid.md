@@ -1,0 +1,472 @@
+---
+title: "@tanstack/ai-solid"
+slug: /api/ai-solid
+order: 4
+description: "API reference for @tanstack/ai-solid — SolidJS primitives including useChat for streaming chat with full type safety."
+keywords:
+  - tanstack ai
+  - "@tanstack/ai-solid"
+  - solidjs
+  - solid
+  - useChat
+  - solid primitives
+  - api reference
+---
+
+SolidJS primitives for TanStack AI, providing convenient SolidJS bindings for the headless client.
+
+For a typed headless chat UI, see [Solid Chat UI](../ui/solid).
+
+## Installation
+
+<!-- ::start:tabs variant="package-manager" mode="install" -->
+
+solid: @tanstack/ai-solid
+
+<!-- ::end:tabs -->
+
+## `useRegisterWebMCPTools(tools, options?)`
+
+Register executable client tools for the current Solid owner. Solid removes them when the owner is cleaned up.
+
+For a complete setup and behavior guide, see [WebMCP Tools](../tools/webmcp).
+
+```tsx
+import {
+  useRegisterWebMCPTools,
+  type UseRegisterWebMCPToolsOptions,
+} from "@tanstack/ai-solid";
+import { searchProducts } from "./tools";
+
+const tools = [searchProducts];
+const options: UseRegisterWebMCPToolsOptions<typeof tools> = {
+  onError(error) {
+    console.error(error);
+  },
+};
+
+function ProductsPage() {
+  useRegisterWebMCPTools(tools, options);
+  return null;
+}
+```
+
+`UseRegisterWebMCPToolsOptions<TTools, TContext>` contains `toolOptions`, `context`, and `onError`. The primitive owns the registration signal.
+
+The `context` field is required when a tool declares a required runtime context.
+
+## `usePageWebMCPTools(options?)`
+
+Read the WebMCP tools on the page as client tools. The accessor starts empty and updates when the page adds or removes a tool. Read it in a `get tools()` getter on `useChat`.
+
+```ts
+import { usePageWebMCPTools } from "@tanstack/ai-solid";
+
+export function useSameOriginPageTools() {
+  return usePageWebMCPTools({
+    filter: (tool) => tool.origin === location.origin,
+  });
+}
+```
+
+`filter` skips a tool when it returns `false`. `onError` gets a failed WebMCP read. For a complete guide, see [Page WebMCP Tools in Chat](../tools/webmcp-page-tools).
+
+## `createChatHook(options)`
+
+Bind `chatOptions` once at module scope. Call `useChat()` in the screen to create the instance. Per-call overrides may set `threadId`, `initialMessages`, `live`, and `forwardedProps`. They must not change `tools`, `interrupts`, or `outputSchema`.
+
+```tsx
+import { createChatHook, fetchServerSentEvents } from "@tanstack/ai-solid";
+
+const chatOptions = {
+  connection: fetchServerSentEvents("/api/chat"),
+};
+
+const { useChat } = createChatHook(chatOptions);
+
+function ChatScreen() {
+  const chat = useChat({ threadId: "support-1" });
+  return null;
+}
+```
+
+`useChat(chatOptions)` from this package still works when you want to pass the full object at the call site. Rename the bound primitive if both are in one file: `const { useChat: useSupportChat } = createChatHook(chatOptions)`.
+
+## `useChat(options?)`
+
+Main primitive for managing chat state in SolidJS with full type safety.
+
+```tsx
+import { useChat, fetchServerSentEvents } from "@tanstack/ai-solid";
+import { 
+  createChatClientOptions, 
+  type InferChatMessages 
+} from "@tanstack/ai-client";
+import { toolDefinition } from "@tanstack/ai";
+import { z } from "zod";
+import { createSignal } from "solid-js";
+
+const updateUIDef = toolDefinition({
+  name: "updateUI",
+  description: "Show a notification in the UI",
+  inputSchema: z.object({ message: z.string() }),
+});
+
+function ChatComponent() {
+  const [, setNotification] = createSignal<string | null>(null);
+  // Create client tool implementations
+  const updateUI = updateUIDef.client((input) => {
+    setNotification(input.message);
+    return { success: true };
+  });
+
+  // Create typed tools array (no 'as const' needed!)
+  const tools = [updateUI];
+
+  const chatOptions = createChatClientOptions({
+    connection: fetchServerSentEvents("/api/chat"),
+    tools,
+  });
+
+  // Fully typed messages!
+  type ChatMessages = InferChatMessages<typeof chatOptions>;
+
+  const { messages, sendMessage, isLoading, error, addToolApprovalResponse } =
+    useChat(chatOptions);
+
+  return <div>{/* Chat UI with typed messages */}</div>;
+}
+```
+
+### Options
+
+Extends `ChatClientOptions` from `@tanstack/ai-client`:
+
+- `connection` - Connection adapter (required)
+- `tools?` - Array of client tool implementations (with `.client()` method). Read a signal in a `get tools()` getter to change the tools after the chat is created.
+- `initialMessages?` - Initial messages array
+- `threadId?` - The only identity for this chat. Required when persistence is on. If omitted, minted after mount.
+- `forwardedProps?` - Arbitrary client-controlled JSON forwarded to the server in the AG-UI `RunAgentInput.forwardedProps` field (e.g., `{ provider: 'openai', model: 'gpt-5.5' }`)
+- `body?` - **Deprecated.** Use `forwardedProps` instead. Still works for backward compatibility; values are merged into `forwardedProps` on the wire
+- `byok?` - Optional BYOK keyring from `defineByok`. On each send the client prepares the resolved provider and stamps `x-byok-*` request headers. Keys never go in the body
+- `byokProvider?` - Optional function that returns the provider slug for this chat. If it returns a slug, only that key is prepared and sent. Otherwise the merged `provider` from `forwardedProps`, `body`, and per-call `sendMessage` `body` is used. Later sources win. If no slug resolves, the send throws instead of attaching every stored key
+- `context?` - Typed client-local runtime context passed to client tool implementations. This value is not serialized to the server
+- `onResponse?` - Callback when response is received
+- `onChunk?` - Callback when stream chunk is received
+- `onFinish?` - Callback when response finishes
+- `onError?` - Callback when error occurs
+- `onInterruptStateChange?` - Callback when interrupt state changes; context source is `hydrate` for restored state and `live` for streamed or client-initiated updates
+- `streamProcessor?` - Stream processing configuration
+
+**Note:** Client tools are now automatically executed - no `onToolCall` callback needed!
+
+### Returns
+
+```typescript
+import type { Accessor } from "solid-js";
+import type { UIMessage } from "@tanstack/ai-solid";
+import type { ModelMessage } from "@tanstack/ai/client";
+import type {
+  MultimodalContent,
+  SendMessageOptions,
+} from "@tanstack/ai-client";
+
+interface UseChatReturn {
+  messages: Accessor<UIMessage[]>;
+  sendMessage: (
+    content: string | MultimodalContent,
+    options?: SendMessageOptions,
+  ) => Promise<void>;
+  append: (message: ModelMessage | UIMessage) => Promise<void>;
+  addToolResult: (result: {
+    toolCallId: string;
+    tool: string;
+    output: any;
+    state?: "output-available" | "output-error";
+    errorText?: string;
+  }) => Promise<void>;
+  addToolApprovalResponse: (response: {
+    id: string;
+    approved: boolean;
+  }) => Promise<void>;
+  reload: () => Promise<void>;
+  stop: () => void;
+  isLoading: Accessor<boolean>;
+  isHydrating: Accessor<boolean>;
+  error: Accessor<Error | undefined>;
+  setMessages: (messages: UIMessage[]) => void;
+  clear: () => void;
+}
+```
+
+**Note:** Unlike React, `messages`, `isLoading`, `isHydrating`, and `error` are SolidJS `Accessor` functions, so you need to call them to get their values (e.g., `messages()` instead of just `messages`).
+
+## `useByok(client)`
+
+Subscribe to a `ByokClient` snapshot in Solid. The return value is an `Accessor`.
+
+```tsx
+import { useByok } from "@tanstack/ai-solid";
+import { byok } from "./byok";
+
+export function KeyStatus() {
+  const snapshot = useByok(byok);
+  const openai = snapshot().status.openai;
+  const last4 = openai && "masked" in openai ? openai.masked : "No key";
+  return <p>{last4}</p>;
+}
+```
+
+`snapshot()` has `status`, `locked`, and `prompt`. Call `byok.update(provider, value)` from your own UI to save a key. See [Bring Your Own Key](../advanced/byok).
+
+## Connection Adapters
+
+Re-exported from `@tanstack/ai-client` for convenience:
+
+```typescript
+import {
+  fetchServerSentEvents,
+  fetchHttpStream,
+  fetchJson,
+  stream,
+  type ConnectionAdapter,
+} from "@tanstack/ai-solid";
+```
+
+## Example: Basic Chat
+
+```tsx
+import { createSignal, For } from "solid-js";
+import { useChat, fetchServerSentEvents } from "@tanstack/ai-solid";
+
+export function Chat() {
+  const [input, setInput] = createSignal("");
+
+  const { messages, sendMessage, isLoading } = useChat({
+    connection: fetchServerSentEvents("/api/chat"),
+  });
+
+  const handleSubmit = (e: Event) => {
+    e.preventDefault();
+    if (input().trim() && !isLoading()) {
+      sendMessage(input());
+      setInput("");
+    }
+  };
+
+  return (
+    <div>
+      <div>
+        <For each={messages()}>
+          {(message) => (
+            <div>
+              <strong>{message.role}:</strong>
+              <For each={message.parts}>
+                {(part) => {
+                  if (part.type === "thinking") {
+                    return (
+                      <div class="text-sm text-gray-500 italic">
+                        💭 Thinking: {part.content}
+                      </div>
+                    );
+                  }
+                  if (part.type === "text") {
+                    return <span>{part.content}</span>;
+                  }
+                  return null;
+                }}
+              </For>
+            </div>
+          )}
+        </For>
+      </div>
+      <form onSubmit={handleSubmit}>
+        <input
+          value={input()}
+          onInput={(e) => setInput(e.currentTarget.value)}
+          disabled={isLoading()}
+        />
+        <button type="submit" disabled={isLoading()}>
+          Send
+        </button>
+      </form>
+    </div>
+  );
+}
+```
+
+## Example: Tool Approval
+
+```tsx
+import { For, Show } from "solid-js";
+import { useChat, fetchServerSentEvents } from "@tanstack/ai-solid";
+
+export function ChatWithApproval() {
+  const { messages, sendMessage, addToolApprovalResponse } = useChat({
+    connection: fetchServerSentEvents("/api/chat"),
+  });
+
+  return (
+    <div>
+      <For each={messages()}>
+        {(message) => (
+          <For each={message.parts}>
+            {(part) => {
+              if (
+                part.type === "tool-call" &&
+                part.state === "approval-requested" &&
+                part.approval
+              ) {
+                return (
+                  <div>
+                    <p>Approve: {part.name}</p>
+                    <button
+                      onClick={() =>
+                        addToolApprovalResponse({
+                          id: part.approval!.id,
+                          approved: true,
+                        })
+                      }
+                    >
+                      Approve
+                    </button>
+                    <button
+                      onClick={() =>
+                        addToolApprovalResponse({
+                          id: part.approval!.id,
+                          approved: false,
+                        })
+                      }
+                    >
+                      Deny
+                    </button>
+                  </div>
+                );
+              }
+              return null;
+            }}
+          </For>
+        )}
+      </For>
+    </div>
+  );
+}
+```
+
+## Example: Client Tools with Type Safety
+
+```tsx
+import { useChat, fetchServerSentEvents } from "@tanstack/ai-solid";
+import { 
+  createChatClientOptions, 
+  type InferChatMessages 
+} from "@tanstack/ai-client";
+import { toolDefinition } from "@tanstack/ai";
+import { z } from "zod";
+import { createSignal, For } from "solid-js";
+
+const updateUIDef = toolDefinition({
+  name: "updateUI",
+  description: "Show a notification in the UI",
+  inputSchema: z.object({ message: z.string(), type: z.string() }),
+});
+
+const saveToStorageDef = toolDefinition({
+  name: "saveToStorage",
+  description: "Save a value to localStorage",
+  inputSchema: z.object({ key: z.string(), value: z.string() }),
+});
+
+export function ChatWithClientTools() {
+  const [notification, setNotification] = createSignal<{ message: string; type: string } | null>(null);
+
+  // Create client implementations
+  const updateUI = updateUIDef.client((input) => {
+    // ✅ input is fully typed!
+    setNotification({ message: input.message, type: input.type });
+    return { success: true };
+  });
+
+  const saveToStorage = saveToStorageDef.client((input) => {
+    localStorage.setItem(input.key, input.value);
+    return { saved: true };
+  });
+
+  // Create typed tools array (no 'as const' needed!)
+  const tools = [updateUI, saveToStorage];
+
+  const { messages, sendMessage } = useChat({
+    connection: fetchServerSentEvents("/api/chat"),
+    tools, // ✅ Automatic execution, full type safety
+  });
+
+  return (
+    <div>
+      <For each={messages()}>
+        {(message) => (
+          <For each={message.parts}>
+            {(part) => {
+              if (part.type === "tool-call" && part.name === "updateUI") {
+                // ✅ part.input and part.output are fully typed!
+                return <div>Tool executed: {part.name}</div>;
+              }
+              return null;
+            }}
+          </For>
+        )}
+      </For>
+    </div>
+  );
+}
+```
+
+## `createChatClientOptions(options)`
+
+Helper to create typed chat options (re-exported from `@tanstack/ai-client`).
+
+```typescript
+import { 
+  createChatClientOptions, 
+  type InferChatMessages 
+} from "@tanstack/ai-client";
+import { fetchServerSentEvents } from "@tanstack/ai-solid";
+import { tool1, tool2 } from "./tools";
+
+// Create typed tools array (no 'as const' needed!)
+const tools = [tool1, tool2];
+
+const chatOptions = createChatClientOptions({
+  connection: fetchServerSentEvents("/api/chat"),
+  tools,
+});
+
+type Messages = InferChatMessages<typeof chatOptions>;
+```
+
+## Types
+
+Re-exported from `@tanstack/ai-client`:
+
+- `UIMessage<TTools>` - Message type with tool type parameter
+- `MessagePart<TTools>` - Message part with tool type parameter
+- `TextPart` - Text content part
+- `ThinkingPart` - Thinking content part
+- `ToolCallPart<TTools>` - Tool call part (discriminated union)
+- `ToolResultPart` - Tool result part
+- `ChatClientOptions<TTools, TContext>` - Chat client options with typed client runtime context
+- `ConnectionAdapter` - Connection adapter interface
+- `InferChatMessages<T>` - Extract message type from options
+- `ChatRequestBody` - Request body type
+
+Re-exported from `@tanstack/ai`:
+
+- `toolDefinition()` - Create isomorphic tool definition
+- `ToolDefinitionInstance` - Tool definition type
+- `ClientTool` - Client tool type
+- `ServerTool` - Server tool type
+
+## Next Steps
+
+- [Getting Started](../getting-started/quick-start) - Learn the basics
+- [Tools Guide](../tools/tools) - Learn about the isomorphic tool system
+- [Client Tools](../tools/client-tools) - Learn about client-side tools

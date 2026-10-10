@@ -1,0 +1,152 @@
+{
+  "scope": "One automatically selected route per library; rendering/hydration coverage, not parity",
+  "results": [
+    {
+      "library": "start",
+      "path": "/start/latest/docs/eslint/eslint-plugin-start",
+      "status": 200,
+      "article": 1,
+      "errors": []
+    },
+    {
+      "library": "router",
+      "path": "/router/latest/docs/api/file-based-routing",
+      "status": 200,
+      "article": 1,
+      "errors": []
+    },
+    {
+      "library": "query",
+      "path": "/query/latest/docs/community-resources",
+      "status": 200,
+      "article": 1,
+      "errors": []
+    },
+    {
+      "library": "table",
+      "path": "/table/latest/docs/agent-skills",
+      "status": 200,
+      "article": 1,
+      "errors": []
+    },
+    {
+      "library": "charts",
+      "path": "/charts/latest/docs/comparison",
+      "status": 200,
+      "article": 1,
+      "errors": []
+    },
+    {
+      "library": "form",
+      "path": "/form/latest/docs/community-resources",
+      "status": 200,
+      "article": 1,
+      "errors": []
+    },
+    {
+      "library": "db",
+      "path": "/db/latest/docs/collections/electric-collection",
+      "status": 200,
+      "article": 1,
+      "errors": []
+    },
+    {
+      "library": "ai",
+      "path": "/ai/latest/docs/adapters/acp-compatible",
+      "status": 200,
+      "article": 1,
+      "errors": []
+    },
+    {
+      "library": "intent",
+      "path": "/intent/latest/docs/cli/intent-exclude",
+      "status": 200,
+      "article": 1,
+      "errors": []
+    },
+    {
+      "library": "virtual",
+      "path": "/virtual/latest/docs/api/virtual-item",
+      "status": 200,
+      "article": 1,
+      "errors": []
+    },
+    {
+      "library": "pacer",
+      "path": "/pacer/latest/docs/devtools",
+      "status": 200,
+      "article": 1,
+      "errors": []
+    },
+    {
+      "library": "hotkeys",
+      "path": "/hotkeys/latest/docs/devtools",
+      "status": 200,
+      "article": 1,
+      "errors": []
+    },
+    {
+      "library": "markdown",
+      "path": "/markdown/latest/docs/comparison",
+      "status": 200,
+      "article": 1,
+      "errors": []
+    },
+    {
+      "library": "highlight",
+      "path": "/highlight/latest/docs/architecture",
+      "status": 200,
+      "article": 1,
+      "errors": []
+    },
+    {
+      "library": "store",
+      "path": "/store/latest/docs/framework/angular/quick-start",
+      "status": 200,
+      "article": 1,
+      "errors": []
+    },
+    {
+      "library": "ranger",
+      "path": "/ranger/latest/docs/concepts",
+      "status": 200,
+      "article": 1,
+      "errors": []
+    },
+    {
+      "library": "config",
+      "path": "/config/latest/docs/ci-cd",
+      "status": 200,
+      "article": 1,
+      "errors": []
+    },
+    {
+      "library": "devtools",
+      "path": "/devtools/latest/docs/architecture",
+      "status": 200,
+      "article": 1,
+      "errors": []
+    },
+    {
+      "library": "mcp",
+      "path": "/mcp/latest/docs/builder-retirement",
+      "status": 200,
+      "article": 1,
+      "errors": []
+    },
+    {
+      "library": "cli",
+      "path": "/cli/latest/docs/add-ons",
+      "status": 200,
+      "article": 1,
+      "errors": []
+    },
+    {
+      "library": "workflow",
+      "path": "/workflow/latest/docs/api/core",
+      "status": 200,
+      "article": 1,
+      "errors": []
+    }
+  ]
+}

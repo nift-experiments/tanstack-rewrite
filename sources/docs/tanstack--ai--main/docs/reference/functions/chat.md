@@ -1,0 +1,128 @@
+---
+id: chat
+title: chat
+---
+
+```ts
+function chat<TAdapter, TSchema, TStream, TTools, TInterrupts, TContext, TMiddleware, TAgents>(options): TextActivityResult<TSchema, TStream, TTools>;
+```
+
+Defined in: [packages/ai/src/activities/chat/index.ts:5155](https://github.com/TanStack/ai/blob/main/packages/ai/src/activities/chat/index.ts#L5155)
+
+Text activity - handles agentic text generation, one-shot text generation, and agentic structured output.
+
+This activity supports four modes:
+1. **Streaming agentic text**: Stream responses with automatic tool execution
+2. **Streaming one-shot text**: Simple streaming request/response without tools
+3. **Non-streaming text**: Returns collected text as a string (stream: false)
+4. **Agentic structured output**: Run tools, then return structured data
+
+## Type Parameters
+
+### TAdapter
+
+`TAdapter` *extends* [`AnyTextAdapter`](../type-aliases/AnyTextAdapter.md)
+
+### TSchema
+
+`TSchema` *extends* [`SchemaInput`](../type-aliases/SchemaInput.md) \| `undefined` = `undefined`
+
+### TStream
+
+`TStream` *extends* `boolean` = `boolean`
+
+### TTools
+
+`TTools` *extends* 
+  \| readonly (
+  \| `Omit`\<[`Tool`](../interfaces/Tool.md)\<`any`, `any`, `any`, `any`\>, `"execute"`\> & `object` & `object`
+  \| [`ProviderTool`](../interfaces/ProviderTool.md)\<`string`, `TAdapter`\[`"~types"`\]\[`"toolCapabilities"`\]\[`number`\]\>)[]
+  \| `undefined` = 
+  \| readonly (
+  \| `Omit`\<[`Tool`](../interfaces/Tool.md)\<`any`, `any`, `any`, `any`\>, `"execute"`\> & `object` & `object`
+  \| [`ProviderTool`](../interfaces/ProviderTool.md)\<`string`, `TAdapter`\[`"~types"`\]\[`"toolCapabilities"`\]\[`number`\]\>)[]
+  \| `undefined`
+
+### TInterrupts
+
+`TInterrupts` *extends* readonly [`InterruptDefinition`](../interfaces/InterruptDefinition.md)\<`any`, `any`, `any`, `any`, `any`\>[] = \[\]
+
+### TContext
+
+`TContext` = `unknown`
+
+### TMiddleware
+
+`TMiddleware` *extends* `unknown`[] \| `undefined` = `undefined`
+
+### TAgents
+
+`TAgents` *extends* readonly [`DefinedAgent`](../interfaces/DefinedAgent.md)\<`string`, readonly `SubagentTool`[], [`SchemaInput`](../type-aliases/SchemaInput.md) \| `undefined`, readonly [`InterruptDefinition`](../interfaces/InterruptDefinition.md)\<`any`, `any`, `any`, `any`, `any`\>[], `any`\>[] = readonly [`DefinedAgent`](../interfaces/DefinedAgent.md)\<`string`, readonly `SubagentTool`[], [`SchemaInput`](../type-aliases/SchemaInput.md) \| `undefined`, readonly [`InterruptDefinition`](../interfaces/InterruptDefinition.md)\<`any`, `any`, `any`, `any`, `any`\>[], `any`\>[]
+
+## Parameters
+
+### options
+
+`TextActivityOptionsWithContext`\<`TAdapter`, `TSchema`, `TStream`, `TTools`, `TInterrupts`, `TContext`, `TMiddleware`, `TAgents`\>
+
+## Returns
+
+`TextActivityResult`\<`TSchema`, `TStream`, `TTools`\>
+
+## Examples
+
+**Full agentic text (streaming with tools)**
+
+```ts
+import { chat } from '@tanstack/ai'
+import { openaiText } from '@tanstack/ai-openai'
+
+for await (const chunk of chat({
+  adapter: openaiText('gpt-5.5'),
+  messages: [{ role: 'user', content: 'What is the weather?' }],
+  tools: [weatherTool]
+})) {
+  if (chunk.type === 'TEXT_MESSAGE_CONTENT') {
+    console.log(chunk.delta)
+  }
+}
+```
+
+**One-shot text (streaming without tools)**
+
+```ts
+for await (const chunk of chat({
+  adapter: openaiText('gpt-5.5'),
+  messages: [{ role: 'user', content: 'Hello!' }]
+})) {
+  console.log(chunk)
+}
+```
+
+**Non-streaming text (stream: false)**
+
+```ts
+const text = await chat({
+  adapter: openaiText('gpt-5.5'),
+  messages: [{ role: 'user', content: 'Hello!' }],
+  stream: false
+})
+// text is a string with the full response
+```
+
+**Agentic structured output (tools + structured response)**
+
+```ts
+import { z } from 'zod'
+
+const result = await chat({
+  adapter: openaiText('gpt-5.5'),
+  messages: [{ role: 'user', content: 'Research and summarize the topic' }],
+  tools: [researchTool, analyzeTool],
+  outputSchema: z.object({
+    summary: z.string(),
+    keyPoints: z.array(z.string())
+  })
+})
+// result is { summary: string, keyPoints: string[] }
+```

@@ -1,0 +1,25 @@
+---
+id: MAC_MODIFIER_SYMBOLS
+title: MAC_MODIFIER_SYMBOLS
+---
+
+```ts
+const MAC_MODIFIER_SYMBOLS: Record<CanonicalModifier | "Mod", string>;
+```
+
+Defined in: [display-labels.ts:22](https://github.com/TanStack/hotkeys/blob/main/packages/hotkeys/src/display-labels.ts#L22)
+
+Modifier key symbols for macOS display.
+
+Used by formatting functions to display hotkeys with macOS-style symbols
+(e.g., ⌘ for Command, ⌃ for Control) instead of text labels. This provides
+a native macOS look and feel in hotkey displays.
+
+## Example
+
+```ts
+MAC_MODIFIER_SYMBOLS['Meta'] // '⌘'
+MAC_MODIFIER_SYMBOLS['Control'] // '⌃'
+MAC_MODIFIER_SYMBOLS['Alt'] // '⌥'
+MAC_MODIFIER_SYMBOLS['Shift'] // '⇧'
+```

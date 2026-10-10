@@ -1,0 +1,26 @@
+---
+id: Modifier
+title: Modifier
+---
+
+```ts
+type Modifier = 
+  | "Control"
+  | "Ctrl"
+  | "Shift"
+  | "Alt"
+  | "Option"
+  | "Command"
+  | "Cmd"
+  | "CommandOrControl"
+  | "Mod";
+```
+
+Defined in: [key.types.ts:11](https://github.com/TanStack/hotkeys/blob/main/packages/hotkeys/src/key.types.ts#L11)
+
+All supported modifier key names, including aliases.
+- Control/Ctrl: The Control key
+- Shift: The Shift key
+- Alt/Option: The Alt key (Option on macOS)
+- Command/Cmd: The Command key (macOS only)
+- CommandOrControl/Mod: Command on macOS, Control on other platforms

@@ -1,0 +1,10 @@
+---
+id: ValidationError
+title: ValidationError
+---
+
+```ts
+type ValidationError = unknown;
+```
+
+Defined in: [packages/form-core/src/types.ts:35](https://github.com/TanStack/form/blob/main/packages/form-core/src/types.ts#L35)

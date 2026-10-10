@@ -1,0 +1,37 @@
+---
+id: modelMessageToUIMessage
+title: modelMessageToUIMessage
+---
+
+```ts
+function modelMessageToUIMessage(modelMessage, id?): UIMessage;
+```
+
+Defined in: [packages/ai/src/activities/chat/messages.ts:906](https://github.com/TanStack/ai/blob/main/packages/ai/src/activities/chat/messages.ts#L906)
+
+Convert a ModelMessage to UIMessage
+
+This conversion creates a parts-based structure:
+- content field → TextPart
+- toolCalls array → ToolCallPart[]
+- role="tool" messages should be converted separately and merged
+
+## Parameters
+
+### modelMessage
+
+[`ModelMessage`](../interfaces/ModelMessage.md)
+
+The ModelMessage to convert
+
+### id?
+
+`string`
+
+Optional ID for the UIMessage (generated if not provided)
+
+## Returns
+
+[`UIMessage`](../interfaces/UIMessage.md)
+
+A UIMessage with parts

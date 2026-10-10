@@ -1,0 +1,41 @@
+---
+id: validateHotkey
+title: validateHotkey
+---
+
+```ts
+function validateHotkey(hotkey): ValidationResult;
+```
+
+Defined in: [validate.ts:25](https://github.com/TanStack/hotkeys/blob/main/packages/hotkeys/src/validate.ts#L25)
+
+Validates a hotkey string and returns any warnings or errors.
+
+Checks for:
+- Valid syntax (modifier+...+key format)
+- Known modifiers
+- Known keys
+
+## Parameters
+
+### hotkey
+
+[`Hotkey`](../type-aliases/Hotkey.md) \| `string` & `object`
+
+The hotkey string to validate
+
+## Returns
+
+[`ValidationResult`](../interfaces/ValidationResult.md)
+
+A ValidationResult with validity status, warnings, and errors
+
+## Example
+
+```ts
+validateHotkey('Mod+S')
+// { valid: true, warnings: [], errors: [] }
+
+validateHotkey('')
+// { valid: false, warnings: [], errors: ['Hotkey cannot be empty'] }
+```

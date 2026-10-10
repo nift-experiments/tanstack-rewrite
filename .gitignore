@@ -8,3 +8,13 @@ services/dist/
 frontend/dist/
 
 .wrangler/
+
+# Local representative publication outputs (source is sources/representative).
+/public/
+/content/query/
+/content/ai/
+/content/local/
+/.nift/public/ai/
+/.nift/public/query/
+/content/publication/
+/.nift/public/publication/

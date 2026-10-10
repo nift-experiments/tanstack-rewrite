@@ -1,0 +1,24 @@
+---
+id: ObjectValue
+title: ObjectValue
+---
+
+```ts
+type ObjectValue<TParent, T, TKey> = T[TKey] | Nullable<TParent["value"]>;
+```
+
+Defined in: [packages/form-core/src/util-types.ts:108](https://github.com/TanStack/form/blob/main/packages/form-core/src/util-types.ts#L108)
+
+## Type Parameters
+
+### TParent
+
+`TParent` *extends* [`AnyDeepKeyAndValue`](../interfaces/AnyDeepKeyAndValue.md)
+
+### T
+
+`T`
+
+### TKey
+
+`TKey` *extends* [`AllObjectKeys`](AllObjectKeys.md)\<`T`\>
