@@ -1,0 +1,834 @@
+{
+  "scope": "Raw maintained document syntax inventory, not resolved include/output or candidate compatibility certification",
+  "processed": 7527,
+  "empty": 1,
+  "rows": [
+    {
+      "category": "code-language:angular-html",
+      "occurrences": 10,
+      "files": 5,
+      "examples": [
+        "tanstack/form@main:docs/framework/angular/guides/arrays.md",
+        "tanstack/form@main:docs/framework/angular/guides/basic-concepts.md",
+        "tanstack/form@main:docs/framework/angular/guides/validation.md",
+        "tanstack/query@main:docs/framework/angular/guides/infinite-queries.md",
+        "tanstack/table@v8:docs/framework/angular/angular-table.md"
+      ]
+    },
+    {
+      "category": "code-language:angular-ts",
+      "occurrences": 98,
+      "files": 33,
+      "examples": [
+        "tanstack/form@alpha:docs/overview.md",
+        "tanstack/form@main:docs/framework/angular/guides/arrays.md",
+        "tanstack/form@main:docs/framework/angular/guides/basic-concepts.md",
+        "tanstack/form@main:docs/framework/angular/guides/dynamic-validation.md",
+        "tanstack/form@main:docs/framework/angular/guides/form-composition.md"
+      ]
+    },
+    {
+      "category": "code-language:apache",
+      "occurrences": 1,
+      "files": 1,
+      "examples": [
+        "tanstack/router@main:docs/router/how-to/deploy-to-production.md"
+      ]
+    },
+    {
+      "category": "code-language:app",
+      "occurrences": 20,
+      "files": 4,
+      "examples": [
+        "tanstack/hotkeys@main:docs/framework/ember/reference/classes/useHotkey.md",
+        "tanstack/hotkeys@main:docs/framework/ember/reference/classes/useHotkeySequence.md",
+        "tanstack/hotkeys@main:docs/framework/ember/reference/classes/useHotkeySequences.md",
+        "tanstack/hotkeys@main:docs/framework/ember/reference/classes/useHotkeys.md"
+      ]
+    },
+    {
+      "category": "code-language:bash",
+      "occurrences": 399,
+      "files": 181,
+      "examples": [
+        "tanstack/ai@main:docs/adapters/anthropic.md",
+        "tanstack/ai@main:docs/adapters/bedrock.md",
+        "tanstack/ai@main:docs/adapters/byteplus.md",
+        "tanstack/ai@main:docs/adapters/cloudflare.md",
+        "tanstack/ai@main:docs/adapters/cohere.md"
+      ]
+    },
+    {
+      "category": "code-language:css",
+      "occurrences": 26,
+      "files": 20,
+      "examples": [
+        "tanstack/charts@main:docs/guides/responsive-charts.md",
+        "tanstack/charts@main:docs/guides/themes-and-styling.md",
+        "tanstack/charts@main:docs/guides/tooltips-and-focus.md",
+        "tanstack/charts@main:docs/reference/chart-spec.md",
+        "tanstack/devtools@main:docs/superpowers/specs/2026-07-31-tanstack-devtools-branding-design.md"
+      ]
+    },
+    {
+      "category": "code-language:diff",
+      "occurrences": 16,
+      "files": 6,
+      "examples": [
+        "tanstack/ai@main:docs/migration/create-ui.md",
+        "tanstack/ai@main:docs/migration/mcp-sdk.md",
+        "tanstack/db@main:docs/contributing/oracle-reviews/issue-2046-hydration-commit-deadlock.md",
+        "tanstack/query@v3:docs/framework/react/guides/migrating-to-react-query-3.md",
+        "tanstack/query@v4:docs/framework/react/guides/migrating-to-react-query-3.md"
+      ]
+    },
+    {
+      "category": "code-language:dockerfile",
+      "occurrences": 2,
+      "files": 2,
+      "examples": [
+        "tanstack/cli@main:docs/examples.md",
+        "tanstack/router@main:docs/router/how-to/deploy-to-production.md"
+      ]
+    },
+    {
+      "category": "code-language:dotenv",
+      "occurrences": 1,
+      "files": 1,
+      "examples": [
+        "tanstack/router@main:docs/start/framework/react/tutorial/fetching-external-api.md"
+      ]
+    },
+    {
+      "category": "code-language:ejs",
+      "occurrences": 2,
+      "files": 2,
+      "examples": [
+        "tanstack/cli@main:docs/creating-add-ons.md",
+        "tanstack/highlight@main:docs/guides/embedded-languages.md"
+      ]
+    },
+    {
+      "category": "code-language:env",
+      "occurrences": 6,
+      "files": 2,
+      "examples": [
+        "tanstack/ai@main:docs/getting-started/quick-start-react-native.md",
+        "tanstack/router@main:docs/router/how-to/setup-auth-providers.md"
+      ]
+    },
+    {
+      "category": "code-language:gts",
+      "occurrences": 119,
+      "files": 55,
+      "examples": [
+        "tanstack/hotkeys@main:docs/framework/ember/guides/hotkey-recording.md",
+        "tanstack/hotkeys@main:docs/framework/ember/guides/hotkeys.md",
+        "tanstack/hotkeys@main:docs/framework/ember/guides/key-state-tracking.md",
+        "tanstack/hotkeys@main:docs/framework/ember/guides/sequence-recording.md",
+        "tanstack/hotkeys@main:docs/framework/ember/guides/sequences.md"
+      ]
+    },
+    {
+      "category": "code-language:hbs",
+      "occurrences": 32,
+      "files": 16,
+      "examples": [
+        "tanstack/hotkeys@main:docs/framework/ember/guides/hotkeys.md",
+        "tanstack/hotkeys@main:docs/framework/ember/guides/sequences.md",
+        "tanstack/hotkeys@main:docs/framework/ember/quick-start.md",
+        "tanstack/pacer@main:docs/framework/ember/adapter.md",
+        "tanstack/pacer@main:docs/framework/ember/guides/debouncing.md"
+      ]
+    },
+    {
+      "category": "code-language:html",
+      "occurrences": 128,
+      "files": 83,
+      "examples": [
+        "tanstack/charts@main:docs/framework/alpine/adapter.md",
+        "tanstack/charts@main:docs/framework/angular/reference/chart.md",
+        "tanstack/charts@main:docs/quick-start.md",
+        "tanstack/form@alpha:docs/arrays.md",
+        "tanstack/form@alpha:docs/framework/angular/guides/ui-libraries.md"
+      ]
+    },
+    {
+      "category": "code-language:http",
+      "occurrences": 1,
+      "files": 1,
+      "examples": [
+        "tanstack/workflow@main:docs/guide/deployment.md"
+      ]
+    },
+    {
+      "category": "code-language:javascript",
+      "occurrences": 90,
+      "files": 6,
+      "examples": [
+        "tanstack/db@main:docs/collections/electric-collection.md",
+        "tanstack/db@main:docs/overview.md",
+        "tanstack/hotkeys@main:docs/framework/ember/reference/classes/useHotkey.md",
+        "tanstack/hotkeys@main:docs/framework/ember/reference/classes/useHotkeySequence.md",
+        "tanstack/hotkeys@main:docs/framework/ember/reference/classes/useHotkeySequences.md"
+      ]
+    },
+    {
+      "category": "code-language:js",
+      "occurrences": 557,
+      "files": 231,
+      "examples": [
+        "tanstack/config@main:docs/eslint.md",
+        "tanstack/db@main:docs/contributing/oracle-tests.md",
+        "tanstack/db@main:docs/reference/classes/AggregateFunctionNotInSelectError.md",
+        "tanstack/db@main:docs/reference/classes/CannotCombineEmptyExpressionListError.md",
+        "tanstack/db@main:docs/reference/classes/CollectionConfigurationError.md"
+      ]
+    },
+    {
+      "category": "code-language:json",
+      "occurrences": 124,
+      "files": 66,
+      "examples": [
+        "tanstack/ai@main:docs/mcp/server-tasks.md",
+        "tanstack/ai@main:docs/migration/ag-ui-compliance.md",
+        "tanstack/ai@main:docs/protocol/metadata.md",
+        "tanstack/ai@main:docs/sandbox/journal.md",
+        "tanstack/cli@main:docs/cli-reference.md"
+      ]
+    },
+    {
+      "category": "code-language:jsonc",
+      "occurrences": 3,
+      "files": 3,
+      "examples": [
+        "tanstack/ai@main:docs/adapters/cloudflare.md",
+        "tanstack/ai@main:docs/community-adapters/mynth.md",
+        "tanstack/workflow@main:docs/concepts/scheduling.md"
+      ]
+    },
+    {
+      "category": "code-language:jsx",
+      "occurrences": 106,
+      "files": 37,
+      "examples": [
+        "tanstack/form@main:docs/framework/preact/guides/arrays.md",
+        "tanstack/form@main:docs/framework/preact/guides/validation.md",
+        "tanstack/form@main:docs/framework/react/guides/arrays.md",
+        "tanstack/form@main:docs/framework/react/guides/validation.md",
+        "tanstack/form@main:docs/framework/solid/guides/arrays.md"
+      ]
+    },
+    {
+      "category": "code-language:markdown",
+      "occurrences": 4,
+      "files": 3,
+      "examples": [
+        "tanstack/ai@main:docs/getting-started/agent-skills.md",
+        "tanstack/router@main:docs/start/framework/react/guide/rendering-markdown.md",
+        "tanstack/table@main:docs/agent-skills.md"
+      ]
+    },
+    {
+      "category": "code-language:marko",
+      "occurrences": 11,
+      "files": 1,
+      "examples": [
+        "tanstack/virtual@main:docs/framework/marko/marko-virtual.md"
+      ]
+    },
+    {
+      "category": "code-language:md",
+      "occurrences": 10,
+      "files": 7,
+      "examples": [
+        "tanstack/highlight@main:docs/guides/annotations.md",
+        "tanstack/highlight@main:docs/guides/embedded-languages.md",
+        "tanstack/markdown@main:docs/core-concepts/parsing.md",
+        "tanstack/markdown@main:docs/core-concepts/syntax-profile.md",
+        "tanstack/markdown@main:docs/guides/docs-preset.md"
+      ]
+    },
+    {
+      "category": "code-language:mermaid",
+      "occurrences": 40,
+      "files": 28,
+      "examples": [
+        "tanstack/ai@main:docs/advanced/middleware.md",
+        "tanstack/ai@main:docs/chat/agentic-cycle.md",
+        "tanstack/ai@main:docs/chat/stream-events.md",
+        "tanstack/ai@main:docs/interrupts/apply-answers.md",
+        "tanstack/ai@main:docs/interrupts/overview.md"
+      ]
+    },
+    {
+      "category": "code-language:nginx",
+      "occurrences": 2,
+      "files": 1,
+      "examples": [
+        "tanstack/router@main:docs/router/how-to/deploy-to-production.md"
+      ]
+    },
+    {
+      "category": "code-language:plaintext",
+      "occurrences": 146,
+      "files": 69,
+      "examples": [
+        "tanstack/ai@main:docs/advanced/debug-logging.md",
+        "tanstack/ai@main:docs/advanced/middleware.md",
+        "tanstack/ai@main:docs/advanced/per-model-type-safety.md",
+        "tanstack/ai@main:docs/code-mode/code-mode-isolates.md",
+        "tanstack/ai@main:docs/interrupts/apply-answers.md"
+      ]
+    },
+    {
+      "category": "code-language:powershell",
+      "occurrences": 1,
+      "files": 1,
+      "examples": [
+        "tanstack/ai@main:docs/adapters/ollaya.md"
+      ]
+    },
+    {
+      "category": "code-language:sh",
+      "occurrences": 175,
+      "files": 91,
+      "examples": [
+        "tanstack/ai@main:docs/community-adapters/mynth.md",
+        "tanstack/ai@main:docs/ui/markdown.md",
+        "tanstack/charts@main:docs/comparison.md",
+        "tanstack/charts@main:docs/concepts/scales-and-d3.md",
+        "tanstack/charts@main:docs/framework/alpine/adapter.md"
+      ]
+    },
+    {
+      "category": "code-language:shell",
+      "occurrences": 16,
+      "files": 3,
+      "examples": [
+        "tanstack/router@main:docs/start/framework/react/build-from-scratch.md",
+        "tanstack/router@main:docs/start/framework/react/guide/tailwind-integration.md",
+        "tanstack/router@main:docs/start/framework/solid/build-from-scratch.md"
+      ]
+    },
+    {
+      "category": "code-language:sql",
+      "occurrences": 4,
+      "files": 4,
+      "examples": [
+        "tanstack/ai@main:docs/persistence/build-a-sandbox-adapter.md",
+        "tanstack/ai@main:docs/persistence/build-your-own-chat-adapter.md",
+        "tanstack/ai@main:docs/persistence/build-your-own-generation-adapter.md",
+        "tanstack/db@main:docs/reference/type-aliases/ApplyJoinOptionalityToMergedSchema.md"
+      ]
+    },
+    {
+      "category": "code-language:svelte",
+      "occurrences": 281,
+      "files": 108,
+      "examples": [
+        "tanstack/ai@main:docs/api/ai-svelte.md",
+        "tanstack/ai@main:docs/getting-started/devtools.md",
+        "tanstack/ai@main:docs/getting-started/quick-start.md",
+        "tanstack/ai@main:docs/media/audio-recording.md",
+        "tanstack/ai@main:docs/tools/webmcp-page-tools.md"
+      ]
+    },
+    {
+      "category": "code-language:text",
+      "occurrences": 423,
+      "files": 145,
+      "examples": [
+        "tanstack/ai@main:docs/adapters/llmgateway.md",
+        "tanstack/ai@main:docs/adapters/openrouter.md",
+        "tanstack/ai@main:docs/advanced/otel.md",
+        "tanstack/ai@main:docs/code-mode/code-mode-isolates.md",
+        "tanstack/ai@main:docs/code-mode/code-mode-with-snippets.md"
+      ]
+    },
+    {
+      "category": "code-language:toml",
+      "occurrences": 8,
+      "files": 7,
+      "examples": [
+        "tanstack/ai@main:docs/code-mode/code-mode-isolates.md",
+        "tanstack/router@main:docs/router/how-to/deploy-to-production.md",
+        "tanstack/workflow@main:docs/api/host-adapters.md",
+        "tanstack/workflow@main:docs/concepts/scheduling.md",
+        "tanstack/workflow@main:docs/cookbook/index.md"
+      ]
+    },
+    {
+      "category": "code-language:ts",
+      "occurrences": 23119,
+      "files": 5764,
+      "examples": [
+        "tanstack/ai@main:docs/adapters/acp-compatible.md",
+        "tanstack/ai@main:docs/adapters/claude-code.md",
+        "tanstack/ai@main:docs/adapters/codex.md",
+        "tanstack/ai@main:docs/adapters/grok-build.md",
+        "tanstack/ai@main:docs/adapters/opencode.md"
+      ]
+    },
+    {
+      "category": "code-language:tsrx",
+      "occurrences": 5,
+      "files": 5,
+      "examples": [
+        "tanstack/highlight@main:docs/guides/octane.md",
+        "tanstack/markdown@main:docs/core-concepts/rendering.md",
+        "tanstack/markdown@main:docs/guides/octane.md",
+        "tanstack/markdown@main:docs/installation.md",
+        "tanstack/markdown@main:docs/quick-start.md"
+      ]
+    },
+    {
+      "category": "code-language:tsx",
+      "occurrences": 5148,
+      "files": 1075,
+      "examples": [
+        "tanstack/ai@main:docs/adapters/acp-compatible.md",
+        "tanstack/ai@main:docs/adapters/byteplus.md",
+        "tanstack/ai@main:docs/adapters/claude-code.md",
+        "tanstack/ai@main:docs/adapters/codex.md",
+        "tanstack/ai@main:docs/adapters/elevenlabs.md"
+      ]
+    },
+    {
+      "category": "code-language:txt",
+      "occurrences": 21,
+      "files": 12,
+      "examples": [
+        "tanstack/ai@main:docs/adapters/openai.md",
+        "tanstack/ai@main:docs/sandbox/lifecycle.md",
+        "tanstack/ai@main:docs/sandbox/overview.md",
+        "tanstack/db@main:docs/guides/ssr.md",
+        "tanstack/query@main:docs/framework/lit/installation.md"
+      ]
+    },
+    {
+      "category": "code-language:typescript",
+      "occurrences": 1357,
+      "files": 222,
+      "examples": [
+        "tanstack/ai@main:docs/adapters/anthropic.md",
+        "tanstack/ai@main:docs/adapters/bedrock.md",
+        "tanstack/ai@main:docs/adapters/byteplus.md",
+        "tanstack/ai@main:docs/adapters/claude-code.md",
+        "tanstack/ai@main:docs/adapters/cloudflare.md"
+      ]
+    },
+    {
+      "category": "code-language:vue",
+      "occurrences": 280,
+      "files": 118,
+      "examples": [
+        "tanstack/ai@main:docs/api/ai-vue.md",
+        "tanstack/ai@main:docs/getting-started/quick-start.md",
+        "tanstack/ai@main:docs/tools/webmcp-page-tools.md",
+        "tanstack/ai@main:docs/tools/webmcp.md",
+        "tanstack/charts@main:docs/framework/vue/adapter.md"
+      ]
+    },
+    {
+      "category": "code-language:xml",
+      "occurrences": 1,
+      "files": 1,
+      "examples": [
+        "tanstack/router@main:docs/start/framework/react/guide/seo.md"
+      ]
+    },
+    {
+      "category": "code-language:yaml",
+      "occurrences": 9,
+      "files": 9,
+      "examples": [
+        "tanstack/ai@main:docs/getting-started/agent-skills.md",
+        "tanstack/cli@main:docs/examples.md",
+        "tanstack/intent@main:docs/cli/intent-repair.md",
+        "tanstack/intent@main:docs/cli/intent-review.md",
+        "tanstack/intent@main:docs/cli/intent-stale.md"
+      ]
+    },
+    {
+      "category": "component-meta:data-bundler-meta",
+      "occurrences": 31,
+      "files": 15,
+      "examples": [
+        "tanstack/router@main:docs/start/framework/react/build-from-scratch.md",
+        "tanstack/router@main:docs/start/framework/react/guide/cdn-asset-urls.md",
+        "tanstack/router@main:docs/start/framework/react/guide/css-styling.md",
+        "tanstack/router@main:docs/start/framework/react/guide/environment-variables.md",
+        "tanstack/router@main:docs/start/framework/react/guide/import-protection.md"
+      ]
+    },
+    {
+      "category": "component-meta:data-files-meta",
+      "occurrences": 83,
+      "files": 16,
+      "examples": [
+        "tanstack/form@alpha:docs/arrays.md",
+        "tanstack/form@alpha:docs/framework/react/guides/field-groups.md",
+        "tanstack/form@alpha:docs/overview.md",
+        "tanstack/form@alpha:docs/splitting-forms.md",
+        "tanstack/form@main:docs/overview.md"
+      ]
+    },
+    {
+      "category": "component-meta:data-package-manager-meta",
+      "occurrences": 193,
+      "files": 108,
+      "examples": [
+        "tanstack/ai@main:docs/adapters/acp-compatible.md",
+        "tanstack/ai@main:docs/adapters/anthropic.md",
+        "tanstack/ai@main:docs/adapters/bedrock.md",
+        "tanstack/ai@main:docs/adapters/byteplus.md",
+        "tanstack/ai@main:docs/adapters/claude-code.md"
+      ]
+    },
+    {
+      "category": "component:chart-example",
+      "occurrences": 55,
+      "files": 14,
+      "examples": [
+        "tanstack/charts@main:docs/examples/annotations-and-overlays.md",
+        "tanstack/charts@main:docs/examples/bars-and-rankings.md",
+        "tanstack/charts@main:docs/examples/distributions.md",
+        "tanstack/charts@main:docs/examples/facets-and-multiple-views.md",
+        "tanstack/charts@main:docs/examples/heatmaps-and-densities.md"
+      ]
+    },
+    {
+      "category": "component:client-example",
+      "occurrences": 7,
+      "files": 7,
+      "examples": [
+        "tanstack/ai@main:docs/tutorials/basic-chat.md",
+        "tanstack/ai@main:docs/tutorials/evaluate.md",
+        "tanstack/ai@main:docs/tutorials/generate-image.md",
+        "tanstack/ai@main:docs/tutorials/mcp-server.md",
+        "tanstack/ai@main:docs/tutorials/streaming-structured-table.md"
+      ]
+    },
+    {
+      "category": "component:framework",
+      "occurrences": 193,
+      "files": 55,
+      "examples": [
+        "tanstack/ai@main:docs/getting-started/quick-start.md",
+        "tanstack/ai@main:docs/tools/webmcp-page-tools.md",
+        "tanstack/ai@main:docs/tools/webmcp.md",
+        "tanstack/form@alpha:docs/arrays.md",
+        "tanstack/form@alpha:docs/installation.md"
+      ]
+    },
+    {
+      "category": "component:framework-panel",
+      "occurrences": 522,
+      "files": 54,
+      "examples": [
+        "tanstack/ai@main:docs/getting-started/quick-start.md",
+        "tanstack/ai@main:docs/tools/webmcp-page-tools.md",
+        "tanstack/ai@main:docs/tools/webmcp.md",
+        "tanstack/form@alpha:docs/arrays.md",
+        "tanstack/form@alpha:docs/installation.md"
+      ]
+    },
+    {
+      "category": "component:live-example",
+      "occurrences": 44,
+      "files": 36,
+      "examples": [
+        "tanstack/charts@main:docs/concepts/data-and-channels.md",
+        "tanstack/charts@main:docs/concepts/grammar-of-graphics.md",
+        "tanstack/charts@main:docs/concepts/layout-axes-and-coordinates.md",
+        "tanstack/charts@main:docs/concepts/marks-and-layering.md",
+        "tanstack/charts@main:docs/concepts/scales-and-d3.md"
+      ]
+    },
+    {
+      "category": "component:tab-panel",
+      "occurrences": 204,
+      "files": 31,
+      "examples": [
+        "tanstack/form@alpha:docs/arrays.md",
+        "tanstack/form@alpha:docs/framework/react/guides/field-groups.md",
+        "tanstack/form@alpha:docs/overview.md",
+        "tanstack/form@alpha:docs/splitting-forms.md",
+        "tanstack/form@main:docs/overview.md"
+      ]
+    },
+    {
+      "category": "component:tabs",
+      "occurrences": 307,
+      "files": 135,
+      "examples": [
+        "tanstack/ai@main:docs/adapters/acp-compatible.md",
+        "tanstack/ai@main:docs/adapters/anthropic.md",
+        "tanstack/ai@main:docs/adapters/bedrock.md",
+        "tanstack/ai@main:docs/adapters/byteplus.md",
+        "tanstack/ai@main:docs/adapters/claude-code.md"
+      ]
+    },
+    {
+      "category": "literal-nift-like-code",
+      "occurrences": 3,
+      "files": 1,
+      "examples": [
+        "tanstack/router@main:docs/start/framework/react/guide/rendering-markdown.md"
+      ]
+    },
+    {
+      "category": "node:blockquote",
+      "occurrences": 719,
+      "files": 397,
+      "examples": [
+        "tanstack/ai@main:docs/adapters/anthropic.md",
+        "tanstack/ai@main:docs/adapters/bedrock.md",
+        "tanstack/ai@main:docs/adapters/byteplus.md",
+        "tanstack/ai@main:docs/adapters/claude-code.md",
+        "tanstack/ai@main:docs/adapters/codex.md"
+      ]
+    },
+    {
+      "category": "node:callout",
+      "occurrences": 549,
+      "files": 275,
+      "examples": [
+        "tanstack/ai@main:docs/getting-started/quick-start.md",
+        "tanstack/db@main:docs/guides/live-queries.md",
+        "tanstack/db@main:docs/guides/mutations.md",
+        "tanstack/db@main:docs/overview.md",
+        "tanstack/devtools@main:docs/architecture.md"
+      ]
+    },
+    {
+      "category": "node:code",
+      "occurrences": 32802,
+      "files": 6628,
+      "examples": [
+        "tanstack/ai@main:docs/adapters/acp-compatible.md",
+        "tanstack/ai@main:docs/adapters/anthropic.md",
+        "tanstack/ai@main:docs/adapters/bedrock.md",
+        "tanstack/ai@main:docs/adapters/byteplus.md",
+        "tanstack/ai@main:docs/adapters/claude-code.md"
+      ]
+    },
+    {
+      "category": "node:component",
+      "occurrences": 1332,
+      "files": 203,
+      "examples": [
+        "tanstack/ai@main:docs/adapters/acp-compatible.md",
+        "tanstack/ai@main:docs/adapters/anthropic.md",
+        "tanstack/ai@main:docs/adapters/bedrock.md",
+        "tanstack/ai@main:docs/adapters/byteplus.md",
+        "tanstack/ai@main:docs/adapters/claude-code.md"
+      ]
+    },
+    {
+      "category": "node:emphasis",
+      "occurrences": 7264,
+      "files": 2578,
+      "examples": [
+        "tanstack/ai@main:docs/adapters/acp-compatible.md",
+        "tanstack/ai@main:docs/adapters/anthropic.md",
+        "tanstack/ai@main:docs/adapters/byteplus.md",
+        "tanstack/ai@main:docs/adapters/claude-code.md",
+        "tanstack/ai@main:docs/adapters/codex.md"
+      ]
+    },
+    {
+      "category": "node:heading",
+      "occurrences": 75690,
+      "files": 6725,
+      "examples": [
+        "tanstack/ai@main:docs/adapters/acp-compatible.md",
+        "tanstack/ai@main:docs/adapters/anthropic.md",
+        "tanstack/ai@main:docs/adapters/bedrock.md",
+        "tanstack/ai@main:docs/adapters/byteplus.md",
+        "tanstack/ai@main:docs/adapters/claude-code.md"
+      ]
+    },
+    {
+      "category": "node:html",
+      "occurrences": 750,
+      "files": 177,
+      "examples": [
+        "tanstack/ai@main:docs/adapters/grok.md",
+        "tanstack/charts@main:docs/concepts/chart-definitions.md",
+        "tanstack/charts@main:docs/examples/maps-and-spatial.md",
+        "tanstack/charts@main:docs/guides/custom-marks-and-renderers.md",
+        "tanstack/charts@main:docs/guides/typescript.md"
+      ]
+    },
+    {
+      "category": "node:image",
+      "occurrences": 92,
+      "files": 29,
+      "examples": [
+        "tanstack/config@main:docs/publish.md",
+        "tanstack/form@alpha:docs/comparison.md",
+        "tanstack/form@main:docs/comparison.md",
+        "tanstack/form@main:docs/framework/angular/guides/basic-concepts.md",
+        "tanstack/form@main:docs/framework/angular/guides/form-groups.md"
+      ]
+    },
+    {
+      "category": "node:inlineCode",
+      "occurrences": 218205,
+      "files": 6461,
+      "examples": [
+        "tanstack/ai@main:docs/adapters/acp-compatible.md",
+        "tanstack/ai@main:docs/adapters/anthropic.md",
+        "tanstack/ai@main:docs/adapters/bedrock.md",
+        "tanstack/ai@main:docs/adapters/byteplus.md",
+        "tanstack/ai@main:docs/adapters/claude-code.md"
+      ]
+    },
+    {
+      "category": "node:inlineHtml",
+      "occurrences": 12953,
+      "files": 526,
+      "examples": [
+        "tanstack/ai@main:docs/media/image-generation.md",
+        "tanstack/ai@main:docs/reference/functions/streamToText.md",
+        "tanstack/query@main:docs/framework/angular/reference/functions/dehydrate.md",
+        "tanstack/query@main:docs/framework/angular/reference/functions/hydrate.md",
+        "tanstack/query@main:docs/framework/angular/reference/functions/injectInfiniteQuery.md"
+      ]
+    },
+    {
+      "category": "node:link",
+      "occurrences": 46390,
+      "files": 6808,
+      "examples": [
+        "tanstack/ai@main:docs/adapters/acp-compatible.md",
+        "tanstack/ai@main:docs/adapters/anthropic.md",
+        "tanstack/ai@main:docs/adapters/bedrock.md",
+        "tanstack/ai@main:docs/adapters/byteplus.md",
+        "tanstack/ai@main:docs/adapters/claude-code.md"
+      ]
+    },
+    {
+      "category": "node:list",
+      "occurrences": 8016,
+      "files": 2880,
+      "examples": [
+        "tanstack/ai@main:docs/adapters/acp-compatible.md",
+        "tanstack/ai@main:docs/adapters/anthropic.md",
+        "tanstack/ai@main:docs/adapters/bedrock.md",
+        "tanstack/ai@main:docs/adapters/byteplus.md",
+        "tanstack/ai@main:docs/adapters/claude-code.md"
+      ]
+    },
+    {
+      "category": "node:listItem",
+      "occurrences": 31097,
+      "files": 2880,
+      "examples": [
+        "tanstack/ai@main:docs/adapters/acp-compatible.md",
+        "tanstack/ai@main:docs/adapters/anthropic.md",
+        "tanstack/ai@main:docs/adapters/bedrock.md",
+        "tanstack/ai@main:docs/adapters/byteplus.md",
+        "tanstack/ai@main:docs/adapters/claude-code.md"
+      ]
+    },
+    {
+      "category": "node:paragraph",
+      "occurrences": 127513,
+      "files": 7347,
+      "examples": [
+        "tanstack/ai@main:docs/adapters/acp-compatible.md",
+        "tanstack/ai@main:docs/adapters/anthropic.md",
+        "tanstack/ai@main:docs/adapters/bedrock.md",
+        "tanstack/ai@main:docs/adapters/byteplus.md",
+        "tanstack/ai@main:docs/adapters/claude-code.md"
+      ]
+    },
+    {
+      "category": "node:root",
+      "occurrences": 7527,
+      "files": 7527,
+      "examples": [
+        "tanstack/ai@main:docs/adapters/acp-compatible.md",
+        "tanstack/ai@main:docs/adapters/anthropic.md",
+        "tanstack/ai@main:docs/adapters/bedrock.md",
+        "tanstack/ai@main:docs/adapters/byteplus.md",
+        "tanstack/ai@main:docs/adapters/claude-code.md"
+      ]
+    },
+    {
+      "category": "node:strike",
+      "occurrences": 627,
+      "files": 252,
+      "examples": [
+        "tanstack/ai@main:docs/reference/classes/StreamProcessor.md",
+        "tanstack/ai@main:docs/reference/index.md",
+        "tanstack/ai@main:docs/reference/interfaces/ApprovalRequestedEvent.md",
+        "tanstack/ai@main:docs/reference/interfaces/ChatMiddlewareContext.md",
+        "tanstack/ai@main:docs/reference/interfaces/TextOptions.md"
+      ]
+    },
+    {
+      "category": "node:strong",
+      "occurrences": 7270,
+      "files": 1303,
+      "examples": [
+        "tanstack/ai@main:docs/adapters/acp-compatible.md",
+        "tanstack/ai@main:docs/adapters/anthropic.md",
+        "tanstack/ai@main:docs/adapters/bedrock.md",
+        "tanstack/ai@main:docs/adapters/byteplus.md",
+        "tanstack/ai@main:docs/adapters/claude-code.md"
+      ]
+    },
+    {
+      "category": "node:table",
+      "occurrences": 1702,
+      "files": 1068,
+      "examples": [
+        "tanstack/ai@main:docs/adapters/acp-compatible.md",
+        "tanstack/ai@main:docs/adapters/bedrock.md",
+        "tanstack/ai@main:docs/adapters/byteplus.md",
+        "tanstack/ai@main:docs/adapters/claude-code.md",
+        "tanstack/ai@main:docs/adapters/codex.md"
+      ]
+    },
+    {
+      "category": "node:tableCell",
+      "occurrences": 55297,
+      "files": 1068,
+      "examples": [
+        "tanstack/ai@main:docs/adapters/acp-compatible.md",
+        "tanstack/ai@main:docs/adapters/bedrock.md",
+        "tanstack/ai@main:docs/adapters/byteplus.md",
+        "tanstack/ai@main:docs/adapters/claude-code.md",
+        "tanstack/ai@main:docs/adapters/codex.md"
+      ]
+    },
+    {
+      "category": "node:text",
+      "occurrences": 420674,
+      "files": 7348,
+      "examples": [
+        "tanstack/ai@main:docs/adapters/acp-compatible.md",
+        "tanstack/ai@main:docs/adapters/anthropic.md",
+        "tanstack/ai@main:docs/adapters/bedrock.md",
+        "tanstack/ai@main:docs/adapters/byteplus.md",
+        "tanstack/ai@main:docs/adapters/claude-code.md"
+      ]
+    },
+    {
+      "category": "node:thematicBreak",
+      "occurrences": 7199,
+      "files": 1345,
+      "examples": [
+        "tanstack/ai@main:docs/code-mode/code-mode-isolates.md",
+        "tanstack/ai@main:docs/reference/classes/BaseEvaluateAdapter.md",
+        "tanstack/ai@main:docs/reference/classes/BaseRerankAdapter.md",
+        "tanstack/ai@main:docs/reference/classes/BatchStrategy.md",
+        "tanstack/ai@main:docs/reference/classes/CompositeStrategy.md"
+      ]
+    }
+  ]
+}
