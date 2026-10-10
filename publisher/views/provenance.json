@@ -1,0 +1,5 @@
+{
+  "pin": "862ccc3d191818320c3e6d217542883f80cb907a",
+  "original_codeblock_view_sha256": "202e91bb186c39ee1877da53a7b266a64640c8eb0662f3e2d4885d9c09394fd9",
+  "adaptation": "Static publication retains the original view and initial uncopied state; clipboard/toast action belongs to a separate browser controller. No toast/theme/application graph is imported."
+}

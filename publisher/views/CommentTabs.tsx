@@ -1,0 +1,5 @@
+import React from 'react'
+import {Tabs} from '../../frontend/components/Tabs'
+import {BundlerTabs} from '../../frontend/components/BundlerTabs'
+export function TabPanel({children}:any){return <>{children}</>}
+export function CommentTabs(props:any){if(props['data-component']!=='tabs')throw Error('Component owner pending: '+props['data-component']);if(props['data-package-manager-meta']||props['data-files-meta'])throw Error('Package/file tab owner pending');const tabs=JSON.parse(props['data-attributes']??'{}').tabs??[];const panels=React.Children.toArray(props.children).filter((c:any)=>React.isValidElement(c)&&c.type===TabPanel) as any[];if(props['data-bundler-meta']){const childrenBySlug=new Map(panels.map(p=>[p.props['data-tab-slug'],p.props.children]));const content=Object.fromEntries(panels.map(p=>[p.props['data-tab-slug'],p.props['data-content']]));return <BundlerTabs tabs={tabs} panelContent={content}>{tabs.map((t:any)=><React.Fragment key={t.slug}>{childrenBySlug.get(t.slug)}</React.Fragment>)}</BundlerTabs>}return <Tabs tabs={tabs}>{panels.map(p=>p.props.children)}</Tabs>}

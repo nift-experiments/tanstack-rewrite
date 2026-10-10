@@ -1,0 +1,6 @@
+{
+  "real_document": "Start build-from-scratch",
+  "code": "mkdir myApp\ncd myApp\nnpm init -y",
+  "exact_static_dom_equal": true,
+  "scope": "One real ordinary code block; clipboard/toast behavior and other code categories pending"
+}

@@ -9,13 +9,19 @@
     "parser:build": "node scripts/compile-parser.mjs",
     "proof:parser": "npm run parser:build && node scripts/proof-parser.mjs",
     "proof:authority:build": "npm run parser:build && node scripts/proof-authority-build.mjs",
-    "proof:authority:browser": "node scripts/proof-authority-browser.mjs"
+    "proof:authority:browser": "node scripts/proof-authority-browser.mjs",
+    "proof:document": "node scripts/proof-document.mjs",
+    "proof:codeblock": "node scripts/proof-codeblock.mjs"
   },
   "dependencies": {
-    "@tanstack/markdown": "1.0.0",
+    "@phosphor-icons/react": "2.1.10",
     "@tanstack/highlight": "1.0.0",
+    "@tanstack/markdown": "1.0.0",
+    "@tanstack/react-router": "1.170.41",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "tailwind-merge": "3.5.0",
+    "zustand": "5.0.12"
   },
   "devDependencies": {
     "esbuild": "0.27.4"
