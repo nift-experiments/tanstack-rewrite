@@ -16,3 +16,7 @@ Preview startup serves the publication and evaluates declared request-time sessi
 Untransformed publication assets are maintained directly in public. The stylesheet source is `sources/styles/site.css` and Nift resolves its local URL references. Browser/runtime chunks are compiler outputs. See `investigation/PUBLICATION-OWNERSHIP.md` for the source/output contract and `investigation/CORPUS-GAPS.json` for behavior that still blocks final acceptance.
 
 This is a runnable campaign checkpoint, not a parity or benchmark closeout. Continue through the remaining route families, interactions, runtime tests, profiling and final evaluation.
+
+Library homepages are available at `/query/latest`, `/router/latest`, `/charts/latest` and the other published library/version paths. `/mcp` follows the upstream redirect to `/cli/latest/docs/mcp-migration`. Normal build checks preparation freshness with `nift status -p`, runs its native DAG if required, then loads the resulting publication graph for composition. This allows newly discovered routes to build in one command.
+
+The local dispatcher streams service responses, preserves multiple cookies and the incoming host, and refreshes publication metadata/path mappings after completed incremental builds. Native `.html` page artifact URLs redirect to their canonical application routes. Restart the runtime after rebuilding its compiled frontend/SSR or API artifacts. `node scripts/verify-corpus.mjs --pinned` additionally checks frozen input-byte fidelity; ordinary `verify:corpus` checks current maintained-source composition.

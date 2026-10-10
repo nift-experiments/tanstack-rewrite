@@ -1,8 +1,24 @@
 {
   "upstreamCommit": "862ccc3d191818320c3e6d217542883f80cb907a",
-  "scope": "Public API route handlers and direct import closure; compiled protocol implementation, not parity certification",
+  "scope": "HTTP service and negotiated-output handlers and direct import closure; compiled protocol implementation, not parity certification",
   "routes": [
+    "routes/builder_.llms[.]txt.ts",
+    "routes/charts.catalog_.catalog[.]json.ts",
+    "routes/charts.catalog_.previews.$revision.{$caseId}[.]svg.ts",
+    "routes/llms-full[.]txt.ts",
+    "routes/llms[.]txt.ts",
+    "routes/robots[.]txt.ts",
+    "routes/rss[.]xml.ts",
+    "routes/sitemap[.]xml.ts",
+    "routes/[.]well-known/oauth-authorization-server.ts",
     "routes/api/uploadthing.ts",
+    "routes/auth/signout.tsx",
+    "routes/oauth/register.ts",
+    "routes/oauth/token.ts",
+    "routes/_library/$libraryId/$version.docs.framework.$framework.{$}[.]md.tsx",
+    "routes/_library/$libraryId/$version.docs.index[.]md.ts",
+    "routes/_library/$libraryId/$version.docs.{$}[.]md.tsx",
+    "routes/_library/$libraryId/$version.llms[.]txt.ts",
     "routes/api/application-starter/compile-attributed.ts",
     "routes/api/application-starter/compile.ts",
     "routes/api/application-starter/download.ts",
@@ -49,6 +65,10 @@
     "routes/api/mcp/index.ts",
     "routes/api/og/{$}[.]png.ts",
     "routes/api/readme/{$}[.]png.ts",
+    "routes/auth/$provider/start.tsx",
+    "routes/auth/mcp/callback.ts",
+    "routes/auth/mcp/client-metadata.ts",
+    "routes/intent/registry/$packageName.{$}[.]md.tsx",
     "routes/api/application-starter/deploy/check-name.ts",
     "routes/api/application-starter/deploy/github.ts",
     "routes/api/auth/callback/$provider.tsx",
@@ -125,10 +145,106 @@
   ],
   "files": [
     {
+      "source": "src/routes/builder_.llms[.]txt.ts",
+      "target": "src/routes/builder_.llms[.]txt.ts",
+      "bytes": 413,
+      "sha256": "a595c5940d47635f34fea846f5a6ec32b41085da77d020d6b5f044bd30be2cd2"
+    },
+    {
+      "source": "src/routes/charts.catalog_.catalog[.]json.ts",
+      "target": "src/routes/charts.catalog_.catalog[.]json.ts",
+      "bytes": 682,
+      "sha256": "f81e6548b8075e190e18a850e5d6f3bcf9af824e0d603272a050a9c6ff1066c0"
+    },
+    {
+      "source": "src/routes/charts.catalog_.previews.$revision.{$caseId}[.]svg.ts",
+      "target": "src/routes/charts.catalog_.previews.$revision.{$caseId}[.]svg.ts",
+      "bytes": 3359,
+      "sha256": "edbce7eedc220a5647a145ce8136867343057635924709dea7aad07b69d54a45"
+    },
+    {
+      "source": "src/routes/llms-full[.]txt.ts",
+      "target": "src/routes/llms-full[.]txt.ts",
+      "bytes": 383,
+      "sha256": "0983806fc901e9cd165cb5516b2efa3eaae5da79390d9efc18c94ab479ccc671"
+    },
+    {
+      "source": "src/routes/llms[.]txt.ts",
+      "target": "src/routes/llms[.]txt.ts",
+      "bytes": 378,
+      "sha256": "b5e0a6951ed9eb9f863f9d82d137ea620a3e7cd17cf53ae4772a9c9ec2dd5003"
+    },
+    {
+      "source": "src/routes/robots[.]txt.ts",
+      "target": "src/routes/robots[.]txt.ts",
+      "bytes": 746,
+      "sha256": "0de24c92fb1c0032e908e80eac8e25207ad3c8f652cc512cb9f224690683b13b"
+    },
+    {
+      "source": "src/routes/rss[.]xml.ts",
+      "target": "src/routes/rss[.]xml.ts",
+      "bytes": 3351,
+      "sha256": "6ef416bc4fc8cc4fc74f832b8fe693ab180e9a2f58548d49b1b834b1fce9e507"
+    },
+    {
+      "source": "src/routes/sitemap[.]xml.ts",
+      "target": "src/routes/sitemap[.]xml.ts",
+      "bytes": 760,
+      "sha256": "bff85d3caf7edea8087c7c912a49b9aa2b75dd1cb8fb874a9943f309845c5a6a"
+    },
+    {
+      "source": "src/routes/[.]well-known/oauth-authorization-server.ts",
+      "target": "src/routes/[.]well-known/oauth-authorization-server.ts",
+      "bytes": 1549,
+      "sha256": "6478572b349e07804b087ce4cba920cfb2dc5e3fabeed7e7881336eead4e6f73"
+    },
+    {
       "source": "src/routes/api/uploadthing.ts",
       "target": "src/routes/api/uploadthing.ts",
       "bytes": 717,
       "sha256": "ca70328228ea1f1360358c4bd0e5119025df69430ab02e664dbd1100db26a2d4"
+    },
+    {
+      "source": "src/routes/auth/signout.tsx",
+      "target": "src/routes/auth/signout.tsx",
+      "bytes": 1310,
+      "sha256": "3b1c5932c740adcdacc108e9cd790426ec0bce5561b01d32bed34b1432a4f7e6"
+    },
+    {
+      "source": "src/routes/oauth/register.ts",
+      "target": "src/routes/oauth/register.ts",
+      "bytes": 5104,
+      "sha256": "0f657136897ad5ca66e8edc6f92a57617b90083c8199d9ae24692133b7c86d07"
+    },
+    {
+      "source": "src/routes/oauth/token.ts",
+      "target": "src/routes/oauth/token.ts",
+      "bytes": 5936,
+      "sha256": "413f71031cad3521dfe46bda49891231cc557b05fb8472119ad0a3a1f9bc776d"
+    },
+    {
+      "source": "src/routes/_library/$libraryId/$version.docs.framework.$framework.{$}[.]md.tsx",
+      "target": "src/routes/_library/$libraryId/$version.docs.framework.$framework.{$}[.]md.tsx",
+      "bytes": 2992,
+      "sha256": "a3ed12cfd8772d5a268760816ff38f4a753a5dcace0bf1d791e2b877e7fe5bed"
+    },
+    {
+      "source": "src/routes/_library/$libraryId/$version.docs.index[.]md.ts",
+      "target": "src/routes/_library/$libraryId/$version.docs.index[.]md.ts",
+      "bytes": 1523,
+      "sha256": "c86e840ca9291ef4d2d1a36748f2b8039c800cd094cc24d3ee41c4f2e51c35f7"
+    },
+    {
+      "source": "src/routes/_library/$libraryId/$version.docs.{$}[.]md.tsx",
+      "target": "src/routes/_library/$libraryId/$version.docs.{$}[.]md.tsx",
+      "bytes": 2737,
+      "sha256": "83653ba9e8429b46c70e595440568f8a4e90288c4e320ac19e129e95f84b4006"
+    },
+    {
+      "source": "src/routes/_library/$libraryId/$version.llms[.]txt.ts",
+      "target": "src/routes/_library/$libraryId/$version.llms[.]txt.ts",
+      "bytes": 1305,
+      "sha256": "dc029bf5631b67fea4c97b1317101c1d84304d44a47016436c5b42f254d8f25e"
     },
     {
       "source": "src/routes/api/application-starter/compile-attributed.ts",
@@ -405,6 +521,30 @@
       "target": "src/routes/api/readme/{$}[.]png.ts",
       "bytes": 3580,
       "sha256": "a7df7d1a8919f8c4ff726ea437c7190e468f8d0d360575e6d208cbb695277190"
+    },
+    {
+      "source": "src/routes/auth/$provider/start.tsx",
+      "target": "src/routes/auth/$provider/start.tsx",
+      "bytes": 4126,
+      "sha256": "16f68ca5d14dae1d464a06919858260b10e6f78a7c25b60420aef2f871a0c78b"
+    },
+    {
+      "source": "src/routes/auth/mcp/callback.ts",
+      "target": "src/routes/auth/mcp/callback.ts",
+      "bytes": 266,
+      "sha256": "783e88783990bc68dbc708c8a2abc0f7534a5ea84e233c5d0d966a3b0c8a5a5f"
+    },
+    {
+      "source": "src/routes/auth/mcp/client-metadata.ts",
+      "target": "src/routes/auth/mcp/client-metadata.ts",
+      "bytes": 273,
+      "sha256": "338364fb25b1075b021a1c002dd4e1f4489e0b6da5552ce4c29a84f4829c3600"
+    },
+    {
+      "source": "src/routes/intent/registry/$packageName.{$}[.]md.tsx",
+      "target": "src/routes/intent/registry/$packageName.{$}[.]md.tsx",
+      "bytes": 1092,
+      "sha256": "e079391da8e42cf37c2e7c45a1e38ed8c0d16a7aa82a87ad663dc0c2a056a765"
     },
     {
       "source": "src/routes/api/application-starter/deploy/check-name.ts",
@@ -845,10 +985,130 @@
       "sha256": "4cda7a869bc846d8417542f638a3ada913bc87dd84ea4f817c9f88451c718ff2"
     },
     {
+      "source": "src/utils/llms.ts",
+      "target": "src/utils/llms.ts",
+      "bytes": 10987,
+      "sha256": "c4dceb55274b309e0cc5c6903a033403449b801cb60d094a82862e3ddceebb44"
+    },
+    {
+      "source": "src/utils/builder-environment.ts",
+      "target": "src/utils/builder-environment.ts",
+      "bytes": 18806,
+      "sha256": "976487f8b1e09bd2a8b702d4dfe4cf90a06d75c90b9301ed744b7bcd05dab57c"
+    },
+    {
+      "source": "src/utils/charts-catalog-index.ts",
+      "target": "src/utils/charts-catalog-index.ts",
+      "bytes": 6380,
+      "sha256": "f4de108f132978e4653c4f39c6a68c2386962cd6c09f51b94f370641ea555ccf"
+    },
+    {
+      "source": "src/utils/charts-catalog-index.server.ts",
+      "target": "src/utils/charts-catalog-index.server.ts",
+      "bytes": 4114,
+      "sha256": "0057128eaee38f1bcb5a2f406f0a5a30cb9acde978a8bceb920ef243a7dfad57"
+    },
+    {
+      "source": "src/utils/charts-catalog-preview.ts",
+      "target": "src/utils/charts-catalog-preview.ts",
+      "bytes": 1532,
+      "sha256": "89a8c60884d9a300f52d181ebf4f7774aa57f00f5d671f94c3953fdfb522d9af"
+    },
+    {
+      "source": "src/utils/documents.server.ts",
+      "target": "src/utils/documents.server.ts",
+      "bytes": 42618,
+      "sha256": "0f8b046eca9e8fac3692d80d23ff66e00cf57adba517350b26e4bfcd259c5f8e"
+    },
+    {
+      "source": "src/utils/sitemap.ts",
+      "target": "src/utils/sitemap.ts",
+      "bytes": 4589,
+      "sha256": "5198617efd8af096e656e149bcf8a369a5f2d0bb527f0e4f8dc34d8c0b46f053"
+    },
+    {
+      "source": "src/utils/blog.ts",
+      "target": "src/utils/blog.ts",
+      "bytes": 1517,
+      "sha256": "2d9b3610001ac318e3971a28fde2129ae58f6d82174777b6cb696561bcaa9949"
+    },
+    {
+      "source": "src/utils/blog-format.ts",
+      "target": "src/utils/blog-format.ts",
+      "bytes": 4151,
+      "sha256": "9fb3e2c46522b4954176f263686e21ef709ed809aa35d92efd3e9deb26e2b151"
+    },
+    {
+      "source": "src/utils/site.ts",
+      "target": "src/utils/site.ts",
+      "bytes": 47,
+      "sha256": "9119961210cba5fcd9526ef966760d43621cbe0804ef94ca81bd4585ca967c6e"
+    },
+    {
       "source": "src/server/uploadthing.ts",
       "target": "src/server/uploadthing.ts",
       "bytes": 1474,
       "sha256": "6e073b2969eb2869974dc39c004a2ca064ba3ae86838d8991e3e29d08bcd2422"
+    },
+    {
+      "source": "src/auth/index.server.ts",
+      "target": "src/auth/index.server.ts",
+      "bytes": 3829,
+      "sha256": "6db5d6e9b897ca03f3791d4141b28410ba2db4d8c53b69987d6161b1e1c70eac"
+    },
+    {
+      "source": "src/utils/api-boundary.server.ts",
+      "target": "src/utils/api-boundary.server.ts",
+      "bytes": 5479,
+      "sha256": "3b0d84fed2463a1d3a90096f4f38fa1682f53ace272265b3a0560d1f2145572a"
+    },
+    {
+      "source": "src/auth/oauthClient.server.ts",
+      "target": "src/auth/oauthClient.server.ts",
+      "bytes": 15366,
+      "sha256": "e2b0b3764a9fc146905ee6c0dbe86505d964e6ddf4823e754e7a695d1cf9e772"
+    },
+    {
+      "source": "src/libraries/index.tsx",
+      "target": "src/libraries/index.tsx",
+      "bytes": 1693,
+      "sha256": "9ae8fdea55c16ddb038b00a23cd353e0abed9d2e97e8eaf77701343cb8ee9e22"
+    },
+    {
+      "source": "src/utils/docs.ts",
+      "target": "src/utils/docs.ts",
+      "bytes": 6765,
+      "sha256": "073818e50b1949d24a8a5db80ae73cf46c18d4f7d2109d5d1106596d2e0dddc1"
+    },
+    {
+      "source": "src/utils/docs-cache-headers.ts",
+      "target": "src/utils/docs-cache-headers.ts",
+      "bytes": 1139,
+      "sha256": "929d2a25bbc31e32374fd8db8a0c4a187f1ca9dfc2a6e128b9dc0883a14fd5e0"
+    },
+    {
+      "source": "src/utils/http-response.ts",
+      "target": "src/utils/http-response.ts",
+      "bytes": 1744,
+      "sha256": "9330828c5ef617e870a46661df88ebe5b45cd97e1db8388751a063e1998053ab"
+    },
+    {
+      "source": "src/utils/markdown/filterFrameworkContent.ts",
+      "target": "src/utils/markdown/filterFrameworkContent.ts",
+      "bytes": 7519,
+      "sha256": "7b4f3e9bf8de98450925dbf42a51c6e7ac2cc45f02f6352e88e2c3b465e16f94"
+    },
+    {
+      "source": "src/utils/markdown/installCommand.ts",
+      "target": "src/utils/markdown/installCommand.ts",
+      "bytes": 3682,
+      "sha256": "8a368952b5ded6a467ffd6967340b037f1d298ce1cc074644c0276db79e83b16"
+    },
+    {
+      "source": "src/utils/config.ts",
+      "target": "src/utils/config.ts",
+      "bytes": 3769,
+      "sha256": "ed9cce8379a9575a11f9b0cb0ac3ff90e0db61c483c6cf19e399419066542f85"
     },
     {
       "source": "src/application-starter/api/request-boundary.server.ts",
@@ -867,12 +1127,6 @@
       "target": "src/application-starter/api/compile.ts",
       "bytes": 19057,
       "sha256": "c121f0b83f3374a62230fa6478b510e66799fa3c8847079ab1027dec6d7e1cfe"
-    },
-    {
-      "source": "src/utils/http-response.ts",
-      "target": "src/utils/http-response.ts",
-      "bytes": 1744,
-      "sha256": "9330828c5ef617e870a46661df88ebe5b45cd97e1db8388751a063e1998053ab"
     },
     {
       "source": "src/application-starter/frameworks.ts",
@@ -909,18 +1163,6 @@
       "target": "src/utils/env.functions.ts",
       "bytes": 985,
       "sha256": "d83e361d734c4b6dbf9e2587b90c2a6638ca1b9b30396217802ce20adad9c67d"
-    },
-    {
-      "source": "src/utils/api-boundary.server.ts",
-      "target": "src/utils/api-boundary.server.ts",
-      "bytes": 5479,
-      "sha256": "3b0d84fed2463a1d3a90096f4f38fa1682f53ace272265b3a0560d1f2145572a"
-    },
-    {
-      "source": "src/auth/index.server.ts",
-      "target": "src/auth/index.server.ts",
-      "bytes": 3829,
-      "sha256": "6db5d6e9b897ca03f3791d4141b28410ba2db4d8c53b69987d6161b1e1c70eac"
     },
     {
       "source": "src/utils/application-starter.server.ts",
@@ -1199,12 +1441,6 @@
       "sha256": "4eab1dba11daa2e263be177391405d64959c2ab6685b6bd4f024241a29fa165c"
     },
     {
-      "source": "src/libraries/index.tsx",
-      "target": "src/libraries/index.tsx",
-      "bytes": 1693,
-      "sha256": "9ae8fdea55c16ddb038b00a23cd353e0abed9d2e97e8eaf77701343cb8ee9e22"
-    },
-    {
       "source": "src/server/runtime/host.server.ts",
       "target": "src/server/runtime/host.server.ts",
       "bytes": 4866,
@@ -1229,10 +1465,40 @@
       "sha256": "56166ebc61afd6d014487349279aa8282482aed40072fe133dc8492fe63fe913"
     },
     {
+      "source": "src/utils/auth.functions.ts",
+      "target": "src/utils/auth.functions.ts",
+      "bytes": 2588,
+      "sha256": "e6ecf08714ee713615b47af71559db95536e5305e90fc54e56e2629594019f0b"
+    },
+    {
+      "source": "src/auth/oauth-popup.ts",
+      "target": "src/auth/oauth-popup.ts",
+      "bytes": 421,
+      "sha256": "dcabc75dd9a70b8fb39f6110aba886577d5ac25ec485fc096cf40c0c258a7a78"
+    },
+    {
       "source": "src/utils/url-boundary.ts",
       "target": "src/utils/url-boundary.ts",
       "bytes": 3433,
       "sha256": "2a9af6b7bd2b942f74cb31cf16341b53d17241b6dc3a9a7516801f03a338fcb7"
+    },
+    {
+      "source": "src/chat/server/mcp-oauth-route.server.ts",
+      "target": "src/chat/server/mcp-oauth-route.server.ts",
+      "bytes": 804,
+      "sha256": "b8f8378b7dbaa71fb931406fcf9e7221783a290527e17bebe7bda14753d50edf"
+    },
+    {
+      "source": "src/utils/intent.functions.ts",
+      "target": "src/utils/intent.functions.ts",
+      "bytes": 33601,
+      "sha256": "f7f46cbc6539facb190ea44b5917fdb717d9f41f6759c5bd4b5e257c160e83b3"
+    },
+    {
+      "source": "src/routes/intent/registry/$packageName.tsx",
+      "target": "src/routes/intent/registry/$packageName.tsx",
+      "bytes": 21587,
+      "sha256": "956c5efd621b0c0e464afc4fd511a606eb51369f70436455767f944a1044dc83"
     },
     {
       "source": "src/utils/audit.server.ts",
@@ -1403,46 +1669,64 @@
       "sha256": "5b58bdbeba0ed2f2e2980aa1906999e62ed2458e0a86a11dde512490aef95bd1"
     },
     {
-      "source": "src/application-starter/api/create-worker.ts",
-      "target": "src/application-starter/api/create-worker.ts",
-      "bytes": 19312,
-      "sha256": "094c309d70911f38ef9810ee7f5902eef6b2c1b5abee9db7c4bca3e42cc37864"
+      "source": "src/utils/docsNavTabs.ts",
+      "target": "src/utils/docsNavTabs.ts",
+      "bytes": 6110,
+      "sha256": "9f7cf4fadc0ddf918190e781183b811ded44741509a1e43032a6dec32b9bd701"
     },
     {
-      "source": "src/application-starter/api/config.ts",
-      "target": "src/application-starter/api/config.ts",
-      "bytes": 574,
-      "sha256": "e0c5297696ba49b2e2752f611d4eb436f5a7d63a57d7695e9edcebe5ddb3b590"
+      "source": "src/utils/charts-catalog.ts",
+      "target": "src/utils/charts-catalog.ts",
+      "bytes": 1948,
+      "sha256": "43be8fdfd098f85ad6cfc9a4cbe003ae4612ae2651336713af6789b9609ced26"
     },
     {
-      "source": "src/db/client.ts",
-      "target": "src/db/client.ts",
-      "bytes": 4243,
-      "sha256": "606ca5c8c232c337c5a7d9008dde35ffe4fc258fb0c2894f86a2b86c55bdf64e"
+      "source": "src/utils/cache.server.ts",
+      "target": "src/utils/cache.server.ts",
+      "bytes": 1286,
+      "sha256": "5160b38e0b9fb5689508fc26cc01ab3e5136fbc3367ae6ff3143e90c68cf702c"
     },
     {
-      "source": "src/db/schema.ts",
-      "target": "src/db/schema.ts",
-      "bytes": 119503,
-      "sha256": "f8eeaaf738bbc6025f9563f0899b1fc8ad95ae62ce07d3c0ecfd49cb4bff5ba3"
+      "source": "src/utils/local-repo-path.server.ts",
+      "target": "src/utils/local-repo-path.server.ts",
+      "bytes": 545,
+      "sha256": "1082b5a30479b852539e800efee7883dd58ca9d84898aa46b5e5793130eabfc1"
     },
     {
-      "source": "src/mcp/auth.server.ts",
-      "target": "src/mcp/auth.server.ts",
-      "bytes": 6923,
-      "sha256": "3709c9c9f25255a257ba6ebaf6331b3f59ccfd83d56f8a106a667dbb232ce556"
+      "source": "src/utils/redirects.ts",
+      "target": "src/utils/redirects.ts",
+      "bytes": 1591,
+      "sha256": "deccf434d8f5d1001eb12ee440175e9e9350d015f07694c4f9aeb327ed782ce9"
     },
     {
-      "source": "src/utils/url-validation.server.ts",
-      "target": "src/utils/url-validation.server.ts",
-      "bytes": 3357,
-      "sha256": "53e0e425e8dceaaab50428ccaa7501774458faabf20e004410d5843271691ef3"
+      "source": "src/utils/repo-path.ts",
+      "target": "src/utils/repo-path.ts",
+      "bytes": 1107,
+      "sha256": "d2aafe6b287c59487a86fec93dabd2d996a0b8760b7427ac1bce2758dbbc8284"
+    },
+    {
+      "source": "src/utils/utils.ts",
+      "target": "src/utils/utils.ts",
+      "bytes": 5887,
+      "sha256": "9c14de9bd6e873ff71e4d116563219878748f9762743be8dc40e37996effece8"
     },
     {
       "source": "src/utils/outbound-fetch.server.ts",
       "target": "src/utils/outbound-fetch.server.ts",
       "bytes": 2657,
       "sha256": "176537bbdb5911da96244fd7c9c53c3c393e55ab2a71067d1f32bfe3125b1b77"
+    },
+    {
+      "source": "src/utils/markdown/processor.ts",
+      "target": "src/utils/markdown/processor.ts",
+      "bytes": 8028,
+      "sha256": "e0eb4c6b3fede39329b0bf711ca99743eb112916a7e6dae8482789d2b6a2f4f8"
+    },
+    {
+      "source": "src/utils/partner-pages.ts",
+      "target": "src/utils/partner-pages.ts",
+      "bytes": 10908,
+      "sha256": "98448a77453b29b409cc972b0b7849347c94d37d6205921f7d504aa8c7781212"
     },
     {
       "source": "src/auth/types.ts",
@@ -1497,6 +1781,72 @@
       "target": "src/auth/context.server.ts",
       "bytes": 4808,
       "sha256": "79a0537d26da99c95979071ea3cd0738264570b912c38679a0d051645efebcf9"
+    },
+    {
+      "source": "src/db/client.ts",
+      "target": "src/db/client.ts",
+      "bytes": 4243,
+      "sha256": "606ca5c8c232c337c5a7d9008dde35ffe4fc258fb0c2894f86a2b86c55bdf64e"
+    },
+    {
+      "source": "src/db/schema.ts",
+      "target": "src/db/schema.ts",
+      "bytes": 119503,
+      "sha256": "f8eeaaf738bbc6025f9563f0899b1fc8ad95ae62ce07d3c0ecfd49cb4bff5ba3"
+    },
+    {
+      "source": "src/utils/hash.ts",
+      "target": "src/utils/hash.ts",
+      "bytes": 514,
+      "sha256": "732ec57eb1142c65030e9b60d17a2fc1b22e0693d20540ce52ee03808f80c16a"
+    },
+    {
+      "source": "src/libraries/types.ts",
+      "target": "src/libraries/types.ts",
+      "bytes": 2385,
+      "sha256": "bb38c9d2154bf43a9f711b005e9da094fb6d83a7455f6b3cc4d34ecf4847aadd"
+    },
+    {
+      "source": "src/utils/docs.functions.ts",
+      "target": "src/utils/docs.functions.ts",
+      "bytes": 16828,
+      "sha256": "47d407c33a5d73c636c45e8bb908813095a66b0cb39321a11fafe7fab0aa89db"
+    },
+    {
+      "source": "src/utils/docs-redirects.ts",
+      "target": "src/utils/docs-redirects.ts",
+      "bytes": 6022,
+      "sha256": "33ebfba147517b539988207cf8d24804e451bab5fe304e5d374c7e66340e3c5c"
+    },
+    {
+      "source": "src/utils/http.ts",
+      "target": "src/utils/http.ts",
+      "bytes": 108,
+      "sha256": "fbb4ab6ab5d35489e4f1b2de3b4fb5ad8472e951b3cbd6bb252e3b498164430e"
+    },
+    {
+      "source": "src/application-starter/api/create-worker.ts",
+      "target": "src/application-starter/api/create-worker.ts",
+      "bytes": 19312,
+      "sha256": "094c309d70911f38ef9810ee7f5902eef6b2c1b5abee9db7c4bca3e42cc37864"
+    },
+    {
+      "source": "src/application-starter/api/config.ts",
+      "target": "src/application-starter/api/config.ts",
+      "bytes": 574,
+      "sha256": "e0c5297696ba49b2e2752f611d4eb436f5a7d63a57d7695e9edcebe5ddb3b590"
+    },
+    {
+      "source": "src/mcp/auth.server.ts",
+      "target": "src/mcp/auth.server.ts",
+      "bytes": 6923,
+      "sha256": "3709c9c9f25255a257ba6ebaf6331b3f59ccfd83d56f8a106a667dbb232ce556"
+    },
+    {
+      "source": "src/utils/url-validation.server.ts",
+      "target": "src/utils/url-validation.server.ts",
+      "bytes": 3357,
+      "sha256": "53e0e425e8dceaaab50428ccaa7501774458faabf20e004410d5843271691ef3"
     },
     {
       "source": "src/utils/application-starter.ts",
@@ -1647,12 +1997,6 @@
       "target": "src/utils/example-project.ts",
       "bytes": 4719,
       "sha256": "df3fc2dc35970a955d4d644bda77f11208dee9426bdd4af18c96b06a369bd92d"
-    },
-    {
-      "source": "src/utils/hash.ts",
-      "target": "src/utils/hash.ts",
-      "bytes": 514,
-      "sha256": "732ec57eb1142c65030e9b60d17a2fc1b22e0693d20540ce52ee03808f80c16a"
     },
     {
       "source": "src/utils/builder-project-snapshot.ts",
@@ -2021,28 +2365,10 @@
       "sha256": "b152d49dbbcb27126e3d82ae135acca031a64035c4fb92a82f3fc275167dc40e"
     },
     {
-      "source": "src/utils/documents.server.ts",
-      "target": "src/utils/documents.server.ts",
-      "bytes": 42618,
-      "sha256": "0f8b046eca9e8fac3692d80d23ff66e00cf57adba517350b26e4bfcd259c5f8e"
-    },
-    {
       "source": "src/utils/example-workspace.ts",
       "target": "src/utils/example-workspace.ts",
       "bytes": 6609,
       "sha256": "fa3889eb2b75973e82f85e8f663048d90dd1b4622e069e25853e3953b7d261d4"
-    },
-    {
-      "source": "src/utils/repo-path.ts",
-      "target": "src/utils/repo-path.ts",
-      "bytes": 1107,
-      "sha256": "d2aafe6b287c59487a86fec93dabd2d996a0b8760b7427ac1bce2758dbbc8284"
-    },
-    {
-      "source": "src/libraries/types.ts",
-      "target": "src/libraries/types.ts",
-      "bytes": 2385,
-      "sha256": "bb38c9d2154bf43a9f711b005e9da094fb6d83a7455f6b3cc4d34ecf4847aadd"
     },
     {
       "source": "src/mcp/server.ts",
@@ -2079,6 +2405,78 @@
       "target": "src/utils/og-limits.ts",
       "bytes": 535,
       "sha256": "9feebf9b25acb8ff00738b4f5b35c370e94c8566517f1f766fd7635fdfb46a90"
+    },
+    {
+      "source": "src/chat/server/mcp-setup.ts",
+      "target": "src/chat/server/mcp-setup.ts",
+      "bytes": 22884,
+      "sha256": "314cbbe081b056708d8451b9786ab08302a28175ba2f77043c0ae7cfcbc83ff6"
+    },
+    {
+      "source": "src/utils/intent-db.server.ts",
+      "target": "src/utils/intent-db.server.ts",
+      "bytes": 15945,
+      "sha256": "fe5a897c760fa1d72dab3408dce0fb94ee7dc861fc5fca3898c7d4fb3a4b1960"
+    },
+    {
+      "source": "src/utils/intent.server.ts",
+      "target": "src/utils/intent.server.ts",
+      "bytes": 18687,
+      "sha256": "69d2297d5fd037ffe75c22545d2bc806ebce4e0cef88e6a3890197e1ad0a24a0"
+    },
+    {
+      "source": "src/utils/schemas.ts",
+      "target": "src/utils/schemas.ts",
+      "bytes": 2156,
+      "sha256": "2a64a8982e304b11ca64828dd0b96019ff322873c16ca0dad0b00fddf6b7692b"
+    },
+    {
+      "source": "src/components/Panel.tsx",
+      "target": "src/components/Panel.tsx",
+      "bytes": 3559,
+      "sha256": "c8813f0764e23218ee1828c111b0e2fa10219529e9c7e4cc52a7518d46d622fe"
+    },
+    {
+      "source": "src/utils/seo.ts",
+      "target": "src/utils/seo.ts",
+      "bytes": 3376,
+      "sha256": "15827583762ae1fe274ce84cac4a9f99cd5cef590c87461cc068e2a5868a712b"
+    },
+    {
+      "source": "src/queries/intent.ts",
+      "target": "src/queries/intent.ts",
+      "bytes": 3085,
+      "sha256": "047d22a730f9e1e2122f943a22615caa70a96f8a7433164e3ba02b7b1b214efb"
+    },
+    {
+      "source": "src/components/ToastProvider.tsx",
+      "target": "src/components/ToastProvider.tsx",
+      "bytes": 1680,
+      "sha256": "41ac3f604319cb815ce404cbab05794ebc6fa0ae893a9311a7680b7a040208f2"
+    },
+    {
+      "source": "src/components/intent/SkillSparklineFallback.tsx",
+      "target": "src/components/intent/SkillSparklineFallback.tsx",
+      "bytes": 224,
+      "sha256": "ba9558b8662282d5bfa43f1bf3fcf5e50000be3e7685ad41a812da2f974bb650"
+    },
+    {
+      "source": "src/utils/route-encoding.ts",
+      "target": "src/utils/route-encoding.ts",
+      "bytes": 1197,
+      "sha256": "80f3f3b288f11dd0d8a57a866ce7396aaa99758e892385788170eccf10bff240"
+    },
+    {
+      "source": "src/utils/browser-effects.ts",
+      "target": "src/utils/browser-effects.ts",
+      "bytes": 2547,
+      "sha256": "cecefdac2a9c3c96166b11811241723600d5a160112c37bb32f988b729abca1f"
+    },
+    {
+      "source": "src/components/intent/SkillSparkline.tsx",
+      "target": "src/components/intent/SkillSparkline.tsx",
+      "bytes": 4711,
+      "sha256": "3689c8f1a9576583ad21e7ef85bdf8228a4967a1c7331038d3f47fca53d0eb79"
     },
     {
       "source": "src/utils/request.server.ts",
@@ -2369,12 +2767,6 @@
       "sha256": "c188a0ab4b0bcf0dc696119d428358173c2d156218b6155b8ae309c51f1f703b"
     },
     {
-      "source": "src/chat/server/mcp-setup.ts",
-      "target": "src/chat/server/mcp-setup.ts",
-      "bytes": 22884,
-      "sha256": "314cbbe081b056708d8451b9786ab08302a28175ba2f77043c0ae7cfcbc83ff6"
-    },
-    {
       "source": "src/chat/server/mcp-account-runtime.ts",
       "target": "src/chat/server/mcp-account-runtime.ts",
       "bytes": 7177,
@@ -2441,22 +2833,28 @@
       "sha256": "c8ecca73be59ce2a5891e0d45668df8a974e70352f6044b6bfa95ef8d7ca9d99"
     },
     {
-      "source": "src/auth/oauthClient.server.ts",
-      "target": "src/auth/oauthClient.server.ts",
-      "bytes": 15366,
-      "sha256": "e2b0b3764a9fc146905ee6c0dbe86505d964e6ddf4823e754e7a695d1cf9e772"
-    },
-    {
-      "source": "src/auth/oauth-popup.ts",
-      "target": "src/auth/oauth-popup.ts",
-      "bytes": 421,
-      "sha256": "dcabc75dd9a70b8fb39f6110aba886577d5ac25ec485fc096cf40c0c258a7a78"
+      "source": "src/utils/markdown/live-example.ts",
+      "target": "src/utils/markdown/live-example.ts",
+      "bytes": 6099,
+      "sha256": "bfe553eef6290c4041a161bc507bb3e9c9181aad385b2c306df0866cc166bace"
     },
     {
       "source": "src/utils/crypto.server.ts",
       "target": "src/utils/crypto.server.ts",
       "bytes": 3302,
       "sha256": "d71597b82a59d7211dc84b9255394b6b1b1abccdab124697524bfede05d62154"
+    },
+    {
+      "source": "src/utils/client-example-config.ts",
+      "target": "src/utils/client-example-config.ts",
+      "bytes": 7972,
+      "sha256": "55faff49cf1f072f394d8344956c676b55758b184f4bf572493ab896d6d2da78"
+    },
+    {
+      "source": "src/utils/repository-example.ts",
+      "target": "src/utils/repository-example.ts",
+      "bytes": 3917,
+      "sha256": "a8e43855f8d6e517f9404c8da17fad6ea214cee034df5af18fc6ad75e91865f9"
     },
     {
       "source": "src/chat/server/bot-workspace-reads.ts",
@@ -2603,40 +3001,40 @@
       "sha256": "dcabf78bc077791382ce77fe30dab96273fd3991799c885faae039ee2a9c0f28"
     },
     {
-      "source": "src/utils/cache.server.ts",
-      "target": "src/utils/cache.server.ts",
-      "bytes": 1286,
-      "sha256": "5160b38e0b9fb5689508fc26cc01ab3e5136fbc3367ae6ff3143e90c68cf702c"
-    },
-    {
-      "source": "src/utils/local-repo-path.server.ts",
-      "target": "src/utils/local-repo-path.server.ts",
-      "bytes": 545,
-      "sha256": "1082b5a30479b852539e800efee7883dd58ca9d84898aa46b5e5793130eabfc1"
-    },
-    {
-      "source": "src/utils/redirects.ts",
-      "target": "src/utils/redirects.ts",
-      "bytes": 1591,
-      "sha256": "deccf434d8f5d1001eb12ee440175e9e9350d015f07694c4f9aeb327ed782ce9"
-    },
-    {
-      "source": "src/utils/utils.ts",
-      "target": "src/utils/utils.ts",
-      "bytes": 5887,
-      "sha256": "9c14de9bd6e873ff71e4d116563219878748f9762743be8dc40e37996effece8"
-    },
-    {
-      "source": "src/utils/markdown/processor.ts",
-      "target": "src/utils/markdown/processor.ts",
-      "bytes": 8028,
-      "sha256": "e0eb4c6b3fede39329b0bf711ca99743eb112916a7e6dae8482789d2b6a2f4f8"
-    },
-    {
       "source": "src/mcp/tools/npm-stats.ts",
       "target": "src/mcp/tools/npm-stats.ts",
       "bytes": 6028,
       "sha256": "5ef2cf6f1824e47880a37b580d0061afec3589e343ba77307164f046521b4ec0"
+    },
+    {
+      "source": "src/chat/core/mcp-setup.ts",
+      "target": "src/chat/core/mcp-setup.ts",
+      "bytes": 1792,
+      "sha256": "b61052ee4122dfb462c5937bcfc25f9913b2ed0a8f8428c0fde2f63c12785d0b"
+    },
+    {
+      "source": "src/chat/server/mcp-oauth-discovery.ts",
+      "target": "src/chat/server/mcp-oauth-discovery.ts",
+      "bytes": 8521,
+      "sha256": "31b172d50c5d157b3cbb7b31c5958e55893efe2b39f8699fd846f4ae72edf6a6"
+    },
+    {
+      "source": "src/chat/server/mcp-public-fetch.ts",
+      "target": "src/chat/server/mcp-public-fetch.ts",
+      "bytes": 2383,
+      "sha256": "669aff134352a37ee7a004bff6691b0e41bd1ed03235eacf9f333f38966df8e3"
+    },
+    {
+      "source": "src/components/ThemeProvider.tsx",
+      "target": "src/components/ThemeProvider.tsx",
+      "bytes": 4660,
+      "sha256": "3995bbb8fa501183b1f3010056aebbadd928b5bac1f2900770a5483dc7cf021b"
+    },
+    {
+      "source": "src/utils/analytics/scarf.ts",
+      "target": "src/utils/analytics/scarf.ts",
+      "bytes": 6525,
+      "sha256": "0900fe2db893acc5ecac9ed8e1c675e10521d98343ef248952b43ade7d19ccc2"
     },
     {
       "source": "src/chat/core/account-preferences.ts",
@@ -2819,24 +3217,6 @@
       "sha256": "f8029e70dc03f8f2efb29fe0fd4966457c8ee37d7f52b621011e51f5a58d0d4b"
     },
     {
-      "source": "src/chat/core/mcp-setup.ts",
-      "target": "src/chat/core/mcp-setup.ts",
-      "bytes": 1792,
-      "sha256": "b61052ee4122dfb462c5937bcfc25f9913b2ed0a8f8428c0fde2f63c12785d0b"
-    },
-    {
-      "source": "src/chat/server/mcp-oauth-discovery.ts",
-      "target": "src/chat/server/mcp-oauth-discovery.ts",
-      "bytes": 8521,
-      "sha256": "31b172d50c5d157b3cbb7b31c5958e55893efe2b39f8699fd846f4ae72edf6a6"
-    },
-    {
-      "source": "src/chat/server/mcp-public-fetch.ts",
-      "target": "src/chat/server/mcp-public-fetch.ts",
-      "bytes": 2383,
-      "sha256": "669aff134352a37ee7a004bff6691b0e41bd1ed03235eacf9f333f38966df8e3"
-    },
-    {
       "source": "src/chat/server/mcp-catalog.ts",
       "target": "src/chat/server/mcp-catalog.ts",
       "bytes": 7652,
@@ -2901,12 +3281,6 @@
       "target": "src/chat/server/kody-skill-sync.ts",
       "bytes": 6875,
       "sha256": "c82a66f17d464e8ea3e102c09e22662a9c23e4c52a39f19eb2cc6642dcac7f6a"
-    },
-    {
-      "source": "src/utils/markdown/live-example.ts",
-      "target": "src/utils/markdown/live-example.ts",
-      "bytes": 6099,
-      "sha256": "bfe553eef6290c4041a161bc507bb3e9c9181aad385b2c306df0866cc166bace"
     },
     {
       "source": "src/routes/stats/npm/-comparisons.ts",
@@ -2979,18 +3353,6 @@
       "target": "src/chat/server/kody-skill-source.ts",
       "bytes": 6164,
       "sha256": "b7ecea02cfd82b8494de61615a9a9a4cd62d31476158baf922b7b48cfafbed78"
-    },
-    {
-      "source": "src/utils/builder-environment.ts",
-      "target": "src/utils/builder-environment.ts",
-      "bytes": 18806,
-      "sha256": "976487f8b1e09bd2a8b702d4dfe4cf90a06d75c90b9301ed744b7bcd05dab57c"
-    },
-    {
-      "source": "src/utils/schemas.ts",
-      "target": "src/utils/schemas.ts",
-      "bytes": 2156,
-      "sha256": "2a64a8982e304b11ca64828dd0b96019ff322873c16ca0dad0b00fddf6b7692b"
     },
     {
       "source": "src/utils/npm-stats-limits.ts",

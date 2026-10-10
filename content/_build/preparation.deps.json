@@ -16,6 +16,8 @@
     "services/backend/src/utils/blog.ts",
     "scripts/prepare-stylesheet.mjs",
     "sources/styles/",
-    "public/_build/posts.json"
+    "public/_build/posts.json",
+    "scripts/prepare-landings.mjs",
+    "sources/generated/"
   ]
 }

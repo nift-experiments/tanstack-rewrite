@@ -1,10 +1,10 @@
 {
+  "importedSourceFilesByteEqualToPinnedInputs": 7601,
   "routes": 14107,
   "uniqueAuthoredDocuments": 7527,
   "niftArticleBytesVerified": 14107,
   "metadataFilesVerified": 14107,
   "markdownDownloadsVerified": 14107,
   "publicationURLsNormalized": true,
-  "scope": "Corpus coverage and raw composition integrity after only checked URL normalization; not upstream semantic or browser parity",
-  "importedSourceFilesByteEqualToPinnedInputs": 7601
+  "scope": "Corpus coverage and raw composition integrity after only checked URL normalization; not upstream semantic or browser parity"
 }

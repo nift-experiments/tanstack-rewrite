@@ -1,0 +1,9 @@
+{
+  "scope": "Shared native-document navigation and ownership integration; not complete browser parity",
+  "docsToLanding": true,
+  "landingToHome": true,
+  "homeToLanding": true,
+  "sameDocumentLifetime": true,
+  "nativeHeadingIdentityAndEditSurviveShellOverlay": true,
+  "errors": []
+}

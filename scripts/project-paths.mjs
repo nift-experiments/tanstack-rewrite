@@ -4,8 +4,10 @@ const {parseFragment}=createRequire(path.resolve('../tanstack/runtime/package.js
 // request-time shell consumes this derived map; it does not guess geometry.
 export function prepareProjectPaths(routes,tracked,write){
  const entries=[];
- for(const dir of ['assets','static','images','fonts']){const root='public/'+dir;if(!fs.existsSync(root))continue;for(const file of fs.readdirSync(root,{recursive:true}))if(fs.statSync(root+'/'+file).isFile())entries.push(['/'+dir+'/'+file.replaceAll(path.sep,'/'),'public/'+dir+'/'+file]);}
+ for(const asset of JSON.parse(fs.readFileSync('sources/PUBLIC-ASSETS-PROVENANCE.json')).files){if(asset.path.startsWith('public/'))entries.push(['/'+asset.path.slice(7),asset.path]);}
+ for(const dir of ['assets','static','images','fonts']){const root='public/'+dir;if(!fs.existsSync(root))continue;for(const file of fs.readdirSync(root,{recursive:true}))if(fs.statSync(root+'/'+file).isFile()){const url='/'+dir+'/'+file.replaceAll(path.sep,'/');if(!entries.some(([known])=>known===url))entries.push([url,'public/'+dir+'/'+file]);}}
  for(const route of Object.keys(routes))entries.push([route,route.slice(1)]);
+ for(const record of Object.values(routes))if(record.kind==='landing'&&record.version==='latest')entries.push(['/'+record.libraryId,record.pathname.slice(1)]);if(routes['/cli/latest/docs/mcp-migration'])entries.push(['/mcp','cli/latest/docs/mcp-migration']);
  entries.push(['/','/']);
  const body='{'+entries.map(([url,target])=>JSON.stringify(url)+':"@path('+JSON.stringify(target)+')"').join(',')+'}';
  write('content/_paths/manifest.html',body);write('templates/project-paths.html','@content');tracked.push({name:'_paths/manifest',title:'Checked project paths',template:'templates/project-paths.html'});

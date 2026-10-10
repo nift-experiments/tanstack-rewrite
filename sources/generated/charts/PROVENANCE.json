@@ -1,0 +1,11 @@
+{
+  "repo": "tanstack/charts",
+  "commit": "57774e14a1a86081eddb3a23523724a40da05640",
+  "file": {
+    "path": "benchmarks/conformance/catalog-index.json",
+    "bytes": 402494,
+    "git_blob": "721ec1ca9b1eac1bd0e1719251b6d1b605e4e1b8",
+    "sha256": "0ab390188bfff7bcc860bd0d2c4fbdcb46342272cb020ed2fa260026be47902b"
+  },
+  "ownership": "Pinned generated content input; refresh explicitly, normal publication reads owned source"
+}

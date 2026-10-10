@@ -1,8 +1,8 @@
 {
   "upstream_commit": "862ccc3d191818320c3e6d217542883f80cb907a",
   "scope": "Exact retained Navbar/provider/documentation-layout/client-interaction source closure from the representative browser-only feasibility import graph; not a copied upstream app/route tree or completed UI/backend migration",
-  "files_count": 220,
-  "files_bytes": 1417282,
+  "files_count": 263,
+  "files_bytes": 2201627,
   "adaptations": [],
   "compile_time_inputs": [
     {
@@ -108,6 +108,11 @@
       "sha256": "bd68677bd4acc6e2a880c8c85ff760db7e512d98a7ed91708fec6bac2d2af31b"
     },
     {
+      "path": "components/CopyMarkdownButton.tsx",
+      "bytes": 414,
+      "sha256": "f49d0c953a9be6d74a5f4667f14dff71fc71cd6e428708cdea28fb46fad11781"
+    },
+    {
       "path": "components/CopyPageDropdown.tsx",
       "bytes": 12407,
       "sha256": "50dd93cef779ada23c2cff0e1b3451591a5015d2467c44ad8880805f5a41a3c6"
@@ -176,6 +181,11 @@
       "path": "components/LibraryLayout.tsx",
       "bytes": 48722,
       "sha256": "b23c4085354573dcaef3da5d0b40a62d883c838c2505e468def580d3884484c1"
+    },
+    {
+      "path": "components/LibraryStatusBadge.tsx",
+      "bytes": 864,
+      "sha256": "af95deb878f8eddcf453492fed4d66953d1df8b02915ffb29bba416f7f6d4f87"
     },
     {
       "path": "components/LibraryWordmark.tsx",
@@ -363,6 +373,11 @@
       "sha256": "b6be09830794b81af45188f359ad81a0c985d2e235bf329716d3b32b16cd4349"
     },
     {
+      "path": "components/charts/ChartsCatalogPreview.tsx",
+      "bytes": 568,
+      "sha256": "76825c8fc7ae39d61a567000f5ae361823956a9d3bd19a8754afc4b1f8af926e"
+    },
+    {
       "path": "components/deploy/shared.ts",
       "bytes": 2798,
       "sha256": "264fc0e9380b94f0c6bed8e65184ca3f0d28d5b284b1d810e9d027967d21eea4"
@@ -416,11 +431,6 @@
       "path": "components/ds/ui/index.tsx",
       "bytes": 35170,
       "sha256": "6b8b1889991941f6ac8e5daeaa52765b3a817fde1b15a8bf5af5212dd5fc8f6f"
-    },
-    {
-      "path": "components/home/HeroPalmMedia.tsx",
-      "bytes": 3747,
-      "sha256": "f7084db994d587184f71db0f4e305c8dab627d6191acc05648eb6759c342e3cb"
     },
     {
       "path": "components/home/HomeApplicationStarter.tsx",
@@ -486,6 +496,186 @@
       "path": "components/icons/YouTubeIcon.tsx",
       "bytes": 853,
       "sha256": "622482a3d637d44a9e3234a2327e1b2415c26ffd7fe3883356238004b3518698"
+    },
+    {
+      "path": "components/landing/AiCampaignHero.css",
+      "bytes": 12580,
+      "sha256": "44c6db4f33034bca78c277052b6e6f4931ed75e1e31e6df43167d5aad39cf7f7"
+    },
+    {
+      "path": "components/landing/AiCampaignHero.tsx",
+      "bytes": 20711,
+      "sha256": "0fe786417f570b2b878ca16d7448603f2a3ef9ec66de9fd712bed4a828f1aae8"
+    },
+    {
+      "path": "components/landing/AiLanding.tsx",
+      "bytes": 64931,
+      "sha256": "d815ebc97b7df436983615d35c3573b4a9f850e1f7b9224783b4135ce6148c66"
+    },
+    {
+      "path": "components/landing/ChartsCatalogGallery.tsx",
+      "bytes": 2956,
+      "sha256": "62df167edde1f95f1b77fe4fac2bfc373cef5816e76292d881978970f4ed5184"
+    },
+    {
+      "path": "components/landing/ChartsHeroBackground.tsx",
+      "bytes": 10359,
+      "sha256": "f661f2aa20d847daa9fecb2fd879c0f9d0cc0b65a6ce8fab07029fac9357a304"
+    },
+    {
+      "path": "components/landing/ChartsKineticCode.tsx",
+      "bytes": 12971,
+      "sha256": "0227b83f6853ce7315d682844cc8dd84228cd1659c1e0fd2f93109a58909cea9"
+    },
+    {
+      "path": "components/landing/ChartsKineticMorph.tsx",
+      "bytes": 8373,
+      "sha256": "1b988f5dc7dda2fbc4914c85141bbd98cf72ec37a1336671757ed724abbbf62f"
+    },
+    {
+      "path": "components/landing/ChartsLanding.tsx",
+      "bytes": 16044,
+      "sha256": "aa4db78abffa0d5373757fbd668dbced94054eb4e70eb8401738442596860374"
+    },
+    {
+      "path": "components/landing/ChartsLandingGraphics.tsx",
+      "bytes": 26979,
+      "sha256": "340783e1b649924426a5e789f15cc45a0ef1a34df521c4818ae328d4d799ffe1"
+    },
+    {
+      "path": "components/landing/ChartsLandingTooltip.tsx",
+      "bytes": 23074,
+      "sha256": "c2ba3c71605aa2f6114c385458d9f513e34528c68557c8d4d0e4d88a0c84cd66"
+    },
+    {
+      "path": "components/landing/ChartsTextBackdrop.tsx",
+      "bytes": 4502,
+      "sha256": "9415c2eb1a200256f1586edd16dbf0b3c822aec2de6eb1ea7517917d8f5ddc80"
+    },
+    {
+      "path": "components/landing/CliLanding.tsx",
+      "bytes": 16912,
+      "sha256": "97b0b13d8ba4aa205c5f6ad16061a51c9e6dc74d475cea12893d82e8acaf09c9"
+    },
+    {
+      "path": "components/landing/ConfigLanding.tsx",
+      "bytes": 14703,
+      "sha256": "11defc625ecfa883e3dd6a20d86e11a1814e816d836a1e799dd4ff087a9fa6c9"
+    },
+    {
+      "path": "components/landing/DbLanding.tsx",
+      "bytes": 18650,
+      "sha256": "d0969cbbd69f6eb82f058f4c26fd7c99e139ce962f17f48d2ca954a558641ddb"
+    },
+    {
+      "path": "components/landing/DevtoolsLanding.tsx",
+      "bytes": 20304,
+      "sha256": "8acd087e9a392fb15cc9eb4c864bda8a08de7f13803baa37a62a9cd01bb764a0"
+    },
+    {
+      "path": "components/landing/FormLanding.tsx",
+      "bytes": 14375,
+      "sha256": "c72f203510d8902396fcf54098f663114f322eb82b7c20634a67a37fbec6fa02"
+    },
+    {
+      "path": "components/landing/HighlightLanding.tsx",
+      "bytes": 19065,
+      "sha256": "e8b649e14c831905827731d10dee51d01b26be5189d6f67f9de241aa1ec9f258"
+    },
+    {
+      "path": "components/landing/HotkeysLanding.tsx",
+      "bytes": 16305,
+      "sha256": "3fdb6e157c6c06ade48e6065499e8d32e58105eecd28b80b2d444ad5eb1b38ea"
+    },
+    {
+      "path": "components/landing/IntentLanding.tsx",
+      "bytes": 15521,
+      "sha256": "414bd89a598516af8786436070c58744f7db669e167ba4e87d44490f0734c822"
+    },
+    {
+      "path": "components/landing/LandingCopyPromptButton.tsx",
+      "bytes": 2100,
+      "sha256": "e340ba4676e342668cf983156ae9797f60bf5c8a0d34ac841acddff76cb1fec9"
+    },
+    {
+      "path": "components/landing/LandingPromptBox.tsx",
+      "bytes": 8287,
+      "sha256": "6cfdea4e24214a9458437967143b1aa8c91b111ed771a3be8d0d70e86d0002f8"
+    },
+    {
+      "path": "components/landing/MarkdownLanding.tsx",
+      "bytes": 28039,
+      "sha256": "c4e28970f38b97f040febe752a31b0af24900ac7632f4a2c04074771f15d3e66"
+    },
+    {
+      "path": "components/landing/PacerLanding.tsx",
+      "bytes": 16903,
+      "sha256": "cdaa27adf3b429746f61f25705d112e4749344abcf9fd7d3b495eb2de8964c12"
+    },
+    {
+      "path": "components/landing/QueryLanding.tsx",
+      "bytes": 20245,
+      "sha256": "0e43e6dc34fbbbce9c5446762913e233604db7c4a25de003188e6819401b47bd"
+    },
+    {
+      "path": "components/landing/RangerLanding.tsx",
+      "bytes": 16071,
+      "sha256": "a5b00ea00b3a343ba43ecb986a0ad7c9bf5fa8d9ecb0d0fdf740cb789dab2d33"
+    },
+    {
+      "path": "components/landing/RouterLanding.tsx",
+      "bytes": 17793,
+      "sha256": "25292482ec00a693e9b433643849d667cc5f97815bea821f104cedd5dce8a070"
+    },
+    {
+      "path": "components/landing/StartLanding.tsx",
+      "bytes": 18374,
+      "sha256": "0e0f55547d81091981b1d56ac1b7a656052bbae2407ec015f60dc871912558a8"
+    },
+    {
+      "path": "components/landing/StoreLanding.tsx",
+      "bytes": 16550,
+      "sha256": "9110ea2856f8903bd3b0e8d743eda4263e1dcc65ff95f37795f13cb5bf1c8e8f"
+    },
+    {
+      "path": "components/landing/TableLanding.tsx",
+      "bytes": 34673,
+      "sha256": "7474ce74ad91101ccc7ba77a27fa2f2d13155da8057be21d7730ea1d6710f376"
+    },
+    {
+      "path": "components/landing/VirtualLanding.tsx",
+      "bytes": 17784,
+      "sha256": "d5302791ccecd30be69e73c960d644842260fa70e2bec5e8477a2acd5fc1fb9a"
+    },
+    {
+      "path": "components/landing/WorkflowLanding.tsx",
+      "bytes": 15073,
+      "sha256": "7d0f0096e8aed997a498e3899807901a16ade6e49a899f00a5aefd57a9677c2a"
+    },
+    {
+      "path": "components/landing/chartsActivationSvg.ts",
+      "bytes": 41154,
+      "sha256": "1f96e4e0a0a48f07f1d2cce07898b99684a7c8543a3518442e251cdef70528be"
+    },
+    {
+      "path": "components/landing/chartsBundleSizeSvg.ts",
+      "bytes": 37622,
+      "sha256": "98a5b6bd35128d791431efa806fc2f18286983875ca35330bd06ff17930149fb"
+    },
+    {
+      "path": "components/landing/chartsCommonSvg.ts",
+      "bytes": 38455,
+      "sha256": "b009433fdd05945fbc4f9f5832f719ca4f93c965828ac19a5dfa0a8b59c38986"
+    },
+    {
+      "path": "components/landing/chartsHeroSvg.ts",
+      "bytes": 56525,
+      "sha256": "5dceb805a31877e669cfb90b81f7f139aa29ac07f7e6e2b4d4e253c05d15aee4"
+    },
+    {
+      "path": "components/landing/chartsKineticSvg.ts",
+      "bytes": 56087,
+      "sha256": "7f51834ec63b25d7d3bad13791e1733f887bb239413ee71432f2224f8a76d7ee"
     },
     {
       "path": "components/library-layout-navigation.ts",
@@ -566,6 +756,11 @@
       "path": "hooks/useInView.ts",
       "bytes": 754,
       "sha256": "13c42bd9453e4ac4cc5921f2bffc3596af4499883b2720ca81c504a149b937db"
+    },
+    {
+      "path": "hooks/useIsDark.ts",
+      "bytes": 169,
+      "sha256": "3aa97d050bbe849d5153dfae66f5d3e85fa3c14e21f6d3095be20953a5403eac"
     },
     {
       "path": "hooks/useNpmDownloadCounter.ts",
@@ -918,6 +1113,11 @@
       "sha256": "4798598f7a1b7f73bc1f281f7aac70cc00cadb11d1de9f6b53b5fabc5565bf77"
     },
     {
+      "path": "ui/Badge.tsx",
+      "bytes": 1236,
+      "sha256": "3c5782f7cbc2b0da2368057be0123f3bed8127ecf653eb072660bfcd2f507991"
+    },
+    {
       "path": "ui/Button.tsx",
       "bytes": 4668,
       "sha256": "538771405c41f10a16aca22ad24e9888288a9c490471ea6ed88a002831adf512"
@@ -986,6 +1186,16 @@
       "path": "utils/browser-storage.ts",
       "bytes": 1342,
       "sha256": "aacf16465311a1d6cb16b92d7b5e561e3774f37612de9764afb01e9c8bc732a0"
+    },
+    {
+      "path": "utils/charts-catalog-preview.ts",
+      "bytes": 1532,
+      "sha256": "89a8c60884d9a300f52d181ebf4f7774aa57f00f5d671f94c3953fdfb522d9af"
+    },
+    {
+      "path": "utils/charts-catalog.ts",
+      "bytes": 1948,
+      "sha256": "43be8fdfd098f85ad6cfc9a4cbe003ae4612ae2651336713af6789b9609ced26"
     },
     {
       "path": "utils/docFeedback.functions.ts",
@@ -1068,6 +1278,11 @@
       "sha256": "37473d08010c6ea6f7a63798b1077ef631eaedc1a426d9a9765c5e5e04eda1e0"
     },
     {
+      "path": "utils/start-hosting-partners.ts",
+      "bytes": 311,
+      "sha256": "3256bb4cf0b3a269e9a902a98be16c99ee192c235e434594a45e2a8ea813568e"
+    },
+    {
       "path": "utils/stats-queries.functions.ts",
       "bytes": 1348,
       "sha256": "a0e64ec9a85d5101f3df4f06c2f3bd5df4e0e5621e777c2a30e4e254f0a20a29"
@@ -1111,6 +1326,98 @@
       "path": "utils/utils.ts",
       "bytes": 5887,
       "sha256": "9c14de9bd6e873ff71e4d116563219878748f9762743be8dc40e37996effece8"
+    }
+  ],
+  "externalSourceFiles": [
+    {
+      "source": "scripts/charts-landing/activation-chart.ts",
+      "target": "scripts/charts-landing/activation-chart.ts",
+      "bytes": 2129,
+      "sha256": "a887e5cb28de5d68fa2a223222b2f6581dddf757a929365a0c2f5a23c453ccea"
+    },
+    {
+      "source": "scripts/charts-landing/activation-data.ts",
+      "target": "scripts/charts-landing/activation-data.ts",
+      "bytes": 803,
+      "sha256": "d5c427996e4525dc44d7a8c520f2091c7787a3195d573bf8f80be642cf910cbf"
+    },
+    {
+      "source": "scripts/charts-landing/activation-theme.ts",
+      "target": "scripts/charts-landing/activation-theme.ts",
+      "bytes": 322,
+      "sha256": "2128817e2b1289aba14fe37953c959265f5d3f8235e1993a75d55b5a513ff9ed"
+    },
+    {
+      "source": "scripts/charts-landing/bundle-size-chart.ts",
+      "target": "scripts/charts-landing/bundle-size-chart.ts",
+      "bytes": 2607,
+      "sha256": "482955404a71b1f0d91accde822d23592ef40ac2b48daaf705c42362f794c8b8"
+    },
+    {
+      "source": "scripts/charts-landing/kinetic-area-chart.ts",
+      "target": "scripts/charts-landing/kinetic-area-chart.ts",
+      "bytes": 1195,
+      "sha256": "deb47fc8187dbb97091ddeacdce92b33c9690b76e1d4ad7b54e32d7065974b62"
+    },
+    {
+      "source": "scripts/charts-landing/kinetic-bar-chart.ts",
+      "target": "scripts/charts-landing/kinetic-bar-chart.ts",
+      "bytes": 969,
+      "sha256": "8c6f233b6593bca6247a5eb23f31d71909d5b2680b3eff89794061e3f81c04b5"
+    },
+    {
+      "source": "scripts/charts-landing/kinetic-data.ts",
+      "target": "scripts/charts-landing/kinetic-data.ts",
+      "bytes": 3024,
+      "sha256": "5b0efe3ca6e6ce965f573d47af68149d1f4d0b8f3eb38a9c9ec219b6ffc16245"
+    },
+    {
+      "source": "scripts/charts-landing/kinetic-donut-chart.ts",
+      "target": "scripts/charts-landing/kinetic-donut-chart.ts",
+      "bytes": 1497,
+      "sha256": "49cb8ceb02537ff91f68fd6b2a30cccbf1bcff869a01ce07326d94ec96e05a86"
+    },
+    {
+      "source": "scripts/charts-landing/kinetic-dumbbell-chart.ts",
+      "target": "scripts/charts-landing/kinetic-dumbbell-chart.ts",
+      "bytes": 1100,
+      "sha256": "b09239af5596be753720ead970cfec544ba27b60874740273cde8635c828ee0c"
+    },
+    {
+      "source": "scripts/charts-landing/kinetic-heatmap-chart.ts",
+      "target": "scripts/charts-landing/kinetic-heatmap-chart.ts",
+      "bytes": 825,
+      "sha256": "456dfe299cc777aeba296f74966d104bd700fd3c3e989c141dfea341131a735f"
+    },
+    {
+      "source": "scripts/charts-landing/kinetic-layered-chart.ts",
+      "target": "scripts/charts-landing/kinetic-layered-chart.ts",
+      "bytes": 1687,
+      "sha256": "7dbed39d301b76bfec03dcecee777fb75fa0e77c26055dd99832139bb5aaff37"
+    },
+    {
+      "source": "scripts/charts-landing/kinetic-line-chart.ts",
+      "target": "scripts/charts-landing/kinetic-line-chart.ts",
+      "bytes": 981,
+      "sha256": "d464e3f9f8442e20789efd21e05e2b9d2f972d05cec3937a44202c144696bc31"
+    },
+    {
+      "source": "scripts/charts-landing/kinetic-lollipop-chart.ts",
+      "target": "scripts/charts-landing/kinetic-lollipop-chart.ts",
+      "bytes": 969,
+      "sha256": "105f24853091591d809bf7da6c2d1aca0880c6249f016d25adf2ebcd531f4728"
+    },
+    {
+      "source": "scripts/charts-landing/kinetic-radar-chart.ts",
+      "target": "scripts/charts-landing/kinetic-radar-chart.ts",
+      "bytes": 1944,
+      "sha256": "eaa16cd361df0202c633b8f34a0c5efe2dd41ee7c2efaab25c4847bb1d7a690b"
+    },
+    {
+      "source": "scripts/charts-landing/kinetic-scatter-chart.ts",
+      "target": "scripts/charts-landing/kinetic-scatter-chart.ts",
+      "bytes": 784,
+      "sha256": "561960e35ed5e410073c860edad0c74f7b3f822b03fc9ad864cdd8001f6a5a43"
     }
   ]
 }

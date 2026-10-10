@@ -33,7 +33,7 @@
     "chart-example": 110,
     "client-example": 14
   },
-  "elapsedSeconds": 39.225530355,
+  "elapsedSeconds": 943.291251294,
   "output": "public/<route>.html plus public/index.html; article fragments support native Router navigation",
   "siteShell": "Nift-published complete pages; declared session/shell slots evaluated at request time",
   "familyBindings": {

@@ -1,0 +1,845 @@
+{
+  "scope": "Owned HTTP handler matching identities; routing only, not parity certification",
+  "records": [
+    {
+      "source": "routes/builder_.llms[.]txt.ts",
+      "declared": "/builder_/llms.txt",
+      "pathname": "/builder/llms.txt",
+      "pattern": "^/builder/llms\\.txt/?$"
+    },
+    {
+      "source": "routes/charts.catalog_.catalog[.]json.ts",
+      "declared": "/charts/catalog_/catalog.json",
+      "pathname": "/charts/catalog/catalog.json",
+      "pattern": "^/charts/catalog/catalog\\.json/?$"
+    },
+    {
+      "source": "routes/charts.catalog_.previews.$revision.{$caseId}[.]svg.ts",
+      "declared": "/charts/catalog_/previews/$revision/{$caseId}.svg",
+      "pathname": "/charts/catalog/previews/$revision/{$caseId}.svg",
+      "pattern": "^/charts/catalog/previews/[^/]+/.+\\.svg/?$"
+    },
+    {
+      "source": "routes/llms-full[.]txt.ts",
+      "declared": "/llms-full.txt",
+      "pathname": "/llms-full.txt",
+      "pattern": "^/llms-full\\.txt/?$"
+    },
+    {
+      "source": "routes/llms[.]txt.ts",
+      "declared": "/llms.txt",
+      "pathname": "/llms.txt",
+      "pattern": "^/llms\\.txt/?$"
+    },
+    {
+      "source": "routes/robots[.]txt.ts",
+      "declared": "/robots.txt",
+      "pathname": "/robots.txt",
+      "pattern": "^/robots\\.txt/?$"
+    },
+    {
+      "source": "routes/rss[.]xml.ts",
+      "declared": "/rss.xml",
+      "pathname": "/rss.xml",
+      "pattern": "^/rss\\.xml/?$"
+    },
+    {
+      "source": "routes/sitemap[.]xml.ts",
+      "declared": "/sitemap.xml",
+      "pathname": "/sitemap.xml",
+      "pattern": "^/sitemap\\.xml/?$"
+    },
+    {
+      "source": "routes/[.]well-known/oauth-authorization-server.ts",
+      "declared": "/.well-known/oauth-authorization-server",
+      "pathname": "/.well-known/oauth-authorization-server",
+      "pattern": "^/\\.well-known/oauth-authorization-server/?$"
+    },
+    {
+      "source": "routes/api/uploadthing.ts",
+      "declared": "/api/uploadthing",
+      "pathname": "/api/uploadthing",
+      "pattern": "^/api/uploadthing/?$"
+    },
+    {
+      "source": "routes/auth/signout.tsx",
+      "declared": "/auth/signout",
+      "pathname": "/auth/signout",
+      "pattern": "^/auth/signout/?$"
+    },
+    {
+      "source": "routes/oauth/register.ts",
+      "declared": "/oauth/register",
+      "pathname": "/oauth/register",
+      "pattern": "^/oauth/register/?$"
+    },
+    {
+      "source": "routes/oauth/token.ts",
+      "declared": "/oauth/token",
+      "pathname": "/oauth/token",
+      "pattern": "^/oauth/token/?$"
+    },
+    {
+      "source": "routes/_library/$libraryId/$version.docs.framework.$framework.{$}[.]md.tsx",
+      "declared": "/_library/$libraryId/$version/docs/framework/$framework/{$}.md",
+      "pathname": "/$libraryId/$version/docs/framework/$framework/{$}.md",
+      "pattern": "^/[^/]+/[^/]+/docs/framework/[^/]+/.+\\.md/?$"
+    },
+    {
+      "source": "routes/_library/$libraryId/$version.docs.index[.]md.ts",
+      "declared": "/_library/$libraryId/$version/docs/index.md",
+      "pathname": "/$libraryId/$version/docs/index.md",
+      "pattern": "^/[^/]+/[^/]+/docs/index\\.md/?$"
+    },
+    {
+      "source": "routes/_library/$libraryId/$version.docs.{$}[.]md.tsx",
+      "declared": "/_library/$libraryId/$version/docs/{$}.md",
+      "pathname": "/$libraryId/$version/docs/{$}.md",
+      "pattern": "^/[^/]+/[^/]+/docs/.+\\.md/?$"
+    },
+    {
+      "source": "routes/_library/$libraryId/$version.llms[.]txt.ts",
+      "declared": "/_library/$libraryId/$version/llms.txt",
+      "pathname": "/$libraryId/$version/llms.txt",
+      "pattern": "^/[^/]+/[^/]+/llms\\.txt/?$"
+    },
+    {
+      "source": "routes/api/application-starter/compile-attributed.ts",
+      "declared": "/api/application-starter/compile-attributed",
+      "pathname": "/api/application-starter/compile-attributed",
+      "pattern": "^/api/application-starter/compile-attributed/?$"
+    },
+    {
+      "source": "routes/api/application-starter/compile.ts",
+      "declared": "/api/application-starter/compile",
+      "pathname": "/api/application-starter/compile",
+      "pattern": "^/api/application-starter/compile/?$"
+    },
+    {
+      "source": "routes/api/application-starter/download.ts",
+      "declared": "/api/application-starter/download",
+      "pathname": "/api/application-starter/download",
+      "pattern": "^/api/application-starter/download/?$"
+    },
+    {
+      "source": "routes/api/application-starter/feature-artifacts.ts",
+      "declared": "/api/application-starter/feature-artifacts",
+      "pathname": "/api/application-starter/feature-artifacts",
+      "pattern": "^/api/application-starter/feature-artifacts/?$"
+    },
+    {
+      "source": "routes/api/application-starter/features.ts",
+      "declared": "/api/application-starter/features",
+      "pathname": "/api/application-starter/features",
+      "pattern": "^/api/application-starter/features/?$"
+    },
+    {
+      "source": "routes/api/application-starter/load-remote-addon.ts",
+      "declared": "/api/application-starter/load-remote-addon",
+      "pathname": "/api/application-starter/load-remote-addon",
+      "pattern": "^/api/application-starter/load-remote-addon/?$"
+    },
+    {
+      "source": "routes/api/application-starter/load-remote-template.ts",
+      "declared": "/api/application-starter/load-remote-template",
+      "pathname": "/api/application-starter/load-remote-template",
+      "pattern": "^/api/application-starter/load-remote-template/?$"
+    },
+    {
+      "source": "routes/api/application-starter/load-template.ts",
+      "declared": "/api/application-starter/load-template",
+      "pathname": "/api/application-starter/load-template",
+      "pattern": "^/api/application-starter/load-template/?$"
+    },
+    {
+      "source": "routes/api/application-starter/resolve.ts",
+      "declared": "/api/application-starter/resolve",
+      "pathname": "/api/application-starter/resolve",
+      "pattern": "^/api/application-starter/resolve/?$"
+    },
+    {
+      "source": "routes/api/application-starter/suggest.ts",
+      "declared": "/api/application-starter/suggest",
+      "pathname": "/api/application-starter/suggest",
+      "pattern": "^/api/application-starter/suggest/?$"
+    },
+    {
+      "source": "routes/api/application-starter/validate.ts",
+      "declared": "/api/application-starter/validate",
+      "pathname": "/api/application-starter/validate",
+      "pattern": "^/api/application-starter/validate/?$"
+    },
+    {
+      "source": "routes/api/chat/activity.ts",
+      "declared": "/api/chat/activity",
+      "pathname": "/api/chat/activity",
+      "pattern": "^/api/chat/activity/?$"
+    },
+    {
+      "source": "routes/api/chat/app-version.ts",
+      "declared": "/api/chat/app-version",
+      "pathname": "/api/chat/app-version",
+      "pattern": "^/api/chat/app-version/?$"
+    },
+    {
+      "source": "routes/api/chat/bootstrap.ts",
+      "declared": "/api/chat/bootstrap",
+      "pathname": "/api/chat/bootstrap",
+      "pattern": "^/api/chat/bootstrap/?$"
+    },
+    {
+      "source": "routes/api/chat/bots.ts",
+      "declared": "/api/chat/bots",
+      "pathname": "/api/chat/bots",
+      "pattern": "^/api/chat/bots/?$"
+    },
+    {
+      "source": "routes/api/chat/connection.ts",
+      "declared": "/api/chat/connection",
+      "pathname": "/api/chat/connection",
+      "pattern": "^/api/chat/connection/?$"
+    },
+    {
+      "source": "routes/api/chat/device-transport.ts",
+      "declared": "/api/chat/device-transport",
+      "pathname": "/api/chat/device-transport",
+      "pattern": "^/api/chat/device-transport/?$"
+    },
+    {
+      "source": "routes/api/chat/draft.ts",
+      "declared": "/api/chat/draft",
+      "pathname": "/api/chat/draft",
+      "pattern": "^/api/chat/draft/?$"
+    },
+    {
+      "source": "routes/api/chat/files.ts",
+      "declared": "/api/chat/files",
+      "pathname": "/api/chat/files",
+      "pattern": "^/api/chat/files/?$"
+    },
+    {
+      "source": "routes/api/chat/model-options.ts",
+      "declared": "/api/chat/model-options",
+      "pathname": "/api/chat/model-options",
+      "pattern": "^/api/chat/model-options/?$"
+    },
+    {
+      "source": "routes/api/chat/models.ts",
+      "declared": "/api/chat/models",
+      "pathname": "/api/chat/models",
+      "pattern": "^/api/chat/models/?$"
+    },
+    {
+      "source": "routes/api/chat/plugins.ts",
+      "declared": "/api/chat/plugins",
+      "pathname": "/api/chat/plugins",
+      "pattern": "^/api/chat/plugins/?$"
+    },
+    {
+      "source": "routes/api/chat/policy.ts",
+      "declared": "/api/chat/policy",
+      "pathname": "/api/chat/policy",
+      "pattern": "^/api/chat/policy/?$"
+    },
+    {
+      "source": "routes/api/chat/project-snapshots.$hash.quarantine.ts",
+      "declared": "/api/chat/project-snapshots/$hash/quarantine",
+      "pathname": "/api/chat/project-snapshots/$hash/quarantine",
+      "pattern": "^/api/chat/project-snapshots/[^/]+/quarantine/?$"
+    },
+    {
+      "source": "routes/api/chat/project-snapshots.$hash.ts",
+      "declared": "/api/chat/project-snapshots/$hash",
+      "pathname": "/api/chat/project-snapshots/$hash",
+      "pattern": "^/api/chat/project-snapshots/[^/]+/?$"
+    },
+    {
+      "source": "routes/api/chat/project-snapshots.ts",
+      "declared": "/api/chat/project-snapshots",
+      "pathname": "/api/chat/project-snapshots",
+      "pattern": "^/api/chat/project-snapshots/?$"
+    },
+    {
+      "source": "routes/api/chat/projects.$id.sync.ts",
+      "declared": "/api/chat/projects/$id/sync",
+      "pathname": "/api/chat/projects/$id/sync",
+      "pattern": "^/api/chat/projects/[^/]+/sync/?$"
+    },
+    {
+      "source": "routes/api/chat/projects.$id.ts",
+      "declared": "/api/chat/projects/$id",
+      "pathname": "/api/chat/projects/$id",
+      "pattern": "^/api/chat/projects/[^/]+/?$"
+    },
+    {
+      "source": "routes/api/chat/projects.ts",
+      "declared": "/api/chat/projects",
+      "pathname": "/api/chat/projects",
+      "pattern": "^/api/chat/projects/?$"
+    },
+    {
+      "source": "routes/api/chat/recipes.ts",
+      "declared": "/api/chat/recipes",
+      "pathname": "/api/chat/recipes",
+      "pattern": "^/api/chat/recipes/?$"
+    },
+    {
+      "source": "routes/api/chat/references.ts",
+      "declared": "/api/chat/references",
+      "pathname": "/api/chat/references",
+      "pattern": "^/api/chat/references/?$"
+    },
+    {
+      "source": "routes/api/chat/sections.ts",
+      "declared": "/api/chat/sections",
+      "pathname": "/api/chat/sections",
+      "pattern": "^/api/chat/sections/?$"
+    },
+    {
+      "source": "routes/api/chat/skills.ts",
+      "declared": "/api/chat/skills",
+      "pathname": "/api/chat/skills",
+      "pattern": "^/api/chat/skills/?$"
+    },
+    {
+      "source": "routes/api/chat/workspace-history.ts",
+      "declared": "/api/chat/workspace-history",
+      "pathname": "/api/chat/workspace-history",
+      "pattern": "^/api/chat/workspace-history/?$"
+    },
+    {
+      "source": "routes/api/chat/workspace-index.activity.ts",
+      "declared": "/api/chat/workspace-index/activity",
+      "pathname": "/api/chat/workspace-index/activity",
+      "pattern": "^/api/chat/workspace-index/activity/?$"
+    },
+    {
+      "source": "routes/api/chat/workspace-index.ts",
+      "declared": "/api/chat/workspace-index",
+      "pathname": "/api/chat/workspace-index",
+      "pattern": "^/api/chat/workspace-index/?$"
+    },
+    {
+      "source": "routes/api/chat/workspace.ts",
+      "declared": "/api/chat/workspace",
+      "pathname": "/api/chat/workspace",
+      "pattern": "^/api/chat/workspace/?$"
+    },
+    {
+      "source": "routes/api/data/libraries.ts",
+      "declared": "/api/data/libraries",
+      "pathname": "/api/data/libraries",
+      "pattern": "^/api/data/libraries/?$"
+    },
+    {
+      "source": "routes/api/data/partners.ts",
+      "declared": "/api/data/partners",
+      "pathname": "/api/data/partners",
+      "pattern": "^/api/data/partners/?$"
+    },
+    {
+      "source": "routes/api/discord/interactions.tsx",
+      "declared": "/api/discord/interactions",
+      "pathname": "/api/discord/interactions",
+      "pattern": "^/api/discord/interactions/?$"
+    },
+    {
+      "source": "routes/api/example/deploy.ts",
+      "declared": "/api/example/deploy",
+      "pathname": "/api/example/deploy",
+      "pattern": "^/api/example/deploy/?$"
+    },
+    {
+      "source": "routes/api/github/webhook.ts",
+      "declared": "/api/github/webhook",
+      "pathname": "/api/github/webhook",
+      "pattern": "^/api/github/webhook/?$"
+    },
+    {
+      "source": "routes/api/mcp/$.ts",
+      "declared": "/api/mcp/$",
+      "pathname": "/api/mcp/$",
+      "pattern": "^/api/mcp/.+/?$"
+    },
+    {
+      "source": "routes/api/mcp/index.ts",
+      "declared": "/api/mcp/",
+      "pathname": "/api/mcp",
+      "pattern": "^/api/mcp/?$"
+    },
+    {
+      "source": "routes/api/og/{$}[.]png.ts",
+      "declared": "/api/og/{$}.png",
+      "pathname": "/api/og/{$}.png",
+      "pattern": "^/api/og/.+\\.png/?$"
+    },
+    {
+      "source": "routes/api/readme/{$}[.]png.ts",
+      "declared": "/api/readme/{$}.png",
+      "pathname": "/api/readme/{$}.png",
+      "pattern": "^/api/readme/.+\\.png/?$"
+    },
+    {
+      "source": "routes/auth/$provider/start.tsx",
+      "declared": "/auth/$provider/start",
+      "pathname": "/auth/$provider/start",
+      "pattern": "^/auth/[^/]+/start/?$"
+    },
+    {
+      "source": "routes/auth/mcp/callback.ts",
+      "declared": "/auth/mcp/callback",
+      "pathname": "/auth/mcp/callback",
+      "pattern": "^/auth/mcp/callback/?$"
+    },
+    {
+      "source": "routes/auth/mcp/client-metadata.ts",
+      "declared": "/auth/mcp/client-metadata",
+      "pathname": "/auth/mcp/client-metadata",
+      "pattern": "^/auth/mcp/client-metadata/?$"
+    },
+    {
+      "source": "routes/intent/registry/$packageName.{$}[.]md.tsx",
+      "declared": "/intent/registry/$packageName/{$}.md",
+      "pathname": "/intent/registry/$packageName/{$}.md",
+      "pattern": "^/intent/registry/[^/]+/.+\\.md/?$"
+    },
+    {
+      "source": "routes/api/application-starter/deploy/check-name.ts",
+      "declared": "/api/application-starter/deploy/check-name",
+      "pathname": "/api/application-starter/deploy/check-name",
+      "pattern": "^/api/application-starter/deploy/check-name/?$"
+    },
+    {
+      "source": "routes/api/application-starter/deploy/github.ts",
+      "declared": "/api/application-starter/deploy/github",
+      "pathname": "/api/application-starter/deploy/github",
+      "pattern": "^/api/application-starter/deploy/github/?$"
+    },
+    {
+      "source": "routes/api/auth/callback/$provider.tsx",
+      "declared": "/api/auth/callback/$provider",
+      "pathname": "/api/auth/callback/$provider",
+      "pattern": "^/api/auth/callback/[^/]+/?$"
+    },
+    {
+      "source": "routes/api/auth/cli/create-ticket.ts",
+      "declared": "/api/auth/cli/create-ticket",
+      "pathname": "/api/auth/cli/create-ticket",
+      "pattern": "^/api/auth/cli/create-ticket/?$"
+    },
+    {
+      "source": "routes/api/auth/cli/status.$ticketId.ts",
+      "declared": "/api/auth/cli/status/$ticketId",
+      "pathname": "/api/auth/cli/status/$ticketId",
+      "pattern": "^/api/auth/cli/status/[^/]+/?$"
+    },
+    {
+      "source": "routes/api/chat/account/devices.ts",
+      "declared": "/api/chat/account/devices",
+      "pathname": "/api/chat/account/devices",
+      "pattern": "^/api/chat/account/devices/?$"
+    },
+    {
+      "source": "routes/api/chat/account/onboarding.ts",
+      "declared": "/api/chat/account/onboarding",
+      "pathname": "/api/chat/account/onboarding",
+      "pattern": "^/api/chat/account/onboarding/?$"
+    },
+    {
+      "source": "routes/api/chat/account/preferences.ts",
+      "declared": "/api/chat/account/preferences",
+      "pathname": "/api/chat/account/preferences",
+      "pattern": "^/api/chat/account/preferences/?$"
+    },
+    {
+      "source": "routes/api/chat/bot-drafts/$id.files.$fileId.content.ts",
+      "declared": "/api/chat/bot-drafts/$id/files/$fileId/content",
+      "pathname": "/api/chat/bot-drafts/$id/files/$fileId/content",
+      "pattern": "^/api/chat/bot-drafts/[^/]+/files/[^/]+/content/?$"
+    },
+    {
+      "source": "routes/api/chat/bot-drafts/$id.files.$fileId.ts",
+      "declared": "/api/chat/bot-drafts/$id/files/$fileId",
+      "pathname": "/api/chat/bot-drafts/$id/files/$fileId",
+      "pattern": "^/api/chat/bot-drafts/[^/]+/files/[^/]+/?$"
+    },
+    {
+      "source": "routes/api/chat/bot-drafts/$id.files.ts",
+      "declared": "/api/chat/bot-drafts/$id/files",
+      "pathname": "/api/chat/bot-drafts/$id/files",
+      "pattern": "^/api/chat/bot-drafts/[^/]+/files/?$"
+    },
+    {
+      "source": "routes/api/chat/bot-drafts/$id.ts",
+      "declared": "/api/chat/bot-drafts/$id",
+      "pathname": "/api/chat/bot-drafts/$id",
+      "pattern": "^/api/chat/bot-drafts/[^/]+/?$"
+    },
+    {
+      "source": "routes/api/chat/bots/$id.$operation.ts",
+      "declared": "/api/chat/bots/$id/$operation",
+      "pathname": "/api/chat/bots/$id/$operation",
+      "pattern": "^/api/chat/bots/[^/]+/[^/]+/?$"
+    },
+    {
+      "source": "routes/api/chat/bots/$id.files.$fileId.content.ts",
+      "declared": "/api/chat/bots/$id/files/$fileId/content",
+      "pathname": "/api/chat/bots/$id/files/$fileId/content",
+      "pattern": "^/api/chat/bots/[^/]+/files/[^/]+/content/?$"
+    },
+    {
+      "source": "routes/api/chat/bots/$id.files.$fileId.ts",
+      "declared": "/api/chat/bots/$id/files/$fileId",
+      "pathname": "/api/chat/bots/$id/files/$fileId",
+      "pattern": "^/api/chat/bots/[^/]+/files/[^/]+/?$"
+    },
+    {
+      "source": "routes/api/chat/bots/$id.files.ts",
+      "declared": "/api/chat/bots/$id/files",
+      "pathname": "/api/chat/bots/$id/files",
+      "pattern": "^/api/chat/bots/[^/]+/files/?$"
+    },
+    {
+      "source": "routes/api/chat/bots/$id.ts",
+      "declared": "/api/chat/bots/$id",
+      "pathname": "/api/chat/bots/$id",
+      "pattern": "^/api/chat/bots/[^/]+/?$"
+    },
+    {
+      "source": "routes/api/chat/bots/bulk.ts",
+      "declared": "/api/chat/bots/bulk",
+      "pathname": "/api/chat/bots/bulk",
+      "pattern": "^/api/chat/bots/bulk/?$"
+    },
+    {
+      "source": "routes/api/chat/bots/move.ts",
+      "declared": "/api/chat/bots/move",
+      "pathname": "/api/chat/bots/move",
+      "pattern": "^/api/chat/bots/move/?$"
+    },
+    {
+      "source": "routes/api/chat/conversations/$id.$operation.ts",
+      "declared": "/api/chat/conversations/$id/$operation",
+      "pathname": "/api/chat/conversations/$id/$operation",
+      "pattern": "^/api/chat/conversations/[^/]+/[^/]+/?$"
+    },
+    {
+      "source": "routes/api/chat/conversations/$id.execution.snapshots.$snapshotId.ts",
+      "declared": "/api/chat/conversations/$id/execution/snapshots/$snapshotId",
+      "pathname": "/api/chat/conversations/$id/execution/snapshots/$snapshotId",
+      "pattern": "^/api/chat/conversations/[^/]+/execution/snapshots/[^/]+/?$"
+    },
+    {
+      "source": "routes/api/chat/conversations/$id.files.$fileId.content.ts",
+      "declared": "/api/chat/conversations/$id/files/$fileId/content",
+      "pathname": "/api/chat/conversations/$id/files/$fileId/content",
+      "pattern": "^/api/chat/conversations/[^/]+/files/[^/]+/content/?$"
+    },
+    {
+      "source": "routes/api/chat/conversations/$id.files.$fileId.ts",
+      "declared": "/api/chat/conversations/$id/files/$fileId",
+      "pathname": "/api/chat/conversations/$id/files/$fileId",
+      "pattern": "^/api/chat/conversations/[^/]+/files/[^/]+/?$"
+    },
+    {
+      "source": "routes/api/chat/conversations/$id.files.ts",
+      "declared": "/api/chat/conversations/$id/files",
+      "pathname": "/api/chat/conversations/$id/files",
+      "pattern": "^/api/chat/conversations/[^/]+/files/?$"
+    },
+    {
+      "source": "routes/api/chat/conversations/$id.workflow-runs.$runId.cancel.ts",
+      "declared": "/api/chat/conversations/$id/workflow-runs/$runId/cancel",
+      "pathname": "/api/chat/conversations/$id/workflow-runs/$runId/cancel",
+      "pattern": "^/api/chat/conversations/[^/]+/workflow-runs/[^/]+/cancel/?$"
+    },
+    {
+      "source": "routes/api/chat/conversations/$id.workflow-runs.$runId.ts",
+      "declared": "/api/chat/conversations/$id/workflow-runs/$runId",
+      "pathname": "/api/chat/conversations/$id/workflow-runs/$runId",
+      "pattern": "^/api/chat/conversations/[^/]+/workflow-runs/[^/]+/?$"
+    },
+    {
+      "source": "routes/api/chat/conversations/$id.workflows.$workflowId.ts",
+      "declared": "/api/chat/conversations/$id/workflows/$workflowId",
+      "pathname": "/api/chat/conversations/$id/workflows/$workflowId",
+      "pattern": "^/api/chat/conversations/[^/]+/workflows/[^/]+/?$"
+    },
+    {
+      "source": "routes/api/chat/copies/$id.ts",
+      "declared": "/api/chat/copies/$id",
+      "pathname": "/api/chat/copies/$id",
+      "pattern": "^/api/chat/copies/[^/]+/?$"
+    },
+    {
+      "source": "routes/api/chat/kody/account.ts",
+      "declared": "/api/chat/kody/account",
+      "pathname": "/api/chat/kody/account",
+      "pattern": "^/api/chat/kody/account/?$"
+    },
+    {
+      "source": "routes/api/chat/kody/callback.ts",
+      "declared": "/api/chat/kody/callback",
+      "pathname": "/api/chat/kody/callback",
+      "pattern": "^/api/chat/kody/callback/?$"
+    },
+    {
+      "source": "routes/api/chat/kody/community.ts",
+      "declared": "/api/chat/kody/community",
+      "pathname": "/api/chat/kody/community",
+      "pattern": "^/api/chat/kody/community/?$"
+    },
+    {
+      "source": "routes/api/chat/kody/connect.ts",
+      "declared": "/api/chat/kody/connect",
+      "pathname": "/api/chat/kody/connect",
+      "pattern": "^/api/chat/kody/connect/?$"
+    },
+    {
+      "source": "routes/api/chat/kody/memories.ts",
+      "declared": "/api/chat/kody/memories",
+      "pathname": "/api/chat/kody/memories",
+      "pattern": "^/api/chat/kody/memories/?$"
+    },
+    {
+      "source": "routes/api/chat/kody/runs.ts",
+      "declared": "/api/chat/kody/runs",
+      "pathname": "/api/chat/kody/runs",
+      "pattern": "^/api/chat/kody/runs/?$"
+    },
+    {
+      "source": "routes/api/chat/kody/servers.ts",
+      "declared": "/api/chat/kody/servers",
+      "pathname": "/api/chat/kody/servers",
+      "pattern": "^/api/chat/kody/servers/?$"
+    },
+    {
+      "source": "routes/api/chat/kody/sync.ts",
+      "declared": "/api/chat/kody/sync",
+      "pathname": "/api/chat/kody/sync",
+      "pattern": "^/api/chat/kody/sync/?$"
+    },
+    {
+      "source": "routes/api/chat/kody/unlink.ts",
+      "declared": "/api/chat/kody/unlink",
+      "pathname": "/api/chat/kody/unlink",
+      "pattern": "^/api/chat/kody/unlink/?$"
+    },
+    {
+      "source": "routes/api/chat/kody/usage.ts",
+      "declared": "/api/chat/kody/usage",
+      "pathname": "/api/chat/kody/usage",
+      "pattern": "^/api/chat/kody/usage/?$"
+    },
+    {
+      "source": "routes/api/chat/mcp/$.ts",
+      "declared": "/api/chat/mcp/$",
+      "pathname": "/api/chat/mcp/$",
+      "pattern": "^/api/chat/mcp/.+/?$"
+    },
+    {
+      "source": "routes/api/chat/mcp/contract.ts",
+      "declared": "/api/chat/mcp/contract",
+      "pathname": "/api/chat/mcp/contract",
+      "pattern": "^/api/chat/mcp/contract/?$"
+    },
+    {
+      "source": "routes/api/chat/openrouter/callback.ts",
+      "declared": "/api/chat/openrouter/callback",
+      "pathname": "/api/chat/openrouter/callback",
+      "pattern": "^/api/chat/openrouter/callback/?$"
+    },
+    {
+      "source": "routes/api/chat/plugins/$id.ts",
+      "declared": "/api/chat/plugins/$id",
+      "pathname": "/api/chat/plugins/$id",
+      "pattern": "^/api/chat/plugins/[^/]+/?$"
+    },
+    {
+      "source": "routes/api/chat/recipes/$id.ts",
+      "declared": "/api/chat/recipes/$id",
+      "pathname": "/api/chat/recipes/$id",
+      "pattern": "^/api/chat/recipes/[^/]+/?$"
+    },
+    {
+      "source": "routes/api/chat/retries/$id.prepare.ts",
+      "declared": "/api/chat/retries/$id/prepare",
+      "pathname": "/api/chat/retries/$id/prepare",
+      "pattern": "^/api/chat/retries/[^/]+/prepare/?$"
+    },
+    {
+      "source": "routes/api/chat/retries/$id.ts",
+      "declared": "/api/chat/retries/$id",
+      "pathname": "/api/chat/retries/$id",
+      "pattern": "^/api/chat/retries/[^/]+/?$"
+    },
+    {
+      "source": "routes/api/chat/sections/$id.ts",
+      "declared": "/api/chat/sections/$id",
+      "pathname": "/api/chat/sections/$id",
+      "pattern": "^/api/chat/sections/[^/]+/?$"
+    },
+    {
+      "source": "routes/api/chat/skills/$id.ts",
+      "declared": "/api/chat/skills/$id",
+      "pathname": "/api/chat/skills/$id",
+      "pattern": "^/api/chat/skills/[^/]+/?$"
+    },
+    {
+      "source": "routes/api/chat/workspace-sync/$operation.ts",
+      "declared": "/api/chat/workspace-sync/$operation",
+      "pathname": "/api/chat/workspace-sync/$operation",
+      "pattern": "^/api/chat/workspace-sync/[^/]+/?$"
+    },
+    {
+      "source": "routes/api/chat/account/composer-drafts/$accountId.$scope.ts",
+      "declared": "/api/chat/account/composer-drafts/$accountId/$scope",
+      "pathname": "/api/chat/account/composer-drafts/$accountId/$scope",
+      "pattern": "^/api/chat/account/composer-drafts/[^/]+/[^/]+/?$"
+    },
+    {
+      "source": "routes/api/chat/conversations/$id/memories.ts",
+      "declared": "/api/chat/conversations/$id/memories",
+      "pathname": "/api/chat/conversations/$id/memories",
+      "pattern": "^/api/chat/conversations/[^/]+/memories/?$"
+    },
+    {
+      "source": "routes/api/chat/conversations/$id/references.ts",
+      "declared": "/api/chat/conversations/$id/references",
+      "pathname": "/api/chat/conversations/$id/references",
+      "pattern": "^/api/chat/conversations/[^/]+/references/?$"
+    },
+    {
+      "source": "routes/api/chat/kody/community/$listingId.ts",
+      "declared": "/api/chat/kody/community/$listingId",
+      "pathname": "/api/chat/kody/community/$listingId",
+      "pattern": "^/api/chat/kody/community/[^/]+/?$"
+    },
+    {
+      "source": "routes/api/chat/kody/mail/inboxes.ts",
+      "declared": "/api/chat/kody/mail/inboxes",
+      "pathname": "/api/chat/kody/mail/inboxes",
+      "pattern": "^/api/chat/kody/mail/inboxes/?$"
+    },
+    {
+      "source": "routes/api/chat/kody/mail/messages.ts",
+      "declared": "/api/chat/kody/mail/messages",
+      "pathname": "/api/chat/kody/mail/messages",
+      "pattern": "^/api/chat/kody/mail/messages/?$"
+    },
+    {
+      "source": "routes/api/chat/kody/memories/$memoryId.ts",
+      "declared": "/api/chat/kody/memories/$memoryId",
+      "pathname": "/api/chat/kody/memories/$memoryId",
+      "pattern": "^/api/chat/kody/memories/[^/]+/?$"
+    },
+    {
+      "source": "routes/api/chat/kody/resources/$kind.ts",
+      "declared": "/api/chat/kody/resources/$kind",
+      "pathname": "/api/chat/kody/resources/$kind",
+      "pattern": "^/api/chat/kody/resources/[^/]+/?$"
+    },
+    {
+      "source": "routes/api/chat/kody/runs/$runId.ts",
+      "declared": "/api/chat/kody/runs/$runId",
+      "pathname": "/api/chat/kody/runs/$runId",
+      "pattern": "^/api/chat/kody/runs/[^/]+/?$"
+    },
+    {
+      "source": "routes/api/chat/references/kody/inspect.ts",
+      "declared": "/api/chat/references/kody/inspect",
+      "pathname": "/api/chat/references/kody/inspect",
+      "pattern": "^/api/chat/references/kody/inspect/?$"
+    },
+    {
+      "source": "routes/api/chat/references/kody/refresh.ts",
+      "declared": "/api/chat/references/kody/refresh",
+      "pathname": "/api/chat/references/kody/refresh",
+      "pattern": "^/api/chat/references/kody/refresh/?$"
+    },
+    {
+      "source": "routes/api/chat/references/tools/refresh.ts",
+      "declared": "/api/chat/references/tools/refresh",
+      "pathname": "/api/chat/references/tools/refresh",
+      "pattern": "^/api/chat/references/tools/refresh/?$"
+    },
+    {
+      "source": "routes/api/chat/conversations/$id/files/import.ts",
+      "declared": "/api/chat/conversations/$id/files/import",
+      "pathname": "/api/chat/conversations/$id/files/import",
+      "pattern": "^/api/chat/conversations/[^/]+/files/import/?$"
+    },
+    {
+      "source": "routes/api/chat/conversations/$id/memories/$memoryId.ts",
+      "declared": "/api/chat/conversations/$id/memories/$memoryId",
+      "pathname": "/api/chat/conversations/$id/memories/$memoryId",
+      "pattern": "^/api/chat/conversations/[^/]+/memories/[^/]+/?$"
+    },
+    {
+      "source": "routes/api/chat/kody/jobs/$jobId/enabled.ts",
+      "declared": "/api/chat/kody/jobs/$jobId/enabled",
+      "pathname": "/api/chat/kody/jobs/$jobId/enabled",
+      "pattern": "^/api/chat/kody/jobs/[^/]+/enabled/?$"
+    },
+    {
+      "source": "routes/api/chat/kody/mail/messages/$messageId.ts",
+      "declared": "/api/chat/kody/mail/messages/$messageId",
+      "pathname": "/api/chat/kody/mail/messages/$messageId",
+      "pattern": "^/api/chat/kody/mail/messages/[^/]+/?$"
+    },
+    {
+      "source": "routes/api/chat/kody/memories/$memoryId/apply.ts",
+      "declared": "/api/chat/kody/memories/$memoryId/apply",
+      "pathname": "/api/chat/kody/memories/$memoryId/apply",
+      "pattern": "^/api/chat/kody/memories/[^/]+/apply/?$"
+    },
+    {
+      "source": "routes/api/chat/kody/memories/$memoryId/review.ts",
+      "declared": "/api/chat/kody/memories/$memoryId/review",
+      "pathname": "/api/chat/kody/memories/$memoryId/review",
+      "pattern": "^/api/chat/kody/memories/[^/]+/review/?$"
+    },
+    {
+      "source": "routes/api/chat/kody/memories/create/apply.ts",
+      "declared": "/api/chat/kody/memories/create/apply",
+      "pathname": "/api/chat/kody/memories/create/apply",
+      "pattern": "^/api/chat/kody/memories/create/apply/?$"
+    },
+    {
+      "source": "routes/api/chat/kody/memories/create/review.ts",
+      "declared": "/api/chat/kody/memories/create/review",
+      "pathname": "/api/chat/kody/memories/create/review",
+      "pattern": "^/api/chat/kody/memories/create/review/?$"
+    },
+    {
+      "source": "routes/api/chat/kody/packages/$packageId/document.ts",
+      "declared": "/api/chat/kody/packages/$packageId/document",
+      "pathname": "/api/chat/kody/packages/$packageId/document",
+      "pattern": "^/api/chat/kody/packages/[^/]+/document/?$"
+    },
+    {
+      "source": "routes/api/chat/kody/runs/$runId/triage.ts",
+      "declared": "/api/chat/kody/runs/$runId/triage",
+      "pathname": "/api/chat/kody/runs/$runId/triage",
+      "pattern": "^/api/chat/kody/runs/[^/]+/triage/?$"
+    },
+    {
+      "source": "routes/api/chat/kody/servers/$serverId/check.ts",
+      "declared": "/api/chat/kody/servers/$serverId/check",
+      "pathname": "/api/chat/kody/servers/$serverId/check",
+      "pattern": "^/api/chat/kody/servers/[^/]+/check/?$"
+    },
+    {
+      "source": "routes/api/chat/kody/servers/$serverId/enabled.ts",
+      "declared": "/api/chat/kody/servers/$serverId/enabled",
+      "pathname": "/api/chat/kody/servers/$serverId/enabled",
+      "pattern": "^/api/chat/kody/servers/[^/]+/enabled/?$"
+    },
+    {
+      "source": "routes/api/chat/kody/servers/$serverId/reconnect.ts",
+      "declared": "/api/chat/kody/servers/$serverId/reconnect",
+      "pathname": "/api/chat/kody/servers/$serverId/reconnect",
+      "pattern": "^/api/chat/kody/servers/[^/]+/reconnect/?$"
+    }
+  ]
+}

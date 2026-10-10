@@ -1,0 +1,7 @@
+{
+  "scope": "Real Node HTTP/Web Request/Response bridge; transport integrity only, not chat/provider runtime parity",
+  "firstStreamingChunkDeliveredBeforeCompletion": true,
+  "multipleSetCookieHeadersPreserved": true,
+  "incomingHostPreserved": true,
+  "incomingBodyBytesPreserved": true
+}

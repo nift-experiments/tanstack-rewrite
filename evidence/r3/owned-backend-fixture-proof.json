@@ -9,5 +9,9 @@
   "wrongMethod": 405,
   "publicLibraryAPI": 200,
   "invalidCliTicket": 400,
-  "cliTicketCreation": 200
+  "cliTicketCreation": 200,
+  "signout": 302,
+  "signoutRevokesDatabaseSession": true,
+  "unknownOAuthProvider": 302,
+  "unconfiguredOAuthProvider": 503
 }

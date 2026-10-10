@@ -1,0 +1,357 @@
+{
+  "scope": "All generated landing routes load and hydrate; not visual or interaction parity",
+  "results": [
+    {
+      "path": "/start/latest",
+      "status": 200,
+      "regions": 1,
+      "headline": "Start",
+      "slots": 9,
+      "errors": []
+    },
+    {
+      "path": "/start/v0",
+      "status": 200,
+      "regions": 1,
+      "headline": "Start",
+      "slots": 9,
+      "errors": []
+    },
+    {
+      "path": "/router/latest",
+      "status": 200,
+      "regions": 1,
+      "headline": "Router",
+      "slots": 10,
+      "errors": []
+    },
+    {
+      "path": "/router/v1",
+      "status": 200,
+      "regions": 1,
+      "headline": "Router",
+      "slots": 10,
+      "errors": []
+    },
+    {
+      "path": "/query/latest",
+      "status": 200,
+      "regions": 1,
+      "headline": "Query",
+      "slots": 9,
+      "errors": []
+    },
+    {
+      "path": "/query/v5",
+      "status": 200,
+      "regions": 1,
+      "headline": "Query",
+      "slots": 9,
+      "errors": []
+    },
+    {
+      "path": "/query/v4",
+      "status": 200,
+      "regions": 1,
+      "headline": "Query",
+      "slots": 9,
+      "errors": []
+    },
+    {
+      "path": "/query/v3",
+      "status": 200,
+      "regions": 1,
+      "headline": "Query",
+      "slots": 9,
+      "errors": []
+    },
+    {
+      "path": "/table/latest",
+      "status": 200,
+      "regions": 1,
+      "headline": "Table",
+      "slots": 10,
+      "errors": []
+    },
+    {
+      "path": "/table/v9",
+      "status": 200,
+      "regions": 1,
+      "headline": "Table",
+      "slots": 10,
+      "errors": []
+    },
+    {
+      "path": "/table/v8",
+      "status": 200,
+      "regions": 1,
+      "headline": "Table",
+      "slots": 10,
+      "errors": []
+    },
+    {
+      "path": "/charts/latest",
+      "status": 200,
+      "regions": 1,
+      "headline": "Charts",
+      "slots": 11,
+      "errors": []
+    },
+    {
+      "path": "/charts/v1",
+      "status": 200,
+      "regions": 1,
+      "headline": "Charts",
+      "slots": 11,
+      "errors": []
+    },
+    {
+      "path": "/form/latest",
+      "status": 200,
+      "regions": 1,
+      "headline": "Form",
+      "slots": 9,
+      "errors": []
+    },
+    {
+      "path": "/form/v1",
+      "status": 200,
+      "regions": 1,
+      "headline": "Form",
+      "slots": 9,
+      "errors": []
+    },
+    {
+      "path": "/form/alpha",
+      "status": 200,
+      "regions": 1,
+      "headline": "Form",
+      "slots": 9,
+      "errors": []
+    },
+    {
+      "path": "/db/latest",
+      "status": 200,
+      "regions": 1,
+      "headline": "DB",
+      "slots": 10,
+      "errors": []
+    },
+    {
+      "path": "/db/v0",
+      "status": 200,
+      "regions": 1,
+      "headline": "DB",
+      "slots": 10,
+      "errors": []
+    },
+    {
+      "path": "/ai/latest",
+      "status": 200,
+      "regions": 1,
+      "headline": "AI",
+      "slots": 15,
+      "errors": []
+    },
+    {
+      "path": "/ai/v0",
+      "status": 200,
+      "regions": 1,
+      "headline": "AI",
+      "slots": 15,
+      "errors": []
+    },
+    {
+      "path": "/intent/latest",
+      "status": 200,
+      "regions": 1,
+      "headline": "Intent",
+      "slots": 9,
+      "errors": []
+    },
+    {
+      "path": "/intent/v0",
+      "status": 200,
+      "regions": 1,
+      "headline": "Intent",
+      "slots": 9,
+      "errors": []
+    },
+    {
+      "path": "/virtual/latest",
+      "status": 200,
+      "regions": 1,
+      "headline": "Virtual",
+      "slots": 9,
+      "errors": []
+    },
+    {
+      "path": "/virtual/v3",
+      "status": 200,
+      "regions": 1,
+      "headline": "Virtual",
+      "slots": 9,
+      "errors": []
+    },
+    {
+      "path": "/pacer/latest",
+      "status": 200,
+      "regions": 1,
+      "headline": "Pacer",
+      "slots": 9,
+      "errors": []
+    },
+    {
+      "path": "/pacer/v0",
+      "status": 200,
+      "regions": 1,
+      "headline": "Pacer",
+      "slots": 9,
+      "errors": []
+    },
+    {
+      "path": "/hotkeys/latest",
+      "status": 200,
+      "regions": 1,
+      "headline": "Hotkeys",
+      "slots": 9,
+      "errors": []
+    },
+    {
+      "path": "/hotkeys/v0",
+      "status": 200,
+      "regions": 1,
+      "headline": "Hotkeys",
+      "slots": 9,
+      "errors": []
+    },
+    {
+      "path": "/markdown/latest",
+      "status": 200,
+      "regions": 1,
+      "headline": "Markdown",
+      "slots": 11,
+      "errors": []
+    },
+    {
+      "path": "/markdown/v1",
+      "status": 200,
+      "regions": 1,
+      "headline": "Markdown",
+      "slots": 11,
+      "errors": []
+    },
+    {
+      "path": "/highlight/latest",
+      "status": 200,
+      "regions": 1,
+      "headline": "Highlight",
+      "slots": 10,
+      "errors": []
+    },
+    {
+      "path": "/highlight/v1",
+      "status": 200,
+      "regions": 1,
+      "headline": "Highlight",
+      "slots": 10,
+      "errors": []
+    },
+    {
+      "path": "/store/latest",
+      "status": 200,
+      "regions": 1,
+      "headline": "Store",
+      "slots": 10,
+      "errors": []
+    },
+    {
+      "path": "/store/v0",
+      "status": 200,
+      "regions": 1,
+      "headline": "Store",
+      "slots": 10,
+      "errors": []
+    },
+    {
+      "path": "/ranger/latest",
+      "status": 200,
+      "regions": 1,
+      "headline": "Ranger",
+      "slots": 9,
+      "errors": []
+    },
+    {
+      "path": "/ranger/v0",
+      "status": 200,
+      "regions": 1,
+      "headline": "Ranger",
+      "slots": 9,
+      "errors": []
+    },
+    {
+      "path": "/config/latest",
+      "status": 200,
+      "regions": 1,
+      "headline": "Config",
+      "slots": 9,
+      "errors": []
+    },
+    {
+      "path": "/config/v0",
+      "status": 200,
+      "regions": 1,
+      "headline": "Config",
+      "slots": 9,
+      "errors": []
+    },
+    {
+      "path": "/devtools/latest",
+      "status": 200,
+      "regions": 1,
+      "headline": "Devtools",
+      "slots": 10,
+      "errors": []
+    },
+    {
+      "path": "/devtools/v0",
+      "status": 200,
+      "regions": 1,
+      "headline": "Devtools",
+      "slots": 10,
+      "errors": []
+    },
+    {
+      "path": "/cli/latest",
+      "status": 200,
+      "regions": 1,
+      "headline": "CLI",
+      "slots": 9,
+      "errors": []
+    },
+    {
+      "path": "/cli/v0",
+      "status": 200,
+      "regions": 1,
+      "headline": "CLI",
+      "slots": 9,
+      "errors": []
+    },
+    {
+      "path": "/workflow/latest",
+      "status": 200,
+      "regions": 1,
+      "headline": "Workflow",
+      "slots": 9,
+      "errors": []
+    },
+    {
+      "path": "/workflow/v0",
+      "status": 200,
+      "regions": 1,
+      "headline": "Workflow",
+      "slots": 9,
+      "errors": []
+    }
+  ]
+}

@@ -1,13 +1,8 @@
+import {publicationAssetURL as publicationUrl} from 'owned-publication/publication-urls'
 import * as React from 'react'
 import { PauseIcon, PlayIcon } from '@phosphor-icons/react'
 import { Squircle } from '~/components/Squircle'
 
-function publicationUrl(path:string){
- if(typeof document==='undefined')return path;
- const paths=JSON.parse(document.querySelector('#publication-media-urls')?.textContent??'{}');
- if(!paths[path])throw new Error('Missing Nift publication URL: '+path);
- return paths[path];
-}
 export function HeroPalmMedia() {
   const videoRef = React.useRef<HTMLVideoElement>(null)
   const [hasVideoSource, setHasVideoSource] = React.useState(false)

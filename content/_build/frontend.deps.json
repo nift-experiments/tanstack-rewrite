@@ -8,6 +8,8 @@
     "scripts/compile-document.mjs",
     "package.json",
     "package-lock.json",
-    "scripts/build-frontend.mjs"
+    "scripts/build-frontend.mjs",
+    "scripts/publication-url-transform.cjs",
+    "services/protocol-proof/src/auth.functions.ts"
   ]
 }
