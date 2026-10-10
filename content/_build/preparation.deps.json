@@ -33,7 +33,9 @@
     "scripts/prepare-document-headers.mjs",
     "publisher/document-headers.ts",
     "scripts/prepare-application-publication.mjs",
-    "scripts/publication-head.mjs"
+    "scripts/publication-head.mjs",
+    "scripts/discover-doc-inputs.mjs",
+    "scripts/prune-publication.mjs"
   ],
   "dependencies": [
     "fixtures/external-blog/",
@@ -46,6 +48,7 @@
     "publisher/document-headers.ts",
     "publisher/home-posts.ts",
     "publisher/project-posts.ts",
+    "scripts/discover-doc-inputs.mjs",
     "scripts/external-blog-fixture.mjs",
     "scripts/generate-corpus.mjs",
     "scripts/prepare-application-publication.mjs",
@@ -62,6 +65,7 @@
     "scripts/prepare-stylesheet.mjs",
     "scripts/project-nift-markup.mjs",
     "scripts/project-paths.mjs",
+    "scripts/prune-publication.mjs",
     "scripts/publication-head.mjs",
     "scripts/refresh-build-dependencies.mjs",
     "scripts/resolve-pinned-docs.mjs",

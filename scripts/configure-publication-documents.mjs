@@ -1,9 +1,10 @@
+import {discoverDocInputs} from './discover-doc-inputs.mjs';
 import fs from 'node:fs';
 // Indexed authored/generated/workspace sources own only their declared files
 // and roots. Unrelated requests retain the original public transport. Owned
 // sources bypass remote artifact caches so maintained edits remain authoritative.
 export function configurePublicationDocuments(api,libraries){
- const inputs=JSON.parse(fs.readFileSync('sources/docs-inputs.json')).files;
+ const inputs=discoverDocInputs(JSON.parse(fs.readFileSync('sources/docs-inputs.json'))).files;
  const index=new Map(),roots=new Map(),trees=new Map(),revisions=new Map();
  const identity=(repo,ref)=>repo+'\0'+ref;
  const addRoot=(repo,ref,root)=>{const key=identity(repo,ref);roots.set(key,[...new Set([...(roots.get(key)??[]),root])]);};

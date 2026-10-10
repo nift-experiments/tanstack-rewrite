@@ -1,0 +1,26 @@
+{
+  "scope": "Actual maintained Markdown add/rename/delete through normal Nift build; diagnostic timings, not benchmark",
+  "results": [
+    {
+      "operation": "add",
+      "seconds": 86.944332217,
+      "publicationAndMetadataAndDownloadCreated": true,
+      "backendUnchanged": true
+    },
+    {
+      "operation": "rename",
+      "seconds": 86.236956342,
+      "newPublicationCreated": true,
+      "oldPublicationMetadataAndDownloadRemoved": true,
+      "oldRequest404": true,
+      "backendUnchanged": true
+    },
+    {
+      "operation": "delete",
+      "seconds": 82.93975427999999,
+      "publicationMetadataAndDownloadRemoved": true,
+      "request404": true,
+      "backendUnchanged": true
+    }
+  ]
+}
