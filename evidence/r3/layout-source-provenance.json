@@ -1,0 +1,23 @@
+{
+  "upstream_commit": "862ccc3d191818320c3e6d217542883f80cb907a",
+  "config_source": "Frozen upstream external-inputs/docs/tanstack--query--main/docs/config.json",
+  "config_sha256": "b16778223c6b6281514cc2f7bded0b20e83d8ddb1be4edde7f34d491428198d8",
+  "adapted_views": [
+    {
+      "source": "src/components/Doc.tsx",
+      "target": "frontend/layout/PublishedDoc.tsx",
+      "change": "Receive precomputed headings and native publication HTML instead of parsing/rehydrating a Markdown AST; preserve layout, TOC and width controls"
+    },
+    {
+      "source": "src/components/markdown/MarkdownContent.tsx",
+      "target": "frontend/layout/PublicationContent.tsx",
+      "change": "Preserve title/copy/edit/feedback chrome; replace Markdown renderer with native publication owner"
+    },
+    {
+      "source": "src/components/DocFeedbackProvider.tsx",
+      "target": "frontend/layout/PublishedFeedback.tsx",
+      "change": "Preserve feedback queries, hash/selector, hover and portal behavior; use the original relative feedback div as native publication host, avoiding an added ancestor; rescan on publication HTML replacement rather than child React node identity."
+    }
+  ],
+  "scope": "Documentation layout proof in progress; not accepted parity"
+}

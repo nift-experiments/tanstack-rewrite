@@ -1,0 +1,51 @@
+{
+  "scope": "Full Query overview: retained Navbar/docs layout/title/TOC/feedback chrome/sidebar/partner rail/recent posts/footer and independent Nift article; matched fresh upstream placement seed; third-party fonts unavailable in both, matching frozen reference font scope. No complete corpus, production-font, metadata or service acceptance.",
+  "threshold": "Exact RGB dimensions and pixels; no raster tolerance or masked regions",
+  "states": [
+    {
+      "width": 1440,
+      "theme": "dark",
+      "image_size": [
+        1440,
+        3518
+      ],
+      "exact_rgb_pixels_equal": true,
+      "reference_sha256": "541c74d47fae70e5bb5da92f8fee075a6fe7b26c78c26e1a93bb3a99d6d70719",
+      "candidate_sha256": "541c74d47fae70e5bb5da92f8fee075a6fe7b26c78c26e1a93bb3a99d6d70719"
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "image_size": [
+        1440,
+        3542
+      ],
+      "exact_rgb_pixels_equal": true,
+      "reference_sha256": "cf2e22d01dfdbd743438e48328045e8e034b1b282d7629e212c13d4f756b39ab",
+      "candidate_sha256": "cf2e22d01dfdbd743438e48328045e8e034b1b282d7629e212c13d4f756b39ab"
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "image_size": [
+        390,
+        5494
+      ],
+      "exact_rgb_pixels_equal": true,
+      "reference_sha256": "b1bca24610d76406a041ca6c5cc351a4ed4fbd5bf04342145c1cbe7a7422feef",
+      "candidate_sha256": "b1bca24610d76406a041ca6c5cc351a4ed4fbd5bf04342145c1cbe7a7422feef"
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "image_size": [
+        390,
+        5494
+      ],
+      "exact_rgb_pixels_equal": true,
+      "reference_sha256": "67e2fe5a9c9dba09df941d273d3924525ac931d065fe406a90315f9384e67152",
+      "candidate_sha256": "67e2fe5a9c9dba09df941d273d3924525ac931d065fe406a90315f9384e67152"
+    }
+  ],
+  "initial_defect_corrected": "Missing footer produced a real page-height difference; retain exact upstream footer"
+}
