@@ -1,0 +1,50 @@
+{
+  "scope": "Query overview article fragment only; actual upstream DOM cloned into the same isolated geometry/styles to exclude overlapping sticky shell controls. Candidate renders independently from maintained Markdown. No full-shell, CSS-build or whole-page acceptance.",
+  "threshold": "Exact RGB dimensions/pixels; no image tolerance",
+  "results": [
+    {
+      "width": 1440,
+      "theme": "dark",
+      "image_size": [
+        660,
+        2567
+      ],
+      "exact_pixels_equal": true,
+      "reference_sha256": "309dfb5f8a320050b08d15ecd096b56f05b932788a83581a128d511ea7056860",
+      "candidate_sha256": "309dfb5f8a320050b08d15ecd096b56f05b932788a83581a128d511ea7056860"
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "image_size": [
+        660,
+        2591
+      ],
+      "exact_pixels_equal": true,
+      "reference_sha256": "75b668bd2d77e45952396cb2aa96092516cb597370efd1ba7e41d8739c2a977a",
+      "candidate_sha256": "75b668bd2d77e45952396cb2aa96092516cb597370efd1ba7e41d8739c2a977a"
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "image_size": [
+        358,
+        3407
+      ],
+      "exact_pixels_equal": true,
+      "reference_sha256": "9701c725de0cf0aee92e5ffbffd475b1c6bf00133332f99145255724a9e96acf",
+      "candidate_sha256": "9701c725de0cf0aee92e5ffbffd475b1c6bf00133332f99145255724a9e96acf"
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "image_size": [
+        358,
+        3431
+      ],
+      "exact_pixels_equal": true,
+      "reference_sha256": "50dfcc66be496784be638a90e4329af6f5ef5b1b48daee356ef6e65873a6d957",
+      "candidate_sha256": "50dfcc66be496784be638a90e4329af6f5ef5b1b48daee356ef6e65873a6d957"
+    }
+  ]
+}

@@ -14,7 +14,8 @@
     "proof:codeblock": "node scripts/proof-codeblock.mjs",
     "proof:article-controls": "node scripts/proof-article-controls.mjs",
     "proof:session": "node scripts/proof-session.mjs",
-    "proof:auth": "node scripts/proof-auth.mjs"
+    "proof:auth": "node scripts/proof-auth.mjs",
+    "proof:article:pixels": "node scripts/proof-article-pixels.mjs && python3 scripts/verify-article-pixels.py"
   },
   "dependencies": {
     "@phosphor-icons/react": "2.1.10",
