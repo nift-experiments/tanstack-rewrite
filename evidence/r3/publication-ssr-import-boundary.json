@@ -6,11 +6,11 @@
     "content-collections",
     "/services/upstream/",
     "/services/protocol-proof/src/auth-bindings.server",
-    "/publisher/",
     "/frontend/retained/src/routes/",
     "/node_modules/mermaid/"
   ],
-  "module_identifiers_checked": 12813,
+  "allowed_publisher_helper": "publisher/application-regions.ts (pure HTML boundary projection)",
+  "module_identifiers_checked": 62293,
   "api_provider_build_performed": false,
   "start_site_server_plugin_used": false
 }

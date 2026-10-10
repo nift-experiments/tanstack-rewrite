@@ -1,3 +1,4 @@
+import {renderPublicationHead} from './publication-head.mjs';
 import {projectNiftMarkup} from './project-nift-markup.mjs';
 import fs from 'node:fs';import path from 'node:path';import {createHash} from 'node:crypto';
 const hash=value=>createHash('sha256').update(value).digest('hex');
@@ -23,5 +24,3 @@ export async function preparePagePublication(routes,configs,tracked){
  }
  write(cacheFile,JSON.stringify(next));write(projectionCacheFile,JSON.stringify(projections));console.log(JSON.stringify({completePages:rows.length,prepared,reused}));
 }
-
-function renderPublicationHead(record){const escape=value=>String(value).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;'),attributes=props=>Object.entries(props).filter(([key,value])=>value!==undefined&&value!==null&&key!=='children'&&key!=='title').map(([key,value])=>' '+key+'="'+escape(value)+'"').join('');const head=record.head??{meta:[{title:record.title}]};return (head.meta??[]).map(meta=>meta.title!==undefined?'<title>'+escape(meta.title)+'</title>':'<meta'+attributes(meta)+'>').join('')+(head.links??[]).map(link=>'<link'+attributes(link)+'>').join('')+(head.scripts??[]).map(script=>'<script'+attributes(script)+'>'+String(script.children??'').replaceAll('</script','<\/script')+'</script>').join('');}

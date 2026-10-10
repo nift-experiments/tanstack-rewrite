@@ -1,0 +1,19 @@
+{
+  "scope": "Actual Nift source edit/composition plus application hydration; not full parity",
+  "results": [
+    {
+      "width": 1440,
+      "nativeSourceSurvivesHydration": true,
+      "nativeEditedNodeSurvivesSharedControl": true,
+      "niftPathImageLoads": true,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "nativeSourceSurvivesHydration": true,
+      "nativeEditedNodeSurvivesSharedControl": true,
+      "niftPathImageLoads": true,
+      "errors": []
+    }
+  ]
+}

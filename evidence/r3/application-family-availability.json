@@ -1,0 +1,442 @@
+{
+  "scope": "Application-family availability and hydration smoke, not final semantic/visual/service parity",
+  "sourceModel": "Owned authored application views with exact retained shared UI; Nift family boundaries/envelope, request-scoped SSR and explicit application islands",
+  "registeredViews": 112,
+  "leafFamilies": 99,
+  "staticPaths": 72,
+  "parameterizedFamilies": 27,
+  "browserStates": [
+    {
+      "width": 1440,
+      "pathname": "/ds/buttons",
+      "status": 200,
+      "title": "Design System | TanStack",
+      "headings": [
+        "Buttons",
+        "Variants",
+        "Gradient (landing CTA)",
+        "Colors",
+        "Sizes",
+        "Link buttons",
+        "Icon buttons",
+        "Rounded",
+        "With icons & states",
+        "Button group",
+        "Leading & trailing icons",
+        "Split button",
+        "Libraries",
+        "Blog",
+        "Community",
+        "Tools",
+        "Merch",
+        "Support"
+      ],
+      "applicationOwners": 1,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "pathname": "/ds/tabs",
+      "status": 200,
+      "title": "Design System | TanStack",
+      "headings": [
+        "Tabs",
+        "Primary",
+        "Secondary",
+        "Icon only",
+        "Libraries",
+        "Blog",
+        "Community",
+        "Tools",
+        "Merch",
+        "Support"
+      ],
+      "applicationOwners": 1,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "pathname": "/login",
+      "status": 200,
+      "title": "",
+      "headings": [
+        "Sign into TanStack",
+        "Libraries",
+        "Blog",
+        "Community",
+        "Tools",
+        "Merch",
+        "Support"
+      ],
+      "applicationOwners": 1,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "pathname": "/query/latest/docs/contributors",
+      "status": 200,
+      "title": "TanStack Query | React Query, Preact Query, Solid Query, Vue Query, Svelte Query, Angular Query, Lit Query",
+      "headings": [
+        "TanStack Query Maintainers and Contributors",
+        "All-Time Contributors",
+        "Libraries",
+        "Blog",
+        "Community",
+        "Tools",
+        "Merch",
+        "Support"
+      ],
+      "applicationOwners": 1,
+      "brokenImages": [],
+      "rowCardsClicked": true,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "pathname": "/query/latest/docs/community-resources",
+      "status": 200,
+      "title": "TanStack Query | React Query, Preact Query, Solid Query, Vue Query, Svelte Query, Angular Query, Lit Query",
+      "headings": [
+        "Community Resources",
+        "article",
+        "media",
+        "utility",
+        "other",
+        "Libraries",
+        "Blog",
+        "Community",
+        "Tools",
+        "Merch",
+        "Support"
+      ],
+      "applicationOwners": 1,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "pathname": "/workshops",
+      "status": 200,
+      "title": "Professional Workshops | TanStack",
+      "headings": [
+        "Professional TanStack Workshops",
+        "Remote Workshops",
+        "In-Person Workshops",
+        "Why Learn from TanStack?",
+        "Training That Moves the Needle",
+        "Ready to Level Up Your Team?",
+        "Meet Your Instructors",
+        "Flexible Formats for Every Team",
+        "Have Questions About Our Workshops?",
+        "Workshop Topics Available",
+        "Want Tanner Linsley at your workshop?",
+        "What Teams Are Saying",
+        "Libraries",
+        "Blog",
+        "Community",
+        "Tools",
+        "Merch",
+        "Support"
+      ],
+      "applicationOwners": 1,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "pathname": "/libraries",
+      "status": 200,
+      "title": "TanStack Libraries: Type-Safe Tools for Modern Web Apps",
+      "headings": [
+        "All Libraries",
+        "Libraries",
+        "Blog",
+        "Community",
+        "Tools",
+        "Merch",
+        "Support"
+      ],
+      "applicationOwners": 1,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "pathname": "/explore",
+      "status": 200,
+      "title": "Island Explorer | TanStack",
+      "headings": [
+        "Libraries",
+        "Blog",
+        "Community",
+        "Tools",
+        "Merch",
+        "Support"
+      ],
+      "applicationOwners": 1,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "pathname": "/application-starter",
+      "status": 200,
+      "title": "TanStack Application Starter",
+      "headings": [
+        "my-tanstack-app",
+        "Libraries",
+        "Blog",
+        "Community",
+        "Tools",
+        "Merch",
+        "Support"
+      ],
+      "applicationOwners": 1,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "pathname": "/shop/cart",
+      "status": 200,
+      "title": "",
+      "headings": [
+        "Libraries",
+        "Blog",
+        "Community",
+        "Tools",
+        "Merch",
+        "Support"
+      ],
+      "applicationOwners": 1,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "pathname": "/ds/buttons",
+      "status": 200,
+      "title": "Design System | TanStack",
+      "headings": [
+        "Buttons",
+        "Variants",
+        "Gradient (landing CTA)",
+        "Colors",
+        "Sizes",
+        "Link buttons",
+        "Icon buttons",
+        "Rounded",
+        "With icons & states",
+        "Button group",
+        "Leading & trailing icons",
+        "Split button",
+        "Libraries",
+        "Blog",
+        "Community",
+        "Tools",
+        "Merch",
+        "Support"
+      ],
+      "applicationOwners": 1,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "pathname": "/ds/tabs",
+      "status": 200,
+      "title": "Design System | TanStack",
+      "headings": [
+        "Tabs",
+        "Primary",
+        "Secondary",
+        "Icon only",
+        "Libraries",
+        "Blog",
+        "Community",
+        "Tools",
+        "Merch",
+        "Support"
+      ],
+      "applicationOwners": 1,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "pathname": "/login",
+      "status": 200,
+      "title": "",
+      "headings": [
+        "Sign into TanStack",
+        "Libraries",
+        "Blog",
+        "Community",
+        "Tools",
+        "Merch",
+        "Support"
+      ],
+      "applicationOwners": 1,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "pathname": "/query/latest/docs/contributors",
+      "status": 200,
+      "title": "TanStack Query | React Query, Preact Query, Solid Query, Vue Query, Svelte Query, Angular Query, Lit Query",
+      "headings": [
+        "TanStack Query Maintainers and Contributors",
+        "All-Time Contributors",
+        "Libraries",
+        "Blog",
+        "Community",
+        "Tools",
+        "Merch",
+        "Support"
+      ],
+      "applicationOwners": 1,
+      "brokenImages": [],
+      "rowCardsClicked": true,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "pathname": "/query/latest/docs/community-resources",
+      "status": 200,
+      "title": "TanStack Query | React Query, Preact Query, Solid Query, Vue Query, Svelte Query, Angular Query, Lit Query",
+      "headings": [
+        "Community Resources",
+        "article",
+        "media",
+        "utility",
+        "other",
+        "Libraries",
+        "Blog",
+        "Community",
+        "Tools",
+        "Merch",
+        "Support"
+      ],
+      "applicationOwners": 1,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "pathname": "/workshops",
+      "status": 200,
+      "title": "Professional Workshops | TanStack",
+      "headings": [
+        "Professional TanStack Workshops",
+        "Remote Workshops",
+        "In-Person Workshops",
+        "Why Learn from TanStack?",
+        "Training That Moves the Needle",
+        "Ready to Level Up Your Team?",
+        "Meet Your Instructors",
+        "Flexible Formats for Every Team",
+        "Have Questions About Our Workshops?",
+        "Workshop Topics Available",
+        "Want Tanner Linsley at your workshop?",
+        "What Teams Are Saying",
+        "Libraries",
+        "Blog",
+        "Community",
+        "Tools",
+        "Merch",
+        "Support"
+      ],
+      "applicationOwners": 1,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "pathname": "/libraries",
+      "status": 200,
+      "title": "TanStack Libraries: Type-Safe Tools for Modern Web Apps",
+      "headings": [
+        "All Libraries",
+        "Libraries",
+        "Blog",
+        "Community",
+        "Tools",
+        "Merch",
+        "Support"
+      ],
+      "applicationOwners": 1,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "pathname": "/explore",
+      "status": 200,
+      "title": "Island Explorer | TanStack",
+      "headings": [
+        "Libraries",
+        "Blog",
+        "Community",
+        "Tools",
+        "Merch",
+        "Support"
+      ],
+      "applicationOwners": 1,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "pathname": "/application-starter",
+      "status": 200,
+      "title": "TanStack Application Starter",
+      "headings": [
+        "my-tanstack-app",
+        "Libraries",
+        "Blog",
+        "Community",
+        "Tools",
+        "Merch",
+        "Support"
+      ],
+      "applicationOwners": 1,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "pathname": "/shop/cart",
+      "status": 200,
+      "title": "",
+      "headings": [
+        "Libraries",
+        "Blog",
+        "Community",
+        "Tools",
+        "Merch",
+        "Support"
+      ],
+      "applicationOwners": 1,
+      "brokenImages": [],
+      "errors": []
+    }
+  ],
+  "httpSmoke": {
+    "pages200": 42,
+    "anonymousRedirects307": 28,
+    "unconfiguredOrInvalidInput500": 2,
+    "qualification": "auth/cli needs a ticket query; shop index needs configured Shopify provider. Neither is accepted final parity."
+  },
+  "retainedFilesShaVerified": 931,
+  "productionIssuesCorrected": [
+    "development import.meta.hot removed from browser output",
+    "Nift-resolved path-interface URL rebased using envelope publication location",
+    "normal-build Nift status capture increased to 64 MiB"
+  ],
+  "workerDiagnostic": "Official Wrangler dry-run and actual workerd SQLite Conversation/StreamObject smoke passed; full runtime integration still pending",
+  "benchmarkClaim": false
+}

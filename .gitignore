@@ -91,3 +91,9 @@ frontend/dist/
 /.nift/.unfinished
 
 /content/blog/
+
+# Regenerable runtime-family native boundaries.
+/content/publication-applications/
+/content/application-envelope.html
+
+/content/static/

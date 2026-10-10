@@ -29,7 +29,7 @@
   "emptyInputs": 1,
   "renderFailures": 0,
   "pendingComponentFamilies": {},
-  "elapsedSeconds": 316.97009357499996,
+  "elapsedSeconds": 338.514503673,
   "output": "public/<route>.html plus public/index.html; article fragments support native Router navigation",
   "siteShell": "Nift-published complete pages; declared session/shell slots evaluated at request time",
   "familyBindings": {

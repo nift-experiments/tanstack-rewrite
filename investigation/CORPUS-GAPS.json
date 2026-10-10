@@ -145,1496 +145,1700 @@
   },
   "pendingComponentFamilies": [],
   "renderFailures": [],
-  "unimplementedRouteFamilies": [
-    {
-      "pattern": "/",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/admin",
-      "classification": "auth/session-sensitive application",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/account",
-      "classification": "auth/session-sensitive application",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/ads",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/application-starter",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/blog",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/brand-guide",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/builder",
-      "classification": "complex client + backend application",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/chat",
-      "classification": "complex client + backend application",
-      "status": "not yet implemented by corpus publisher"
-    },
+  "applicationFamilies": [
     {
       "pattern": "/chat-access",
-      "classification": "auth/session-sensitive application",
-      "status": "not yet implemented by corpus publisher"
+      "id": "/chat-access",
+      "pathname": "/chat-access",
+      "leaf": true,
+      "publicationKey": "chat-access",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
     {
       "pattern": "/community-projects",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
+      "id": "/community-projects",
+      "pathname": "/community-projects",
+      "leaf": true,
+      "publicationKey": "community-projects",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
     {
       "pattern": "/dashboard",
-      "classification": "auth/session-sensitive application",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/ds",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/ethos",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
+      "id": "/dashboard",
+      "pathname": "/dashboard",
+      "leaf": true,
+      "publicationKey": "dashboard",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
     {
       "pattern": "/explore",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
+      "id": "/explore",
+      "pathname": "/explore",
+      "leaf": true,
+      "publicationKey": "explore",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
     {
       "pattern": "/feedback-leaderboard",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/learn",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
+      "id": "/feedback-leaderboard",
+      "pathname": "/feedback-leaderboard",
+      "leaf": true,
+      "publicationKey": "feedback-leaderboard",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
     {
       "pattern": "/libraries",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
+      "id": "/libraries",
+      "pathname": "/libraries",
+      "leaf": true,
+      "publicationKey": "libraries",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/login",
+      "id": "/login",
+      "pathname": "/login",
+      "leaf": true,
+      "publicationKey": "login",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/maintainers",
+      "id": "/maintainers",
+      "pathname": "/maintainers",
+      "leaf": true,
+      "publicationKey": "maintainers",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/sponsors-embed",
+      "id": "/sponsors-embed",
+      "pathname": "/sponsors-embed",
+      "leaf": true,
+      "publicationKey": "sponsors-embed",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/workshops",
+      "id": "/workshops",
+      "pathname": "/workshops",
+      "leaf": true,
+      "publicationKey": "workshops",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/account/",
+      "id": "/account/",
+      "pathname": "/account/",
+      "leaf": true,
+      "publicationKey": "account_",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/account/feedback",
+      "id": "/account/feedback",
+      "pathname": "/account/feedback",
+      "leaf": true,
+      "publicationKey": "account_feedback",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/account/integrations",
+      "id": "/account/integrations",
+      "pathname": "/account/integrations",
+      "leaf": true,
+      "publicationKey": "account_integrations",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/account/notes",
+      "id": "/account/notes",
+      "pathname": "/account/notes",
+      "leaf": true,
+      "publicationKey": "account_notes",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/account/submissions",
+      "id": "/account/submissions",
+      "pathname": "/account/submissions",
+      "leaf": true,
+      "publicationKey": "account_submissions",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/admin/",
+      "id": "/admin/",
+      "pathname": "/admin/",
+      "leaf": true,
+      "publicationKey": "admin_",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/admin/audit",
+      "id": "/admin/audit",
+      "pathname": "/admin/audit",
+      "leaf": true,
+      "publicationKey": "admin_audit",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/admin/chat-access",
+      "id": "/admin/chat-access",
+      "pathname": "/admin/chat-access",
+      "leaf": true,
+      "publicationKey": "admin_chat-access",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/admin/docs",
+      "id": "/admin/docs",
+      "pathname": "/admin/docs",
+      "leaf": true,
+      "publicationKey": "admin_docs",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/admin/github-stats",
+      "id": "/admin/github-stats",
+      "pathname": "/admin/github-stats",
+      "leaf": true,
+      "publicationKey": "admin_github-stats",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/admin/intent",
+      "id": "/admin/intent",
+      "pathname": "/admin/intent",
+      "leaf": true,
+      "publicationKey": "admin_intent",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/admin/logins",
+      "id": "/admin/logins",
+      "pathname": "/admin/logins",
+      "leaf": true,
+      "publicationKey": "admin_logins",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/admin/npm-stats",
+      "id": "/admin/npm-stats",
+      "pathname": "/admin/npm-stats",
+      "leaf": true,
+      "publicationKey": "admin_npm-stats",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/application-starter/",
+      "id": "/application-starter/",
+      "pathname": "/application-starter/",
+      "leaf": true,
+      "publicationKey": "application-starter_",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/application-starter/docs",
+      "id": "/application-starter/docs",
+      "pathname": "/application-starter/docs",
+      "leaf": true,
+      "publicationKey": "application-starter_docs",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/auth/cli",
+      "id": "/auth/cli",
+      "pathname": "/auth/cli",
+      "leaf": true,
+      "publicationKey": "auth_cli",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/auth/popup-success",
+      "id": "/auth/popup-success",
+      "pathname": "/auth/popup-success",
+      "leaf": true,
+      "publicationKey": "auth_popup-success",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/chat/",
+      "id": "/chat/",
+      "pathname": "/chat/",
+      "leaf": true,
+      "publicationKey": "chat_",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/chat/charts",
+      "id": "/chat/charts",
+      "pathname": "/chat/charts",
+      "leaf": true,
+      "publicationKey": "chat_charts",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/chat/shared",
+      "id": "/chat/shared",
+      "pathname": "/chat/shared",
+      "leaf": true,
+      "publicationKey": "chat_shared",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/ds/",
+      "id": "/ds/",
+      "pathname": "/ds/",
+      "leaf": true,
+      "publicationKey": "ds_",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/ds/avatar",
+      "id": "/ds/avatar",
+      "pathname": "/ds/avatar",
+      "leaf": true,
+      "publicationKey": "ds_avatar",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/ds/badges",
+      "id": "/ds/badges",
+      "pathname": "/ds/badges",
+      "leaf": true,
+      "publicationKey": "ds_badges",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/ds/breadcrumbs",
+      "id": "/ds/breadcrumbs",
+      "pathname": "/ds/breadcrumbs",
+      "leaf": true,
+      "publicationKey": "ds_breadcrumbs",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/ds/buttons",
+      "id": "/ds/buttons",
+      "pathname": "/ds/buttons",
+      "leaf": true,
+      "publicationKey": "ds_buttons",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/ds/cards",
+      "id": "/ds/cards",
+      "pathname": "/ds/cards",
+      "leaf": true,
+      "publicationKey": "ds_cards",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/ds/colors",
+      "id": "/ds/colors",
+      "pathname": "/ds/colors",
+      "leaf": true,
+      "publicationKey": "ds_colors",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/ds/dialog",
+      "id": "/ds/dialog",
+      "pathname": "/ds/dialog",
+      "leaf": true,
+      "publicationKey": "ds_dialog",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/ds/drawer",
+      "id": "/ds/drawer",
+      "pathname": "/ds/drawer",
+      "leaf": true,
+      "publicationKey": "ds_drawer",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/ds/dropdown",
+      "id": "/ds/dropdown",
+      "pathname": "/ds/dropdown",
+      "leaf": true,
+      "publicationKey": "ds_dropdown",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/ds/effects",
+      "id": "/ds/effects",
+      "pathname": "/ds/effects",
+      "leaf": true,
+      "publicationKey": "ds_effects",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/ds/eyebrow",
+      "id": "/ds/eyebrow",
+      "pathname": "/ds/eyebrow",
+      "leaf": true,
+      "publicationKey": "ds_eyebrow",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/ds/inputs",
+      "id": "/ds/inputs",
+      "pathname": "/ds/inputs",
+      "leaf": true,
+      "publicationKey": "ds_inputs",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/ds/logos",
+      "id": "/ds/logos",
+      "pathname": "/ds/logos",
+      "leaf": true,
+      "publicationKey": "ds_logos",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/ds/navbar",
+      "id": "/ds/navbar",
+      "pathname": "/ds/navbar",
+      "leaf": true,
+      "publicationKey": "ds_navbar",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/ds/overlays",
+      "id": "/ds/overlays",
+      "pathname": "/ds/overlays",
+      "leaf": true,
+      "publicationKey": "ds_overlays",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/ds/page-header",
+      "id": "/ds/page-header",
+      "pathname": "/ds/page-header",
+      "leaf": true,
+      "publicationKey": "ds_page-header",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/ds/palette",
+      "id": "/ds/palette",
+      "pathname": "/ds/palette",
+      "leaf": true,
+      "publicationKey": "ds_palette",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/ds/panel",
+      "id": "/ds/panel",
+      "pathname": "/ds/panel",
+      "leaf": true,
+      "publicationKey": "ds_panel",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/ds/partner-rail",
+      "id": "/ds/partner-rail",
+      "pathname": "/ds/partner-rail",
+      "leaf": true,
+      "publicationKey": "ds_partner-rail",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/ds/semantic",
+      "id": "/ds/semantic",
+      "pathname": "/ds/semantic",
+      "leaf": true,
+      "publicationKey": "ds_semantic",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/ds/shadows",
+      "id": "/ds/shadows",
+      "pathname": "/ds/shadows",
+      "leaf": true,
+      "publicationKey": "ds_shadows",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/ds/spinner",
+      "id": "/ds/spinner",
+      "pathname": "/ds/spinner",
+      "leaf": true,
+      "publicationKey": "ds_spinner",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/ds/stats",
+      "id": "/ds/stats",
+      "pathname": "/ds/stats",
+      "leaf": true,
+      "publicationKey": "ds_stats",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/ds/tabs",
+      "id": "/ds/tabs",
+      "pathname": "/ds/tabs",
+      "leaf": true,
+      "publicationKey": "ds_tabs",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/ds/takeover",
+      "id": "/ds/takeover",
+      "pathname": "/ds/takeover",
+      "leaf": true,
+      "publicationKey": "ds_takeover",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/ds/typography",
+      "id": "/ds/typography",
+      "pathname": "/ds/typography",
+      "leaf": true,
+      "publicationKey": "ds_typography",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/libraries_/$framework",
+      "id": "/libraries/$framework",
+      "pathname": "/libraries/$framework",
+      "leaf": true,
+      "publicationKey": "libraries__framework",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/oauth/authorize",
+      "id": "/oauth/authorize",
+      "pathname": "/oauth/authorize",
+      "leaf": true,
+      "publicationKey": "oauth_authorize",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/partners/",
+      "id": "/partners/",
+      "pathname": "/partners/",
+      "leaf": true,
+      "publicationKey": "partners_",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/partners/$partner",
+      "id": "/partners/$partner",
+      "pathname": "/partners/$partner",
+      "leaf": true,
+      "publicationKey": "partners_partner",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/shop/",
+      "id": "/shop/",
+      "pathname": "/shop/",
+      "leaf": true,
+      "publicationKey": "shop_",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/shop/$handle",
+      "id": "/shop/$handle",
+      "pathname": "/shop/$handle",
+      "leaf": true,
+      "publicationKey": "shop_handle",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/shop/cart",
+      "id": "/shop/cart",
+      "pathname": "/shop/cart",
+      "leaf": true,
+      "publicationKey": "shop_cart",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/shop/search",
+      "id": "/shop/search",
+      "pathname": "/shop/search",
+      "leaf": true,
+      "publicationKey": "shop_search",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/showcase/",
+      "id": "/showcase/",
+      "pathname": "/showcase/",
+      "leaf": true,
+      "publicationKey": "showcase_",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/showcase/$id",
+      "id": "/showcase/$id",
+      "pathname": "/showcase/$id",
+      "leaf": true,
+      "publicationKey": "showcase_id",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/showcase/submit",
+      "id": "/showcase/submit",
+      "pathname": "/showcase/submit",
+      "leaf": true,
+      "publicationKey": "showcase_submit",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/stack/$category",
+      "id": "/stack/$category",
+      "pathname": "/stack/$category",
+      "leaf": true,
+      "publicationKey": "stack_category",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/admin/feedback/",
+      "id": "/admin/feedback/",
+      "pathname": "/admin/feedback/",
+      "leaf": true,
+      "publicationKey": "admin_feedback_",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/admin/feedback_/$id",
+      "id": "/admin/feedback/$id",
+      "pathname": "/admin/feedback/$id",
+      "leaf": true,
+      "publicationKey": "admin_feedback__id",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/admin/notes/",
+      "id": "/admin/notes/",
+      "pathname": "/admin/notes/",
+      "leaf": true,
+      "publicationKey": "admin_notes_",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/admin/roles/",
+      "id": "/admin/roles/",
+      "pathname": "/admin/roles/",
+      "leaf": true,
+      "publicationKey": "admin_roles_",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/admin/roles/$roleId",
+      "id": "/admin/roles/$roleId",
+      "pathname": "/admin/roles/$roleId",
+      "leaf": true,
+      "publicationKey": "admin_roles_roleId",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/admin/showcases/",
+      "id": "/admin/showcases/",
+      "pathname": "/admin/showcases/",
+      "leaf": true,
+      "publicationKey": "admin_showcases_",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/admin/showcases_/$id",
+      "id": "/admin/showcases/$id",
+      "pathname": "/admin/showcases/$id",
+      "leaf": true,
+      "publicationKey": "admin_showcases__id",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/admin/users/$userId",
+      "id": "/admin/users/$userId",
+      "pathname": "/admin/users/$userId",
+      "leaf": true,
+      "publicationKey": "admin_users_userId",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/chat/b/$botId",
+      "id": "/chat/b/$botId",
+      "pathname": "/chat/b/$botId",
+      "leaf": true,
+      "publicationKey": "chat_b_botId",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/chat/c/$conversationId",
+      "id": "/chat/c/$conversationId",
+      "pathname": "/chat/c/$conversationId",
+      "leaf": true,
+      "publicationKey": "chat_c_conversationId",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/chat/p/$hash",
+      "id": "/chat/p/$hash",
+      "pathname": "/chat/p/$hash",
+      "leaf": true,
+      "publicationKey": "chat_p_hash",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/chat/w/$workspaceId",
+      "id": "/chat/w/$workspaceId",
+      "pathname": "/chat/w/$workspaceId",
+      "leaf": true,
+      "publicationKey": "chat_w_workspaceId",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/intent/registry/",
+      "id": "/intent/registry/",
+      "pathname": "/intent/registry/",
+      "leaf": true,
+      "publicationKey": "intent_registry_",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/shop/collections/$handle",
+      "id": "/shop/collections/$handle",
+      "pathname": "/shop/collections/$handle",
+      "leaf": true,
+      "publicationKey": "shop_collections_handle",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/shop/pages/$handle",
+      "id": "/shop/pages/$handle",
+      "pathname": "/shop/pages/$handle",
+      "leaf": true,
+      "publicationKey": "shop_pages_handle",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/shop/policies/$handle",
+      "id": "/shop/policies/$handle",
+      "pathname": "/shop/policies/$handle",
+      "leaf": true,
+      "publicationKey": "shop_policies_handle",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/shop/products/$handle",
+      "id": "/shop/products/$handle",
+      "pathname": "/shop/products/$handle",
+      "leaf": true,
+      "publicationKey": "shop_products_handle",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/showcase/edit/$id",
+      "id": "/showcase/edit/$id",
+      "pathname": "/showcase/edit/$id",
+      "leaf": true,
+      "publicationKey": "showcase_edit_id",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/stats/npm/",
+      "id": "/stats/npm/",
+      "pathname": "/stats/npm/",
+      "leaf": true,
+      "publicationKey": "stats_npm_",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/stats/npm/$packages",
+      "id": "/stats/npm/$packages",
+      "pathname": "/stats/npm/$packages",
+      "leaf": true,
+      "publicationKey": "stats_npm_packages",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/stats/npm/embed",
+      "id": "/stats/npm/embed",
+      "pathname": "/stats/npm/embed",
+      "leaf": true,
+      "publicationKey": "stats_npm_embed",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/_library/charts/catalog/",
+      "id": "/_library/charts/catalog/",
+      "pathname": "/charts/catalog/",
+      "leaf": true,
+      "publicationKey": "library_charts_catalog_",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/intent/registry/$packageName/",
+      "id": "/intent/registry/$packageName/",
+      "pathname": "/intent/registry/$packageName/",
+      "leaf": true,
+      "publicationKey": "intent_registry_packageName_",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/intent/registry/$packageName/$skillName",
+      "id": "/intent/registry/$packageName/$skillName",
+      "pathname": "/intent/registry/$packageName/$skillName",
+      "leaf": true,
+      "publicationKey": "intent_registry_packageName_skillName",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/_library/$libraryId/$version/docs/community-resources",
+      "id": "/_library/$libraryId/$version/docs/community-resources",
+      "pathname": "/$libraryId/$version/docs/community-resources",
+      "leaf": true,
+      "publicationKey": "library_libraryId_version_docs_community-resources",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/_library/$libraryId/$version/docs/contributors",
+      "id": "/_library/$libraryId/$version/docs/contributors",
+      "pathname": "/$libraryId/$version/docs/contributors",
+      "leaf": true,
+      "publicationKey": "library_libraryId_version_docs_contributors",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/_library/$libraryId/$version/docs/npm-stats",
+      "id": "/_library/$libraryId/$version/docs/npm-stats",
+      "pathname": "/$libraryId/$version/docs/npm-stats",
+      "leaf": true,
+      "publicationKey": "library_libraryId_version_docs_npm-stats",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/_library/charts/catalog/charts/$caseId",
+      "id": "/_library/charts/catalog/charts/$caseId",
+      "pathname": "/charts/catalog/charts/$caseId",
+      "leaf": true,
+      "publicationKey": "library_charts_catalog_charts_caseId",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/_library/charts/catalog/collections/$collectionId",
+      "id": "/_library/charts/catalog/collections/$collectionId",
+      "pathname": "/charts/catalog/collections/$collectionId",
+      "leaf": true,
+      "publicationKey": "library_charts_catalog_collections_collectionId",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
+      "pattern": "/_library/$libraryId/$version/docs/framework/$framework/examples/$",
+      "id": "/_library/$libraryId/$version/docs/framework/$framework/examples/$",
+      "pathname": "/$libraryId/$version/docs/framework/$framework/examples/$",
+      "leaf": true,
+      "publicationKey": "library_libraryId_version_docs_framework_framework_examples_",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    }
+  ],
+  "unimplementedRouteFamilies": [
+    {
+      "pattern": "/builder",
+      "classification": "complex client + backend application",
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/llms-full.txt",
       "classification": "generated/negotiated output",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/llms.txt",
       "classification": "generated/negotiated output",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/login",
-      "classification": "auth/session-sensitive application",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/maintainers",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/merch",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/paid-support",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/partners",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/partners-embed",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/privacy",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/robots.txt",
       "classification": "generated/negotiated output",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/rss.xml",
       "classification": "generated/negotiated output",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/shop",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/showcases",
       "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/sitemap.xml",
       "classification": "generated/negotiated output",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/sponsors-embed",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/support",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/tenets",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/terms",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/workshops",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/$libraryId",
       "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/.well-known/oauth-authorization-server",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/account/feedback",
-      "classification": "auth/session-sensitive application",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/account/integrations",
-      "classification": "auth/session-sensitive application",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/account/notes",
-      "classification": "auth/session-sensitive application",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/account/submissions",
-      "classification": "auth/session-sensitive application",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/admin/audit",
-      "classification": "auth/session-sensitive application",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/admin/chat-access",
-      "classification": "auth/session-sensitive application",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/admin/github-stats",
-      "classification": "auth/session-sensitive application",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/admin/intent",
-      "classification": "auth/session-sensitive application",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/admin/logins",
-      "classification": "auth/session-sensitive application",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/admin/npm-stats",
-      "classification": "auth/session-sensitive application",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/admin/users",
       "classification": "auth/session-sensitive application",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/uploadthing",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/auth/cli",
-      "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/auth/popup-success",
-      "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/auth/signout",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/blog/$",
       "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/builder/$id",
       "classification": "complex client + backend application",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/builder/ai",
       "classification": "complex client + backend application",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/builder/esbuild",
       "classification": "complex client + backend application",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/builder/llms.txt",
       "classification": "complex client + backend application",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/builder/new",
       "classification": "complex client + backend application",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/chat/charts",
-      "classification": "complex client + backend application",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/chat/new-project",
       "classification": "complex client + backend application",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/chat/shared",
-      "classification": "complex client + backend application",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/ds/avatar",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/ds/badges",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/ds/breadcrumbs",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/ds/buttons",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/ds/cards",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/ds/colors",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/ds/dialog",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/ds/drawer",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/ds/dropdown",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/ds/effects",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/ds/eyebrow",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/ds/iconography",
       "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/ds/inputs",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/ds/logos",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/ds/maintainers",
       "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/ds/navbar",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/ds/overlays",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/ds/page-header",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/ds/palette",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/ds/panel",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/ds/partner-rail",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/ds/semantic",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/ds/shadows",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/ds/spinner",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/ds/stats",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/ds/tabs",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/ds/takeover",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/ds/typography",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/libraries/$framework",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/oauth/authorize",
-      "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/oauth/register",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/oauth/token",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/partners/$partner",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/partners/netlify",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/partners/railway",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/partners/render",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/shop/$handle",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/shop/cart",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/shop/search",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/showcase/$id",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/showcase/submit",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/stack/$category",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/account/",
-      "classification": "auth/session-sensitive application",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/admin/",
-      "classification": "auth/session-sensitive application",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/application-starter/",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/blog/",
       "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/chat/",
-      "classification": "complex client + backend application",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/ds/",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/partners/",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/shop/",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/showcase/",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/stats/",
       "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/$libraryId/$version",
       "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/charts/catalog",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/admin/feedback/$id",
-      "classification": "auth/session-sensitive application",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/admin/roles/$roleId",
-      "classification": "auth/session-sensitive application",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/admin/showcases/$id",
-      "classification": "auth/session-sensitive application",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/admin/users/$userId",
-      "classification": "auth/session-sensitive application",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/application-starter/compile",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/application-starter/compile-attributed",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/application-starter/download",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/application-starter/feature-artifacts",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/application-starter/features",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/application-starter/load-remote-addon",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/application-starter/load-remote-template",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/application-starter/load-template",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/application-starter/resolve",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/application-starter/suggest",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/application-starter/validate",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/activity",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/app-version",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/bootstrap",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/bots",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/connection",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/device-transport",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/draft",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/files",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/model-options",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/models",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/plugins",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/policy",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/project-snapshots",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/projects",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/recipes",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/references",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/sections",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/skills",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/workspace",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/workspace-history",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/workspace-index",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/data/libraries",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/data/partners",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/discord/interactions",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/example/deploy",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/github/webhook",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/mcp/$",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/og/{$}.png",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/readme/{$}.png",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/auth/$provider/start",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/auth/mcp/callback",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/auth/mcp/client-metadata",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/builder/p/$hash",
       "classification": "complex client + backend application",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/charts/catalog/catalog.json",
       "classification": "generated/negotiated output",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/chat/b/$botId",
-      "classification": "complex client + backend application",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/chat/c/$conversationId",
-      "classification": "complex client + backend application",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/chat/p/$hash",
-      "classification": "complex client + backend application",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/chat/project/$projectId",
       "classification": "complex client + backend application",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/chat/w/$workspaceId",
-      "classification": "complex client + backend application",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/intent/registry/$packageName",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/shop/collections/$handle",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/shop/pages/$handle",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/shop/policies/$handle",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/shop/products/$handle",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/showcase/edit/$id",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/stats/npm/$packages",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/stats/npm/embed",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/$libraryId/",
       "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/admin/feedback/",
-      "classification": "auth/session-sensitive application",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/admin/notes/",
-      "classification": "auth/session-sensitive application",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/admin/roles/",
-      "classification": "auth/session-sensitive application",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/admin/showcases/",
-      "classification": "auth/session-sensitive application",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/mcp/",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/intent/registry/",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/stats/npm/",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/$libraryId/$version/llms.txt",
       "classification": "generated/negotiated output",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/charts/catalog/all",
       "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/application-starter/deploy/check-name",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/application-starter/deploy/github",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/auth/callback/$provider",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/auth/cli/create-ticket",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/account/devices",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/account/onboarding",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/account/preferences",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/bot-drafts/$id",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/bots/$id",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/bots/bulk",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/bots/move",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/copies/$id",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/kody/account",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/kody/callback",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/kody/community",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/kody/connect",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/kody/memories",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/kody/runs",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/kody/servers",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/kody/sync",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/kody/unlink",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/kody/usage",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/mcp/$",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/mcp/contract",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/openrouter/callback",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/plugins/$id",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/project-snapshots/$hash",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/projects/$id",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/recipes/$id",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/retries/$id",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/sections/$id",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/skills/$id",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/workspace-index/activity",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/workspace-sync/$operation",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/intent/registry/$packageName/$skillName",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/intent/registry/$packageName/{$}.md",
       "classification": "generated/negotiated output",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/$libraryId/$version/",
       "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/ai/$version/",
       "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/charts/$version/",
       "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/charts/catalog/",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/cli/$version/",
       "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/config/$version/",
       "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/db/$version/",
       "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/devtools/$version/",
       "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/form/$version/",
       "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/highlight/$version/",
       "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/hotkeys/$version/",
       "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/intent/$version/",
       "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/markdown/$version/",
       "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/pacer/$version/",
       "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/query/$version/",
       "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/ranger/$version/",
       "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/router/$version/",
       "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/start/$version/",
       "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/store/$version/",
       "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/table/$version/",
       "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/virtual/$version/",
       "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/workflow/$version/",
       "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/intent/registry/$packageName/",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/charts/catalog/charts/$caseId",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
-    },
-    {
-      "pattern": "/charts/catalog/collections/$collectionId",
-      "classification": "public page/application route",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/auth/cli/status/$ticketId",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/bot-drafts/$id/files",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/bots/$id/$operation",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/bots/$id/files",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/conversations/$id/$operation",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/conversations/$id/files",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/conversations/$id/memories",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/conversations/$id/references",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/kody/community/$listingId",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/kody/mail/inboxes",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/kody/mail/messages",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/kody/memories/$memoryId",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/kody/resources/$kind",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/kody/runs/$runId",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/project-snapshots/$hash/quarantine",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/projects/$id/sync",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/references/kody/inspect",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/references/kody/refresh",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/references/tools/refresh",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/retries/$id/prepare",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/charts/catalog/previews/$revision/{$caseId}.svg",
       "classification": "generated/negotiated output",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/chat/c/$conversationId/m/$messageId",
       "classification": "complex client + backend application",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/chat/w/$workspaceId/b/$botId",
       "classification": "complex client + backend application",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/chat/w/$workspaceId/home/$homeSection",
       "classification": "complex client + backend application",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/account/composer-drafts/$accountId/$scope",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/bot-drafts/$id/files/$fileId",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/bots/$id/files/$fileId",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/conversations/$id/files/$fileId",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/conversations/$id/files/import",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/conversations/$id/memories/$memoryId",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/conversations/$id/workflow-runs/$runId",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/conversations/$id/workflows/$workflowId",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/kody/jobs/$jobId/enabled",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/kody/mail/messages/$messageId",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/kody/memories/$memoryId/apply",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/kody/memories/$memoryId/review",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/kody/memories/create/apply",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/kody/memories/create/review",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/kody/packages/$packageId/document",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/kody/runs/$runId/triage",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/kody/servers/$serverId/check",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/kody/servers/$serverId/enabled",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/kody/servers/$serverId/reconnect",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/bot-drafts/$id/files/$fileId/content",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/bots/$id/files/$fileId/content",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/conversations/$id/execution/snapshots/$snapshotId",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/conversations/$id/files/$fileId/content",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
       "pattern": "/api/chat/conversations/$id/workflow-runs/$runId/cancel",
       "classification": "backend/service protocol",
-      "status": "not yet implemented by corpus publisher"
+      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     }
   ],
   "sharedGaps": [

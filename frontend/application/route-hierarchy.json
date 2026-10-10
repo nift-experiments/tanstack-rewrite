@@ -1,0 +1,2202 @@
+{
+  "scope": "Frozen route identity/parent inventory only; generated original implementation is not imported",
+  "records": [
+    {
+      "name": "IndexRoute",
+      "source": "src/routes/index",
+      "parent": "rootRouteImport",
+      "id": "/",
+      "path": "/"
+    },
+    {
+      "name": "LibraryRoute",
+      "source": "src/routes/_library",
+      "parent": "rootRouteImport",
+      "id": "/_library"
+    },
+    {
+      "name": "AccountRoute",
+      "source": "src/routes/account",
+      "parent": "rootRouteImport",
+      "id": "/account",
+      "path": "/account"
+    },
+    {
+      "name": "AdminRouteRoute",
+      "source": "src/routes/admin/route",
+      "parent": "rootRouteImport",
+      "id": "/admin",
+      "path": "/admin"
+    },
+    {
+      "name": "AdsRoute",
+      "source": "src/routes/ads",
+      "parent": "rootRouteImport",
+      "id": "/ads",
+      "path": "/ads"
+    },
+    {
+      "name": "ApplicationStarterRoute",
+      "source": "src/routes/application-starter",
+      "parent": "rootRouteImport",
+      "id": "/application-starter",
+      "path": "/application-starter"
+    },
+    {
+      "name": "BlogRoute",
+      "source": "src/routes/blog",
+      "parent": "rootRouteImport",
+      "id": "/blog",
+      "path": "/blog"
+    },
+    {
+      "name": "BrandGuideRoute",
+      "source": "src/routes/brand-guide",
+      "parent": "rootRouteImport",
+      "id": "/brand-guide",
+      "path": "/brand-guide"
+    },
+    {
+      "name": "BuilderRoute",
+      "source": "src/routes/builder",
+      "parent": "rootRouteImport",
+      "id": "/builder",
+      "path": "/builder"
+    },
+    {
+      "name": "ChatRoute",
+      "source": "src/routes/chat",
+      "parent": "rootRouteImport",
+      "id": "/chat",
+      "path": "/chat"
+    },
+    {
+      "name": "ChatAccessRoute",
+      "source": "src/routes/chat-access",
+      "parent": "rootRouteImport",
+      "id": "/chat-access",
+      "path": "/chat-access"
+    },
+    {
+      "name": "CommunityProjectsRoute",
+      "source": "src/routes/community-projects",
+      "parent": "rootRouteImport",
+      "id": "/community-projects",
+      "path": "/community-projects"
+    },
+    {
+      "name": "DashboardRoute",
+      "source": "src/routes/dashboard",
+      "parent": "rootRouteImport",
+      "id": "/dashboard",
+      "path": "/dashboard"
+    },
+    {
+      "name": "DsRoute",
+      "source": "src/routes/ds",
+      "parent": "rootRouteImport",
+      "id": "/ds",
+      "path": "/ds"
+    },
+    {
+      "name": "EthosRoute",
+      "source": "src/routes/ethos",
+      "parent": "rootRouteImport",
+      "id": "/ethos",
+      "path": "/ethos"
+    },
+    {
+      "name": "ExploreRoute",
+      "source": "src/routes/explore",
+      "parent": "rootRouteImport",
+      "id": "/explore",
+      "path": "/explore"
+    },
+    {
+      "name": "FeedbackLeaderboardRoute",
+      "source": "src/routes/feedback-leaderboard",
+      "parent": "rootRouteImport",
+      "id": "/feedback-leaderboard",
+      "path": "/feedback-leaderboard"
+    },
+    {
+      "name": "LearnRoute",
+      "source": "src/routes/learn",
+      "parent": "rootRouteImport",
+      "id": "/learn",
+      "path": "/learn"
+    },
+    {
+      "name": "LibrariesRoute",
+      "source": "src/routes/libraries",
+      "parent": "rootRouteImport",
+      "id": "/libraries",
+      "path": "/libraries"
+    },
+    {
+      "name": "LlmsFullDottxtRoute",
+      "source": "src/routes/llms-full[.]txt",
+      "parent": "rootRouteImport",
+      "id": "/llms-full.txt",
+      "path": "/llms-full.txt"
+    },
+    {
+      "name": "LlmsDottxtRoute",
+      "source": "src/routes/llms[.]txt",
+      "parent": "rootRouteImport",
+      "id": "/llms.txt",
+      "path": "/llms.txt"
+    },
+    {
+      "name": "LoginRoute",
+      "source": "src/routes/login",
+      "parent": "rootRouteImport",
+      "id": "/login",
+      "path": "/login"
+    },
+    {
+      "name": "MaintainersRoute",
+      "source": "src/routes/maintainers",
+      "parent": "rootRouteImport",
+      "id": "/maintainers",
+      "path": "/maintainers"
+    },
+    {
+      "name": "MerchRoute",
+      "source": "src/routes/merch",
+      "parent": "rootRouteImport",
+      "id": "/merch",
+      "path": "/merch"
+    },
+    {
+      "name": "PaidSupportRoute",
+      "source": "src/routes/paid-support",
+      "parent": "rootRouteImport",
+      "id": "/paid-support",
+      "path": "/paid-support"
+    },
+    {
+      "name": "PartnersRoute",
+      "source": "src/routes/partners",
+      "parent": "rootRouteImport",
+      "id": "/partners",
+      "path": "/partners"
+    },
+    {
+      "name": "PartnersEmbedRoute",
+      "source": "src/routes/partners-embed",
+      "parent": "rootRouteImport",
+      "id": "/partners-embed",
+      "path": "/partners-embed"
+    },
+    {
+      "name": "PrivacyRoute",
+      "source": "src/routes/privacy",
+      "parent": "rootRouteImport",
+      "id": "/privacy",
+      "path": "/privacy"
+    },
+    {
+      "name": "RobotsDottxtRoute",
+      "source": "src/routes/robots[.]txt",
+      "parent": "rootRouteImport",
+      "id": "/robots.txt",
+      "path": "/robots.txt"
+    },
+    {
+      "name": "RssDotxmlRoute",
+      "source": "src/routes/rss[.]xml",
+      "parent": "rootRouteImport",
+      "id": "/rss.xml",
+      "path": "/rss.xml"
+    },
+    {
+      "name": "ShopRoute",
+      "source": "src/routes/shop",
+      "parent": "rootRouteImport",
+      "id": "/shop",
+      "path": "/shop"
+    },
+    {
+      "name": "ShowcasesRoute",
+      "source": "src/routes/showcases",
+      "parent": "rootRouteImport",
+      "id": "/showcases",
+      "path": "/showcases"
+    },
+    {
+      "name": "SitemapDotxmlRoute",
+      "source": "src/routes/sitemap[.]xml",
+      "parent": "rootRouteImport",
+      "id": "/sitemap.xml",
+      "path": "/sitemap.xml"
+    },
+    {
+      "name": "SponsorsEmbedRoute",
+      "source": "src/routes/sponsors-embed",
+      "parent": "rootRouteImport",
+      "id": "/sponsors-embed",
+      "path": "/sponsors-embed"
+    },
+    {
+      "name": "SupportRoute",
+      "source": "src/routes/support",
+      "parent": "rootRouteImport",
+      "id": "/support",
+      "path": "/support"
+    },
+    {
+      "name": "TenetsRoute",
+      "source": "src/routes/tenets",
+      "parent": "rootRouteImport",
+      "id": "/tenets",
+      "path": "/tenets"
+    },
+    {
+      "name": "TermsRoute",
+      "source": "src/routes/terms",
+      "parent": "rootRouteImport",
+      "id": "/terms",
+      "path": "/terms"
+    },
+    {
+      "name": "WorkshopsRoute",
+      "source": "src/routes/workshops",
+      "parent": "rootRouteImport",
+      "id": "/workshops",
+      "path": "/workshops"
+    },
+    {
+      "name": "DotwellKnownOauthAuthorizationServerRoute",
+      "source": "src/routes/[.]well-known/oauth-authorization-server",
+      "parent": "rootRouteImport",
+      "id": "/.well-known/oauth-authorization-server",
+      "path": "/.well-known/oauth-authorization-server"
+    },
+    {
+      "name": "LibraryLibraryIdRouteRoute",
+      "source": "src/routes/_library/$libraryId/route",
+      "parent": "LibraryRoute",
+      "id": "/$libraryId",
+      "path": "/$libraryId"
+    },
+    {
+      "name": "AccountIndexRoute",
+      "source": "src/routes/account/index",
+      "parent": "AccountRoute",
+      "id": "/",
+      "path": "/"
+    },
+    {
+      "name": "AccountFeedbackRoute",
+      "source": "src/routes/account/feedback",
+      "parent": "AccountRoute",
+      "id": "/feedback",
+      "path": "/feedback"
+    },
+    {
+      "name": "AccountIntegrationsRoute",
+      "source": "src/routes/account/integrations",
+      "parent": "AccountRoute",
+      "id": "/integrations",
+      "path": "/integrations"
+    },
+    {
+      "name": "AccountNotesRoute",
+      "source": "src/routes/account/notes",
+      "parent": "AccountRoute",
+      "id": "/notes",
+      "path": "/notes"
+    },
+    {
+      "name": "AccountSubmissionsRoute",
+      "source": "src/routes/account/submissions",
+      "parent": "AccountRoute",
+      "id": "/submissions",
+      "path": "/submissions"
+    },
+    {
+      "name": "AdminIndexRoute",
+      "source": "src/routes/admin/index",
+      "parent": "AdminRouteRoute",
+      "id": "/",
+      "path": "/"
+    },
+    {
+      "name": "AdminAuditRoute",
+      "source": "src/routes/admin/audit",
+      "parent": "AdminRouteRoute",
+      "id": "/audit",
+      "path": "/audit"
+    },
+    {
+      "name": "AdminChatAccessRoute",
+      "source": "src/routes/admin/chat-access",
+      "parent": "AdminRouteRoute",
+      "id": "/chat-access",
+      "path": "/chat-access"
+    },
+    {
+      "name": "AdminDocsRoute",
+      "source": "src/routes/admin/docs",
+      "parent": "AdminRouteRoute",
+      "id": "/docs",
+      "path": "/docs"
+    },
+    {
+      "name": "AdminGithubStatsRoute",
+      "source": "src/routes/admin/github-stats",
+      "parent": "AdminRouteRoute",
+      "id": "/github-stats",
+      "path": "/github-stats"
+    },
+    {
+      "name": "AdminIntentRoute",
+      "source": "src/routes/admin/intent",
+      "parent": "AdminRouteRoute",
+      "id": "/intent",
+      "path": "/intent"
+    },
+    {
+      "name": "AdminLoginsRoute",
+      "source": "src/routes/admin/logins",
+      "parent": "AdminRouteRoute",
+      "id": "/logins",
+      "path": "/logins"
+    },
+    {
+      "name": "AdminNpmStatsRoute",
+      "source": "src/routes/admin/npm-stats",
+      "parent": "AdminRouteRoute",
+      "id": "/npm-stats",
+      "path": "/npm-stats"
+    },
+    {
+      "name": "AdminUsersRoute",
+      "source": "src/routes/admin/users",
+      "parent": "AdminRouteRoute",
+      "id": "/users",
+      "path": "/users"
+    },
+    {
+      "name": "ApiUploadthingRoute",
+      "source": "src/routes/api/uploadthing",
+      "parent": "rootRouteImport",
+      "id": "/api/uploadthing",
+      "path": "/api/uploadthing"
+    },
+    {
+      "name": "ApplicationStarterIndexRoute",
+      "source": "src/routes/application-starter.index",
+      "parent": "ApplicationStarterRoute",
+      "id": "/",
+      "path": "/"
+    },
+    {
+      "name": "ApplicationStarterDocsRoute",
+      "source": "src/routes/application-starter.docs",
+      "parent": "ApplicationStarterRoute",
+      "id": "/docs",
+      "path": "/docs"
+    },
+    {
+      "name": "AuthCliRoute",
+      "source": "src/routes/auth/cli",
+      "parent": "rootRouteImport",
+      "id": "/auth/cli",
+      "path": "/auth/cli"
+    },
+    {
+      "name": "AuthPopupSuccessRoute",
+      "source": "src/routes/auth/popup-success",
+      "parent": "rootRouteImport",
+      "id": "/auth/popup-success",
+      "path": "/auth/popup-success"
+    },
+    {
+      "name": "AuthSignoutRoute",
+      "source": "src/routes/auth/signout",
+      "parent": "rootRouteImport",
+      "id": "/auth/signout",
+      "path": "/auth/signout"
+    },
+    {
+      "name": "BlogIndexRoute",
+      "source": "src/routes/blog.index",
+      "parent": "BlogRoute",
+      "id": "/",
+      "path": "/"
+    },
+    {
+      "name": "BlogSplatRoute",
+      "source": "src/routes/blog.$",
+      "parent": "BlogRoute",
+      "id": "/$",
+      "path": "/$"
+    },
+    {
+      "name": "BuilderIdRoute",
+      "source": "src/routes/builder_.$id",
+      "parent": "rootRouteImport",
+      "id": "/builder_/$id",
+      "path": "/builder/$id"
+    },
+    {
+      "name": "BuilderAiRoute",
+      "source": "src/routes/builder_.ai",
+      "parent": "rootRouteImport",
+      "id": "/builder_/ai",
+      "path": "/builder/ai"
+    },
+    {
+      "name": "BuilderEsbuildRoute",
+      "source": "src/routes/builder_.esbuild",
+      "parent": "rootRouteImport",
+      "id": "/builder_/esbuild",
+      "path": "/builder/esbuild"
+    },
+    {
+      "name": "BuilderLlmsDottxtRoute",
+      "source": "src/routes/builder_.llms[.]txt",
+      "parent": "rootRouteImport",
+      "id": "/builder_/llms.txt",
+      "path": "/builder/llms.txt"
+    },
+    {
+      "name": "BuilderNewRoute",
+      "source": "src/routes/builder_.new",
+      "parent": "rootRouteImport",
+      "id": "/builder_/new",
+      "path": "/builder/new"
+    },
+    {
+      "name": "ChatIndexRoute",
+      "source": "src/routes/chat.index",
+      "parent": "ChatRoute",
+      "id": "/",
+      "path": "/"
+    },
+    {
+      "name": "ChatChartsRoute",
+      "source": "src/routes/chat.charts",
+      "parent": "ChatRoute",
+      "id": "/charts",
+      "path": "/charts"
+    },
+    {
+      "name": "ChatNewProjectRoute",
+      "source": "src/routes/chat.new-project",
+      "parent": "ChatRoute",
+      "id": "/new-project",
+      "path": "/new-project"
+    },
+    {
+      "name": "ChatSharedRoute",
+      "source": "src/routes/chat.shared",
+      "parent": "ChatRoute",
+      "id": "/shared",
+      "path": "/shared"
+    },
+    {
+      "name": "DsIndexRoute",
+      "source": "src/routes/ds.index",
+      "parent": "DsRoute",
+      "id": "/",
+      "path": "/"
+    },
+    {
+      "name": "DsAvatarRoute",
+      "source": "src/routes/ds.avatar",
+      "parent": "DsRoute",
+      "id": "/avatar",
+      "path": "/avatar"
+    },
+    {
+      "name": "DsBadgesRoute",
+      "source": "src/routes/ds.badges",
+      "parent": "DsRoute",
+      "id": "/badges",
+      "path": "/badges"
+    },
+    {
+      "name": "DsBreadcrumbsRoute",
+      "source": "src/routes/ds.breadcrumbs",
+      "parent": "DsRoute",
+      "id": "/breadcrumbs",
+      "path": "/breadcrumbs"
+    },
+    {
+      "name": "DsButtonsRoute",
+      "source": "src/routes/ds.buttons",
+      "parent": "DsRoute",
+      "id": "/buttons",
+      "path": "/buttons"
+    },
+    {
+      "name": "DsCardsRoute",
+      "source": "src/routes/ds.cards",
+      "parent": "DsRoute",
+      "id": "/cards",
+      "path": "/cards"
+    },
+    {
+      "name": "DsColorsRoute",
+      "source": "src/routes/ds.colors",
+      "parent": "DsRoute",
+      "id": "/colors",
+      "path": "/colors"
+    },
+    {
+      "name": "DsDialogRoute",
+      "source": "src/routes/ds.dialog",
+      "parent": "DsRoute",
+      "id": "/dialog",
+      "path": "/dialog"
+    },
+    {
+      "name": "DsDrawerRoute",
+      "source": "src/routes/ds.drawer",
+      "parent": "DsRoute",
+      "id": "/drawer",
+      "path": "/drawer"
+    },
+    {
+      "name": "DsDropdownRoute",
+      "source": "src/routes/ds.dropdown",
+      "parent": "DsRoute",
+      "id": "/dropdown",
+      "path": "/dropdown"
+    },
+    {
+      "name": "DsEffectsRoute",
+      "source": "src/routes/ds.effects",
+      "parent": "DsRoute",
+      "id": "/effects",
+      "path": "/effects"
+    },
+    {
+      "name": "DsEyebrowRoute",
+      "source": "src/routes/ds.eyebrow",
+      "parent": "DsRoute",
+      "id": "/eyebrow",
+      "path": "/eyebrow"
+    },
+    {
+      "name": "DsInputsRoute",
+      "source": "src/routes/ds.inputs",
+      "parent": "DsRoute",
+      "id": "/inputs",
+      "path": "/inputs"
+    },
+    {
+      "name": "DsLogosRoute",
+      "source": "src/routes/ds.logos",
+      "parent": "DsRoute",
+      "id": "/logos",
+      "path": "/logos"
+    },
+    {
+      "name": "DsMaintainersRoute",
+      "source": "src/routes/ds.maintainers",
+      "parent": "DsRoute",
+      "id": "/maintainers",
+      "path": "/maintainers"
+    },
+    {
+      "name": "DsNavbarRoute",
+      "source": "src/routes/ds.navbar",
+      "parent": "DsRoute",
+      "id": "/navbar",
+      "path": "/navbar"
+    },
+    {
+      "name": "DsOverlaysRoute",
+      "source": "src/routes/ds.overlays",
+      "parent": "DsRoute",
+      "id": "/overlays",
+      "path": "/overlays"
+    },
+    {
+      "name": "DsPageHeaderRoute",
+      "source": "src/routes/ds.page-header",
+      "parent": "DsRoute",
+      "id": "/page-header",
+      "path": "/page-header"
+    },
+    {
+      "name": "DsPaletteRoute",
+      "source": "src/routes/ds.palette",
+      "parent": "DsRoute",
+      "id": "/palette",
+      "path": "/palette"
+    },
+    {
+      "name": "DsPanelRoute",
+      "source": "src/routes/ds.panel",
+      "parent": "DsRoute",
+      "id": "/panel",
+      "path": "/panel"
+    },
+    {
+      "name": "DsPartnerRailRoute",
+      "source": "src/routes/ds.partner-rail",
+      "parent": "DsRoute",
+      "id": "/partner-rail",
+      "path": "/partner-rail"
+    },
+    {
+      "name": "DsSemanticRoute",
+      "source": "src/routes/ds.semantic",
+      "parent": "DsRoute",
+      "id": "/semantic",
+      "path": "/semantic"
+    },
+    {
+      "name": "DsShadowsRoute",
+      "source": "src/routes/ds.shadows",
+      "parent": "DsRoute",
+      "id": "/shadows",
+      "path": "/shadows"
+    },
+    {
+      "name": "DsSpinnerRoute",
+      "source": "src/routes/ds.spinner",
+      "parent": "DsRoute",
+      "id": "/spinner",
+      "path": "/spinner"
+    },
+    {
+      "name": "DsStatsRoute",
+      "source": "src/routes/ds.stats",
+      "parent": "DsRoute",
+      "id": "/stats",
+      "path": "/stats"
+    },
+    {
+      "name": "DsTabsRoute",
+      "source": "src/routes/ds.tabs",
+      "parent": "DsRoute",
+      "id": "/tabs",
+      "path": "/tabs"
+    },
+    {
+      "name": "DsTakeoverRoute",
+      "source": "src/routes/ds.takeover",
+      "parent": "DsRoute",
+      "id": "/takeover",
+      "path": "/takeover"
+    },
+    {
+      "name": "DsTypographyRoute",
+      "source": "src/routes/ds.typography",
+      "parent": "DsRoute",
+      "id": "/typography",
+      "path": "/typography"
+    },
+    {
+      "name": "LibrariesFrameworkRoute",
+      "source": "src/routes/libraries_.$framework",
+      "parent": "rootRouteImport",
+      "id": "/libraries_/$framework",
+      "path": "/libraries/$framework"
+    },
+    {
+      "name": "OauthAuthorizeRoute",
+      "source": "src/routes/oauth/authorize",
+      "parent": "rootRouteImport",
+      "id": "/oauth/authorize",
+      "path": "/oauth/authorize"
+    },
+    {
+      "name": "OauthRegisterRoute",
+      "source": "src/routes/oauth/register",
+      "parent": "rootRouteImport",
+      "id": "/oauth/register",
+      "path": "/oauth/register"
+    },
+    {
+      "name": "OauthTokenRoute",
+      "source": "src/routes/oauth/token",
+      "parent": "rootRouteImport",
+      "id": "/oauth/token",
+      "path": "/oauth/token"
+    },
+    {
+      "name": "PartnersIndexRoute",
+      "source": "src/routes/partners.index",
+      "parent": "PartnersRoute",
+      "id": "/",
+      "path": "/"
+    },
+    {
+      "name": "PartnersPartnerRoute",
+      "source": "src/routes/partners.$partner",
+      "parent": "PartnersRoute",
+      "id": "/$partner",
+      "path": "/$partner"
+    },
+    {
+      "name": "PartnersNetlifyRoute",
+      "source": "src/routes/partners.netlify",
+      "parent": "PartnersRoute",
+      "id": "/netlify",
+      "path": "/netlify"
+    },
+    {
+      "name": "PartnersRailwayRoute",
+      "source": "src/routes/partners.railway",
+      "parent": "PartnersRoute",
+      "id": "/railway",
+      "path": "/railway"
+    },
+    {
+      "name": "PartnersRenderRoute",
+      "source": "src/routes/partners.render",
+      "parent": "PartnersRoute",
+      "id": "/render",
+      "path": "/render"
+    },
+    {
+      "name": "ShopIndexRoute",
+      "source": "src/routes/shop.index",
+      "parent": "ShopRoute",
+      "id": "/",
+      "path": "/"
+    },
+    {
+      "name": "ShopHandleRoute",
+      "source": "src/routes/shop.$handle",
+      "parent": "ShopRoute",
+      "id": "/$handle",
+      "path": "/$handle"
+    },
+    {
+      "name": "ShopCartRoute",
+      "source": "src/routes/shop.cart",
+      "parent": "ShopRoute",
+      "id": "/cart",
+      "path": "/cart"
+    },
+    {
+      "name": "ShopSearchRoute",
+      "source": "src/routes/shop.search",
+      "parent": "ShopRoute",
+      "id": "/search",
+      "path": "/search"
+    },
+    {
+      "name": "ShowcaseIndexRoute",
+      "source": "src/routes/showcase/index",
+      "parent": "rootRouteImport",
+      "id": "/showcase/",
+      "path": "/showcase/"
+    },
+    {
+      "name": "ShowcaseIdRoute",
+      "source": "src/routes/showcase/$id",
+      "parent": "rootRouteImport",
+      "id": "/showcase/$id",
+      "path": "/showcase/$id"
+    },
+    {
+      "name": "ShowcaseSubmitRoute",
+      "source": "src/routes/showcase/submit",
+      "parent": "rootRouteImport",
+      "id": "/showcase/submit",
+      "path": "/showcase/submit"
+    },
+    {
+      "name": "StackCategoryRoute",
+      "source": "src/routes/stack.$category",
+      "parent": "rootRouteImport",
+      "id": "/stack/$category",
+      "path": "/stack/$category"
+    },
+    {
+      "name": "StatsIndexRoute",
+      "source": "src/routes/stats/index",
+      "parent": "rootRouteImport",
+      "id": "/stats/",
+      "path": "/stats/"
+    },
+    {
+      "name": "LibraryLibraryIdIndexRoute",
+      "source": "src/routes/_library/$libraryId/index",
+      "parent": "LibraryLibraryIdRouteRoute",
+      "id": "/",
+      "path": "/"
+    },
+    {
+      "name": "LibraryLibraryIdVersionRoute",
+      "source": "src/routes/_library/$libraryId/$version",
+      "parent": "LibraryLibraryIdRouteRoute",
+      "id": "/$version",
+      "path": "/$version"
+    },
+    {
+      "name": "LibraryChartsCatalogRoute",
+      "source": "src/routes/_library/charts.catalog",
+      "parent": "LibraryRoute",
+      "id": "/charts/catalog",
+      "path": "/charts/catalog"
+    },
+    {
+      "name": "AdminFeedbackIndexRoute",
+      "source": "src/routes/admin/feedback.index",
+      "parent": "AdminRouteRoute",
+      "id": "/feedback/",
+      "path": "/feedback/"
+    },
+    {
+      "name": "AdminFeedbackIdRoute",
+      "source": "src/routes/admin/feedback_.$id",
+      "parent": "AdminRouteRoute",
+      "id": "/feedback_/$id",
+      "path": "/feedback/$id"
+    },
+    {
+      "name": "AdminNotesIndexRoute",
+      "source": "src/routes/admin/notes.index",
+      "parent": "AdminRouteRoute",
+      "id": "/notes/",
+      "path": "/notes/"
+    },
+    {
+      "name": "AdminRolesIndexRoute",
+      "source": "src/routes/admin/roles.index",
+      "parent": "AdminRouteRoute",
+      "id": "/roles/",
+      "path": "/roles/"
+    },
+    {
+      "name": "AdminRolesRoleIdRoute",
+      "source": "src/routes/admin/roles.$roleId",
+      "parent": "AdminRouteRoute",
+      "id": "/roles/$roleId",
+      "path": "/roles/$roleId"
+    },
+    {
+      "name": "AdminShowcasesIndexRoute",
+      "source": "src/routes/admin/showcases.index",
+      "parent": "AdminRouteRoute",
+      "id": "/showcases/",
+      "path": "/showcases/"
+    },
+    {
+      "name": "AdminShowcasesIdRoute",
+      "source": "src/routes/admin/showcases_.$id",
+      "parent": "AdminRouteRoute",
+      "id": "/showcases_/$id",
+      "path": "/showcases/$id"
+    },
+    {
+      "name": "AdminUsersUserIdRoute",
+      "source": "src/routes/admin/users.$userId",
+      "parent": "AdminUsersRoute",
+      "id": "/$userId",
+      "path": "/$userId"
+    },
+    {
+      "name": "ApiApplicationStarterCompileRoute",
+      "source": "src/routes/api/application-starter/compile",
+      "parent": "rootRouteImport",
+      "id": "/api/application-starter/compile",
+      "path": "/api/application-starter/compile"
+    },
+    {
+      "name": "ApiApplicationStarterCompileAttributedRoute",
+      "source": "src/routes/api/application-starter/compile-attributed",
+      "parent": "rootRouteImport",
+      "id": "/api/application-starter/compile-attributed",
+      "path": "/api/application-starter/compile-attributed"
+    },
+    {
+      "name": "ApiApplicationStarterDownloadRoute",
+      "source": "src/routes/api/application-starter/download",
+      "parent": "rootRouteImport",
+      "id": "/api/application-starter/download",
+      "path": "/api/application-starter/download"
+    },
+    {
+      "name": "ApiApplicationStarterFeatureArtifactsRoute",
+      "source": "src/routes/api/application-starter/feature-artifacts",
+      "parent": "rootRouteImport",
+      "id": "/api/application-starter/feature-artifacts",
+      "path": "/api/application-starter/feature-artifacts"
+    },
+    {
+      "name": "ApiApplicationStarterFeaturesRoute",
+      "source": "src/routes/api/application-starter/features",
+      "parent": "rootRouteImport",
+      "id": "/api/application-starter/features",
+      "path": "/api/application-starter/features"
+    },
+    {
+      "name": "ApiApplicationStarterLoadRemoteAddonRoute",
+      "source": "src/routes/api/application-starter/load-remote-addon",
+      "parent": "rootRouteImport",
+      "id": "/api/application-starter/load-remote-addon",
+      "path": "/api/application-starter/load-remote-addon"
+    },
+    {
+      "name": "ApiApplicationStarterLoadRemoteTemplateRoute",
+      "source": "src/routes/api/application-starter/load-remote-template",
+      "parent": "rootRouteImport",
+      "id": "/api/application-starter/load-remote-template",
+      "path": "/api/application-starter/load-remote-template"
+    },
+    {
+      "name": "ApiApplicationStarterLoadTemplateRoute",
+      "source": "src/routes/api/application-starter/load-template",
+      "parent": "rootRouteImport",
+      "id": "/api/application-starter/load-template",
+      "path": "/api/application-starter/load-template"
+    },
+    {
+      "name": "ApiApplicationStarterResolveRoute",
+      "source": "src/routes/api/application-starter/resolve",
+      "parent": "rootRouteImport",
+      "id": "/api/application-starter/resolve",
+      "path": "/api/application-starter/resolve"
+    },
+    {
+      "name": "ApiApplicationStarterSuggestRoute",
+      "source": "src/routes/api/application-starter/suggest",
+      "parent": "rootRouteImport",
+      "id": "/api/application-starter/suggest",
+      "path": "/api/application-starter/suggest"
+    },
+    {
+      "name": "ApiApplicationStarterValidateRoute",
+      "source": "src/routes/api/application-starter/validate",
+      "parent": "rootRouteImport",
+      "id": "/api/application-starter/validate",
+      "path": "/api/application-starter/validate"
+    },
+    {
+      "name": "ApiChatActivityRoute",
+      "source": "src/routes/api/chat/activity",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/activity",
+      "path": "/api/chat/activity"
+    },
+    {
+      "name": "ApiChatAppVersionRoute",
+      "source": "src/routes/api/chat/app-version",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/app-version",
+      "path": "/api/chat/app-version"
+    },
+    {
+      "name": "ApiChatBootstrapRoute",
+      "source": "src/routes/api/chat/bootstrap",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/bootstrap",
+      "path": "/api/chat/bootstrap"
+    },
+    {
+      "name": "ApiChatBotsRoute",
+      "source": "src/routes/api/chat/bots",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/bots",
+      "path": "/api/chat/bots"
+    },
+    {
+      "name": "ApiChatConnectionRoute",
+      "source": "src/routes/api/chat/connection",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/connection",
+      "path": "/api/chat/connection"
+    },
+    {
+      "name": "ApiChatDeviceTransportRoute",
+      "source": "src/routes/api/chat/device-transport",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/device-transport",
+      "path": "/api/chat/device-transport"
+    },
+    {
+      "name": "ApiChatDraftRoute",
+      "source": "src/routes/api/chat/draft",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/draft",
+      "path": "/api/chat/draft"
+    },
+    {
+      "name": "ApiChatFilesRoute",
+      "source": "src/routes/api/chat/files",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/files",
+      "path": "/api/chat/files"
+    },
+    {
+      "name": "ApiChatModelOptionsRoute",
+      "source": "src/routes/api/chat/model-options",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/model-options",
+      "path": "/api/chat/model-options"
+    },
+    {
+      "name": "ApiChatModelsRoute",
+      "source": "src/routes/api/chat/models",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/models",
+      "path": "/api/chat/models"
+    },
+    {
+      "name": "ApiChatPluginsRoute",
+      "source": "src/routes/api/chat/plugins",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/plugins",
+      "path": "/api/chat/plugins"
+    },
+    {
+      "name": "ApiChatPolicyRoute",
+      "source": "src/routes/api/chat/policy",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/policy",
+      "path": "/api/chat/policy"
+    },
+    {
+      "name": "ApiChatProjectSnapshotsRoute",
+      "source": "src/routes/api/chat/project-snapshots",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/project-snapshots",
+      "path": "/api/chat/project-snapshots"
+    },
+    {
+      "name": "ApiChatProjectsRoute",
+      "source": "src/routes/api/chat/projects",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/projects",
+      "path": "/api/chat/projects"
+    },
+    {
+      "name": "ApiChatRecipesRoute",
+      "source": "src/routes/api/chat/recipes",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/recipes",
+      "path": "/api/chat/recipes"
+    },
+    {
+      "name": "ApiChatReferencesRoute",
+      "source": "src/routes/api/chat/references",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/references",
+      "path": "/api/chat/references"
+    },
+    {
+      "name": "ApiChatSectionsRoute",
+      "source": "src/routes/api/chat/sections",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/sections",
+      "path": "/api/chat/sections"
+    },
+    {
+      "name": "ApiChatSkillsRoute",
+      "source": "src/routes/api/chat/skills",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/skills",
+      "path": "/api/chat/skills"
+    },
+    {
+      "name": "ApiChatWorkspaceRoute",
+      "source": "src/routes/api/chat/workspace",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/workspace",
+      "path": "/api/chat/workspace"
+    },
+    {
+      "name": "ApiChatWorkspaceHistoryRoute",
+      "source": "src/routes/api/chat/workspace-history",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/workspace-history",
+      "path": "/api/chat/workspace-history"
+    },
+    {
+      "name": "ApiChatWorkspaceIndexRoute",
+      "source": "src/routes/api/chat/workspace-index",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/workspace-index",
+      "path": "/api/chat/workspace-index"
+    },
+    {
+      "name": "ApiDataLibrariesRoute",
+      "source": "src/routes/api/data/libraries",
+      "parent": "rootRouteImport",
+      "id": "/api/data/libraries",
+      "path": "/api/data/libraries"
+    },
+    {
+      "name": "ApiDataPartnersRoute",
+      "source": "src/routes/api/data/partners",
+      "parent": "rootRouteImport",
+      "id": "/api/data/partners",
+      "path": "/api/data/partners"
+    },
+    {
+      "name": "ApiDiscordInteractionsRoute",
+      "source": "src/routes/api/discord/interactions",
+      "parent": "rootRouteImport",
+      "id": "/api/discord/interactions",
+      "path": "/api/discord/interactions"
+    },
+    {
+      "name": "ApiExampleDeployRoute",
+      "source": "src/routes/api/example/deploy",
+      "parent": "rootRouteImport",
+      "id": "/api/example/deploy",
+      "path": "/api/example/deploy"
+    },
+    {
+      "name": "ApiGithubWebhookRoute",
+      "source": "src/routes/api/github/webhook",
+      "parent": "rootRouteImport",
+      "id": "/api/github/webhook",
+      "path": "/api/github/webhook"
+    },
+    {
+      "name": "ApiMcpIndexRoute",
+      "source": "src/routes/api/mcp/index",
+      "parent": "rootRouteImport",
+      "id": "/api/mcp/",
+      "path": "/api/mcp/"
+    },
+    {
+      "name": "ApiMcpSplatRoute",
+      "source": "src/routes/api/mcp/$",
+      "parent": "rootRouteImport",
+      "id": "/api/mcp/$",
+      "path": "/api/mcp/$"
+    },
+    {
+      "name": "ApiOgChar123Char125DotpngRoute",
+      "source": "src/routes/api/og/{$}[.]png",
+      "parent": "rootRouteImport",
+      "id": "/api/og/{$}.png",
+      "path": "/api/og/{$}.png"
+    },
+    {
+      "name": "ApiReadmeChar123Char125DotpngRoute",
+      "source": "src/routes/api/readme/{$}[.]png",
+      "parent": "rootRouteImport",
+      "id": "/api/readme/{$}.png",
+      "path": "/api/readme/{$}.png"
+    },
+    {
+      "name": "AuthProviderStartRoute",
+      "source": "src/routes/auth/$provider/start",
+      "parent": "rootRouteImport",
+      "id": "/auth/$provider/start",
+      "path": "/auth/$provider/start"
+    },
+    {
+      "name": "AuthMcpCallbackRoute",
+      "source": "src/routes/auth/mcp/callback",
+      "parent": "rootRouteImport",
+      "id": "/auth/mcp/callback",
+      "path": "/auth/mcp/callback"
+    },
+    {
+      "name": "AuthMcpClientMetadataRoute",
+      "source": "src/routes/auth/mcp/client-metadata",
+      "parent": "rootRouteImport",
+      "id": "/auth/mcp/client-metadata",
+      "path": "/auth/mcp/client-metadata"
+    },
+    {
+      "name": "BuilderPHashRoute",
+      "source": "src/routes/builder_.p.$hash",
+      "parent": "rootRouteImport",
+      "id": "/builder_/p/$hash",
+      "path": "/builder/p/$hash"
+    },
+    {
+      "name": "ChartsCatalogCatalogDotjsonRoute",
+      "source": "src/routes/charts.catalog_.catalog[.]json",
+      "parent": "rootRouteImport",
+      "id": "/charts/catalog_/catalog.json",
+      "path": "/charts/catalog/catalog.json"
+    },
+    {
+      "name": "ChatBBotIdRoute",
+      "source": "src/routes/chat.b.$botId",
+      "parent": "ChatRoute",
+      "id": "/b/$botId",
+      "path": "/b/$botId"
+    },
+    {
+      "name": "ChatCConversationIdRoute",
+      "source": "src/routes/chat.c.$conversationId",
+      "parent": "ChatRoute",
+      "id": "/c/$conversationId",
+      "path": "/c/$conversationId"
+    },
+    {
+      "name": "ChatPHashRoute",
+      "source": "src/routes/chat.p.$hash",
+      "parent": "ChatRoute",
+      "id": "/p/$hash",
+      "path": "/p/$hash"
+    },
+    {
+      "name": "ChatProjectProjectIdRoute",
+      "source": "src/routes/chat.project.$projectId",
+      "parent": "ChatRoute",
+      "id": "/project/$projectId",
+      "path": "/project/$projectId"
+    },
+    {
+      "name": "ChatWWorkspaceIdRoute",
+      "source": "src/routes/chat.w.$workspaceId",
+      "parent": "ChatRoute",
+      "id": "/w/$workspaceId",
+      "path": "/w/$workspaceId"
+    },
+    {
+      "name": "IntentRegistryIndexRoute",
+      "source": "src/routes/intent/registry/index",
+      "parent": "rootRouteImport",
+      "id": "/intent/registry/",
+      "path": "/intent/registry/"
+    },
+    {
+      "name": "IntentRegistryPackageNameRoute",
+      "source": "src/routes/intent/registry/$packageName",
+      "parent": "rootRouteImport",
+      "id": "/intent/registry/$packageName",
+      "path": "/intent/registry/$packageName"
+    },
+    {
+      "name": "ShopCollectionsHandleRoute",
+      "source": "src/routes/shop.collections.$handle",
+      "parent": "ShopRoute",
+      "id": "/collections/$handle",
+      "path": "/collections/$handle"
+    },
+    {
+      "name": "ShopPagesHandleRoute",
+      "source": "src/routes/shop.pages.$handle",
+      "parent": "ShopRoute",
+      "id": "/pages/$handle",
+      "path": "/pages/$handle"
+    },
+    {
+      "name": "ShopPoliciesHandleRoute",
+      "source": "src/routes/shop.policies.$handle",
+      "parent": "ShopRoute",
+      "id": "/policies/$handle",
+      "path": "/policies/$handle"
+    },
+    {
+      "name": "ShopProductsHandleRoute",
+      "source": "src/routes/shop.products.$handle",
+      "parent": "ShopRoute",
+      "id": "/products/$handle",
+      "path": "/products/$handle"
+    },
+    {
+      "name": "ShowcaseEditIdRoute",
+      "source": "src/routes/showcase/edit.$id",
+      "parent": "rootRouteImport",
+      "id": "/showcase/edit/$id",
+      "path": "/showcase/edit/$id"
+    },
+    {
+      "name": "StatsNpmIndexRoute",
+      "source": "src/routes/stats/npm/index",
+      "parent": "rootRouteImport",
+      "id": "/stats/npm/",
+      "path": "/stats/npm/"
+    },
+    {
+      "name": "StatsNpmPackagesRoute",
+      "source": "src/routes/stats/npm/$packages",
+      "parent": "rootRouteImport",
+      "id": "/stats/npm/$packages",
+      "path": "/stats/npm/$packages"
+    },
+    {
+      "name": "StatsNpmEmbedRoute",
+      "source": "src/routes/stats/npm/embed",
+      "parent": "rootRouteImport",
+      "id": "/stats/npm/embed",
+      "path": "/stats/npm/embed"
+    },
+    {
+      "name": "LibraryLibraryIdVersionIndexRoute",
+      "source": "src/routes/_library/$libraryId/$version.index",
+      "parent": "LibraryLibraryIdVersionRoute",
+      "id": "/",
+      "path": "/"
+    },
+    {
+      "name": "LibraryLibraryIdVersionDocsRoute",
+      "source": "src/routes/_library/$libraryId/$version.docs",
+      "parent": "LibraryLibraryIdVersionRoute",
+      "id": "/docs",
+      "path": "/docs"
+    },
+    {
+      "name": "LibraryLibraryIdVersionLlmsDottxtRoute",
+      "source": "src/routes/_library/$libraryId/$version.llms[.]txt",
+      "parent": "LibraryLibraryIdVersionRoute",
+      "id": "/llms.txt",
+      "path": "/llms.txt"
+    },
+    {
+      "name": "LibraryAiVersionIndexRoute",
+      "source": "src/routes/_library/ai.$version.index",
+      "parent": "LibraryRoute",
+      "id": "/ai/$version/",
+      "path": "/ai/$version/"
+    },
+    {
+      "name": "LibraryChartsVersionIndexRoute",
+      "source": "src/routes/_library/charts.$version.index",
+      "parent": "LibraryRoute",
+      "id": "/charts/$version/",
+      "path": "/charts/$version/"
+    },
+    {
+      "name": "LibraryChartsCatalogIndexRoute",
+      "source": "src/routes/_library/charts.catalog.index",
+      "parent": "LibraryChartsCatalogRoute",
+      "id": "/",
+      "path": "/"
+    },
+    {
+      "name": "LibraryChartsCatalogAllRoute",
+      "source": "src/routes/_library/charts.catalog.all",
+      "parent": "LibraryChartsCatalogRoute",
+      "id": "/all",
+      "path": "/all"
+    },
+    {
+      "name": "LibraryCliVersionIndexRoute",
+      "source": "src/routes/_library/cli.$version.index",
+      "parent": "LibraryRoute",
+      "id": "/cli/$version/",
+      "path": "/cli/$version/"
+    },
+    {
+      "name": "LibraryConfigVersionIndexRoute",
+      "source": "src/routes/_library/config.$version.index",
+      "parent": "LibraryRoute",
+      "id": "/config/$version/",
+      "path": "/config/$version/"
+    },
+    {
+      "name": "LibraryDbVersionIndexRoute",
+      "source": "src/routes/_library/db.$version.index",
+      "parent": "LibraryRoute",
+      "id": "/db/$version/",
+      "path": "/db/$version/"
+    },
+    {
+      "name": "LibraryDevtoolsVersionIndexRoute",
+      "source": "src/routes/_library/devtools.$version.index",
+      "parent": "LibraryRoute",
+      "id": "/devtools/$version/",
+      "path": "/devtools/$version/"
+    },
+    {
+      "name": "LibraryFormVersionIndexRoute",
+      "source": "src/routes/_library/form.$version.index",
+      "parent": "LibraryRoute",
+      "id": "/form/$version/",
+      "path": "/form/$version/"
+    },
+    {
+      "name": "LibraryHighlightVersionIndexRoute",
+      "source": "src/routes/_library/highlight.$version.index",
+      "parent": "LibraryRoute",
+      "id": "/highlight/$version/",
+      "path": "/highlight/$version/"
+    },
+    {
+      "name": "LibraryHotkeysVersionIndexRoute",
+      "source": "src/routes/_library/hotkeys.$version.index",
+      "parent": "LibraryRoute",
+      "id": "/hotkeys/$version/",
+      "path": "/hotkeys/$version/"
+    },
+    {
+      "name": "LibraryIntentVersionIndexRoute",
+      "source": "src/routes/_library/intent.$version.index",
+      "parent": "LibraryRoute",
+      "id": "/intent/$version/",
+      "path": "/intent/$version/"
+    },
+    {
+      "name": "LibraryMarkdownVersionIndexRoute",
+      "source": "src/routes/_library/markdown.$version.index",
+      "parent": "LibraryRoute",
+      "id": "/markdown/$version/",
+      "path": "/markdown/$version/"
+    },
+    {
+      "name": "LibraryPacerVersionIndexRoute",
+      "source": "src/routes/_library/pacer.$version.index",
+      "parent": "LibraryRoute",
+      "id": "/pacer/$version/",
+      "path": "/pacer/$version/"
+    },
+    {
+      "name": "LibraryQueryVersionIndexRoute",
+      "source": "src/routes/_library/query.$version.index",
+      "parent": "LibraryRoute",
+      "id": "/query/$version/",
+      "path": "/query/$version/"
+    },
+    {
+      "name": "LibraryRangerVersionIndexRoute",
+      "source": "src/routes/_library/ranger.$version.index",
+      "parent": "LibraryRoute",
+      "id": "/ranger/$version/",
+      "path": "/ranger/$version/"
+    },
+    {
+      "name": "LibraryRouterVersionIndexRoute",
+      "source": "src/routes/_library/router.$version.index",
+      "parent": "LibraryRoute",
+      "id": "/router/$version/",
+      "path": "/router/$version/"
+    },
+    {
+      "name": "LibraryStartVersionIndexRoute",
+      "source": "src/routes/_library/start.$version.index",
+      "parent": "LibraryRoute",
+      "id": "/start/$version/",
+      "path": "/start/$version/"
+    },
+    {
+      "name": "LibraryStoreVersionIndexRoute",
+      "source": "src/routes/_library/store.$version.index",
+      "parent": "LibraryRoute",
+      "id": "/store/$version/",
+      "path": "/store/$version/"
+    },
+    {
+      "name": "LibraryTableVersionIndexRoute",
+      "source": "src/routes/_library/table.$version.index",
+      "parent": "LibraryRoute",
+      "id": "/table/$version/",
+      "path": "/table/$version/"
+    },
+    {
+      "name": "LibraryVirtualVersionIndexRoute",
+      "source": "src/routes/_library/virtual.$version.index",
+      "parent": "LibraryRoute",
+      "id": "/virtual/$version/",
+      "path": "/virtual/$version/"
+    },
+    {
+      "name": "LibraryWorkflowVersionIndexRoute",
+      "source": "src/routes/_library/workflow.$version.index",
+      "parent": "LibraryRoute",
+      "id": "/workflow/$version/",
+      "path": "/workflow/$version/"
+    },
+    {
+      "name": "ApiApplicationStarterDeployCheckNameRoute",
+      "source": "src/routes/api/application-starter/deploy/check-name",
+      "parent": "rootRouteImport",
+      "id": "/api/application-starter/deploy/check-name",
+      "path": "/api/application-starter/deploy/check-name"
+    },
+    {
+      "name": "ApiApplicationStarterDeployGithubRoute",
+      "source": "src/routes/api/application-starter/deploy/github",
+      "parent": "rootRouteImport",
+      "id": "/api/application-starter/deploy/github",
+      "path": "/api/application-starter/deploy/github"
+    },
+    {
+      "name": "ApiAuthCallbackProviderRoute",
+      "source": "src/routes/api/auth/callback/$provider",
+      "parent": "rootRouteImport",
+      "id": "/api/auth/callback/$provider",
+      "path": "/api/auth/callback/$provider"
+    },
+    {
+      "name": "ApiAuthCliCreateTicketRoute",
+      "source": "src/routes/api/auth/cli/create-ticket",
+      "parent": "rootRouteImport",
+      "id": "/api/auth/cli/create-ticket",
+      "path": "/api/auth/cli/create-ticket"
+    },
+    {
+      "name": "ApiChatAccountDevicesRoute",
+      "source": "src/routes/api/chat/account/devices",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/account/devices",
+      "path": "/api/chat/account/devices"
+    },
+    {
+      "name": "ApiChatAccountOnboardingRoute",
+      "source": "src/routes/api/chat/account/onboarding",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/account/onboarding",
+      "path": "/api/chat/account/onboarding"
+    },
+    {
+      "name": "ApiChatAccountPreferencesRoute",
+      "source": "src/routes/api/chat/account/preferences",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/account/preferences",
+      "path": "/api/chat/account/preferences"
+    },
+    {
+      "name": "ApiChatBotDraftsIdRoute",
+      "source": "src/routes/api/chat/bot-drafts/$id",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/bot-drafts/$id",
+      "path": "/api/chat/bot-drafts/$id"
+    },
+    {
+      "name": "ApiChatBotsIdRoute",
+      "source": "src/routes/api/chat/bots/$id",
+      "parent": "ApiChatBotsRoute",
+      "id": "/$id",
+      "path": "/$id"
+    },
+    {
+      "name": "ApiChatBotsBulkRoute",
+      "source": "src/routes/api/chat/bots/bulk",
+      "parent": "ApiChatBotsRoute",
+      "id": "/bulk",
+      "path": "/bulk"
+    },
+    {
+      "name": "ApiChatBotsMoveRoute",
+      "source": "src/routes/api/chat/bots/move",
+      "parent": "ApiChatBotsRoute",
+      "id": "/move",
+      "path": "/move"
+    },
+    {
+      "name": "ApiChatCopiesIdRoute",
+      "source": "src/routes/api/chat/copies/$id",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/copies/$id",
+      "path": "/api/chat/copies/$id"
+    },
+    {
+      "name": "ApiChatKodyAccountRoute",
+      "source": "src/routes/api/chat/kody/account",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/kody/account",
+      "path": "/api/chat/kody/account"
+    },
+    {
+      "name": "ApiChatKodyCallbackRoute",
+      "source": "src/routes/api/chat/kody/callback",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/kody/callback",
+      "path": "/api/chat/kody/callback"
+    },
+    {
+      "name": "ApiChatKodyCommunityRoute",
+      "source": "src/routes/api/chat/kody/community",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/kody/community",
+      "path": "/api/chat/kody/community"
+    },
+    {
+      "name": "ApiChatKodyConnectRoute",
+      "source": "src/routes/api/chat/kody/connect",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/kody/connect",
+      "path": "/api/chat/kody/connect"
+    },
+    {
+      "name": "ApiChatKodyMemoriesRoute",
+      "source": "src/routes/api/chat/kody/memories",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/kody/memories",
+      "path": "/api/chat/kody/memories"
+    },
+    {
+      "name": "ApiChatKodyRunsRoute",
+      "source": "src/routes/api/chat/kody/runs",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/kody/runs",
+      "path": "/api/chat/kody/runs"
+    },
+    {
+      "name": "ApiChatKodyServersRoute",
+      "source": "src/routes/api/chat/kody/servers",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/kody/servers",
+      "path": "/api/chat/kody/servers"
+    },
+    {
+      "name": "ApiChatKodySyncRoute",
+      "source": "src/routes/api/chat/kody/sync",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/kody/sync",
+      "path": "/api/chat/kody/sync"
+    },
+    {
+      "name": "ApiChatKodyUnlinkRoute",
+      "source": "src/routes/api/chat/kody/unlink",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/kody/unlink",
+      "path": "/api/chat/kody/unlink"
+    },
+    {
+      "name": "ApiChatKodyUsageRoute",
+      "source": "src/routes/api/chat/kody/usage",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/kody/usage",
+      "path": "/api/chat/kody/usage"
+    },
+    {
+      "name": "ApiChatMcpSplatRoute",
+      "source": "src/routes/api/chat/mcp/$",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/mcp/$",
+      "path": "/api/chat/mcp/$"
+    },
+    {
+      "name": "ApiChatMcpContractRoute",
+      "source": "src/routes/api/chat/mcp/contract",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/mcp/contract",
+      "path": "/api/chat/mcp/contract"
+    },
+    {
+      "name": "ApiChatOpenrouterCallbackRoute",
+      "source": "src/routes/api/chat/openrouter/callback",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/openrouter/callback",
+      "path": "/api/chat/openrouter/callback"
+    },
+    {
+      "name": "ApiChatPluginsIdRoute",
+      "source": "src/routes/api/chat/plugins/$id",
+      "parent": "ApiChatPluginsRoute",
+      "id": "/$id",
+      "path": "/$id"
+    },
+    {
+      "name": "ApiChatProjectSnapshotsHashRoute",
+      "source": "src/routes/api/chat/project-snapshots.$hash",
+      "parent": "ApiChatProjectSnapshotsRoute",
+      "id": "/$hash",
+      "path": "/$hash"
+    },
+    {
+      "name": "ApiChatProjectsIdRoute",
+      "source": "src/routes/api/chat/projects.$id",
+      "parent": "ApiChatProjectsRoute",
+      "id": "/$id",
+      "path": "/$id"
+    },
+    {
+      "name": "ApiChatRecipesIdRoute",
+      "source": "src/routes/api/chat/recipes/$id",
+      "parent": "ApiChatRecipesRoute",
+      "id": "/$id",
+      "path": "/$id"
+    },
+    {
+      "name": "ApiChatRetriesIdRoute",
+      "source": "src/routes/api/chat/retries/$id",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/retries/$id",
+      "path": "/api/chat/retries/$id"
+    },
+    {
+      "name": "ApiChatSectionsIdRoute",
+      "source": "src/routes/api/chat/sections/$id",
+      "parent": "ApiChatSectionsRoute",
+      "id": "/$id",
+      "path": "/$id"
+    },
+    {
+      "name": "ApiChatSkillsIdRoute",
+      "source": "src/routes/api/chat/skills/$id",
+      "parent": "ApiChatSkillsRoute",
+      "id": "/$id",
+      "path": "/$id"
+    },
+    {
+      "name": "ApiChatWorkspaceIndexActivityRoute",
+      "source": "src/routes/api/chat/workspace-index.activity",
+      "parent": "ApiChatWorkspaceIndexRoute",
+      "id": "/activity",
+      "path": "/activity"
+    },
+    {
+      "name": "ApiChatWorkspaceSyncOperationRoute",
+      "source": "src/routes/api/chat/workspace-sync/$operation",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/workspace-sync/$operation",
+      "path": "/api/chat/workspace-sync/$operation"
+    },
+    {
+      "name": "IntentRegistryPackageNameIndexRoute",
+      "source": "src/routes/intent/registry/$packageName.index",
+      "parent": "IntentRegistryPackageNameRoute",
+      "id": "/",
+      "path": "/"
+    },
+    {
+      "name": "IntentRegistryPackageNameSkillNameRoute",
+      "source": "src/routes/intent/registry/$packageName.$skillName",
+      "parent": "IntentRegistryPackageNameRoute",
+      "id": "/$skillName",
+      "path": "/$skillName"
+    },
+    {
+      "name": "IntentRegistryPackageNameChar123Char125DotmdRoute",
+      "source": "src/routes/intent/registry/$packageName.{$}[.]md",
+      "parent": "IntentRegistryPackageNameRoute",
+      "id": "/{$}.md",
+      "path": "/{$}.md"
+    },
+    {
+      "name": "LibraryLibraryIdVersionDocsIndexRoute",
+      "source": "src/routes/_library/$libraryId/$version.docs.index",
+      "parent": "LibraryLibraryIdVersionDocsRoute",
+      "id": "/",
+      "path": "/"
+    },
+    {
+      "name": "LibraryLibraryIdVersionDocsSplatRoute",
+      "source": "src/routes/_library/$libraryId/$version.docs.$",
+      "parent": "LibraryLibraryIdVersionDocsRoute",
+      "id": "/$",
+      "path": "/$"
+    },
+    {
+      "name": "LibraryLibraryIdVersionDocsBlogRoute",
+      "source": "src/routes/_library/$libraryId/$version.docs.blog",
+      "parent": "LibraryLibraryIdVersionDocsRoute",
+      "id": "/blog",
+      "path": "/blog"
+    },
+    {
+      "name": "LibraryLibraryIdVersionDocsCommunityResourcesRoute",
+      "source": "src/routes/_library/$libraryId/$version.docs.community-resources",
+      "parent": "LibraryLibraryIdVersionDocsRoute",
+      "id": "/community-resources",
+      "path": "/community-resources"
+    },
+    {
+      "name": "LibraryLibraryIdVersionDocsContributorsRoute",
+      "source": "src/routes/_library/$libraryId/$version.docs.contributors",
+      "parent": "LibraryLibraryIdVersionDocsRoute",
+      "id": "/contributors",
+      "path": "/contributors"
+    },
+    {
+      "name": "LibraryLibraryIdVersionDocsIndexDotmdRoute",
+      "source": "src/routes/_library/$libraryId/$version.docs.index[.]md",
+      "parent": "LibraryLibraryIdVersionDocsRoute",
+      "id": "/index.md",
+      "path": "/index.md"
+    },
+    {
+      "name": "LibraryLibraryIdVersionDocsNpmStatsRoute",
+      "source": "src/routes/_library/$libraryId/$version.docs.npm-stats",
+      "parent": "LibraryLibraryIdVersionDocsRoute",
+      "id": "/npm-stats",
+      "path": "/npm-stats"
+    },
+    {
+      "name": "LibraryLibraryIdVersionDocsChar123Char125DotmdRoute",
+      "source": "src/routes/_library/$libraryId/$version.docs.{$}[.]md",
+      "parent": "LibraryLibraryIdVersionDocsRoute",
+      "id": "/{$}.md",
+      "path": "/{$}.md"
+    },
+    {
+      "name": "LibraryChartsCatalogChartsCaseIdRoute",
+      "source": "src/routes/_library/charts.catalog.charts.$caseId",
+      "parent": "LibraryChartsCatalogRoute",
+      "id": "/charts/$caseId",
+      "path": "/charts/$caseId"
+    },
+    {
+      "name": "LibraryChartsCatalogCollectionsCollectionIdRoute",
+      "source": "src/routes/_library/charts.catalog.collections.$collectionId",
+      "parent": "LibraryChartsCatalogRoute",
+      "id": "/collections/$collectionId",
+      "path": "/collections/$collectionId"
+    },
+    {
+      "name": "ApiAuthCliStatusTicketIdRoute",
+      "source": "src/routes/api/auth/cli/status.$ticketId",
+      "parent": "rootRouteImport",
+      "id": "/api/auth/cli/status/$ticketId",
+      "path": "/api/auth/cli/status/$ticketId"
+    },
+    {
+      "name": "ApiChatBotDraftsIdFilesRoute",
+      "source": "src/routes/api/chat/bot-drafts/$id.files",
+      "parent": "ApiChatBotDraftsIdRoute",
+      "id": "/files",
+      "path": "/files"
+    },
+    {
+      "name": "ApiChatBotsIdOperationRoute",
+      "source": "src/routes/api/chat/bots/$id.$operation",
+      "parent": "ApiChatBotsIdRoute",
+      "id": "/$operation",
+      "path": "/$operation"
+    },
+    {
+      "name": "ApiChatBotsIdFilesRoute",
+      "source": "src/routes/api/chat/bots/$id.files",
+      "parent": "ApiChatBotsIdRoute",
+      "id": "/files",
+      "path": "/files"
+    },
+    {
+      "name": "ApiChatConversationsIdOperationRoute",
+      "source": "src/routes/api/chat/conversations/$id.$operation",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/conversations/$id/$operation",
+      "path": "/api/chat/conversations/$id/$operation"
+    },
+    {
+      "name": "ApiChatConversationsIdFilesRoute",
+      "source": "src/routes/api/chat/conversations/$id.files",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/conversations/$id/files",
+      "path": "/api/chat/conversations/$id/files"
+    },
+    {
+      "name": "ApiChatConversationsIdMemoriesRoute",
+      "source": "src/routes/api/chat/conversations/$id/memories",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/conversations/$id/memories",
+      "path": "/api/chat/conversations/$id/memories"
+    },
+    {
+      "name": "ApiChatConversationsIdReferencesRoute",
+      "source": "src/routes/api/chat/conversations/$id/references",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/conversations/$id/references",
+      "path": "/api/chat/conversations/$id/references"
+    },
+    {
+      "name": "ApiChatKodyCommunityListingIdRoute",
+      "source": "src/routes/api/chat/kody/community/$listingId",
+      "parent": "ApiChatKodyCommunityRoute",
+      "id": "/$listingId",
+      "path": "/$listingId"
+    },
+    {
+      "name": "ApiChatKodyMailInboxesRoute",
+      "source": "src/routes/api/chat/kody/mail/inboxes",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/kody/mail/inboxes",
+      "path": "/api/chat/kody/mail/inboxes"
+    },
+    {
+      "name": "ApiChatKodyMailMessagesRoute",
+      "source": "src/routes/api/chat/kody/mail/messages",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/kody/mail/messages",
+      "path": "/api/chat/kody/mail/messages"
+    },
+    {
+      "name": "ApiChatKodyMemoriesMemoryIdRoute",
+      "source": "src/routes/api/chat/kody/memories/$memoryId",
+      "parent": "ApiChatKodyMemoriesRoute",
+      "id": "/$memoryId",
+      "path": "/$memoryId"
+    },
+    {
+      "name": "ApiChatKodyResourcesKindRoute",
+      "source": "src/routes/api/chat/kody/resources/$kind",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/kody/resources/$kind",
+      "path": "/api/chat/kody/resources/$kind"
+    },
+    {
+      "name": "ApiChatKodyRunsRunIdRoute",
+      "source": "src/routes/api/chat/kody/runs/$runId",
+      "parent": "ApiChatKodyRunsRoute",
+      "id": "/$runId",
+      "path": "/$runId"
+    },
+    {
+      "name": "ApiChatProjectSnapshotsHashQuarantineRoute",
+      "source": "src/routes/api/chat/project-snapshots.$hash.quarantine",
+      "parent": "ApiChatProjectSnapshotsHashRoute",
+      "id": "/quarantine",
+      "path": "/quarantine"
+    },
+    {
+      "name": "ApiChatProjectsIdSyncRoute",
+      "source": "src/routes/api/chat/projects.$id.sync",
+      "parent": "ApiChatProjectsIdRoute",
+      "id": "/sync",
+      "path": "/sync"
+    },
+    {
+      "name": "ApiChatReferencesKodyInspectRoute",
+      "source": "src/routes/api/chat/references/kody/inspect",
+      "parent": "ApiChatReferencesRoute",
+      "id": "/kody/inspect",
+      "path": "/kody/inspect"
+    },
+    {
+      "name": "ApiChatReferencesKodyRefreshRoute",
+      "source": "src/routes/api/chat/references/kody/refresh",
+      "parent": "ApiChatReferencesRoute",
+      "id": "/kody/refresh",
+      "path": "/kody/refresh"
+    },
+    {
+      "name": "ApiChatReferencesToolsRefreshRoute",
+      "source": "src/routes/api/chat/references/tools/refresh",
+      "parent": "ApiChatReferencesRoute",
+      "id": "/tools/refresh",
+      "path": "/tools/refresh"
+    },
+    {
+      "name": "ApiChatRetriesIdPrepareRoute",
+      "source": "src/routes/api/chat/retries/$id.prepare",
+      "parent": "ApiChatRetriesIdRoute",
+      "id": "/prepare",
+      "path": "/prepare"
+    },
+    {
+      "name": "ChartsCatalogPreviewsRevisionChar123caseIdChar125DotsvgRoute",
+      "source": "src/routes/charts.catalog_.previews.$revision.{$caseId}[.]svg",
+      "parent": "rootRouteImport",
+      "id": "/charts/catalog_/previews/$revision/{$caseId}.svg",
+      "path": "/charts/catalog/previews/$revision/{$caseId}.svg"
+    },
+    {
+      "name": "ChatCConversationIdMMessageIdRoute",
+      "source": "src/routes/chat.c.$conversationId.m.$messageId",
+      "parent": "ChatCConversationIdRoute",
+      "id": "/m/$messageId",
+      "path": "/m/$messageId"
+    },
+    {
+      "name": "ChatWWorkspaceIdBBotIdRoute",
+      "source": "src/routes/chat.w.$workspaceId.b.$botId",
+      "parent": "ChatWWorkspaceIdRoute",
+      "id": "/b/$botId",
+      "path": "/b/$botId"
+    },
+    {
+      "name": "ChatWWorkspaceIdHomeHomeSectionRoute",
+      "source": "src/routes/chat.w.$workspaceId.home.$homeSection",
+      "parent": "ChatWWorkspaceIdRoute",
+      "id": "/home/$homeSection",
+      "path": "/home/$homeSection"
+    },
+    {
+      "name": "LibraryLibraryIdVersionDocsFrameworkIndexRoute",
+      "source": "src/routes/_library/$libraryId/$version.docs.framework.index",
+      "parent": "LibraryLibraryIdVersionDocsRoute",
+      "id": "/framework/",
+      "path": "/framework/"
+    },
+    {
+      "name": "ApiChatAccountComposerDraftsAccountIdScopeRoute",
+      "source": "src/routes/api/chat/account/composer-drafts/$accountId.$scope",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/account/composer-drafts/$accountId/$scope",
+      "path": "/api/chat/account/composer-drafts/$accountId/$scope"
+    },
+    {
+      "name": "ApiChatBotDraftsIdFilesFileIdRoute",
+      "source": "src/routes/api/chat/bot-drafts/$id.files.$fileId",
+      "parent": "ApiChatBotDraftsIdFilesRoute",
+      "id": "/$fileId",
+      "path": "/$fileId"
+    },
+    {
+      "name": "ApiChatBotsIdFilesFileIdRoute",
+      "source": "src/routes/api/chat/bots/$id.files.$fileId",
+      "parent": "ApiChatBotsIdFilesRoute",
+      "id": "/$fileId",
+      "path": "/$fileId"
+    },
+    {
+      "name": "ApiChatConversationsIdFilesFileIdRoute",
+      "source": "src/routes/api/chat/conversations/$id.files.$fileId",
+      "parent": "ApiChatConversationsIdFilesRoute",
+      "id": "/$fileId",
+      "path": "/$fileId"
+    },
+    {
+      "name": "ApiChatConversationsIdFilesImportRoute",
+      "source": "src/routes/api/chat/conversations/$id/files/import",
+      "parent": "ApiChatConversationsIdFilesRoute",
+      "id": "/import",
+      "path": "/import"
+    },
+    {
+      "name": "ApiChatConversationsIdMemoriesMemoryIdRoute",
+      "source": "src/routes/api/chat/conversations/$id/memories/$memoryId",
+      "parent": "ApiChatConversationsIdMemoriesRoute",
+      "id": "/$memoryId",
+      "path": "/$memoryId"
+    },
+    {
+      "name": "ApiChatConversationsIdWorkflowRunsRunIdRoute",
+      "source": "src/routes/api/chat/conversations/$id.workflow-runs.$runId",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/conversations/$id/workflow-runs/$runId",
+      "path": "/api/chat/conversations/$id/workflow-runs/$runId"
+    },
+    {
+      "name": "ApiChatConversationsIdWorkflowsWorkflowIdRoute",
+      "source": "src/routes/api/chat/conversations/$id.workflows.$workflowId",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/conversations/$id/workflows/$workflowId",
+      "path": "/api/chat/conversations/$id/workflows/$workflowId"
+    },
+    {
+      "name": "ApiChatKodyJobsJobIdEnabledRoute",
+      "source": "src/routes/api/chat/kody/jobs/$jobId/enabled",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/kody/jobs/$jobId/enabled",
+      "path": "/api/chat/kody/jobs/$jobId/enabled"
+    },
+    {
+      "name": "ApiChatKodyMailMessagesMessageIdRoute",
+      "source": "src/routes/api/chat/kody/mail/messages/$messageId",
+      "parent": "ApiChatKodyMailMessagesRoute",
+      "id": "/$messageId",
+      "path": "/$messageId"
+    },
+    {
+      "name": "ApiChatKodyMemoriesMemoryIdApplyRoute",
+      "source": "src/routes/api/chat/kody/memories/$memoryId/apply",
+      "parent": "ApiChatKodyMemoriesMemoryIdRoute",
+      "id": "/apply",
+      "path": "/apply"
+    },
+    {
+      "name": "ApiChatKodyMemoriesMemoryIdReviewRoute",
+      "source": "src/routes/api/chat/kody/memories/$memoryId/review",
+      "parent": "ApiChatKodyMemoriesMemoryIdRoute",
+      "id": "/review",
+      "path": "/review"
+    },
+    {
+      "name": "ApiChatKodyMemoriesCreateApplyRoute",
+      "source": "src/routes/api/chat/kody/memories/create/apply",
+      "parent": "ApiChatKodyMemoriesRoute",
+      "id": "/create/apply",
+      "path": "/create/apply"
+    },
+    {
+      "name": "ApiChatKodyMemoriesCreateReviewRoute",
+      "source": "src/routes/api/chat/kody/memories/create/review",
+      "parent": "ApiChatKodyMemoriesRoute",
+      "id": "/create/review",
+      "path": "/create/review"
+    },
+    {
+      "name": "ApiChatKodyPackagesPackageIdDocumentRoute",
+      "source": "src/routes/api/chat/kody/packages/$packageId/document",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/kody/packages/$packageId/document",
+      "path": "/api/chat/kody/packages/$packageId/document"
+    },
+    {
+      "name": "ApiChatKodyRunsRunIdTriageRoute",
+      "source": "src/routes/api/chat/kody/runs/$runId/triage",
+      "parent": "ApiChatKodyRunsRunIdRoute",
+      "id": "/triage",
+      "path": "/triage"
+    },
+    {
+      "name": "ApiChatKodyServersServerIdCheckRoute",
+      "source": "src/routes/api/chat/kody/servers/$serverId/check",
+      "parent": "ApiChatKodyServersRoute",
+      "id": "/$serverId/check",
+      "path": "/$serverId/check"
+    },
+    {
+      "name": "ApiChatKodyServersServerIdEnabledRoute",
+      "source": "src/routes/api/chat/kody/servers/$serverId/enabled",
+      "parent": "ApiChatKodyServersRoute",
+      "id": "/$serverId/enabled",
+      "path": "/$serverId/enabled"
+    },
+    {
+      "name": "ApiChatKodyServersServerIdReconnectRoute",
+      "source": "src/routes/api/chat/kody/servers/$serverId/reconnect",
+      "parent": "ApiChatKodyServersRoute",
+      "id": "/$serverId/reconnect",
+      "path": "/$serverId/reconnect"
+    },
+    {
+      "name": "LibraryLibraryIdVersionDocsFrameworkFrameworkIndexRoute",
+      "source": "src/routes/_library/$libraryId/$version.docs.framework.$framework.index",
+      "parent": "LibraryLibraryIdVersionDocsRoute",
+      "id": "/framework/$framework/",
+      "path": "/framework/$framework/"
+    },
+    {
+      "name": "LibraryLibraryIdVersionDocsFrameworkFrameworkSplatRoute",
+      "source": "src/routes/_library/$libraryId/$version.docs.framework.$framework.$",
+      "parent": "LibraryLibraryIdVersionDocsRoute",
+      "id": "/framework/$framework/$",
+      "path": "/framework/$framework/$"
+    },
+    {
+      "name": "LibraryLibraryIdVersionDocsFrameworkFrameworkChar123Char125DotmdRoute",
+      "source": "src/routes/_library/$libraryId/$version.docs.framework.$framework.{$}[.]md",
+      "parent": "LibraryLibraryIdVersionDocsRoute",
+      "id": "/framework/$framework/{$}.md",
+      "path": "/framework/$framework/{$}.md"
+    },
+    {
+      "name": "ApiChatBotDraftsIdFilesFileIdContentRoute",
+      "source": "src/routes/api/chat/bot-drafts/$id.files.$fileId.content",
+      "parent": "ApiChatBotDraftsIdFilesFileIdRoute",
+      "id": "/content",
+      "path": "/content"
+    },
+    {
+      "name": "ApiChatBotsIdFilesFileIdContentRoute",
+      "source": "src/routes/api/chat/bots/$id.files.$fileId.content",
+      "parent": "ApiChatBotsIdFilesFileIdRoute",
+      "id": "/content",
+      "path": "/content"
+    },
+    {
+      "name": "ApiChatConversationsIdExecutionSnapshotsSnapshotIdRoute",
+      "source": "src/routes/api/chat/conversations/$id.execution.snapshots.$snapshotId",
+      "parent": "rootRouteImport",
+      "id": "/api/chat/conversations/$id/execution/snapshots/$snapshotId",
+      "path": "/api/chat/conversations/$id/execution/snapshots/$snapshotId"
+    },
+    {
+      "name": "ApiChatConversationsIdFilesFileIdContentRoute",
+      "source": "src/routes/api/chat/conversations/$id.files.$fileId.content",
+      "parent": "ApiChatConversationsIdFilesFileIdRoute",
+      "id": "/content",
+      "path": "/content"
+    },
+    {
+      "name": "ApiChatConversationsIdWorkflowRunsRunIdCancelRoute",
+      "source": "src/routes/api/chat/conversations/$id.workflow-runs.$runId.cancel",
+      "parent": "ApiChatConversationsIdWorkflowRunsRunIdRoute",
+      "id": "/cancel",
+      "path": "/cancel"
+    },
+    {
+      "name": "LibraryLibraryIdVersionDocsFrameworkFrameworkExamplesSplatRoute",
+      "source": "src/routes/_library/$libraryId/$version.docs.framework.$framework.examples.$",
+      "parent": "LibraryLibraryIdVersionDocsRoute",
+      "id": "/framework/$framework/examples/$",
+      "path": "/framework/$framework/examples/$"
+    }
+  ]
+}

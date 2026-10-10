@@ -1,23 +1,22 @@
 # TanStack rewrite experiment
 
-The migration is in progress. The corpus publisher generates **14,107 documentation URLs from 7,527 unique authored documents**, covering 21 library identities and their pinned versions. `latest` and explicit-version URLs share source documents. Application, service and interaction parity remain incomplete; see [the gap ledger](investigation/CORPUS-GAPS.json).
+The rewrite is in progress. Maintained Markdown produces **14,107 documentation URLs from 7,527 unique authored documents**, alongside the homepage, 44 library landings, 14 marketing pages and 81 blog pages/index: **14,247 complete publications**. There are also **99 request-time application-family boundaries** backed by 112 authored view/options bindings. Family availability is not final semantic, visual or service parity; see [the gap ledger](investigation/CORPUS-GAPS.json).
 
 ## Build and serve locally
 
 From this directory, with the pinned sibling experiment/toolchain directories present:
 
 ```bash
-npm run local:prepare # prepare browser, SSR, document renderer and API prototypes
-npm run build         # ingest maintained corpus, render changed documents, Nift composition
-npm run serve         # http://localhost:4173
+npm run build # normal pipeline: declare inputs, native Nift DAG, preparation and publication
+npm run serve # http://localhost:4173 — homepage at /
 ```
 
-Preparation artifacts already exist in this workspace. `PORT=3000 npm run serve` selects another port; stop with Ctrl+C. Edit Markdown/frontmatter under `sources/docs/`, rebuild, then restart the server after metadata or configuration changes. The initial import copies the pinned authored corpus into this repository; routine builds use these maintained copies. `sources/representative/` remains isolated proof input, not the corpus source of truth.
+`PORT=3000 npm run serve` selects another port. Stop with Ctrl+C. A clean workspace bootstraps its compiler artifacts automatically. `npm run local:prepare` is an explicit diagnostic/bootstrap command, not a second publication owner. Production dependency packaging is still pending.
 
-`public/publication/<route>.html` contains Nift-composed article HTML. `public/publication-meta/` and `public/downloads/` contain derived metadata and authored Markdown downloads. The local server supplies the generalized retained navigation/sidebar/title/TOC/footer shell per request and serves these outputs. Browser navigation fetches the new route's article and metadata. A generic static server does not supply the application shell or service endpoints.
+Edit Markdown/frontmatter under `sources/docs/` and rebuild. Maintained views, shared components and services have separate source owners. The normal command expands declared input roots into explicit Nift dependencies; it does not decide source freshness itself. Nift schedules frontend, preparation, posts and backend actions. Ordinary documents do not depend on backend compilation. Restart the local runtime after changing compiled browser/SSR/API code; publication metadata refreshes as builds complete.
 
-This preview currently uses anonymous sessions. Tabs, ordinary code copy and Mermaid activation attach by document family. Chart/client/live execution owners have visible pending notices; affected URLs and unimplemented application/service route patterns are recorded in the ledger. Browser smoke tests are coverage evidence, not full visual or behavioral parity.
+Nift owns `public/<route>.html`, `public/index.html`, checked article fragments under `public/publication/`, application-family boundaries, the shared application envelope and the build-to-runtime path interface. Metadata and Markdown downloads derive from maintained source. The preview consumes these artifacts and evaluates declared session/runtime slots; it performs no startup publication. React owns explicit interactive regions. A generic static server does not implement the application services or request-time shell.
 
-Bare `nift build` composes already-prepared article HTML; `npm run build` includes conversion and metadata preparation. Browser/SSR compilation is independent. Preparation still depends on pinned sibling runtimes and frozen CSS/assets; independent clean-checkout packaging and production publication remain open requirements. Current timings are development diagnostics, not final benchmarks.
+Signed-session behavior uses the actual retained auth/database logic when configured. Public-feed, provider and database fixtures are explicitly scoped evidence. Selected live/chart/client examples reach their real runtime; full execution, authenticated application families, Worker/chat/provider integration, SEO/error/redirect parity, independent packaging and complete browser/visual acceptance remain open.
 
-Read REWRITE.md, investigation/STATUS.md, HANDOVER.md and AGENTS.md for the contract and checkpoints.
+Current timings are integration diagnostics, not final site benchmarks. Read REWRITE.md, investigation/STATUS.md, HANDOVER.md and AGENTS.md for the contract and checkpoints.
