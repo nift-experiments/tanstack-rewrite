@@ -11,7 +11,8 @@
     "proof:authority:build": "npm run parser:build && node scripts/proof-authority-build.mjs",
     "proof:authority:browser": "node scripts/proof-authority-browser.mjs",
     "proof:document": "node scripts/proof-document.mjs",
-    "proof:codeblock": "node scripts/proof-codeblock.mjs"
+    "proof:codeblock": "node scripts/proof-codeblock.mjs",
+    "proof:article-controls": "node scripts/proof-article-controls.mjs"
   },
   "dependencies": {
     "@phosphor-icons/react": "2.1.10",

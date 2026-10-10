@@ -1,0 +1,9 @@
+{
+  "scope": "Isolated actual Nift-published rich article; tab contracts only, not full shell/design certification",
+  "groups": 3,
+  "shared_bundler_selection": true,
+  "persisted_reload": true,
+  "keyboard_home_end": true,
+  "article_literal_preserved": true,
+  "errors": []
+}
