@@ -29,8 +29,13 @@ function projectStylesheet(file,name,tracked,write){
  tracked.push({name,title:'Checked stylesheet projection',template:'templates/corpus-raw.html','content-ext':'.css','output-ext':'.css'});
  return changes.length;
 }
-export function prepareStylesheet(tracked,write){
- let checkedReferences=projectStylesheet('sources/styles/site.css','assets/site',tracked,write);
+export async function prepareStylesheet(tracked,write){
+ const tailwind=req('@tailwindcss/postcss');
+ const compiled=await postcss([tailwind({base:path.resolve('.'),optimize:{minify:true}})]).process(fs.readFileSync('sources/styles/app.css','utf8'),{from:path.resolve('sources/styles/app.css')});
+ if(compiled.warnings().length)throw Error('Owned stylesheet compilation warnings: '+compiled.warnings().join('; '));
+ write('.work/styles/site.css',compiled.css);
+
+ let checkedReferences=projectStylesheet('.work/styles/site.css','assets/site',tracked,write);
  const generated=new Map();
  for(const root of ['.work/shell-prototype/dist/client','.work/publication-ssr','.work/publication-preparation-ssr']){
   for(const directory of ['assets','static']){

@@ -1,0 +1,29 @@
+{
+  "scope": "Actual retained BlobStorage adapter over isolated real workerd R2 bindings. Disposable keys; body access followed by text, fresh binary reads, metadata and single-consumption semantics. Public chart HTTP integration verified separately; complete builder/provider parity remains open.",
+  "rows": [
+    {
+      "name": "githubContentCache",
+      "originalBlobStorage": true,
+      "bodyThenText": true,
+      "singleConsumption": true,
+      "freshArrayBuffer": true,
+      "metadata": true
+    },
+    {
+      "name": "npmDownloadCache",
+      "originalBlobStorage": true,
+      "bodyThenText": true,
+      "singleConsumption": true,
+      "freshArrayBuffer": true,
+      "metadata": true
+    },
+    {
+      "name": "builderProjects",
+      "originalBlobStorage": true,
+      "bodyThenText": true,
+      "singleConsumption": true,
+      "freshArrayBuffer": true,
+      "metadata": true
+    }
+  ]
+}

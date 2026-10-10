@@ -1,0 +1,46 @@
+{
+  "scope": "Actual retained workflow definition API, launch admission, WorkflowEntrypoint reconciliation and Conversation child execution over real local SQL/workerd; only external provider transport is a fixture.",
+  "steps": [
+    {
+      "operation": "bootstrap",
+      "status": 200
+    },
+    {
+      "operation": "connection",
+      "status": 200
+    },
+    {
+      "operation": "bots",
+      "status": 200
+    },
+    {
+      "operation": "conversations/chat%3Aa1554736-d907-41d6-a67d-10e044eca959%3A46343144-4438-48d9-9c6a-52d4b79dbc10/send",
+      "status": 200
+    },
+    {
+      "operation": "conversations/chat%3Aa1554736-d907-41d6-a67d-10e044eca959%3A46343144-4438-48d9-9c6a-52d4b79dbc10/history",
+      "status": 200
+    },
+    {
+      "operation": "conversations/chat%3Aa1554736-d907-41d6-a67d-10e044eca959%3A46343144-4438-48d9-9c6a-52d4b79dbc10/workflows",
+      "status": 200
+    },
+    {
+      "operation": "conversations/chat%3Aa1554736-d907-41d6-a67d-10e044eca959%3A46343144-4438-48d9-9c6a-52d4b79dbc10/workflow-runs",
+      "status": 202
+    },
+    {
+      "operation": "conversations/chat%3Aa1554736-d907-41d6-a67d-10e044eca959%3A46343144-4438-48d9-9c6a-52d4b79dbc10/workflow-runs/ab528a97-9080-45e6-bff6-4470ba6126c8",
+      "status": 200
+    },
+    {
+      "operation": "conversations/chat%3Aa1554736-d907-41d6-a67d-10e044eca959%3A46343144-4438-48d9-9c6a-52d4b79dbc10/workflow-runs/ab528a97-9080-45e6-bff6-4470ba6126c8",
+      "status": 200
+    },
+    {
+      "operation": "conversations/chat%3Aa1554736-d907-41d6-a67d-10e044eca959%3A46343144-4438-48d9-9c6a-52d4b79dbc10/workflow-runs/ab528a97-9080-45e6-bff6-4470ba6126c8",
+      "status": 200
+    }
+  ],
+  "completed": true
+}

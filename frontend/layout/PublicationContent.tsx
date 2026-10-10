@@ -142,6 +142,7 @@ export function PublicationContent({
       <div className="h-4" />
       <div className="h-px bg-gray-500 opacity-20" />
       <div className="h-4" />
+      {libraryId && libraryVersion && pagePath ? (
       <div
         ref={containerRef}
         className={twMerge(
@@ -153,6 +154,7 @@ export function PublicationContent({
       >
         {contentNode}
       </div>
+      ) : <PublishedRegion html={html} activate={activate} hostRef={containerRef} className={twMerge('prose prose-gray dark:prose-invert max-w-none','[font-size:16px]','styled-markdown-content',proseClassName)}/>}
       <div className="h-12" />
       <div className="w-full h-px bg-gray-500 opacity-30" />
       <div className="flex py-4">

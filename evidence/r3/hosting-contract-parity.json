@@ -1,0 +1,435 @@
+{
+  "scope": "Selected actual Node HTTP hosting outcomes against pinned local upstream reference, including security/embed/cache headers, Markdown negotiation bytes, browser document exception and unknown-route status. Does not certify production CDN, credentials or telemetry transport.",
+  "rows": [
+    {
+      "request": {
+        "path": "/query/latest/docs/framework/react/overview"
+      },
+      "expected": {
+        "status": 200,
+        "headers": {
+          "content-type": "text/html; charset=utf-8",
+          "x-frame-options": "DENY",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "permissions-policy": "camera=(), microphone=(), geolocation=()",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "cross-origin-opener-policy": null,
+          "cross-origin-embedder-policy": null,
+          "vary": "Accept, Accept-Encoding, Sec-Fetch-Dest, Sec-Fetch-Mode",
+          "cache-control": "public, max-age=0, must-revalidate",
+          "cloudflare-cdn-cache-control": "public, max-age=3600, stale-while-revalidate=86400"
+        },
+        "digest": "1ca1c3154c4a2651bf27f26f34a199dba3cb2624c887138a4b9275c968d10496"
+      },
+      "actual": {
+        "status": 200,
+        "headers": {
+          "content-type": "text/html; charset=utf-8",
+          "x-frame-options": "DENY",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "permissions-policy": "camera=(), microphone=(), geolocation=()",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "cross-origin-opener-policy": null,
+          "cross-origin-embedder-policy": null,
+          "vary": "Accept, Accept-Encoding, Sec-Fetch-Dest, Sec-Fetch-Mode",
+          "cache-control": "public, max-age=0, must-revalidate",
+          "cloudflare-cdn-cache-control": "public, max-age=3600, stale-while-revalidate=86400"
+        },
+        "digest": "3df3a1d33f41ff053678be720969437e2b8a5d17f7fd7eb83a093becd6872d76"
+      },
+      "differences": []
+    },
+    {
+      "request": {
+        "path": "/query/latest/docs/framework/react/overview",
+        "headers": {
+          "Accept": "text/markdown"
+        }
+      },
+      "expected": {
+        "status": 200,
+        "headers": {
+          "content-type": "text/markdown",
+          "x-frame-options": "DENY",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "permissions-policy": "camera=(), microphone=(), geolocation=()",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "cross-origin-opener-policy": null,
+          "cross-origin-embedder-policy": null,
+          "vary": "Accept, Accept-Encoding, Sec-Fetch-Dest, Sec-Fetch-Mode",
+          "cache-control": "public, max-age=0, must-revalidate",
+          "cloudflare-cdn-cache-control": "public, max-age=3600, stale-while-revalidate=86400"
+        },
+        "digest": "040288e68505ce35c1b5e74dde2632f9c04155e4310b6ddca73314e0e274d944"
+      },
+      "actual": {
+        "status": 200,
+        "headers": {
+          "content-type": "text/markdown",
+          "x-frame-options": "DENY",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "permissions-policy": "camera=(), microphone=(), geolocation=()",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "cross-origin-opener-policy": null,
+          "cross-origin-embedder-policy": null,
+          "vary": "Accept, Accept-Encoding, Sec-Fetch-Dest, Sec-Fetch-Mode",
+          "cache-control": "public, max-age=0, must-revalidate",
+          "cloudflare-cdn-cache-control": "public, max-age=3600, stale-while-revalidate=86400"
+        },
+        "digest": "040288e68505ce35c1b5e74dde2632f9c04155e4310b6ddca73314e0e274d944"
+      },
+      "differences": []
+    },
+    {
+      "request": {
+        "path": "/query/latest/docs/framework/react/overview",
+        "headers": {
+          "Accept": "text/markdown",
+          "Sec-Fetch-Dest": "document",
+          "Sec-Fetch-Mode": "navigate"
+        }
+      },
+      "expected": {
+        "status": 406,
+        "headers": {
+          "content-type": "application/json",
+          "x-frame-options": "DENY",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "permissions-policy": "camera=(), microphone=(), geolocation=()",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "cross-origin-opener-policy": null,
+          "cross-origin-embedder-policy": null,
+          "vary": null,
+          "cache-control": null,
+          "cloudflare-cdn-cache-control": null
+        },
+        "digest": "fce5a88834e9853e402cd81665088cbab02238a2a34e895e028385cd13bffa09"
+      },
+      "actual": {
+        "status": 406,
+        "headers": {
+          "content-type": "application/json",
+          "x-frame-options": "DENY",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "permissions-policy": "camera=(), microphone=(), geolocation=()",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "cross-origin-opener-policy": null,
+          "cross-origin-embedder-policy": null,
+          "vary": null,
+          "cache-control": null,
+          "cloudflare-cdn-cache-control": null
+        },
+        "digest": "fce5a88834e9853e402cd81665088cbab02238a2a34e895e028385cd13bffa09"
+      },
+      "differences": []
+    },
+    {
+      "request": {
+        "path": "/query/latest/docs/framework/react/overview.md",
+        "markdown": true
+      },
+      "expected": {
+        "status": 200,
+        "headers": {
+          "content-type": "text/markdown",
+          "x-frame-options": "DENY",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "permissions-policy": "camera=(), microphone=(), geolocation=()",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "cross-origin-opener-policy": null,
+          "cross-origin-embedder-policy": null,
+          "vary": "Accept, Accept-Encoding, Sec-Fetch-Dest, Sec-Fetch-Mode",
+          "cache-control": "public, max-age=0, must-revalidate",
+          "cloudflare-cdn-cache-control": "public, max-age=3600, stale-while-revalidate=86400"
+        },
+        "digest": "040288e68505ce35c1b5e74dde2632f9c04155e4310b6ddca73314e0e274d944"
+      },
+      "actual": {
+        "status": 200,
+        "headers": {
+          "content-type": "text/markdown",
+          "x-frame-options": "DENY",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "permissions-policy": "camera=(), microphone=(), geolocation=()",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "cross-origin-opener-policy": null,
+          "cross-origin-embedder-policy": null,
+          "vary": "Accept, Accept-Encoding, Sec-Fetch-Dest, Sec-Fetch-Mode",
+          "cache-control": "public, max-age=0, must-revalidate",
+          "cloudflare-cdn-cache-control": "public, max-age=3600, stale-while-revalidate=86400"
+        },
+        "digest": "040288e68505ce35c1b5e74dde2632f9c04155e4310b6ddca73314e0e274d944"
+      },
+      "differences": []
+    },
+    {
+      "request": {
+        "path": "/partners-embed"
+      },
+      "expected": {
+        "status": 200,
+        "headers": {
+          "content-type": "text/html; charset=utf-8",
+          "x-frame-options": null,
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "permissions-policy": "camera=(), microphone=(), geolocation=()",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "cross-origin-opener-policy": null,
+          "cross-origin-embedder-policy": null,
+          "vary": null,
+          "cache-control": "public, max-age=300",
+          "cloudflare-cdn-cache-control": "public, max-age=3600, stale-while-revalidate=300"
+        },
+        "digest": "ceb536885308e2ddc69d53b0c82d2445fa9d11359af6184f881269be85976475"
+      },
+      "actual": {
+        "status": 200,
+        "headers": {
+          "content-type": "text/html; charset=utf-8",
+          "x-frame-options": null,
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "permissions-policy": "camera=(), microphone=(), geolocation=()",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "cross-origin-opener-policy": null,
+          "cross-origin-embedder-policy": null,
+          "vary": null,
+          "cache-control": "public, max-age=300",
+          "cloudflare-cdn-cache-control": "public, max-age=3600, stale-while-revalidate=300"
+        },
+        "digest": "af0d950939ed56e6578f95a79527f07e54fe9a5d5392dc8c8cf7a7b11b6e7c48"
+      },
+      "differences": []
+    },
+    {
+      "request": {
+        "path": "/sponsors-embed"
+      },
+      "expected": {
+        "status": 200,
+        "headers": {
+          "content-type": "text/html; charset=utf-8",
+          "x-frame-options": null,
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "permissions-policy": "camera=(), microphone=(), geolocation=()",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "cross-origin-opener-policy": null,
+          "cross-origin-embedder-policy": null,
+          "vary": null,
+          "cache-control": "public, max-age=0, must-revalidate",
+          "cloudflare-cdn-cache-control": "public, max-age=300, stale-while-revalidate=300"
+        },
+        "digest": "87503597ae889ed2c724cc54d6eaaaa7100f8aa1e9341295f1b0bc56246f63e5"
+      },
+      "actual": {
+        "status": 200,
+        "headers": {
+          "content-type": "text/html; charset=utf-8",
+          "x-frame-options": null,
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "permissions-policy": "camera=(), microphone=(), geolocation=()",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "cross-origin-opener-policy": null,
+          "cross-origin-embedder-policy": null,
+          "vary": null,
+          "cache-control": "public, max-age=0, must-revalidate",
+          "cloudflare-cdn-cache-control": "public, max-age=300, stale-while-revalidate=300"
+        },
+        "digest": "fec9b255cbc4129f1e4f50dc38096b3ebf2ab5928d869582c37ebb4d8468c5a4"
+      },
+      "differences": []
+    },
+    {
+      "request": {
+        "path": "/stats/npm/embed"
+      },
+      "expected": {
+        "status": 307,
+        "headers": {
+          "content-type": null,
+          "x-frame-options": null,
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "permissions-policy": "camera=(), microphone=(), geolocation=()",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "cross-origin-opener-policy": null,
+          "cross-origin-embedder-policy": null,
+          "vary": null,
+          "cache-control": null,
+          "cloudflare-cdn-cache-control": null
+        },
+        "digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "actual": {
+        "status": 307,
+        "headers": {
+          "content-type": null,
+          "x-frame-options": null,
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "permissions-policy": "camera=(), microphone=(), geolocation=()",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "cross-origin-opener-policy": null,
+          "cross-origin-embedder-policy": null,
+          "vary": null,
+          "cache-control": null,
+          "cloudflare-cdn-cache-control": null
+        },
+        "digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "differences": []
+    },
+    {
+      "request": {
+        "path": "/builder"
+      },
+      "expected": {
+        "status": 307,
+        "headers": {
+          "content-type": null,
+          "x-frame-options": "DENY",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "permissions-policy": "camera=(), microphone=(), geolocation=()",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "cross-origin-opener-policy": "same-origin",
+          "cross-origin-embedder-policy": "require-corp",
+          "vary": null,
+          "cache-control": null,
+          "cloudflare-cdn-cache-control": null
+        },
+        "digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "actual": {
+        "status": 307,
+        "headers": {
+          "content-type": null,
+          "x-frame-options": "DENY",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "permissions-policy": "camera=(), microphone=(), geolocation=()",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "cross-origin-opener-policy": "same-origin",
+          "cross-origin-embedder-policy": "require-corp",
+          "vary": null,
+          "cache-control": null,
+          "cloudflare-cdn-cache-control": null
+        },
+        "digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "differences": []
+    },
+    {
+      "request": {
+        "path": "/ethos",
+        "method": "HEAD"
+      },
+      "expected": {
+        "status": 200,
+        "headers": {
+          "content-type": "text/html; charset=utf-8",
+          "x-frame-options": "DENY",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "permissions-policy": "camera=(), microphone=(), geolocation=()",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "cross-origin-opener-policy": null,
+          "cross-origin-embedder-policy": null,
+          "vary": null,
+          "cache-control": "public, max-age=0, must-revalidate",
+          "cloudflare-cdn-cache-control": "no-store"
+        },
+        "digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "actual": {
+        "status": 200,
+        "headers": {
+          "content-type": "text/html; charset=utf-8",
+          "x-frame-options": "DENY",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "permissions-policy": "camera=(), microphone=(), geolocation=()",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "cross-origin-opener-policy": null,
+          "cross-origin-embedder-policy": null,
+          "vary": null,
+          "cache-control": "public, max-age=0, must-revalidate",
+          "cloudflare-cdn-cache-control": "no-store"
+        },
+        "digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "differences": []
+    },
+    {
+      "request": {
+        "path": "/not-a-real-page"
+      },
+      "expected": {
+        "status": 404,
+        "headers": {
+          "content-type": "text/html; charset=utf-8",
+          "x-frame-options": "DENY",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "permissions-policy": "camera=(), microphone=(), geolocation=()",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "cross-origin-opener-policy": null,
+          "cross-origin-embedder-policy": null,
+          "vary": null,
+          "cache-control": "public, max-age=0, must-revalidate",
+          "cloudflare-cdn-cache-control": "no-store"
+        },
+        "digest": "fdcdc9d7c468c7fb16fb2f4d3d820dcad5e3d7409a26c20f385b7e05fc1262e2"
+      },
+      "actual": {
+        "status": 404,
+        "headers": {
+          "content-type": "text/html; charset=utf-8",
+          "x-frame-options": "DENY",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "permissions-policy": "camera=(), microphone=(), geolocation=()",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "cross-origin-opener-policy": null,
+          "cross-origin-embedder-policy": null,
+          "vary": null,
+          "cache-control": "public, max-age=0, must-revalidate",
+          "cloudflare-cdn-cache-control": "no-store"
+        },
+        "digest": "b056f8e5a83687f0e43733e91453f9fe5bdad93d7cd9b0e0d2b683e1771ccd68"
+      },
+      "differences": []
+    }
+  ]
+}

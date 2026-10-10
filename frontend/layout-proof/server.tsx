@@ -9,16 +9,17 @@ import {PassThrough} from 'node:stream'
 import {renderToPipeableStream,renderToString} from 'react-dom/server'
 import {RouterProvider,RouterContextProvider,HeadContent} from '@tanstack/react-router'
 import {getRouter} from './router'
-export async function renderShell(initialPath:string,initialHtml:string,initialUser:unknown=null,requestData:any={},transport?:{request:Request;fetch:(url:string,init:RequestInit)=>Promise<Response>}){
- if(transport){const response=await requestHandler(()=>runWithStartContext({request:transport.request,getRouter:()=>getRouter({initialPath,initialHtml,initialUser,...requestData,server:true}),startOptions:{serverFns:{fetch:transport.fetch}},contextAfterGlobalMiddlewares:{},executedRequestMiddlewares:new Set(),handlerType:"router"},async()=>new Response(await renderShell(initialPath,initialHtml,initialUser,requestData))))(transport.request);if(response.status>=300)throw response;return response.text()}
+export async function renderShell(initialPath:string,initialHtml:string,initialUser:unknown=null,requestData:any={},transport?:{request:Request;fetch:(url:string,init:RequestInit)=>Promise<Response>;responseHeaders?:Headers}){
+ if(transport){let renderStatus=200;let renderHeaders=new Headers();const response=await requestHandler(()=>runWithStartContext({request:transport.request,getRouter:()=>getRouter({initialPath,initialHtml,initialUser,...requestData,server:true}),startOptions:{serverFns:{fetch:transport.fetch}},contextAfterGlobalMiddlewares:{},executedRequestMiddlewares:new Set(),handlerType:"router"},async()=>{const html=await renderShell(initialPath,initialHtml,initialUser,{...requestData,onPublicationHeaders:(headers:Headers)=>{renderHeaders=headers},onPublicationStatus:(status:number)=>{renderStatus=status;requestData.onPublicationStatus?.(status)}});for(const [name,value]of transport.responseHeaders??[])renderHeaders.set(name,value);return new Response(html,{status:renderStatus,headers:renderHeaders})}))(transport.request);if(response.status>=300&&response.status<400)throw response;requestData.onPublicationStatus?.(response.status);requestData.onPublicationHeaders?.(response.headers);return response.text()}
  const applicationPublication=requestData.includeApplications?{phase:'prepare',html:initialHtml}:undefined
  const router=getRouter({initialPath,initialHtml,initialUser,...requestData,applicationPublication,server:true})
  await router.load()
- requestData.onPublicationHead?.({meta:router.state.matches.flatMap(match=>match.meta??[]),links:router.state.matches.flatMap(match=>match.links??[]),scripts:router.state.matches.flatMap(match=>match.scripts??[]),html:renderToString(<RouterContextProvider router={router}><HeadContent/></RouterContextProvider>)})
+ const routeHeaders=new Headers();for(const match of router.state.matches)for(const [name,value]of new Headers(match.headers))routeHeaders.set(name,value);requestData.onPublicationHeaders?.(routeHeaders)
+ requestData.onPublicationHead?.({meta:router.state.matches.flatMap(match=>match.meta??[]),links:router.state.matches.flatMap(match=>match.links??[]),scripts:router.state.matches.flatMap(match=>match.scripts??[]),html:(router.state.matches.some(match=>match.staticData?.baseParent)?'<base target="_parent"/>':'')+renderToString(<RouterContextProvider router={router}><HeadContent/></RouterContextProvider>)})
  // Same redirect outcome used by the pinned Router request handler.
  const result=(router as any)._serverResult
  if(result?.type==='redirect')throw result.redirect
- const failed=router.state.matches.find(match=>match.status==='error');if(failed)throw failed.error
+ requestData.onPublicationStatus?.(result?.type==='render'?result.status:200)
  // Resolve retained lazy views first. Streaming Router output can contain
  // script-revealed segments even after allReady; publication must be visible
  // without those scripts. The second pass serializes the same loaded request
@@ -28,12 +29,13 @@ export async function renderShell(initialPath:string,initialHtml:string,initialU
   output.resume()
   output.on('end',resolve)
   output.on('error',reject)
+  let piped=false
   const stream=renderToPipeableStream(<RouterProvider router={router}/>,{
-   onAllReady(){queueMicrotask(()=>stream.pipe(output))},onShellError:reject,onError:reject,
+   onAllReady(){if(piped)return;piped=true;queueMicrotask(()=>stream.pipe(output))},onShellError:reject,onError:reject,
   })
  })
  let html=renderToString(<RouterProvider router={router}/>)
- if(applicationPublication&&router.state.matches.at(-1)?.staticData?.publicationFamily==='application'&&!requestData.prepareApplication){applicationPublication.html=initialHtml.includes('data-application-island')?refreshApplicationRegion(initialHtml,html):applicationBody(html);applicationPublication.phase='publish';html=renderToString(<RouterProvider router={router}/>)}
+ if(applicationPublication&&(requestData.runtimeErrorPublication||router.state.matches.at(-1)?.staticData?.publicationFamily==='application')&&!requestData.prepareApplication){applicationPublication.html=initialHtml.includes('data-application-island')?refreshApplicationRegion(initialHtml,html):applicationBody(html);applicationPublication.phase='publish';html=renderToString(<RouterProvider router={router}/>)}
  if(/<template\b[^>]*(?:data-msg|data-dgst)/.test(html))throw Error('Unresolved publication Suspense boundary')
  return html
 }

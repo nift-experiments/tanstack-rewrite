@@ -1,0 +1,807 @@
+{
+  "scope": "All frozen initial browser states with identical reduced-motion/external transport fixtures. Exact status/title/canonical/headings/font/color/background/visible-text/overflow checks. Dynamic placement mismatches remain explicit; no screenshot or complete interaction parity claim.",
+  "states": 96,
+  "passing": 80,
+  "rows": [
+    {
+      "route": "/",
+      "width": 1440,
+      "theme": "dark",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/ethos",
+      "width": 1440,
+      "theme": "dark",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/brand-guide",
+      "width": 1440,
+      "theme": "dark",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/blog/announcing-tanstack-query-v5",
+      "width": 1440,
+      "theme": "dark",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/query/latest/docs/framework/react/overview",
+      "width": 1440,
+      "theme": "dark",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/start/latest/docs/framework/react/build-from-scratch",
+      "width": 1440,
+      "theme": "dark",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/query/latest/docs/framework/react/comparison",
+      "width": 1440,
+      "theme": "dark",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/stats/npm",
+      "width": 1440,
+      "theme": "dark",
+      "status": 200,
+      "differences": [
+        "visibleText"
+      ],
+      "errors": []
+    },
+    {
+      "route": "/charts/catalog/charts/01-line-gaps/",
+      "width": 1440,
+      "theme": "dark",
+      "status": 200,
+      "differences": [
+        "visibleText"
+      ],
+      "errors": []
+    },
+    {
+      "route": "/chat",
+      "width": 1440,
+      "theme": "dark",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/login",
+      "width": 1440,
+      "theme": "dark",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/not-a-real-page",
+      "width": 1440,
+      "theme": "dark",
+      "status": 404,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "theme": "light",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/ethos",
+      "width": 1440,
+      "theme": "light",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/brand-guide",
+      "width": 1440,
+      "theme": "light",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/blog/announcing-tanstack-query-v5",
+      "width": 1440,
+      "theme": "light",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/query/latest/docs/framework/react/overview",
+      "width": 1440,
+      "theme": "light",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/start/latest/docs/framework/react/build-from-scratch",
+      "width": 1440,
+      "theme": "light",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/query/latest/docs/framework/react/comparison",
+      "width": 1440,
+      "theme": "light",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/stats/npm",
+      "width": 1440,
+      "theme": "light",
+      "status": 200,
+      "differences": [
+        "visibleText"
+      ],
+      "errors": []
+    },
+    {
+      "route": "/charts/catalog/charts/01-line-gaps/",
+      "width": 1440,
+      "theme": "light",
+      "status": 200,
+      "differences": [
+        "visibleText"
+      ],
+      "errors": []
+    },
+    {
+      "route": "/chat",
+      "width": 1440,
+      "theme": "light",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/login",
+      "width": 1440,
+      "theme": "light",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/not-a-real-page",
+      "width": 1440,
+      "theme": "light",
+      "status": 404,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "theme": "dark",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/ethos",
+      "width": 768,
+      "theme": "dark",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/brand-guide",
+      "width": 768,
+      "theme": "dark",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/blog/announcing-tanstack-query-v5",
+      "width": 768,
+      "theme": "dark",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/query/latest/docs/framework/react/overview",
+      "width": 768,
+      "theme": "dark",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/start/latest/docs/framework/react/build-from-scratch",
+      "width": 768,
+      "theme": "dark",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/query/latest/docs/framework/react/comparison",
+      "width": 768,
+      "theme": "dark",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/stats/npm",
+      "width": 768,
+      "theme": "dark",
+      "status": 200,
+      "differences": [
+        "visibleText"
+      ],
+      "errors": []
+    },
+    {
+      "route": "/charts/catalog/charts/01-line-gaps/",
+      "width": 768,
+      "theme": "dark",
+      "status": 200,
+      "differences": [
+        "visibleText"
+      ],
+      "errors": []
+    },
+    {
+      "route": "/chat",
+      "width": 768,
+      "theme": "dark",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/login",
+      "width": 768,
+      "theme": "dark",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/not-a-real-page",
+      "width": 768,
+      "theme": "dark",
+      "status": 404,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "theme": "light",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/ethos",
+      "width": 768,
+      "theme": "light",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/brand-guide",
+      "width": 768,
+      "theme": "light",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/blog/announcing-tanstack-query-v5",
+      "width": 768,
+      "theme": "light",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/query/latest/docs/framework/react/overview",
+      "width": 768,
+      "theme": "light",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/start/latest/docs/framework/react/build-from-scratch",
+      "width": 768,
+      "theme": "light",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/query/latest/docs/framework/react/comparison",
+      "width": 768,
+      "theme": "light",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/stats/npm",
+      "width": 768,
+      "theme": "light",
+      "status": 200,
+      "differences": [
+        "visibleText"
+      ],
+      "errors": []
+    },
+    {
+      "route": "/charts/catalog/charts/01-line-gaps/",
+      "width": 768,
+      "theme": "light",
+      "status": 200,
+      "differences": [
+        "visibleText"
+      ],
+      "errors": []
+    },
+    {
+      "route": "/chat",
+      "width": 768,
+      "theme": "light",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/login",
+      "width": 768,
+      "theme": "light",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/not-a-real-page",
+      "width": 768,
+      "theme": "light",
+      "status": 404,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/ethos",
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/brand-guide",
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/blog/announcing-tanstack-query-v5",
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/query/latest/docs/framework/react/overview",
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/start/latest/docs/framework/react/build-from-scratch",
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/query/latest/docs/framework/react/comparison",
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/stats/npm",
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "differences": [
+        "visibleText"
+      ],
+      "errors": []
+    },
+    {
+      "route": "/charts/catalog/charts/01-line-gaps/",
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "differences": [
+        "visibleText"
+      ],
+      "errors": []
+    },
+    {
+      "route": "/chat",
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/login",
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/not-a-real-page",
+      "width": 390,
+      "theme": "dark",
+      "status": 404,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/ethos",
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/brand-guide",
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/blog/announcing-tanstack-query-v5",
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/query/latest/docs/framework/react/overview",
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/start/latest/docs/framework/react/build-from-scratch",
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/query/latest/docs/framework/react/comparison",
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/stats/npm",
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "differences": [
+        "visibleText"
+      ],
+      "errors": []
+    },
+    {
+      "route": "/charts/catalog/charts/01-line-gaps/",
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "differences": [
+        "visibleText"
+      ],
+      "errors": []
+    },
+    {
+      "route": "/chat",
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/login",
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/not-a-real-page",
+      "width": 390,
+      "theme": "light",
+      "status": 404,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "theme": "dark",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/ethos",
+      "width": 320,
+      "theme": "dark",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/brand-guide",
+      "width": 320,
+      "theme": "dark",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/blog/announcing-tanstack-query-v5",
+      "width": 320,
+      "theme": "dark",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/query/latest/docs/framework/react/overview",
+      "width": 320,
+      "theme": "dark",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/start/latest/docs/framework/react/build-from-scratch",
+      "width": 320,
+      "theme": "dark",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/query/latest/docs/framework/react/comparison",
+      "width": 320,
+      "theme": "dark",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/stats/npm",
+      "width": 320,
+      "theme": "dark",
+      "status": 200,
+      "differences": [
+        "visibleText"
+      ],
+      "errors": []
+    },
+    {
+      "route": "/charts/catalog/charts/01-line-gaps/",
+      "width": 320,
+      "theme": "dark",
+      "status": 200,
+      "differences": [
+        "visibleText"
+      ],
+      "errors": []
+    },
+    {
+      "route": "/chat",
+      "width": 320,
+      "theme": "dark",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/login",
+      "width": 320,
+      "theme": "dark",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/not-a-real-page",
+      "width": 320,
+      "theme": "dark",
+      "status": 404,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "theme": "light",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/ethos",
+      "width": 320,
+      "theme": "light",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/brand-guide",
+      "width": 320,
+      "theme": "light",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/blog/announcing-tanstack-query-v5",
+      "width": 320,
+      "theme": "light",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/query/latest/docs/framework/react/overview",
+      "width": 320,
+      "theme": "light",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/start/latest/docs/framework/react/build-from-scratch",
+      "width": 320,
+      "theme": "light",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/query/latest/docs/framework/react/comparison",
+      "width": 320,
+      "theme": "light",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/stats/npm",
+      "width": 320,
+      "theme": "light",
+      "status": 200,
+      "differences": [
+        "visibleText"
+      ],
+      "errors": []
+    },
+    {
+      "route": "/charts/catalog/charts/01-line-gaps/",
+      "width": 320,
+      "theme": "light",
+      "status": 200,
+      "differences": [
+        "visibleText"
+      ],
+      "errors": []
+    },
+    {
+      "route": "/chat",
+      "width": 320,
+      "theme": "light",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/login",
+      "width": 320,
+      "theme": "light",
+      "status": 200,
+      "differences": [],
+      "errors": []
+    },
+    {
+      "route": "/not-a-real-page",
+      "width": 320,
+      "theme": "light",
+      "status": 404,
+      "differences": [],
+      "errors": []
+    }
+  ]
+}

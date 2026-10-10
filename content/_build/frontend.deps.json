@@ -13,7 +13,10 @@
     "services/protocol-proof/src/auth.functions.ts",
     "scripts/application-import-transform.cjs",
     "pnpm-workspace.yaml",
-    "patches/"
+    "patches/",
+    "scripts/compute-frontend-release.mjs",
+    "scripts/publication-hydration-transform.cjs",
+    "sources/styles/"
   ],
   "dependencies": [
     "frontend/",
@@ -251,6 +254,7 @@
     "frontend/layout/PublishedDoc.tsx",
     "frontend/layout/PublishedFeedback.tsx",
     "frontend/layout/RetainedMermaid.tsx",
+    "frontend/layout/RootChrome.tsx",
     "frontend/marketing",
     "frontend/marketing/LandingPublication.tsx",
     "frontend/marketing/LibraryLanding.tsx",
@@ -276,6 +280,7 @@
     "frontend/publication",
     "frontend/publication/PreparationBoundary.ts",
     "frontend/publication/PublicationHead.tsx",
+    "frontend/publication/PublicationHydrate.tsx",
     "frontend/publication/PublishedRegion.tsx",
     "frontend/publication/code-copy.tsx",
     "frontend/publication/mermaid.tsx",
@@ -674,6 +679,7 @@
     "frontend/retained/src/components/CopyMarkdownButton.tsx",
     "frontend/retained/src/components/CopyPageDropdown.tsx",
     "frontend/retained/src/components/CoverFallback.tsx",
+    "frontend/retained/src/components/DefaultCatchBoundary.tsx",
     "frontend/retained/src/components/Doc.tsx",
     "frontend/retained/src/components/DocBreadcrumb.tsx",
     "frontend/retained/src/components/DocContainer.tsx",
@@ -724,6 +730,7 @@
     "frontend/retained/src/components/PartnersGrid.tsx",
     "frontend/retained/src/components/PartnersSponsorsSection.tsx",
     "frontend/retained/src/components/PlaceholderOssSponsors.tsx",
+    "frontend/retained/src/components/ProductScarf.tsx",
     "frontend/retained/src/components/RecentPostsWidget.tsx",
     "frontend/retained/src/components/RedirectVersionBanner.tsx",
     "frontend/retained/src/components/RightRail.tsx",
@@ -1264,6 +1271,7 @@
     "frontend/retained/src/utils/site.ts",
     "frontend/retained/src/utils/sponsors.functions.ts",
     "frontend/retained/src/utils/stackblitz-embed.ts",
+    "frontend/retained/src/utils/stale-app-reload.ts",
     "frontend/retained/src/utils/start-hosting-guide.ts",
     "frontend/retained/src/utils/start-hosting-partners.ts",
     "frontend/retained/src/utils/stats-admin.functions.ts",
@@ -1356,10 +1364,15 @@
     "scripts/build-frontend.mjs",
     "scripts/compile-document.mjs",
     "scripts/compile-parser.mjs",
+    "scripts/compute-frontend-release.mjs",
     "scripts/probe-publication-ssr.mjs",
     "scripts/probe-shell-build.mjs",
+    "scripts/publication-hydration-transform.cjs",
     "scripts/publication-url-transform.cjs",
     "scripts/refresh-build-dependencies.mjs",
-    "services/protocol-proof/src/auth.functions.ts"
+    "services/protocol-proof/src/auth.functions.ts",
+    "sources/styles/",
+    "sources/styles/app.css",
+    "sources/styles/head-links.json"
   ]
 }

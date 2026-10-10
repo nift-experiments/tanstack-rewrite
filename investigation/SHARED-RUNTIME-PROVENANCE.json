@@ -1,0 +1,34 @@
+{
+  "scope": "Maintained shared rewrite adapters derived from the pinned production source; retained UI closure provenance is separate.",
+  "records": [
+    {
+      "source": "src/routes/__root.tsx",
+      "pinnedCommit": "862ccc3d191818320c3e6d217542883f80cb907a",
+      "sourceSha256": "cd04975169c4b51439f5f8e5f093f71b850eb73898c4a6b9ffff8cb2cf20fbc7",
+      "maintainedImplementation": "frontend/layout/RootChrome.tsx",
+      "adaptations": [
+        "Nift retains document envelope and head ownership; shared providers, navigation, footer, analytics and pending chrome remain original behavior.",
+        "Development tooling and unused prototype timer removed."
+      ]
+    },
+    {
+      "source": "src/server.ts",
+      "pinnedCommit": "862ccc3d191818320c3e6d217542883f80cb907a",
+      "sourceSha256": "3c783f559233498ae6f4c48aaf41af00420296f2409e4232ab5f586a66969bbd",
+      "maintainedImplementation": "scripts/hosting-contract.mjs",
+      "adaptations": [
+        "Bounded production security, embedding, content negotiation and analytics transport policy.",
+        "Node streaming request bodies specify duplex; controlled validation transport is explicit."
+      ]
+    },
+    {
+      "source": "src/routes/api/chat/app-version.ts",
+      "pinnedCommit": "862ccc3d191818320c3e6d217542883f80cb907a",
+      "sourceSha256": "9b2871bc19bd6d7214c93952f228b53a2a9d861851c5eae074fe779825b7df79",
+      "maintainedImplementation": "services/backend/src/routes/api/chat/app-version.ts",
+      "adaptations": [
+        "Retained no-store API shape; expose native frontend release from host binding with original constant fallback. Backend compilation remains independent."
+      ]
+    }
+  ]
+}

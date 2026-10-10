@@ -3,10 +3,12 @@
   "knownUpstreamPatterns": 314,
   "generatedDocumentationRoutes": 14107,
   "generatedLandingRoutes": 44,
-  "completeNiftPages": 14152,
+  "generatedMarketingRoutes": 15,
+  "generatedBlogRoutes": 80,
+  "completeNiftPages": 14247,
   "homepageDeclaredIslands": 7,
-  "maintainedAssetsVerified": 244,
+  "maintainedAssetsVerified": 243,
   "previewPublishesAtStartup": false,
   "semanticParity": "Existing representative proof coverage only; corpus-wide acceptance pending",
-  "browserParity": "Automated 21-family smoke and frozen 96-state reference; current complete-page pass pending"
+  "browserParity": "See separate frozen 96-state semantic and paired full-pixel receipts; complete interaction acceptance remains separate"
 }

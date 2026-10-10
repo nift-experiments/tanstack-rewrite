@@ -1,7 +1,9 @@
 // The official Start serializer invokes this request-scoped HTTP transport.
 // No backend implementation enters the publication renderer's import graph.
 export function createSsrServiceTransport(request, dispatch, receiveCookie = () => {}) {
+  const responseHeaders=new Headers();
   return {
+    responseHeaders,
     request,
     async fetch(url, init = {}) {
       const destination = new URL(url, request.url);
@@ -23,6 +25,7 @@ export function createSsrServiceTransport(request, dispatch, receiveCookie = () 
         ? AbortSignal.any([request.signal, init.signal])
         : request.signal;
       const response = await dispatch(new Request(destination, {...init, headers, signal}));
+      for(const name of ['cache-control','cloudflare-cdn-cache-control','vary']){const value=response.headers.get(name);if(value!==null)responseHeaders.set(name,value);}
       for (const cookie of response.headers.getSetCookie()) receiveCookie(cookie);
       return response;
     },

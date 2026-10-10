@@ -1,8 +1,8 @@
 {
   "upstream_commit": "862ccc3d191818320c3e6d217542883f80cb907a",
-  "scope": "Exact shared Navbar, providers, documentation, marketing and application UI/helper import closure. Route views are maintained separately; original route tree and API implementations are excluded.",
-  "files_count": 931,
-  "files_bytes": 7066390,
+  "scope": "Exact shared Navbar, providers, documentation, marketing and application UI/helper import closure. Route views are maintained separately; original route tree and API implementations are excluded.; exact shared root chrome/error UI closure",
+  "files_count": 934,
+  "files_bytes": 7073240,
   "adaptations": [],
   "compile_time_inputs": [
     {
@@ -2028,6 +2028,11 @@
       "sha256": "15a0eb2e9281665fa94cc61c1a74fb62e7721d23711a5ecf7def12db50e2213d"
     },
     {
+      "path": "components/DefaultCatchBoundary.tsx",
+      "bytes": 1800,
+      "sha256": "c9c48fc721fd6abe70d80db8c2777fe948a6ef091e79b38e2a58ce9c6986ad18"
+    },
+    {
       "path": "components/deploy/shared.ts",
       "bytes": 2798,
       "sha256": "264fc0e9380b94f0c6bed8e65184ca3f0d28d5b284b1d810e9d027967d21eea4"
@@ -3151,6 +3156,11 @@
       "path": "components/PlaceholderOssSponsors.tsx",
       "bytes": 1207,
       "sha256": "25797946e5492f63897ac99479a23092710fad09fc0987f7b5fcfe32157a33ec"
+    },
+    {
+      "path": "components/ProductScarf.tsx",
+      "bytes": 754,
+      "sha256": "74945d97fa411daa936439b2d77786d9241c863b5ef20bb6396002190aeef54f"
     },
     {
       "path": "components/RecentPostsWidget.tsx",
@@ -4586,6 +4596,11 @@
       "path": "utils/stackblitz-embed.ts",
       "bytes": 1295,
       "sha256": "e8da20adc9cd043e7e8d09563c16377397063237771c2fcd7c6581fe8a3176c7"
+    },
+    {
+      "path": "utils/stale-app-reload.ts",
+      "bytes": 4296,
+      "sha256": "d5b682e5a2af8756b605aee88b5adeebc910e2b0d841c1c7f1f327fb95416c6a"
     },
     {
       "path": "utils/start-hosting-guide.ts",

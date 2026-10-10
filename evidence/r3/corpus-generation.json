@@ -29,12 +29,12 @@
     "cli": 22,
     "workflow": 162
   },
-  "rendered": 0,
-  "reused": 14107,
+  "rendered": 14107,
+  "reused": 0,
   "emptyInputs": 1,
   "renderFailures": 0,
   "pendingComponentFamilies": {},
-  "elapsedSeconds": 86.186999891,
+  "elapsedSeconds": 715.755198805,
   "output": "public/<route>.html plus public/index.html; article fragments support native Router navigation",
   "siteShell": "Nift-published complete pages; declared session/shell slots evaluated at request time",
   "familyBindings": {

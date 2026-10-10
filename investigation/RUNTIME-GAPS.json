@@ -1,16 +1,20 @@
 {
-  "status": "Normal preview uses actual workerd durable/R2/workflow bindings; signed local database bootstrap, selected protocol/persistence checks pass",
+  "status": "Actual workerd durable/R2/workflow bindings; signed bootstrap, workspace projection, selected protocols and retained provider-backed conversation pass with explicit local transport fixtures",
   "evidence": [
     "evidence/r3/worker-api-protocol.json",
     "evidence/r3/worker-durable-persistence.json",
-    "evidence/r3/preview-authenticated-runtime.json"
+    "evidence/r3/preview-authenticated-runtime.json",
+    "evidence/r3/preview-workspace-sync.json",
+    "evidence/r3/runtime-storage-contract.json",
+    "evidence/r3/preview-conversation.json",
+    "evidence/r3/preview-workflow.json"
   ],
   "remaining": [
-    "Full chat and workflow execution",
+    "Broader tool-bearing conversations, workflow interactions and live provider behavior",
     "Authenticated class/service/provider parity",
     "Publication hosting and portable document providers",
     "Complete production bindings",
     "Malformed server-function error-path parity",
-    "Independent dependencies/toolchains"
+    "Independent pristine-checkout full build acceptance (owned frozen install and five compiler graphs already pass)"
   ]
 }

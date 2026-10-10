@@ -1,0 +1,328 @@
+{
+  "frontendReceiptSha256": "363142be827fc1d38faf55d41418cb91d3151d1b8fb0bae82a8cde288693ef99",
+  "scope": "Pinned upstream and rewrite under identical frozen public transport/no-database fixtures. Both must automatically compile and reach Running; no clicks or status-text normalization. Companion to the retained frozen 96-state comparison, whose 1440-dark and 390-light snapshots captured transient Compiling state.",
+  "states": 8,
+  "passing": 8,
+  "rows": [
+    {
+      "route": "/charts/catalog/charts/01-line-gaps/",
+      "width": 1440,
+      "theme": "dark",
+      "expected": {
+        "status": 200,
+        "textSha256": "056d63bb9c34ce5ad818b9d2b9a8efe06b9b7af1c30f28271674de12e9106104",
+        "title": "Apple stock line with seasonal gaps | TanStack Charts",
+        "canonical": "https://tanstack.com/charts/catalog/charts/01-line-gaps",
+        "headings": [
+          "Apple stock line with seasonal gaps",
+          "Libraries",
+          "Blog",
+          "Community",
+          "Tools",
+          "Merch",
+          "Support"
+        ],
+        "width": 1440,
+        "errors": []
+      },
+      "actual": {
+        "status": 200,
+        "textSha256": "056d63bb9c34ce5ad818b9d2b9a8efe06b9b7af1c30f28271674de12e9106104",
+        "title": "Apple stock line with seasonal gaps | TanStack Charts",
+        "canonical": "https://tanstack.com/charts/catalog/charts/01-line-gaps",
+        "headings": [
+          "Apple stock line with seasonal gaps",
+          "Libraries",
+          "Blog",
+          "Community",
+          "Tools",
+          "Merch",
+          "Support"
+        ],
+        "width": 1440,
+        "errors": []
+      },
+      "differences": []
+    },
+    {
+      "route": "/charts/catalog/charts/01-line-gaps/",
+      "width": 1440,
+      "theme": "light",
+      "expected": {
+        "status": 200,
+        "textSha256": "056d63bb9c34ce5ad818b9d2b9a8efe06b9b7af1c30f28271674de12e9106104",
+        "title": "Apple stock line with seasonal gaps | TanStack Charts",
+        "canonical": "https://tanstack.com/charts/catalog/charts/01-line-gaps",
+        "headings": [
+          "Apple stock line with seasonal gaps",
+          "Libraries",
+          "Blog",
+          "Community",
+          "Tools",
+          "Merch",
+          "Support"
+        ],
+        "width": 1440,
+        "errors": []
+      },
+      "actual": {
+        "status": 200,
+        "textSha256": "056d63bb9c34ce5ad818b9d2b9a8efe06b9b7af1c30f28271674de12e9106104",
+        "title": "Apple stock line with seasonal gaps | TanStack Charts",
+        "canonical": "https://tanstack.com/charts/catalog/charts/01-line-gaps",
+        "headings": [
+          "Apple stock line with seasonal gaps",
+          "Libraries",
+          "Blog",
+          "Community",
+          "Tools",
+          "Merch",
+          "Support"
+        ],
+        "width": 1440,
+        "errors": []
+      },
+      "differences": []
+    },
+    {
+      "route": "/charts/catalog/charts/01-line-gaps/",
+      "width": 768,
+      "theme": "dark",
+      "expected": {
+        "status": 200,
+        "textSha256": "1703ca59b743055fb8561ab5008fe2823986c18bf976002f4c663dd094cfc913",
+        "title": "Apple stock line with seasonal gaps | TanStack Charts",
+        "canonical": "https://tanstack.com/charts/catalog/charts/01-line-gaps",
+        "headings": [
+          "Apple stock line with seasonal gaps",
+          "Libraries",
+          "Blog",
+          "Community",
+          "Tools",
+          "Merch",
+          "Support"
+        ],
+        "width": 768,
+        "errors": []
+      },
+      "actual": {
+        "status": 200,
+        "textSha256": "1703ca59b743055fb8561ab5008fe2823986c18bf976002f4c663dd094cfc913",
+        "title": "Apple stock line with seasonal gaps | TanStack Charts",
+        "canonical": "https://tanstack.com/charts/catalog/charts/01-line-gaps",
+        "headings": [
+          "Apple stock line with seasonal gaps",
+          "Libraries",
+          "Blog",
+          "Community",
+          "Tools",
+          "Merch",
+          "Support"
+        ],
+        "width": 768,
+        "errors": []
+      },
+      "differences": []
+    },
+    {
+      "route": "/charts/catalog/charts/01-line-gaps/",
+      "width": 768,
+      "theme": "light",
+      "expected": {
+        "status": 200,
+        "textSha256": "1703ca59b743055fb8561ab5008fe2823986c18bf976002f4c663dd094cfc913",
+        "title": "Apple stock line with seasonal gaps | TanStack Charts",
+        "canonical": "https://tanstack.com/charts/catalog/charts/01-line-gaps",
+        "headings": [
+          "Apple stock line with seasonal gaps",
+          "Libraries",
+          "Blog",
+          "Community",
+          "Tools",
+          "Merch",
+          "Support"
+        ],
+        "width": 768,
+        "errors": []
+      },
+      "actual": {
+        "status": 200,
+        "textSha256": "1703ca59b743055fb8561ab5008fe2823986c18bf976002f4c663dd094cfc913",
+        "title": "Apple stock line with seasonal gaps | TanStack Charts",
+        "canonical": "https://tanstack.com/charts/catalog/charts/01-line-gaps",
+        "headings": [
+          "Apple stock line with seasonal gaps",
+          "Libraries",
+          "Blog",
+          "Community",
+          "Tools",
+          "Merch",
+          "Support"
+        ],
+        "width": 768,
+        "errors": []
+      },
+      "differences": []
+    },
+    {
+      "route": "/charts/catalog/charts/01-line-gaps/",
+      "width": 390,
+      "theme": "dark",
+      "expected": {
+        "status": 200,
+        "textSha256": "1512779f994a2085fc627e5e251a0146119c04a47c5f37d9b547ccb489c0df0a",
+        "title": "Apple stock line with seasonal gaps | TanStack Charts",
+        "canonical": "https://tanstack.com/charts/catalog/charts/01-line-gaps",
+        "headings": [
+          "Apple stock line with seasonal gaps",
+          "Libraries",
+          "Blog",
+          "Community",
+          "Tools",
+          "Merch",
+          "Support"
+        ],
+        "width": 390,
+        "errors": []
+      },
+      "actual": {
+        "status": 200,
+        "textSha256": "1512779f994a2085fc627e5e251a0146119c04a47c5f37d9b547ccb489c0df0a",
+        "title": "Apple stock line with seasonal gaps | TanStack Charts",
+        "canonical": "https://tanstack.com/charts/catalog/charts/01-line-gaps",
+        "headings": [
+          "Apple stock line with seasonal gaps",
+          "Libraries",
+          "Blog",
+          "Community",
+          "Tools",
+          "Merch",
+          "Support"
+        ],
+        "width": 390,
+        "errors": []
+      },
+      "differences": []
+    },
+    {
+      "route": "/charts/catalog/charts/01-line-gaps/",
+      "width": 390,
+      "theme": "light",
+      "expected": {
+        "status": 200,
+        "textSha256": "1512779f994a2085fc627e5e251a0146119c04a47c5f37d9b547ccb489c0df0a",
+        "title": "Apple stock line with seasonal gaps | TanStack Charts",
+        "canonical": "https://tanstack.com/charts/catalog/charts/01-line-gaps",
+        "headings": [
+          "Apple stock line with seasonal gaps",
+          "Libraries",
+          "Blog",
+          "Community",
+          "Tools",
+          "Merch",
+          "Support"
+        ],
+        "width": 390,
+        "errors": []
+      },
+      "actual": {
+        "status": 200,
+        "textSha256": "1512779f994a2085fc627e5e251a0146119c04a47c5f37d9b547ccb489c0df0a",
+        "title": "Apple stock line with seasonal gaps | TanStack Charts",
+        "canonical": "https://tanstack.com/charts/catalog/charts/01-line-gaps",
+        "headings": [
+          "Apple stock line with seasonal gaps",
+          "Libraries",
+          "Blog",
+          "Community",
+          "Tools",
+          "Merch",
+          "Support"
+        ],
+        "width": 390,
+        "errors": []
+      },
+      "differences": []
+    },
+    {
+      "route": "/charts/catalog/charts/01-line-gaps/",
+      "width": 320,
+      "theme": "dark",
+      "expected": {
+        "status": 200,
+        "textSha256": "1512779f994a2085fc627e5e251a0146119c04a47c5f37d9b547ccb489c0df0a",
+        "title": "Apple stock line with seasonal gaps | TanStack Charts",
+        "canonical": "https://tanstack.com/charts/catalog/charts/01-line-gaps",
+        "headings": [
+          "Apple stock line with seasonal gaps",
+          "Libraries",
+          "Blog",
+          "Community",
+          "Tools",
+          "Merch",
+          "Support"
+        ],
+        "width": 320,
+        "errors": []
+      },
+      "actual": {
+        "status": 200,
+        "textSha256": "1512779f994a2085fc627e5e251a0146119c04a47c5f37d9b547ccb489c0df0a",
+        "title": "Apple stock line with seasonal gaps | TanStack Charts",
+        "canonical": "https://tanstack.com/charts/catalog/charts/01-line-gaps",
+        "headings": [
+          "Apple stock line with seasonal gaps",
+          "Libraries",
+          "Blog",
+          "Community",
+          "Tools",
+          "Merch",
+          "Support"
+        ],
+        "width": 320,
+        "errors": []
+      },
+      "differences": []
+    },
+    {
+      "route": "/charts/catalog/charts/01-line-gaps/",
+      "width": 320,
+      "theme": "light",
+      "expected": {
+        "status": 200,
+        "textSha256": "1512779f994a2085fc627e5e251a0146119c04a47c5f37d9b547ccb489c0df0a",
+        "title": "Apple stock line with seasonal gaps | TanStack Charts",
+        "canonical": "https://tanstack.com/charts/catalog/charts/01-line-gaps",
+        "headings": [
+          "Apple stock line with seasonal gaps",
+          "Libraries",
+          "Blog",
+          "Community",
+          "Tools",
+          "Merch",
+          "Support"
+        ],
+        "width": 320,
+        "errors": []
+      },
+      "actual": {
+        "status": 200,
+        "textSha256": "1512779f994a2085fc627e5e251a0146119c04a47c5f37d9b547ccb489c0df0a",
+        "title": "Apple stock line with seasonal gaps | TanStack Charts",
+        "canonical": "https://tanstack.com/charts/catalog/charts/01-line-gaps",
+        "headings": [
+          "Apple stock line with seasonal gaps",
+          "Libraries",
+          "Blog",
+          "Community",
+          "Tools",
+          "Merch",
+          "Support"
+        ],
+        "width": 320,
+        "errors": []
+      },
+      "differences": []
+    }
+  ]
+}

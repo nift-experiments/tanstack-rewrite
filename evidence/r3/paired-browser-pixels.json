@@ -1,0 +1,2933 @@
+{
+  "scope": "All 96 pinned browser sample states, fresh paired upstream and rewrite with identical public transport, no database, fallback fonts, reduced motion, settled chart state, and matched real upstream partner-placement seed. No pixel masks or screenshot normalization. Frozen snapshots remain unchanged.",
+  "states": 96,
+  "passing": 87,
+  "rows": [
+    {
+      "index": 0,
+      "route": "/",
+      "width": 1440,
+      "theme": "dark",
+      "matchedPlacementSeed": "3874bafb-f25d-4cd0-9fdf-bf9cdaddc130",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "9ddfa6241285daed0dcea4635aa80d80303d25ac07f6f5e2c053360e7b777c69",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "9ddfa6241285daed0dcea4635aa80d80303d25ac07f6f5e2c053360e7b777c69",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        1440,
+        8318
+      ],
+      "candidateDimensions": [
+        1440,
+        8318
+      ],
+      "differenceBounds": [
+        19,
+        694,
+        1421,
+        7601
+      ],
+      "pixelDifference": "RGB"
+    },
+    {
+      "index": 1,
+      "route": "/ethos",
+      "width": 1440,
+      "theme": "dark",
+      "matchedPlacementSeed": "398e80a9-04ad-48e9-8d9a-50e9b37ca3f2",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "8938ca71a806d5f0908743c677cb924bb20bfea3b16e4124a76d008dd3f2c6ea",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "8938ca71a806d5f0908743c677cb924bb20bfea3b16e4124a76d008dd3f2c6ea",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        1440,
+        2693
+      ],
+      "candidateDimensions": [
+        1440,
+        2693
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 2,
+      "route": "/brand-guide",
+      "width": 1440,
+      "theme": "dark",
+      "matchedPlacementSeed": "e3a97847-5d4b-43e8-9b5f-22c3e02273f7",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "a7200996af00ad6e9a99ebac9c33b27ca73b70330d3c3967b1937d065d522225",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "a7200996af00ad6e9a99ebac9c33b27ca73b70330d3c3967b1937d065d522225",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        1440,
+        2848
+      ],
+      "candidateDimensions": [
+        1440,
+        2848
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 3,
+      "route": "/blog/announcing-tanstack-query-v5",
+      "width": 1440,
+      "theme": "dark",
+      "matchedPlacementSeed": "d78c6fd4-08d1-4458-bff5-75dfa8af3411",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "db1fa9e81d6fe225eeea136a57489a89c0d1ce1af8b29fff8a24ba36c4e59c0d",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "db1fa9e81d6fe225eeea136a57489a89c0d1ce1af8b29fff8a24ba36c4e59c0d",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        1440,
+        3742
+      ],
+      "candidateDimensions": [
+        1440,
+        3742
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 4,
+      "route": "/query/latest/docs/framework/react/overview",
+      "width": 1440,
+      "theme": "dark",
+      "matchedPlacementSeed": "305e42cb-d0e7-469a-9760-c07819db98eb",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "d4abfbc98880be7b72bbe11e417cffbf0281df273e12e33a795618cc984aa38d",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "d4abfbc98880be7b72bbe11e417cffbf0281df273e12e33a795618cc984aa38d",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        1440,
+        3518
+      ],
+      "candidateDimensions": [
+        1440,
+        3518
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 5,
+      "route": "/start/latest/docs/framework/react/build-from-scratch",
+      "width": 1440,
+      "theme": "dark",
+      "matchedPlacementSeed": "8b741218-7560-4caf-a977-300b44e15e10",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "33c73c6a7449a4b87f53d4c4b98fe0d6c99b269c8e89d0954f4806e5dcb495b4",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "33c73c6a7449a4b87f53d4c4b98fe0d6c99b269c8e89d0954f4806e5dcb495b4",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        1440,
+        7112
+      ],
+      "candidateDimensions": [
+        1440,
+        7112
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 6,
+      "route": "/query/latest/docs/framework/react/comparison",
+      "width": 1440,
+      "theme": "dark",
+      "matchedPlacementSeed": "1584f9b7-0b1a-4c08-9fb5-fe097fa003bd",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "bee75e4e191a2f2f4f3aeee4c7ee4452c55aa7ae268f3f5f564698e95b7e6625",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "bee75e4e191a2f2f4f3aeee4c7ee4452c55aa7ae268f3f5f564698e95b7e6625",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        1440,
+        4672
+      ],
+      "candidateDimensions": [
+        1440,
+        4672
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 7,
+      "route": "/stats/npm",
+      "width": 1440,
+      "theme": "dark",
+      "matchedPlacementSeed": "fb49fdcd-a272-46b9-b232-d0c36dc82bfc",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "ceea1b75c6082ec01560953baa46022a436d847b85e57d25164f65042a32cc58",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "ceea1b75c6082ec01560953baa46022a436d847b85e57d25164f65042a32cc58",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        1440,
+        2448
+      ],
+      "candidateDimensions": [
+        1440,
+        2448
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 8,
+      "route": "/charts/catalog/charts/01-line-gaps/",
+      "width": 1440,
+      "theme": "dark",
+      "matchedPlacementSeed": "65171296-908d-488f-85f8-f7dd2d56264a",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "056d63bb9c34ce5ad818b9d2b9a8efe06b9b7af1c30f28271674de12e9106104",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "056d63bb9c34ce5ad818b9d2b9a8efe06b9b7af1c30f28271674de12e9106104",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        1440,
+        1583
+      ],
+      "candidateDimensions": [
+        1440,
+        1583
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 9,
+      "route": "/chat",
+      "width": 1440,
+      "theme": "dark",
+      "matchedPlacementSeed": "54fe4500-be8c-4304-bd2d-4e4ff3791359",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "bf7a2eb2e36484fffdbd76872b4fbf5e16c1479cd7941cd8cadeade59f8f150d",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "bf7a2eb2e36484fffdbd76872b4fbf5e16c1479cd7941cd8cadeade59f8f150d",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        1440,
+        1541
+      ],
+      "candidateDimensions": [
+        1440,
+        1541
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 10,
+      "route": "/login",
+      "width": 1440,
+      "theme": "dark",
+      "matchedPlacementSeed": "e8aa2fe8-e1dc-4059-ac3b-710ab374a519",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "45aa45f6bce2ca659bdc1040927ca87705ccfcf40cad88c64ff8dc8c530ab27d",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "45aa45f6bce2ca659bdc1040927ca87705ccfcf40cad88c64ff8dc8c530ab27d",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        1440,
+        1599
+      ],
+      "candidateDimensions": [
+        1440,
+        1599
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 11,
+      "route": "/not-a-real-page",
+      "width": 1440,
+      "theme": "dark",
+      "matchedPlacementSeed": "6bcd7101-f980-4599-b644-16b9eadde0d3",
+      "differences": [],
+      "sides": [
+        {
+          "status": 404,
+          "textSha256": "68b26b30245963ebfbf8e61e31966c382e4af6b4a807e52d14ec248aa0060902",
+          "errors": []
+        },
+        {
+          "status": 404,
+          "textSha256": "68b26b30245963ebfbf8e61e31966c382e4af6b4a807e52d14ec248aa0060902",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        1440,
+        1541
+      ],
+      "candidateDimensions": [
+        1440,
+        1541
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 12,
+      "route": "/",
+      "width": 1440,
+      "theme": "light",
+      "matchedPlacementSeed": "5d2b687c-62ff-47b4-81de-3e8f911aafdd",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "9ddfa6241285daed0dcea4635aa80d80303d25ac07f6f5e2c053360e7b777c69",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "9ddfa6241285daed0dcea4635aa80d80303d25ac07f6f5e2c053360e7b777c69",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        1440,
+        8318
+      ],
+      "candidateDimensions": [
+        1440,
+        8318
+      ],
+      "differenceBounds": [
+        19,
+        694,
+        1421,
+        7537
+      ],
+      "pixelDifference": "RGB"
+    },
+    {
+      "index": 13,
+      "route": "/ethos",
+      "width": 1440,
+      "theme": "light",
+      "matchedPlacementSeed": "f1a581c4-6fa1-4076-b48d-d9f8ad43b972",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "8938ca71a806d5f0908743c677cb924bb20bfea3b16e4124a76d008dd3f2c6ea",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "8938ca71a806d5f0908743c677cb924bb20bfea3b16e4124a76d008dd3f2c6ea",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        1440,
+        2717
+      ],
+      "candidateDimensions": [
+        1440,
+        2717
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 14,
+      "route": "/brand-guide",
+      "width": 1440,
+      "theme": "light",
+      "matchedPlacementSeed": "411667d8-2fdf-45c2-82f1-4db1f60f77b1",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "a7200996af00ad6e9a99ebac9c33b27ca73b70330d3c3967b1937d065d522225",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "a7200996af00ad6e9a99ebac9c33b27ca73b70330d3c3967b1937d065d522225",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        1440,
+        2849
+      ],
+      "candidateDimensions": [
+        1440,
+        2849
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 15,
+      "route": "/blog/announcing-tanstack-query-v5",
+      "width": 1440,
+      "theme": "light",
+      "matchedPlacementSeed": "6d694fd5-bfa6-4e02-b23c-2c783035988b",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "db1fa9e81d6fe225eeea136a57489a89c0d1ce1af8b29fff8a24ba36c4e59c0d",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "db1fa9e81d6fe225eeea136a57489a89c0d1ce1af8b29fff8a24ba36c4e59c0d",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        1440,
+        3770
+      ],
+      "candidateDimensions": [
+        1440,
+        3770
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 16,
+      "route": "/query/latest/docs/framework/react/overview",
+      "width": 1440,
+      "theme": "light",
+      "matchedPlacementSeed": "6e93875c-c2e8-470a-bdc7-2f0f2dfc440d",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "d4abfbc98880be7b72bbe11e417cffbf0281df273e12e33a795618cc984aa38d",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "d4abfbc98880be7b72bbe11e417cffbf0281df273e12e33a795618cc984aa38d",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        1440,
+        3542
+      ],
+      "candidateDimensions": [
+        1440,
+        3542
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 17,
+      "route": "/start/latest/docs/framework/react/build-from-scratch",
+      "width": 1440,
+      "theme": "light",
+      "matchedPlacementSeed": "c2f82ff0-dbf9-4db4-934e-62c40ecb7eb3",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "33c73c6a7449a4b87f53d4c4b98fe0d6c99b269c8e89d0954f4806e5dcb495b4",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "33c73c6a7449a4b87f53d4c4b98fe0d6c99b269c8e89d0954f4806e5dcb495b4",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        1440,
+        7112
+      ],
+      "candidateDimensions": [
+        1440,
+        7112
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 18,
+      "route": "/query/latest/docs/framework/react/comparison",
+      "width": 1440,
+      "theme": "light",
+      "matchedPlacementSeed": "5e95e839-b7d5-475f-a050-dbb83f3730a8",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "bee75e4e191a2f2f4f3aeee4c7ee4452c55aa7ae268f3f5f564698e95b7e6625",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "bee75e4e191a2f2f4f3aeee4c7ee4452c55aa7ae268f3f5f564698e95b7e6625",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        1440,
+        4693
+      ],
+      "candidateDimensions": [
+        1440,
+        4693
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 19,
+      "route": "/stats/npm",
+      "width": 1440,
+      "theme": "light",
+      "matchedPlacementSeed": "01021e4e-5e29-4c9e-a318-bd4d34175b11",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "ceea1b75c6082ec01560953baa46022a436d847b85e57d25164f65042a32cc58",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "ceea1b75c6082ec01560953baa46022a436d847b85e57d25164f65042a32cc58",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        1440,
+        2448
+      ],
+      "candidateDimensions": [
+        1440,
+        2448
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 20,
+      "route": "/charts/catalog/charts/01-line-gaps/",
+      "width": 1440,
+      "theme": "light",
+      "matchedPlacementSeed": "5365d118-91bb-4508-b7c9-2dded1a4c150",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "056d63bb9c34ce5ad818b9d2b9a8efe06b9b7af1c30f28271674de12e9106104",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "056d63bb9c34ce5ad818b9d2b9a8efe06b9b7af1c30f28271674de12e9106104",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        1440,
+        1583
+      ],
+      "candidateDimensions": [
+        1440,
+        1583
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 21,
+      "route": "/chat",
+      "width": 1440,
+      "theme": "light",
+      "matchedPlacementSeed": "b2eb6d3f-02aa-48bd-a9ac-85dd42cd93c2",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "bf7a2eb2e36484fffdbd76872b4fbf5e16c1479cd7941cd8cadeade59f8f150d",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "bf7a2eb2e36484fffdbd76872b4fbf5e16c1479cd7941cd8cadeade59f8f150d",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        1440,
+        1541
+      ],
+      "candidateDimensions": [
+        1440,
+        1541
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 22,
+      "route": "/login",
+      "width": 1440,
+      "theme": "light",
+      "matchedPlacementSeed": "2b223a63-3519-47b4-bab0-1f550c852e54",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "45aa45f6bce2ca659bdc1040927ca87705ccfcf40cad88c64ff8dc8c530ab27d",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "45aa45f6bce2ca659bdc1040927ca87705ccfcf40cad88c64ff8dc8c530ab27d",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        1440,
+        1599
+      ],
+      "candidateDimensions": [
+        1440,
+        1599
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 23,
+      "route": "/not-a-real-page",
+      "width": 1440,
+      "theme": "light",
+      "matchedPlacementSeed": "25b2290d-9ee3-468b-b575-3bbd3bf4a1a6",
+      "differences": [],
+      "sides": [
+        {
+          "status": 404,
+          "textSha256": "68b26b30245963ebfbf8e61e31966c382e4af6b4a807e52d14ec248aa0060902",
+          "errors": []
+        },
+        {
+          "status": 404,
+          "textSha256": "68b26b30245963ebfbf8e61e31966c382e4af6b4a807e52d14ec248aa0060902",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        1440,
+        1541
+      ],
+      "candidateDimensions": [
+        1440,
+        1541
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 24,
+      "route": "/",
+      "width": 768,
+      "theme": "dark",
+      "matchedPlacementSeed": "aff1eec7-7cab-4e3e-ab25-d7d82fa03a97",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "c167afd498aaa1074dcb1cab1834016e15206e07a3a38a06ce3911b812d5cdd5",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "c167afd498aaa1074dcb1cab1834016e15206e07a3a38a06ce3911b812d5cdd5",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        768,
+        11310
+      ],
+      "candidateDimensions": [
+        768,
+        11310
+      ],
+      "differenceBounds": [
+        16,
+        719,
+        752,
+        9950
+      ],
+      "pixelDifference": "RGB"
+    },
+    {
+      "index": 25,
+      "route": "/ethos",
+      "width": 768,
+      "theme": "dark",
+      "matchedPlacementSeed": "87504687-3653-4949-97be-0765fa436007",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "cfcc5c27a08887ea76245d84b9484409da8d638ccf56cbdc69b3e901c6624ec1",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "cfcc5c27a08887ea76245d84b9484409da8d638ccf56cbdc69b3e901c6624ec1",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        768,
+        3504
+      ],
+      "candidateDimensions": [
+        768,
+        3504
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 26,
+      "route": "/brand-guide",
+      "width": 768,
+      "theme": "dark",
+      "matchedPlacementSeed": "13f62e46-0654-4843-9de4-ecd4124e0526",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "b7a962faca3dab8549d04e4e52f6abf4ee0df93a538f39c1fbd50527c5f4b9d8",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "b7a962faca3dab8549d04e4e52f6abf4ee0df93a538f39c1fbd50527c5f4b9d8",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        768,
+        3605
+      ],
+      "candidateDimensions": [
+        768,
+        3605
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 27,
+      "route": "/blog/announcing-tanstack-query-v5",
+      "width": 768,
+      "theme": "dark",
+      "matchedPlacementSeed": "bb45a36c-d8b7-43d4-9670-6083a33022ec",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "ba65784220fdc03807f09166f51202f1f595ea27997df6f2ba8b51180ce1a3ae",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "ba65784220fdc03807f09166f51202f1f595ea27997df6f2ba8b51180ce1a3ae",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        768,
+        5061
+      ],
+      "candidateDimensions": [
+        768,
+        5061
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 28,
+      "route": "/query/latest/docs/framework/react/overview",
+      "width": 768,
+      "theme": "dark",
+      "matchedPlacementSeed": "4fb0e3d0-cbef-4ef4-8486-73fec95a5eb1",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "caacbd28d1e1d63d17d9ecfa37c6ed11e7daf126f5a6a9f4489a6ab9a5382125",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "caacbd28d1e1d63d17d9ecfa37c6ed11e7daf126f5a6a9f4489a6ab9a5382125",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        768,
+        4462
+      ],
+      "candidateDimensions": [
+        768,
+        4462
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 29,
+      "route": "/start/latest/docs/framework/react/build-from-scratch",
+      "width": 768,
+      "theme": "dark",
+      "matchedPlacementSeed": "b1b42d8f-c918-47f1-8435-2df22ce69490",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "afd77fc0f3c3c969c75f69c9d94b54582ce8b080f6c8513a31b734487669db03",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "afd77fc0f3c3c969c75f69c9d94b54582ce8b080f6c8513a31b734487669db03",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        768,
+        7959
+      ],
+      "candidateDimensions": [
+        768,
+        7959
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 30,
+      "route": "/query/latest/docs/framework/react/comparison",
+      "width": 768,
+      "theme": "dark",
+      "matchedPlacementSeed": "e5b7d36b-69ce-4a63-886f-49d9e00310cb",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "f53caeb190ee353314b65e158ac8b8030a30b24e6c3961e64401d88d9e9bc5dc",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "f53caeb190ee353314b65e158ac8b8030a30b24e6c3961e64401d88d9e9bc5dc",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        768,
+        6204
+      ],
+      "candidateDimensions": [
+        768,
+        6204
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 31,
+      "route": "/stats/npm",
+      "width": 768,
+      "theme": "dark",
+      "matchedPlacementSeed": "5c7a874b-81dd-4063-b589-038422c6729f",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "fe4263a13082f24964cf8bb7b2ffbf8aa60943a6b183b521bd19005f9cda3975",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "fe4263a13082f24964cf8bb7b2ffbf8aa60943a6b183b521bd19005f9cda3975",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        768,
+        3629
+      ],
+      "candidateDimensions": [
+        768,
+        3629
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 32,
+      "route": "/charts/catalog/charts/01-line-gaps/",
+      "width": 768,
+      "theme": "dark",
+      "matchedPlacementSeed": "c91ec07a-d9b0-4461-af96-74fc91f599f8",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "1703ca59b743055fb8561ab5008fe2823986c18bf976002f4c663dd094cfc913",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "1703ca59b743055fb8561ab5008fe2823986c18bf976002f4c663dd094cfc913",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        768,
+        2225
+      ],
+      "candidateDimensions": [
+        768,
+        2225
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 33,
+      "route": "/chat",
+      "width": 768,
+      "theme": "dark",
+      "matchedPlacementSeed": "e5c12444-1864-4467-91df-91ba4ec7ebbd",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "9d290813918dceb68d6197ca6cd555e483309b6e056636f92b3d4c7a892d03e5",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "9d290813918dceb68d6197ca6cd555e483309b6e056636f92b3d4c7a892d03e5",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        768,
+        1790
+      ],
+      "candidateDimensions": [
+        768,
+        1790
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 34,
+      "route": "/login",
+      "width": 768,
+      "theme": "dark",
+      "matchedPlacementSeed": "6a0f8628-7bcc-4d0e-96df-0b4d4e99938c",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "852c1a0cc28cc170f585bf0743d414a00cd77d5e7c895288660442dd53a7a835",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "852c1a0cc28cc170f585bf0743d414a00cd77d5e7c895288660442dd53a7a835",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        768,
+        2242
+      ],
+      "candidateDimensions": [
+        768,
+        2242
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 35,
+      "route": "/not-a-real-page",
+      "width": 768,
+      "theme": "dark",
+      "matchedPlacementSeed": "3e0b2ccb-f9c1-4466-848c-cfe4d97efa23",
+      "differences": [],
+      "sides": [
+        {
+          "status": 404,
+          "textSha256": "f725eb30054fa95eeb75dd098aa99b07cc9362496959a8c253e004adb0cf7ff1",
+          "errors": []
+        },
+        {
+          "status": 404,
+          "textSha256": "f725eb30054fa95eeb75dd098aa99b07cc9362496959a8c253e004adb0cf7ff1",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        768,
+        2506
+      ],
+      "candidateDimensions": [
+        768,
+        2506
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 36,
+      "route": "/",
+      "width": 768,
+      "theme": "light",
+      "matchedPlacementSeed": "25b28332-e87b-4663-b45e-81265396c61f",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "c167afd498aaa1074dcb1cab1834016e15206e07a3a38a06ce3911b812d5cdd5",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "c167afd498aaa1074dcb1cab1834016e15206e07a3a38a06ce3911b812d5cdd5",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        768,
+        11310
+      ],
+      "candidateDimensions": [
+        768,
+        11310
+      ],
+      "differenceBounds": [
+        16,
+        719,
+        752,
+        9943
+      ],
+      "pixelDifference": "RGB"
+    },
+    {
+      "index": 37,
+      "route": "/ethos",
+      "width": 768,
+      "theme": "light",
+      "matchedPlacementSeed": "09d2c51c-c382-4bc8-8e3f-352a4a181f1e",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "cfcc5c27a08887ea76245d84b9484409da8d638ccf56cbdc69b3e901c6624ec1",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "cfcc5c27a08887ea76245d84b9484409da8d638ccf56cbdc69b3e901c6624ec1",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        768,
+        3504
+      ],
+      "candidateDimensions": [
+        768,
+        3504
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 38,
+      "route": "/brand-guide",
+      "width": 768,
+      "theme": "light",
+      "matchedPlacementSeed": "ff24706e-22e0-439e-a1e9-81df1a423795",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "b7a962faca3dab8549d04e4e52f6abf4ee0df93a538f39c1fbd50527c5f4b9d8",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "b7a962faca3dab8549d04e4e52f6abf4ee0df93a538f39c1fbd50527c5f4b9d8",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        768,
+        3608
+      ],
+      "candidateDimensions": [
+        768,
+        3608
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 39,
+      "route": "/blog/announcing-tanstack-query-v5",
+      "width": 768,
+      "theme": "light",
+      "matchedPlacementSeed": "f56952ac-065d-45ac-a4fc-d645cd718033",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "ba65784220fdc03807f09166f51202f1f595ea27997df6f2ba8b51180ce1a3ae",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "ba65784220fdc03807f09166f51202f1f595ea27997df6f2ba8b51180ce1a3ae",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        768,
+        5117
+      ],
+      "candidateDimensions": [
+        768,
+        5117
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 40,
+      "route": "/query/latest/docs/framework/react/overview",
+      "width": 768,
+      "theme": "light",
+      "matchedPlacementSeed": "f4efd62b-fa8a-429c-a7c4-02b831f0850b",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "caacbd28d1e1d63d17d9ecfa37c6ed11e7daf126f5a6a9f4489a6ab9a5382125",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "caacbd28d1e1d63d17d9ecfa37c6ed11e7daf126f5a6a9f4489a6ab9a5382125",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        768,
+        4462
+      ],
+      "candidateDimensions": [
+        768,
+        4462
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 41,
+      "route": "/start/latest/docs/framework/react/build-from-scratch",
+      "width": 768,
+      "theme": "light",
+      "matchedPlacementSeed": "9b3913a5-25f9-4594-bd03-4bc7de6f5354",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "afd77fc0f3c3c969c75f69c9d94b54582ce8b080f6c8513a31b734487669db03",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "afd77fc0f3c3c969c75f69c9d94b54582ce8b080f6c8513a31b734487669db03",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        768,
+        7959
+      ],
+      "candidateDimensions": [
+        768,
+        7959
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 42,
+      "route": "/query/latest/docs/framework/react/comparison",
+      "width": 768,
+      "theme": "light",
+      "matchedPlacementSeed": "9fe3b2db-c7fc-4ef8-ada7-e47ae1e9c441",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "f53caeb190ee353314b65e158ac8b8030a30b24e6c3961e64401d88d9e9bc5dc",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "f53caeb190ee353314b65e158ac8b8030a30b24e6c3961e64401d88d9e9bc5dc",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        768,
+        6122
+      ],
+      "candidateDimensions": [
+        768,
+        6122
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 43,
+      "route": "/stats/npm",
+      "width": 768,
+      "theme": "light",
+      "matchedPlacementSeed": "f82b9e7b-0a8c-4669-abb0-0f69116c3f1d",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "fe4263a13082f24964cf8bb7b2ffbf8aa60943a6b183b521bd19005f9cda3975",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "fe4263a13082f24964cf8bb7b2ffbf8aa60943a6b183b521bd19005f9cda3975",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        768,
+        3648
+      ],
+      "candidateDimensions": [
+        768,
+        3648
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 44,
+      "route": "/charts/catalog/charts/01-line-gaps/",
+      "width": 768,
+      "theme": "light",
+      "matchedPlacementSeed": "3eba7e6f-ab49-4d3a-8902-f5e94a1b7dc9",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "1703ca59b743055fb8561ab5008fe2823986c18bf976002f4c663dd094cfc913",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "1703ca59b743055fb8561ab5008fe2823986c18bf976002f4c663dd094cfc913",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        768,
+        2225
+      ],
+      "candidateDimensions": [
+        768,
+        2225
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 45,
+      "route": "/chat",
+      "width": 768,
+      "theme": "light",
+      "matchedPlacementSeed": "5b41615b-cb2c-406f-badb-c8d1c9730bcd",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "9d290813918dceb68d6197ca6cd555e483309b6e056636f92b3d4c7a892d03e5",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "9d290813918dceb68d6197ca6cd555e483309b6e056636f92b3d4c7a892d03e5",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        768,
+        1790
+      ],
+      "candidateDimensions": [
+        768,
+        1790
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 46,
+      "route": "/login",
+      "width": 768,
+      "theme": "light",
+      "matchedPlacementSeed": "aff52f4c-6270-4bd3-9982-331f8a67d1d3",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "852c1a0cc28cc170f585bf0743d414a00cd77d5e7c895288660442dd53a7a835",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "852c1a0cc28cc170f585bf0743d414a00cd77d5e7c895288660442dd53a7a835",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        768,
+        2242
+      ],
+      "candidateDimensions": [
+        768,
+        2242
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 47,
+      "route": "/not-a-real-page",
+      "width": 768,
+      "theme": "light",
+      "matchedPlacementSeed": "c198dccd-3610-4f5b-befa-6f12b2d36585",
+      "differences": [],
+      "sides": [
+        {
+          "status": 404,
+          "textSha256": "f725eb30054fa95eeb75dd098aa99b07cc9362496959a8c253e004adb0cf7ff1",
+          "errors": []
+        },
+        {
+          "status": 404,
+          "textSha256": "f725eb30054fa95eeb75dd098aa99b07cc9362496959a8c253e004adb0cf7ff1",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        768,
+        2506
+      ],
+      "candidateDimensions": [
+        768,
+        2506
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 48,
+      "route": "/",
+      "width": 390,
+      "theme": "dark",
+      "matchedPlacementSeed": "6b4da213-a449-4560-b7ee-8218cc0913a3",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "20619411c1cad1d3e64a932aa5cd96afaf1ecb20c545a167eb85ab86ca92b0f7",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "20619411c1cad1d3e64a932aa5cd96afaf1ecb20c545a167eb85ab86ca92b0f7",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        390,
+        12820
+      ],
+      "candidateDimensions": [
+        390,
+        12820
+      ],
+      "differenceBounds": [
+        2,
+        58,
+        388,
+        10959
+      ],
+      "pixelDifference": "RGB"
+    },
+    {
+      "index": 49,
+      "route": "/ethos",
+      "width": 390,
+      "theme": "dark",
+      "matchedPlacementSeed": "c57bce6f-6625-45d4-b854-1cbe348aa13f",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "cfcc5c27a08887ea76245d84b9484409da8d638ccf56cbdc69b3e901c6624ec1",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "cfcc5c27a08887ea76245d84b9484409da8d638ccf56cbdc69b3e901c6624ec1",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        390,
+        5001
+      ],
+      "candidateDimensions": [
+        390,
+        5001
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 50,
+      "route": "/brand-guide",
+      "width": 390,
+      "theme": "dark",
+      "matchedPlacementSeed": "3371ac1a-3f0f-494d-9a35-f519d194df7a",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "b7a962faca3dab8549d04e4e52f6abf4ee0df93a538f39c1fbd50527c5f4b9d8",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "b7a962faca3dab8549d04e4e52f6abf4ee0df93a538f39c1fbd50527c5f4b9d8",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        390,
+        4603
+      ],
+      "candidateDimensions": [
+        390,
+        4603
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 51,
+      "route": "/blog/announcing-tanstack-query-v5",
+      "width": 390,
+      "theme": "dark",
+      "matchedPlacementSeed": "6ba133de-6727-4846-8251-8297f3404d12",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "59bc12a6cd23514ad46e9c34c97bf7072b31a5f46e84db12026e2e042f3ac534",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "59bc12a6cd23514ad46e9c34c97bf7072b31a5f46e84db12026e2e042f3ac534",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        390,
+        6547
+      ],
+      "candidateDimensions": [
+        390,
+        6547
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 52,
+      "route": "/query/latest/docs/framework/react/overview",
+      "width": 390,
+      "theme": "dark",
+      "matchedPlacementSeed": "15c416ff-bece-4c7c-9e07-53d230485e91",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "fd51d13a415ad23c262ebb84300b9f311435adbec11384b2c91c4859fc01b8fe",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "fd51d13a415ad23c262ebb84300b9f311435adbec11384b2c91c4859fc01b8fe",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        390,
+        5494
+      ],
+      "candidateDimensions": [
+        390,
+        5494
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 53,
+      "route": "/start/latest/docs/framework/react/build-from-scratch",
+      "width": 390,
+      "theme": "dark",
+      "matchedPlacementSeed": "599ba345-8fd8-40e8-b4ca-d51b13d92c59",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "0b962f5946ac972c2e73cd66ec46afc20830b5be371d82a8681bff959a80654c",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "0b962f5946ac972c2e73cd66ec46afc20830b5be371d82a8681bff959a80654c",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        390,
+        8750
+      ],
+      "candidateDimensions": [
+        390,
+        8750
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 54,
+      "route": "/query/latest/docs/framework/react/comparison",
+      "width": 390,
+      "theme": "dark",
+      "matchedPlacementSeed": "e31ea2ce-1da5-4525-96d9-1de6b3c96087",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "f155b12c6c6002142d2732f261b6fb31787a7fbda6ff26e1af4cbca7fa77832e",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "f155b12c6c6002142d2732f261b6fb31787a7fbda6ff26e1af4cbca7fa77832e",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        390,
+        7090
+      ],
+      "candidateDimensions": [
+        390,
+        7090
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 55,
+      "route": "/stats/npm",
+      "width": 390,
+      "theme": "dark",
+      "matchedPlacementSeed": "7fb22715-1e3a-43fe-a312-3af4e52967fe",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "15ecb911493490375660a48bf042e54af657342e6c0e85517754fd886635e62d",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "15ecb911493490375660a48bf042e54af657342e6c0e85517754fd886635e62d",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        390,
+        5304
+      ],
+      "candidateDimensions": [
+        390,
+        5304
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 56,
+      "route": "/charts/catalog/charts/01-line-gaps/",
+      "width": 390,
+      "theme": "dark",
+      "matchedPlacementSeed": "cdc5e465-d5fd-4339-8bed-2538bf5d1f59",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "1512779f994a2085fc627e5e251a0146119c04a47c5f37d9b547ccb489c0df0a",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "1512779f994a2085fc627e5e251a0146119c04a47c5f37d9b547ccb489c0df0a",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        390,
+        2742
+      ],
+      "candidateDimensions": [
+        390,
+        2742
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 57,
+      "route": "/chat",
+      "width": 390,
+      "theme": "dark",
+      "matchedPlacementSeed": "bc56ed88-734e-4a64-a562-0fdaea59a489",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "9d290813918dceb68d6197ca6cd555e483309b6e056636f92b3d4c7a892d03e5",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "9d290813918dceb68d6197ca6cd555e483309b6e056636f92b3d4c7a892d03e5",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        390,
+        2218
+      ],
+      "candidateDimensions": [
+        390,
+        2218
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 58,
+      "route": "/login",
+      "width": 390,
+      "theme": "dark",
+      "matchedPlacementSeed": "2a1f6075-a9a2-4c90-98f6-ac6ac59cec52",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "852c1a0cc28cc170f585bf0743d414a00cd77d5e7c895288660442dd53a7a835",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "852c1a0cc28cc170f585bf0743d414a00cd77d5e7c895288660442dd53a7a835",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        390,
+        2759
+      ],
+      "candidateDimensions": [
+        390,
+        2759
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 59,
+      "route": "/not-a-real-page",
+      "width": 390,
+      "theme": "dark",
+      "matchedPlacementSeed": "cb525496-655e-4d65-886b-04d4abb599bd",
+      "differences": [],
+      "sides": [
+        {
+          "status": 404,
+          "textSha256": "f725eb30054fa95eeb75dd098aa99b07cc9362496959a8c253e004adb0cf7ff1",
+          "errors": []
+        },
+        {
+          "status": 404,
+          "textSha256": "f725eb30054fa95eeb75dd098aa99b07cc9362496959a8c253e004adb0cf7ff1",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        390,
+        3079
+      ],
+      "candidateDimensions": [
+        390,
+        3079
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 60,
+      "route": "/",
+      "width": 390,
+      "theme": "light",
+      "matchedPlacementSeed": "cf593fdb-c046-4555-9e2f-83ea2262b9f6",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "20619411c1cad1d3e64a932aa5cd96afaf1ecb20c545a167eb85ab86ca92b0f7",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "20619411c1cad1d3e64a932aa5cd96afaf1ecb20c545a167eb85ab86ca92b0f7",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        390,
+        12850
+      ],
+      "candidateDimensions": [
+        390,
+        12850
+      ],
+      "differenceBounds": [
+        2,
+        59,
+        388,
+        10987
+      ],
+      "pixelDifference": "RGB"
+    },
+    {
+      "index": 61,
+      "route": "/ethos",
+      "width": 390,
+      "theme": "light",
+      "matchedPlacementSeed": "00a926b9-a69a-40ae-a094-6a2d0b5fea9e",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "cfcc5c27a08887ea76245d84b9484409da8d638ccf56cbdc69b3e901c6624ec1",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "cfcc5c27a08887ea76245d84b9484409da8d638ccf56cbdc69b3e901c6624ec1",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        390,
+        5001
+      ],
+      "candidateDimensions": [
+        390,
+        5001
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 62,
+      "route": "/brand-guide",
+      "width": 390,
+      "theme": "light",
+      "matchedPlacementSeed": "2b479191-9ee6-4562-ad35-3e1e5e06f2a5",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "b7a962faca3dab8549d04e4e52f6abf4ee0df93a538f39c1fbd50527c5f4b9d8",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "b7a962faca3dab8549d04e4e52f6abf4ee0df93a538f39c1fbd50527c5f4b9d8",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        390,
+        4603
+      ],
+      "candidateDimensions": [
+        390,
+        4603
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 63,
+      "route": "/blog/announcing-tanstack-query-v5",
+      "width": 390,
+      "theme": "light",
+      "matchedPlacementSeed": "fbe1efed-fb16-490c-81c3-58c1f6df9613",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "59bc12a6cd23514ad46e9c34c97bf7072b31a5f46e84db12026e2e042f3ac534",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "59bc12a6cd23514ad46e9c34c97bf7072b31a5f46e84db12026e2e042f3ac534",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        390,
+        6575
+      ],
+      "candidateDimensions": [
+        390,
+        6575
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 64,
+      "route": "/query/latest/docs/framework/react/overview",
+      "width": 390,
+      "theme": "light",
+      "matchedPlacementSeed": "03d15eb6-291e-4798-9bc1-064906555846",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "fd51d13a415ad23c262ebb84300b9f311435adbec11384b2c91c4859fc01b8fe",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "fd51d13a415ad23c262ebb84300b9f311435adbec11384b2c91c4859fc01b8fe",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        390,
+        5494
+      ],
+      "candidateDimensions": [
+        390,
+        5494
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 65,
+      "route": "/start/latest/docs/framework/react/build-from-scratch",
+      "width": 390,
+      "theme": "light",
+      "matchedPlacementSeed": "7681e54b-9de8-4c18-a087-a87f37ddf608",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "0b962f5946ac972c2e73cd66ec46afc20830b5be371d82a8681bff959a80654c",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "0b962f5946ac972c2e73cd66ec46afc20830b5be371d82a8681bff959a80654c",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        390,
+        8750
+      ],
+      "candidateDimensions": [
+        390,
+        8750
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 66,
+      "route": "/query/latest/docs/framework/react/comparison",
+      "width": 390,
+      "theme": "light",
+      "matchedPlacementSeed": "6ba7fc68-c182-4fe7-af23-b9189b284526",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "f155b12c6c6002142d2732f261b6fb31787a7fbda6ff26e1af4cbca7fa77832e",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "f155b12c6c6002142d2732f261b6fb31787a7fbda6ff26e1af4cbca7fa77832e",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        390,
+        7070
+      ],
+      "candidateDimensions": [
+        390,
+        7070
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 67,
+      "route": "/stats/npm",
+      "width": 390,
+      "theme": "light",
+      "matchedPlacementSeed": "5d141bd0-2629-41d5-be5e-0a566591fe40",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "15ecb911493490375660a48bf042e54af657342e6c0e85517754fd886635e62d",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "15ecb911493490375660a48bf042e54af657342e6c0e85517754fd886635e62d",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        390,
+        5304
+      ],
+      "candidateDimensions": [
+        390,
+        5304
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 68,
+      "route": "/charts/catalog/charts/01-line-gaps/",
+      "width": 390,
+      "theme": "light",
+      "matchedPlacementSeed": "d00197da-9f15-42e9-8597-9c07ced8249a",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "1512779f994a2085fc627e5e251a0146119c04a47c5f37d9b547ccb489c0df0a",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "1512779f994a2085fc627e5e251a0146119c04a47c5f37d9b547ccb489c0df0a",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        390,
+        2742
+      ],
+      "candidateDimensions": [
+        390,
+        2742
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 69,
+      "route": "/chat",
+      "width": 390,
+      "theme": "light",
+      "matchedPlacementSeed": "e61b715c-911e-431b-9aea-8194ab8cb906",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "9d290813918dceb68d6197ca6cd555e483309b6e056636f92b3d4c7a892d03e5",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "9d290813918dceb68d6197ca6cd555e483309b6e056636f92b3d4c7a892d03e5",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        390,
+        2268
+      ],
+      "candidateDimensions": [
+        390,
+        2268
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 70,
+      "route": "/login",
+      "width": 390,
+      "theme": "light",
+      "matchedPlacementSeed": "6275f637-84e7-4591-a165-662e8fe135bc",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "852c1a0cc28cc170f585bf0743d414a00cd77d5e7c895288660442dd53a7a835",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "852c1a0cc28cc170f585bf0743d414a00cd77d5e7c895288660442dd53a7a835",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        390,
+        2759
+      ],
+      "candidateDimensions": [
+        390,
+        2759
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 71,
+      "route": "/not-a-real-page",
+      "width": 390,
+      "theme": "light",
+      "matchedPlacementSeed": "80d30c4b-d5e9-4ee0-a83b-121a623bc5bc",
+      "differences": [],
+      "sides": [
+        {
+          "status": 404,
+          "textSha256": "f725eb30054fa95eeb75dd098aa99b07cc9362496959a8c253e004adb0cf7ff1",
+          "errors": []
+        },
+        {
+          "status": 404,
+          "textSha256": "f725eb30054fa95eeb75dd098aa99b07cc9362496959a8c253e004adb0cf7ff1",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        390,
+        3079
+      ],
+      "candidateDimensions": [
+        390,
+        3079
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 72,
+      "route": "/",
+      "width": 320,
+      "theme": "dark",
+      "matchedPlacementSeed": "de284354-2f55-4e42-aeac-be2fb922758c",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "20619411c1cad1d3e64a932aa5cd96afaf1ecb20c545a167eb85ab86ca92b0f7",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "20619411c1cad1d3e64a932aa5cd96afaf1ecb20c545a167eb85ab86ca92b0f7",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        320,
+        12858
+      ],
+      "candidateDimensions": [
+        320,
+        12858
+      ],
+      "differenceBounds": [
+        2,
+        58,
+        320,
+        10973
+      ],
+      "pixelDifference": "RGB"
+    },
+    {
+      "index": 73,
+      "route": "/ethos",
+      "width": 320,
+      "theme": "dark",
+      "matchedPlacementSeed": "dbcaf9f3-4108-4417-ba28-3e8a1fc09fb1",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "cfcc5c27a08887ea76245d84b9484409da8d638ccf56cbdc69b3e901c6624ec1",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "cfcc5c27a08887ea76245d84b9484409da8d638ccf56cbdc69b3e901c6624ec1",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        320,
+        5809
+      ],
+      "candidateDimensions": [
+        320,
+        5809
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 74,
+      "route": "/brand-guide",
+      "width": 320,
+      "theme": "dark",
+      "matchedPlacementSeed": "a310b35f-e59f-4dd0-958b-a35bcc82f1a5",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "b7a962faca3dab8549d04e4e52f6abf4ee0df93a538f39c1fbd50527c5f4b9d8",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "b7a962faca3dab8549d04e4e52f6abf4ee0df93a538f39c1fbd50527c5f4b9d8",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        320,
+        4531
+      ],
+      "candidateDimensions": [
+        320,
+        4531
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 75,
+      "route": "/blog/announcing-tanstack-query-v5",
+      "width": 320,
+      "theme": "dark",
+      "matchedPlacementSeed": "98533c28-6995-4e92-9a74-146b3f3ac87f",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "59bc12a6cd23514ad46e9c34c97bf7072b31a5f46e84db12026e2e042f3ac534",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "59bc12a6cd23514ad46e9c34c97bf7072b31a5f46e84db12026e2e042f3ac534",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        320,
+        7555
+      ],
+      "candidateDimensions": [
+        320,
+        7555
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 76,
+      "route": "/query/latest/docs/framework/react/overview",
+      "width": 320,
+      "theme": "dark",
+      "matchedPlacementSeed": "654959e3-bdb9-4fe4-bee7-cec53349626c",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "fd51d13a415ad23c262ebb84300b9f311435adbec11384b2c91c4859fc01b8fe",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "fd51d13a415ad23c262ebb84300b9f311435adbec11384b2c91c4859fc01b8fe",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        320,
+        5983
+      ],
+      "candidateDimensions": [
+        320,
+        5983
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 77,
+      "route": "/start/latest/docs/framework/react/build-from-scratch",
+      "width": 320,
+      "theme": "dark",
+      "matchedPlacementSeed": "280ea1d7-5f07-43ac-9baa-33655288a783",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "0b962f5946ac972c2e73cd66ec46afc20830b5be371d82a8681bff959a80654c",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "0b962f5946ac972c2e73cd66ec46afc20830b5be371d82a8681bff959a80654c",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        320,
+        9222
+      ],
+      "candidateDimensions": [
+        320,
+        9222
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 78,
+      "route": "/query/latest/docs/framework/react/comparison",
+      "width": 320,
+      "theme": "dark",
+      "matchedPlacementSeed": "da298d94-d280-4cd1-8db6-23d773417b1e",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "f155b12c6c6002142d2732f261b6fb31787a7fbda6ff26e1af4cbca7fa77832e",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "f155b12c6c6002142d2732f261b6fb31787a7fbda6ff26e1af4cbca7fa77832e",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        320,
+        7628
+      ],
+      "candidateDimensions": [
+        320,
+        7628
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 79,
+      "route": "/stats/npm",
+      "width": 320,
+      "theme": "dark",
+      "matchedPlacementSeed": "bb94f7ed-d0a9-4912-9f8e-31840c05fea9",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "7b01424c228979d826916e42e05889370b7f7e7cfcc45900283057eb7af6b178",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "7b01424c228979d826916e42e05889370b7f7e7cfcc45900283057eb7af6b178",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        320,
+        5658
+      ],
+      "candidateDimensions": [
+        320,
+        5658
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 80,
+      "route": "/charts/catalog/charts/01-line-gaps/",
+      "width": 320,
+      "theme": "dark",
+      "matchedPlacementSeed": "87f8c809-42a6-4776-b0ae-70fcf50a8dfa",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "1512779f994a2085fc627e5e251a0146119c04a47c5f37d9b547ccb489c0df0a",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "1512779f994a2085fc627e5e251a0146119c04a47c5f37d9b547ccb489c0df0a",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        320,
+        2766
+      ],
+      "candidateDimensions": [
+        320,
+        2766
+      ],
+      "differenceBounds": [
+        17,
+        994,
+        303,
+        998
+      ],
+      "pixelDifference": "RGB"
+    },
+    {
+      "index": 81,
+      "route": "/chat",
+      "width": 320,
+      "theme": "dark",
+      "matchedPlacementSeed": "1698129b-5fc0-4f4b-914e-cb1600bd4eae",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "9d290813918dceb68d6197ca6cd555e483309b6e056636f92b3d4c7a892d03e5",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "9d290813918dceb68d6197ca6cd555e483309b6e056636f92b3d4c7a892d03e5",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        320,
+        2315
+      ],
+      "candidateDimensions": [
+        320,
+        2315
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 82,
+      "route": "/login",
+      "width": 320,
+      "theme": "dark",
+      "matchedPlacementSeed": "d79353e2-fa91-4141-a621-e967e692a76c",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "852c1a0cc28cc170f585bf0743d414a00cd77d5e7c895288660442dd53a7a835",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "852c1a0cc28cc170f585bf0743d414a00cd77d5e7c895288660442dd53a7a835",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        320,
+        2783
+      ],
+      "candidateDimensions": [
+        320,
+        2783
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 83,
+      "route": "/not-a-real-page",
+      "width": 320,
+      "theme": "dark",
+      "matchedPlacementSeed": "00740b30-5aad-42bc-9654-c88fb3bef83a",
+      "differences": [],
+      "sides": [
+        {
+          "status": 404,
+          "textSha256": "f725eb30054fa95eeb75dd098aa99b07cc9362496959a8c253e004adb0cf7ff1",
+          "errors": []
+        },
+        {
+          "status": 404,
+          "textSha256": "f725eb30054fa95eeb75dd098aa99b07cc9362496959a8c253e004adb0cf7ff1",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        320,
+        3194
+      ],
+      "candidateDimensions": [
+        320,
+        3194
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 84,
+      "route": "/",
+      "width": 320,
+      "theme": "light",
+      "matchedPlacementSeed": "78814015-dcf4-44df-8b31-740e9177a9dc",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "20619411c1cad1d3e64a932aa5cd96afaf1ecb20c545a167eb85ab86ca92b0f7",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "20619411c1cad1d3e64a932aa5cd96afaf1ecb20c545a167eb85ab86ca92b0f7",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        320,
+        12892
+      ],
+      "candidateDimensions": [
+        320,
+        12892
+      ],
+      "differenceBounds": [
+        3,
+        59,
+        320,
+        11000
+      ],
+      "pixelDifference": "RGB"
+    },
+    {
+      "index": 85,
+      "route": "/ethos",
+      "width": 320,
+      "theme": "light",
+      "matchedPlacementSeed": "7458c4d4-b01d-4dd8-a99f-ca4ad1d36ea3",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "cfcc5c27a08887ea76245d84b9484409da8d638ccf56cbdc69b3e901c6624ec1",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "cfcc5c27a08887ea76245d84b9484409da8d638ccf56cbdc69b3e901c6624ec1",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        320,
+        5837
+      ],
+      "candidateDimensions": [
+        320,
+        5837
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 86,
+      "route": "/brand-guide",
+      "width": 320,
+      "theme": "light",
+      "matchedPlacementSeed": "4d68d289-0572-4697-9ef8-e438d4da7a3a",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "b7a962faca3dab8549d04e4e52f6abf4ee0df93a538f39c1fbd50527c5f4b9d8",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "b7a962faca3dab8549d04e4e52f6abf4ee0df93a538f39c1fbd50527c5f4b9d8",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        320,
+        4531
+      ],
+      "candidateDimensions": [
+        320,
+        4531
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 87,
+      "route": "/blog/announcing-tanstack-query-v5",
+      "width": 320,
+      "theme": "light",
+      "matchedPlacementSeed": "e320e04d-8ae8-4cd5-8a5a-f3dc3ee042ef",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "59bc12a6cd23514ad46e9c34c97bf7072b31a5f46e84db12026e2e042f3ac534",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "59bc12a6cd23514ad46e9c34c97bf7072b31a5f46e84db12026e2e042f3ac534",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        320,
+        7639
+      ],
+      "candidateDimensions": [
+        320,
+        7639
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 88,
+      "route": "/query/latest/docs/framework/react/overview",
+      "width": 320,
+      "theme": "light",
+      "matchedPlacementSeed": "4874fa77-765d-4652-b3a7-fee6d04df810",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "fd51d13a415ad23c262ebb84300b9f311435adbec11384b2c91c4859fc01b8fe",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "fd51d13a415ad23c262ebb84300b9f311435adbec11384b2c91c4859fc01b8fe",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        320,
+        6008
+      ],
+      "candidateDimensions": [
+        320,
+        6008
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 89,
+      "route": "/start/latest/docs/framework/react/build-from-scratch",
+      "width": 320,
+      "theme": "light",
+      "matchedPlacementSeed": "584ef548-55e5-448e-a667-fbfa4ffe85d6",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "0b962f5946ac972c2e73cd66ec46afc20830b5be371d82a8681bff959a80654c",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "0b962f5946ac972c2e73cd66ec46afc20830b5be371d82a8681bff959a80654c",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        320,
+        9246
+      ],
+      "candidateDimensions": [
+        320,
+        9246
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 90,
+      "route": "/query/latest/docs/framework/react/comparison",
+      "width": 320,
+      "theme": "light",
+      "matchedPlacementSeed": "b382c5f6-f0a8-4db6-b4d3-bc8d6bdd4981",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "f155b12c6c6002142d2732f261b6fb31787a7fbda6ff26e1af4cbca7fa77832e",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "f155b12c6c6002142d2732f261b6fb31787a7fbda6ff26e1af4cbca7fa77832e",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        320,
+        7633
+      ],
+      "candidateDimensions": [
+        320,
+        7633
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 91,
+      "route": "/stats/npm",
+      "width": 320,
+      "theme": "light",
+      "matchedPlacementSeed": "e8582c19-1469-4d3c-bc0e-b899377fdb4e",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "7b01424c228979d826916e42e05889370b7f7e7cfcc45900283057eb7af6b178",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "7b01424c228979d826916e42e05889370b7f7e7cfcc45900283057eb7af6b178",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        320,
+        5677
+      ],
+      "candidateDimensions": [
+        320,
+        5677
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 92,
+      "route": "/charts/catalog/charts/01-line-gaps/",
+      "width": 320,
+      "theme": "light",
+      "matchedPlacementSeed": "b1389c3b-393e-4da2-95b6-ca79c8a7cc87",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "1512779f994a2085fc627e5e251a0146119c04a47c5f37d9b547ccb489c0df0a",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "1512779f994a2085fc627e5e251a0146119c04a47c5f37d9b547ccb489c0df0a",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        320,
+        2766
+      ],
+      "candidateDimensions": [
+        320,
+        2766
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 93,
+      "route": "/chat",
+      "width": 320,
+      "theme": "light",
+      "matchedPlacementSeed": "8b2a5e9d-d1a7-4471-a242-fc940bc23316",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "9d290813918dceb68d6197ca6cd555e483309b6e056636f92b3d4c7a892d03e5",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "9d290813918dceb68d6197ca6cd555e483309b6e056636f92b3d4c7a892d03e5",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        320,
+        2315
+      ],
+      "candidateDimensions": [
+        320,
+        2315
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 94,
+      "route": "/login",
+      "width": 320,
+      "theme": "light",
+      "matchedPlacementSeed": "dba2572f-6839-42d8-8dd6-cbb70925a4e6",
+      "differences": [],
+      "sides": [
+        {
+          "status": 200,
+          "textSha256": "852c1a0cc28cc170f585bf0743d414a00cd77d5e7c895288660442dd53a7a835",
+          "errors": []
+        },
+        {
+          "status": 200,
+          "textSha256": "852c1a0cc28cc170f585bf0743d414a00cd77d5e7c895288660442dd53a7a835",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        320,
+        2783
+      ],
+      "candidateDimensions": [
+        320,
+        2783
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    },
+    {
+      "index": 95,
+      "route": "/not-a-real-page",
+      "width": 320,
+      "theme": "light",
+      "matchedPlacementSeed": "6922523e-3941-46ed-a273-357fa0762770",
+      "differences": [],
+      "sides": [
+        {
+          "status": 404,
+          "textSha256": "f725eb30054fa95eeb75dd098aa99b07cc9362496959a8c253e004adb0cf7ff1",
+          "errors": []
+        },
+        {
+          "status": 404,
+          "textSha256": "f725eb30054fa95eeb75dd098aa99b07cc9362496959a8c253e004adb0cf7ff1",
+          "errors": []
+        }
+      ],
+      "referenceDimensions": [
+        320,
+        3194
+      ],
+      "candidateDimensions": [
+        320,
+        3194
+      ],
+      "differenceBounds": null,
+      "pixelDifference": null
+    }
+  ],
+  "frontendReceiptSha256": "363142be827fc1d38faf55d41418cb91d3151d1b8fb0bae82a8cde288693ef99"
+}

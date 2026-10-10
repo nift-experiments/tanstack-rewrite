@@ -1,0 +1,9 @@
+{
+  "scope": "Read-only production publication check: exact bytes of recorded compiler outputs and complete tracked Nift CSS availability. Does not certify visual parity or delete unidentified historical assets.",
+  "compilerAssets": 308,
+  "niftStylesheets": 17,
+  "exactRecordedBytes": true,
+  "cssExcludedFromCopyAndPrune": true,
+  "previousManifestAndByteHashRequiredForPruning": true,
+  "removedVerifiedOutputs": 2
+}

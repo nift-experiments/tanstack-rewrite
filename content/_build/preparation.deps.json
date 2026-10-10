@@ -39,7 +39,8 @@
     "package.json",
     "pnpm-lock.yaml",
     "pnpm-workspace.yaml",
-    "patches/"
+    "patches/",
+    "scripts/island-flow-boundary.mjs"
   ],
   "dependencies": [
     "fixtures/external-blog/",
@@ -61,6 +62,7 @@
     "scripts/discover-doc-inputs.mjs",
     "scripts/external-blog-fixture.mjs",
     "scripts/generate-corpus.mjs",
+    "scripts/island-flow-boundary.mjs",
     "scripts/prepare-application-publication.mjs",
     "scripts/prepare-blog-index.mjs",
     "scripts/prepare-blog.mjs",
@@ -8692,7 +8694,7 @@
     "sources/site/blog/workos-partnership.md",
     "sources/site/blog/your-mcp-your-way.md",
     "sources/styles/",
-    "sources/styles/head-links.json",
-    "sources/styles/site.css"
+    "sources/styles/app.css",
+    "sources/styles/head-links.json"
   ]
 }

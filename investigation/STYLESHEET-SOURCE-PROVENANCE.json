@@ -1,0 +1,12 @@
+{
+  "upstreamCommit": "862ccc3d191818320c3e6d217542883f80cb907a",
+  "source": "src/styles/app.css",
+  "originalSha256": "c052cfdd6a5e83e0ed94bbaf179aa480a50aa1dd692866b61753f2a8937cf2a5",
+  "maintainedSource": "sources/styles/app.css",
+  "adaptations": [
+    "Disable automatic discovery and declare owned frontend/publisher/templates/site source roots.",
+    "Original authored rules, tokens, variants and inline safelists otherwise preserved."
+  ],
+  "compiler": "Owned pinned @tailwindcss/postcss 4.2.2, PostCSS 8.5.8; transient CSS projected through Nift @path.",
+  "supersedes": "Maintained pinned compiled sources/styles/site.css snapshot; initial evidence retained."
+}

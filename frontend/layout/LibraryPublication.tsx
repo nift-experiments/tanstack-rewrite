@@ -4,6 +4,7 @@ import {useParams} from '@tanstack/react-router'
 import {getLibrary,getBranch} from 'retained-ui/libraries'
 import {LibraryLayout} from 'retained-ui/components/LibraryLayout'
 import {DocContainer} from 'retained-ui/components/DocContainer'
+import {RedirectVersionBanner} from 'retained-ui/components/RedirectVersionBanner'
 import {Scarf} from 'retained-ui/components/Scarf'
 import {PublishedDoc} from './PublishedDoc'
 import {useToast} from 'retained-ui/components/ToastProvider'
@@ -38,6 +39,7 @@ export function LibraryPublication({html,record,config,activate}:{html:string;re
  },[activate,notify,record.controls,registerComponents])
  return <LibraryLayout libraryId={library.id} name={library.name.replace('TanStack ','')} version={version==='latest'?library.latestVersion:version} colorFrom={library.accentColorFrom??library.colorFrom} colorTo={library.accentColorTo??library.colorTo} textColor={library.accentTextColor??library.textColor??''} config={config} frameworks={library.frameworks} versions={library.availableVersions} repo={library.repo} isLandingPage={false}>
   <DocContainer><PublishedDoc key={record.filePath} title={record.title} html={html} headings={record.headings} repo={library.repo} branch={getBranch(library,version)} filePath={record.filePath} colorFrom={library.colorFrom} colorTo={library.colorTo} textColor={library.textColor} shouldRenderToc libraryId={libraryId} libraryVersion={version==='latest'?library.latestVersion:version} pagePath={record.pathname} config={config} framework={framework} activate={activatePublication}/></DocContainer>
+  <RedirectVersionBanner version={version} latestVersion={library.latestVersion}/>
   {library.scarfId?<Scarf id={library.scarfId} path={`/${library.id}`}/>:null}
  </LibraryLayout>
 }

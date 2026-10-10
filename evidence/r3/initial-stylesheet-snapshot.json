@@ -1,0 +1,12 @@
+{
+  "scope": "Retired initial maintained compiled CSS, preserved in accepted source history; normal publication now compiles authored stylesheet source.",
+  "sourceHistoryCommit": "01ee1b3",
+  "snapshot": {
+    "path": "sources/styles/site.css",
+    "bytes": 586915,
+    "sha256": "304f34aa1c20e08d73a4f48992671da0d2a236d6df8fd18f50a4f748c0522f14",
+    "model": "Pinned maintained stylesheet source; local publication URLs projected through Nift"
+  },
+  "currentMaintainedSource": "sources/styles/app.css",
+  "currentSourceProvenance": "investigation/STYLESHEET-SOURCE-PROVENANCE.json"
+}

@@ -1216,12 +1216,6 @@
       "path": "public/apple-touch-icon.png",
       "bytes": 7539,
       "sha256": "a2193cf6a35b894ef5eb4d17167cbaf559a313eb742a23baabbb7a132bd82b9b"
-    },
-    {
-      "path": "sources/styles/site.css",
-      "bytes": 586915,
-      "sha256": "304f34aa1c20e08d73a4f48992671da0d2a236d6df8fd18f50a4f748c0522f14",
-      "model": "Pinned maintained stylesheet source; local publication URLs projected through Nift"
     }
   ]
 }
