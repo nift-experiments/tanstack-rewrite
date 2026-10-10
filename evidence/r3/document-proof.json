@@ -1,5 +1,5 @@
 {
-  "scope": "Four article bodies only; full shell and browser contracts pending",
+  "scope": "Six article bodies only; full shell and browser contracts pending",
   "normalization": "Style attributes compare CSSOM cssText: upstream hydration adds a trailing semicolon; declarations and values remain exact. React-generated tab ID prefixes use a bijective encounter-order mapping; ID and ARIA suffix/relationships remain exact",
   "documents": [
     {
@@ -16,6 +16,14 @@
     },
     {
       "name": "rendering-markdown",
+      "exact_dom_equal": true
+    },
+    {
+      "name": "form-overview",
+      "exact_dom_equal": true
+    },
+    {
+      "name": "anthropic",
       "exact_dom_equal": true
     }
   ]

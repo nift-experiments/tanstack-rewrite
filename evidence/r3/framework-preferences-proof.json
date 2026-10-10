@@ -1,0 +1,8 @@
+{
+  "scope": "Real Form article rendering with explicit preference inputs; full session/browser update integration pending",
+  "url_over_user_and_local": true,
+  "user_over_local": true,
+  "default_react": true,
+  "unknown_framework_first_panel_fallback": true,
+  "real_framework_body_changes": true
+}

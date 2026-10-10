@@ -1,0 +1,16 @@
+{
+  "upstream_commit": "862ccc3d191818320c3e6d217542883f80cb907a",
+  "files": [
+    {
+      "path": "components/markdown/PackageManagerTabs.tsx",
+      "original_sha256": "dc7917317b29ec46ee8b9a415f2469b02ab7ce4812ef9edb77ef8936bfdc2afc",
+      "adaptation": "Explicit framework preference input replaces auth/local hook imports; URL > user > local > react priority retained"
+    },
+    {
+      "path": "components/markdown/FrameworkContent.tsx",
+      "original_sha256": "cad24f3eb9f770c8ff6fcd25082c9c019086a3498cf8d8149bc6ee3777514b56",
+      "adaptation": "Explicit framework preference input replaces auth/local hook imports; URL > user > local > react priority retained"
+    }
+  ],
+  "scope": "Owners under implementation; full request/browser preference integration pending"
+}

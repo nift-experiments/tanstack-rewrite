@@ -1,0 +1,27 @@
+{
+  "scope": "Two additional frozen local original Worker pages; not candidate whole-page certification",
+  "states": [
+    {
+      "route": "/form/latest/docs/framework/react/overview",
+      "width": 1440,
+      "theme": "dark",
+      "status": 200,
+      "errors": [],
+      "html": "%2Fform%2Flatest%2Fdocs%2Fframework%2Freact%2Foverview-1440-dark.html",
+      "html_sha256": "1072f7a4e2f4f455470f5a460bb7fc27499823fee9e7729e306aa221e15964d3",
+      "screenshot": "%2Fform%2Flatest%2Fdocs%2Fframework%2Freact%2Foverview-1440-dark.png",
+      "scope": "Additional frozen reference only; candidate certification separate"
+    },
+    {
+      "route": "/ai/latest/docs/adapters/anthropic",
+      "width": 1440,
+      "theme": "dark",
+      "status": 200,
+      "errors": [],
+      "html": "%2Fai%2Flatest%2Fdocs%2Fadapters%2Fanthropic-1440-dark.html",
+      "html_sha256": "c5daf1a52d28cd717d586231cb5406fe6b1b8b4f2d54fb9532a0810edc28cdea",
+      "screenshot": "%2Fai%2Flatest%2Fdocs%2Fadapters%2Fanthropic-1440-dark.png",
+      "scope": "Additional frozen reference only; candidate certification separate"
+    }
+  ]
+}

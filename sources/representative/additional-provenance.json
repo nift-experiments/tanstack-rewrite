@@ -1,0 +1,16 @@
+{
+  "upstream_website_commit": "862ccc3d191818320c3e6d217542883f80cb907a",
+  "source_model": "Byte-preserved authored source from accepted pinned migration inputs; no edits through the accepted tree",
+  "files": [
+    {
+      "maintained_path": "form-overview.md",
+      "pinned_input": "../tanstack/sources/docs/tanstack--form--main/docs/overview.md",
+      "sha256": "6d367e70b6f7a56f5563e2d239d0a4a53db05f9923d5ae080f9bb7cffd7defc7"
+    },
+    {
+      "maintained_path": "anthropic.md",
+      "pinned_input": "../tanstack/sources/docs/tanstack--ai--main/docs/adapters/anthropic.md",
+      "sha256": "24c33a84e89c9598790e8a313d97f6017e7da3554522f8e503334d10274ed758"
+    }
+  ]
+}
