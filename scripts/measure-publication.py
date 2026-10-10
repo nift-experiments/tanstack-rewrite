@@ -16,7 +16,7 @@ def identify(pid,entries):
  phase="orchestration"
  for key,value in [("compile-parser","docs compiler"),("compile-document","docs compiler"),("probe-shell-build","frontend browser bundle"),("probe-publication-ssr","publication SSR bundle"),("probe-full-api-build","backend bundle"),("build-worker","worker bundle"),("generate-corpus","corpus preparation"),("prepare-posts","posts preparation")]:
   if key in joined: phase=value;break
- if entries[pid][2]=="nift": phase="Nift build (may include producer children)"
+ if entries[pid][2].startswith("nift"): phase="Nift build (may include producer children)"
  return {"pid":pid,"rssKiB":entries[pid][1],"name":entries[pid][2],"phase":phase,"executable":pathlib.Path(argv[0]).name if argv else None}
 with log.open('w') as stream:
  process=subprocess.Popen(['/usr/bin/time','-f','%e %M','-o',str(stat),*command],cwd=args.cwd,stdout=stream,stderr=subprocess.STDOUT);started=time.monotonic()
@@ -31,6 +31,11 @@ with log.open('w') as stream:
    previous=len(descendants);descendants.update(pid for pid,(parent,_,_) in entries.items() if parent in descendants)
    if len(descendants)==previous:break
   rows=[identify(pid,entries) for pid in descendants if pid in entries]
+  by_pid={r['pid']:r for r in rows}
+  for row in rows:
+   parent=entries[row['pid']][0];visited=set()
+   while row['phase']=='orchestration' and parent in by_pid and parent not in visited:
+    visited.add(parent);row['phase']=by_pid[parent]['phase'];parent=entries[parent][0]
   candidate=max(rows,key=lambda row:row['rssKiB'],default=None)
   if candidate and candidate['rssKiB']>individual_peak: individual_peak=candidate['rssKiB'];individual_dominant=candidate
   rss=sum(entries[pid][1] for pid in descendants if pid in entries)
