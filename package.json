@@ -22,7 +22,8 @@
     "proof:framework-preferences": "node scripts/proof-framework-preferences.mjs",
     "proof:api-protocol": "node scripts/proof-api-protocol.mjs",
     "proof:api-imports": "node scripts/audit-api-imports.mjs",
-    "proof:mermaid-island": "node scripts/proof-mermaid-island.mjs"
+    "proof:mermaid-island": "node scripts/proof-mermaid-island.mjs",
+    "proof:publication-boundary": "node scripts/proof-publication-boundary.mjs"
   },
   "dependencies": {
     "@phosphor-icons/react": "2.1.10",

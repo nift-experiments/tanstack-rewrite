@@ -1,0 +1,12 @@
+{
+  "scope": "Two real Nift-published Query articles inside a React shell host; actual retained Navbar/full shell/router and SEO/navigation parity pending",
+  "real_doc_articles": 2,
+  "initial_literal_preserved": true,
+  "native_dom_identity_and_edits_survive_shell_updates": true,
+  "shell_updates_per_publication": 12,
+  "explicit_navigation_installs_new_published_html": true,
+  "rendered_dependency_invalidates_second_publication": true,
+  "real_comparison_table_present": true,
+  "document_ast_client_payload": false,
+  "hydration_or_browser_errors": []
+}
