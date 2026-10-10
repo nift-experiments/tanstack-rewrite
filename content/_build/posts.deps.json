@@ -1,0 +1,7 @@
+{
+  "dependencies": [
+    "sources/site/blog/",
+    "publisher/project-posts.ts",
+    "scripts/prepare-posts.mjs"
+  ]
+}

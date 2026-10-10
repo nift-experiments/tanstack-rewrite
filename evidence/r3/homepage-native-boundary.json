@@ -1,0 +1,7 @@
+{
+  "scope": "Actual Nift-published homepage and retained libraries overlay; not full visual/runtime parity",
+  "declaredRegions": 7,
+  "nativeHomepageNodeSurvivesOverlay": true,
+  "nativeCTABindsToRetainedOverlay": true,
+  "pageErrors": []
+}

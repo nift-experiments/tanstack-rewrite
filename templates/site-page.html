@@ -1,0 +1,3 @@
+@script { fn(rawHtml(path)) { f := file(path); f.open(); value := f.read_all(); f.close(); return value; } }<!doctype html><html lang="en" class="dark"><head><title>$[title]</title>@input("templates/page-head.html")</head><body class="overflow-x-hidden"><!--REQUEST_CONTEXT_START--><script type="application/json" id="shell-request-context">$[rawHtml(".work/site-context/" + name + ".json")]</script><!--REQUEST_CONTEXT_END--><div id="shell" data-ssr="true"><!--REQUEST_SHELL_START-->
+@content
+<!--REQUEST_SHELL_END--></div></body></html>

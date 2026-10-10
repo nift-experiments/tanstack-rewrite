@@ -31,9 +31,9 @@
     "proof:publication-imports": "node scripts/audit-publication-imports.mjs",
     "proof:documentation-layout": "node scripts/probe-shell-build.mjs --layout-proof && node scripts/probe-publication-ssr.mjs --layout-proof && node scripts/proof-retained-shell.mjs --layout --ssr --interactions --pixels && python3 scripts/verify-doc-layout-pixels.py",
     "proof:native-code-copy": "node scripts/proof-native-code-copy.mjs",
-    "build": "node scripts/generate-corpus.mjs",
+    "build": "node scripts/build-site.mjs",
     "serve": "node scripts/serve-corpus.mjs",
-    "local:prepare": "npm run parser:build && node scripts/compile-document.mjs && node scripts/probe-shell-build.mjs --layout-proof && node scripts/probe-publication-ssr.mjs --layout-proof && node scripts/proof-post-projection.mjs && node scripts/probe-full-api-build.mjs",
+    "local:prepare": "npm run parser:build && node scripts/compile-document.mjs && node scripts/probe-shell-build.mjs --layout-proof && node scripts/probe-publication-ssr.mjs --layout-proof && node scripts/prepare-posts.mjs && node scripts/probe-full-api-build.mjs",
     "verify:corpus": "node scripts/verify-corpus.mjs",
     "verify:corpus:browser": "node scripts/verify-corpus-browser.mjs",
     "proof:corpus-invalidation": "node scripts/proof-corpus-invalidation.mjs"

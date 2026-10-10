@@ -1,0 +1,8 @@
+{
+  "scope": "Compiled handler identity coverage only; no backend parity claim",
+  "ownedHandlers": 164,
+  "upstreamHandlers": 164,
+  "missing": {},
+  "extra": {},
+  "differentNames": {}
+}

@@ -1,6 +1,10 @@
+import {getChartsCatalogOrderSeed} from 'backend-src/route-functions/charts.functions'
+import {initialAppearance} from 'backend-src/route-functions/chat.functions'
+import {authorizeCliSession} from 'backend-src/route-functions/cli.functions'
+import {getWorkshopSeed} from 'backend-src/route-functions/workshops.functions'
+import {getTanstackDocsConfig} from 'backend-src/utils/config'
 import {listChatWaitlist as f0_listChatWaitlist,listChatInvites as f0_listChatInvites,grantChatAccess as f0_grantChatAccess,createAdminChatInvite as f0_createAdminChatInvite,expireChatInvite as f0_expireChatInvite} from 'backend-src/chat/access-admin.functions'
 import {getChatAccess as f1_getChatAccess,issueChatInvite as f1_issueChatInvite,acceptChatInvite as f1_acceptChatInvite,getChatWaitlist as f1_getChatWaitlist,requestChatAccess as f1_requestChatAccess} from 'backend-src/chat/access.functions'
-import {loadChatPreferences as f2_loadChatPreferences,saveChatPreferences as f2_saveChatPreferences} from 'backend-src/chat/preferences.functions'
 import {loadChatWorkspace as f3_loadChatWorkspace,createChatConversation as f3_createChatConversation,archiveChatConversations as f3_archiveChatConversations,resolveChatRoute as f3_resolveChatRoute} from 'backend-src/chat/workspace.functions'
 import {recordActivity as f4_recordActivity,getMyStreak as f4_getMyStreak,getActivityStatsAdmin as f4_getActivityStatsAdmin,getDauChartData as f4_getDauChartData} from 'backend-src/utils/activity.functions'
 import {listLoginHistory as f5_listLoginHistory,listAuditLogs as f5_listAuditLogs,getActivityStats as f5_getActivityStats,getLoginsChartData as f5_getLoginsChartData} from 'backend-src/utils/audit.functions'
@@ -26,7 +30,6 @@ import {listUsers as f26_listUsers,getUser as f26_getUser,updateAdPreference as 
 globalThis.__serviceProtocolProof={
   'chat/access-admin.functions':{listChatWaitlist:f0_listChatWaitlist,listChatInvites:f0_listChatInvites,grantChatAccess:f0_grantChatAccess,createAdminChatInvite:f0_createAdminChatInvite,expireChatInvite:f0_expireChatInvite},
   'chat/access.functions':{getChatAccess:f1_getChatAccess,issueChatInvite:f1_issueChatInvite,acceptChatInvite:f1_acceptChatInvite,getChatWaitlist:f1_getChatWaitlist,requestChatAccess:f1_requestChatAccess},
-  'chat/preferences.functions':{loadChatPreferences:f2_loadChatPreferences,saveChatPreferences:f2_saveChatPreferences},
   'chat/workspace.functions':{loadChatWorkspace:f3_loadChatWorkspace,createChatConversation:f3_createChatConversation,archiveChatConversations:f3_archiveChatConversations,resolveChatRoute:f3_resolveChatRoute},
   'utils/activity.functions':{recordActivity:f4_recordActivity,getMyStreak:f4_getMyStreak,getActivityStatsAdmin:f4_getActivityStatsAdmin,getDauChartData:f4_getDauChartData},
   'utils/audit.functions':{listLoginHistory:f5_listLoginHistory,listAuditLogs:f5_listAuditLogs,getActivityStats:f5_getActivityStats,getLoginsChartData:f5_getLoginsChartData},
@@ -49,3 +52,5 @@ globalThis.__serviceProtocolProof={
   'utils/user-stats.functions':{getUserStats:f25_getUserStats,getSignupsChartData:f25_getSignupsChartData},
   'utils/users.functions':{listUsers:f26_listUsers,getUser:f26_getUser,updateAdPreference:f26_updateAdPreference,updateLastUsedFramework:f26_updateLastUsedFramework,updateUserCapabilities:f26_updateUserCapabilities,adminSetAdsDisabled:f26_adminSetAdsDisabled,bulkUpdateUserCapabilities:f26_bulkUpdateUserCapabilities,setInterestedInHidingAds:f26_setInterestedInHidingAds,addUserSignupSource:f26_addUserSignupSource,revertProfileImage:f26_revertProfileImage,removeProfileImage:f26_removeProfileImage}
 }
+
+export const routeHandlers={getChartsCatalogOrderSeed,initialAppearance,authorizeCliSession,getWorkshopSeed,getTanstackDocsConfig}

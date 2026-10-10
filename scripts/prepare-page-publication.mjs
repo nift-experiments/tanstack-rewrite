@@ -1,0 +1,26 @@
+import {projectNiftMarkup} from './project-nift-markup.mjs';
+import fs from 'node:fs';import path from 'node:path';import {createHash} from 'node:crypto';
+const hash=value=>createHash('sha256').update(value).digest('hex');
+const write=(file,value)=>{fs.mkdirSync(path.dirname(file),{recursive:true});if(!fs.existsSync(file)||fs.readFileSync(file,'utf8')!==value)fs.writeFileSync(file,value)};
+const {renderShell}=await import('../.work/publication-ssr/index.mjs');
+export async function preparePagePublication(routes,configs,tracked){
+ const assets=JSON.parse(fs.readFileSync('.work/publication-assets.json'));const reference=fs.readFileSync('../tanstack-rewrite-baseline/reference-capture/'+encodeURIComponent('/query/latest/docs/framework/react/overview')+'-1440-dark.html','utf8');
+ const includes=[...reference.matchAll(/<link[^>]*rel="stylesheet"[^>]*>/g)].map(m=>m[0]).filter(t=>!t.includes('https://')).map(tag=>tag.replace(/href="([^"]+)"/,(_,url)=>'href="@path('+JSON.stringify(url.endsWith('.css')?'assets/site':'public'+url)+')"')).join('');
+ const mediaPaths=['/images/hero-palm-gradient-960.webp','/images/hero-palm-gradient-1600.webp','/images/hero-palm-gradient-2400.webp','/images/hero-palm-gradient.jpg','/images/hero-palm-motion.mp4'];const mediaInterface='<script type="application/json" id="publication-media-urls">{'+mediaPaths.map(url=>JSON.stringify(url)+':"@path('+JSON.stringify(url.endsWith('.css')?'assets/site':'public'+url)+')"').join(',')+'}</script>';
+ write('templates/page-head.html','<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">'+includes+'<script defer src="@path('+JSON.stringify('public'+assets.entry)+')"></script>'+mediaInterface);
+ write('templates/site-page.html','@script { fn(rawHtml(path)) { f := file(path); f.open(); value := f.read_all(); f.close(); return value; } }<!doctype html><html lang="en" class="dark"><head><title>$[title]</title>@input("templates/page-head.html")</head><body class="overflow-x-hidden"><!--REQUEST_CONTEXT_START--><script type="application/json" id="shell-request-context">$[rawHtml(".work/site-context/" + name + ".json")]</script><!--REQUEST_CONTEXT_END--><div id="shell" data-ssr="true"><!--REQUEST_SHELL_START-->\n@content\n<!--REQUEST_SHELL_END--></div></body></html>');
+ const cacheFile='.work/site-page-cache.json',old=fs.existsSync(cacheFile)?JSON.parse(fs.readFileSync(cacheFile)):{};const next={};let prepared=0,reused=0;
+ const renderer=hash(fs.readdirSync('.work/publication-ssr',{recursive:true}).filter(f=>f.endsWith('.mjs')).sort().map(f=>f+hash(fs.readFileSync('.work/publication-ssr/'+f))).join(''));
+ const projector=hash(fs.readFileSync('scripts/project-nift-markup.mjs'));const projectionCacheFile='.work/site-projection-cache.json';const previousProjections=fs.existsSync(projectionCacheFile)?JSON.parse(fs.readFileSync(projectionCacheFile)):{};const projections={};
+ const rows=[{pathname:'/',title:'TanStack | The open-source application stack for the web.',home:true},...Object.values(routes)];
+ for(const record of rows){const pathname=record.pathname,name=pathname==='/'?'/':pathname.slice(1),key=pathname==='/'?'index':name,article=fs.readFileSync(record.home?'.work/home/article.html':'.work/corpus-rendered'+pathname+'.html','utf8');
+ const context=record.home?{user:null,metadata:{},recentPosts:JSON.parse(fs.readFileSync('.work/home/recent-posts.json','utf8')),partnerSeed:'publication-no-session'}:{user:null,metadata:{[pathname]:record},config:configs[record.libraryId+'/'+record.version],configs:{[record.libraryId+'/'+record.version]:configs[record.libraryId+'/'+record.version]},partnerSeed:'publication-no-session'};
+ const contextFile='.work/site-context/'+name+'.json';write(contextFile,JSON.stringify(context).replaceAll('<','\\u003c'));
+ const output='.work/site-shell/'+key+'.html',signature=hash(article+JSON.stringify(context)+renderer);
+ if(old[pathname]===signature&&fs.existsSync(output)){reused++;}else{write(output,await renderShell(pathname,article,null,context));prepared++;}
+ next[pathname]=signature;const dataFile='.work/site-segments/'+key+'.json',contentFile='content/'+key+'.html',html=fs.readFileSync(output,'utf8'),projectionSignature=hash(html+projector);const previous=previousProjections[pathname];
+ if(previous?.signature===projectionSignature&&fs.existsSync(dataFile)&&fs.existsSync(contentFile)&&hash(fs.readFileSync(dataFile))===previous.dataHash&&hash(fs.readFileSync(contentFile))===previous.contentHash){projections[pathname]=previous;}else{const projection=projectNiftMarkup(html,pathname,routes,dataFile);write(dataFile,projection.data);write(contentFile,`@dep(${JSON.stringify(output)})@dep(${JSON.stringify(contextFile)})`+projection.source);projections[pathname]={signature:projectionSignature,dataHash:hash(fs.readFileSync(dataFile)),contentHash:hash(fs.readFileSync(contentFile)),checkedReferences:projection.checkedReferences,unknown:projection.unknown};}tracked.push({name,title:record.title,template:'templates/site-page.html'});
+ if((prepared+reused)%500===0)console.log(`Complete page templates: ${prepared+reused}/${rows.length}`);
+ }
+ write(cacheFile,JSON.stringify(next));write(projectionCacheFile,JSON.stringify(projections));console.log(JSON.stringify({completePages:rows.length,prepared,reused}));
+}

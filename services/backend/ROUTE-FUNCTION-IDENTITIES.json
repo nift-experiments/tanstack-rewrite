@@ -1,0 +1,6 @@
+{
+  "route-functions/charts.functions.ts": "src/routes/_library/charts.$version.index.tsx",
+  "route-functions/chat.functions.ts": "src/routes/chat.tsx",
+  "route-functions/cli.functions.ts": "src/routes/auth/cli.tsx",
+  "route-functions/workshops.functions.ts": "src/routes/workshops.tsx"
+}

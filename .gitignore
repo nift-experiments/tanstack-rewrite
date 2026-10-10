@@ -10,7 +10,9 @@ frontend/dist/
 .wrangler/
 
 # Local representative publication outputs (source is sources/representative).
-/public/
+/public/*
+!/public/images/
+!/public/fonts/
 /content/query/
 /content/ai/
 /content/local/
@@ -20,3 +22,54 @@ frontend/dist/
 /.nift/public/publication/
 /.nift/public/_paths/
 /content/_paths/
+
+/content/start/
+/content/router/
+/content/table/
+/content/charts/
+/content/form/
+/content/db/
+/content/intent/
+/content/virtual/
+/content/pacer/
+/content/hotkeys/
+/content/markdown/
+/content/highlight/
+/content/store/
+/content/ranger/
+/content/config/
+/content/devtools/
+/content/mcp/
+/content/cli/
+/content/workflow/
+
+# All incremental metadata is generated; no checked-in cache snapshots.
+/.nift/public/
+
+# Maintained untransformed upstream publication assets.
+!/public/favicon-32x32.png
+!/public/models/
+!/public/android-chrome-512x512.png
+!/public/fonts/
+!/public/shop/
+!/public/Algolia-logo-blue.svg
+!/public/tanchat-sw.js
+!/public/favicon-light.svg
+!/public/robots.txt
+!/public/favicon.png
+!/public/images/
+!/public/Algolia-logo-white.svg
+!/public/favicon.ico
+!/public/favicon-dark.svg
+!/public/android-chrome-192x192.png
+!/public/blog-assets/
+!/public/chat/
+!/public/site.webmanifest
+!/public/favicon-16x16.png
+!/public/apple-touch-icon.png
+!/public/assets/
+/public/assets/*
+!/public/assets/index-CaKFzcjh.css
+
+/content/assets/
+/public/assets/index-CaKFzcjh.css

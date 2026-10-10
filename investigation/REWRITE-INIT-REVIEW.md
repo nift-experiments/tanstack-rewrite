@@ -1,5 +1,14 @@
-# Rewrite initialization findings
+# Rewrite-init feedback — provisional
 
-Nift 4.10.0 successfully emits and builds the rewrite workbook. Generated method/AGENTS correctly prioritize product parity and architectural replacement, representative proof, final memory/timing and clean-checkout acceptance. Preserve those instructions throughout.
+No core/init-template changes during this experiment. Revisit after the complete campaign.
 
-Candidate later guidance improvements, not core changes: generated files label the workflow experimental v4.8 despite executable v4.10.0 (workflow schema versus executable version should be explicit); generic HANDOVER says “Keep the existing project architecture,” which conflicts with rewrite intent unless the mode-specific precedence is explained. The generic warning against replacing an existing stack should similarly distinguish unnecessary machinery from an authorized architecture rewrite. The explicit user contract resolves both here. No edits to the canonical generated method or Nift core are made.
+- Repeat essential @path/@input/publication ownership rules in generated AGENTS.
+- First runnable gate includes the actual homepage, a deep route, shared chrome, assets and normal build/serve.
+- Give representative proofs an exit criterion; corpus availability may advance with centrally recorded gaps, while final acceptance still requires parity.
+- Require an ownership table for maintained sources, transforms, Nift inputs and output/runtime destinations.
+- Include image src/srcset, video/audio/poster, download and icon @path examples.
+- Explain raw/transformed-content literal safety and resolved URL interfaces for runtime islands.
+- Test scaffold publication behavior, not only generated file presence/text.
+- Report known/generated/servable/semantic/browser-parity coverage separately.
+
+Observed failure: isolated proofs expanded while ordinary publication and the homepage were deferred. Root-relative URLs and server-startup copying then became the default. A checked path registry is justified only as the build-to-runtime interface for request-sensitive markup; it must not replace normal @path includes in Nift templates. Canonical extensionless application URLs are runtime dispatch aliases for checked tracked page outputs, not invented filesystem producers.

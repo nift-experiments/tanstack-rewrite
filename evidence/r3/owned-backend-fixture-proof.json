@@ -1,0 +1,13 @@
+{
+  "scope": "Owned compiled API and real isolated PostgreSQL; fixture users, no production credentials. Provider/chat/remaining endpoint parity pending",
+  "anonymous": true,
+  "databaseBackedSignedSession": true,
+  "capabilitiesLoaded": true,
+  "expiry": true,
+  "databaseSessionRevocation": true,
+  "csrf": 403,
+  "wrongMethod": 405,
+  "publicLibraryAPI": 200,
+  "invalidCliTicket": 400,
+  "cliTicketCreation": 200
+}

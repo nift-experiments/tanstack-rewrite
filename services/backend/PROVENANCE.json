@@ -823,6 +823,56 @@
       "target": "src/utils/workflow-runtime.server.ts",
       "sha256": "6f540bf5a6411add7160b109dec71636d709fe86923c454816b45df44c388fbc",
       "bytes": 8207
+    },
+    {
+      "source": "src/chat/server/appearance-html.ts",
+      "target": "src/chat/server/appearance-html.ts",
+      "sha256": "bc11d055b4cba29e77024b866bcb668488edaffa8b6f3dce59a5e41bc3f53e7c",
+      "bytes": 837
+    },
+    {
+      "source": "src/utils/config.ts",
+      "target": "src/utils/config.ts",
+      "sha256": "ed9cce8379a9575a11f9b0cb0ac3ff90e0db61c483c6cf19e399419066542f85",
+      "bytes": 3769
+    },
+    {
+      "source": "src/auth/cli-tickets.server.ts",
+      "target": "src/auth/cli-tickets.server.ts",
+      "sha256": "ce2b4450030f298df5dcdbc74209dc8be9ff4c7846c95c057b06393d8b739941",
+      "bytes": 2681
+    },
+    {
+      "source": "src/utils/docsNavTabs.ts",
+      "target": "src/utils/docsNavTabs.ts",
+      "sha256": "9f7cf4fadc0ddf918190e781183b811ded44741509a1e43032a6dec32b9bd701",
+      "bytes": 6110
+    }
+  ],
+  "extractedRouteHandlers": [
+    {
+      "source": "src/routes/_library/charts.$version.index.tsx",
+      "target": "src/route-functions/charts.functions.ts",
+      "function": "getChartsCatalogOrderSeed",
+      "scope": "Unchanged createServerFn declaration; page component excluded"
+    },
+    {
+      "source": "src/routes/chat.tsx",
+      "target": "src/route-functions/chat.functions.ts",
+      "function": "initialAppearance",
+      "scope": "Unchanged createServerFn declaration; page component excluded"
+    },
+    {
+      "source": "src/routes/auth/cli.tsx",
+      "target": "src/route-functions/cli.functions.ts",
+      "function": "authorizeCliSession",
+      "scope": "Unchanged createServerFn declaration; page component excluded"
+    },
+    {
+      "source": "src/routes/workshops.tsx",
+      "target": "src/route-functions/workshops.functions.ts",
+      "function": "getWorkshopSeed",
+      "scope": "Unchanged createServerFn declaration; page component excluded"
     }
   ]
 }

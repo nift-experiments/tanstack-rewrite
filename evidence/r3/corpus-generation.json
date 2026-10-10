@@ -33,9 +33,9 @@
     "chart-example": 110,
     "client-example": 14
   },
-  "elapsedSeconds": 14.691373059,
-  "output": "public/publication/<route>.html",
-  "siteShell": "Shared retained layout, rendered per request by npm run serve",
+  "elapsedSeconds": 39.225530355,
+  "output": "public/<route>.html plus public/index.html; article fragments support native Router navigation",
+  "siteShell": "Nift-published complete pages; declared session/shell slots evaluated at request time",
   "familyBindings": {
     "tabs": "native document controller",
     "codeCopy": "native controller with retained clipboard/toast",
@@ -45,5 +45,5 @@
     "clientExample": "pending notice",
     "services": "shared owned server-function dispatcher; incomplete protocol/backend parity"
   },
-  "scope": "Documentation corpus only; application/service routes inventoried in gap ledger. No full parity or final benchmark claim."
+  "scope": "Homepage plus documentation corpus; owned API families are separately compiled. Remaining application/marketing/service parity gaps stay in the ledger. No final parity or benchmark claim."
 }

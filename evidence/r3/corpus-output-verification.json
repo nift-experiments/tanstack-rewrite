@@ -4,6 +4,7 @@
   "niftArticleBytesVerified": 14107,
   "metadataFilesVerified": 14107,
   "markdownDownloadsVerified": 14107,
-  "scope": "Corpus coverage and raw composition integrity; not full browser parity",
+  "publicationURLsNormalized": true,
+  "scope": "Corpus coverage and raw composition integrity after only checked URL normalization; not upstream semantic or browser parity",
   "importedSourceFilesByteEqualToPinnedInputs": 7601
 }

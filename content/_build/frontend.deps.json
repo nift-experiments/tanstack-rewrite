@@ -1,0 +1,13 @@
+{
+  "dependencies": [
+    "frontend/",
+    "publisher/",
+    "scripts/probe-shell-build.mjs",
+    "scripts/probe-publication-ssr.mjs",
+    "scripts/compile-parser.mjs",
+    "scripts/compile-document.mjs",
+    "package.json",
+    "package-lock.json",
+    "scripts/build-frontend.mjs"
+  ]
+}

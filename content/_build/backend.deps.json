@@ -1,0 +1,8 @@
+{
+  "dependencies": [
+    "services/backend/",
+    "services/full-api-proof/",
+    "scripts/probe-full-api-build.mjs",
+    "public/_build/posts.json"
+  ]
+}

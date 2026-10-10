@@ -1,0 +1,11 @@
+{
+  "scope": "Publication availability and maintained asset integrity; not semantic/browser parity",
+  "knownUpstreamPatterns": 314,
+  "generatedDocumentationRoutes": 14107,
+  "completeNiftPages": 14108,
+  "homepageDeclaredIslands": 7,
+  "maintainedAssetsVerified": 244,
+  "previewPublishesAtStartup": false,
+  "semanticParity": "Existing representative proof coverage only; corpus-wide acceptance pending",
+  "browserParity": "Automated 21-family smoke and frozen 96-state reference; current complete-page pass pending"
+}

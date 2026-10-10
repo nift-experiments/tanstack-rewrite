@@ -1,0 +1,21 @@
+{
+  "dependencies": [
+    "sources/docs/",
+    "sources/docs-inputs.json",
+    "sources/site/blog/",
+    "scripts/generate-corpus.mjs",
+    "scripts/prepare-page-publication.mjs",
+    "scripts/prepare-homepage.mjs",
+    "scripts/prepare-publication-assets.mjs",
+    "scripts/project-nift-markup.mjs",
+    "scripts/project-paths.mjs",
+    "public/_build/frontend.json",
+    "scripts/prepare-posts.mjs",
+    "publisher/project-posts.ts",
+    "publisher/home-posts.ts",
+    "services/backend/src/utils/blog.ts",
+    "scripts/prepare-stylesheet.mjs",
+    "sources/styles/",
+    "public/_build/posts.json"
+  ]
+}

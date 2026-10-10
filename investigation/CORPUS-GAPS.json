@@ -1733,7 +1733,7 @@
     "chart/live/client example interaction owners",
     "complete viewport/browser parity",
     "documentation image/static-asset URL resolution",
-    "five compiled upstream RPC handlers not yet registered in owned backend",
+    "Cloudflare Worker-backed chat stream runtime verification",
     "independent clean-checkout packaging"
   ]
 }

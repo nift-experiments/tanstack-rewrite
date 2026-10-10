@@ -1,8 +1,8 @@
 {
   "upstream_commit": "862ccc3d191818320c3e6d217542883f80cb907a",
   "scope": "Exact retained Navbar/provider/documentation-layout/client-interaction source closure from the representative browser-only feasibility import graph; not a copied upstream app/route tree or completed UI/backend migration",
-  "files_count": 174,
-  "files_bytes": 1050054,
+  "files_count": 220,
+  "files_bytes": 1417282,
   "adaptations": [],
   "compile_time_inputs": [
     {
@@ -12,6 +12,36 @@
   ],
   "source_package_sideEffects": false,
   "files": [
+    {
+      "path": "application-starter/api/compile.ts",
+      "bytes": 19057,
+      "sha256": "c121f0b83f3374a62230fa6478b510e66799fa3c8847079ab1027dec6d7e1cfe"
+    },
+    {
+      "path": "application-starter/api/config.ts",
+      "bytes": 574,
+      "sha256": "e0c5297696ba49b2e2752f611d4eb436f5a7d63a57d7695e9edcebe5ddb3b590"
+    },
+    {
+      "path": "application-starter/api/create-worker.ts",
+      "bytes": 19312,
+      "sha256": "094c309d70911f38ef9810ee7f5902eef6b2c1b5abee9db7c4bca3e42cc37864"
+    },
+    {
+      "path": "application-starter/api/features.ts",
+      "bytes": 3482,
+      "sha256": "d097ccbbcf36e1c7cf18763c76df5744e2fd34a437342c40c0e4b356d6cbcc9d"
+    },
+    {
+      "path": "application-starter/frameworks.ts",
+      "bytes": 686,
+      "sha256": "79a51a73e37ce6d62e6a462e9f6c8894a7c473d7240444477f43d391dea93374"
+    },
+    {
+      "path": "application-starter/templates.ts",
+      "bytes": 2938,
+      "sha256": "b2ea1832ab20d97cc61f10178bb374d1ab974f50bbd09a3686cc28a87f4e9301"
+    },
     {
       "path": "auth/client.ts",
       "bytes": 2530,
@@ -31,6 +61,16 @@
       "path": "components/AiDock.tsx",
       "bytes": 77002,
       "sha256": "65c6b58043cfbe4b4df99f0aa76037dbf9e54ccff064794a147465f2f4e0e614"
+    },
+    {
+      "path": "components/ApplicationStarter.tsx",
+      "bytes": 62824,
+      "sha256": "28127e00864ada056580c2b47c2f4f2b5e369ff5073968c23fd62b2037e2bc56"
+    },
+    {
+      "path": "components/ApplicationStarterHotkeys.client.tsx",
+      "bytes": 721,
+      "sha256": "20bb5e807622a7c4bbbd57f95b04f7eae8e8ef65c27e8ca773af9633491f8a9f"
     },
     {
       "path": "components/AuthComponents.tsx",
@@ -98,11 +138,6 @@
       "sha256": "4e2425051ce81ae0637f764e87ae658ae6df38ec0ee2fe00c0c7454745fed6f0"
     },
     {
-      "path": "components/DocFeedbackProvider.tsx",
-      "bytes": 25661,
-      "sha256": "b72eea1ff1ac0625ecaf1360d4994b64967ce728724aaa4f47c4c07f6c9e0327"
-    },
-    {
       "path": "components/DocTitle.tsx",
       "bytes": 239,
       "sha256": "a423f391f8076375621924d91905ef94332226ebb973f87bc1751fcb1731cafd"
@@ -153,6 +188,11 @@
       "sha256": "74034acc4a03fa6a7c7b4707c4b66933fca5e9e30d7b75a0948bef5ab30ddb46"
     },
     {
+      "path": "components/MaintainerCard.tsx",
+      "bytes": 15991,
+      "sha256": "b664b778cf2f0190b05030d5dde8e9988df556d668fa84a58a8db205bd391452"
+    },
+    {
       "path": "components/MegaMenuItem.tsx",
       "bytes": 6008,
       "sha256": "3aa219f8c0ebb550631f1bf14efe9bb2d1275a806340f6b5cd3ec00afbef682d"
@@ -173,9 +213,49 @@
       "sha256": "5f7220685b65b7523f2ebb240e2e8bba94a3b54ddc215437ed4d77e9a7b5cca3"
     },
     {
+      "path": "components/NewsletterSignup.tsx",
+      "bytes": 3261,
+      "sha256": "b189b911c6529f407229fd94f6b3657614a2772649ff14bc419a382e0cbb8a74"
+    },
+    {
+      "path": "components/OpenSourceStats.tsx",
+      "bytes": 4315,
+      "sha256": "63e94437d31a584a639ad7d7d4f33806269db92d08dfb2aa0faf80394010e81f"
+    },
+    {
+      "path": "components/OssSponsors.tsx",
+      "bytes": 8681,
+      "sha256": "3d87de873806ff0c7f81c1c09c31b79c8cff96d47855c8dc206cb980ff327190"
+    },
+    {
+      "path": "components/OssSponsorsSection.tsx",
+      "bytes": 1927,
+      "sha256": "d42d5c7a83a7a5bb427668faa6cd7754c2d36bc5cefacd1832b9f6987cc82ef7"
+    },
+    {
       "path": "components/Panel.tsx",
       "bytes": 3559,
       "sha256": "c8813f0764e23218ee1828c111b0e2fa10219529e9c7e4cc52a7518d46d622fe"
+    },
+    {
+      "path": "components/ParentSize.tsx",
+      "bytes": 1061,
+      "sha256": "397faeb17b4b799ab618adbd2ae7f81e1e24c318a3811d7fc6be6739def2bf7a"
+    },
+    {
+      "path": "components/PartnersGrid.tsx",
+      "bytes": 5636,
+      "sha256": "3d45e94a86d64b1400e8fafc73042b823cbeea0ea44d8307783a8a3882ec8c29"
+    },
+    {
+      "path": "components/PartnersSponsorsSection.tsx",
+      "bytes": 4159,
+      "sha256": "7565fcdf0835595c50203f0577add6b963f43827f724e8afc1511a03d600f2bf"
+    },
+    {
+      "path": "components/PlaceholderOssSponsors.tsx",
+      "bytes": 1207,
+      "sha256": "25797946e5492f63897ac99479a23092710fad09fc0987f7b5fcfe32157a33ec"
     },
     {
       "path": "components/RecentPostsWidget.tsx",
@@ -243,6 +323,56 @@
       "sha256": "d925ab0b0fa3d80db79afc0a0b882d8aafd770cb210df1aea263a02671332ef0"
     },
     {
+      "path": "components/application-starter/DeployDialog.tsx",
+      "bytes": 18244,
+      "sha256": "b3df73d1cbd58d73484557bef17234bd89f06c7c0f7c96f4d144791287df869e"
+    },
+    {
+      "path": "components/application-starter/client-generation.ts",
+      "bytes": 2885,
+      "sha256": "5bb7bf64d62116cf8d1bfe71f1ae9cd66775a417d88c77b8c8b7559f21d1d69a"
+    },
+    {
+      "path": "components/application-starter/prompt-deploy.ts",
+      "bytes": 1158,
+      "sha256": "7cbe9d6e53c5f912956f1cff82fcc32647effec41d6b00ab2e0b7060dd7e66ca"
+    },
+    {
+      "path": "components/application-starter/prompt-parts.tsx",
+      "bytes": 26059,
+      "sha256": "70fdc60946acde3346727d8a33dd8ca746f07382ff86b7fa7fcb3c94ca918566"
+    },
+    {
+      "path": "components/application-starter/prompt-shared.ts",
+      "bytes": 10681,
+      "sha256": "8a09385027f05e68b25de4f4da7509019b42e208de33d0f0c8bd8043f7034492"
+    },
+    {
+      "path": "components/application-starter/store.ts",
+      "bytes": 16925,
+      "sha256": "950d059dd85a599e199623345ceb1c481375f7ef6f51892fd234e1bd50b99aa6"
+    },
+    {
+      "path": "components/application-starter/useApplicationStarter.tsx",
+      "bytes": 25600,
+      "sha256": "4cff1a5567bed253e66e87262e7aba204d39de4515ebfee702832260add56fcb"
+    },
+    {
+      "path": "components/application-starter/useDeployAuth.ts",
+      "bytes": 2513,
+      "sha256": "b6be09830794b81af45188f359ad81a0c985d2e235bf329716d3b32b16cd4349"
+    },
+    {
+      "path": "components/deploy/shared.ts",
+      "bytes": 2798,
+      "sha256": "264fc0e9380b94f0c6bed8e65184ca3f0d28d5b284b1d810e9d027967d21eea4"
+    },
+    {
+      "path": "components/ds/pixel-spinner-frames.ts",
+      "bytes": 12793,
+      "sha256": "7f68bf7320038b287eb1f7103fbd3488648598a459d9b320e1349c408ff9ef70"
+    },
+    {
       "path": "components/ds/ui/BlogPostCard.tsx",
       "bytes": 6725,
       "sha256": "9b04c22a30ae0a869888dcf7d2b315484f0e2d5e51bb4ffc12cdb78f64f93011"
@@ -263,6 +393,16 @@
       "sha256": "7e767ef6f09aa644c8e3fac715f5650eab20be0916485dd52af3c79b0d261ec0"
     },
     {
+      "path": "components/ds/ui/PixelSpinner.tsx",
+      "bytes": 2454,
+      "sha256": "963f2a320c54c726574728f51c1b07034778cf99c42c57225bf82512503c4082"
+    },
+    {
+      "path": "components/ds/ui/StatsSection.tsx",
+      "bytes": 10425,
+      "sha256": "74cb5d7b3d5b24c6f757a8bb738eb6e4904f63c9ab849bb1bc61d1df6f0af0f4"
+    },
+    {
       "path": "components/ds/ui/Tabs.tsx",
       "bytes": 9675,
       "sha256": "905f1a37153e9abf8eeb76853186eb02dae953527d004a3733e60f06c795c54c"
@@ -276,6 +416,41 @@
       "path": "components/ds/ui/index.tsx",
       "bytes": 35170,
       "sha256": "6b8b1889991941f6ac8e5daeaa52765b3a817fde1b15a8bf5af5212dd5fc8f6f"
+    },
+    {
+      "path": "components/home/HeroPalmMedia.tsx",
+      "bytes": 3747,
+      "sha256": "f7084db994d587184f71db0f4e305c8dab627d6191acc05648eb6759c342e3cb"
+    },
+    {
+      "path": "components/home/HomeApplicationStarter.tsx",
+      "bytes": 1876,
+      "sha256": "7e042565deb868f9483835be6feec8362397cd877b472939da0a159888565689"
+    },
+    {
+      "path": "components/home/HomeCommunitySection.tsx",
+      "bytes": 2174,
+      "sha256": "1b77ba29fd4f0071f497d890ac65549222c24e806f831e2bff14f67b75a775d6"
+    },
+    {
+      "path": "components/home/HomeNewsletterSection.tsx",
+      "bytes": 2022,
+      "sha256": "4c4d13948df365ed61c2c70497b75fe56d0acc4282ff562f3779bb6a71668f00"
+    },
+    {
+      "path": "components/home/HomeSectionFallbacks.tsx",
+      "bytes": 5369,
+      "sha256": "f80abbb47ec7d21c091ddc21b6066a9d5f0e6e8f7749bcd8e1543417af0e7bea"
+    },
+    {
+      "path": "components/home/HomeSocialProofSection.tsx",
+      "bytes": 4160,
+      "sha256": "f62d443d6a2923c4f1ee9d1ef7bf31bf804e4c627f19955851cb9039225803eb"
+    },
+    {
+      "path": "components/home/HomeStatsSection.tsx",
+      "bytes": 199,
+      "sha256": "48e401f56b649f4310860bef0595efbc6836b9152e09937aa17181716432ebcb"
     },
     {
       "path": "components/icons/BSkyIcon.tsx",
@@ -386,6 +561,16 @@
       "path": "hooks/useCurrentUser.ts",
       "bytes": 876,
       "sha256": "6b5c1c37c6ed7ffe67302d6e8c21b6ae87f9929e43748f1b5897d2fd1d857618"
+    },
+    {
+      "path": "hooks/useInView.ts",
+      "bytes": 754,
+      "sha256": "13c42bd9453e4ac4cc5921f2bffc3596af4499883b2720ca81c504a149b937db"
+    },
+    {
+      "path": "hooks/useNpmDownloadCounter.ts",
+      "bytes": 3789,
+      "sha256": "3c2e71495d3df35681ad6e9d6569a1885c8f9497ab513d33caa95376258e3467"
     },
     {
       "path": "images/ag-grid-dark.svg",
@@ -718,14 +903,29 @@
       "sha256": "38afdd6837935e59bf8cb786b797091294e7a7b34b61134c5528e6b19fd3bc9a"
     },
     {
+      "path": "libraries/maintainers.ts",
+      "bytes": 21574,
+      "sha256": "5ba726e9eff092196266dcbb214a9a1a7b5a872da53faab350e403ad6329a961"
+    },
+    {
       "path": "queries/docFeedback.ts",
       "bytes": 1672,
       "sha256": "14a760391274c315005e17ae34de0457a187991cc1c708bed4abd70badb51e3f"
     },
     {
+      "path": "queries/stats.ts",
+      "bytes": 1778,
+      "sha256": "4798598f7a1b7f73bc1f281f7aac70cc00cadb11d1de9f6b53b5fabc5565bf77"
+    },
+    {
       "path": "ui/Button.tsx",
       "bytes": 4668,
       "sha256": "538771405c41f10a16aca22ad24e9888288a9c490471ea6ed88a002831adf512"
+    },
+    {
+      "path": "ui/Icons.tsx",
+      "bytes": 1762,
+      "sha256": "d879e85b6ede0224f88137f714ae55e325258f0193c2c6a44f8c61da56f87525"
     },
     {
       "path": "ui/InlineCode.tsx",
@@ -748,6 +948,11 @@
       "sha256": "b16838ef7d41573c50c4ebdfbabe4815586b3eb7573d2236a712a8c4905a0cbe"
     },
     {
+      "path": "utils/analytics/events.ts",
+      "bytes": 4692,
+      "sha256": "155ef6b0143bbd4802318dc62c64172b8e9fb5f8c87d7b48a0e6e8f35c08c255"
+    },
+    {
       "path": "utils/analytics/providers/google.ts",
       "bytes": 408,
       "sha256": "92e1b5505ce997d5ae467da566943038efc153e071afaa9d5d8c8de04046d1c8"
@@ -756,6 +961,11 @@
       "path": "utils/analytics/scarf.ts",
       "bytes": 6525,
       "sha256": "0900fe2db893acc5ecac9ed8e1c675e10521d98343ef248952b43ade7d19ccc2"
+    },
+    {
+      "path": "utils/application-starter.ts",
+      "bytes": 41303,
+      "sha256": "6b307b1add2598fe2757d3dc9f0f6a4ae08b1cc27c3da1390a860bde4ed14bee"
     },
     {
       "path": "utils/blog-format.ts",
@@ -853,6 +1063,21 @@
       "sha256": "9119961210cba5fcd9526ef966760d43621cbe0804ef94ca81bd4585ca967c6e"
     },
     {
+      "path": "utils/sponsors.functions.ts",
+      "bytes": 5869,
+      "sha256": "37473d08010c6ea6f7a63798b1077ef631eaedc1a426d9a9765c5e5e04eda1e0"
+    },
+    {
+      "path": "utils/stats-queries.functions.ts",
+      "bytes": 1348,
+      "sha256": "a0e64ec9a85d5101f3df4f06c2f3bd5df4e0e5621e777c2a30e4e254f0a20a29"
+    },
+    {
+      "path": "utils/tanstack-npm-stats.ts",
+      "bytes": 1304,
+      "sha256": "581ab7dda7262642304aa30a3dd9b8045b281a727b74c40b4383b32c24cb0985"
+    },
+    {
       "path": "utils/url-boundary.ts",
       "bytes": 3433,
       "sha256": "2a9af6b7bd2b942f74cb31cf16341b53d17241b6dc3a9a7516801f03a338fcb7"
@@ -871,6 +1096,11 @@
       "path": "utils/usePartnerPlacementContext.ts",
       "bytes": 984,
       "sha256": "910f25d6fd4a0028a60c4c1994ef8a710343ac56416fffc469775af94fd2cc7e"
+    },
+    {
+      "path": "utils/usePrefersReducedMotion.ts",
+      "bytes": 802,
+      "sha256": "ce95690fc11a1f18a6dd936c86cd5358795c87bd1c437fafc8c86a845b62c27a"
     },
     {
       "path": "utils/users.functions.ts",
