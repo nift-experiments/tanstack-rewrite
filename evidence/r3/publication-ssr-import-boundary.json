@@ -10,7 +10,7 @@
     "/node_modules/mermaid/"
   ],
   "allowed_publisher_helper": "publisher/application-regions.ts (pure HTML boundary projection)",
-  "module_identifiers_checked": 62479,
+  "module_identifiers_checked": 62453,
   "api_provider_build_performed": false,
   "start_site_server_plugin_used": false
 }

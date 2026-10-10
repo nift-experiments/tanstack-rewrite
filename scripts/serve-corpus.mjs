@@ -1,3 +1,4 @@
+import {applyNativeRouteControl} from './native-route-controls.mjs';
 import {createLocalRuntimeBindings} from './local-runtime-bindings.mjs';
 import {renderPublicationHead} from './publication-head.mjs';
 import {createSsrServiceTransport} from './ssr-service-transport.mjs';
@@ -24,6 +25,7 @@ const preview=http.createServer(async(req,res)=>{try{
  const pathname=decodeURIComponent(new URL(req.url,'http://localhost').pathname).replace(/\/$/,'')||'/';
  const canonical=pathname==='/index.html'?'/':pathname.endsWith('.html')?pathname.slice(0,-5):null;if(canonical&&(canonical==='/'||manifest.routes[canonical]||manifest.landings?.[canonical]||manifest.marketing?.[canonical]||manifest.blog?.[canonical])){res.writeHead(308,{Location:canonical+new URL(req.url,'http://localhost').search});res.end();return}
  if(/^\/mcp(?:\/|$)/.test(pathname)){res.writeHead(307,{Location:'/cli/latest/docs/mcp-migration'});res.end();return}
+ if(['GET','HEAD'].includes(req.method))await applyNativeRouteControl(pathname+new URL(req.url,'http://localhost').search);
  const docsRoot=pathname.match(/^\/([^/]+)\/([^/]+)\/docs$/);if(docsRoot&&librariesById[docsRoot[1]]){const library=librariesById[docsRoot[1]],target=`/${docsRoot[1]}/${docsRoot[2]}/docs/${'defaultDocs' in library?library.defaultDocs:'overview'}`;res.writeHead(307,{Location:target});res.end();return}
  const libraryRoot=pathname.slice(1);if(librariesById[libraryRoot]){res.writeHead(307,{Location:`/${libraryRoot}/latest`});res.end();return}
  const application=applicationContract(pathname);

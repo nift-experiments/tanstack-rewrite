@@ -272,6 +272,7 @@
     "frontend/marketing/views/terms.tsx",
     "frontend/proof-entry.tsx",
     "frontend/publication",
+    "frontend/publication/PreparationBoundary.ts",
     "frontend/publication/PublicationHead.tsx",
     "frontend/publication/PublishedRegion.tsx",
     "frontend/publication/code-copy.tsx",

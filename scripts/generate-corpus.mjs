@@ -25,7 +25,7 @@ await import('./compile-document.mjs');
 const {libraries}=await import('../.work/corpus-libraries.mjs');const {renderDocumentProjection}=await import('../.work/render-document.mjs');const {parse}=createRequire(path.resolve('../tanstack/runtime/package.json'))('yaml');
 const documentHeaders=await prepareDocumentHeaders();
 const inputs=discoverDocInputs(JSON.parse(fs.readFileSync('sources/docs-inputs.json'))),sourceSemantics=await preparePinnedDocSourceSemantics(),sourceIndex=pinnedDocIndex(inputs.files);const routes={},configs={},failures=[],pending={},tracked=[],families={};let empty=0,rendered=0;
-const rendererSignature=hash(fs.readFileSync('.work/render-document.mjs')+fs.readdirSync('.work/publication-ssr',{recursive:true}).filter(file=>file.endsWith('.mjs')).sort().map(file=>file+hash(fs.readFileSync('.work/publication-ssr/'+file))).join(''));
+const rendererSignature=hash(fs.readFileSync('.work/render-document.mjs')+fs.readdirSync('.work/publication-preparation-ssr',{recursive:true}).filter(file=>file.endsWith('.mjs')).sort().map(file=>file+hash(fs.readFileSync('.work/publication-preparation-ssr/'+file))).join(''));
 const cachePath='.work/corpus-cache.json',old=fs.existsSync(cachePath)?JSON.parse(fs.readFileSync(cachePath)):{};const cache={};let reused=0;
 write('templates/corpus-raw.html','@script { fn(rawHtml(path)) { f := file(path); f.open(); value := f.read_all(); f.close(); return value; } }@content');
 for(const library of libraries){

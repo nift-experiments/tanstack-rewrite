@@ -1,0 +1,126 @@
+{
+  "scope": "Pinned reference vs native-family original version controls: latest numbered aliases, retired versions, query preservation and retained older docs; not all route/status parity",
+  "rows": [
+    {
+      "pathname": "/query/v5",
+      "reference": {
+        "status": 200,
+        "location": null
+      },
+      "candidate": {
+        "status": 200,
+        "location": null
+      }
+    },
+    {
+      "pathname": "/query/v5?campaign=rewrite",
+      "reference": {
+        "status": 200,
+        "location": null
+      },
+      "candidate": {
+        "status": 200,
+        "location": null
+      }
+    },
+    {
+      "pathname": "/query/v5/docs/framework/react/overview?campaign=rewrite",
+      "reference": {
+        "status": 308,
+        "location": "/query/latest/docs/framework/react/overview?campaign=rewrite"
+      },
+      "candidate": {
+        "status": 308,
+        "location": "/query/latest/docs/framework/react/overview?campaign=rewrite"
+      }
+    },
+    {
+      "pathname": "/query/v5/docs",
+      "reference": {
+        "status": 308,
+        "location": "/query/latest/docs"
+      },
+      "candidate": {
+        "status": 308,
+        "location": "/query/latest/docs"
+      }
+    },
+    {
+      "pathname": "/table/beta",
+      "reference": {
+        "status": 308,
+        "location": "/table/latest"
+      },
+      "candidate": {
+        "status": 308,
+        "location": "/table/latest"
+      }
+    },
+    {
+      "pathname": "/table/beta/docs/overview",
+      "reference": {
+        "status": 308,
+        "location": "/table/latest/docs/overview"
+      },
+      "candidate": {
+        "status": 308,
+        "location": "/table/latest/docs/overview"
+      }
+    },
+    {
+      "pathname": "/start/v0",
+      "reference": {
+        "status": 200,
+        "location": null
+      },
+      "candidate": {
+        "status": 200,
+        "location": null
+      }
+    },
+    {
+      "pathname": "/virtual/v3",
+      "reference": {
+        "status": 200,
+        "location": null
+      },
+      "candidate": {
+        "status": 200,
+        "location": null
+      }
+    },
+    {
+      "pathname": "/router/v1",
+      "reference": {
+        "status": 200,
+        "location": null
+      },
+      "candidate": {
+        "status": 200,
+        "location": null
+      }
+    },
+    {
+      "pathname": "/form/v1/docs/overview",
+      "reference": {
+        "status": 308,
+        "location": "/form/latest/docs/overview"
+      },
+      "candidate": {
+        "status": 308,
+        "location": "/form/latest/docs/overview"
+      }
+    },
+    {
+      "pathname": "/query/v4/docs/framework/react/overview",
+      "reference": {
+        "status": 200,
+        "location": null
+      },
+      "candidate": {
+        "status": 200,
+        "location": null
+      }
+    }
+  ]
+}

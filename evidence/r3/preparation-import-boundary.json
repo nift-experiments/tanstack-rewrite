@@ -1,0 +1,11 @@
+{
+  "scope": "Native preparation compiler graph; browser/request artifacts retain actual application route implementations. No runtime feature omitted.",
+  "excluded": [
+    "/frontend/application/views/",
+    "/frontend/application/registry",
+    "/services/backend/",
+    "tanstack-upstream/src/",
+    "auth-bindings.server"
+  ],
+  "moduleIdentifiersChecked": 19363
+}
