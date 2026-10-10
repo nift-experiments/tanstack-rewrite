@@ -1,0 +1,79 @@
+{
+  "measured_at": "2026-10-10T02:17:22Z",
+  "revision": "303089846a97fef04fc856f04ec5f682a7cab587",
+  "node": "v22.22.1",
+  "records": [
+    {
+      "scenario": "retained-browser-build",
+      "elapsed_s": 3.0,
+      "max_process_phase_rss_mib": 796.76953125,
+      "sampled_tree_rss_mib": 800.7265625,
+      "dominant_at_tree_peak": {
+        "pid": 5,
+        "rss_kib": 818212,
+        "name": "node"
+      },
+      "samples": 281,
+      "sample_interval_target_ms": 10,
+      "browser_bundler": true,
+      "scope": "R3 diagnostic only, incomplete product; not final site benchmark"
+    },
+    {
+      "scenario": "two-article-composition-all-inputs-touched",
+      "elapsed_s": 0.01,
+      "max_process_phase_rss_mib": 7.671875,
+      "sampled_tree_rss_mib": 7.30859375,
+      "dominant_at_tree_peak": {
+        "pid": 61,
+        "rss_kib": 5756,
+        "name": "nift-v4.10.0"
+      },
+      "samples": 2,
+      "sample_interval_target_ms": 10,
+      "browser_bundler": false,
+      "scope": "R3 diagnostic only, incomplete product; not final site benchmark"
+    },
+    {
+      "scenario": "two-article-composition-unchanged",
+      "elapsed_s": 0.0,
+      "max_process_phase_rss_mib": 6.5703125,
+      "sampled_tree_rss_mib": 0.63671875,
+      "dominant_at_tree_peak": {
+        "pid": 64,
+        "rss_kib": 652,
+        "name": "time"
+      },
+      "samples": 1,
+      "sample_interval_target_ms": 10,
+      "browser_bundler": false,
+      "scope": "R3 diagnostic only, incomplete product; not final site benchmark"
+    },
+    {
+      "scenario": "single-article-render-and-compose",
+      "elapsed_s": 0.21,
+      "max_process_phase_rss_mib": 85.8046875,
+      "sampled_tree_rss_mib": 88.19140625,
+      "dominant_at_tree_peak": {
+        "pid": 68,
+        "rss_kib": 88572,
+        "name": "node"
+      },
+      "samples": 21,
+      "sample_interval_target_ms": 10,
+      "browser_bundler": false,
+      "scope": "R3 diagnostic only, incomplete product; not final site benchmark"
+    }
+  ],
+  "not_meaningful": [
+    "warm full site publication",
+    "fresh application-state site publication",
+    "complete unchanged site command",
+    "backend-only build"
+  ],
+  "limitations": [
+    "Single diagnostic sample per phase",
+    "Only two article fragments, no complete SSR/layout/service/search pipeline",
+    "Sampled process-tree RSS sums shared pages and may miss short peaks; GNU time maximum is not aggregate memory",
+    "Browser build uses read-only frozen prototype dependencies"
+  ]
+}

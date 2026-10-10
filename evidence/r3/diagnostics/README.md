@@ -1,0 +1,5 @@
+# Interim R3 phase diagnostics
+
+These are one-sample diagnostics at checkpoint 3030898, not site benchmark claims. Full/fresh/whole-site unchanged publication is not meaningful until SSR/layout/service parity is complete. The fragment composition contains only two article bodies and excludes search, metadata, full layout and assets. A changed-input diagnostic renders one representative Markdown source and composes the resulting HTML; it does not rebuild the browser or backend. The browser build uses frozen prototype dependencies and Node 22.22.1, not the eventual fair-comparison toolchain.
+
+GNU time reports elapsed seconds rounded to 0.01s and maximum individual process/phase RSS. A reported 0.00s means below that reporting resolution. The 10ms-target sampled descendant-RSS sum may include shared pages more than once and miss transient peaks. Short Nift runs have too few samples for a useful tree peak. The sampler's Python supervisor is excluded. Raw commands/logs and the controlled edited-source copy remain outside the website/repository under tanstack-rewrite-baseline/r3-diagnostic.
