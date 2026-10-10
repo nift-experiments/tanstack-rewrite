@@ -10,8 +10,8 @@
         3518
       ],
       "exact_rgb_pixels_equal": true,
-      "reference_sha256": "fdc8017cb1ced3a45c2971793ce2ba66a18e3c4c430b8c4e549a853995bd2e2d",
-      "candidate_sha256": "fdc8017cb1ced3a45c2971793ce2ba66a18e3c4c430b8c4e549a853995bd2e2d"
+      "reference_sha256": "97b9cd9d53eabc45a6305a19b82810a39660119178465f2c0613761e3869dfc0",
+      "candidate_sha256": "97b9cd9d53eabc45a6305a19b82810a39660119178465f2c0613761e3869dfc0"
     },
     {
       "width": 1440,
@@ -21,8 +21,8 @@
         3542
       ],
       "exact_rgb_pixels_equal": true,
-      "reference_sha256": "49da1315c74f5da9e97177858667cc3748a7412fcd6eb1354ee8211f738d1013",
-      "candidate_sha256": "49da1315c74f5da9e97177858667cc3748a7412fcd6eb1354ee8211f738d1013"
+      "reference_sha256": "98e9dc14f31001731e56a11225321f6c8bbe97e90a5f2b1b07781bc75170ae8f",
+      "candidate_sha256": "98e9dc14f31001731e56a11225321f6c8bbe97e90a5f2b1b07781bc75170ae8f"
     },
     {
       "width": 390,
@@ -32,8 +32,8 @@
         5494
       ],
       "exact_rgb_pixels_equal": true,
-      "reference_sha256": "c5b6eef221b58a251e88bb5018ef8bb9eeeefa0a41d2a60886dc43c5adf97647",
-      "candidate_sha256": "c5b6eef221b58a251e88bb5018ef8bb9eeeefa0a41d2a60886dc43c5adf97647"
+      "reference_sha256": "2b187b2e7ece6a5f0f2318a9ebce1f1204e2ee19c8492ffb6d0c939ee9154caa",
+      "candidate_sha256": "2b187b2e7ece6a5f0f2318a9ebce1f1204e2ee19c8492ffb6d0c939ee9154caa"
     },
     {
       "width": 390,
@@ -43,8 +43,8 @@
         5494
       ],
       "exact_rgb_pixels_equal": true,
-      "reference_sha256": "b6a0328aca00945e25e598910c0136293c7bc460192d6b37d9b05688ea6e777f",
-      "candidate_sha256": "b6a0328aca00945e25e598910c0136293c7bc460192d6b37d9b05688ea6e777f"
+      "reference_sha256": "5618a2357cefaac383760fa519b20b197fbaae7744b77402412ec7d1208449b3",
+      "candidate_sha256": "5618a2357cefaac383760fa519b20b197fbaae7744b77402412ec7d1208449b3"
     }
   ],
   "initial_defect_corrected": "Missing footer produced a real page-height difference; retain exact upstream footer"

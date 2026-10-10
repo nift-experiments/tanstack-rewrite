@@ -7,9 +7,10 @@
     "/services/upstream/",
     "/services/protocol-proof/src/auth-bindings.server",
     "/publisher/",
-    "/frontend/retained/src/routes/"
+    "/frontend/retained/src/routes/",
+    "/node_modules/mermaid/"
   ],
-  "module_identifiers_checked": 32265,
+  "module_identifiers_checked": 12813,
   "api_provider_build_performed": false,
   "start_site_server_plugin_used": false
 }

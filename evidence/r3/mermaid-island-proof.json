@@ -10,6 +10,7 @@
   "svg_normalization": "Bijective declared ID values and matching references only; geometry, text, styles and paths retained",
   "mermaid_version": "11.14.0",
   "scoped_roots_activated": true,
+  "explicit_unmount_and_reactivation": true,
   "dark_to_light_rerender": true,
   "article_mutation_preserved": true,
   "hydration_or_browser_errors": []

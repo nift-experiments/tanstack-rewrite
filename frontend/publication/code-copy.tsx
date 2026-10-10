@@ -2,7 +2,7 @@ import React from 'react'
 
 // Copy from the current publication, rather than a frozen renderer/AST payload.
 // Only the declared button state belongs to this controller.
-export function installCodeCopy(host: HTMLElement, copy: (text:string)=>Promise<void>, notify: (content:React.ReactNode,options:{id:string})=>void) {
+export function installCodeCopy(host: HTMLElement, copy: (text:string)=>Promise<void>, notify: (content:React.ReactNode,options:{id:string})=>void, onCopySuccess?: (button:HTMLButtonElement)=>void) {
   let disposed=false
   const cleanups:Array<()=>void>=[]
   for (const button of host.querySelectorAll<HTMLButtonElement>('.codeblock button[aria-label="Copy code to clipboard"]')) {
@@ -13,6 +13,7 @@ export function installCodeCopy(host: HTMLElement, copy: (text:string)=>Promise<
       if(!code)throw new Error('Published copy control has no code source')
       await copy(code.textContent??'')
       if(disposed)return
+      onCopySuccess?.(button)
       if(timer)clearTimeout(timer)
       button.innerHTML='<span class="text-xs">Copied!</span>'
       timer=setTimeout(()=>{button.innerHTML=original},2000)

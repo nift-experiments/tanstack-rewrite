@@ -1,10 +1,13 @@
 {
   "scope": "Isolated actual Nift-published rich article; tab contracts only, not full shell/design certification",
   "groups": 3,
+  "maintained_source_control_projection": true,
+  "install_copy_metadata": true,
   "shared_package_manager_selection": true,
   "selected_border_and_text_classes": true,
   "persisted_reload": true,
   "keyboard_home_end": true,
+  "lifecycle_listener_cleanup": true,
   "article_literal_preserved": true,
   "errors": []
 }

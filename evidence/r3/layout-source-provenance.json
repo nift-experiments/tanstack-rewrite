@@ -17,7 +17,25 @@
       "source": "src/components/DocFeedbackProvider.tsx",
       "target": "frontend/layout/PublishedFeedback.tsx",
       "change": "Preserve feedback queries, hash/selector, hover and portal behavior; use the original relative feedback div as native publication host, avoiding an added ancestor; rescan on publication HTML replacement rather than child React node identity."
+    },
+    {
+      "source": "src/components/markdown/MermaidBlock.tsx",
+      "target": "frontend/layout/RetainedMermaid.tsx",
+      "change": "Preserve retained chat/code rendering; wrap browser-only Mermaid loader in official createClientOnlyFn. Publication-only resolver replaces this one retained relative module; original retained source remains byte-preserved. No Mermaid implementation in publication nested/orphan graph."
     }
   ],
-  "scope": "Documentation layout proof in progress; not accepted parity"
+  "scope": "Documentation layout proof in progress; not accepted parity",
+  "additional_maintained_sources": [
+    {
+      "target": "sources/representative/ai-config.json",
+      "pinned_input": "../tanstack-rewrite-baseline/external-inputs/docs/tanstack--ai--main/docs/config.json",
+      "sha256": "698d0a04472b1fe8f27f557ddc4b80741d6c43c24d8d23a259a5d1963ba0abc1"
+    },
+    {
+      "target": "sources/representative/query-react-native.md",
+      "pinned_input": "../tanstack-rewrite-baseline/external-inputs/docs/tanstack--query--main/docs/framework/react/react-native.md",
+      "sha256": "93e057636a108ad6e70092b8210d2bea4e30dc220bdfdb952acc81a36315ced5"
+    }
+  ],
+  "control_projection": "Compact maintained-source-derived tab/preference/install-copy metadata, with no document AST or body serialized to the browser."
 }
