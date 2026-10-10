@@ -1,0 +1,624 @@
+{
+  "input": {
+    "requests": [
+      {
+        "indexName": "tanstack-test",
+        "attributesToHighlight": [
+          "hierarchy.lvl1",
+          "hierarchy.lvl2",
+          "hierarchy.lvl3",
+          "hierarchy.lvl4",
+          "hierarchy.lvl5",
+          "hierarchy.lvl6",
+          "content"
+        ],
+        "attributesToRetrieve": [
+          "hierarchy.lvl1",
+          "hierarchy.lvl2",
+          "hierarchy.lvl3",
+          "hierarchy.lvl4",
+          "hierarchy.lvl5",
+          "hierarchy.lvl6",
+          "url",
+          "url_without_anchor",
+          "anchor",
+          "urlWithAnchor",
+          "content",
+          "library",
+          "framework",
+          "version",
+          "routeStyle"
+        ],
+        "attributesToSnippet": [
+          "content:50"
+        ],
+        "distinct": 1,
+        "filters": "(version:latest OR version:all) AND library:query AND (framework:react OR framework:all)",
+        "highlightPostTag": "__/ais-highlight__",
+        "highlightPreTag": "__ais-highlight__",
+        "page": 0,
+        "query": ""
+      }
+    ]
+  },
+  "response": {
+    "results": [
+      {
+        "hits": [
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/quick-start",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/quick-start",
+            "anchor": "",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "Quick Start",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "0-https://tanstack.com/query/latest/docs/framework/react/quick-start",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "Quick Start",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/overview",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/overview",
+            "anchor": "",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "Overview",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "0-https://tanstack.com/query/latest/docs/framework/react/overview",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "Overview",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/installation",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/installation",
+            "anchor": "",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "Installation",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "0-https://tanstack.com/query/latest/docs/framework/react/installation",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "Installation",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/guides/window-focus-refetching",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/guides/window-focus-refetching",
+            "anchor": "",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "Window Focus Refetching",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "0-https://tanstack.com/query/latest/docs/framework/react/guides/window-focus-refetching",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "Window Focus Refetching",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/guides/updates-from-mutation-responses",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/guides/updates-from-mutation-responses",
+            "anchor": "",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "Updates from Mutation Responses",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "0-https://tanstack.com/query/latest/docs/framework/react/guides/updates-from-mutation-responses",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "Updates from Mutation Responses",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/guides/testing",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/guides/testing",
+            "anchor": "",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "Testing",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "0-https://tanstack.com/query/latest/docs/framework/react/guides/testing",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "Testing",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/guides/suspense",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/guides/suspense",
+            "anchor": "",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "Suspense",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "0-https://tanstack.com/query/latest/docs/framework/react/guides/suspense",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "Suspense",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/guides/ssr",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/guides/ssr",
+            "anchor": "",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "Server Rendering &amp; Hydration",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "0-https://tanstack.com/query/latest/docs/framework/react/guides/ssr",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "Server Rendering &amp; Hydration",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/guides/scroll-restoration",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/guides/scroll-restoration",
+            "anchor": "",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "Scroll Restoration",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "0-https://tanstack.com/query/latest/docs/framework/react/guides/scroll-restoration",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "Scroll Restoration",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/guides/request-waterfalls",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/guides/request-waterfalls",
+            "anchor": "",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "Performance &amp; Request Waterfalls",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "0-https://tanstack.com/query/latest/docs/framework/react/guides/request-waterfalls",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "Performance &amp; Request Waterfalls",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/guides/render-optimizations",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/guides/render-optimizations",
+            "anchor": "",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "Render Optimizations",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "0-https://tanstack.com/query/latest/docs/framework/react/guides/render-optimizations",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "Render Optimizations",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/guides/query-retries",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/guides/query-retries",
+            "anchor": "",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "Query Retries",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "0-https://tanstack.com/query/latest/docs/framework/react/guides/query-retries",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "Query Retries",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/guides/query-options",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/guides/query-options",
+            "anchor": "",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "Query Options",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "0-https://tanstack.com/query/latest/docs/framework/react/guides/query-options",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "Query Options",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/guides/query-keys",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/guides/query-keys",
+            "anchor": "",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "Query Keys",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "0-https://tanstack.com/query/latest/docs/framework/react/guides/query-keys",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "Query Keys",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/guides/query-invalidation",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/guides/query-invalidation",
+            "anchor": "",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "Query Invalidation",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "0-https://tanstack.com/query/latest/docs/framework/react/guides/query-invalidation",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "Query Invalidation",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/guides/query-functions",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/guides/query-functions",
+            "anchor": "",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "Query Functions",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "0-https://tanstack.com/query/latest/docs/framework/react/guides/query-functions",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "Query Functions",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/guides/query-cancellation",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/guides/query-cancellation",
+            "anchor": "",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "Query Cancellation",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "0-https://tanstack.com/query/latest/docs/framework/react/guides/query-cancellation",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "Query Cancellation",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/guides/queries",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/guides/queries",
+            "anchor": "",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "Queries",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "0-https://tanstack.com/query/latest/docs/framework/react/guides/queries",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "Queries",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/guides/prefetching",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/guides/prefetching",
+            "anchor": "",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "Prefetching &amp; Router Integration",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "0-https://tanstack.com/query/latest/docs/framework/react/guides/prefetching",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "Prefetching &amp; Router Integration",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/guides/polling",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/guides/polling",
+            "anchor": "",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "Polling",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "0-https://tanstack.com/query/latest/docs/framework/react/guides/polling",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "Polling",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          }
+        ],
+        "nbHits": 311,
+        "page": 0,
+        "nbPages": 16,
+        "hitsPerPage": 20,
+        "exhaustiveNbHits": true,
+        "exhaustiveTypo": true,
+        "exhaustive": {
+          "nbHits": true,
+          "typo": true
+        },
+        "query": "",
+        "params": "attributesToHighlight=%5B%22hierarchy.lvl1%22%2C%22hierarchy.lvl2%22%2C%22hierarchy.lvl3%22%2C%22hierarchy.lvl4%22%2C%22hierarchy.lvl5%22%2C%22hierarchy.lvl6%22%2C%22content%22%5D&attributesToRetrieve=%5B%22hierarchy.lvl1%22%2C%22hierarchy.lvl2%22%2C%22hierarchy.lvl3%22%2C%22hierarchy.lvl4%22%2C%22hierarchy.lvl5%22%2C%22hierarchy.lvl6%22%2C%22url%22%2C%22url_without_anchor%22%2C%22anchor%22%2C%22urlWithAnchor%22%2C%22content%22%2C%22library%22%2C%22framework%22%2C%22version%22%2C%22routeStyle%22%5D&attributesToSnippet=%5B%22content%3A50%22%5D&distinct=1&filters=%28version%3Alatest+OR+version%3Aall%29+AND+library%3Aquery+AND+%28framework%3Areact+OR+framework%3Aall%29&highlightPostTag=__%2Fais-highlight__&highlightPreTag=__ais-highlight__&page=0",
+        "index": "tanstack-test",
+        "renderingContent": {},
+        "processingTimeMS": 6,
+        "processingTimingsMS": {
+          "_request": {
+            "roundTrip": 189
+          },
+          "fetch": {
+            "scanning": 2,
+            "total": 5
+          },
+          "getIdx": {
+            "total": 1
+          },
+          "total": 6
+        },
+        "serverTimeMS": 12
+      }
+    ]
+  },
+  "fetched_at": "2026-10-10T01:39:18.058Z",
+  "origin": "https://fq0dq6ma3c-dsn.algolia.net",
+  "scope": "Public read-only Algolia query snapshot; no writes or private key used"
+}

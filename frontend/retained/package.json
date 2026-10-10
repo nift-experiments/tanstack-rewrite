@@ -1,0 +1,6 @@
+{
+  "name": "tanstack-retained-ui-sources",
+  "private": true,
+  "type": "module",
+  "sideEffects": false
+}

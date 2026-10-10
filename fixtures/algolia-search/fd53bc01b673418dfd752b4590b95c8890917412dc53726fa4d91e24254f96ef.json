@@ -1,0 +1,963 @@
+{
+  "input": {
+    "requests": [
+      {
+        "indexName": "tanstack-test",
+        "attributesToHighlight": [
+          "hierarchy.lvl1",
+          "hierarchy.lvl2",
+          "hierarchy.lvl3",
+          "hierarchy.lvl4",
+          "hierarchy.lvl5",
+          "hierarchy.lvl6",
+          "content"
+        ],
+        "attributesToRetrieve": [
+          "hierarchy.lvl1",
+          "hierarchy.lvl2",
+          "hierarchy.lvl3",
+          "hierarchy.lvl4",
+          "hierarchy.lvl5",
+          "hierarchy.lvl6",
+          "url",
+          "url_without_anchor",
+          "anchor",
+          "urlWithAnchor",
+          "content",
+          "library",
+          "framework",
+          "version",
+          "routeStyle"
+        ],
+        "attributesToSnippet": [
+          "content:50"
+        ],
+        "distinct": 1,
+        "filters": "(version:latest OR version:all) AND library:query AND (framework:react OR framework:all)",
+        "highlightPostTag": "__/ais-highlight__",
+        "highlightPreTag": "__ais-highlight__",
+        "page": 3,
+        "query": "query client"
+      }
+    ]
+  },
+  "response": {
+    "results": [
+      {
+        "hits": [
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/reference/interfaces/QueryFilters",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/reference/interfaces/QueryFilters",
+            "anchor": "",
+            "content": "Defined in: packages/query-core/src/utils.ts:31\r\nFilters used to select queries, for example in queryClient.getQueriesData or queryClient.invalidateQueries.\nAll provided filters must match; filters that are left unspecified are ignored.",
+            "hierarchy": {
+              "lvl1": "QueryFilters",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "1-https://tanstack.com/query/latest/docs/framework/react/reference/interfaces/QueryFilters",
+            "_snippetResult": {
+              "content": {
+                "value": "Defined in: packages/__ais-highlight__query__/ais-highlight__-core/src/utils.ts:31\r\nFilters used to select queries, for example in __ais-highlight__queryClient.getQueriesData__/ais-highlight__ or __ais-highlight__queryClient.invalidateQueries.__/ais-highlight__\nAll provided filters must match; filters that are left unspecified are ignored.",
+                "matchLevel": "partial"
+              }
+            },
+            "_highlightResult": {
+              "content": {
+                "value": "Defined in: packages/__ais-highlight__query__/ais-highlight__-core/src/utils.ts:31\r\nFilters used to select queries, for example in __ais-highlight__queryClient.getQueriesData__/ais-highlight__ or __ais-highlight__queryClient.invalidateQueries.__/ais-highlight__\nAll provided filters must match; filters that are left unspecified are ignored.",
+                "matchLevel": "full",
+                "fullyHighlighted": false,
+                "matchedWords": [
+                  "query",
+                  "client"
+                ]
+              },
+              "hierarchy": {
+                "lvl1": {
+                  "value": "__ais-highlight__Query__/ais-highlight__Filters",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/reference/interfaces/QueryExecuteOptions",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/reference/interfaces/QueryExecuteOptions",
+            "anchor": "",
+            "content": "Defined in: packages/query-core/src/types.ts:721\r\nThe options of queryClient.query: the QueryOptions of the query, plus a staleTime\nthat decides whether cached data is returned instead of fetching, and a select that only\ntransforms the value the call resolves with.",
+            "hierarchy": {
+              "lvl1": "QueryExecuteOptions",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "1-https://tanstack.com/query/latest/docs/framework/react/reference/interfaces/QueryExecuteOptions",
+            "_snippetResult": {
+              "content": {
+                "value": "Defined in: packages/__ais-highlight__query__/ais-highlight__-core/src/types.ts:721\r\nThe options of __ais-highlight__queryClient.query__/ais-highlight__: the __ais-highlight__Query__/ais-highlight__Options of the __ais-highlight__query__/ais-highlight__, plus a staleTime\nthat decides whether cached data is returned instead of fetching, and a select that only\ntransforms the value the call resolves with.",
+                "matchLevel": "partial"
+              }
+            },
+            "_highlightResult": {
+              "content": {
+                "value": "Defined in: packages/__ais-highlight__query__/ais-highlight__-core/src/types.ts:721\r\nThe options of __ais-highlight__queryClient.query__/ais-highlight__: the __ais-highlight__Query__/ais-highlight__Options of the __ais-highlight__query__/ais-highlight__, plus a staleTime\nthat decides whether cached data is returned instead of fetching, and a select that only\ntransforms the value the call resolves with.",
+                "matchLevel": "full",
+                "fullyHighlighted": false,
+                "matchedWords": [
+                  "query",
+                  "client"
+                ]
+              },
+              "hierarchy": {
+                "lvl1": {
+                  "value": "__ais-highlight__Query__/ais-highlight__ExecuteOptions",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/reference/interfaces/QueryCacheConfig",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/reference/interfaces/QueryCacheConfig",
+            "anchor": "",
+            "content": "Defined in: packages/query-core/src/queryCache.ts:25\r\nGlobal callbacks that fire for every query handled by a QueryCache, regardless of which\ncomponent or observer triggered it. Unlike QueryClient's defaultOptions, which a query can\noverride, these callbacks are always called. Unlike MutationCacheConfig's callbacks, these\nare fire-and-forget: their return value is not awaited before the query settles.",
+            "hierarchy": {
+              "lvl1": "QueryCacheConfig",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "1-https://tanstack.com/query/latest/docs/framework/react/reference/interfaces/QueryCacheConfig",
+            "_snippetResult": {
+              "content": {
+                "value": "Defined in: packages/__ais-highlight__query__/ais-highlight__-core/src/__ais-highlight__query__/ais-highlight__Cache.ts:25\r\nGlobal callbacks that fire for every __ais-highlight__query__/ais-highlight__ handled by a __ais-highlight__Query__/ais-highlight__Cache, regardless of which\ncomponent or observer triggered it. Unlike __ais-highlight__QueryClient__/ais-highlight__'s defaultOptions, which a __ais-highlight__query__/ais-highlight__ can\noverride, these callbacks are always called. Unlike Mutation ...",
+                "matchLevel": "partial"
+              }
+            },
+            "_highlightResult": {
+              "content": {
+                "value": "Defined in: packages/__ais-highlight__query__/ais-highlight__-core/src/__ais-highlight__query__/ais-highlight__Cache.ts:25\r\nGlobal callbacks that fire for every __ais-highlight__query__/ais-highlight__ handled by a __ais-highlight__Query__/ais-highlight__Cache, regardless of which\ncomponent or observer triggered it. Unlike __ais-highlight__QueryClient__/ais-highlight__'s defaultOptions, which a __ais-highlight__query__/ais-highlight__ can\noverride, these callbacks are always called. Unlike MutationCacheConfig's callbacks, these\nare fire-and-forget: their return value is not awaited before the __ais-highlight__query__/ais-highlight__ settles.",
+                "matchLevel": "partial",
+                "fullyHighlighted": false,
+                "matchedWords": [
+                  "query"
+                ]
+              },
+              "hierarchy": {
+                "lvl1": {
+                  "value": "__ais-highlight__Query__/ais-highlight__CacheConfig",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/reference/interfaces/MutationFilters",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/reference/interfaces/MutationFilters",
+            "anchor": "",
+            "content": "Defined in: packages/query-core/src/utils.ts:63\r\nFilters used to select mutations, for example in mutationCache.findAll or queryClient.isMutating.\nAll provided filters must match; filters that are left unspecified are ignored.",
+            "hierarchy": {
+              "lvl1": "MutationFilters",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "1-https://tanstack.com/query/latest/docs/framework/react/reference/interfaces/MutationFilters",
+            "_snippetResult": {
+              "content": {
+                "value": "Defined in: packages/__ais-highlight__query__/ais-highlight__-core/src/utils.ts:63\r\nFilters used to select mutations, for example in mutationCache.findAll or __ais-highlight__queryClient.isMutating.__/ais-highlight__\nAll provided filters must match; filters that are left unspecified are ignored.",
+                "matchLevel": "partial"
+              }
+            },
+            "_highlightResult": {
+              "content": {
+                "value": "Defined in: packages/__ais-highlight__query__/ais-highlight__-core/src/utils.ts:63\r\nFilters used to select mutations, for example in mutationCache.findAll or __ais-highlight__queryClient.isMutating.__/ais-highlight__\nAll provided filters must match; filters that are left unspecified are ignored.",
+                "matchLevel": "full",
+                "fullyHighlighted": false,
+                "matchedWords": [
+                  "query",
+                  "client"
+                ]
+              },
+              "hierarchy": {
+                "lvl1": {
+                  "value": "MutationFilters",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/reference/interfaces/MutationCacheConfig",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/reference/interfaces/MutationCacheConfig",
+            "anchor": "",
+            "content": "Defined in: packages/query-core/src/mutationCache.ts:26\r\nGlobal callbacks that fire for every mutation handled by a MutationCache, regardless of which\ncomponent or observer triggered it. They differ from the defaultOptions provided to a\nQueryClient in two ways: defaultOptions can be overridden by each mutation, while these\ncallbacks are always called, and onMutate here does not allow returning a result.\r\nIf a callback returns a promise, it will be awaited before the mutation continues.",
+            "hierarchy": {
+              "lvl1": "MutationCacheConfig",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "1-https://tanstack.com/query/latest/docs/framework/react/reference/interfaces/MutationCacheConfig",
+            "_snippetResult": {
+              "content": {
+                "value": "Defined in: packages/__ais-highlight__query__/ais-highlight__-core/src/mutationCache.ts:26\r\nGlobal callbacks that fire for every mutation handled by a MutationCache, regardless of which\ncomponent or observer triggered it. They differ from the defaultOptions provided to a\n__ais-highlight__QueryClient__/ais-highlight__ in two ways: defaultOptions can be overridden ...",
+                "matchLevel": "partial"
+              }
+            },
+            "_highlightResult": {
+              "content": {
+                "value": "Defined in: packages/__ais-highlight__query__/ais-highlight__-core/src/mutationCache.ts:26\r\nGlobal callbacks that fire for every mutation handled by a MutationCache, regardless of which\ncomponent or observer triggered it. They differ from the defaultOptions provided to a\n__ais-highlight__QueryClient__/ais-highlight__ in two ways: defaultOptions can be overridden by each mutation, while these\ncallbacks are always called, and onMutate here does not allow returning a result.\r\nIf a callback returns a promise, it will be awaited before the mutation continues.",
+                "matchLevel": "partial",
+                "fullyHighlighted": false,
+                "matchedWords": [
+                  "query"
+                ]
+              },
+              "hierarchy": {
+                "lvl1": {
+                  "value": "MutationCacheConfig",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/reference/interfaces/InvalidateQueryFilters",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/reference/interfaces/InvalidateQueryFilters",
+            "anchor": "",
+            "content": "Defined in: packages/query-core/src/types.ts:889\r\nThe filters of queryClient.invalidateQueries: the QueryFilters that select the queries\nto invalidate, plus refetchType to choose which of them are refetched.",
+            "hierarchy": {
+              "lvl1": "InvalidateQueryFilters",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "1-https://tanstack.com/query/latest/docs/framework/react/reference/interfaces/InvalidateQueryFilters",
+            "_snippetResult": {
+              "content": {
+                "value": "Defined in: packages/__ais-highlight__query__/ais-highlight__-core/src/types.ts:889\r\nThe filters of __ais-highlight__queryClient.invalidateQueries__/ais-highlight__: the __ais-highlight__Query__/ais-highlight__Filters that select the queries\nto invalidate, plus refetchType to choose which of them are refetched.",
+                "matchLevel": "partial"
+              }
+            },
+            "_highlightResult": {
+              "content": {
+                "value": "Defined in: packages/__ais-highlight__query__/ais-highlight__-core/src/types.ts:889\r\nThe filters of __ais-highlight__queryClient.invalidateQueries__/ais-highlight__: the __ais-highlight__Query__/ais-highlight__Filters that select the queries\nto invalidate, plus refetchType to choose which of them are refetched.",
+                "matchLevel": "full",
+                "fullyHighlighted": false,
+                "matchedWords": [
+                  "query",
+                  "client"
+                ]
+              },
+              "hierarchy": {
+                "lvl1": {
+                  "value": "Invalidate__ais-highlight__Query__/ais-highlight__Filters",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/reference/interfaces/InvalidateOptions",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/reference/interfaces/InvalidateOptions",
+            "anchor": "",
+            "content": "Defined in: packages/query-core/src/types.ts:914\r\nOptions of queryClient.invalidateQueries, applied to the refetch that follows the invalidation.",
+            "hierarchy": {
+              "lvl1": "InvalidateOptions",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "1-https://tanstack.com/query/latest/docs/framework/react/reference/interfaces/InvalidateOptions",
+            "_snippetResult": {
+              "content": {
+                "value": "Defined in: packages/__ais-highlight__query__/ais-highlight__-core/src/types.ts:914\r\nOptions of __ais-highlight__queryClient.invalidateQueries__/ais-highlight__, applied to the refetch that follows the invalidation.",
+                "matchLevel": "partial"
+              }
+            },
+            "_highlightResult": {
+              "content": {
+                "value": "Defined in: packages/__ais-highlight__query__/ais-highlight__-core/src/types.ts:914\r\nOptions of __ais-highlight__queryClient.invalidateQueries__/ais-highlight__, applied to the refetch that follows the invalidation.",
+                "matchLevel": "full",
+                "fullyHighlighted": false,
+                "matchedWords": [
+                  "query",
+                  "client"
+                ]
+              },
+              "hierarchy": {
+                "lvl1": {
+                  "value": "InvalidateOptions",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/reference/interfaces/DehydratedState",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/reference/interfaces/DehydratedState",
+            "anchor": "",
+            "content": "Defined in: packages/query-core/src/hydration.ts:102\r\nA serializable snapshot of a QueryClient's cache, as produced by dehydrate and consumed by hydrate. Typically\ntransported from server to client (e.g. embedded in server-rendered markup) to seed the client's cache with data\nthat has already been fetched, avoiding a redundant fetch on the client.",
+            "hierarchy": {
+              "lvl1": "DehydratedState",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "1-https://tanstack.com/query/latest/docs/framework/react/reference/interfaces/DehydratedState",
+            "_snippetResult": {
+              "content": {
+                "value": "Defined in: packages/__ais-highlight__query__/ais-highlight__-core/src/hydration.ts:102\r\nA serializable snapshot of a __ais-highlight__QueryClient__/ais-highlight__'s cache, as produced by dehydrate and consumed by hydrate. Typically\ntransported from server to __ais-highlight__client__/ais-highlight__ (e.g. embedded in server-rendered markup) to seed the __ais-highlight__client__/ais-highlight__'s cache with ...",
+                "matchLevel": "partial"
+              }
+            },
+            "_highlightResult": {
+              "content": {
+                "value": "Defined in: packages/__ais-highlight__query__/ais-highlight__-core/src/hydration.ts:102\r\nA serializable snapshot of a __ais-highlight__QueryClient__/ais-highlight__'s cache, as produced by dehydrate and consumed by hydrate. Typically\ntransported from server to __ais-highlight__client__/ais-highlight__ (e.g. embedded in server-rendered markup) to seed the __ais-highlight__client__/ais-highlight__'s cache with data\nthat has already been fetched, avoiding a redundant fetch on the __ais-highlight__client__/ais-highlight__.",
+                "matchLevel": "full",
+                "fullyHighlighted": false,
+                "matchedWords": [
+                  "query",
+                  "client"
+                ]
+              },
+              "hierarchy": {
+                "lvl1": {
+                  "value": "DehydratedState",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/reference/interfaces/DefaultOptions",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/reference/interfaces/DefaultOptions",
+            "anchor": "",
+            "content": "Defined in: packages/query-core/src/types.ts:2371\r\nThe default options of a QueryClient, applied to every query (queries), mutation\n(mutations), hydrate, and dehydrate call unless overridden.",
+            "hierarchy": {
+              "lvl1": "DefaultOptions",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "1-https://tanstack.com/query/latest/docs/framework/react/reference/interfaces/DefaultOptions",
+            "_snippetResult": {
+              "content": {
+                "value": "Defined in: packages/__ais-highlight__query__/ais-highlight__-core/src/types.ts:2371\r\nThe default options of a __ais-highlight__QueryClient__/ais-highlight__, applied to every __ais-highlight__query__/ais-highlight__ (queries), mutation\n(mutations), hydrate, and dehydrate call unless overridden.",
+                "matchLevel": "partial"
+              }
+            },
+            "_highlightResult": {
+              "content": {
+                "value": "Defined in: packages/__ais-highlight__query__/ais-highlight__-core/src/types.ts:2371\r\nThe default options of a __ais-highlight__QueryClient__/ais-highlight__, applied to every __ais-highlight__query__/ais-highlight__ (queries), mutation\n(mutations), hydrate, and dehydrate call unless overridden.",
+                "matchLevel": "partial",
+                "fullyHighlighted": false,
+                "matchedWords": [
+                  "query"
+                ]
+              },
+              "hierarchy": {
+                "lvl1": {
+                  "value": "DefaultOptions",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/reference/functions/useIsRestoring",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/reference/functions/useIsRestoring",
+            "anchor": "",
+            "content": "Defined in: packages/react-query/src/IsRestoringProvider.ts:12\r\nIf you are using PersistQueryClientProvider, you can also use the useIsRestoring hook alongside it to\ncheck if a restore is currently in progress. useQuery and friends also check this internally to avoid\nrace conditions between the restore and mounting queries.",
+            "hierarchy": {
+              "lvl1": "useIsRestoring",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "1-https://tanstack.com/query/latest/docs/framework/react/reference/functions/useIsRestoring",
+            "_snippetResult": {
+              "content": {
+                "value": "Defined in: packages/react-__ais-highlight__query__/ais-highlight__/src/IsRestoringProvider.ts:12\r\nIf you are using Persist__ais-highlight__QueryClientProvider__/ais-highlight__, you can also use the useIsRestoring hook alongside it to\ncheck if a restore is currently in progress. use__ais-highlight__Query__/ais-highlight__ and friends also check this internally to avoid ...",
+                "matchLevel": "partial"
+              }
+            },
+            "_highlightResult": {
+              "content": {
+                "value": "Defined in: packages/react-__ais-highlight__query__/ais-highlight__/src/IsRestoringProvider.ts:12\r\nIf you are using Persist__ais-highlight__QueryClientProvider__/ais-highlight__, you can also use the useIsRestoring hook alongside it to\ncheck if a restore is currently in progress. use__ais-highlight__Query__/ais-highlight__ and friends also check this internally to avoid\nrace conditions between the restore and mounting queries.",
+                "matchLevel": "full",
+                "fullyHighlighted": false,
+                "matchedWords": [
+                  "query",
+                  "client"
+                ]
+              },
+              "hierarchy": {
+                "lvl1": {
+                  "value": "useIsRestoring",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/reference/functions/hydrate",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/reference/functions/hydrate",
+            "anchor": "",
+            "content": "Defined in: packages/query-core/src/hydration.ts:306\r\nRestores a DehydratedState (as produced by dehydrate) into a QueryClient's cache, typically to seed the\nclient with data already fetched on the server. mutations and queries are each optional on dehydratedState.\nQueries not yet in the cache are built from the dehydrated snapshot; queries that already exist are only updated\nwhen the dehydrated data is newer than what's already cached. Newly built queries have their fetchStatus reset\nto 'idle' so they don't hydrate stuck in a fetching state. If a dehydrated query still had an in-flight\npromise, it is resumed via query.fetch() (reusing that promise as initialPromise) rather than re-invoking\nqueryFn.",
+            "hierarchy": {
+              "lvl1": "hydrate",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "1-https://tanstack.com/query/latest/docs/framework/react/reference/functions/hydrate",
+            "_snippetResult": {
+              "content": {
+                "value": "Defined in: packages/__ais-highlight__query__/ais-highlight__-core/src/hydration.ts:306\r\nRestores a DehydratedState (as produced by dehydrate) into a __ais-highlight__QueryClient__/ais-highlight__'s cache, typically to seed the\n__ais-highlight__client__/ais-highlight__ with data already fetched on the server. mutations and queries are each optional on dehydratedState.\nQueries not yet in ...",
+                "matchLevel": "partial"
+              }
+            },
+            "_highlightResult": {
+              "content": {
+                "value": "Defined in: packages/__ais-highlight__query__/ais-highlight__-core/src/hydration.ts:306\r\nRestores a DehydratedState (as produced by dehydrate) into a __ais-highlight__QueryClient__/ais-highlight__'s cache, typically to seed the\n__ais-highlight__client__/ais-highlight__ with data already fetched on the server. mutations and queries are each optional on dehydratedState.\nQueries not yet in the cache are built from the dehydrated snapshot; queries that already exist are only updated\nwhen the dehydrated data is newer than what's already cached. Newly built queries have their fetchStatus reset\nto 'idle' so they don't hydrate stuck in a fetching state. If a dehydrated __ais-highlight__query__/ais-highlight__ still had an in-flight\npromise, it is resumed via __ais-highlight__query__/ais-highlight__.fetch() (reusing that promise as initialPromise) rather than re-invoking\n__ais-highlight__query__/ais-highlight__Fn.",
+                "matchLevel": "full",
+                "fullyHighlighted": false,
+                "matchedWords": [
+                  "query",
+                  "client"
+                ]
+              },
+              "hierarchy": {
+                "lvl1": {
+                  "value": "hydrate",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/reference/functions/dehydrate",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/reference/functions/dehydrate",
+            "anchor": "",
+            "content": "Defined in: packages/query-core/src/hydration.ts:245\r\nDehydrates a QueryClient's cache (queries and mutations) into a plain, serializable DehydratedState,\ntypically to embed in server-rendered markup and later restore into a client-side QueryClient via hydrate.\nWhich queries/mutations are included, and how their data/errors are transformed, is controlled by options,\nfalling back to the client's dehydrate default options, and finally to defaultShouldDehydrateQuery /\ndefaultShouldDehydrateMutation.",
+            "hierarchy": {
+              "lvl1": "dehydrate",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "1-https://tanstack.com/query/latest/docs/framework/react/reference/functions/dehydrate",
+            "_snippetResult": {
+              "content": {
+                "value": "Defined in: packages/__ais-highlight__query__/ais-highlight__-core/src/hydration.ts:245\r\nDehydrates a __ais-highlight__QueryClient__/ais-highlight__'s cache (queries and mutations) into a plain, serializable DehydratedState,\ntypically to embed in server-rendered markup and later restore into a __ais-highlight__client__/ais-highlight__-side __ais-highlight__QueryClient__/ais-highlight__ via hydrate.\nWhich queries/mutations are ...",
+                "matchLevel": "partial"
+              }
+            },
+            "_highlightResult": {
+              "content": {
+                "value": "Defined in: packages/__ais-highlight__query__/ais-highlight__-core/src/hydration.ts:245\r\nDehydrates a __ais-highlight__QueryClient__/ais-highlight__'s cache (queries and mutations) into a plain, serializable DehydratedState,\ntypically to embed in server-rendered markup and later restore into a __ais-highlight__client__/ais-highlight__-side __ais-highlight__QueryClient__/ais-highlight__ via hydrate.\nWhich queries/mutations are included, and how their data/errors are transformed, is controlled by options,\nfalling back to the __ais-highlight__client__/ais-highlight__'s dehydrate default options, and finally to defaultShouldDehydrate__ais-highlight__Query__/ais-highlight__ /\ndefaultShouldDehydrateMutation.",
+                "matchLevel": "full",
+                "fullyHighlighted": false,
+                "matchedWords": [
+                  "query",
+                  "client"
+                ]
+              },
+              "hierarchy": {
+                "lvl1": {
+                  "value": "dehydrate",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/reference/functions/HydrationBoundary",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/reference/functions/HydrationBoundary",
+            "anchor": "",
+            "content": "Defined in: packages/react-query/src/HydrationBoundary.tsx:85\r\nHydrationBoundary adds a previously dehydrated state into the queryClient that would be returned by\nuseQueryClient(). If the client already contains data, the new queries will be intelligently merged based on\nupdate timestamp.\r\nNote: Only queries can be dehydrated with an HydrationBoundary.",
+            "hierarchy": {
+              "lvl1": "HydrationBoundary",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "1-https://tanstack.com/query/latest/docs/framework/react/reference/functions/HydrationBoundary",
+            "_snippetResult": {
+              "content": {
+                "value": "Defined in: packages/react-__ais-highlight__query__/ais-highlight__/src/HydrationBoundary.tsx:85\r\nHydrationBoundary adds a previously dehydrated state into the __ais-highlight__queryClient__/ais-highlight__ that would be returned by\nuse__ais-highlight__QueryClient__/ais-highlight__(). If the __ais-highlight__client__/ais-highlight__ already contains data, the new queries will be intelligently merged based on\nupdate timestamp.\r\nNote: Only queries ...",
+                "matchLevel": "partial"
+              }
+            },
+            "_highlightResult": {
+              "content": {
+                "value": "Defined in: packages/react-__ais-highlight__query__/ais-highlight__/src/HydrationBoundary.tsx:85\r\nHydrationBoundary adds a previously dehydrated state into the __ais-highlight__queryClient__/ais-highlight__ that would be returned by\nuse__ais-highlight__QueryClient__/ais-highlight__(). If the __ais-highlight__client__/ais-highlight__ already contains data, the new queries will be intelligently merged based on\nupdate timestamp.\r\nNote: Only queries can be dehydrated with an HydrationBoundary.",
+                "matchLevel": "full",
+                "fullyHighlighted": false,
+                "matchedWords": [
+                  "query",
+                  "client"
+                ]
+              },
+              "hierarchy": {
+                "lvl1": {
+                  "value": "HydrationBoundary",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/reference/classes/QueryCache",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/reference/classes/QueryCache",
+            "anchor": "",
+            "content": "Defined in: packages/query-core/src/queryCache.ts:140\r\nThe QueryCache is the storage mechanism for TanStack Query. It stores all the data, meta\ninformation, and state of the queries it contains.\r\nNormally, you will not interact with the QueryCache directly and instead use a QueryClient\nfor a specific cache. You can subscribe to it (inherited from Subscribable) to be informed of\nsafe/known updates to the cache, such as queries being added, removed, or updated — updates made\noutside of the cache's own tracked mechanisms (e.g. mutating a query's state object directly) do\nnot notify subscribers.",
+            "hierarchy": {
+              "lvl1": "QueryCache",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "1-https://tanstack.com/query/latest/docs/framework/react/reference/classes/QueryCache",
+            "_snippetResult": {
+              "content": {
+                "value": "Defined in: packages/__ais-highlight__query__/ais-highlight__-core/src/__ais-highlight__query__/ais-highlight__Cache.ts:140\r\nThe __ais-highlight__Query__/ais-highlight__Cache is the storage mechanism for TanStack __ais-highlight__Query__/ais-highlight__. It stores all the data, meta\ninformation, and state of the queries it contains.\r\nNormally, you will not interact with the __ais-highlight__Query__/ais-highlight__Cache directly and instead use a ...",
+                "matchLevel": "partial"
+              }
+            },
+            "_highlightResult": {
+              "content": {
+                "value": "Defined in: packages/__ais-highlight__query__/ais-highlight__-core/src/__ais-highlight__query__/ais-highlight__Cache.ts:140\r\nThe __ais-highlight__Query__/ais-highlight__Cache is the storage mechanism for TanStack __ais-highlight__Query__/ais-highlight__. It stores all the data, meta\ninformation, and state of the queries it contains.\r\nNormally, you will not interact with the __ais-highlight__Query__/ais-highlight__Cache directly and instead use a __ais-highlight__QueryClient__/ais-highlight__\nfor a specific cache. You can subscribe to it (inherited from Subscribable) to be informed of\nsafe/known updates to the cache, such as queries being added, removed, or updated — updates made\noutside of the cache's own tracked mechanisms (e.g. mutating a __ais-highlight__query__/ais-highlight__'s state object directly) do\nnot notify subscribers.",
+                "matchLevel": "partial",
+                "fullyHighlighted": false,
+                "matchedWords": [
+                  "query"
+                ]
+              },
+              "hierarchy": {
+                "lvl1": {
+                  "value": "__ais-highlight__Query__/ais-highlight__Cache",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/reference/classes/Query",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/reference/classes/Query",
+            "anchor": "",
+            "content": "Defined in: packages/query-core/src/query.ts:283\r\nRepresents a single cached query. A Query holds the query's key, options,\nstate (data/error/status), and the observers currently subscribed to it.\r\nInstances are created and managed internally by QueryCache; application\ncode typically interacts with queries indirectly through QueryClient or\na framework hook like useQuery. Direct access to a Query instance is\npossible via queryCache.find()/findAll() for inspecting cache state.",
+            "hierarchy": {
+              "lvl1": "Query",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "1-https://tanstack.com/query/latest/docs/framework/react/reference/classes/Query",
+            "_snippetResult": {
+              "content": {
+                "value": "Defined in: packages/__ais-highlight__query__/ais-highlight__-core/src/__ais-highlight__query__/ais-highlight__.ts:283\r\nRepresents a single cached __ais-highlight__query__/ais-highlight__. A __ais-highlight__Query__/ais-highlight__ holds the __ais-highlight__query__/ais-highlight__'s key, options,\nstate (data/error/status), and the observers currently subscribed to it.\r\nInstances are created and managed internally by __ais-highlight__Query__/ais-highlight__Cache; application\ncode typically interacts with queries ...",
+                "matchLevel": "partial"
+              }
+            },
+            "_highlightResult": {
+              "content": {
+                "value": "Defined in: packages/__ais-highlight__query__/ais-highlight__-core/src/__ais-highlight__query__/ais-highlight__.ts:283\r\nRepresents a single cached __ais-highlight__query__/ais-highlight__. A __ais-highlight__Query__/ais-highlight__ holds the __ais-highlight__query__/ais-highlight__'s key, options,\nstate (data/error/status), and the observers currently subscribed to it.\r\nInstances are created and managed internally by __ais-highlight__Query__/ais-highlight__Cache; application\ncode typically interacts with queries indirectly through __ais-highlight__QueryClient__/ais-highlight__ or\na framework hook like use__ais-highlight__Query__/ais-highlight__. Direct access to a __ais-highlight__Query__/ais-highlight__ instance is\npossible via __ais-highlight__query__/ais-highlight__Cache.find()/findAll() for inspecting cache state.",
+                "matchLevel": "partial",
+                "fullyHighlighted": false,
+                "matchedWords": [
+                  "query"
+                ]
+              },
+              "hierarchy": {
+                "lvl1": {
+                  "value": "__ais-highlight__Query__/ais-highlight__",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": true,
+                  "matchedWords": [
+                    "query"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/reference/classes/MutationCache",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/reference/classes/MutationCache",
+            "anchor": "",
+            "content": "Defined in: packages/query-core/src/mutationCache.ts:123\r\nThe MutationCache is the storage for mutations.\r\nNormally, you will not interact with the MutationCache directly and instead use a\nQueryClient. You can subscribe to it (inherited from Subscribable) to be informed of\nsafe/known updates to the cache, such as mutations being added, removed, or updated.",
+            "hierarchy": {
+              "lvl1": "MutationCache",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "1-https://tanstack.com/query/latest/docs/framework/react/reference/classes/MutationCache",
+            "_snippetResult": {
+              "content": {
+                "value": "Defined in: packages/__ais-highlight__query__/ais-highlight__-core/src/mutationCache.ts:123\r\nThe MutationCache is the storage for mutations.\r\nNormally, you will not interact with the MutationCache directly and instead use a\n__ais-highlight__QueryClient__/ais-highlight__. You can subscribe to it (inherited from Subscribable) to be informed of\nsafe/known updates ...",
+                "matchLevel": "partial"
+              }
+            },
+            "_highlightResult": {
+              "content": {
+                "value": "Defined in: packages/__ais-highlight__query__/ais-highlight__-core/src/mutationCache.ts:123\r\nThe MutationCache is the storage for mutations.\r\nNormally, you will not interact with the MutationCache directly and instead use a\n__ais-highlight__QueryClient__/ais-highlight__. You can subscribe to it (inherited from Subscribable) to be informed of\nsafe/known updates to the cache, such as mutations being added, removed, or updated.",
+                "matchLevel": "partial",
+                "fullyHighlighted": false,
+                "matchedWords": [
+                  "query"
+                ]
+              },
+              "hierarchy": {
+                "lvl1": {
+                  "value": "MutationCache",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/reference/classes/Mutation",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/reference/classes/Mutation",
+            "anchor": "",
+            "content": "Defined in: packages/query-core/src/mutation.ts:138\r\nRepresents a single mutation attempt. A Mutation holds the mutation's\noptions, state (data/error/status), and the MutationObservers currently\nsubscribed to it.\r\nInstances are created and managed internally by MutationCache; application\ncode typically interacts with mutations indirectly through QueryClient or\na framework hook like useMutation. Direct access to a Mutation instance\nis possible via mutationCache.find()/getAll() for inspecting cache state.",
+            "hierarchy": {
+              "lvl1": "Mutation",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "1-https://tanstack.com/query/latest/docs/framework/react/reference/classes/Mutation",
+            "_snippetResult": {
+              "content": {
+                "value": "... and the MutationObservers currently\nsubscribed to it.\r\nInstances are created and managed internally by MutationCache; application\ncode typically interacts with mutations indirectly through __ais-highlight__QueryClient__/ais-highlight__ or\na framework hook like useMutation. Direct access to a Mutation instance\nis possible via mutationCache.find()/getAll() for inspecting ...",
+                "matchLevel": "partial"
+              }
+            },
+            "_highlightResult": {
+              "content": {
+                "value": "Defined in: packages/__ais-highlight__query__/ais-highlight__-core/src/mutation.ts:138\r\nRepresents a single mutation attempt. A Mutation holds the mutation's\noptions, state (data/error/status), and the MutationObservers currently\nsubscribed to it.\r\nInstances are created and managed internally by MutationCache; application\ncode typically interacts with mutations indirectly through __ais-highlight__QueryClient__/ais-highlight__ or\na framework hook like useMutation. Direct access to a Mutation instance\nis possible via mutationCache.find()/getAll() for inspecting cache state.",
+                "matchLevel": "partial",
+                "fullyHighlighted": false,
+                "matchedWords": [
+                  "query"
+                ]
+              },
+              "hierarchy": {
+                "lvl1": {
+                  "value": "Mutation",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/reference/index#classes",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/reference/index",
+            "anchor": "classes",
+            "content": "CancelledError\r\nInfiniteQueryObserver\r\nMutation\r\nMutationCache\r\nMutationObserver\r\nQueriesObserver\r\nQuery\r\nQueryCache\r\nQueryClient\r\nQueryObserver",
+            "hierarchy": {
+              "lvl1": "@tanstack/react-query",
+              "lvl2": "Classes",
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "2-https://tanstack.com/query/latest/docs/framework/react/reference/index",
+            "_snippetResult": {
+              "content": {
+                "value": "CancelledError\r\nInfinite__ais-highlight__Query__/ais-highlight__Observer\r\nMutation\r\nMutationCache\r\nMutationObserver\r\nQueriesObserver\r\n__ais-highlight__Query__/ais-highlight__\r\n__ais-highlight__Query__/ais-highlight__Cache\r\n__ais-highlight__QueryClient__/ais-highlight__\r\n__ais-highlight__Query__/ais-highlight__Observer",
+                "matchLevel": "partial"
+              }
+            },
+            "_highlightResult": {
+              "content": {
+                "value": "CancelledError\r\nInfinite__ais-highlight__Query__/ais-highlight__Observer\r\nMutation\r\nMutationCache\r\nMutationObserver\r\nQueriesObserver\r\n__ais-highlight__Query__/ais-highlight__\r\n__ais-highlight__Query__/ais-highlight__Cache\r\n__ais-highlight__QueryClient__/ais-highlight__\r\n__ais-highlight__Query__/ais-highlight__Observer",
+                "matchLevel": "partial",
+                "fullyHighlighted": false,
+                "matchedWords": [
+                  "query"
+                ]
+              },
+              "hierarchy": {
+                "lvl1": {
+                  "value": "@tanstack/react-__ais-highlight__query__/ais-highlight__",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query"
+                  ]
+                },
+                "lvl2": {
+                  "value": "Classes",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/reference/functions/queryOptions#overview",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/reference/functions/queryOptions",
+            "anchor": "overview",
+            "content": "DefinedInitialDataOptions → DefinedInitialDataOptions &amp; QueryKeyWithDataTag: You can generally pass everything to queryOptions that you can also pass to useQuery. These options can be shared across hooks and imperative APIs such as queryClient.query. options.queryKey is required and is the query key to generate options for.\r\nUnusedSkipTokenOptions → UnusedSkipTokenOptions &amp; QueryKeyWithDataTag: You can generally pass everything to queryOptions that you can also pass to useQuery. These options can be shared across hooks and imperative APIs such as queryClient.query. options.queryKey is required and is the query key to generate options for.\r\nUndefinedInitialDataOptions → UndefinedInitialDataOptions &amp; QueryKeyWithDataTag: You can generally pass everything to queryOptions that you can also pass to useQuery. These options can be shared across hooks and imperative APIs such as queryClient.query. options.queryKey is required and is the query key to generate options for.\r\nSee also: Parameters · Returns",
+            "hierarchy": {
+              "lvl1": "queryOptions",
+              "lvl2": "Overview",
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "2-https://tanstack.com/query/latest/docs/framework/react/reference/functions/queryOptions",
+            "_snippetResult": {
+              "content": {
+                "value": "... to __ais-highlight__query__/ais-highlight__Options that you can also pass to use__ais-highlight__Query__/ais-highlight__. These options can be shared across hooks and imperative APIs such as __ais-highlight__queryClient.query.__/ais-highlight__ options.__ais-highlight__query__/ais-highlight__Key is required and is the __ais-highlight__query__/ais-highlight__ key to generate options for.\r\nUnusedSkipTokenOptions → UnusedSkipTokenOptions &amp; __ais-highlight__Query__/ais-highlight__ ...",
+                "matchLevel": "partial"
+              }
+            },
+            "_highlightResult": {
+              "content": {
+                "value": "DefinedInitialDataOptions → DefinedInitialDataOptions &amp; __ais-highlight__Query__/ais-highlight__KeyWithDataTag: You can generally pass everything to __ais-highlight__query__/ais-highlight__Options that you can also pass to use__ais-highlight__Query__/ais-highlight__. These options can be shared across hooks and imperative APIs such as __ais-highlight__queryClient.query.__/ais-highlight__ options.__ais-highlight__query__/ais-highlight__Key is required and is the __ais-highlight__query__/ais-highlight__ key to generate options for.\r\nUnusedSkipTokenOptions → UnusedSkipTokenOptions &amp; __ais-highlight__Query__/ais-highlight__KeyWithDataTag: You can generally pass everything to __ais-highlight__query__/ais-highlight__Options that you can also pass to use__ais-highlight__Query__/ais-highlight__. These options can be shared across hooks and imperative APIs such as __ais-highlight__queryClient.query.__/ais-highlight__ options.__ais-highlight__query__/ais-highlight__Key is required and is the __ais-highlight__query__/ais-highlight__ key to generate options for.\r\nUndefinedInitialDataOptions → UndefinedInitialDataOptions &amp; __ais-highlight__Query__/ais-highlight__KeyWithDataTag: You can generally pass everything to __ais-highlight__query__/ais-highlight__Options that you can also pass to use__ais-highlight__Query__/ais-highlight__. These options can be shared across hooks and imperative APIs such as __ais-highlight__queryClient.query.__/ais-highlight__ options.__ais-highlight__query__/ais-highlight__Key is required and is the __ais-highlight__query__/ais-highlight__ key to generate options for.\r\nSee also: Parameters · Returns",
+                "matchLevel": "full",
+                "fullyHighlighted": false,
+                "matchedWords": [
+                  "query",
+                  "client"
+                ]
+              },
+              "hierarchy": {
+                "lvl1": {
+                  "value": "__ais-highlight__query__/ais-highlight__Options",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query"
+                  ]
+                },
+                "lvl2": {
+                  "value": "Overview",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/reference/functions/infiniteQueryOptions#overview",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/reference/functions/infiniteQueryOptions",
+            "anchor": "overview",
+            "content": "DefinedInitialDataInfiniteOptions → DefinedInitialDataInfiniteOptions &amp; QueryKeyWithDataTag: You can generally pass everything to infiniteQueryOptions that you can also pass to useInfiniteQuery. These options can be shared across hooks and imperative APIs such as queryClient.infiniteQuery. options.queryKey is required and is the query key to generate options for.\r\nUnusedSkipTokenInfiniteOptions → UnusedSkipTokenInfiniteOptions &amp; QueryKeyWithDataTag: You can generally pass everything to infiniteQueryOptions that you can also pass to useInfiniteQuery. These options can be shared across hooks and imperative APIs such as queryClient.infiniteQuery. options.queryKey is required and is the query key to generate options for.\r\nUndefinedInitialDataInfiniteOptions → UndefinedInitialDataInfiniteOptions &amp; QueryKeyWithDataTag: You can generally pass everything to infiniteQueryOptions that you can also pass to useInfiniteQuery. These options can be shared across hooks and imperative APIs such as queryClient.infiniteQuery. options.queryKey is required and is the query key to generate options for.\r\nSee also: Parameters · Returns",
+            "hierarchy": {
+              "lvl1": "infiniteQueryOptions",
+              "lvl2": "Overview",
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "2-https://tanstack.com/query/latest/docs/framework/react/reference/functions/infiniteQueryOptions",
+            "_snippetResult": {
+              "content": {
+                "value": "... DataInfiniteOptions &amp; __ais-highlight__Query__/ais-highlight__KeyWithDataTag: You can generally pass everything to infinite__ais-highlight__Query__/ais-highlight__Options that you can also pass to useInfinite__ais-highlight__Query__/ais-highlight__. These options can be shared across hooks and imperative APIs such as __ais-highlight__queryClient.infiniteQuery.__/ais-highlight__ options.__ais-highlight__query__/ais-highlight__Key is required and is ...",
+                "matchLevel": "partial"
+              }
+            },
+            "_highlightResult": {
+              "content": {
+                "value": "DefinedInitialDataInfiniteOptions → DefinedInitialDataInfiniteOptions &amp; __ais-highlight__Query__/ais-highlight__KeyWithDataTag: You can generally pass everything to infinite__ais-highlight__Query__/ais-highlight__Options that you can also pass to useInfinite__ais-highlight__Query__/ais-highlight__. These options can be shared across hooks and imperative APIs such as __ais-highlight__queryClient.infiniteQuery.__/ais-highlight__ options.__ais-highlight__query__/ais-highlight__Key is required and is the __ais-highlight__query__/ais-highlight__ key to generate options for.\r\nUnusedSkipTokenInfiniteOptions → UnusedSkipTokenInfiniteOptions &amp; __ais-highlight__Query__/ais-highlight__KeyWithDataTag: You can generally pass everything to infinite__ais-highlight__Query__/ais-highlight__Options that you can also pass to useInfinite__ais-highlight__Query__/ais-highlight__. These options can be shared across hooks and imperative APIs such as __ais-highlight__queryClient.infiniteQuery.__/ais-highlight__ options.__ais-highlight__query__/ais-highlight__Key is required and is the __ais-highlight__query__/ais-highlight__ key to generate options for.\r\nUndefinedInitialDataInfiniteOptions → UndefinedInitialDataInfiniteOptions &amp; __ais-highlight__Query__/ais-highlight__KeyWithDataTag: You can generally pass everything to infinite__ais-highlight__Query__/ais-highlight__Options that you can also pass to useInfinite__ais-highlight__Query__/ais-highlight__. These options can be shared across hooks and imperative APIs such as __ais-highlight__queryClient.infiniteQuery.__/ais-highlight__ options.__ais-highlight__query__/ais-highlight__Key is required and is the __ais-highlight__query__/ais-highlight__ key to generate options for.\r\nSee also: Parameters · Returns",
+                "matchLevel": "full",
+                "fullyHighlighted": false,
+                "matchedWords": [
+                  "query",
+                  "client"
+                ]
+              },
+              "hierarchy": {
+                "lvl1": {
+                  "value": "infinite__ais-highlight__Query__/ais-highlight__Options",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query"
+                  ]
+                },
+                "lvl2": {
+                  "value": "Overview",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          }
+        ],
+        "nbHits": 101,
+        "page": 3,
+        "nbPages": 6,
+        "hitsPerPage": 20,
+        "exhaustiveNbHits": true,
+        "exhaustiveTypo": true,
+        "exhaustive": {
+          "nbHits": true,
+          "typo": true
+        },
+        "query": "query client",
+        "params": "attributesToHighlight=%5B%22hierarchy.lvl1%22%2C%22hierarchy.lvl2%22%2C%22hierarchy.lvl3%22%2C%22hierarchy.lvl4%22%2C%22hierarchy.lvl5%22%2C%22hierarchy.lvl6%22%2C%22content%22%5D&attributesToRetrieve=%5B%22hierarchy.lvl1%22%2C%22hierarchy.lvl2%22%2C%22hierarchy.lvl3%22%2C%22hierarchy.lvl4%22%2C%22hierarchy.lvl5%22%2C%22hierarchy.lvl6%22%2C%22url%22%2C%22url_without_anchor%22%2C%22anchor%22%2C%22urlWithAnchor%22%2C%22content%22%2C%22library%22%2C%22framework%22%2C%22version%22%2C%22routeStyle%22%5D&attributesToSnippet=%5B%22content%3A50%22%5D&distinct=1&filters=%28version%3Alatest+OR+version%3Aall%29+AND+library%3Aquery+AND+%28framework%3Areact+OR+framework%3Aall%29&highlightPostTag=__%2Fais-highlight__&highlightPreTag=__ais-highlight__&page=3&query=query+client",
+        "index": "tanstack-test",
+        "renderingContent": {},
+        "processingTimeMS": 5,
+        "processingTimingsMS": {
+          "_request": {
+            "roundTrip": 182
+          },
+          "afterFetch": {
+            "format": {
+              "highlighting": 1,
+              "snippeting": 2,
+              "total": 3
+            }
+          },
+          "fetch": {
+            "query": 2,
+            "scanning": 2,
+            "total": 5
+          },
+          "total": 5
+        },
+        "serverTimeMS": 9
+      }
+    ]
+  },
+  "fetched_at": "2026-10-10T01:40:30.854Z",
+  "origin": "https://fq0dq6ma3c-dsn.algolia.net",
+  "scope": "Public read-only Algolia query snapshot; no writes or private key used"
+}

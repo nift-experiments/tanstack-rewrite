@@ -1,0 +1,33 @@
+{
+  "scope": "Owned byte-preserved Navbar/providers in a CSR-only feasibility shell, owned publication boundary and local auth API; complete SSR/HTML/shell/route/search/service parity remains pending",
+  "nift_composed_article_html": true,
+  "actual_router_navigation_uses_published_html": true,
+  "return_navigation_reads_fresh_publication": true,
+  "desktop_theme_toggle": true,
+  "search_open_escape": true,
+  "mobile_menu_open_escape": true,
+  "article_node_identity_and_native_edit_survive": true,
+  "read_only_algolia_search_fixtures": [
+    {
+      "key": "67d8f36e83c7ba9ac35622455603680965b3ce0638fed8a2766fbc74d79d2983",
+      "fixture_sha256": "d6da85d0fb68b53e867f2c09d1f14323958bae21cb73ee68b17d3de8f7cc2c7d"
+    },
+    {
+      "key": "b3e44f3f3c90cef6a7953de28e0e6b60bdd446692a2d7ed1aa14ceeb2e08724e",
+      "fixture_sha256": "eeaf2c8a4877bce58663318a001d75f9584704dcec4965667f06212b159faa36"
+    },
+    {
+      "key": "656bbcd8649853bcf66c6631cbaf492b4f310c2c6aed4caa754a833bfcd4a6f3",
+      "fixture_sha256": "db8accc5724151d19a86b68b298984d2a341c6819f03d2a4ed6c188def3b3c4c"
+    }
+  ],
+  "upstream_service_oracle_calls": [
+    {
+      "path": "/_serverFn/b9ec6ebffe71881613f7d1e66d9126b4f7a9390f5be2d567f1ebaf09da5cfc18",
+      "method": "GET",
+      "scope": "Read-only controlled upstream service oracle for isolated UI proof; replacement pending"
+    }
+  ],
+  "console_errors": [],
+  "browser_page_errors": []
+}

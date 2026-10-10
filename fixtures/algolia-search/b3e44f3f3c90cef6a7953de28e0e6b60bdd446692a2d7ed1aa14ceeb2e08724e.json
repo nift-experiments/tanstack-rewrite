@@ -1,0 +1,938 @@
+{
+  "input": {
+    "requests": [
+      {
+        "indexName": "tanstack-test",
+        "attributesToHighlight": [
+          "hierarchy.lvl1",
+          "hierarchy.lvl2",
+          "hierarchy.lvl3",
+          "hierarchy.lvl4",
+          "hierarchy.lvl5",
+          "hierarchy.lvl6",
+          "content"
+        ],
+        "attributesToRetrieve": [
+          "hierarchy.lvl1",
+          "hierarchy.lvl2",
+          "hierarchy.lvl3",
+          "hierarchy.lvl4",
+          "hierarchy.lvl5",
+          "hierarchy.lvl6",
+          "url",
+          "url_without_anchor",
+          "anchor",
+          "urlWithAnchor",
+          "content",
+          "library",
+          "framework",
+          "version",
+          "routeStyle"
+        ],
+        "attributesToSnippet": [
+          "content:50"
+        ],
+        "distinct": 1,
+        "filters": "(version:latest OR version:all) AND library:query AND (framework:react OR framework:all)",
+        "highlightPostTag": "__/ais-highlight__",
+        "highlightPreTag": "__ais-highlight__",
+        "page": 0,
+        "query": "query client"
+      }
+    ]
+  },
+  "response": {
+    "results": [
+      {
+        "hits": [
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/reference/functions/useSuspenseQueries#queryclient",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/reference/functions/useSuspenseQueries",
+            "anchor": "queryclient",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "useSuspenseQueries",
+              "lvl2": "Call Signature",
+              "lvl3": "Parameters",
+              "lvl4": "queryClient?",
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "17-https://tanstack.com/query/latest/docs/framework/react/reference/functions/useSuspenseQueries",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "useSuspenseQueries",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                },
+                "lvl2": {
+                  "value": "Call Signature",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                },
+                "lvl3": {
+                  "value": "Parameters",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                },
+                "lvl4": {
+                  "value": "__ais-highlight__queryClient__/ais-highlight__?",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": true,
+                  "matchedWords": [
+                    "query"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/reference/functions/useQuery#queryclient",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/reference/functions/useQuery",
+            "anchor": "queryclient",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "useQuery",
+              "lvl2": "Call Signature",
+              "lvl3": "Parameters",
+              "lvl4": "queryClient?",
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "17-https://tanstack.com/query/latest/docs/framework/react/reference/functions/useQuery",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "use__ais-highlight__Query__/ais-highlight__",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query"
+                  ]
+                },
+                "lvl2": {
+                  "value": "Call Signature",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                },
+                "lvl3": {
+                  "value": "Parameters",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                },
+                "lvl4": {
+                  "value": "__ais-highlight__queryClient__/ais-highlight__?",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": true,
+                  "matchedWords": [
+                    "query"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/reference/functions/useInfiniteQuery#queryclient",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/reference/functions/useInfiniteQuery",
+            "anchor": "queryclient",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "useInfiniteQuery",
+              "lvl2": "Call Signature",
+              "lvl3": "Parameters",
+              "lvl4": "queryClient?",
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "19-https://tanstack.com/query/latest/docs/framework/react/reference/functions/useInfiniteQuery",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "useInfinite__ais-highlight__Query__/ais-highlight__",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query"
+                  ]
+                },
+                "lvl2": {
+                  "value": "Call Signature",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                },
+                "lvl3": {
+                  "value": "Parameters",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                },
+                "lvl4": {
+                  "value": "__ais-highlight__queryClient__/ais-highlight__?",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": true,
+                  "matchedWords": [
+                    "query"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/guides/migrating-to-v5#imperative-queryclient-methods",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/guides/migrating-to-v5",
+            "anchor": "imperative-queryclient-methods",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "Migrating to TanStack Query v5",
+              "lvl2": "Breaking Changes",
+              "lvl3": "Imperative QueryClient methods",
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "5-https://tanstack.com/query/latest/docs/framework/react/guides/migrating-to-v5",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "Migrating to TanStack __ais-highlight__Query__/ais-highlight__ v5",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query"
+                  ]
+                },
+                "lvl2": {
+                  "value": "Breaking Changes",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                },
+                "lvl3": {
+                  "value": "Imperative __ais-highlight__QueryClient__/ais-highlight__ methods",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/guides/migrating-to-react-query-3#the-querycache-has-been-split-into-a-queryclient-and-lower-level-querycache-and-mutationcache-instances",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/guides/migrating-to-react-query-3",
+            "anchor": "the-querycache-has-been-split-into-a-queryclient-and-lower-level-querycache-and-mutationcache-instances",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "Migrating to React Query 3",
+              "lvl2": "Breaking Changes",
+              "lvl3": "The QueryCache has been split into a QueryClient and lower-level QueryCache and MutationCache instances.",
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "5-https://tanstack.com/query/latest/docs/framework/react/guides/migrating-to-react-query-3",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "Migrating to React __ais-highlight__Query__/ais-highlight__ 3",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query"
+                  ]
+                },
+                "lvl2": {
+                  "value": "Breaking Changes",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                },
+                "lvl3": {
+                  "value": "The __ais-highlight__Query__/ais-highlight__Cache has been split into a __ais-highlight__QueryClient__/ais-highlight__ and lower-level __ais-highlight__Query__/ais-highlight__Cache and MutationCache instances.",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/guides/advanced-ssr#alternative-use-a-single-queryclient-for-prefetching",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/guides/advanced-ssr",
+            "anchor": "alternative-use-a-single-queryclient-for-prefetching",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "Advanced Server Rendering",
+              "lvl2": "Server Components &amp; Next.js app router",
+              "lvl3": "Alternative: Use a single queryClient for prefetching",
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "12-https://tanstack.com/query/latest/docs/framework/react/guides/advanced-ssr",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "Advanced Server Rendering",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                },
+                "lvl2": {
+                  "value": "Server Components &amp; Next.js app router",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                },
+                "lvl3": {
+                  "value": "Alternative: Use a single __ais-highlight__queryClient__/ais-highlight__ for prefetching",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/guides/migrating-to-react-query-4#persistqueryclient-and-the-corresponding-persister-plugins-are-no-longer-experimental-and-have-been-renamed",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/guides/migrating-to-react-query-4",
+            "anchor": "persistqueryclient-and-the-corresponding-persister-plugins-are-no-longer-experimental-and-have-been-renamed",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "Migrating to React Query 4",
+              "lvl2": "Breaking Changes",
+              "lvl3": "persistQueryClient and the corresponding persister plugins are no longer experimental and have been renamed",
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "33-https://tanstack.com/query/latest/docs/framework/react/guides/migrating-to-react-query-4",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "Migrating to React __ais-highlight__Query__/ais-highlight__ 4",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query"
+                  ]
+                },
+                "lvl2": {
+                  "value": "Breaking Changes",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                },
+                "lvl3": {
+                  "value": "persist__ais-highlight__QueryClient__/ais-highlight__ and the corresponding persister plugins are no longer experimental and have been renamed",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/plugins/broadcastQueryClient#broadcastqueryclient",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/plugins/broadcastQueryClient",
+            "anchor": "broadcastqueryclient",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "broadcastQueryClient (Experimental)",
+              "lvl2": "API",
+              "lvl3": "broadcastQueryClient",
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "7-https://tanstack.com/query/latest/docs/framework/react/plugins/broadcastQueryClient",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "broadcast__ais-highlight__QueryClient__/ais-highlight__ (Experimental)",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query"
+                  ]
+                },
+                "lvl2": {
+                  "value": "API",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                },
+                "lvl3": {
+                  "value": "broadcast__ais-highlight__QueryClient__/ais-highlight__",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/plugins/createPersister#persistquerybykey-querykey-querykey-queryclient-queryclient-promisevoid",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/plugins/createPersister",
+            "anchor": "persistquerybykey-querykey-querykey-queryclient-queryclient-promisevoid",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "experimental_createQueryPersister",
+              "lvl2": "Additional utilities",
+              "lvl3": "persistQueryByKey(queryKey: QueryKey, queryClient: QueryClient): Promise&lt;void&gt;",
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "9-https://tanstack.com/query/latest/docs/framework/react/plugins/createPersister",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "experimental_create__ais-highlight__Query__/ais-highlight__Persister",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query"
+                  ]
+                },
+                "lvl2": {
+                  "value": "Additional utilities",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                },
+                "lvl3": {
+                  "value": "persist__ais-highlight__Query__/ais-highlight__ByKey(__ais-highlight__query__/ais-highlight__Key: __ais-highlight__Query__/ais-highlight__Key, __ais-highlight__queryClient__/ais-highlight__: __ais-highlight__QueryClient__/ais-highlight__): Promise&lt;void&gt;",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/plugins/persistQueryClient#persistqueryclientsave",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/plugins/persistQueryClient",
+            "anchor": "persistqueryclientsave",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "persistQueryClient",
+              "lvl2": "API",
+              "lvl3": "persistQueryClientSave",
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "11-https://tanstack.com/query/latest/docs/framework/react/plugins/persistQueryClient",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "persist__ais-highlight__QueryClient__/ais-highlight__",
+                  "matchLevel": "full",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query",
+                    "client"
+                  ]
+                },
+                "lvl2": {
+                  "value": "API",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                },
+                "lvl3": {
+                  "value": "persist__ais-highlight__QueryClientSave__/ais-highlight__",
+                  "matchLevel": "full",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query",
+                    "client"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/reference/functions/useQueryClient#queryclient",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/reference/functions/useQueryClient",
+            "anchor": "queryclient",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "useQueryClient",
+              "lvl2": "Parameters",
+              "lvl3": "queryClient?",
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "3-https://tanstack.com/query/latest/docs/framework/react/reference/functions/useQueryClient",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "use__ais-highlight__QueryClient__/ais-highlight__",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query"
+                  ]
+                },
+                "lvl2": {
+                  "value": "Parameters",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                },
+                "lvl3": {
+                  "value": "__ais-highlight__queryClient__/ais-highlight__?",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": true,
+                  "matchedWords": [
+                    "query"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/reference/functions/useIsMutating#queryclient",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/reference/functions/useIsMutating",
+            "anchor": "queryclient",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "useIsMutating",
+              "lvl2": "Parameters",
+              "lvl3": "queryClient?",
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "6-https://tanstack.com/query/latest/docs/framework/react/reference/functions/useIsMutating",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "useIsMutating",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                },
+                "lvl2": {
+                  "value": "Parameters",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                },
+                "lvl3": {
+                  "value": "__ais-highlight__queryClient__/ais-highlight__?",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": true,
+                  "matchedWords": [
+                    "query"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/reference/functions/useIsFetching#queryclient",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/reference/functions/useIsFetching",
+            "anchor": "queryclient",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "useIsFetching",
+              "lvl2": "Parameters",
+              "lvl3": "queryClient?",
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "6-https://tanstack.com/query/latest/docs/framework/react/reference/functions/useIsFetching",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "useIsFetching",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                },
+                "lvl2": {
+                  "value": "Parameters",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                },
+                "lvl3": {
+                  "value": "__ais-highlight__queryClient__/ais-highlight__?",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": true,
+                  "matchedWords": [
+                    "query"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/reference/functions/useMutationState#queryclient",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/reference/functions/useMutationState",
+            "anchor": "queryclient",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "useMutationState",
+              "lvl2": "Parameters",
+              "lvl3": "queryClient?",
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "10-https://tanstack.com/query/latest/docs/framework/react/reference/functions/useMutationState",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "useMutationState",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                },
+                "lvl2": {
+                  "value": "Parameters",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                },
+                "lvl3": {
+                  "value": "__ais-highlight__queryClient__/ais-highlight__?",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": true,
+                  "matchedWords": [
+                    "query"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/reference/functions/useSuspenseQuery#queryclient",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/reference/functions/useSuspenseQuery",
+            "anchor": "queryclient",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "useSuspenseQuery",
+              "lvl2": "Parameters",
+              "lvl3": "queryClient?",
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "15-https://tanstack.com/query/latest/docs/framework/react/reference/functions/useSuspenseQuery",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "useSuspense__ais-highlight__Query__/ais-highlight__",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query"
+                  ]
+                },
+                "lvl2": {
+                  "value": "Parameters",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                },
+                "lvl3": {
+                  "value": "__ais-highlight__queryClient__/ais-highlight__?",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": true,
+                  "matchedWords": [
+                    "query"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/reference/functions/useMutation#queryclient",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/reference/functions/useMutation",
+            "anchor": "queryclient",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "useMutation",
+              "lvl2": "Parameters",
+              "lvl3": "queryClient?",
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "15-https://tanstack.com/query/latest/docs/framework/react/reference/functions/useMutation",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "useMutation",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                },
+                "lvl2": {
+                  "value": "Parameters",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                },
+                "lvl3": {
+                  "value": "__ais-highlight__queryClient__/ais-highlight__?",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": true,
+                  "matchedWords": [
+                    "query"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/reference/functions/useQueries#queryclient",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/reference/functions/useQueries",
+            "anchor": "queryclient",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "useQueries",
+              "lvl2": "Parameters",
+              "lvl3": "queryClient?",
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "16-https://tanstack.com/query/latest/docs/framework/react/reference/functions/useQueries",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "useQueries",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                },
+                "lvl2": {
+                  "value": "Parameters",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                },
+                "lvl3": {
+                  "value": "__ais-highlight__queryClient__/ais-highlight__?",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": true,
+                  "matchedWords": [
+                    "query"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/reference/functions/usePrefetchInfiniteQuery#queryclient",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/reference/functions/usePrefetchInfiniteQuery",
+            "anchor": "queryclient",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "usePrefetchInfiniteQuery",
+              "lvl2": "Parameters",
+              "lvl3": "queryClient?",
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "16-https://tanstack.com/query/latest/docs/framework/react/reference/functions/usePrefetchInfiniteQuery",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "usePrefetchInfinite__ais-highlight__Query__/ais-highlight__",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query"
+                  ]
+                },
+                "lvl2": {
+                  "value": "Parameters",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                },
+                "lvl3": {
+                  "value": "__ais-highlight__queryClient__/ais-highlight__?",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": true,
+                  "matchedWords": [
+                    "query"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/reference/functions/useSuspenseInfiniteQuery#queryclient",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/reference/functions/useSuspenseInfiniteQuery",
+            "anchor": "queryclient",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "useSuspenseInfiniteQuery",
+              "lvl2": "Parameters",
+              "lvl3": "queryClient?",
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "17-https://tanstack.com/query/latest/docs/framework/react/reference/functions/useSuspenseInfiniteQuery",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "useSuspenseInfinite__ais-highlight__Query__/ais-highlight__",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query"
+                  ]
+                },
+                "lvl2": {
+                  "value": "Parameters",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                },
+                "lvl3": {
+                  "value": "__ais-highlight__queryClient__/ais-highlight__?",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": true,
+                  "matchedWords": [
+                    "query"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/reference/functions/usePrefetchQuery#queryclient",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/reference/functions/usePrefetchQuery",
+            "anchor": "queryclient",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "usePrefetchQuery",
+              "lvl2": "Parameters",
+              "lvl3": "queryClient?",
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "18-https://tanstack.com/query/latest/docs/framework/react/reference/functions/usePrefetchQuery",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "usePrefetch__ais-highlight__Query__/ais-highlight__",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query"
+                  ]
+                },
+                "lvl2": {
+                  "value": "Parameters",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                },
+                "lvl3": {
+                  "value": "__ais-highlight__queryClient__/ais-highlight__?",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": true,
+                  "matchedWords": [
+                    "query"
+                  ]
+                }
+              }
+            }
+          }
+        ],
+        "nbHits": 101,
+        "page": 0,
+        "nbPages": 6,
+        "hitsPerPage": 20,
+        "exhaustiveNbHits": true,
+        "exhaustiveTypo": true,
+        "exhaustive": {
+          "nbHits": true,
+          "typo": true
+        },
+        "query": "query client",
+        "params": "attributesToHighlight=%5B%22hierarchy.lvl1%22%2C%22hierarchy.lvl2%22%2C%22hierarchy.lvl3%22%2C%22hierarchy.lvl4%22%2C%22hierarchy.lvl5%22%2C%22hierarchy.lvl6%22%2C%22content%22%5D&attributesToRetrieve=%5B%22hierarchy.lvl1%22%2C%22hierarchy.lvl2%22%2C%22hierarchy.lvl3%22%2C%22hierarchy.lvl4%22%2C%22hierarchy.lvl5%22%2C%22hierarchy.lvl6%22%2C%22url%22%2C%22url_without_anchor%22%2C%22anchor%22%2C%22urlWithAnchor%22%2C%22content%22%2C%22library%22%2C%22framework%22%2C%22version%22%2C%22routeStyle%22%5D&attributesToSnippet=%5B%22content%3A50%22%5D&distinct=1&filters=%28version%3Alatest+OR+version%3Aall%29+AND+library%3Aquery+AND+%28framework%3Areact+OR+framework%3Aall%29&highlightPostTag=__%2Fais-highlight__&highlightPreTag=__ais-highlight__&page=0&query=query+client",
+        "index": "tanstack-test",
+        "renderingContent": {},
+        "processingTimeMS": 5,
+        "processingTimingsMS": {
+          "_request": {
+            "roundTrip": 194
+          },
+          "fetch": {
+            "query": 2,
+            "scanning": 2,
+            "total": 5
+          },
+          "total": 5
+        },
+        "serverTimeMS": 6
+      }
+    ]
+  },
+  "fetched_at": "2026-10-10T01:40:30.607Z",
+  "origin": "https://fq0dq6ma3c-dsn.algolia.net",
+  "scope": "Public read-only Algolia query snapshot; no writes or private key used"
+}

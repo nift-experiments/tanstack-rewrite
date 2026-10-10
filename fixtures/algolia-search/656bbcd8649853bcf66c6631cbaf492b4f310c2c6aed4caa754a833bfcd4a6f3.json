@@ -1,0 +1,928 @@
+{
+  "input": {
+    "requests": [
+      {
+        "indexName": "tanstack-test",
+        "attributesToHighlight": [
+          "hierarchy.lvl1",
+          "hierarchy.lvl2",
+          "hierarchy.lvl3",
+          "hierarchy.lvl4",
+          "hierarchy.lvl5",
+          "hierarchy.lvl6",
+          "content"
+        ],
+        "attributesToRetrieve": [
+          "hierarchy.lvl1",
+          "hierarchy.lvl2",
+          "hierarchy.lvl3",
+          "hierarchy.lvl4",
+          "hierarchy.lvl5",
+          "hierarchy.lvl6",
+          "url",
+          "url_without_anchor",
+          "anchor",
+          "urlWithAnchor",
+          "content",
+          "library",
+          "framework",
+          "version",
+          "routeStyle"
+        ],
+        "attributesToSnippet": [
+          "content:50"
+        ],
+        "distinct": 1,
+        "filters": "(version:latest OR version:all) AND library:query AND (framework:react OR framework:all)",
+        "highlightPostTag": "__/ais-highlight__",
+        "highlightPreTag": "__ais-highlight__",
+        "page": 1,
+        "query": "query client"
+      }
+    ]
+  },
+  "response": {
+    "results": [
+      {
+        "hits": [
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/eslint/stable-query-client",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/eslint/stable-query-client",
+            "anchor": "",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "Stable Query Client",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "all",
+            "objectID": "0-https://tanstack.com/query/latest/docs/eslint/stable-query-client",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "Stable __ais-highlight__Query__/ais-highlight__ __ais-highlight__Client__/ais-highlight__",
+                  "matchLevel": "full",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query",
+                    "client"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/reference/variables/QueryClientContext",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/reference/variables/QueryClientContext",
+            "anchor": "",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "QueryClientContext",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "0-https://tanstack.com/query/latest/docs/framework/react/reference/variables/QueryClientContext",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "__ais-highlight__QueryClientContext__/ais-highlight__",
+                  "matchLevel": "full",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query",
+                    "client"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/reference/type-aliases/QueryClientProviderProps",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/reference/type-aliases/QueryClientProviderProps",
+            "anchor": "",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "QueryClientProviderProps",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "0-https://tanstack.com/query/latest/docs/framework/react/reference/type-aliases/QueryClientProviderProps",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "__ais-highlight__QueryClientProviderProps__/ais-highlight__",
+                  "matchLevel": "full",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query",
+                    "client"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/reference/interfaces/QueryClientConfig",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/reference/interfaces/QueryClientConfig",
+            "anchor": "",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "QueryClientConfig",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "0-https://tanstack.com/query/latest/docs/framework/react/reference/interfaces/QueryClientConfig",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "__ais-highlight__QueryClientConfig__/ais-highlight__",
+                  "matchLevel": "full",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query",
+                    "client"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/reference/functions/QueryClientProvider",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/reference/functions/QueryClientProvider",
+            "anchor": "",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "QueryClientProvider",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "0-https://tanstack.com/query/latest/docs/framework/react/reference/functions/QueryClientProvider",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "__ais-highlight__QueryClientProvider__/ais-highlight__",
+                  "matchLevel": "full",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query",
+                    "client"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/reference/classes/QueryClient",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/reference/classes/QueryClient",
+            "anchor": "",
+            "content": null,
+            "hierarchy": {
+              "lvl1": "QueryClient",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "0-https://tanstack.com/query/latest/docs/framework/react/reference/classes/QueryClient",
+            "_highlightResult": {
+              "hierarchy": {
+                "lvl1": {
+                  "value": "__ais-highlight__QueryClient__/ais-highlight__",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": true,
+                  "matchedWords": [
+                    "query"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/guides/updates-from-mutation-responses",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/guides/updates-from-mutation-responses",
+            "anchor": "",
+            "content": "When dealing with mutations that update objects on the server, it's common for the new object to be automatically returned in the response of the mutation. Instead of refetching any queries for that item and wasting a network call for data we already have, we can take advantage of the object returned by the mutation function and update the existing query with the new data immediately using the Query Client's setQueryData method:\r\nYou might want to tie the onSuccess logic into a reusable mutation, for that you can\ncreate a custom hook like this:",
+            "hierarchy": {
+              "lvl1": "Updates from Mutation Responses",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "1-https://tanstack.com/query/latest/docs/framework/react/guides/updates-from-mutation-responses",
+            "_snippetResult": {
+              "content": {
+                "value": "... wasting a network call for data we already have, we can take advantage of the object returned by the mutation function and update the existing __ais-highlight__query__/ais-highlight__ with the new data immediately using the __ais-highlight__Query__/ais-highlight__ __ais-highlight__Client__/ais-highlight__'s set__ais-highlight__Query__/ais-highlight__Data method:\r\nYou might want to tie the onSuccess logic ...",
+                "matchLevel": "full"
+              }
+            },
+            "_highlightResult": {
+              "content": {
+                "value": "When dealing with mutations that update objects on the server, it's common for the new object to be automatically returned in the response of the mutation. Instead of refetching any __ais-highlight__queries__/ais-highlight__ for that item and wasting a network call for data we already have, we can take advantage of the object returned by the mutation function and update the existing __ais-highlight__query__/ais-highlight__ with the new data immediately using the __ais-highlight__Query__/ais-highlight__ __ais-highlight__Client__/ais-highlight__'s set__ais-highlight__Query__/ais-highlight__Data method:\r\nYou might want to tie the onSuccess logic into a reusable mutation, for that you can\ncreate a custom hook like this:",
+                "matchLevel": "full",
+                "fullyHighlighted": false,
+                "matchedWords": [
+                  "query",
+                  "client"
+                ]
+              },
+              "hierarchy": {
+                "lvl1": {
+                  "value": "Updates from Mutation Responses",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/guides/ssr",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/guides/ssr",
+            "anchor": "",
+            "content": "In this guide you'll learn how to use React Query with server rendering.\r\nFor TanStack Start, use the Start + TanStack Query guide for its SSR integration, request-scoped QueryClient setup, and mutation invalidation example.\r\nSee the guide on Prefetching &amp; Router Integration for some background. You might also want to check out the Performance &amp; Request Waterfalls guide before that.\r\nFor deeper examples on hydration + prefetching (including code splitting), see the Dependent Queries &amp; Code Splitting section.\r\nFor advanced server rendering patterns, such as streaming, Server Components and the new Next.js app router, see the Advanced Server Rendering guide.\r\nIf you just want to see some code, you can skip ahead to the Full Next.js pages router example or the Full Remix example below.",
+            "hierarchy": {
+              "lvl1": "Server Rendering &amp; Hydration",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "1-https://tanstack.com/query/latest/docs/framework/react/guides/ssr",
+            "_snippetResult": {
+              "content": {
+                "value": "In this guide you'll learn how to use React __ais-highlight__Query__/ais-highlight__ with server rendering.\r\nFor TanStack Start, use the Start + TanStack __ais-highlight__Query__/ais-highlight__ guide for its SSR integration, request-scoped __ais-highlight__QueryClient__/ais-highlight__ setup, and mutation invalidation example.\r\nSee the guide on Prefetching &amp; Router Integration for some background ...",
+                "matchLevel": "partial"
+              }
+            },
+            "_highlightResult": {
+              "content": {
+                "value": "In this guide you'll learn how to use React __ais-highlight__Query__/ais-highlight__ with server rendering.\r\nFor TanStack Start, use the Start + TanStack __ais-highlight__Query__/ais-highlight__ guide for its SSR integration, request-scoped __ais-highlight__QueryClient__/ais-highlight__ setup, and mutation invalidation example.\r\nSee the guide on Prefetching &amp; Router Integration for some background. You might also want to check out the Performance &amp; Request Waterfalls guide before that.\r\nFor deeper examples on hydration + prefetching (including code splitting), see the Dependent Queries &amp; Code Splitting section.\r\nFor advanced server rendering patterns, such as streaming, Server Components and the new Next.js app router, see the Advanced Server Rendering guide.\r\nIf you just want to see some code, you can skip ahead to the Full Next.js pages router example or the Full Remix example below.",
+                "matchLevel": "partial",
+                "fullyHighlighted": false,
+                "matchedWords": [
+                  "query"
+                ]
+              },
+              "hierarchy": {
+                "lvl1": {
+                  "value": "Server Rendering &amp; Hydration",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/guides/query-invalidation",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/guides/query-invalidation",
+            "anchor": "",
+            "content": "Waiting for queries to become stale before they are fetched again doesn't always work, especially when you know for a fact that a query's data is out of date because of something the user has done. For that purpose, the QueryClient has an invalidateQueries method that lets you intelligently mark queries as stale and potentially refetch them too!\r\nNote: Where other libraries that use normalized caches would attempt to update local queries with the new data either imperatively or via schema inference, TanStack Query gives you the tools to avoid the manual labor that comes with maintaining normalized caches and instead prescribes targeted invalidation, background-refetching and ultimately atomic updates.\r\nWhen a query is invalidated with invalidateQueries, two things happen:\r\nIt is marked as stale. This stale state overrides any staleTime configurations being used in useQuery or related hooks\r\nIf the query is currently being rendered via useQuery or related hooks, it will also be refetched in the background",
+            "hierarchy": {
+              "lvl1": "Query Invalidation",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "1-https://tanstack.com/query/latest/docs/framework/react/guides/query-invalidation",
+            "_snippetResult": {
+              "content": {
+                "value": "Waiting for queries to become stale before they are fetched again doesn't always work, especially when you know for a fact that a __ais-highlight__query__/ais-highlight__'s data is out of date because of something the user has done. For that purpose, the __ais-highlight__QueryClient__/ais-highlight__ has an invalidateQueries ...",
+                "matchLevel": "partial"
+              }
+            },
+            "_highlightResult": {
+              "content": {
+                "value": "Waiting for queries to become stale before they are fetched again doesn't always work, especially when you know for a fact that a __ais-highlight__query__/ais-highlight__'s data is out of date because of something the user has done. For that purpose, the __ais-highlight__QueryClient__/ais-highlight__ has an invalidateQueries method that lets you intelligently mark queries as stale and potentially refetch them too!\r\nNote: Where other libraries that use normalized caches would attempt to update local queries with the new data either imperatively or via schema inference, TanStack __ais-highlight__Query__/ais-highlight__ gives you the tools to avoid the manual labor that comes with maintaining normalized caches and instead prescribes targeted invalidation, background-refetching and ultimately atomic updates.\r\nWhen a __ais-highlight__query__/ais-highlight__ is invalidated with invalidateQueries, two things happen:\r\nIt is marked as stale. This stale state overrides any staleTime configurations being used in use__ais-highlight__Query__/ais-highlight__ or related hooks\r\nIf the __ais-highlight__query__/ais-highlight__ is currently being rendered via use__ais-highlight__Query__/ais-highlight__ or related hooks, it will also be refetched in the background",
+                "matchLevel": "partial",
+                "fullyHighlighted": false,
+                "matchedWords": [
+                  "query"
+                ]
+              },
+              "hierarchy": {
+                "lvl1": {
+                  "value": "__ais-highlight__Query__/ais-highlight__ Invalidation",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/guides/mutations",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/guides/mutations",
+            "anchor": "",
+            "content": "Unlike queries, mutations are typically used to create/update/delete data or perform server side-effects. For this purpose, TanStack Query exports a useMutation hook.\r\nHere's an example of a mutation that adds a new todo to the server:\r\nA mutation can only be in one of the following states at any given moment:\r\nisIdle or status === 'idle' - The mutation is currently idle or in a fresh/reset state\r\nisPending or status === 'pending' - The mutation is currently running\r\nisError or status === 'error' - The mutation encountered an error\r\nisSuccess or status === 'success' - The mutation was successful and mutation data is available\r\nBeyond those primary states, more information is available depending on the state of the mutation:\r\nerror - If the mutation is in an error state, the error is available via the error property.\r\ndata - If the mutation is in a success state, the data is available via the data property.\r\nIn the example above, you also saw that you can pass variables to your mutations function by calling the mutate function with a single variable or object.\r\nEven with just variables, mutations aren't all that special, but when used with the onSuccess option, the Query Client's invalidateQueries method and the Query Client's setQueryData method, mutations become a very powerful tool.\r\nIMPORTANT: The mutate function is an asynchronous function, which means you cannot use it directly in an event callback in React 16 and earlier. If you need to access the event in onSubmit you need to wrap mutate in another function. This is due to React event pooling.",
+            "hierarchy": {
+              "lvl1": "Mutations",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "1-https://tanstack.com/query/latest/docs/framework/react/guides/mutations",
+            "_snippetResult": {
+              "content": {
+                "value": "... a single variable or object.\r\nEven with just variables, mutations aren't all that special, but when used with the onSuccess option, the __ais-highlight__Query__/ais-highlight__ __ais-highlight__Client__/ais-highlight__'s invalidate__ais-highlight__Queries__/ais-highlight__ method and the __ais-highlight__Query__/ais-highlight__ __ais-highlight__Client__/ais-highlight__'s set__ais-highlight__Query__/ais-highlight__Data method, mutations become a very powerful tool.\r\nIMPORTANT: The ...",
+                "matchLevel": "full"
+              }
+            },
+            "_highlightResult": {
+              "content": {
+                "value": "Unlike __ais-highlight__queries__/ais-highlight__, mutations are typically used to create/update/delete data or perform server side-effects. For this purpose, TanStack __ais-highlight__Query__/ais-highlight__ exports a useMutation hook.\r\nHere's an example of a mutation that adds a new todo to the server:\r\nA mutation can only be in one of the following states at any given moment:\r\nisIdle or status === 'idle' - The mutation is currently idle or in a fresh/reset state\r\nisPending or status === 'pending' - The mutation is currently running\r\nisError or status === 'error' - The mutation encountered an error\r\nisSuccess or status === 'success' - The mutation was successful and mutation data is available\r\nBeyond those primary states, more information is available depending on the state of the mutation:\r\nerror - If the mutation is in an error state, the error is available via the error property.\r\ndata - If the mutation is in a success state, the data is available via the data property.\r\nIn the example above, you also saw that you can pass variables to your mutations function by calling the mutate function with a single variable or object.\r\nEven with just variables, mutations aren't all that special, but when used with the onSuccess option, the __ais-highlight__Query__/ais-highlight__ __ais-highlight__Client__/ais-highlight__'s invalidate__ais-highlight__Queries__/ais-highlight__ method and the __ais-highlight__Query__/ais-highlight__ __ais-highlight__Client__/ais-highlight__'s set__ais-highlight__Query__/ais-highlight__Data method, mutations become a very powerful tool.\r\nIMPORTANT: The mutate function is an asynchronous function, which means you cannot use it directly in an event callback in React 16 and earlier. If you need to access the event in onSubmit you need to wrap mutate in another function. This is due to React event pooling.",
+                "matchLevel": "full",
+                "fullyHighlighted": false,
+                "matchedWords": [
+                  "query",
+                  "client"
+                ]
+              },
+              "hierarchy": {
+                "lvl1": {
+                  "value": "Mutations",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/guides/initial-query-data",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/guides/initial-query-data",
+            "anchor": "",
+            "content": "There are many ways to supply initial data for a query to the cache before you need it:\r\nDeclaratively:Provide initialData to a query to prepopulate its cache if empty\r\nProvide initialData to a query to prepopulate its cache if empty\r\nImperatively:Prefetch the data using queryClient.queryManually place the data into the cache using queryClient.setQueryData\r\nPrefetch the data using queryClient.query\r\nManually place the data into the cache using queryClient.setQueryData",
+            "hierarchy": {
+              "lvl1": "Initial Query Data",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "1-https://tanstack.com/query/latest/docs/framework/react/guides/initial-query-data",
+            "_snippetResult": {
+              "content": {
+                "value": "... to a __ais-highlight__query__/ais-highlight__ to prepopulate its cache if empty\r\nImperatively:Prefetch the data using __ais-highlight__queryClient.queryManually__/ais-highlight__ place the data into the cache using __ais-highlight__queryClient.setQueryData__/ais-highlight__\r\nPrefetch the data using __ais-highlight__queryClient.query__/ais-highlight__\r\nManually place the data into the cache using __ais-highlight__queryClient.setQueryData__/ais-highlight__",
+                "matchLevel": "partial"
+              }
+            },
+            "_highlightResult": {
+              "content": {
+                "value": "There are many ways to supply initial data for a __ais-highlight__query__/ais-highlight__ to the cache before you need it:\r\nDeclaratively:Provide initialData to a __ais-highlight__query__/ais-highlight__ to prepopulate its cache if empty\r\nProvide initialData to a __ais-highlight__query__/ais-highlight__ to prepopulate its cache if empty\r\nImperatively:Prefetch the data using __ais-highlight__queryClient.queryManually__/ais-highlight__ place the data into the cache using __ais-highlight__queryClient.setQueryData__/ais-highlight__\r\nPrefetch the data using __ais-highlight__queryClient.query__/ais-highlight__\r\nManually place the data into the cache using __ais-highlight__queryClient.setQueryData__/ais-highlight__",
+                "matchLevel": "full",
+                "fullyHighlighted": false,
+                "matchedWords": [
+                  "query",
+                  "client"
+                ]
+              },
+              "hierarchy": {
+                "lvl1": {
+                  "value": "Initial __ais-highlight__Query__/ais-highlight__ Data",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/guides/important-defaults",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/guides/important-defaults",
+            "anchor": "",
+            "content": "Out of the box, TanStack Query is configured with aggressive but sane defaults. Sometimes these defaults can catch new users off guard or make learning/debugging difficult if they are unknown by the user. Keep them in mind as you continue to learn and use TanStack Query:\r\nQuery instances via useQuery or useInfiniteQuery by default consider cached data as stale.\r\nTo change this behavior, you can configure your queries both globally and per-query using the staleTime option. Specifying a longer staleTime means queries will not refetch their data as often\r\nA Query that has a staleTime set is considered fresh until that staleTime has elapsed.set staleTime to e.g. 2 * 60 * 1000 to make sure data is read from the cache, without triggering any kinds of refetches, for 2 minutes, or until the Query is invalidated manually.set staleTime to Infinity to never trigger a refetch until the Query is invalidated manually.set staleTime to 'static' to never trigger a refetch, even if the Query is invalidated manually.\r\nset staleTime to e.g. 2 * 60 * 1000 to make sure data is read from the cache, without triggering any kinds of refetches, for 2 minutes, or until the Query is invalidated manually.\r\nset staleTime to Infinity to never trigger a refetch until the Query is invalidated manually.\r\nset staleTime to 'static' to never trigger a refetch, even if the Query is invalidated manually.\r\n'static' and Infinity both prevent staleness-based refetches, but 'static' is stricter: queryClient.invalidateQueries() can invalidate a query with staleTime: Infinity, but has no effect on staleTime: 'static'. refetchOnMount, refetchOnWindowFocus, and refetchOnReconnect set to \"always\" are also blocked by 'static'. Use 'static' for data that cannot change while the app is running: feature flags fetched at boot, user permissions loaded at login, static reference tables. Use Infinity when you still want manual invalidation to work.\r\nStale queries are refetched automatically in the background when:New instances of the query mountThe window is refocusedThe network is reconnected\r\nNew instances of the query mount\r\nThe window is refocused\r\nThe network is reconnected\r\nSetting staleTime is the recommended way to avoid excessive refetches, but you can also customize the points in time for refetches by setting options like refetchOnMount, refetchOnWindowFocus and refetchOnReconnect.\r\nQueries can optionally be configured with a refetchInterval to trigger refetches periodically, which is independent of the staleTime setting. See Polling for details.\r\nQueries can optionally be configured with a refetchInterval to trigger refetches periodically, which is independent of the staleTime setting. See Polling for details.\r\nQuery results that have no more active instances of useQuery, useInfiniteQuery or query observers are labeled as \"inactive\" and remain in the cache in case they are used again at a later time.\r\nQuery results that have no more active instances of useQuery, useInfiniteQuery or query observers are labeled as \"inactive\" and remain in the cache in case they are used again at a later time.\r\nBy default, \"inactive\" queries are garbage collected after 5 minutes.To change this, you can alter the default gcTime for queries to something other than 1000 * 60 * 5 milliseconds.\r\nBy default, \"inactive\" queries are garbage collected after 5 minutes.\r\nTo change this, you can alter the default gcTime for queries to something other than 1000 * 60 * 5 milliseconds.\r\nQueries that fail are silently retried 3 times, with exponential backoff delay before capturing and displaying an error to the UI.To change this, you can alter the default retry and retryDelay options for queries to something other than 3 and the default exponential backoff function.\r\nQueries that fail are silently retried 3 times, with exponential backoff delay before capturing and displaying an error to the UI.\r\nTo change this, you can alter the default retry and retryDelay options for queries to something other than 3 and the default exponential backoff function.\r\nQuery results by default are structurally shared to detect if data has actually changed and if not, the data reference remains unchanged to better help with value stabilization with regards to useMemo and useCallback. If this concept sounds foreign, then don't worry about it! 99.9% of the time you will not need to disable this and it makes your app more performant at zero cost to you.\r\nQuery results by default are structurally shared to detect if data has actually changed and if not, the data reference remains unchanged to better help with value stabilization with regards to useMemo and useCallback. If this concept sounds foreign, then don't worry about it! 99.9% of the time you will not need to disable this and it makes your app more performant at zero cost to you.\r\nStructural sharing only works with JSON-compatible values, any other value types will always be considered as changed. If you are seeing performance issues because of large responses for example, you can disable this feature with the config.structuralSharing flag. If you are dealing with non-JSON compatible values in your query responses and still want to detect if data has changed or not, you can provide your own custom function as config.structuralSharing to compute a value from the old and new responses, retaining references as required.",
+            "hierarchy": {
+              "lvl1": "Important Defaults",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "1-https://tanstack.com/query/latest/docs/framework/react/guides/important-defaults",
+            "_snippetResult": {
+              "content": {
+                "value": "... never trigger a refetch until the __ais-highlight__Query__/ais-highlight__ is invalidated manually.\r\nset staleTime to 'static' to never trigger a refetch, even if the __ais-highlight__Query__/ais-highlight__ is invalidated manually.\r\n'static' and Infinity both prevent staleness-based refetches, but 'static' is stricter: __ais-highlight__queryClient.invalidateQueries__/ais-highlight__ ...",
+                "matchLevel": "partial"
+              }
+            },
+            "_highlightResult": {
+              "content": {
+                "value": "Out of the box, TanStack __ais-highlight__Query__/ais-highlight__ is configured with aggressive but sane defaults. Sometimes these defaults can catch new users off guard or make learning/debugging difficult if they are unknown by the user. Keep them in mind as you continue to learn and use TanStack __ais-highlight__Query__/ais-highlight__:\r\n__ais-highlight__Query__/ais-highlight__ instances via use__ais-highlight__Query__/ais-highlight__ or useInfinite__ais-highlight__Query__/ais-highlight__ by default consider cached data as stale.\r\nTo change this behavior, you can configure your queries both globally and per-__ais-highlight__query__/ais-highlight__ using the staleTime option. Specifying a longer staleTime means queries will not refetch their data as often\r\nA __ais-highlight__Query__/ais-highlight__ that has a staleTime set is considered fresh until that staleTime has elapsed.set staleTime to e.g. 2 * 60 * 1000 to make sure data is read from the cache, without triggering any kinds of refetches, for 2 minutes, or until the __ais-highlight__Query__/ais-highlight__ is invalidated manually.set staleTime to Infinity to never trigger a refetch until the __ais-highlight__Query__/ais-highlight__ is invalidated manually.set staleTime to 'static' to never trigger a refetch, even if the __ais-highlight__Query__/ais-highlight__ is invalidated manually.\r\nset staleTime to e.g. 2 * 60 * 1000 to make sure data is read from the cache, without triggering any kinds of refetches, for 2 minutes, or until the __ais-highlight__Query__/ais-highlight__ is invalidated manually.\r\nset staleTime to Infinity to never trigger a refetch until the __ais-highlight__Query__/ais-highlight__ is invalidated manually.\r\nset staleTime to 'static' to never trigger a refetch, even if the __ais-highlight__Query__/ais-highlight__ is invalidated manually.\r\n'static' and Infinity both prevent staleness-based refetches, but 'static' is stricter: __ais-highlight__queryClient.invalidateQueries__/ais-highlight__() can invalidate a __ais-highlight__query__/ais-highlight__ with staleTime: Infinity, but has no effect on staleTime: 'static'. refetchOnMount, refetchOnWindowFocus, and refetchOnReconnect set to \"always\" are also blocked by 'static'. Use 'static' for data that cannot change while the app is running: feature flags fetched at boot, user permissions loaded at login, static reference tables. Use Infinity when you still want manual invalidation to work.\r\nStale queries are refetched automatically in the background when:New instances of the __ais-highlight__query__/ais-highlight__ mountThe window is refocusedThe network is reconnected\r\nNew instances of the __ais-highlight__query__/ais-highlight__ mount\r\nThe window is refocused\r\nThe network is reconnected\r\nSetting staleTime is the recommended way to avoid excessive refetches, but you can also customize the points in time for refetches by setting options like refetchOnMount, refetchOnWindowFocus and refetchOnReconnect.\r\nQueries can optionally be configured with a refetchInterval to trigger refetches periodically, which is independent of the staleTime setting. See Polling for details.\r\nQueries can optionally be configured with a refetchInterval to trigger refetches periodically, which is independent of the staleTime setting. See Polling for details.\r\n__ais-highlight__Query__/ais-highlight__ results that have no more active instances of use__ais-highlight__Query__/ais-highlight__, useInfinite__ais-highlight__Query__/ais-highlight__ or __ais-highlight__query__/ais-highlight__ observers are labeled as \"inactive\" and remain in the cache in case they are used again at a later time.\r\n__ais-highlight__Query__/ais-highlight__ results that have no more active instances of use__ais-highlight__Query__/ais-highlight__, useInfinite__ais-highlight__Query__/ais-highlight__ or __ais-highlight__query__/ais-highlight__ observers are labeled as \"inactive\" and remain in the cache in case they are used again at a later time.\r\nBy default, \"inactive\" queries are garbage collected after 5 minutes.To change this, you can alter the default gcTime for queries to something other than 1000 * 60 * 5 milliseconds.\r\nBy default, \"inactive\" queries are garbage collected after 5 minutes.\r\nTo change this, you can alter the default gcTime for queries to something other than 1000 * 60 * 5 milliseconds.\r\nQueries that fail are silently retried 3 times, with exponential backoff delay before capturing and displaying an error to the UI.To change this, you can alter the default retry and retryDelay options for queries to something other than 3 and the default exponential backoff function.\r\nQueries that fail are silently retried 3 times, with exponential backoff delay before capturing and displaying an error to the UI.\r\nTo change this, you can alter the default retry and retryDelay options for queries to something other than 3 and the default exponential backoff function.\r\n__ais-highlight__Query__/ais-highlight__ results by default are structurally shared to detect if data has actually changed and if not, the data reference remains unchanged to better help with value stabilization with regards to useMemo and useCallback. If this concept sounds foreign, then don't worry about it! 99.9% of the time you will not need to disable this and it makes your app more performant at zero cost to you.\r\n__ais-highlight__Query__/ais-highlight__ results by default are structurally shared to detect if data has actually changed and if not, the data reference remains unchanged to better help with value stabilization with regards to useMemo and useCallback. If this concept sounds foreign, then don't worry about it! 99.9% of the time you will not need to disable this and it makes your app more performant at zero cost to you.\r\nStructural sharing only works with JSON-compatible values, any other value types will always be considered as changed. If you are seeing performance issues because of large responses for example, you can disable this feature with the config.structuralSharing flag. If you are dealing with non-JSON compatible values in your __ais-highlight__query__/ais-highlight__ responses and still want to detect if data has changed or not, you can provide your own custom function as config.structuralSharing to compute a value from the old and new responses, retaining references as required.",
+                "matchLevel": "full",
+                "fullyHighlighted": false,
+                "matchedWords": [
+                  "query",
+                  "client"
+                ]
+              },
+              "hierarchy": {
+                "lvl1": {
+                  "value": "Important Defaults",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/guides/disabling-queries",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/guides/disabling-queries",
+            "anchor": "",
+            "content": "If you ever want to disable a query from automatically running, you can use the enabled = false option. The enabled option also accepts a callback that returns a boolean.\r\nWhen enabled is false:\r\nIf the query has cached data, then the query will be initialized in the status === 'success' or isSuccess state.\r\nIf the query does not have cached data, then the query will start in the status === 'pending' and fetchStatus === 'idle' state.\r\nThe query will not automatically fetch on mount.\r\nThe query will not automatically refetch in the background.\r\nThe query will ignore query client invalidateQueries and refetchQueries calls that would normally result in the query refetching.\r\nrefetch returned from useQuery can be used to manually trigger the query to fetch. However, it will not work with skipToken.\r\nTypeScript users may prefer to use skipToken as an alternative to enabled = false.\r\nPermanently disabling a query opts out of many great features that TanStack Query has to offer (like background refetches), and it's also not the idiomatic way. It takes you from the declarative approach (defining dependencies when your query should run) into an imperative mode (fetch whenever I click here). It is also not possible to pass parameters to refetch. Oftentimes, all you want is a lazy query that defers the initial fetch:",
+            "hierarchy": {
+              "lvl1": "Disabling/Pausing Queries",
+              "lvl2": null,
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "1-https://tanstack.com/query/latest/docs/framework/react/guides/disabling-queries",
+            "_snippetResult": {
+              "content": {
+                "value": "... and fetchStatus === 'idle' state.\r\nThe __ais-highlight__query__/ais-highlight__ will not automatically fetch on mount.\r\nThe __ais-highlight__query__/ais-highlight__ will not automatically refetch in the background.\r\nThe __ais-highlight__query__/ais-highlight__ will ignore __ais-highlight__query__/ais-highlight__ __ais-highlight__client__/ais-highlight__ invalidate__ais-highlight__Queries__/ais-highlight__ and refetch__ais-highlight__Queries__/ais-highlight__ calls that would normally result in the __ais-highlight__query__/ais-highlight__ refetching.\r\nrefetch returned from use__ais-highlight__Query__/ais-highlight__ can ...",
+                "matchLevel": "full"
+              }
+            },
+            "_highlightResult": {
+              "content": {
+                "value": "If you ever want to disable a __ais-highlight__query__/ais-highlight__ from automatically running, you can use the enabled = false option. The enabled option also accepts a callback that returns a boolean.\r\nWhen enabled is false:\r\nIf the __ais-highlight__query__/ais-highlight__ has cached data, then the __ais-highlight__query__/ais-highlight__ will be initialized in the status === 'success' or isSuccess state.\r\nIf the __ais-highlight__query__/ais-highlight__ does not have cached data, then the __ais-highlight__query__/ais-highlight__ will start in the status === 'pending' and fetchStatus === 'idle' state.\r\nThe __ais-highlight__query__/ais-highlight__ will not automatically fetch on mount.\r\nThe __ais-highlight__query__/ais-highlight__ will not automatically refetch in the background.\r\nThe __ais-highlight__query__/ais-highlight__ will ignore __ais-highlight__query__/ais-highlight__ __ais-highlight__client__/ais-highlight__ invalidate__ais-highlight__Queries__/ais-highlight__ and refetch__ais-highlight__Queries__/ais-highlight__ calls that would normally result in the __ais-highlight__query__/ais-highlight__ refetching.\r\nrefetch returned from use__ais-highlight__Query__/ais-highlight__ can be used to manually trigger the __ais-highlight__query__/ais-highlight__ to fetch. However, it will not work with skipToken.\r\nTypeScript users may prefer to use skipToken as an alternative to enabled = false.\r\nPermanently disabling a __ais-highlight__query__/ais-highlight__ opts out of many great features that TanStack __ais-highlight__Query__/ais-highlight__ has to offer (like background refetches), and it's also not the idiomatic way. It takes you from the declarative approach (defining dependencies when your __ais-highlight__query__/ais-highlight__ should run) into an imperative mode (fetch whenever I click here). It is also not possible to pass parameters to refetch. Oftentimes, all you want is a lazy __ais-highlight__query__/ais-highlight__ that defers the initial fetch:",
+                "matchLevel": "full",
+                "fullyHighlighted": false,
+                "matchedWords": [
+                  "query",
+                  "client"
+                ]
+              },
+              "hierarchy": {
+                "lvl1": {
+                  "value": "Disabling/Pausing __ais-highlight__Queries__/ais-highlight__",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/guides/placeholder-query-data#what-is-placeholder-data",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/guides/placeholder-query-data",
+            "anchor": "what-is-placeholder-data",
+            "content": "Placeholder data allows a query to behave as if it already has data, similar to the initialData option, but the data is not persisted to the cache. This comes in handy for situations where you have enough partial (or fake) data to render the query successfully while the actual data is fetched in the background.\r\nExample: An individual blog post query could pull \"preview\" data from a parent list of blog posts that only include title and a small snippet of the post body. You would not want to persist this partial data to the query result of the individual query, but it is useful for showing the content layout as quickly as possible while the actual query finishes to fetch the entire object.\r\nThere are a few ways to supply placeholder data for a query to the cache before you need it:\r\nDeclaratively:Provide placeholderData to a query to prepopulate its cache if empty\r\nProvide placeholderData to a query to prepopulate its cache if empty\r\nImperatively:Prefetch or fetch the data using queryClient and the placeholderData option\r\nPrefetch or fetch the data using queryClient and the placeholderData option\r\nWhen we use placeholderData, our Query will not be in a pending state - it will start out as being in success state, because we have data to display - even if that data is just \"placeholder\" data. To distinguish it from \"real\" data, we will also have the isPlaceholderData flag set to true on the Query result.",
+            "hierarchy": {
+              "lvl1": "Placeholder Query Data",
+              "lvl2": "What is placeholder data?",
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "2-https://tanstack.com/query/latest/docs/framework/react/guides/placeholder-query-data",
+            "_snippetResult": {
+              "content": {
+                "value": "... to prepopulate its cache if empty\r\nProvide placeholderData to a __ais-highlight__query__/ais-highlight__ to prepopulate its cache if empty\r\nImperatively:Prefetch or fetch the data using __ais-highlight__queryClient__/ais-highlight__ and the placeholderData option\r\nPrefetch or fetch the data using __ais-highlight__queryClient__/ais-highlight__ and the placeholderData option\r\nWhen we use placeholderData ...",
+                "matchLevel": "partial"
+              }
+            },
+            "_highlightResult": {
+              "content": {
+                "value": "Placeholder data allows a __ais-highlight__query__/ais-highlight__ to behave as if it already has data, similar to the initialData option, but the data is not persisted to the cache. This comes in handy for situations where you have enough partial (or fake) data to render the __ais-highlight__query__/ais-highlight__ successfully while the actual data is fetched in the background.\r\nExample: An individual blog post __ais-highlight__query__/ais-highlight__ could pull \"preview\" data from a parent list of blog posts that only include title and a small snippet of the post body. You would not want to persist this partial data to the __ais-highlight__query__/ais-highlight__ result of the individual __ais-highlight__query__/ais-highlight__, but it is useful for showing the content layout as quickly as possible while the actual __ais-highlight__query__/ais-highlight__ finishes to fetch the entire object.\r\nThere are a few ways to supply placeholder data for a __ais-highlight__query__/ais-highlight__ to the cache before you need it:\r\nDeclaratively:Provide placeholderData to a __ais-highlight__query__/ais-highlight__ to prepopulate its cache if empty\r\nProvide placeholderData to a __ais-highlight__query__/ais-highlight__ to prepopulate its cache if empty\r\nImperatively:Prefetch or fetch the data using __ais-highlight__queryClient__/ais-highlight__ and the placeholderData option\r\nPrefetch or fetch the data using __ais-highlight__queryClient__/ais-highlight__ and the placeholderData option\r\nWhen we use placeholderData, our __ais-highlight__Query__/ais-highlight__ will not be in a pending state - it will start out as being in success state, because we have data to display - even if that data is just \"placeholder\" data. To distinguish it from \"real\" data, we will also have the isPlaceholderData flag set to true on the __ais-highlight__Query__/ais-highlight__ result.",
+                "matchLevel": "partial",
+                "fullyHighlighted": false,
+                "matchedWords": [
+                  "query"
+                ]
+              },
+              "hierarchy": {
+                "lvl1": {
+                  "value": "Placeholder __ais-highlight__Query__/ais-highlight__ Data",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query"
+                  ]
+                },
+                "lvl2": {
+                  "value": "What is placeholder data?",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/guides/testing#our-first-test",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/guides/testing",
+            "anchor": "our-first-test",
+            "content": "Once installed, a simple test can be written. Given the following custom hook:\r\nWe can write a test for this as follows:\r\nNote that we provide a custom wrapper that builds the QueryClient and QueryClientProvider. This helps to ensure that our test is completely isolated from any other tests.\r\nIt is possible to write this wrapper only once, but if so we need to ensure that the QueryClient gets cleared before every test, and that tests don't run in parallel otherwise one test will influence the results of others.",
+            "hierarchy": {
+              "lvl1": "Testing",
+              "lvl2": "Our First Test",
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "3-https://tanstack.com/query/latest/docs/framework/react/guides/testing",
+            "_snippetResult": {
+              "content": {
+                "value": "Once installed, a simple test can be written. Given the following custom hook:\r\nWe can write a test for this as follows:\r\nNote that we provide a custom wrapper that builds the __ais-highlight__QueryClient__/ais-highlight__ and __ais-highlight__Query__/ais-highlight____ais-highlight__Client__/ais-highlight__Provider. This helps to ensure that our test is completely isolated from any ...",
+                "matchLevel": "partial"
+              }
+            },
+            "_highlightResult": {
+              "content": {
+                "value": "Once installed, a simple test can be written. Given the following custom hook:\r\nWe can write a test for this as follows:\r\nNote that we provide a custom wrapper that builds the __ais-highlight__QueryClient__/ais-highlight__ and __ais-highlight__Query__/ais-highlight____ais-highlight__Client__/ais-highlight__Provider. This helps to ensure that our test is completely isolated from any other tests.\r\nIt is possible to write this wrapper only once, but if so we need to ensure that the __ais-highlight__QueryClient__/ais-highlight__ gets cleared before every test, and that tests don't run in parallel otherwise one test will influence the results of others.",
+                "matchLevel": "full",
+                "fullyHighlighted": false,
+                "matchedWords": [
+                  "query",
+                  "client"
+                ]
+              },
+              "hierarchy": {
+                "lvl1": {
+                  "value": "Testing",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                },
+                "lvl2": {
+                  "value": "Our First Test",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/guides/prefetching#using-query-to-prefetch",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/guides/prefetching",
+            "anchor": "using-query-to-prefetch",
+            "content": "Note\r\nThese tips replace the use of the now deprecated prefetchQuery and ensureQueryData methods. If you used an earlier version of this guide, note that those methods will be removed in the next major version of TanStack Query\r\nPrefetching a query uses the query method. This method by default will\r\nRun the query function\r\nCache the result\r\nReturn the result of that query\r\nThrow if it hits any errors\r\nFor prefetching you often want to modify these defaults:\r\nOut of the box, query uses the default staleTime configured for the queryClient to determine whether existing data in the cache is fresh or needs to be fetched again\r\nYou can also pass a specific staleTime like this: query({ queryKey: ['todos'], queryFn: fn, staleTime: 5000 })This staleTime is only used for that query fetch, you still need to set it for any useQuery call as wellIf you want to always return data if it's available in the cache regardless of the default staleTime, you can pass \"static\" in for staleTime.Tip: If you are prefetching on the server, set a default staleTime higher than 0 for that queryClient to avoid having to pass in a specific staleTime to each prefetch call\r\nThis staleTime is only used for that query fetch, you still need to set it for any useQuery call as well\r\nIf you want to always return data if it's available in the cache regardless of the default staleTime, you can pass \"static\" in for staleTime.\r\nTip: If you are prefetching on the server, set a default staleTime higher than 0 for that queryClient to avoid having to pass in a specific staleTime to each prefetch call\r\nIf no instances of useQuery appear for a prefetched query, it will be deleted and garbage collected after the time specified in gcTime\r\nIf your prefetch is for non-critical data, you can discard the promise with void and use .catch(noop) to swallow errors. The query will usually try to fetch again in a useQuery, which is a nice graceful fallback.\r\nThis is how you use query to prefetch:\r\nInfinite Queries can be prefetched like regular Queries. By default, only the first page of the Query will be prefetched and will be stored under the given QueryKey. If you want to prefetch more than one page, you can use the pages option, in which case you also have to provide a getNextPageParam function:\r\nNext, let's look at how you can use these and other ways to prefetch in different situations.",
+            "hierarchy": {
+              "lvl1": "Prefetching &amp; Router Integration",
+              "lvl2": "Using query to prefetch",
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "3-https://tanstack.com/query/latest/docs/framework/react/guides/prefetching",
+            "_snippetResult": {
+              "content": {
+                "value": "... __ais-highlight__Query__/ais-highlight__\r\nPrefetching a __ais-highlight__query__/ais-highlight__ uses the __ais-highlight__query__/ais-highlight__ method. This method by default will\r\nRun the __ais-highlight__query__/ais-highlight__ function\r\nCache the result\r\nReturn the result of that __ais-highlight__query__/ais-highlight__\r\nThrow if it hits any errors\r\nFor prefetching you often want to modify these defaults:\r\nOut of the box, __ais-highlight__query__/ais-highlight__ uses the default stale ...",
+                "matchLevel": "partial"
+              }
+            },
+            "_highlightResult": {
+              "content": {
+                "value": "Note\r\nThese tips replace the use of the now deprecated prefetch__ais-highlight__Query__/ais-highlight__ and ensure__ais-highlight__Query__/ais-highlight__Data methods. If you used an earlier version of this guide, note that those methods will be removed in the next major version of TanStack __ais-highlight__Query__/ais-highlight__\r\nPrefetching a __ais-highlight__query__/ais-highlight__ uses the __ais-highlight__query__/ais-highlight__ method. This method by default will\r\nRun the __ais-highlight__query__/ais-highlight__ function\r\nCache the result\r\nReturn the result of that __ais-highlight__query__/ais-highlight__\r\nThrow if it hits any errors\r\nFor prefetching you often want to modify these defaults:\r\nOut of the box, __ais-highlight__query__/ais-highlight__ uses the default staleTime configured for the __ais-highlight__queryClient__/ais-highlight__ to determine whether existing data in the cache is fresh or needs to be fetched again\r\nYou can also pass a specific staleTime like this: __ais-highlight__query__/ais-highlight__({ __ais-highlight__query__/ais-highlight__Key: ['todos'], __ais-highlight__query__/ais-highlight__Fn: fn, staleTime: 5000 })This staleTime is only used for that __ais-highlight__query__/ais-highlight__ fetch, you still need to set it for any use__ais-highlight__Query__/ais-highlight__ call as wellIf you want to always return data if it's available in the cache regardless of the default staleTime, you can pass \"static\" in for staleTime.Tip: If you are prefetching on the server, set a default staleTime higher than 0 for that __ais-highlight__queryClient__/ais-highlight__ to avoid having to pass in a specific staleTime to each prefetch call\r\nThis staleTime is only used for that __ais-highlight__query__/ais-highlight__ fetch, you still need to set it for any use__ais-highlight__Query__/ais-highlight__ call as well\r\nIf you want to always return data if it's available in the cache regardless of the default staleTime, you can pass \"static\" in for staleTime.\r\nTip: If you are prefetching on the server, set a default staleTime higher than 0 for that __ais-highlight__queryClient__/ais-highlight__ to avoid having to pass in a specific staleTime to each prefetch call\r\nIf no instances of use__ais-highlight__Query__/ais-highlight__ appear for a prefetched __ais-highlight__query__/ais-highlight__, it will be deleted and garbage collected after the time specified in gcTime\r\nIf your prefetch is for non-critical data, you can discard the promise with void and use .catch(noop) to swallow errors. The __ais-highlight__query__/ais-highlight__ will usually try to fetch again in a use__ais-highlight__Query__/ais-highlight__, which is a nice graceful fallback.\r\nThis is how you use __ais-highlight__query__/ais-highlight__ to prefetch:\r\nInfinite Queries can be prefetched like regular Queries. By default, only the first page of the __ais-highlight__Query__/ais-highlight__ will be prefetched and will be stored under the given __ais-highlight__Query__/ais-highlight__Key. If you want to prefetch more than one page, you can use the pages option, in which case you also have to provide a getNextPageParam function:\r\nNext, let's look at how you can use these and other ways to prefetch in different situations.",
+                "matchLevel": "partial",
+                "fullyHighlighted": false,
+                "matchedWords": [
+                  "query"
+                ]
+              },
+              "hierarchy": {
+                "lvl1": {
+                  "value": "Prefetching &amp; Router Integration",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                },
+                "lvl2": {
+                  "value": "Using __ais-highlight__query__/ais-highlight__ to prefetch",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/guides/query-functions#queryfunctioncontext",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/guides/query-functions",
+            "anchor": "queryfunctioncontext",
+            "content": "The QueryFunctionContext is the object passed to each query function. It consists of:\r\nqueryKey: QueryKey: Query Keys\r\nclient: QueryClient: QueryClient\r\nsignal?: AbortSignalAbortSignal instance provided by TanStack QueryCan be used for Query Cancellation\r\nAbortSignal instance provided by TanStack Query\r\nCan be used for Query Cancellation\r\nmeta: Record&lt;string, unknown&gt; | undefinedan optional field you can fill with additional information about your query\r\nan optional field you can fill with additional information about your query\r\nAdditionally, Infinite Queries get the following options passed:\r\npageParam: TPageParamthe page parameter used to fetch the current page\r\nthe page parameter used to fetch the current page\r\ndirection: 'forward' | 'backward'deprecatedthe direction of the current page fetchTo get access to the direction of the current page fetch, please add a direction to pageParam from getNextPageParam and getPreviousPageParam.\r\ndeprecated\r\nthe direction of the current page fetch\r\nTo get access to the direction of the current page fetch, please add a direction to pageParam from getNextPageParam and getPreviousPageParam.",
+            "hierarchy": {
+              "lvl1": "Query Functions",
+              "lvl2": "Query Function Variables",
+              "lvl3": "QueryFunctionContext",
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "9-https://tanstack.com/query/latest/docs/framework/react/guides/query-functions",
+            "_snippetResult": {
+              "content": {
+                "value": "The __ais-highlight__Query__/ais-highlight__FunctionContext is the object passed to each __ais-highlight__query__/ais-highlight__ function. It consists of:\r\n__ais-highlight__query__/ais-highlight__Key: __ais-highlight__Query__/ais-highlight__Key: __ais-highlight__Query__/ais-highlight__ Keys\r\n__ais-highlight__client__/ais-highlight__: __ais-highlight__QueryClient__/ais-highlight__: __ais-highlight__QueryClient__/ais-highlight__\r\nsignal?: AbortSignalAbortSignal instance provided by TanStack __ais-highlight__Query__/ais-highlight__Can be used for __ais-highlight__Query__/ais-highlight__ Cancellation\r\nAbortSignal instance provided by TanStack ...",
+                "matchLevel": "partial"
+              }
+            },
+            "_highlightResult": {
+              "content": {
+                "value": "The __ais-highlight__Query__/ais-highlight__FunctionContext is the object passed to each __ais-highlight__query__/ais-highlight__ function. It consists of:\r\n__ais-highlight__query__/ais-highlight__Key: __ais-highlight__Query__/ais-highlight__Key: __ais-highlight__Query__/ais-highlight__ Keys\r\n__ais-highlight__client__/ais-highlight__: __ais-highlight__QueryClient__/ais-highlight__: __ais-highlight__QueryClient__/ais-highlight__\r\nsignal?: AbortSignalAbortSignal instance provided by TanStack __ais-highlight__Query__/ais-highlight__Can be used for __ais-highlight__Query__/ais-highlight__ Cancellation\r\nAbortSignal instance provided by TanStack __ais-highlight__Query__/ais-highlight__\r\nCan be used for __ais-highlight__Query__/ais-highlight__ Cancellation\r\nmeta: Record&lt;string, unknown&gt; | undefinedan optional field you can fill with additional information about your __ais-highlight__query__/ais-highlight__\r\nan optional field you can fill with additional information about your __ais-highlight__query__/ais-highlight__\r\nAdditionally, Infinite Queries get the following options passed:\r\npageParam: TPageParamthe page parameter used to fetch the current page\r\nthe page parameter used to fetch the current page\r\ndirection: 'forward' | 'backward'deprecatedthe direction of the current page fetchTo get access to the direction of the current page fetch, please add a direction to pageParam from getNextPageParam and getPreviousPageParam.\r\ndeprecated\r\nthe direction of the current page fetch\r\nTo get access to the direction of the current page fetch, please add a direction to pageParam from getNextPageParam and getPreviousPageParam.",
+                "matchLevel": "full",
+                "fullyHighlighted": false,
+                "matchedWords": [
+                  "query",
+                  "client"
+                ]
+              },
+              "hierarchy": {
+                "lvl1": {
+                  "value": "__ais-highlight__Query__/ais-highlight__ Functions",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query"
+                  ]
+                },
+                "lvl2": {
+                  "value": "__ais-highlight__Query__/ais-highlight__ Function Variables",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query"
+                  ]
+                },
+                "lvl3": {
+                  "value": "__ais-highlight__Query__/ais-highlight__FunctionContext",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/guides/query-cancellation#manual-cancellation",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/guides/query-cancellation",
+            "anchor": "manual-cancellation",
+            "content": "You might want to cancel a query manually. For example, if the request takes a long time to finish, you can allow the user to click a cancel button to stop the request. To do this, you just need to call queryClient.cancelQueries({ queryKey }), which will cancel the query and revert it back to its previous state. If you have consumed the signal passed to the query function, TanStack Query will additionally also cancel the Promise.",
+            "hierarchy": {
+              "lvl1": "Query Cancellation",
+              "lvl2": "Manual Cancellation",
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "13-https://tanstack.com/query/latest/docs/framework/react/guides/query-cancellation",
+            "_snippetResult": {
+              "content": {
+                "value": "... a cancel button to stop the request. To do this, you just need to call __ais-highlight__queryClient.cancelQueries__/ais-highlight__({ __ais-highlight__query__/ais-highlight__Key }), which will cancel the __ais-highlight__query__/ais-highlight__ and revert it back to its previous state. If you have consumed the signal passed to the __ais-highlight__query__/ais-highlight__ function, TanStack __ais-highlight__Query__/ais-highlight__ will additionally ...",
+                "matchLevel": "partial"
+              }
+            },
+            "_highlightResult": {
+              "content": {
+                "value": "You might want to cancel a __ais-highlight__query__/ais-highlight__ manually. For example, if the request takes a long time to finish, you can allow the user to click a cancel button to stop the request. To do this, you just need to call __ais-highlight__queryClient.cancelQueries__/ais-highlight__({ __ais-highlight__query__/ais-highlight__Key }), which will cancel the __ais-highlight__query__/ais-highlight__ and revert it back to its previous state. If you have consumed the signal passed to the __ais-highlight__query__/ais-highlight__ function, TanStack __ais-highlight__Query__/ais-highlight__ will additionally also cancel the Promise.",
+                "matchLevel": "full",
+                "fullyHighlighted": false,
+                "matchedWords": [
+                  "query",
+                  "client"
+                ]
+              },
+              "hierarchy": {
+                "lvl1": {
+                  "value": "__ais-highlight__Query__/ais-highlight__ Cancellation",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query"
+                  ]
+                },
+                "lvl2": {
+                  "value": "Manual Cancellation",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/reference#classes",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/reference",
+            "anchor": "classes",
+            "content": "CancelledError\r\nInfiniteQueryObserver\r\nMutation\r\nMutationCache\r\nMutationObserver\r\nQueriesObserver\r\nQuery\r\nQueryCache\r\nQueryClient\r\nQueryObserver",
+            "hierarchy": {
+              "lvl1": "@tanstack/react-query",
+              "lvl2": "Classes",
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "2-https://tanstack.com/query/latest/docs/framework/react/reference",
+            "_snippetResult": {
+              "content": {
+                "value": "CancelledError\r\nInfinite__ais-highlight__Query__/ais-highlight__Observer\r\nMutation\r\nMutationCache\r\nMutationObserver\r\nQueriesObserver\r\n__ais-highlight__Query__/ais-highlight__\r\n__ais-highlight__Query__/ais-highlight__Cache\r\n__ais-highlight__QueryClient__/ais-highlight__\r\n__ais-highlight__Query__/ais-highlight__Observer",
+                "matchLevel": "partial"
+              }
+            },
+            "_highlightResult": {
+              "content": {
+                "value": "CancelledError\r\nInfinite__ais-highlight__Query__/ais-highlight__Observer\r\nMutation\r\nMutationCache\r\nMutationObserver\r\nQueriesObserver\r\n__ais-highlight__Query__/ais-highlight__\r\n__ais-highlight__Query__/ais-highlight__Cache\r\n__ais-highlight__QueryClient__/ais-highlight__\r\n__ais-highlight__Query__/ais-highlight__Observer",
+                "matchLevel": "partial",
+                "fullyHighlighted": false,
+                "matchedWords": [
+                  "query"
+                ]
+              },
+              "hierarchy": {
+                "lvl1": {
+                  "value": "@tanstack/react-__ais-highlight__query__/ais-highlight__",
+                  "matchLevel": "partial",
+                  "fullyHighlighted": false,
+                  "matchedWords": [
+                    "query"
+                  ]
+                },
+                "lvl2": {
+                  "value": "Classes",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          },
+          {
+            "version": "latest",
+            "url": "https://tanstack.com/query/latest/docs/framework/react/plugins/createAsyncStoragePersister#usage",
+            "url_without_anchor": "https://tanstack.com/query/latest/docs/framework/react/plugins/createAsyncStoragePersister",
+            "anchor": "usage",
+            "content": "Import the createAsyncStoragePersister function\r\nCreate a new asyncStoragePersisteryou can pass any storage to it that adheres to the AsyncStorage interface - the example below uses the async-storage from React Native.storages that read and write synchronously, like window.localstorage, also adhere to the AsyncStorage interface and can therefore also be used with createAsyncStoragePersister.\r\nyou can pass any storage to it that adheres to the AsyncStorage interface - the example below uses the async-storage from React Native.\r\nstorages that read and write synchronously, like window.localstorage, also adhere to the AsyncStorage interface and can therefore also be used with createAsyncStoragePersister.\r\nWrap your app by using PersistQueryClientProvider component.",
+            "hierarchy": {
+              "lvl1": "createAsyncStoragePersister",
+              "lvl2": "Usage",
+              "lvl3": null,
+              "lvl4": null,
+              "lvl5": null,
+              "lvl6": null
+            },
+            "library": "query",
+            "framework": "react",
+            "objectID": "4-https://tanstack.com/query/latest/docs/framework/react/plugins/createAsyncStoragePersister",
+            "_snippetResult": {
+              "content": {
+                "value": "... interface - the example below uses the async-storage from React Native.\r\nstorages that read and write synchronously, like window.localstorage, also adhere to the AsyncStorage interface and can therefore also be used with createAsyncStoragePersister.\r\nWrap your app by using Persist__ais-highlight__QueryClientProvider__/ais-highlight__ component.",
+                "matchLevel": "partial"
+              }
+            },
+            "_highlightResult": {
+              "content": {
+                "value": "Import the createAsyncStoragePersister function\r\nCreate a new asyncStoragePersisteryou can pass any storage to it that adheres to the AsyncStorage interface - the example below uses the async-storage from React Native.storages that read and write synchronously, like window.localstorage, also adhere to the AsyncStorage interface and can therefore also be used with createAsyncStoragePersister.\r\nyou can pass any storage to it that adheres to the AsyncStorage interface - the example below uses the async-storage from React Native.\r\nstorages that read and write synchronously, like window.localstorage, also adhere to the AsyncStorage interface and can therefore also be used with createAsyncStoragePersister.\r\nWrap your app by using Persist__ais-highlight__QueryClientProvider__/ais-highlight__ component.",
+                "matchLevel": "full",
+                "fullyHighlighted": false,
+                "matchedWords": [
+                  "query",
+                  "client"
+                ]
+              },
+              "hierarchy": {
+                "lvl1": {
+                  "value": "createAsyncStoragePersister",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                },
+                "lvl2": {
+                  "value": "Usage",
+                  "matchLevel": "none",
+                  "matchedWords": []
+                }
+              }
+            }
+          }
+        ],
+        "nbHits": 101,
+        "page": 1,
+        "nbPages": 6,
+        "hitsPerPage": 20,
+        "exhaustiveNbHits": true,
+        "exhaustiveTypo": true,
+        "exhaustive": {
+          "nbHits": true,
+          "typo": true
+        },
+        "query": "query client",
+        "params": "attributesToHighlight=%5B%22hierarchy.lvl1%22%2C%22hierarchy.lvl2%22%2C%22hierarchy.lvl3%22%2C%22hierarchy.lvl4%22%2C%22hierarchy.lvl5%22%2C%22hierarchy.lvl6%22%2C%22content%22%5D&attributesToRetrieve=%5B%22hierarchy.lvl1%22%2C%22hierarchy.lvl2%22%2C%22hierarchy.lvl3%22%2C%22hierarchy.lvl4%22%2C%22hierarchy.lvl5%22%2C%22hierarchy.lvl6%22%2C%22url%22%2C%22url_without_anchor%22%2C%22anchor%22%2C%22urlWithAnchor%22%2C%22content%22%2C%22library%22%2C%22framework%22%2C%22version%22%2C%22routeStyle%22%5D&attributesToSnippet=%5B%22content%3A50%22%5D&distinct=1&filters=%28version%3Alatest+OR+version%3Aall%29+AND+library%3Aquery+AND+%28framework%3Areact+OR+framework%3Aall%29&highlightPostTag=__%2Fais-highlight__&highlightPreTag=__ais-highlight__&page=1&query=query+client",
+        "index": "tanstack-test",
+        "renderingContent": {},
+        "processingTimeMS": 5,
+        "processingTimingsMS": {
+          "_request": {
+            "queue": 1,
+            "roundTrip": 199
+          },
+          "afterFetch": {
+            "format": {
+              "highlighting": 2,
+              "snippeting": 4,
+              "total": 8
+            }
+          },
+          "fetch": {
+            "query": 2,
+            "scanning": 2,
+            "total": 5
+          },
+          "total": 5
+        },
+        "serverTimeMS": 15
+      }
+    ]
+  },
+  "fetched_at": "2026-10-10T01:40:30.613Z",
+  "origin": "https://fq0dq6ma3c-dsn.algolia.net",
+  "scope": "Public read-only Algolia query snapshot; no writes or private key used"
+}
