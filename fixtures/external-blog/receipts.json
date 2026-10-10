@@ -1,0 +1,20 @@
+{
+  "captured_at": "2026-10-09T07:17:43.411359+00:00",
+  "pages": [
+    {
+      "url": "https://eurosky.social/xrpc/com.atproto.repo.listRecords?repo=did%3Aplc%3A3nqrhu5mthmias3zc4a2ovzj&collection=site.standard.document&limit=100",
+      "file": "page-0.json",
+      "status": 200,
+      "sha256": "c91cbcbd9cf159a2c6ad8502ad7d793cf91a23c8dc6734c3b3c6958e5efc09ba",
+      "records": 91
+    },
+    {
+      "url": "https://eurosky.social/xrpc/com.atproto.repo.listRecords?repo=did%3Aplc%3A3nqrhu5mthmias3zc4a2ovzj&collection=site.standard.document&limit=100&cursor=3mmyjvrbis52z",
+      "file": "page-1.json",
+      "status": 200,
+      "sha256": "1b8b4c0b6f6ad1d32565952720bc004eeb1f188f62045e4d5525ae2af8c78432",
+      "records": 0
+    }
+  ],
+  "terminal": true
+}

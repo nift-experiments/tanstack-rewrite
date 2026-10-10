@@ -1,0 +1,101 @@
+{
+  "scope": "Eight desktop/mobile visible-text/query states plus native heading/pagination checks; full visual/accessibility/application acceptance remains pending",
+  "records": [
+    {
+      "width": 1440,
+      "query": "",
+      "referenceStatus": 200,
+      "candidateStatus": 200,
+      "visibleTextEqual": true,
+      "referenceTitle": "Blog",
+      "candidateTitle": "Blog",
+      "nativeHeadingPreserved": true,
+      "loadMore": true,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "query": "?q=charts",
+      "referenceStatus": 200,
+      "candidateStatus": 200,
+      "visibleTextEqual": true,
+      "referenceTitle": "Blog",
+      "candidateTitle": "Blog",
+      "nativeHeadingPreserved": null,
+      "loadMore": null,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "query": "?library=query",
+      "referenceStatus": 200,
+      "candidateStatus": 200,
+      "visibleTextEqual": true,
+      "referenceTitle": "Blog",
+      "candidateTitle": "Blog",
+      "nativeHeadingPreserved": null,
+      "loadMore": null,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "query": "?year=2025",
+      "referenceStatus": 200,
+      "candidateStatus": 200,
+      "visibleTextEqual": true,
+      "referenceTitle": "Blog",
+      "candidateTitle": "Blog",
+      "nativeHeadingPreserved": null,
+      "loadMore": null,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "query": "",
+      "referenceStatus": 200,
+      "candidateStatus": 200,
+      "visibleTextEqual": true,
+      "referenceTitle": "Blog",
+      "candidateTitle": "Blog",
+      "nativeHeadingPreserved": true,
+      "loadMore": true,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "query": "?q=charts",
+      "referenceStatus": 200,
+      "candidateStatus": 200,
+      "visibleTextEqual": true,
+      "referenceTitle": "Blog",
+      "candidateTitle": "Blog",
+      "nativeHeadingPreserved": null,
+      "loadMore": null,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "query": "?library=query",
+      "referenceStatus": 200,
+      "candidateStatus": 200,
+      "visibleTextEqual": true,
+      "referenceTitle": "Blog",
+      "candidateTitle": "Blog",
+      "nativeHeadingPreserved": null,
+      "loadMore": null,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "query": "?year=2025",
+      "referenceStatus": 200,
+      "candidateStatus": 200,
+      "visibleTextEqual": true,
+      "referenceTitle": "Blog",
+      "candidateTitle": "Blog",
+      "nativeHeadingPreserved": null,
+      "loadMore": null,
+      "errors": []
+    }
+  ]
+}

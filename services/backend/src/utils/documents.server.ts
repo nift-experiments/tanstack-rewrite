@@ -1,4 +1,4 @@
-import {readPublicationDocumentSource,ownsPublicationRepository,readPublicationDocumentTree} from '~/server/publication/document-source.server'
+import {readPublicationDocumentSource,ownsPublicationRepository,readPublicationDocumentTree,readPublicationRevision} from '~/server/publication/document-source.server'
 import fs from 'node:fs'
 import fsp from 'node:fs/promises'
 import os from 'node:os'
@@ -686,6 +686,8 @@ export async function fetchRepoFile(
 export async function resolveGitHubRef(repoPair: string, gitRef: string) {
   assertValidGitHubRepoPair(repoPair)
   assertValidGitHubRef(gitRef)
+  const publicationRevision=readPublicationRevision(repoPair,gitRef)
+  if(publicationRevision!==undefined)return publicationRevision
 
   const encodedRef = gitRef
     .split('/')

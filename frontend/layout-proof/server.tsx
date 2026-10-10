@@ -8,6 +8,9 @@ import {getRouter} from './router'
 export async function renderShell(initialPath:string,initialHtml:string,initialUser:unknown=null,requestData:any={}){
  const router=getRouter({initialPath,initialHtml,initialUser,...requestData,server:true})
  await router.load()
+ // Same redirect outcome used by the pinned Router request handler.
+ const result=(router as any)._serverResult
+ if(result?.type==='redirect')throw result.redirect
  // Resolve retained lazy views first. Streaming Router output can contain
  // script-revealed segments even after allReady; publication must be visible
  // without those scripts. The second pass serializes the same loaded request

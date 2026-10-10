@@ -1,0 +1,5 @@
+{
+  "source": "src/routes/blog.index.tsx",
+  "sourceSha256": "8464a73455fcd45d21e793cb238d60916ac111a65e44f534030e55fbee78cb69",
+  "adaptation": "Original authored filters/pagination and pure header. Route-independent public hooks; two explicit state regions. Original internal/external aggregation and server-function contract retained; fixed canonical redirects propagated at HTTP boundary."
+}

@@ -3,6 +3,7 @@
     {
       "family": "live-example",
       "affectedRoutes": 71,
+      "occurrences": 87,
       "paths": [
         "/charts/latest/docs/concepts/data-and-channels",
         "/charts/latest/docs/concepts/grammar-of-graphics",
@@ -76,12 +77,12 @@
         "/highlight/v1/docs/guides/themes",
         "/highlight/v1/docs/quick-start"
       ],
-      "status": "Retained component regions integrated; runtime/visual parity pending",
-      "occurrences": 87
+      "status": "Retained component regions integrated; runtime/visual parity pending"
     },
     {
       "family": "chart-example",
       "affectedRoutes": 28,
+      "occurrences": 110,
       "paths": [
         "/charts/latest/docs/examples/annotations-and-overlays",
         "/charts/latest/docs/examples/bars-and-rankings",
@@ -112,12 +113,12 @@
         "/charts/v1/docs/guides/large-data",
         "/charts/v1/docs/reference/scales-guides-and-color"
       ],
-      "status": "Retained component regions integrated; runtime/visual parity pending",
-      "occurrences": 110
+      "status": "Retained component regions integrated; runtime/visual parity pending"
     },
     {
       "family": "client-example",
       "affectedRoutes": 14,
+      "occurrences": 14,
       "paths": [
         "/ai/latest/docs/tutorials/basic-chat",
         "/ai/latest/docs/tutorials/evaluate",
@@ -134,8 +135,7 @@
         "/ai/v0/docs/tutorials/subagents-persisted",
         "/ai/v0/docs/tutorials/subagents"
       ],
-      "status": "Retained component regions integrated; runtime/visual parity pending",
-      "occurrences": 14
+      "status": "Retained component regions integrated; runtime/visual parity pending"
     }
   ],
   "scope": "Corpus generation checkpoint, not parity acceptance",

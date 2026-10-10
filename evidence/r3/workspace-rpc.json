@@ -1,0 +1,14 @@
+{
+  "function": "fetchClientExampleFiles",
+  "input": {
+    "example": "basic-chat",
+    "framework": "react",
+    "libraryId": "ai",
+    "version": "latest"
+  },
+  "status": 200,
+  "success": true,
+  "textFiles": 15,
+  "binaryFiles": 0,
+  "scope": "Actual compiled RPC with original encoding/tree/size/binary logic; browser/WebContainer acceptance remains pending"
+}

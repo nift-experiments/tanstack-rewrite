@@ -221,3 +221,6 @@ export const fetchRelatedPostsForLibraries = createServerFn({ method: 'GET' })
       )
       .slice(0, 4)
   })
+
+// Pure retained aggregate, also available to the Node request-shell boundary.
+export {getBlogCardPosts as readBlogIndexProjection}

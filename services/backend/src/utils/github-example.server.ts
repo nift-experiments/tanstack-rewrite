@@ -1,3 +1,4 @@
+import {ownsPublicationRepository,readPublicationDocumentTree,readPublicationSourceBytes} from '~/server/publication/document-source.server'
 /**
  * GitHub Example Fetching Utilities
  *
@@ -80,7 +81,9 @@ export async function fetchExampleFiles(
 ): Promise<FetchExampleFilesResult | FetchExampleFilesError> {
   console.log('[fetchExampleFiles] Fetching:', { repo, branch, examplePath })
 
-  const tree = await fetchGitHubRecursiveTree(repo, branch)
+  const tree = ownsPublicationRepository(repo,branch,examplePath)
+    ? readPublicationDocumentTree(repo,branch,examplePath)
+    : await fetchGitHubRecursiveTree(repo, branch)
 
   if (!tree) {
     return {
@@ -248,6 +251,8 @@ async function fetchRawGitHubResponse(
   branch: string,
   filePath: string,
 ) {
+  const owned=await readPublicationSourceBytes(repo,branch,filePath)
+  if(owned!==undefined)return owned===null?new Response(null,{status:404}):new Response(owned as BodyInit)
   const href = new URL(
     `${repo}/${branch}/${filePath}`,
     'https://raw.githubusercontent.com/',

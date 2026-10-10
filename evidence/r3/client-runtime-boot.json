@@ -1,0 +1,11 @@
+{
+  "pathname": "/ai/latest/docs/tutorials/basic-chat",
+  "crossOriginIsolated": true,
+  "frames": [
+    "http://127.0.0.1:4173/ai/latest/docs/tutorials/basic-chat",
+    "https://stackblitz.com/headless?coep=credentialless&version=1.6.1",
+    "https://9cealdc70nprdji3q4pd8cj5u7xsmu-dpxz.w-credentialless-staticblitz.com/iframe.2ed8f36d.html"
+  ],
+  "errors": [],
+  "scope": "Actual WebContainer boot diagnostic; no private inference key supplied, execution/interaction parity is not yet accepted"
+}

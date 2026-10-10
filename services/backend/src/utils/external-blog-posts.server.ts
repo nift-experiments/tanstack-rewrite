@@ -1,3 +1,4 @@
+import {fetchExternalBlogFeed} from '~/server/publication/blog-transport.server'
 import type { LibraryId } from '~/libraries'
 import { normalizeBlogAuthors, type BlogCardPost } from '~/utils/blog-format'
 import { fetchCached } from '~/utils/cache.server'
@@ -265,7 +266,7 @@ async function fetchStandardSitePage(
       url.searchParams.set('cursor', cursor)
     }
 
-    const response = await fetch(url, {
+    const response = await fetchExternalBlogFeed(url, {
       headers: {
         Accept: 'application/json',
         'Cache-Control': 'max-age=3600',

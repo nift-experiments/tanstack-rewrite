@@ -23,6 +23,14 @@
     "sources/semantics/",
     "scripts/prepare-marketing.mjs",
     "scripts/prepare-blog.mjs",
-    "scripts/prepare-doc-components.mjs"
+    "scripts/prepare-doc-components.mjs",
+    "scripts/prepare-blog-index.mjs",
+    "publisher/blog-index.ts",
+    "services/backend/src/utils/external-blog-posts.server.ts",
+    "scripts/external-blog-fixture.mjs",
+    "fixtures/external-blog/",
+    "services/backend/src/server/publication/blog-transport.server.ts",
+    "scripts/prepare-document-headers.mjs",
+    "publisher/document-headers.ts"
   ]
 }

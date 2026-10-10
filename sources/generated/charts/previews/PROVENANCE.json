@@ -1,0 +1,1135 @@
+{
+  "repo": "tanstack/charts",
+  "commit": "57774e14a1a86081eddb3a23523724a40da05640",
+  "scope": "Exact upstream previews; staged for owned maintained source provider, preserving original HTTP immutable headers/current redirect",
+  "files": [
+    {
+      "path": "benchmarks/conformance/previews/01-line-gaps.svg",
+      "file": "01-line-gaps.svg",
+      "bytes": 14990,
+      "sha256": "361a4da4acdad9db8af094efff5e4b6f7eb09e062333cc1b02f6c0ca26116716"
+    },
+    {
+      "path": "benchmarks/conformance/previews/02-multi-line-end-labels.svg",
+      "file": "02-multi-line-end-labels.svg",
+      "bytes": 4555,
+      "sha256": "04b1ef477bd9b892f2b2984bb9cca41e72f682239fdfcfb1bc0cb13c8af62830"
+    },
+    {
+      "path": "benchmarks/conformance/previews/03-temperature-range-band.svg",
+      "file": "03-temperature-range-band.svg",
+      "bytes": 40091,
+      "sha256": "4cf49d2cef353b96b40a9bd59a54134087973ce3d19549a0f9309ab197ffbe3d"
+    },
+    {
+      "path": "benchmarks/conformance/previews/04-stacked-time-area.svg",
+      "file": "04-stacked-time-area.svg",
+      "bytes": 49227,
+      "sha256": "583910cb57cbe96e1d49c60e0d0398cdbad81dc7f75a2c2b0e281bca4b14a72c"
+    },
+    {
+      "path": "benchmarks/conformance/previews/100-radial-bars.svg",
+      "file": "100-radial-bars.svg",
+      "bytes": 3087,
+      "sha256": "e04b93235df9fb21ffafa2b4cb01eaf5f74f312b654e723b94e9da91172d6590"
+    },
+    {
+      "path": "benchmarks/conformance/previews/101-sunburst.svg",
+      "file": "101-sunburst.svg",
+      "bytes": 5092,
+      "sha256": "005504a78661d48b7ed3cf4648e6a36bb32a91f597fc3e4aa2dbf887a4859cb4"
+    },
+    {
+      "path": "benchmarks/conformance/previews/102-world-choropleth.svg",
+      "file": "102-world-choropleth.svg",
+      "bytes": 63435,
+      "sha256": "a0a0bc3347c32e656d86c4811fad6cf693bcc2287f79bbfdf76f7af6aaf890bb"
+    },
+    {
+      "path": "benchmarks/conformance/previews/103-bubble-map.svg",
+      "file": "103-bubble-map.svg",
+      "bytes": 49120,
+      "sha256": "16ec6c79adfb2c9c963c58bd3bfc99cf1d7531dbaaf11e7c3c2126dec40336bd"
+    },
+    {
+      "path": "benchmarks/conformance/previews/104-orthographic-globe.svg",
+      "file": "104-orthographic-globe.svg",
+      "bytes": 21663,
+      "sha256": "e4caa3113596705cb7bac9e480fb8d6aaf14c6fc9c667291d1032c0686a08341"
+    },
+    {
+      "path": "benchmarks/conformance/previews/105-route-map.svg",
+      "file": "105-route-map.svg",
+      "bytes": 35804,
+      "sha256": "bbb85ed655645dbc90997c887bc9381120a22f0ddad9e8763f32008db12f105a"
+    },
+    {
+      "path": "benchmarks/conformance/previews/106-polar-line.svg",
+      "file": "106-polar-line.svg",
+      "bytes": 9626,
+      "sha256": "e2a8f8ff1ab563684fcae6a7f4ad1d521db3e8210a0e5055cb393febaace3a37"
+    },
+    {
+      "path": "benchmarks/conformance/previews/107-polar-scatter.svg",
+      "file": "107-polar-scatter.svg",
+      "bytes": 19675,
+      "sha256": "21d619a28500d93f0fae9571fe3c2defa72d16c86d15a8c89ad3b08fbd3059f1"
+    },
+    {
+      "path": "benchmarks/conformance/previews/108-country-choropleth.svg",
+      "file": "108-country-choropleth.svg",
+      "bytes": 64642,
+      "sha256": "228a41eb6c6010a2a255e0e8e44ab0a05a97d874a0d69c8b1420a1b5bcdb276d"
+    },
+    {
+      "path": "benchmarks/conformance/previews/109-us-state-choropleth.svg",
+      "file": "109-us-state-choropleth.svg",
+      "bytes": 1643020,
+      "sha256": "2b32385b66b21d1068ed906324a43081c6a5a1f57f06ecef522f5d9ccc857fd6"
+    },
+    {
+      "path": "benchmarks/conformance/previews/110-projection-gallery.svg",
+      "file": "110-projection-gallery.svg",
+      "bytes": 288520,
+      "sha256": "e27afd5a7536035eac914b14ce484caee3a4927f729368eb1546068e69ddb7ff"
+    },
+    {
+      "path": "benchmarks/conformance/previews/111-basic-sankey.svg",
+      "file": "111-basic-sankey.svg",
+      "bytes": 3248,
+      "sha256": "6a98e28e81e7f8ef0c124e88dba7b1bea3f1a421c3ae6d968e092ade71fc6124"
+    },
+    {
+      "path": "benchmarks/conformance/previews/111-sankey-flow.svg",
+      "file": "111-sankey-flow.svg",
+      "bytes": 11008,
+      "sha256": "ec10d765655eb581177db5b8baf3d1ab5fc51cf7ba4ecfa58876c34a2099e7e1"
+    },
+    {
+      "path": "benchmarks/conformance/previews/112-motion-entrance.svg",
+      "file": "112-motion-entrance.svg",
+      "bytes": 3277,
+      "sha256": "a7546fb25b86ba1fc74f15ade08ae85b303d48e4010daf93bd97461af620c57a"
+    },
+    {
+      "path": "benchmarks/conformance/previews/113-motion-updates.svg",
+      "file": "113-motion-updates.svg",
+      "bytes": 3275,
+      "sha256": "4fa312e18bcac8de4816430c61bf5744aa4443576ad86047d23e548b47138537"
+    },
+    {
+      "path": "benchmarks/conformance/previews/114-spring-line-motion.svg",
+      "file": "114-spring-line-motion.svg",
+      "bytes": 2129,
+      "sha256": "805956658ffcb2d17bd64f197bd5cf619ff9e329158b0a9c351450dcc7341039"
+    },
+    {
+      "path": "benchmarks/conformance/previews/115-definition-motion.svg",
+      "file": "115-definition-motion.svg",
+      "bytes": 6724,
+      "sha256": "cec9e3316e9cd66de74ad8cc9c6b0f572bfba3f5bfffd318740121c9c314ef05"
+    },
+    {
+      "path": "benchmarks/conformance/previews/116-geometry-morph.svg",
+      "file": "116-geometry-morph.svg",
+      "bytes": 6553,
+      "sha256": "02e24c0c753956d757946e5984d82fa024d4f20e78dec805ce81f23568e284a2"
+    },
+    {
+      "path": "benchmarks/conformance/previews/117-focus-cursor-motion.svg",
+      "file": "117-focus-cursor-motion.svg",
+      "bytes": 9484,
+      "sha256": "788ab2811fe8c3c0a5dc32f5ece4c59ab69a59228c5a268b548a753c6b1202ec"
+    },
+    {
+      "path": "benchmarks/conformance/previews/118-token-usage-calendar.svg",
+      "file": "118-token-usage-calendar.svg",
+      "bytes": 54458,
+      "sha256": "a823d473fda26de3817c41551755b78d81ff7e71c4c2b251e8b2bd8e22b29527"
+    },
+    {
+      "path": "benchmarks/conformance/previews/119-stacked-bar-band-cursor.svg",
+      "file": "119-stacked-bar-band-cursor.svg",
+      "bytes": 9725,
+      "sha256": "6026285d9999725965c969d4865ee16ff9433df25e90ed93f60e2cbcfe6b4519"
+    },
+    {
+      "path": "benchmarks/conformance/previews/120-themed-interactive-area.svg",
+      "file": "120-themed-interactive-area.svg",
+      "bytes": 15221,
+      "sha256": "3a753cb69b712f5d387d6652a770f7fe549c3617820ca1f41186b643d269681b"
+    },
+    {
+      "path": "benchmarks/conformance/previews/121-active-bar-dashboard.svg",
+      "file": "121-active-bar-dashboard.svg",
+      "bytes": 14555,
+      "sha256": "6831366927a2bc7f59d36500e2b117c3fcd7eb95cf9c748de5d8ad895f7780c2"
+    },
+    {
+      "path": "benchmarks/conformance/previews/122-premium-kpi-sparklines.svg",
+      "file": "122-premium-kpi-sparklines.svg",
+      "bytes": 8271,
+      "sha256": "ab9e4128e0dfd4bf6a792ea97b3a7b993cc9a632af6286d047908e2b191f33cf"
+    },
+    {
+      "path": "benchmarks/conformance/previews/123-active-donut-metric.svg",
+      "file": "123-active-donut-metric.svg",
+      "bytes": 4931,
+      "sha256": "0811734a48ee3a6f28d791bde819c16fc734f4c4361b696c188d0086ec1d4a2d"
+    },
+    {
+      "path": "benchmarks/conformance/previews/124-theme-palette-matrix.svg",
+      "file": "124-theme-palette-matrix.svg",
+      "bytes": 9982,
+      "sha256": "553b9d2ed2e5ed970003c6d6404d3d74e2c7306245d891ec777f6e926d1b316e"
+    },
+    {
+      "path": "benchmarks/conformance/previews/125-sales-funnel.svg",
+      "file": "125-sales-funnel.svg",
+      "bytes": 3909,
+      "sha256": "33f7db88bf672cc67ac2cc17b8ace5ca9c71d057d7d6b61dcfe9888db076de38"
+    },
+    {
+      "path": "benchmarks/conformance/previews/126-drillable-sunburst.svg",
+      "file": "126-drillable-sunburst.svg",
+      "bytes": 9265,
+      "sha256": "38972c982cdc75e95215f74c817c075e60a9e74c92c3e6d5b8618d7f746ab8bf"
+    },
+    {
+      "path": "benchmarks/conformance/previews/127-shadcn-dashboard.svg",
+      "file": "127-shadcn-dashboard.svg",
+      "bytes": 17992,
+      "sha256": "ab40ae8ec5fd2838d2631db05d2d1f67945413766ef6a4fdd7fd04e7a910e3ad"
+    },
+    {
+      "path": "benchmarks/conformance/previews/128-shadcn-bar-multiple.svg",
+      "file": "128-shadcn-bar-multiple.svg",
+      "bytes": 5368,
+      "sha256": "ece980acaebbbcf1e36bae4cd1aa295000393dfeffddf7a9bb204a063ab6d414"
+    },
+    {
+      "path": "benchmarks/conformance/previews/129-shadcn-pie-donut-text.svg",
+      "file": "129-shadcn-pie-donut-text.svg",
+      "bytes": 3490,
+      "sha256": "1d61080a0eef84fa06ed82c1102d1bde39c9f9b233bc7faec9f1cb0fa77befa6"
+    },
+    {
+      "path": "benchmarks/conformance/previews/13-interval-timeline.svg",
+      "file": "13-interval-timeline.svg",
+      "bytes": 3077,
+      "sha256": "6e91a97627ce9bc1b86a4d39650f3c9d46a9eccc0b68abd43420fcc7ca291feb"
+    },
+    {
+      "path": "benchmarks/conformance/previews/130-shadcn-radar-multiple.svg",
+      "file": "130-shadcn-radar-multiple.svg",
+      "bytes": 5547,
+      "sha256": "b0a25db33a560fb216c4fe2743f6ac1b0dc0ec98a3c405d0d784d844feb71207"
+    },
+    {
+      "path": "benchmarks/conformance/previews/131-shadcn-radial-text.svg",
+      "file": "131-shadcn-radial-text.svg",
+      "bytes": 2934,
+      "sha256": "5fa0d68696a47ef0690be889f87ee91efb30cd48b2237cff39bed0d6d2a2d2c3"
+    },
+    {
+      "path": "benchmarks/conformance/previews/132-shadcn-tooltip-advanced.svg",
+      "file": "132-shadcn-tooltip-advanced.svg",
+      "bytes": 5019,
+      "sha256": "97738ec4dd4be6c3e40c7b3bae1fa519e809c5f71f451384d2be9b84ef4be79a"
+    },
+    {
+      "path": "benchmarks/conformance/previews/133-shadcn-area-axes.svg",
+      "file": "133-shadcn-area-axes.svg",
+      "bytes": 4614,
+      "sha256": "2df8a88b2daf1e8457159be6b9f54ab9a0f7eabd1754756ec69f4658e1560df5"
+    },
+    {
+      "path": "benchmarks/conformance/previews/134-shadcn-area-default.svg",
+      "file": "134-shadcn-area-default.svg",
+      "bytes": 3383,
+      "sha256": "bcf17936e81cdb26371b461f69cad3fbaf51a43e3a1c0c99129fc32f771f56d0"
+    },
+    {
+      "path": "benchmarks/conformance/previews/135-shadcn-area-gradient.svg",
+      "file": "135-shadcn-area-gradient.svg",
+      "bytes": 4777,
+      "sha256": "eb23150834e8d8d4a23ff3467b0b3150de56d849381daba3167d19e2237ebf26"
+    },
+    {
+      "path": "benchmarks/conformance/previews/136-shadcn-area-icons.svg",
+      "file": "136-shadcn-area-icons.svg",
+      "bytes": 3944,
+      "sha256": "7a44595cc0b82716448326a34a323f239c41e644db59e03982f7e1443112dd92"
+    },
+    {
+      "path": "benchmarks/conformance/previews/137-shadcn-area-interactive.svg",
+      "file": "137-shadcn-area-interactive.svg",
+      "bytes": 19525,
+      "sha256": "f19a53acc1ad455283fb294a7e4c3c060959351f0b1bdaacfc353aa4018884e2"
+    },
+    {
+      "path": "benchmarks/conformance/previews/138-shadcn-area-legend.svg",
+      "file": "138-shadcn-area-legend.svg",
+      "bytes": 3945,
+      "sha256": "839c43611f74fab3e0a9145008c6e34cbaf4c83d350197f30f7d59d0a172ff01"
+    },
+    {
+      "path": "benchmarks/conformance/previews/139-shadcn-area-linear.svg",
+      "file": "139-shadcn-area-linear.svg",
+      "bytes": 3176,
+      "sha256": "703e732227e5a77169c866f0e9a79f4a277e96f99ae8d246d8388c53eec9af85"
+    },
+    {
+      "path": "benchmarks/conformance/previews/14-error-bars.svg",
+      "file": "14-error-bars.svg",
+      "bytes": 3746,
+      "sha256": "db601bd99de8a260a3085399ac075903178111f51daae476536b0194a86a5f8c"
+    },
+    {
+      "path": "benchmarks/conformance/previews/140-shadcn-area-stacked-expand.svg",
+      "file": "140-shadcn-area-stacked-expand.svg",
+      "bytes": 4595,
+      "sha256": "92c67f5aa3057fa857e55c55027cef962eadb5750788fa7be3f935a630c84e2f"
+    },
+    {
+      "path": "benchmarks/conformance/previews/141-shadcn-area-stacked.svg",
+      "file": "141-shadcn-area-stacked.svg",
+      "bytes": 3946,
+      "sha256": "852a52f3c194a04147576ea99df217aa9ea7f01fa32b500770495293d3299d56"
+    },
+    {
+      "path": "benchmarks/conformance/previews/142-shadcn-area-step.svg",
+      "file": "142-shadcn-area-step.svg",
+      "bytes": 3293,
+      "sha256": "0dcd92b5f3213f305f7c1acfa30c897e02d25383653ee882c8298a6fc4c9f6a3"
+    },
+    {
+      "path": "benchmarks/conformance/previews/143-shadcn-bar-active.svg",
+      "file": "143-shadcn-bar-active.svg",
+      "bytes": 3746,
+      "sha256": "7da6c2200bd075cdb1022e9d262c1b5a58f253e615f5bf25d568ad082eec1aa2"
+    },
+    {
+      "path": "benchmarks/conformance/previews/144-shadcn-bar-default.svg",
+      "file": "144-shadcn-bar-default.svg",
+      "bytes": 4020,
+      "sha256": "7b3c88dba890fae63600b16c9481bb0295f5b44f8801c9bb6b0f0fcec6cfc188"
+    },
+    {
+      "path": "benchmarks/conformance/previews/145-shadcn-bar-horizontal.svg",
+      "file": "145-shadcn-bar-horizontal.svg",
+      "bytes": 3740,
+      "sha256": "8a76b453a4647ad5e4b85c551a0b5ca27ee860bdb7fbe8e36323c64d0f486ea8"
+    },
+    {
+      "path": "benchmarks/conformance/previews/146-shadcn-bar-interactive.svg",
+      "file": "146-shadcn-bar-interactive.svg",
+      "bytes": 20670,
+      "sha256": "e59d7880c6a580984495c2926026a3bcc1afca4770a50dfc6681903bc6e321f4"
+    },
+    {
+      "path": "benchmarks/conformance/previews/147-shadcn-bar-label-custom.svg",
+      "file": "147-shadcn-bar-label-custom.svg",
+      "bytes": 5272,
+      "sha256": "d3d92faa536fb6a518e0536abdec2c546e60a67da505684ccd204d12bce4f089"
+    },
+    {
+      "path": "benchmarks/conformance/previews/148-shadcn-bar-label.svg",
+      "file": "148-shadcn-bar-label.svg",
+      "bytes": 5166,
+      "sha256": "2c61d2dc70ace00c7a1697ebf1e457a94b254c7bf5860285a3cca62c75917957"
+    },
+    {
+      "path": "benchmarks/conformance/previews/149-shadcn-bar-mixed.svg",
+      "file": "149-shadcn-bar-mixed.svg",
+      "bytes": 3343,
+      "sha256": "01b88eea0805ed92293efb038f930ba76da6a23e2839c2f9192de2a5a16eca2e"
+    },
+    {
+      "path": "benchmarks/conformance/previews/15-boxplot.svg",
+      "file": "15-boxplot.svg",
+      "bytes": 6157,
+      "sha256": "d7357fd95366d3e73bd7d78ec27a4df5359d598ae668a8a34372393b71fcc8d9"
+    },
+    {
+      "path": "benchmarks/conformance/previews/150-shadcn-bar-negative.svg",
+      "file": "150-shadcn-bar-negative.svg",
+      "bytes": 4245,
+      "sha256": "1d5424d59119d1c1ac939f38581389e0b494ec7aa34927998be1e3a9ceb16e11"
+    },
+    {
+      "path": "benchmarks/conformance/previews/151-shadcn-bar-stacked.svg",
+      "file": "151-shadcn-bar-stacked.svg",
+      "bytes": 6160,
+      "sha256": "e1d73bb55af93d309a0ce9635579afbc531091c069d894539e1a47d7d8cd3faf"
+    },
+    {
+      "path": "benchmarks/conformance/previews/152-shadcn-line-default.svg",
+      "file": "152-shadcn-line-default.svg",
+      "bytes": 3319,
+      "sha256": "1fc4c202fb6393191157d452347efb59d7e96cbab22b346f43f0387d3878703e"
+    },
+    {
+      "path": "benchmarks/conformance/previews/153-shadcn-line-dots-colors.svg",
+      "file": "153-shadcn-line-dots-colors.svg",
+      "bytes": 2960,
+      "sha256": "b30f2abef04a73e86fd5002084a6e8346c5a3cc6efd6a9c99302a1901c78768e"
+    },
+    {
+      "path": "benchmarks/conformance/previews/154-shadcn-line-dots-custom.svg",
+      "file": "154-shadcn-line-dots-custom.svg",
+      "bytes": 5869,
+      "sha256": "4ffc3d4c4abf8c4e13a717ef45ce21c9958cc05cecb9935e1be79dc4d09df5fd"
+    },
+    {
+      "path": "benchmarks/conformance/previews/155-shadcn-line-dots.svg",
+      "file": "155-shadcn-line-dots.svg",
+      "bytes": 4550,
+      "sha256": "4b453318da0cca23ee300a3b52f75417f7e1690510ad5cef0c559464321a9149"
+    },
+    {
+      "path": "benchmarks/conformance/previews/156-shadcn-line-interactive.svg",
+      "file": "156-shadcn-line-interactive.svg",
+      "bytes": 6757,
+      "sha256": "4fa8a838970cd890334bf1f75a1417ae0e1ae1776903e4a49286733c6aa5b107"
+    },
+    {
+      "path": "benchmarks/conformance/previews/157-shadcn-line-label-custom.svg",
+      "file": "157-shadcn-line-label-custom.svg",
+      "bytes": 3327,
+      "sha256": "482f0889f5d2f9d9e1990b20a037669e685a64b5563a1355dc9b2cb0a864cd44"
+    },
+    {
+      "path": "benchmarks/conformance/previews/158-shadcn-line-label.svg",
+      "file": "158-shadcn-line-label.svg",
+      "bytes": 4615,
+      "sha256": "49cb34092b35739f2440d447b300cb1bd4232a66ce25d3dec33a6882da88eca0"
+    },
+    {
+      "path": "benchmarks/conformance/previews/159-shadcn-line-linear.svg",
+      "file": "159-shadcn-line-linear.svg",
+      "bytes": 3205,
+      "sha256": "0f0b6cc3b0ad04848afc77e6fdafa5ff171d944544ca92cbc822b813fc5f5eb1"
+    },
+    {
+      "path": "benchmarks/conformance/previews/16-lollipop.svg",
+      "file": "16-lollipop.svg",
+      "bytes": 10217,
+      "sha256": "7284893c1ae919ce1d52f95eb387607d9c78250ae6e0821a9c4b1e595d16b8b6"
+    },
+    {
+      "path": "benchmarks/conformance/previews/160-shadcn-line-multiple.svg",
+      "file": "160-shadcn-line-multiple.svg",
+      "bytes": 3855,
+      "sha256": "2b8203e67c4ae380a933558a3b644d9b162b67932f0b3094470ccac670875cf6"
+    },
+    {
+      "path": "benchmarks/conformance/previews/161-shadcn-line-step.svg",
+      "file": "161-shadcn-line-step.svg",
+      "bytes": 3275,
+      "sha256": "4a36ff0ccb69585689d43deae51b9794131b1ec7086b6e3e2cde6117191c513f"
+    },
+    {
+      "path": "benchmarks/conformance/previews/162-shadcn-pie-donut-active.svg",
+      "file": "162-shadcn-pie-donut-active.svg",
+      "bytes": 3247,
+      "sha256": "7766f139b2ac4cca286d7be14dd56be707e7d3a1460d5778aff935e721ace554"
+    },
+    {
+      "path": "benchmarks/conformance/previews/163-shadcn-pie-donut.svg",
+      "file": "163-shadcn-pie-donut.svg",
+      "bytes": 2863,
+      "sha256": "ea3681b806aec12aa4fa6a131dcf4a3b6ea87766bcef23ea3297cf47ddab791e"
+    },
+    {
+      "path": "benchmarks/conformance/previews/164-shadcn-pie-interactive.svg",
+      "file": "164-shadcn-pie-interactive.svg",
+      "bytes": 4219,
+      "sha256": "3c10bf06412993f8bb64b77b4f7f7d5d62e24097c58d55d5e03b4ce7c9ded02a"
+    },
+    {
+      "path": "benchmarks/conformance/previews/165-shadcn-pie-label-custom.svg",
+      "file": "165-shadcn-pie-label-custom.svg",
+      "bytes": 3814,
+      "sha256": "fd7ef66385f2b56ca4b88aa1dc7f2433cbbd83603b6bfa708c6dfd4461eaa6c0"
+    },
+    {
+      "path": "benchmarks/conformance/previews/166-shadcn-pie-label-list.svg",
+      "file": "166-shadcn-pie-label-list.svg",
+      "bytes": 3925,
+      "sha256": "031cfc2d3ee8754bc3d6053bf5f0659b29656247bc979a3aafe84ac37a96b8b0"
+    },
+    {
+      "path": "benchmarks/conformance/previews/167-shadcn-pie-label.svg",
+      "file": "167-shadcn-pie-label.svg",
+      "bytes": 4781,
+      "sha256": "dd1923f46633301045625c06e06e4a1feaaf8e6409c09fd96997ce64171391e6"
+    },
+    {
+      "path": "benchmarks/conformance/previews/168-shadcn-pie-legend.svg",
+      "file": "168-shadcn-pie-legend.svg",
+      "bytes": 4596,
+      "sha256": "b0d64bdd8f70cb8e2b65030dd3b73e4f1f0c85494220aa55ef45ddaa03210c64"
+    },
+    {
+      "path": "benchmarks/conformance/previews/169-shadcn-pie-separator-none.svg",
+      "file": "169-shadcn-pie-separator-none.svg",
+      "bytes": 2710,
+      "sha256": "795c1653d78f6abd95faa2e06d4954b700553e35f9217bb03ad7be2d028d6edb"
+    },
+    {
+      "path": "benchmarks/conformance/previews/17-dumbbell.svg",
+      "file": "17-dumbbell.svg",
+      "bytes": 5403,
+      "sha256": "4fa7863a5562739bd5c86a5ff7a4df4f61d37eab50697376cce22de3b4894513"
+    },
+    {
+      "path": "benchmarks/conformance/previews/170-shadcn-pie-simple.svg",
+      "file": "170-shadcn-pie-simple.svg",
+      "bytes": 2693,
+      "sha256": "8829187c02c3cc68f17576fdfe432d22276d44cc84914f2bdd8d18c41b88e890"
+    },
+    {
+      "path": "benchmarks/conformance/previews/171-shadcn-pie-stacked.svg",
+      "file": "171-shadcn-pie-stacked.svg",
+      "bytes": 4192,
+      "sha256": "5ae69c976cfe4f692ac8ebfeeac1cec84e3a16a67e512f1ca832345c6ce045a4"
+    },
+    {
+      "path": "benchmarks/conformance/previews/172-shadcn-radar-default.svg",
+      "file": "172-shadcn-radar-default.svg",
+      "bytes": 5107,
+      "sha256": "8378b452ee0447ab9d42ddfa366a7df8b64a99b02a65af892130aa3766eebd47"
+    },
+    {
+      "path": "benchmarks/conformance/previews/173-shadcn-radar-dots.svg",
+      "file": "173-shadcn-radar-dots.svg",
+      "bytes": 6015,
+      "sha256": "5caa44008f965378baa822b94b2e8d0fd2c95162bb8f45c5b8a0567ef6ffeebd"
+    },
+    {
+      "path": "benchmarks/conformance/previews/174-shadcn-radar-grid-circle-fill.svg",
+      "file": "174-shadcn-radar-grid-circle-fill.svg",
+      "bytes": 5260,
+      "sha256": "5f5571ae33271a0757d4caa72619a3d24e8368915d6fd170076e686a6158d5d0"
+    },
+    {
+      "path": "benchmarks/conformance/previews/175-shadcn-radar-grid-circle-no-lines.svg",
+      "file": "175-shadcn-radar-grid-circle-no-lines.svg",
+      "bytes": 5981,
+      "sha256": "0efef3a0ff2e1b1a0b4494d2765a466d754ce95a74a9b1b787bb88b857565596"
+    },
+    {
+      "path": "benchmarks/conformance/previews/176-shadcn-radar-grid-circle.svg",
+      "file": "176-shadcn-radar-grid-circle.svg",
+      "bytes": 5982,
+      "sha256": "912fc166a6b9fc138bee5b3342f9eafcc34cccc6c4afb6267d83b38adebc88f1"
+    },
+    {
+      "path": "benchmarks/conformance/previews/177-shadcn-radar-grid-custom.svg",
+      "file": "177-shadcn-radar-grid-custom.svg",
+      "bytes": 4454,
+      "sha256": "e41a45b7ef82a9593b667b8f0e7e23446ff8e67890a71149fa9168d8520ca2ae"
+    },
+    {
+      "path": "benchmarks/conformance/previews/178-shadcn-radar-grid-fill.svg",
+      "file": "178-shadcn-radar-grid-fill.svg",
+      "bytes": 5293,
+      "sha256": "f6f48b73a27616bb3e1e5c116759943ed20fae3a4ae590508b75b6484e840a4d"
+    },
+    {
+      "path": "benchmarks/conformance/previews/179-shadcn-radar-grid-none.svg",
+      "file": "179-shadcn-radar-grid-none.svg",
+      "bytes": 5033,
+      "sha256": "212323aac7bd9361bde297b601dd416dab26b13a32559c828dac44bee1beb6c9"
+    },
+    {
+      "path": "benchmarks/conformance/previews/18-cumulative-histogram.svg",
+      "file": "18-cumulative-histogram.svg",
+      "bytes": 17774,
+      "sha256": "9a126b048c10848913c4d7b902ae252d5be9a164862c4e85d006dac5584f52ac"
+    },
+    {
+      "path": "benchmarks/conformance/previews/180-shadcn-radar-icons.svg",
+      "file": "180-shadcn-radar-icons.svg",
+      "bytes": 5544,
+      "sha256": "10a703a323eb10090051560b52f11317468006e9f7d7d18486322c58a0ecd8d4"
+    },
+    {
+      "path": "benchmarks/conformance/previews/181-shadcn-radar-label-custom.svg",
+      "file": "181-shadcn-radar-label-custom.svg",
+      "bytes": 6807,
+      "sha256": "7f4db6bb2a10fbf96037affa7f88f9558b43231aa166f3e60ec1d810d4547350"
+    },
+    {
+      "path": "benchmarks/conformance/previews/182-shadcn-radar-legend.svg",
+      "file": "182-shadcn-radar-legend.svg",
+      "bytes": 5545,
+      "sha256": "e1b179b9b1d938a1ef7f9c2cdb21ff965391a3c0346928fa53fb1dd708cdd180"
+    },
+    {
+      "path": "benchmarks/conformance/previews/183-shadcn-radar-lines-only.svg",
+      "file": "183-shadcn-radar-lines-only.svg",
+      "bytes": 5542,
+      "sha256": "8ab56689c65af262672a3d50510446fb380e34ff4d21e6dfa7207d15c7acca73"
+    },
+    {
+      "path": "benchmarks/conformance/previews/184-shadcn-radar-radius.svg",
+      "file": "184-shadcn-radar-radius.svg",
+      "bytes": 4536,
+      "sha256": "5eaa50e5efb14e29e25c6c5e2967b6a4a72c1e8f1ccc24fb59947a457c1d0570"
+    },
+    {
+      "path": "benchmarks/conformance/previews/185-shadcn-radial-grid.svg",
+      "file": "185-shadcn-radial-grid.svg",
+      "bytes": 5223,
+      "sha256": "f503eb6272c054e951b6c2137454fe1b3671a7182738bd6b7d18a8f262eb4a7c"
+    },
+    {
+      "path": "benchmarks/conformance/previews/186-shadcn-radial-label.svg",
+      "file": "186-shadcn-radial-label.svg",
+      "bytes": 5856,
+      "sha256": "68f8a11ee336cbe0ef34bdb79bdbd82ebb919794b0fde948e354b0cb02275a86"
+    },
+    {
+      "path": "benchmarks/conformance/previews/187-shadcn-radial-shape.svg",
+      "file": "187-shadcn-radial-shape.svg",
+      "bytes": 2845,
+      "sha256": "841af90860d36aa1b3e05860fa0ef893dd1db42793cdb8006020fe125bace66b"
+    },
+    {
+      "path": "benchmarks/conformance/previews/188-shadcn-radial-simple.svg",
+      "file": "188-shadcn-radial-simple.svg",
+      "bytes": 4160,
+      "sha256": "d50da1169fd4ca661b1d2704e70810087077773f61c80dbf0b7ade8ef2fd8c6a"
+    },
+    {
+      "path": "benchmarks/conformance/previews/189-shadcn-radial-stacked.svg",
+      "file": "189-shadcn-radial-stacked.svg",
+      "bytes": 2964,
+      "sha256": "15396b305fbec445a0de4ca90898d18657823e7152c58e4f5160bbec352c5766"
+    },
+    {
+      "path": "benchmarks/conformance/previews/19-moving-average-line.svg",
+      "file": "19-moving-average-line.svg",
+      "bytes": 20382,
+      "sha256": "96774e0a235add53f32516ff31d608c785b2d4293b3a787de2ffba992c2d4c59"
+    },
+    {
+      "path": "benchmarks/conformance/previews/190-shadcn-tooltip-default.svg",
+      "file": "190-shadcn-tooltip-default.svg",
+      "bytes": 5018,
+      "sha256": "fe48eaec0c292c1338d653953946483982ef1b23ec356478b24bbf11730fd3f9"
+    },
+    {
+      "path": "benchmarks/conformance/previews/191-shadcn-tooltip-formatter.svg",
+      "file": "191-shadcn-tooltip-formatter.svg",
+      "bytes": 5020,
+      "sha256": "43eb6270aa388f3a3004cec62e53f0fbdb73ff5ddc5c4190649ff64d61730240"
+    },
+    {
+      "path": "benchmarks/conformance/previews/192-shadcn-tooltip-icons.svg",
+      "file": "192-shadcn-tooltip-icons.svg",
+      "bytes": 5016,
+      "sha256": "bda712a532d9455b3409e7dd4280e1e9262a1bc805fe6b7ffcc237de9693e39e"
+    },
+    {
+      "path": "benchmarks/conformance/previews/193-shadcn-tooltip-indicator-line.svg",
+      "file": "193-shadcn-tooltip-indicator-line.svg",
+      "bytes": 5025,
+      "sha256": "a46a207d4db94529ad698128a0f348300212593c91517fbeb05a4a6e9de07888"
+    },
+    {
+      "path": "benchmarks/conformance/previews/194-shadcn-tooltip-indicator-none.svg",
+      "file": "194-shadcn-tooltip-indicator-none.svg",
+      "bytes": 5023,
+      "sha256": "ac6fe965bea2a6588cc0597a595fa8624c7f6cac3b38a20201ae8807f0ba4514"
+    },
+    {
+      "path": "benchmarks/conformance/previews/195-shadcn-tooltip-label-custom.svg",
+      "file": "195-shadcn-tooltip-label-custom.svg",
+      "bytes": 5023,
+      "sha256": "b09982f65a0481e1c2efdee73d3132058594acdc9786d8c1f9ad877816752536"
+    },
+    {
+      "path": "benchmarks/conformance/previews/196-shadcn-tooltip-label-formatter.svg",
+      "file": "196-shadcn-tooltip-label-formatter.svg",
+      "bytes": 5026,
+      "sha256": "b18e7ed66963b22aa33bc543ab08d119be452cf7e6f77d485f8756694dd16f2f"
+    },
+    {
+      "path": "benchmarks/conformance/previews/197-shadcn-tooltip-label-none.svg",
+      "file": "197-shadcn-tooltip-label-none.svg",
+      "bytes": 5019,
+      "sha256": "af6631dd0b4e88a936d9cff1ae28a90b549ef6c2d72513b90e9dadb80d4f437a"
+    },
+    {
+      "path": "benchmarks/conformance/previews/20-normalized-stacked-area.svg",
+      "file": "20-normalized-stacked-area.svg",
+      "bytes": 46140,
+      "sha256": "f31b75a87ccecf74b8fd6a494ae8e464018a83dbefceeb24d8ddd26da1f64da1"
+    },
+    {
+      "path": "benchmarks/conformance/previews/21-streamgraph.svg",
+      "file": "21-streamgraph.svg",
+      "bytes": 48127,
+      "sha256": "56ba2e5a8670995d5ec3599d1fe243f2cccdd6ee12025157a3c8e8bc1e678def"
+    },
+    {
+      "path": "benchmarks/conformance/previews/22-bollinger-band.svg",
+      "file": "22-bollinger-band.svg",
+      "bytes": 50245,
+      "sha256": "43848eb4c26fdf693d8fb3a69ba85ad4b6aa6b37bedbf0a6d98e05b52018135c"
+    },
+    {
+      "path": "benchmarks/conformance/previews/24-quantitative-binned-heatmap.svg",
+      "file": "24-quantitative-binned-heatmap.svg",
+      "bytes": 12594,
+      "sha256": "add1849eb75614a48a1d45fa56ad5d1db0fa78befddbec204f4742fb2aed574d"
+    },
+    {
+      "path": "benchmarks/conformance/previews/25-calendar-heatmap.svg",
+      "file": "25-calendar-heatmap.svg",
+      "bytes": 28516,
+      "sha256": "b3bb4417a0803be9baefdd4ce0f9eadb98cb086218b22a2ccf7e95b5db5ddb91"
+    },
+    {
+      "path": "benchmarks/conformance/previews/26-diverging-likert.svg",
+      "file": "26-diverging-likert.svg",
+      "bytes": 7213,
+      "sha256": "18b237ed537920be09a0d843ebf52388827ac1a3ef7023f8e032972c7fb79211"
+    },
+    {
+      "path": "benchmarks/conformance/previews/27-parallel-coordinates.svg",
+      "file": "27-parallel-coordinates.svg",
+      "bytes": 8517,
+      "sha256": "dd766613dad6c711b8ab86e3d96796cc1f4ae14f48328dd24693de596874d1de"
+    },
+    {
+      "path": "benchmarks/conformance/previews/28-candlestick.svg",
+      "file": "28-candlestick.svg",
+      "bytes": 14366,
+      "sha256": "495de35eea9d898c13edccc4962b5336491aac69b5104a6e71b89da405ea98aa"
+    },
+    {
+      "path": "benchmarks/conformance/previews/29-waterfall.svg",
+      "file": "29-waterfall.svg",
+      "bytes": 3153,
+      "sha256": "1356c6b9cb5d07698dc6c0253b0778914c6ec6d99659ebb596b3b26e38b56779"
+    },
+    {
+      "path": "benchmarks/conformance/previews/30-slopegraph.svg",
+      "file": "30-slopegraph.svg",
+      "bytes": 9470,
+      "sha256": "f74a29008ef5d2f85c2c8d76af7b4cf576060548d04db3eebf6561442cace21c"
+    },
+    {
+      "path": "benchmarks/conformance/previews/31-linear-regression.svg",
+      "file": "31-linear-regression.svg",
+      "bytes": 67646,
+      "sha256": "7d3c6a040e0702e1a556e591ff2b3ba11f36287b4cedd40358d0938943f3e126"
+    },
+    {
+      "path": "benchmarks/conformance/previews/32-change-arrows.svg",
+      "file": "32-change-arrows.svg",
+      "bytes": 10695,
+      "sha256": "7e9a42b5bed4ca9d46959b871be1e4ebb3217d5aa94ecec38daafb29553b8b5c"
+    },
+    {
+      "path": "benchmarks/conformance/previews/33-difference-chart.svg",
+      "file": "33-difference-chart.svg",
+      "bytes": 11297,
+      "sha256": "1472231d7a3740bf711c11e315da8aa033e5a21a398afcc15e380ab97f331745"
+    },
+    {
+      "path": "benchmarks/conformance/previews/34-pointer-tooltip.svg",
+      "file": "34-pointer-tooltip.svg",
+      "bytes": 7884,
+      "sha256": "8833f9b342830ea388708f5080cc45bcd4342a42daaaee32d52e24c89bf90c12"
+    },
+    {
+      "path": "benchmarks/conformance/previews/35-grouped-tooltip.svg",
+      "file": "35-grouped-tooltip.svg",
+      "bytes": 30892,
+      "sha256": "dc6033e24081e29a17bb58bdeb5f5c1b13c638f54fa4b26a1fe3ed504f8989fd"
+    },
+    {
+      "path": "benchmarks/conformance/previews/36-hierarchy-tree.svg",
+      "file": "36-hierarchy-tree.svg",
+      "bytes": 8287,
+      "sha256": "12fecee033795499e60d61bf0a2a802e9385b615c99596a3ad45fcd9341afaf3"
+    },
+    {
+      "path": "benchmarks/conformance/previews/37-delaunay-network.svg",
+      "file": "37-delaunay-network.svg",
+      "bytes": 29145,
+      "sha256": "b5401e96b921f21a619f2e2820d24c61040d5f3911fd8a408f1bafea8488622a"
+    },
+    {
+      "path": "benchmarks/conformance/previews/38-contour-topography.svg",
+      "file": "38-contour-topography.svg",
+      "bytes": 20701,
+      "sha256": "a8cd1cc9225f8d56c47000bfb88b081cb2cd705d37933f0f6c24adc895c6bbdd"
+    },
+    {
+      "path": "benchmarks/conformance/previews/39-density-contours.svg",
+      "file": "39-density-contours.svg",
+      "bytes": 20341,
+      "sha256": "c7f106b309bc66ae0f2474ce3710af57d07e5b26675be9517bcbf8d262ba6a29"
+    },
+    {
+      "path": "benchmarks/conformance/previews/40-force-directed-network.svg",
+      "file": "40-force-directed-network.svg",
+      "bytes": 8322,
+      "sha256": "7dfbe724861020abb38feb5b0683d37bf4a95fb917fd8f47a1b8589683c15c37"
+    },
+    {
+      "path": "benchmarks/conformance/previews/40-geojson-map.svg",
+      "file": "40-geojson-map.svg",
+      "bytes": 39266,
+      "sha256": "1e26d1983fc3fbe1506f0f84cc1dac2bb0826301cad4b729bc21d9e151061d1f"
+    },
+    {
+      "path": "benchmarks/conformance/previews/41-waffle-unit-chart.svg",
+      "file": "41-waffle-unit-chart.svg",
+      "bytes": 17562,
+      "sha256": "b606468770f8b25d561a00a11e83031265836e64dfee9cbdce34107c23cef34c"
+    },
+    {
+      "path": "benchmarks/conformance/previews/42-vector-field.svg",
+      "file": "42-vector-field.svg",
+      "bytes": 25089,
+      "sha256": "e0b6475317159a2c5dd33e2451a3be8f462b7e8159d2c33f30a8516d160c74d8"
+    },
+    {
+      "path": "benchmarks/conformance/previews/43-hexbin-density.svg",
+      "file": "43-hexbin-density.svg",
+      "bytes": 13738,
+      "sha256": "af2ddbd4725442ced235d7ec9568e60d5a6348f915984c7190d7083ce4a26ef6"
+    },
+    {
+      "path": "benchmarks/conformance/previews/44-framed-scatter.svg",
+      "file": "44-framed-scatter.svg",
+      "bytes": 56018,
+      "sha256": "56165f9ae5238a5758f8779c1c1c9802f9f64d9ddac92905508403da2b9c7150"
+    },
+    {
+      "path": "benchmarks/conformance/previews/50-empirical-cdf.svg",
+      "file": "50-empirical-cdf.svg",
+      "bytes": 13314,
+      "sha256": "07913c18e9a81437aac15cbda96d6881360298402a032f01952cbfff1feded57"
+    },
+    {
+      "path": "benchmarks/conformance/previews/51-faceted-distributions.svg",
+      "file": "51-faceted-distributions.svg",
+      "bytes": 6764,
+      "sha256": "540f6774fadb4083abb7237894309d06910e3ea6e7a113d9634193817d8e062a"
+    },
+    {
+      "path": "benchmarks/conformance/previews/52-beeswarm-dodge.svg",
+      "file": "52-beeswarm-dodge.svg",
+      "bytes": 16158,
+      "sha256": "8fd624ba8d5bbfac733931afd59337c991e2e54e888f06444fa8130f84e606dd"
+    },
+    {
+      "path": "benchmarks/conformance/previews/53-log-scale-scatter.svg",
+      "file": "53-log-scale-scatter.svg",
+      "bytes": 45937,
+      "sha256": "62c8f1abc7e732679dbba7cf2b8a7d55a0493dce9cd2bd0042f2e628d0e48b57"
+    },
+    {
+      "path": "benchmarks/conformance/previews/54-bump-ranking.svg",
+      "file": "54-bump-ranking.svg",
+      "bytes": 11524,
+      "sha256": "448a7cc25f33f117d5b34f0fd9a8329634f9f86917ae1fd57ab4af93b6646dd7"
+    },
+    {
+      "path": "benchmarks/conformance/previews/55-indexed-multi-line.svg",
+      "file": "55-indexed-multi-line.svg",
+      "bytes": 4326,
+      "sha256": "2093b1d4fbcd50e3339fa11b7cbdb071419550ae5466284d3f1522bed241cad9"
+    },
+    {
+      "path": "benchmarks/conformance/previews/56-connected-scatter.svg",
+      "file": "56-connected-scatter.svg",
+      "bytes": 14339,
+      "sha256": "a9847c63f8bf1c0495cfe46e106270859f6ae958ce5fecc2b9af6269b921ab48"
+    },
+    {
+      "path": "benchmarks/conformance/previews/57-scatter-marginal-histograms.svg",
+      "file": "57-scatter-marginal-histograms.svg",
+      "bytes": 84852,
+      "sha256": "36f47b62c995502f047697d3206ac230ebc578193e9f068ef344fbd0bf8b086c"
+    },
+    {
+      "path": "benchmarks/conformance/previews/58-select-extrema.svg",
+      "file": "58-select-extrema.svg",
+      "bytes": 19001,
+      "sha256": "f150f229e2aa972358ebe2d392c548aaddd78ee0ed55889378f8a37e834bac07"
+    },
+    {
+      "path": "benchmarks/conformance/previews/59-grouped-reducer-bars.svg",
+      "file": "59-grouped-reducer-bars.svg",
+      "bytes": 2646,
+      "sha256": "0923bc526e28cdd383b7062be85c6b6cea528740c7f3575f3450df6fcd7b0298"
+    },
+    {
+      "path": "benchmarks/conformance/previews/60-lag-autocorrelation.svg",
+      "file": "60-lag-autocorrelation.svg",
+      "bytes": 25824,
+      "sha256": "ffead0dd4ced6317301a97177b1a69047500285e09f2418fbaefc4c2f9a2a068"
+    },
+    {
+      "path": "benchmarks/conformance/previews/61-quantile-ribbon.svg",
+      "file": "61-quantile-ribbon.svg",
+      "bytes": 6714,
+      "sha256": "e77612d1610f5ebf1b3afb776cc77664650e51b1162e3ea8e99239001d961216"
+    },
+    {
+      "path": "benchmarks/conformance/previews/62-ridgeline-density.svg",
+      "file": "62-ridgeline-density.svg",
+      "bytes": 7724,
+      "sha256": "0c4e31eabde674cb34f64de211f56644cd661fc71f02732a620603378fb4831e"
+    },
+    {
+      "path": "benchmarks/conformance/previews/63-violin-distributions.svg",
+      "file": "63-violin-distributions.svg",
+      "bytes": 7368,
+      "sha256": "178eefb2506ffbd7259c770152b9179f5be88f46c462c3a90c4af2c390534e41"
+    },
+    {
+      "path": "benchmarks/conformance/previews/64-marimekko-mosaic.svg",
+      "file": "64-marimekko-mosaic.svg",
+      "bytes": 5675,
+      "sha256": "df7fb1d22c8ae4f47bd3a3bdc1f2192ae6115f652e6f38a460771d5c72c68116"
+    },
+    {
+      "path": "benchmarks/conformance/previews/65-voronoi-nearest-tooltip.svg",
+      "file": "65-voronoi-nearest-tooltip.svg",
+      "bytes": 12235,
+      "sha256": "72a22022e076ac2087bd0d8522cca92a0251c5befe934e85026e2c09d0b6b99f"
+    },
+    {
+      "path": "benchmarks/conformance/previews/70-composed-chart.svg",
+      "file": "70-composed-chart.svg",
+      "bytes": 15727,
+      "sha256": "3603f4028a6f4744d4fb0ad019180f8cd397ff432b62d46b8c6aa76d11d3c1c1"
+    },
+    {
+      "path": "benchmarks/conformance/previews/71-recharts-population-pyramid.svg",
+      "file": "71-recharts-population-pyramid.svg",
+      "bytes": 2653,
+      "sha256": "7f66b3792aeebeed1f0fa546b4d8f1769f55f7500228acfa6174674484e19add"
+    },
+    {
+      "path": "benchmarks/conformance/previews/72-recharts-mixed-bars.svg",
+      "file": "72-recharts-mixed-bars.svg",
+      "bytes": 5971,
+      "sha256": "5ccdf45b0751d39b53401708d768d7b738a16801c7dba92428ad9e58b92fb07d"
+    },
+    {
+      "path": "benchmarks/conformance/previews/73-many-point-scatter.svg",
+      "file": "73-many-point-scatter.svg",
+      "bytes": 56146,
+      "sha256": "7e0f2cbac09823e3672c7e709216bd7dc00e2cc47acfe7307075fc6b91cb26f7"
+    },
+    {
+      "path": "benchmarks/conformance/previews/74-recharts-treemap.svg",
+      "file": "74-recharts-treemap.svg",
+      "bytes": 3885,
+      "sha256": "7a8d03b2ddb4c3cf9a043e5936676ba0f38b3ac5ac63fcc5c4716b4ed66e67f4"
+    },
+    {
+      "path": "benchmarks/conformance/previews/75-radar.svg",
+      "file": "75-radar.svg",
+      "bytes": 3505,
+      "sha256": "818d77720e57f76464a739a141e73b71a4b73d2f65a64133ccfb7f74b891cc0c"
+    },
+    {
+      "path": "benchmarks/conformance/previews/76-pie.svg",
+      "file": "76-pie.svg",
+      "bytes": 2504,
+      "sha256": "78f6ab67bac81dec8d39eb77125f60320866018b9db87eec476bd6461b11c21d"
+    },
+    {
+      "path": "benchmarks/conformance/previews/77-donut.svg",
+      "file": "77-donut.svg",
+      "bytes": 3004,
+      "sha256": "4a91aa414e97ce26110fb16c3436aeb096ba4cfab36fdf44a64996ee3464e7c5"
+    },
+    {
+      "path": "benchmarks/conformance/previews/78-gauge.svg",
+      "file": "78-gauge.svg",
+      "bytes": 2047,
+      "sha256": "84de33a695f5038762744e881296dd3910d2f2bb28c02f2d2ed8014b310cc96a"
+    },
+    {
+      "path": "benchmarks/conformance/previews/80-echarts-axis-pointer.svg",
+      "file": "80-echarts-axis-pointer.svg",
+      "bytes": 11461,
+      "sha256": "2501316a8b75b5f54cc07e4ef3ae1e698092b84045b38e4fd35cb539e5165b66"
+    },
+    {
+      "path": "benchmarks/conformance/previews/81-recharts-interactive-legend.svg",
+      "file": "81-recharts-interactive-legend.svg",
+      "bytes": 3259,
+      "sha256": "02f2c5699edefa0fab162caad413aca12f20206d2720b30d37b06639ccdd26ff"
+    },
+    {
+      "path": "benchmarks/conformance/previews/82-chart-table-selection.svg",
+      "file": "82-chart-table-selection.svg",
+      "bytes": 2828,
+      "sha256": "7e6064038ded2b01914d8913b53b76fcbb06b42b0bff6b6c3f5ea2619477a760"
+    },
+    {
+      "path": "benchmarks/conformance/previews/83-focus-context-window.svg",
+      "file": "83-focus-context-window.svg",
+      "bytes": 5544,
+      "sha256": "7a509daf25f919612150b5ec7f4e3e327767cbf789be180c7ec4cedbc431421f"
+    },
+    {
+      "path": "benchmarks/conformance/previews/84-pinned-nested-chart-tooltip.svg",
+      "file": "84-pinned-nested-chart-tooltip.svg",
+      "bytes": 26440,
+      "sha256": "6ca4ee9c817985b0168ba2c76e93daf44d52289286f06bf837bd3d7212900c5a"
+    },
+    {
+      "path": "benchmarks/conformance/previews/85-scrollable-resource-lanes.svg",
+      "file": "85-scrollable-resource-lanes.svg",
+      "bytes": 3782,
+      "sha256": "4991c55242bcf537967a214e39e068d8f9231fe1744fc4ae5a5eb65d30d02249"
+    },
+    {
+      "path": "benchmarks/conformance/previews/86-streaming-window-preservation.svg",
+      "file": "86-streaming-window-preservation.svg",
+      "bytes": 3654,
+      "sha256": "5dad52ddc2b6c08457e18cd872b1701dd763d38c2b9b083bf116890d583a5bce"
+    },
+    {
+      "path": "benchmarks/conformance/previews/87-echarts-synchronized-cursors.svg",
+      "file": "87-echarts-synchronized-cursors.svg",
+      "bytes": 9549,
+      "sha256": "fa3b541222d23791cd6f30a3e58acd607827fa2ffbe65a9c032bbb92d9c3aac3"
+    },
+    {
+      "path": "benchmarks/conformance/previews/88-echarts-free-cursor.svg",
+      "file": "88-echarts-free-cursor.svg",
+      "bytes": 5010,
+      "sha256": "1c13247bae0400063ae43666632c1faf13251031637cb21c97b617324c7ceb76"
+    },
+    {
+      "path": "benchmarks/conformance/previews/89-brush-range-selection.svg",
+      "file": "89-brush-range-selection.svg",
+      "bytes": 5991,
+      "sha256": "faedd7a2d8e22f92937328c2c88e30bbcac2fc5c221b9298b0e9a823ee550c8b"
+    },
+    {
+      "path": "benchmarks/conformance/previews/90-zoomable-time-window.svg",
+      "file": "90-zoomable-time-window.svg",
+      "bytes": 4066,
+      "sha256": "54d9c184964de032b956b51e63084f3e51070abf86cce8f3bbce14bebe54fe48"
+    },
+    {
+      "path": "benchmarks/conformance/previews/91-timeline-playback-scrubber.svg",
+      "file": "91-timeline-playback-scrubber.svg",
+      "bytes": 4212,
+      "sha256": "29ac117ef03918b82ede2bd69d486b8087936400dbce3e4c6560231657211817"
+    },
+    {
+      "path": "benchmarks/conformance/previews/92-editable-event-range.svg",
+      "file": "92-editable-event-range.svg",
+      "bytes": 3165,
+      "sha256": "fdb8f21a901378f058472e1fa5875053db7958241f6bbf81e2894ff1486bbae2"
+    },
+    {
+      "path": "benchmarks/conformance/previews/93-labeled-pie.svg",
+      "file": "93-labeled-pie.svg",
+      "bytes": 4447,
+      "sha256": "1421d5db4def6c252961c94b56c748c07bf1d3693e8e2b2fe101889b1fb98013"
+    },
+    {
+      "path": "benchmarks/conformance/previews/94-center-donut.svg",
+      "file": "94-center-donut.svg",
+      "bytes": 2745,
+      "sha256": "feeb89d56b9a2e706a589629dbbd32d1c5e0545a0d4778a9c5032e73a60894ae"
+    },
+    {
+      "path": "benchmarks/conformance/previews/95-rounded-donut.svg",
+      "file": "95-rounded-donut.svg",
+      "bytes": 3503,
+      "sha256": "4e31b462ea95c5c47f3eb8a8a8086025ddf6e9f13de432bc211ac354591de531"
+    },
+    {
+      "path": "benchmarks/conformance/previews/96-nested-donut.svg",
+      "file": "96-nested-donut.svg",
+      "bytes": 3508,
+      "sha256": "64f9a554b23ea80abfc92e2edbeffc0511b93d25a321f10c2edc21df8104020f"
+    },
+    {
+      "path": "benchmarks/conformance/previews/97-rose.svg",
+      "file": "97-rose.svg",
+      "bytes": 3576,
+      "sha256": "006a91f2aa93a19c5abc1c5d297b4a6b5beade5e468b9c895d27db3685d93053"
+    },
+    {
+      "path": "benchmarks/conformance/previews/98-needle-gauge.svg",
+      "file": "98-needle-gauge.svg",
+      "bytes": 5546,
+      "sha256": "c8bc517c44f473d3397abe00c82d30ccf3e92502673f5f2cc5a0c6ab2202ec6a"
+    },
+    {
+      "path": "benchmarks/conformance/previews/99-comparative-radar.svg",
+      "file": "99-comparative-radar.svg",
+      "bytes": 3757,
+      "sha256": "37ad67a05df8102796cf576c030cb25d528abb4b0aca0a1fb718f345bab180f4"
+    },
+    {
+      "path": "benchmarks/conformance/previews/bar-grouped.svg",
+      "file": "bar-grouped.svg",
+      "bytes": 2630,
+      "sha256": "05977e545ebc1300878165c162ae20183b5d7d02d59b1af26acdb2e7d8f6bd47"
+    },
+    {
+      "path": "benchmarks/conformance/previews/bar-horizontal-ranking.svg",
+      "file": "bar-horizontal-ranking.svg",
+      "bytes": 6750,
+      "sha256": "7c903173f3eee66bd2b3d0f3fc1bd89ad35c59a01bc8a409194ed5647b6a076a"
+    },
+    {
+      "path": "benchmarks/conformance/previews/bar-stacked.svg",
+      "file": "bar-stacked.svg",
+      "bytes": 16480,
+      "sha256": "b8913d36eb2b6adf857b5554b08fa4f7ed5d55c174b1a182c5ae95086c251d38"
+    },
+    {
+      "path": "benchmarks/conformance/previews/bar-vertical-sorted.svg",
+      "file": "bar-vertical-sorted.svg",
+      "bytes": 6021,
+      "sha256": "868c1e9ccd7cd6f6d55cdf33298666b548eb74710e85742e06a7b37d58038c1d"
+    },
+    {
+      "path": "benchmarks/conformance/previews/facets-anscombe.svg",
+      "file": "facets-anscombe.svg",
+      "bytes": 8815,
+      "sha256": "20c719db945789d77546980279f1b0fa2eafe10537ee3aebd4e6dfe03d647e60"
+    },
+    {
+      "path": "benchmarks/conformance/previews/heatmap-labeled.svg",
+      "file": "heatmap-labeled.svg",
+      "bytes": 12845,
+      "sha256": "67cfbb288daab38e52bbe28318ec45962a40298324aed12512b822e80576d844"
+    },
+    {
+      "path": "benchmarks/conformance/previews/histogram.svg",
+      "file": "histogram.svg",
+      "bytes": 3331,
+      "sha256": "4970bc0a6ae9a2e326a871035dfa6c761b57fe7da30fd14a3313c34ea6d803c9"
+    },
+    {
+      "path": "benchmarks/conformance/previews/scatter-bubble.svg",
+      "file": "scatter-bubble.svg",
+      "bytes": 80427,
+      "sha256": "878a6c97b7fa40262131822a62cac0b59b5a9ce2a2d50ba0fd03d59d741f3e57"
+    }
+  ]
+}

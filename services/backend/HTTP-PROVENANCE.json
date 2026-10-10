@@ -3441,6 +3441,18 @@
     {
       "file": "src/utils/github-content-cache.server.ts",
       "reason": "Owned publication source bypasses remote artifact cache namespaces; original validation and external cache behavior retained."
+    },
+    {
+      "file": "src/utils/github-example.server.ts",
+      "reason": "Indexed maintained workspaces supply original tree and binary response inputs; original workspace validation/size limits/encoding retained. Non-owned paths use the original public transport."
+    },
+    {
+      "file": "src/utils/external-blog-posts.server.ts",
+      "reason": "Explicit optional host fetch transport for the captured feed parity harness. Default remains public fetch; original transforms, pagination, cache, timeout and failure rules are unchanged."
+    },
+    {
+      "file": "src/utils/blog.functions.ts",
+      "reason": "Export original pure aggregate helper for request-shell metadata; original server-function declaration and protocol retained."
     }
   ]
 }

@@ -1,3 +1,4 @@
+import {prepareDocumentHeaders} from './prepare-document-headers.mjs';
 import {prepareDocComponents} from './prepare-doc-components.mjs';
 import {prepareBlog} from './prepare-blog.mjs';
 import {prepareMarketing} from './prepare-marketing.mjs';
@@ -17,6 +18,7 @@ if(!fs.existsSync('sources/docs-inputs.json')){fs.cpSync('../tanstack/sources/do
 await build({entryPoints:['frontend/retained/src/libraries/libraries.ts'],outfile:'.work/corpus-libraries.mjs',bundle:true,platform:'node',format:'esm',packages:'external',alias:{'~':path.resolve('frontend/retained/src')}});
 await import('./compile-document.mjs');
 const {libraries}=await import('../.work/corpus-libraries.mjs');const {renderDocumentProjection}=await import('../.work/render-document.mjs');const {parse}=createRequire(path.resolve('../tanstack/runtime/package.json'))('yaml');
+const documentHeaders=await prepareDocumentHeaders();
 const inputs=JSON.parse(fs.readFileSync('sources/docs-inputs.json')),sourceSemantics=await preparePinnedDocSourceSemantics(),sourceIndex=pinnedDocIndex(inputs.files);const routes={},configs={},failures=[],pending={},tracked=[],families={};let empty=0,rendered=0;
 const rendererSignature=hash(fs.readFileSync('.work/render-document.mjs')+fs.readdirSync('.work/publication-ssr',{recursive:true}).filter(file=>file.endsWith('.mjs')).sort().map(file=>file+hash(fs.readFileSync('.work/publication-ssr/'+file))).join(''));
 const cachePath='.work/corpus-cache.json',old=fs.existsSync(cachePath)?JSON.parse(fs.readFileSync(cachePath)):{};const cache={};let reused=0;
@@ -37,7 +39,7 @@ for(const library of libraries){
  const signature=hash(source+pathname+rendererSignature+fs.readFileSync('scripts/prepare-doc-components.mjs')),target='.work/corpus-rendered'+pathname+'.html';let projection;
  try{if(old[pathname]?.signature===signature&&fs.existsSync(target)&&hash(fs.readFileSync(target))===old[pathname].htmlHash){projection=old[pathname].projection;reused++;}else{projection=await renderDocumentProjection(source,pathname,{}, {feedbackWrapper:false,allowPendingComponents:true});projection.html=await prepareDocComponents(projection.html,pathname);write(target,projection.html);rendered++;}
  const metadata=sourceSemantics.parseFrontMatter(source).data;
- const record={...metadata,title:metadata?.title??relative.split('/').at(-1),headings:projection.headings,controls:projection.controls,filePath:entry.file,pathname,source:entry.source,sourceDependencies:resolved.dependencies,referenceDepth:resolved.referenceDepth,libraryId:library.id,version};
+ const record={...metadata,headers:{...documentHeaders.getDocsCacheHeaders({libraryId:library.id,version}),...documentHeaders.getDocsEmbedRuntimeHeaders({content:source,version})},title:metadata?.title??relative.split('/').at(-1),headings:projection.headings,controls:projection.controls,filePath:entry.file,pathname,source:entry.source,sourceDependencies:resolved.dependencies,referenceDepth:resolved.referenceDepth,libraryId:library.id,version};
  cache[pathname]={signature,htmlHash:hash(fs.readFileSync(target)),projection:{headings:projection.headings,controls:projection.controls}};
  routes[pathname]=record;families[library.id]=(families[library.id]??0)+1;
  const html=fs.readFileSync(target,'utf8');for(const match of html.matchAll(/data-pending-family="([^"]+)"/g)){pending[match[1]]??=[];pending[match[1]].push(pathname);}
