@@ -1,0 +1,13 @@
+{
+  "scope": "Retained framework-agnostic session/OAuth primitives with local fixture secret; full provider/auth/database/chat integration pending",
+  "independent_hmac_equal": true,
+  "valid_cookie_roundtrip": true,
+  "malformed_tampered_wrong_secret_expired_rejected": true,
+  "production_cookie_flags_exact": true,
+  "clear_cookie_exact": true,
+  "unsafe_default_production_secret_rejected": true,
+  "fresh_oauth_state": true,
+  "popup_channel_bound_to_verified_state": true,
+  "oauth_state_and_return_to_roundtrip": true,
+  "private_credentials_used": false
+}

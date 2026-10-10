@@ -12,7 +12,8 @@
     "proof:authority:browser": "node scripts/proof-authority-browser.mjs",
     "proof:document": "node scripts/proof-document.mjs",
     "proof:codeblock": "node scripts/proof-codeblock.mjs",
-    "proof:article-controls": "node scripts/proof-article-controls.mjs"
+    "proof:article-controls": "node scripts/proof-article-controls.mjs",
+    "proof:session": "node scripts/proof-session.mjs"
   },
   "dependencies": {
     "@phosphor-icons/react": "2.1.10",
@@ -22,6 +23,7 @@
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "tailwind-merge": "3.5.0",
+    "zod": "4.3.6",
     "zustand": "5.0.12"
   },
   "devDependencies": {

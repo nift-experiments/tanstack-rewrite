@@ -1,0 +1,18 @@
+{
+  "pin": "862ccc3d191818320c3e6d217542883f80cb907a",
+  "scope": "Framework-agnostic session and OAuth cookie primitives; complete auth/API backend not yet built",
+  "files": [
+    {
+      "file": "auth/session.server.ts",
+      "sha256": "8c3f98a881039e2eceedb140a84c6c161e5298e135fc18358a3915b1f5b38061"
+    },
+    {
+      "file": "auth/oauth-popup.ts",
+      "sha256": "dcabc75dd9a70b8fb39f6110aba886577d5ac25ec485fc096cf40c0c258a7a78"
+    },
+    {
+      "file": "auth/types.ts",
+      "sha256": "d533682044057e611283eba2dd7b89832648f278c58c6dd653539d0dae091a8a"
+    }
+  ]
+}
