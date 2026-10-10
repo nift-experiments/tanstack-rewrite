@@ -3,15 +3,15 @@
   "environments": [
     {
       "environment": "client",
-      "module_identifiers": 69,
-      "raw_manifest_sha256": "d1a8098c93d921054a829c680776495f391a61800773be75306a16cf5e207cfb",
+      "module_identifiers": 71,
+      "raw_manifest_sha256": "a978b7585b39769506da63c8223db407d381cc26205df2f2ec769bac71c9ebe9",
       "forbidden_site_inputs": [],
       "owned_app_modules": []
     },
     {
       "environment": "ssr",
       "module_identifiers": 426,
-      "raw_manifest_sha256": "ecd3892c3b20ae307e4b969605b48b6d70a52d363b9fbd3a01a20a51df448e76",
+      "raw_manifest_sha256": "3f8ba466e2425961bfb52adb8702113762300da51018411e588e190ac691f0d1",
       "forbidden_site_inputs": [],
       "owned_app_modules": []
     }

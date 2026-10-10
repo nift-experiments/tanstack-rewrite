@@ -1,4 +1,4 @@
-import {createServerFn} from '@tanstack/react-start';import {getRequest} from '@tanstack/react-start/server';import {getAuthService,getAuthGuards,type Capability} from './auth-bindings.server';
+import {createServerFn} from '@tanstack/react-start';import {getRequest} from '@tanstack/react-start/server';import {getAuthService,getAuthGuards,type Capability} from './auth-bindings.server';import {ADMIN_ACCESS_CAPABILITIES} from '~/db/types';const isDatabaseConfigured=async()=>true;const env={GITHUB_OAUTH_CLIENT_ID:'',GITHUB_OAUTH_CLIENT_SECRET:'',GOOGLE_OAUTH_CLIENT_ID:'',GOOGLE_OAUTH_CLIENT_SECRET:''};
 export const getCurrentUser = createServerFn({ method: 'POST' }).handler(
   async () => {
     const request = getRequest()
@@ -28,3 +28,64 @@ export const requireCapability = createServerFn({ method: 'POST' })
     return guards.requireCapability(request, capability)
   })
 
+export async function loadUser() {
+  try {
+    return await getCurrentUser()
+  } catch {
+    return null
+  }
+}
+
+export async function requireAuthUser() {
+  try {
+    return await requireAuth()
+  } catch {
+    throw new Error('Not authenticated')
+  }
+}
+
+export async function requireCapabilityUser(capability: string) {
+  try {
+    return await requireCapability({ data: { capability } })
+  } catch {
+    throw new Error(`Missing required capability: ${capability}`)
+  }
+}
+
+export { ADMIN_ACCESS_CAPABILITIES as ADMIN_CAPABILITIES } from '~/db/types'
+
+export const requireAnyAdminCapability = createServerFn({
+  method: 'POST',
+}).handler(async () => {
+  const request = getRequest()
+  const authService = getAuthService()
+  const user = await authService.getCurrentUser(request)
+
+  if (!user) {
+    throw new Error('Not authenticated')
+  }
+
+  const hasAdminCapability = user.capabilities.some((cap) =>
+    (ADMIN_ACCESS_CAPABILITIES as readonly string[]).includes(cap),
+  )
+
+  if (!hasAdminCapability) {
+    throw new Error('Admin access required')
+  }
+
+  return user
+})
+
+export const getSignInProviders = createServerFn({ method: 'GET' }).handler(
+  async () => {
+    const database = await isDatabaseConfigured()
+    return {
+      github:
+        database &&
+        Boolean(env.GITHUB_OAUTH_CLIENT_ID && env.GITHUB_OAUTH_CLIENT_SECRET),
+      google:
+        database &&
+        Boolean(env.GOOGLE_OAUTH_CLIENT_ID && env.GOOGLE_OAUTH_CLIENT_SECRET),
+    }
+  },
+)

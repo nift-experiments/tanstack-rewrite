@@ -1,6 +1,7 @@
 {
-  "scope": "Three original auth server-function bodies, official protocol/compiler and retained auth/session/guards with local repositories; provider/database/chat and full service parity pending",
+  "scope": "Original auth server-function definitions, official protocol/compiler and retained auth/session/guards with local repositories; provider/database/chat and full service parity pending",
   "official_client_roundtrip": true,
+  "sign_in_provider_configuration_flags": true,
   "anonymous_null": true,
   "anonymous_guard_rejected": true,
   "authenticated_user": true,
