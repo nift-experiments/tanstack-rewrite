@@ -1,0 +1,12 @@
+{
+  "upstreamCommit": "862ccc3d191818320c3e6d217542883f80cb907a",
+  "scope": "Shared explicit live/chart/client regions; native article HTML remains outside island ownership",
+  "adaptations": [
+    {
+      "source": "src/components/markdown/ClientExampleDocEmbed.tsx",
+      "target": "ClientExampleDocEmbed.tsx",
+      "reason": "Use public Router hooks to select the active route parameters at the shared portal boundary; original embed parsing and retained lazy workbench remain."
+    }
+  ],
+  "parity": "Availability cross-section passes; actual interaction and visual parity pending"
+}

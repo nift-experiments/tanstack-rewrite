@@ -1,3 +1,4 @@
+import {ownsPublicationRepository} from '~/server/publication/document-source.server'
 import {
   getBlobStorage,
   getBlobStorageCache,
@@ -1391,6 +1392,7 @@ export async function getCachedDocsArtifact<T>(opts: {
   repo: string
 }) {
   assertValidDocsArtifactKey(opts)
+  if(ownsPublicationRepository(opts.repo,opts.gitRef,opts.docsRoot))return opts.build()
 
   const backend = await getCacheBackend()
   const cacheKey = getDocsArtifactBlobKey(opts)

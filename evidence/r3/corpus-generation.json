@@ -24,25 +24,21 @@
     "cli": 22,
     "workflow": 162
   },
-  "rendered": 0,
-  "reused": 14107,
+  "rendered": 14107,
+  "reused": 0,
   "emptyInputs": 1,
   "renderFailures": 0,
-  "pendingComponentFamilies": {
-    "live-example": 87,
-    "chart-example": 110,
-    "client-example": 14
-  },
-  "elapsedSeconds": 943.291251294,
+  "pendingComponentFamilies": {},
+  "elapsedSeconds": 946.150145823,
   "output": "public/<route>.html plus public/index.html; article fragments support native Router navigation",
   "siteShell": "Nift-published complete pages; declared session/shell slots evaluated at request time",
   "familyBindings": {
     "tabs": "native document controller",
     "codeCopy": "native controller with retained clipboard/toast",
     "mermaid": "scoped React island",
-    "liveExample": "pending notice",
-    "chartExample": "pending notice",
-    "clientExample": "pending notice",
+    "liveExample": "retained explicit component region; parity pending",
+    "chartExample": "retained explicit component region; parity pending",
+    "clientExample": "retained explicit component region; parity pending",
     "services": "shared owned server-function dispatcher; incomplete protocol/backend parity"
   },
   "scope": "Homepage plus documentation corpus; owned API families are separately compiled. Remaining application/marketing/service parity gaps stay in the ledger. No final parity or benchmark claim."

@@ -1,0 +1,7 @@
+{
+  "scope": "Real pinned Nift composition of root/named pages using production template; publication-integrity regression test, not upstream visual acceptance",
+  "rootAndNamedHeadIncludes": true,
+  "distinctHeadBodyJsonBindings": true,
+  "literalNiftSyntaxPreserved": true,
+  "literalUrlSuffixPreserved": true
+}

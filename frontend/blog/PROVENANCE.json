@@ -1,0 +1,5 @@
+{
+  "source": "src/routes/blog.$.tsx",
+  "sourceSha256": "438f3c0df3ffb8fc1a334b05793a2be69ff357cd859c7379bc0bea6768b946ba",
+  "adaptation": "Retained authored blog frame, source-derived metadata/headings and Nift-published article; upstream Route instance removed; article activation uses shared explicit owners. Integrated into normal corpus publication; runtime/visual parity remains open."
+}

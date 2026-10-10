@@ -1,0 +1,145 @@
+{
+  "scope": "Desktop visible text/title cross-section across all 14 marketing paths; exact visual/interaction/head acceptance remains separate",
+  "records": [
+    {
+      "pathname": "/ads",
+      "referenceStatus": 200,
+      "candidateStatus": 200,
+      "visibleTextEqual": true,
+      "referenceTitle": "Ads & Partnerships | TanStack",
+      "candidateTitle": "Ads & Partnerships | TanStack",
+      "referenceHash": "c02e5f3cc349669905d58ec13d326165c6e2bee29313e78bc5fe21cc0a6e8dba",
+      "candidateHash": "c02e5f3cc349669905d58ec13d326165c6e2bee29313e78bc5fe21cc0a6e8dba"
+    },
+    {
+      "pathname": "/brand-guide",
+      "referenceStatus": 200,
+      "candidateStatus": 200,
+      "visibleTextEqual": true,
+      "referenceTitle": "TanStack Brand Assets",
+      "candidateTitle": "TanStack Brand Assets",
+      "referenceHash": "a7200996af00ad6e9a99ebac9c33b27ca73b70330d3c3967b1937d065d522225",
+      "candidateHash": "a7200996af00ad6e9a99ebac9c33b27ca73b70330d3c3967b1937d065d522225"
+    },
+    {
+      "pathname": "/ethos",
+      "referenceStatus": 200,
+      "candidateStatus": 200,
+      "visibleTextEqual": true,
+      "referenceTitle": "TanStack Ethos",
+      "candidateTitle": "TanStack Ethos",
+      "referenceHash": "8938ca71a806d5f0908743c677cb924bb20bfea3b16e4124a76d008dd3f2c6ea",
+      "candidateHash": "8938ca71a806d5f0908743c677cb924bb20bfea3b16e4124a76d008dd3f2c6ea"
+    },
+    {
+      "pathname": "/learn",
+      "referenceStatus": 200,
+      "candidateStatus": 200,
+      "visibleTextEqual": true,
+      "referenceTitle": "Learn | TanStack",
+      "candidateTitle": "Learn | TanStack",
+      "referenceHash": "50d40d245786fab2668e5138de124657b48b6b7006c2ee6a04ff6f03e17f7232",
+      "candidateHash": "50d40d245786fab2668e5138de124657b48b6b7006c2ee6a04ff6f03e17f7232"
+    },
+    {
+      "pathname": "/merch",
+      "referenceStatus": 200,
+      "candidateStatus": 200,
+      "visibleTextEqual": true,
+      "referenceTitle": "TanStack Merch",
+      "candidateTitle": "TanStack Merch",
+      "referenceHash": "2374d52cd9481fbff02c7f215e14f6794538641535abbd88772ea253a7d4b5a2",
+      "candidateHash": "2374d52cd9481fbff02c7f215e14f6794538641535abbd88772ea253a7d4b5a2"
+    },
+    {
+      "pathname": "/paid-support",
+      "referenceStatus": 200,
+      "candidateStatus": 200,
+      "visibleTextEqual": true,
+      "referenceTitle": "Enterprise Support | TanStack",
+      "candidateTitle": "Enterprise Support | TanStack",
+      "referenceHash": "18c5b46bc8f3a76b5dc8d9c12404d053e61008a6efb533c7037ddba1def7e253",
+      "candidateHash": "18c5b46bc8f3a76b5dc8d9c12404d053e61008a6efb533c7037ddba1def7e253"
+    },
+    {
+      "pathname": "/privacy",
+      "referenceStatus": 200,
+      "candidateStatus": 200,
+      "visibleTextEqual": true,
+      "referenceTitle": "Privacy Policy",
+      "candidateTitle": "Privacy Policy",
+      "referenceHash": "ec3c7a6116333ea91b3ce2344a7b7336a0157e0661cbba62ed4bbb5a3a4c9328",
+      "candidateHash": "ec3c7a6116333ea91b3ce2344a7b7336a0157e0661cbba62ed4bbb5a3a4c9328"
+    },
+    {
+      "pathname": "/support",
+      "referenceStatus": 200,
+      "candidateStatus": 200,
+      "visibleTextEqual": true,
+      "referenceTitle": "Support | TanStack",
+      "candidateTitle": "Support | TanStack",
+      "referenceHash": "4b5d85e459430c6e49047fb61918f232a324cc65c73ca9aebb170db296bbe902",
+      "candidateHash": "4b5d85e459430c6e49047fb61918f232a324cc65c73ca9aebb170db296bbe902"
+    },
+    {
+      "pathname": "/tenets",
+      "referenceStatus": 200,
+      "candidateStatus": 200,
+      "visibleTextEqual": true,
+      "referenceTitle": "TanStack Product Tenets",
+      "candidateTitle": "TanStack Product Tenets",
+      "referenceHash": "7aab46517ab0518697d2f4b77aeb827b4170669dd26a6a765608ca7da33abca1",
+      "candidateHash": "7aab46517ab0518697d2f4b77aeb827b4170669dd26a6a765608ca7da33abca1"
+    },
+    {
+      "pathname": "/terms",
+      "referenceStatus": 200,
+      "candidateStatus": 200,
+      "visibleTextEqual": true,
+      "referenceTitle": "Terms of Service",
+      "candidateTitle": "Terms of Service",
+      "referenceHash": "31de8c6909b8d8523956d40fc8a6fd1406511eadef3caf9ffa3e90c5871f9e8a",
+      "candidateHash": "31de8c6909b8d8523956d40fc8a6fd1406511eadef3caf9ffa3e90c5871f9e8a"
+    },
+    {
+      "pathname": "/partners-embed",
+      "referenceStatus": 200,
+      "candidateStatus": 200,
+      "visibleTextEqual": true,
+      "referenceTitle": "TanStack | High Quality Open-Source Software for Web Developers",
+      "candidateTitle": "",
+      "referenceHash": "3809942f811218b97d1dcb6f3865fcac1d9e3c92dd3ec655f5e8f966c7f99880",
+      "candidateHash": "3809942f811218b97d1dcb6f3865fcac1d9e3c92dd3ec655f5e8f966c7f99880"
+    },
+    {
+      "pathname": "/partners/netlify",
+      "referenceStatus": 200,
+      "candidateStatus": 200,
+      "visibleTextEqual": true,
+      "referenceTitle": "Deploy TanStack to Netlify — Official Gold Partner",
+      "candidateTitle": "Deploy TanStack to Netlify — Official Gold Partner",
+      "referenceHash": "48f4f47c40df5338766af9039c4806aadc2c601c54fc2e2f3cccaa38ff7d23f0",
+      "candidateHash": "48f4f47c40df5338766af9039c4806aadc2c601c54fc2e2f3cccaa38ff7d23f0"
+    },
+    {
+      "pathname": "/partners/railway",
+      "referenceStatus": 200,
+      "candidateStatus": 200,
+      "visibleTextEqual": true,
+      "referenceTitle": "Deploy TanStack to Railway | Gold TanStack Partner",
+      "candidateTitle": "Deploy TanStack to Railway | Gold TanStack Partner",
+      "referenceHash": "dbe322cf0689628bbea6d92d5324ce9a4c3f21816b47ac06a7d38cb124da08fe",
+      "candidateHash": "dbe322cf0689628bbea6d92d5324ce9a4c3f21816b47ac06a7d38cb124da08fe"
+    },
+    {
+      "pathname": "/partners/render",
+      "referenceStatus": 200,
+      "candidateStatus": 200,
+      "visibleTextEqual": true,
+      "referenceTitle": "Deploy TanStack to Render | Gold TanStack Partner",
+      "candidateTitle": "Deploy TanStack to Render | Gold TanStack Partner",
+      "referenceHash": "4cca32b840cec743bfeebdb6f2b39ccfd6adb75dd0d446248998c3f4c59fa82a",
+      "candidateHash": "4cca32b840cec743bfeebdb6f2b39ccfd6adb75dd0d446248998c3f4c59fa82a"
+    }
+  ]
+}

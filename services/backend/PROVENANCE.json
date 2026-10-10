@@ -874,5 +874,15 @@
       "function": "getWorkshopSeed",
       "scope": "Unchanged createServerFn declaration; page component excluded"
     }
+  ],
+  "adaptations": [
+    {
+      "file": "src/utils/documents.server.ts",
+      "reason": "Explicit injected maintained raw-source and indexed directory provider before external fetch. Original refs/frontmatter/transforms retained; indexed docs bypass the remote GitHub cache so local source edits remain authoritative. Ownership is bounded to known files and docs roots; unrelated examples/workspaces retain the original transport."
+    },
+    {
+      "file": "src/utils/github-content-cache.server.ts",
+      "reason": "Owned publication source bypasses remote artifact cache namespaces; original validation and external cache behavior retained."
+    }
   ]
 }

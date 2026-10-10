@@ -1,0 +1,205 @@
+{
+  "upstreamCommit": "862ccc3d191818320c3e6d217542883f80cb907a",
+  "scope": "One-time owned static/shared marketing view extraction; no route tree or runtime source import",
+  "files": [
+    {
+      "source": "src/routes/ads.tsx",
+      "path": "/ads",
+      "component": "RouteComp",
+      "options": [
+        "component",
+        "head"
+      ],
+      "routeHooks": [],
+      "bytes": 10708,
+      "output": "frontend/marketing/views/ads.tsx",
+      "sourceSha256": "231a558f0b61c640c876b7c57b6eb1c7b229d6bcf2614e2cae51f8575bdeb90d",
+      "adaptation": "Route-independent authored JSX view; root native publication + declared functional/control regions; original metadata callback retained"
+    },
+    {
+      "source": "src/routes/brand-guide.tsx",
+      "path": "/brand-guide",
+      "component": "BrandGuidePage",
+      "options": [
+        "component",
+        "head"
+      ],
+      "routeHooks": [],
+      "bytes": 3743,
+      "output": "frontend/marketing/views/brand-guide.tsx",
+      "sourceSha256": "ac04ae3a063f86fd26c8e8663f283aca1e0670207da24cbd42caf4bd8f2d7be3",
+      "adaptation": "Route-independent authored JSX view; root native publication + declared functional/control regions; original metadata callback retained"
+    },
+    {
+      "source": "src/routes/ethos.tsx",
+      "path": "/ethos",
+      "component": "RouteComp",
+      "options": [
+        "component",
+        "head"
+      ],
+      "routeHooks": [],
+      "bytes": 8263,
+      "output": "frontend/marketing/views/ethos.tsx",
+      "sourceSha256": "8dcdc76e34868a3592fdae8ff12a3a34becfc168cbca2db0df67fc33078b0639",
+      "adaptation": "Route-independent authored JSX view; root native publication + declared functional/control regions; original metadata callback retained"
+    },
+    {
+      "source": "src/routes/learn.tsx",
+      "path": "/learn",
+      "component": "LearnPage",
+      "options": [
+        "component",
+        "head"
+      ],
+      "routeHooks": [],
+      "bytes": 7725,
+      "output": "frontend/marketing/views/learn.tsx",
+      "sourceSha256": "0972b045c45c613d0abda2cc0fc0833cd4a3188758dd38cc5f8a4d4edc86de89",
+      "adaptation": "Route-independent authored JSX view; root native publication + declared functional/control regions; original metadata callback retained"
+    },
+    {
+      "source": "src/routes/merch.tsx",
+      "path": "/merch",
+      "component": "RouteComp",
+      "options": [
+        "component",
+        "head"
+      ],
+      "routeHooks": [],
+      "bytes": 5003,
+      "output": "frontend/marketing/views/merch.tsx",
+      "sourceSha256": "bdbaf85fe8e2b448d6bb19e6a1dcf3e9d80d44e79c85301e23a473201487c393",
+      "adaptation": "Route-independent authored JSX view; root native publication + declared functional/control regions; original metadata callback retained"
+    },
+    {
+      "source": "src/routes/paid-support.tsx",
+      "path": "/paid-support",
+      "component": "PaidSupportComp",
+      "options": [
+        "component",
+        "staleTime",
+        "head"
+      ],
+      "routeHooks": [],
+      "bytes": 7403,
+      "output": "frontend/marketing/views/paid-support.tsx",
+      "sourceSha256": "c9c7855001012238730f708a137d1f69e4613ae8466f548d0521c5e7660d18af",
+      "adaptation": "Route-independent authored JSX view; root native publication + declared functional/control regions; original metadata callback retained; maintainer grid declared as a stateful region, retaining authored heading and surrounding native content"
+    },
+    {
+      "source": "src/routes/privacy.tsx",
+      "path": "/privacy",
+      "component": "RouteComp",
+      "options": [
+        "component",
+        "head"
+      ],
+      "routeHooks": [],
+      "bytes": 9421,
+      "output": "frontend/marketing/views/privacy.tsx",
+      "sourceSha256": "fa55695851bcfe2eef92801684bbe63ebaae0ee6c9f06158481e6fa3f5fc33c1",
+      "adaptation": "Route-independent authored JSX view; root native publication + declared functional/control regions; original metadata callback retained"
+    },
+    {
+      "source": "src/routes/support.tsx",
+      "path": "/support",
+      "component": "SupportComp",
+      "options": [
+        "component",
+        "head"
+      ],
+      "routeHooks": [],
+      "bytes": 3971,
+      "output": "frontend/marketing/views/support.tsx",
+      "sourceSha256": "57382fbef4017a1e2e5334b85f28a7808c6ffdf1f676d5685a3a01dfbbe0e060",
+      "adaptation": "Route-independent authored JSX view; root native publication + declared functional/control regions; original metadata callback retained"
+    },
+    {
+      "source": "src/routes/tenets.tsx",
+      "path": "/tenets",
+      "component": "RouteComp",
+      "options": [
+        "component",
+        "head"
+      ],
+      "routeHooks": [],
+      "bytes": 14160,
+      "output": "frontend/marketing/views/tenets.tsx",
+      "sourceSha256": "78a049efb734e165a30150b5ac729a44010db0fa8c5ec06dc8cabc46b49c32cf",
+      "adaptation": "Route-independent authored JSX view; root native publication + declared functional/control regions; original metadata callback retained"
+    },
+    {
+      "source": "src/routes/terms.tsx",
+      "path": "/terms",
+      "component": "RouteComp",
+      "options": [
+        "component",
+        "head"
+      ],
+      "routeHooks": [],
+      "bytes": 8564,
+      "output": "frontend/marketing/views/terms.tsx",
+      "sourceSha256": "8ff09e0fcebc057d1398b4e538d46c9a14d69c4c7521305f90e3ada769555a45",
+      "adaptation": "Route-independent authored JSX view; root native publication + declared functional/control regions; original metadata callback retained"
+    },
+    {
+      "source": "src/routes/partners-embed.tsx",
+      "path": "/partners-embed",
+      "component": "PartnersEmbed",
+      "options": [
+        "staleTime",
+        "headers",
+        "staticData",
+        "component"
+      ],
+      "routeHooks": [],
+      "bytes": 1208,
+      "output": "frontend/marketing/views/partners-embed.tsx",
+      "sourceSha256": "20d3c345004ef41acb8f4b84f01b4692260cb388ffc5745730cc40e7aa500df8",
+      "adaptation": "Route-independent authored JSX view; root native publication + declared functional/control regions; original metadata callback retained"
+    },
+    {
+      "source": "src/routes/partners.netlify.tsx",
+      "path": "/partners/netlify",
+      "component": "NetlifyPartnerPage",
+      "options": [
+        "head",
+        "component"
+      ],
+      "routeHooks": [],
+      "bytes": 30224,
+      "output": "frontend/marketing/views/partners.netlify.tsx",
+      "sourceSha256": "68da8dc8944d890eb33579518c65cf17b34fd70e31ecdd2178dd6405a750b956",
+      "adaptation": "Route-independent authored JSX view; root native publication + declared functional/control regions; original metadata callback retained"
+    },
+    {
+      "source": "src/routes/partners.railway.tsx",
+      "path": "/partners/railway",
+      "component": "RailwayPartnerPage",
+      "options": [
+        "head",
+        "component"
+      ],
+      "routeHooks": [],
+      "bytes": 29296,
+      "output": "frontend/marketing/views/partners.railway.tsx",
+      "sourceSha256": "17cd0b082a444442f17d475ff7d01fed16b5e3fed796b2d7f8859581e0e7c96a",
+      "adaptation": "Route-independent authored JSX view; root native publication + declared functional/control regions; original metadata callback retained"
+    },
+    {
+      "source": "src/routes/partners.render.tsx",
+      "path": "/partners/render",
+      "component": "RenderPartnerPage",
+      "options": [
+        "head",
+        "component"
+      ],
+      "routeHooks": [],
+      "bytes": 29965,
+      "output": "frontend/marketing/views/partners.render.tsx",
+      "sourceSha256": "96aa7270986eff86ae241b9c4c084d23db8b3ffd02aa9d7c0e90f61384ee5d64",
+      "adaptation": "Route-independent authored JSX view; root native publication + declared functional/control regions; original metadata callback retained"
+    }
+  ]
+}

@@ -1,3 +1,5 @@
+import {publicationBlogHead} from 'owned-blog/BlogPost'
+import {marketingViews} from 'owned-marketing/MarketingPublication'
 import React from 'react'
 import {PassThrough} from 'node:stream'
 import {renderToPipeableStream,renderToString} from 'react-dom/server'
@@ -25,3 +27,7 @@ export async function renderShell(initialPath:string,initialHtml:string,initialU
 }
 
 export {createPartnerPlacementSessionSeed} from 'retained-ui/utils/partner-placement'
+
+export function marketingMetadata(){return Object.entries(marketingViews).map(([pathname,view])=>{const head=view.publicationHead(),title=head.meta?.find((meta:any)=>meta.title)?.title??pathname;return {pathname,title,head,staticData:view.publicationStaticData,headers:view.publicationHeaders()}})}
+
+export function blogMetadata(post:any){return publicationBlogHead({loaderData:post})}

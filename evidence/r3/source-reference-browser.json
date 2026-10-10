@@ -1,0 +1,26 @@
+{
+  "scope": "Three real reference-derived source families; pinned local upstream versus current publication. Visible text only, not full visual or interaction acceptance.",
+  "records": [
+    {
+      "pathname": "/query/latest/docs/framework/angular/guides/default-query-function",
+      "referenceStatus": 200,
+      "candidateStatus": 200,
+      "visibleBodyTextByteEqual": true,
+      "bodySha256": "2d127e49af97596931e22b34ffde6baf1897b40ed0abf3b6ec82b10e0c251bce"
+    },
+    {
+      "pathname": "/query/latest/docs/framework/preact/overview",
+      "referenceStatus": 200,
+      "candidateStatus": 200,
+      "visibleBodyTextByteEqual": true,
+      "bodySha256": "51cb69ce3a604088d983c16aaf3757db96a1cdaf919c51a313792741b4ef948f"
+    },
+    {
+      "pathname": "/query/latest/docs/framework/vue/guides/background-fetching-indicators",
+      "referenceStatus": 200,
+      "candidateStatus": 200,
+      "visibleBodyTextByteEqual": true,
+      "bodySha256": "5065fbef605a14e15ad7c4c3e26dfc243c5ce0e35037dfae2688e9c98b70ef3d"
+    }
+  ]
+}

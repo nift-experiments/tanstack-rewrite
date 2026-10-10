@@ -73,3 +73,21 @@ frontend/dist/
 
 /content/assets/
 /public/assets/index-CaKFzcjh.css
+
+# Regenerable family publication inputs and recovery marker.
+/content/_heads/
+/content/ads.html
+/content/brand-guide.html
+/content/ethos.html
+/content/learn.html
+/content/merch.html
+/content/paid-support.html
+/content/privacy.html
+/content/support.html
+/content/tenets.html
+/content/terms.html
+/content/partners-embed.html
+/content/partners/
+/.nift/.unfinished
+
+/content/blog/

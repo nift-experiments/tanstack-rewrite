@@ -1,0 +1,205 @@
+{
+  "scope": "Seven actual routes at desktop/mobile widths; availability and runtime error checks only, not interaction/visual acceptance",
+  "records": [
+    {
+      "pathname": "/blog/ag-grid-partnership",
+      "width": 1440,
+      "status": 200,
+      "title": "TanStack Table + Ag-Grid Partnership | TanStack Blog",
+      "componentKinds": [],
+      "headings": [
+        "TanStack Table + Ag-Grid Partnership"
+      ],
+      "errors": []
+    },
+    {
+      "pathname": "/blog/ag-ui-compliance",
+      "width": 1440,
+      "status": 200,
+      "title": "TanStack AI now fully speaks AG-UI | TanStack Blog",
+      "componentKinds": [],
+      "headings": [
+        "TanStack AI now fully speaks AG-UI"
+      ],
+      "errors": []
+    },
+    {
+      "pathname": "/blog/announcing-tanstack-form-v1",
+      "width": 1440,
+      "status": 200,
+      "title": "Announcing TanStack Form v1 | TanStack Blog",
+      "componentKinds": [],
+      "headings": [
+        "How to install#",
+        "A bit of history#",
+        "Features#",
+        "A look forward#",
+        "Thank you#"
+      ],
+      "errors": []
+    },
+    {
+      "pathname": "/blog/announcing-tanstack-form-v2-alpha",
+      "width": 1440,
+      "status": 200,
+      "title": "Form v2 is here: All you need to know about the alpha | TanStack Blog",
+      "componentKinds": [],
+      "headings": [
+        "Form v2 is here: All you need to know about the alpha"
+      ],
+      "errors": []
+    },
+    {
+      "pathname": "/charts/latest/docs/concepts/data-and-channels",
+      "width": 1440,
+      "status": 200,
+      "title": "Data and Channels",
+      "componentKinds": [
+        {
+          "kind": "live-example",
+          "children": 1
+        }
+      ],
+      "headings": [
+        "Data and Channels"
+      ],
+      "errors": []
+    },
+    {
+      "pathname": "/charts/latest/docs/examples/annotations-and-overlays",
+      "width": 1440,
+      "status": 200,
+      "title": "Annotations and Overlays",
+      "componentKinds": [
+        {
+          "kind": "chart-example",
+          "children": 1
+        },
+        {
+          "kind": "chart-example",
+          "children": 1
+        }
+      ],
+      "headings": [
+        "Annotations and Overlays"
+      ],
+      "errors": []
+    },
+    {
+      "pathname": "/ai/latest/docs/tutorials/basic-chat",
+      "width": 1440,
+      "status": 200,
+      "title": "Basic Chat",
+      "componentKinds": [
+        {
+          "kind": "client-example",
+          "children": 1
+        }
+      ],
+      "headings": [
+        "Basic Chat"
+      ],
+      "errors": []
+    },
+    {
+      "pathname": "/blog/ag-grid-partnership",
+      "width": 390,
+      "status": 200,
+      "title": "TanStack Table + Ag-Grid Partnership | TanStack Blog",
+      "componentKinds": [],
+      "headings": [
+        "TanStack Table + Ag-Grid Partnership"
+      ],
+      "errors": []
+    },
+    {
+      "pathname": "/blog/ag-ui-compliance",
+      "width": 390,
+      "status": 200,
+      "title": "TanStack AI now fully speaks AG-UI | TanStack Blog",
+      "componentKinds": [],
+      "headings": [
+        "TanStack AI now fully speaks AG-UI"
+      ],
+      "errors": []
+    },
+    {
+      "pathname": "/blog/announcing-tanstack-form-v1",
+      "width": 390,
+      "status": 200,
+      "title": "Announcing TanStack Form v1 | TanStack Blog",
+      "componentKinds": [],
+      "headings": [
+        "How to install#",
+        "A bit of history#",
+        "Features#",
+        "A look forward#",
+        "Thank you#"
+      ],
+      "errors": []
+    },
+    {
+      "pathname": "/blog/announcing-tanstack-form-v2-alpha",
+      "width": 390,
+      "status": 200,
+      "title": "Form v2 is here: All you need to know about the alpha | TanStack Blog",
+      "componentKinds": [],
+      "headings": [
+        "Form v2 is here: All you need to know about the alpha"
+      ],
+      "errors": []
+    },
+    {
+      "pathname": "/charts/latest/docs/concepts/data-and-channels",
+      "width": 390,
+      "status": 200,
+      "title": "Data and Channels",
+      "componentKinds": [
+        {
+          "kind": "live-example",
+          "children": 1
+        }
+      ],
+      "headings": [
+        "Data and Channels"
+      ],
+      "errors": []
+    },
+    {
+      "pathname": "/charts/latest/docs/examples/annotations-and-overlays",
+      "width": 390,
+      "status": 200,
+      "title": "Annotations and Overlays",
+      "componentKinds": [
+        {
+          "kind": "chart-example",
+          "children": 1
+        },
+        {
+          "kind": "chart-example",
+          "children": 1
+        }
+      ],
+      "headings": [
+        "Annotations and Overlays"
+      ],
+      "errors": []
+    },
+    {
+      "pathname": "/ai/latest/docs/tutorials/basic-chat",
+      "width": 390,
+      "status": 200,
+      "title": "Basic Chat",
+      "componentKinds": [
+        {
+          "kind": "client-example",
+          "children": 1
+        }
+      ],
+      "headings": [
+        "Basic Chat"
+      ],
+      "errors": []
+    }
+  ]
+}

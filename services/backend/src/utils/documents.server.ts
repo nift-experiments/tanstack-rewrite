@@ -1,3 +1,4 @@
+import {readPublicationDocumentSource,ownsPublicationRepository,readPublicationDocumentTree} from '~/server/publication/document-source.server'
 import fs from 'node:fs'
 import fsp from 'node:fs/promises'
 import os from 'node:os'
@@ -117,6 +118,8 @@ async function fetchRemote(
   ref: string,
   filepath: string,
 ) {
+  const maintained=await readPublicationDocumentSource(owner+'/'+repo,ref,filepath)
+  if(maintained!==undefined)return maintained
   const href = new URL(
     `${owner}/${repo}/${ref}/${filepath}`,
     'https://raw.githubusercontent.com/',
@@ -595,6 +598,7 @@ export async function fetchRepoRawFile(
     throw new InvalidCacheKeyError('path', filepath)
   }
 
+  if(ownsPublicationRepository(repoPair,ref,filepath))return readPublicationDocumentSource(repoPair,ref,filepath)
   const key = `raw:${repoPair}:${ref}:${filepath}`
 
   if (shouldUseLocalDocsFiles()) {
@@ -650,6 +654,7 @@ export async function fetchRepoFile(
   ref: string,
   filepath: string,
 ) {
+  if(ownsPublicationRepository(repoPair,ref,filepath))return fetchRepoFileFromOrigin(repoPair,ref,filepath)
   const key = `${repoPair}:${ref}:${filepath}`
 
   if (shouldUseLocalDocsFiles()) {
@@ -1319,7 +1324,7 @@ export async function fetchGitHubRecursiveTree(repo: string, branch: string) {
 }
 
 function buildFileTreeFromRecursiveTree(
-  tree: Array<GitHubTreeEntry>,
+  tree: Array<Pick<GitHubTreeEntry, 'path' | 'type'>>,
   startingPath: string,
 ): Array<GitHubFileNode> | null {
   const normalizedStart = removeLeadingSlash(startingPath).replace(/\/+$/g, '')
@@ -1342,7 +1347,7 @@ function buildFileTreeFromRecursiveTree(
     return null
   }
 
-  const childrenByParent = new Map<string, Array<GitHubTreeEntry>>()
+  const childrenByParent = new Map<string, Array<Pick<GitHubTreeEntry, 'path' | 'type'>>>()
 
   for (const entry of scopedEntries) {
     if (entry.path === normalizedStart) {
@@ -1405,6 +1410,8 @@ export function fetchApiContents(
   branch: string,
   startingPath: string,
 ) {
+  const publicationTree=readPublicationDocumentTree(repoPair,branch,startingPath)
+  if(publicationTree!==undefined)return Promise.resolve(buildFileTreeFromRecursiveTree(publicationTree,startingPath))
   if (shouldUseLocalDocsFiles()) {
     return fetchCached({
       key: `${repoPair}:${branch}:${startingPath}`,

@@ -1,0 +1,16 @@
+{
+  "upstreamCommit": "862ccc3d191818320c3e6d217542883f80cb907a",
+  "source": "services/backend/src/utils/documents.server.ts",
+  "sourceSha256": "0f8b046eca9e8fac3692d80d23ff66e00cf57adba517350b26e4bfcd259c5f8e",
+  "functions": [
+    "replaceContent",
+    "replaceSections",
+    "replaceProjectImageBranch",
+    "parseFrontMatter",
+    "isRecord",
+    "normalizeFrontMatterData",
+    "toFrontMatterValue"
+  ],
+  "scope": "Unchanged pinned pure Markdown source semantics; networking, caching, database and general server behavior excluded",
+  "adaptations": "Only import/type declarations and exports"
+}

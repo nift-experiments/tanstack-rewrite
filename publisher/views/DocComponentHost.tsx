@@ -1,0 +1,2 @@
+import * as React from 'react'
+export function DocComponentHost({kind,properties,children}:{kind:string;properties:any;children?:React.ReactNode}){const fields=kind==='live-example'?['data-group','data-collapsed-indexes','data-workspace']:['data-attributes'];const projected=Object.fromEntries(fields.filter(name=>properties[name]!==undefined).map(name=>[name,properties[name]]));return <div style={{display:'contents'}} data-doc-component-source={kind} data-doc-props={JSON.stringify(projected)}>{children}</div>}

@@ -1,0 +1,258 @@
+{
+  "scope": "Availability/hydration plus native heading and paid-support state checks, 14 marketing routes at desktop/mobile. Broken external assets, exact visuals, metadata and other interactions remain separate parity gates.",
+  "states": 28,
+  "results": [
+    {
+      "pathname": "/ads",
+      "width": 1440,
+      "status": 200,
+      "title": "Ads & Partnerships | TanStack",
+      "nativeHeadingPreserved": true,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "pathname": "/brand-guide",
+      "width": 1440,
+      "status": 200,
+      "title": "TanStack Brand Assets",
+      "nativeHeadingPreserved": true,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "pathname": "/ethos",
+      "width": 1440,
+      "status": 200,
+      "title": "TanStack Ethos",
+      "nativeHeadingPreserved": true,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "pathname": "/learn",
+      "width": 1440,
+      "status": 200,
+      "title": "Learn | TanStack",
+      "nativeHeadingPreserved": true,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "pathname": "/merch",
+      "width": 1440,
+      "status": 200,
+      "title": "TanStack Merch",
+      "nativeHeadingPreserved": true,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "pathname": "/paid-support",
+      "width": 1440,
+      "status": 200,
+      "title": "Enterprise Support | TanStack",
+      "nativeHeadingPreserved": true,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "pathname": "/privacy",
+      "width": 1440,
+      "status": 200,
+      "title": "Privacy Policy",
+      "nativeHeadingPreserved": true,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "pathname": "/support",
+      "width": 1440,
+      "status": 200,
+      "title": "Support | TanStack",
+      "nativeHeadingPreserved": true,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "pathname": "/tenets",
+      "width": 1440,
+      "status": 200,
+      "title": "TanStack Product Tenets",
+      "nativeHeadingPreserved": true,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "pathname": "/terms",
+      "width": 1440,
+      "status": 200,
+      "title": "Terms of Service",
+      "nativeHeadingPreserved": true,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "pathname": "/partners-embed",
+      "width": 1440,
+      "status": 200,
+      "title": "",
+      "nativeHeadingPreserved": null,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "pathname": "/partners/netlify",
+      "width": 1440,
+      "status": 200,
+      "title": "Deploy TanStack to Netlify \u2014 Official Gold Partner",
+      "nativeHeadingPreserved": true,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "pathname": "/partners/railway",
+      "width": 1440,
+      "status": 200,
+      "title": "Deploy TanStack to Railway | Gold TanStack Partner",
+      "nativeHeadingPreserved": true,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "pathname": "/partners/render",
+      "width": 1440,
+      "status": 200,
+      "title": "Deploy TanStack to Render | Gold TanStack Partner",
+      "nativeHeadingPreserved": true,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "pathname": "/ads",
+      "width": 390,
+      "status": 200,
+      "title": "Ads & Partnerships | TanStack",
+      "nativeHeadingPreserved": null,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "pathname": "/brand-guide",
+      "width": 390,
+      "status": 200,
+      "title": "TanStack Brand Assets",
+      "nativeHeadingPreserved": null,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "pathname": "/ethos",
+      "width": 390,
+      "status": 200,
+      "title": "TanStack Ethos",
+      "nativeHeadingPreserved": null,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "pathname": "/learn",
+      "width": 390,
+      "status": 200,
+      "title": "Learn | TanStack",
+      "nativeHeadingPreserved": null,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "pathname": "/merch",
+      "width": 390,
+      "status": 200,
+      "title": "TanStack Merch",
+      "nativeHeadingPreserved": null,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "pathname": "/paid-support",
+      "width": 390,
+      "status": 200,
+      "title": "Enterprise Support | TanStack",
+      "nativeHeadingPreserved": null,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "pathname": "/privacy",
+      "width": 390,
+      "status": 200,
+      "title": "Privacy Policy",
+      "nativeHeadingPreserved": null,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "pathname": "/support",
+      "width": 390,
+      "status": 200,
+      "title": "Support | TanStack",
+      "nativeHeadingPreserved": null,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "pathname": "/tenets",
+      "width": 390,
+      "status": 200,
+      "title": "TanStack Product Tenets",
+      "nativeHeadingPreserved": null,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "pathname": "/terms",
+      "width": 390,
+      "status": 200,
+      "title": "Terms of Service",
+      "nativeHeadingPreserved": null,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "pathname": "/partners-embed",
+      "width": 390,
+      "status": 200,
+      "title": "",
+      "nativeHeadingPreserved": null,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "pathname": "/partners/netlify",
+      "width": 390,
+      "status": 200,
+      "title": "Deploy TanStack to Netlify \u2014 Official Gold Partner",
+      "nativeHeadingPreserved": null,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "pathname": "/partners/railway",
+      "width": 390,
+      "status": 200,
+      "title": "Deploy TanStack to Railway | Gold TanStack Partner",
+      "nativeHeadingPreserved": null,
+      "brokenImages": [],
+      "errors": []
+    },
+    {
+      "pathname": "/partners/render",
+      "width": 390,
+      "status": 200,
+      "title": "Deploy TanStack to Render | Gold TanStack Partner",
+      "nativeHeadingPreserved": null,
+      "brokenImages": [],
+      "errors": []
+    }
+  ]
+}
