@@ -1,0 +1,15 @@
+{
+  "scope": "Full nested/orphan Rspack publication-SSR module graph; official macro compiler and generated RPC clients allowed, API implementations excluded",
+  "excluded": [
+    "tanstack-upstream/src/",
+    "tss-serverfn-split",
+    "content-collections",
+    "/services/upstream/",
+    "/services/protocol-proof/src/auth-bindings.server",
+    "/publisher/",
+    "/frontend/retained/src/routes/"
+  ],
+  "module_identifiers_checked": 29931,
+  "api_provider_build_performed": false,
+  "start_site_server_plugin_used": false
+}

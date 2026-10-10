@@ -6,4 +6,4 @@ The browser-only build contains no original source worktree, route modules, serv
 
 The local service proof owns auth definitions/protocol. One observed GET endpoint remains a controlled upstream service oracle. This does not certify the complete replacement backend. Public Algolia read queries and badge responses are header-free snapshots under fixtures; ordinary proof runs replay them and reject missing fixtures. Explicit CAPTURE_PUBLIC_FIXTURES=1 permits capturing additional public read responses. Their capture dates are distinct from the pinned source revision.
 
-Full SSR/hydration, layout/sidebar/footer, route coverage, production CSS/fonts, real provider/database/chat integration and R3 acceptance remain pending. These are feasibility receipts, not benchmark numbers.
+The companion ../ssr-proof now proves request-local Navbar SSR/hydration, no-JavaScript article visibility, pre-hydration HTML-only edits, signed/anonymous request context and the account menu. Full layout/sidebar/footer, route coverage, production CSS/fonts, real provider/database/chat integration and R3 acceptance remain pending. These are feasibility receipts, not benchmark numbers.

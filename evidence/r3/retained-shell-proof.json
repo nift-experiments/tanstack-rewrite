@@ -1,5 +1,11 @@
 {
   "scope": "Owned byte-preserved Navbar/providers in a CSR-only feasibility shell, owned publication boundary and local auth API; complete SSR/HTML/shell/route/search/service parity remains pending",
+  "ssr_article_and_navigation_available_without_javascript": false,
+  "html_only_edit_and_node_identity_survive_hydration": false,
+  "publication_serializer_passes": 0,
+  "request_local_router_and_query_client": false,
+  "fresh_signed_and_anonymous_request_contexts": false,
+  "signed_context_hydrates_without_errors": false,
   "nift_composed_article_html": true,
   "actual_router_navigation_uses_published_html": true,
   "return_navigation_reads_fresh_publication": true,
@@ -15,10 +21,6 @@
     {
       "key": "b3e44f3f3c90cef6a7953de28e0e6b60bdd446692a2d7ed1aa14ceeb2e08724e",
       "fixture_sha256": "eeaf2c8a4877bce58663318a001d75f9584704dcec4965667f06212b159faa36"
-    },
-    {
-      "key": "656bbcd8649853bcf66c6631cbaf492b4f310c2c6aed4caa754a833bfcd4a6f3",
-      "fixture_sha256": "db8accc5724151d19a86b68b298984d2a341c6819f03d2a4ed6c188def3b3c4c"
     }
   ],
   "upstream_service_oracle_calls": [

@@ -1,5 +1,5 @@
 import React from 'react'
-import {createRoot} from 'react-dom/client'
+import {createRoot,hydrateRoot} from 'react-dom/client'
 import {RouterProvider} from '@tanstack/react-router'
 import {getRouter} from './router'
-const router=getRouter();await router.load();createRoot(document.querySelector('#shell')!).render(<RouterProvider router={router}/>);document.documentElement.dataset.shellProof='ready'
+const host=document.querySelector('#shell')!;const requestContext=JSON.parse(document.querySelector('#shell-request-context')?.textContent??'{}');const router=getRouter(host.hasAttribute('data-ssr')?{initialPath:location.pathname,initialUser:requestContext.user,initialHtml:host.querySelector('[data-published-region]')!.innerHTML}:{});if(host.hasAttribute('data-ssr'))router.ssr={manifest:undefined};await router.load();if(host.hasAttribute('data-ssr'))hydrateRoot(host,<RouterProvider router={router}/>,{onRecoverableError:error=>console.error('Retained shell hydration error',error)});else createRoot(host).render(<RouterProvider router={router}/>);document.documentElement.dataset.shellProof='ready'

@@ -1,0 +1,6 @@
+import fs from 'node:fs';import assert from 'node:assert/strict';
+const manifest=JSON.parse(fs.readFileSync('../tanstack-rewrite-baseline/ssr-module-manifests/publication.json','utf8')),identifiers=[];
+function walk(value){if(Array.isArray(value))value.forEach(walk);else if(value&&typeof value==='object'){for(const key of ['identifier','nameForCondition'])if(typeof value[key]==='string')identifiers.push(value[key]);Object.values(value).forEach(walk)}}walk(manifest);
+const rejected=['tanstack-upstream/src/','tss-serverfn-split','content-collections','/services/upstream/','/services/protocol-proof/src/auth-bindings.server','/publisher/','/frontend/retained/src/routes/'];
+for(const needle of rejected)assert.deepEqual(identifiers.filter(name=>name.includes(needle)),[],'Publication SSR imported excluded implementation: '+needle);
+fs.writeFileSync('evidence/r3/publication-ssr-import-boundary.json',JSON.stringify({scope:'Full nested/orphan Rspack publication-SSR module graph; official macro compiler and generated RPC clients allowed, API implementations excluded',excluded:rejected,module_identifiers_checked:identifiers.length,api_provider_build_performed:false,start_site_server_plugin_used:false},null,2)+'\n');console.log('Publication SSR import graph excludes corpus/parser/original routes/API implementations')
