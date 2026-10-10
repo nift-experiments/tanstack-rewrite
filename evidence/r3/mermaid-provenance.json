@@ -1,0 +1,11 @@
+{
+  "upstream_commit": "862ccc3d191818320c3e6d217542883f80cb907a",
+  "path": "src/components/markdown/MermaidBlock.tsx",
+  "original_sha256": "a84d7069aa25476b69cdc509777081c816dd03ea6acd2b0392e1cf06b9d6089b",
+  "adaptations": [
+    "Imports use the owned code-block view/shared helper",
+    "Initial client theme reads the document class, avoiding conflicting false/dark global Mermaid startup configurations; SSR remains false/loading",
+    "Each scoped hydrateRoot receives a unique identifierPrefix to prevent duplicate useId-derived diagram IDs across roots"
+  ],
+  "remaining": "Fallback copy/toast owner and full shell/light/pixel parity remain pending"
+}

@@ -11,6 +11,11 @@
       "maintained_path": "anthropic.md",
       "pinned_input": "../tanstack/sources/docs/tanstack--ai--main/docs/adapters/anthropic.md",
       "sha256": "24c33a84e89c9598790e8a313d97f6017e7da3554522f8e503334d10274ed758"
+    },
+    {
+      "maintained_path": "agentic-cycle.md",
+      "pinned_input": "../tanstack/sources/docs/tanstack--ai--main/docs/chat/agentic-cycle.md",
+      "sha256": "ba6c5b2f69b49e54f3cd0f0606b429a0e4e5ac960cc368eb56b37704149f6311"
     }
   ]
 }

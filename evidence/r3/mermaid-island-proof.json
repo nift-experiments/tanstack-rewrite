@@ -1,0 +1,16 @@
+{
+  "scope": "Two real AI agentic-cycle diagrams, Nift raw composition and retained scoped Mermaid React owner; exact dark reference SVG equality; whole-page design, light reference and pixel parity pending",
+  "source_sha256": "ba6c5b2f69b49e54f3cd0f0606b429a0e4e5ac960cc368eb56b37704149f6311",
+  "diagrams": 2,
+  "dark_svg_equal": true,
+  "external_styles_excluded_from_candidate_fragment": [
+    "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@300;400;500;600;700&display=swap"
+  ],
+  "external_style_scope": "Upstream Google font stylesheet transport is blocked in reference fixtures and is outside this isolated diagram proof; whole-page font parity remains pending",
+  "svg_normalization": "Bijective declared ID values and matching references only; geometry, text, styles and paths retained",
+  "mermaid_version": "11.14.0",
+  "scoped_roots_activated": true,
+  "dark_to_light_rerender": true,
+  "article_mutation_preserved": true,
+  "hydration_or_browser_errors": []
+}

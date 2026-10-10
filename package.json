@@ -21,13 +21,15 @@
     "proof:package-controls": "node scripts/proof-package-controls.mjs",
     "proof:framework-preferences": "node scripts/proof-framework-preferences.mjs",
     "proof:api-protocol": "node scripts/proof-api-protocol.mjs",
-    "proof:api-imports": "node scripts/audit-api-imports.mjs"
+    "proof:api-imports": "node scripts/audit-api-imports.mjs",
+    "proof:mermaid-island": "node scripts/proof-mermaid-island.mjs"
   },
   "dependencies": {
     "@phosphor-icons/react": "2.1.10",
     "@tanstack/highlight": "1.0.0",
     "@tanstack/markdown": "1.0.0",
     "@tanstack/react-router": "1.170.41",
+    "mermaid": "11.14.0",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "tailwind-merge": "3.5.0",

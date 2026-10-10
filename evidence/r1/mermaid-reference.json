@@ -1,0 +1,11 @@
+{
+  "route": "/ai/latest/docs/chat/agentic-cycle",
+  "width": 1440,
+  "theme": "dark",
+  "status": 200,
+  "errors": [],
+  "html": "%2Fai%2Flatest%2Fdocs%2Fchat%2Fagentic-cycle-1440-dark.html",
+  "html_sha256": "331aa9e6ca884b64999eb1e3106d16a2ce13988f1531df2de89ee4f1558d9bfc",
+  "screenshot": "%2Fai%2Flatest%2Fdocs%2Fchat%2Fagentic-cycle-1440-dark.png",
+  "scope": "Additional frozen reference only; candidate certification separate"
+}
