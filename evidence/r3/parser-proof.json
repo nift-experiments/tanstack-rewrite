@@ -21,6 +21,13 @@
       "exact_ast_equal": true,
       "headings": 7,
       "blocks": 46
+    },
+    {
+      "file": "sources/representative/tanstack--router--rendering-markdown.md",
+      "source_sha256": "2dd9b65697fcc5e56b11c1aeb0480e73877e258708c892c32fea2de23a191147",
+      "exact_ast_equal": true,
+      "headings": 16,
+      "blocks": 49
     }
   ]
 }

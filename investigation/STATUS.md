@@ -6,20 +6,20 @@ Mark each phase: not started / in progress / blocked / done.
 
 | Phase | Status | Acceptance criteria | Required evidence | Commands | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 1 Understand old product | | | | | |
-| 2 Freeze design/behaviour reference | | | | | |
-| 3 Inventory content/routes/features | | | | | |
-| 4 Extract requirements | | | | | |
-| 5 Choose Nift-native architecture | | | | | |
-| 6 Prove representative vertical slice | | | | | |
-| 7 Rebuild shared structure | | | | | |
-| 8 Rebuild full corpus | | | | | |
-| 9 Validate design/behaviour parity | | | | | |
-| 10 Performance campaign | | | | | |
-| 11 Full parity revalidation | | | | | |
-| 12 Final benchmarks | | | | | |
-| 13 Clean-checkout proof | | | | | |
-| 14 Handover | | | | | |
+| 1 Understand old product | in progress | Public/source understanding established; full service traces pending | evidence/r1 and evidence/r3 where applicable | See package.json proof commands | See checkpoint notes |
+| 2 Freeze design/behaviour reference | in progress | Frozen 96 states plus separately frozen literal guide; full critical-state freeze pending | evidence/r1 and evidence/r3 where applicable | See package.json proof commands | See checkpoint notes |
+| 3 Inventory content/routes/features | done | 314 patterns, 7601 identities, 7527 nonempty docs, actual syntax inventory | evidence/r1 and evidence/r3 where applicable | See package.json proof commands | See checkpoint notes |
+| 4 Extract requirements | in progress | Observable contracts recorded; representative shell/service coverage incomplete | evidence/r1 and evidence/r3 where applicable | See package.json proof commands | See checkpoint notes |
+| 5 Choose Nift-native architecture | in progress | Authored/hybrid ownership proposal; complete runtime/build implementation pending | evidence/r1 and evidence/r3 where applicable | See package.json proof commands | See checkpoint notes |
+| 6 Prove representative vertical slice | in progress | Four article DOMs, isolated pixels, tab/HTML authority and auth primitives proved; full slice pending | evidence/r1 and evidence/r3 where applicable | See package.json proof commands | See checkpoint notes |
+| 7 Rebuild shared structure | not started | Await representative acceptance and preceding gates | evidence/r1 and evidence/r3 where applicable | See package.json proof commands | See checkpoint notes |
+| 8 Rebuild full corpus | not started | Await representative acceptance and preceding gates | evidence/r1 and evidence/r3 where applicable | See package.json proof commands | See checkpoint notes |
+| 9 Validate design/behaviour parity | not started | Await representative acceptance and preceding gates | evidence/r1 and evidence/r3 where applicable | See package.json proof commands | See checkpoint notes |
+| 10 Performance campaign | not started | Await representative acceptance and preceding gates | evidence/r1 and evidence/r3 where applicable | See package.json proof commands | See checkpoint notes |
+| 11 Full parity revalidation | not started | Await representative acceptance and preceding gates | evidence/r1 and evidence/r3 where applicable | See package.json proof commands | See checkpoint notes |
+| 12 Final benchmarks | not started | Await representative acceptance and preceding gates | evidence/r1 and evidence/r3 where applicable | See package.json proof commands | See checkpoint notes |
+| 13 Clean-checkout proof | not started | Await representative acceptance and preceding gates | evidence/r1 and evidence/r3 where applicable | See package.json proof commands | See checkpoint notes |
+| 14 Handover | not started | Await representative acceptance and preceding gates | evidence/r1 and evidence/r3 where applicable | See package.json proof commands | See checkpoint notes |
 
 GATE: freeze product/design/behaviour evidence and prove a vertical slice before broad rebuilding.
 GATE: complete validation precedes profiling/optimization; full revalidation precedes final benchmarks.
@@ -33,10 +33,10 @@ GATE: complete validation precedes profiling/optimization; full revalidation pre
 
 ## Current
 
-- Checkpoint:
-- Commit SHA:
-- Blockers/approved decisions:
-- Next checkpoint:
+- Checkpoint: R3 representative proof in progress
+- Commit SHA: latest checkpoint recorded by Git; no full R3 acceptance
+- Blockers/approved decisions: no demonstrated stop condition; core unchanged; public repository/checkpoint pushes authorized
+- Next checkpoint: finish shared shell/navigation/search and remaining real component/service cases
 
 ## R0 accepted — initialized, not rewritten
 

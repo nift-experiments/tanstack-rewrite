@@ -34,5 +34,17 @@
     "original_sha256": "4edc74f062f2c14af44ab130e18072ea90b2136d58230d0791cb32bf143e2aa3",
     "original_git_blob": "a0a04f06d43aacb896cad6d57f0d90afe42c5d15",
     "rewrite_source": "sources/representative/tanstack--router--build-from-scratch.md"
+  },
+  {
+    "repo": "tanstack/router",
+    "ref": "main",
+    "commit": "17a3121ff494a481518d54732cdb939c7f61eb2c",
+    "file": "docs/start/framework/react/guide/rendering-markdown.md",
+    "source": "sources/docs/tanstack--router--main/docs/start/framework/react/guide/rendering-markdown.md",
+    "render": true,
+    "request_time": false,
+    "original_sha256": "2dd9b65697fcc5e56b11c1aeb0480e73877e258708c892c32fea2de23a191147",
+    "original_git_blob": "4258d6f4f1f532d7633c160d06d1207dccf4fcf8",
+    "rewrite_source": "sources/representative/tanstack--router--rendering-markdown.md"
   }
 ]

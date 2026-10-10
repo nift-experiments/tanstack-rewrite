@@ -1,0 +1,8 @@
+{
+  "source": "tanstack/router@main:docs/start/framework/react/guide/rendering-markdown.md",
+  "actual_literal": "@content-collections",
+  "rendered_html_preserved_by_nift": true,
+  "equality": "All rendered HTML bytes, ignoring terminal whitespace only",
+  "maintained_markdown_changed": false,
+  "core_changed": false
+}
