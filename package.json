@@ -29,7 +29,8 @@
     "proof:retained-shell": "node scripts/proof-retained-shell.mjs",
     "proof:retained-shell:ssr": "node scripts/proof-retained-shell.mjs --ssr",
     "proof:publication-imports": "node scripts/audit-publication-imports.mjs",
-    "proof:documentation-layout": "node scripts/probe-shell-build.mjs --layout-proof && node scripts/probe-publication-ssr.mjs --layout-proof && node scripts/proof-retained-shell.mjs --layout --ssr --pixels && python3 scripts/verify-doc-layout-pixels.py"
+    "proof:documentation-layout": "node scripts/probe-shell-build.mjs --layout-proof && node scripts/probe-publication-ssr.mjs --layout-proof && node scripts/proof-retained-shell.mjs --layout --ssr --pixels && python3 scripts/verify-doc-layout-pixels.py",
+    "proof:native-code-copy": "node scripts/proof-native-code-copy.mjs"
   },
   "dependencies": {
     "@phosphor-icons/react": "2.1.10",

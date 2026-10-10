@@ -1,0 +1,10 @@
+{
+  "scope": "Real maintained Form article native code-copy controller; injected clipboard/toast ports; retained clipboard service integration separately built, not end-to-end service acceptance",
+  "original_code_copied": true,
+  "html_only_code_edit_copied": true,
+  "native_code_node_preserved": true,
+  "button_feedback_and_2000ms_reset": true,
+  "toast_id": "code-copied",
+  "cleanup_removes_listener_and_timer": true,
+  "page_errors": []
+}
