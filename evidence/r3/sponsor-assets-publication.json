@@ -1,0 +1,107 @@
+{
+  "page": "/start/latest/docs/eslint/eslint-plugin-start",
+  "scope": "Every same-origin image URL in the rendered page; HTTP asset availability, not viewport parity",
+  "upstreamPin": "862ccc3d191818320c3e6d217542883f80cb907a",
+  "brandAssets": [
+    {
+      "source": "sources/static/images/brand/tanstack-landscape-black.svg",
+      "upstream": "public/images/brand/tanstack-landscape-black.svg",
+      "sha256": "85159c237b2d955f231a9b0faf47648b7b8cb757c3566c0d00c5ed42507175ea"
+    },
+    {
+      "source": "sources/static/images/brand/tanstack-landscape-white.svg",
+      "upstream": "public/images/brand/tanstack-landscape-white.svg",
+      "sha256": "a1e07a8b452040cd0a6f601347ebe4db41ce46367aea0e7243ed92cb94deedde"
+    }
+  ],
+  "results": [
+    {
+      "url": "/images/brand/tanstack-landscape-black.svg",
+      "status": 200
+    },
+    {
+      "url": "/images/brand/tanstack-landscape-white.svg",
+      "status": 200
+    },
+    {
+      "url": "/static/svg/render-black.8b33c797cc.svg",
+      "status": 200
+    },
+    {
+      "url": "/static/svg/render-white.171a1cc5f2.svg",
+      "status": 200
+    },
+    {
+      "url": "/static/svg/coderabbit-light.a80ee5ecb5.svg",
+      "status": 200
+    },
+    {
+      "url": "/static/svg/coderabbit-dark.e419a49a7c.svg",
+      "status": 200
+    },
+    {
+      "url": "/static/svg/railway-black.444c04128a.svg",
+      "status": 200
+    },
+    {
+      "url": "/static/svg/railway-white.0552bc854a.svg",
+      "status": 200
+    },
+    {
+      "url": "/static/svg/lovable-black.3e62718435.svg",
+      "status": 200
+    },
+    {
+      "url": "/static/svg/lovable-white.8099c67604.svg",
+      "status": 200
+    },
+    {
+      "url": "/static/svg/cloudflare-black.1337a9e105.svg",
+      "status": 200
+    },
+    {
+      "url": "/static/svg/cloudflare-white.3f955c7a62.svg",
+      "status": 200
+    },
+    {
+      "url": "/static/svg/serpapi-black.ce8a8334a9.svg",
+      "status": 200
+    },
+    {
+      "url": "/static/svg/serpapi-white.8a31cf9af8.svg",
+      "status": 200
+    },
+    {
+      "url": "/static/svg/workos-black.ae7b0ef1fd.svg",
+      "status": 200
+    },
+    {
+      "url": "/static/svg/openrouter-black.3777a4df90.svg",
+      "status": 200
+    },
+    {
+      "url": "/static/svg/openrouter-white.ae725eb6d7.svg",
+      "status": 200
+    },
+    {
+      "url": "/static/svg/clerk-logo-light.b466b99432.svg",
+      "status": 200
+    },
+    {
+      "url": "/static/svg/clerk-logo-dark.a66d97b47a.svg",
+      "status": 200
+    },
+    {
+      "url": "/static/svg/scarf.56f53deff6.svg",
+      "status": 200
+    },
+    {
+      "url": "/static/svg/prisma-light.79be70d167.svg",
+      "status": 200
+    },
+    {
+      "url": "/static/svg/prisma-dark.8c5cb12e56.svg",
+      "status": 200
+    }
+  ]
+}

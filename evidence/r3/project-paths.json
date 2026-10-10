@@ -1,0 +1,5 @@
+{
+  "checkedPaths": 14917,
+  "mechanism": "Nift @path manifest validates tracked publication identities and existing local assets. Request-time shell resolves internal src/href using that map; publication identities map to their canonical service routes. Unimplemented routes remain in corpus gap ledger.",
+  "literalCodeExamples": "Raw HTML composition remains unchanged; no recursive Nift parsing of code examples."
+}

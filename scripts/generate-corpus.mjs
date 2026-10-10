@@ -1,4 +1,7 @@
+import {prepareProjectPaths} from './project-paths.mjs';
 import fs from 'node:fs';import path from 'node:path';import {createHash} from 'node:crypto';import {createRequire} from 'node:module';import {spawnSync} from 'node:child_process';import {build} from 'esbuild';
+if(fs.existsSync('sources/static'))fs.cpSync('sources/static','public',{recursive:true});
+for(const directory of ['.work/publication-ssr/static','.work/shell-prototype/dist/client/static'])if(fs.existsSync(directory))fs.cpSync(directory,'public/static',{recursive:true});
 const started=performance.now(),hash=v=>createHash('sha256').update(v).digest('hex');
 const write=(p,v)=>{fs.mkdirSync(path.dirname(p),{recursive:true});if(!fs.existsSync(p)||fs.readFileSync(p,'utf8')!==v)fs.writeFileSync(p,v)};
 if(!fs.existsSync('sources/docs-inputs.json')){fs.cpSync('../tanstack/sources/docs','sources/docs',{recursive:true});fs.copyFileSync('../tanstack/sources/docs-inputs.json','sources/docs-inputs.json')}
@@ -36,6 +39,7 @@ for(const library of libraries){
  }
  console.log(`${library.id}: ${families[library.id]??0} routes; total ${Object.keys(routes).length}`);
 }
+prepareProjectPaths(routes,tracked,write);
 write('.nift/tracked.json',JSON.stringify({tracked})+'\n');
 const result=spawnSync(path.resolve('../tanstack-rewrite-baseline/toolchain/nift-v4.10.0'),['build'],{encoding:'utf8',maxBuffer:32*1024*1024});write('.work/corpus-nift-build.log',result.stdout+result.stderr);if(result.status!==0)throw Error('Nift build failed; see .work/corpus-nift-build.log');
 const routePatterns=JSON.parse(fs.readFileSync('evidence/r1/route-contract-inventory.json')).patterns;

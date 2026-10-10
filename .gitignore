@@ -18,3 +18,5 @@ frontend/dist/
 /.nift/public/query/
 /content/publication/
 /.nift/public/publication/
+/.nift/public/_paths/
+/content/_paths/

@@ -33,7 +33,7 @@
     "chart-example": 110,
     "client-example": 14
   },
-  "elapsedSeconds": 6.9250285400000005,
+  "elapsedSeconds": 14.691373059,
   "output": "public/publication/<route>.html",
   "siteShell": "Shared retained layout, rendered per request by npm run serve",
   "familyBindings": {
@@ -45,7 +45,5 @@
     "clientExample": "pending notice",
     "services": "shared owned server-function dispatcher; incomplete protocol/backend parity"
   },
-  "scope": "Documentation corpus only; application/service routes inventoried in gap ledger. No full parity or final benchmark claim.",
-  "maximumProcessRssMiB": 349.8828125,
-  "measurementQualification": "Local corpus-publisher diagnostic only: excludes browser/API preparation and request-time shell rendering; maximum process RSS is not sampled aggregate tree RSS."
+  "scope": "Documentation corpus only; application/service routes inventoried in gap ledger. No full parity or final benchmark claim."
 }
