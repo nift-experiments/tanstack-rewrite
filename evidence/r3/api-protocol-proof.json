@@ -1,0 +1,15 @@
+{
+  "scope": "Three original auth server-function bodies, official protocol/compiler and retained auth/session/guards with local repositories; provider/database/chat and full service parity pending",
+  "official_client_roundtrip": true,
+  "anonymous_null": true,
+  "anonymous_guard_rejected": true,
+  "authenticated_user": true,
+  "capability_allowed": true,
+  "missing_capability_rejected": true,
+  "session_version_revocation": true,
+  "cross_origin_csrf_status": 403,
+  "wrong_method_status": 405,
+  "ordinary_page_status": 404,
+  "site_shell_or_document_renderer": false,
+  "browser_page_errors": []
+}

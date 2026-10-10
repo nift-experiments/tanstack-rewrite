@@ -1,0 +1,8 @@
+{
+  "upstream_commit": "862ccc3d191818320c3e6d217542883f80cb907a",
+  "path": "src/utils/auth.functions.ts",
+  "whole_original_sha256": "e6ecf08714ee713615b47af71559db95536e5305e90fc54e56e2629594019f0b",
+  "retained_three_function_bodies_sha256": "67818e89fe4d9b9a2443c0d4227934e201b4bdb65f62107ffc8d26721f669d4d",
+  "adaptation": "Imports route to explicit retained auth/session/guards with local repository fixtures; all three function definitions are byte-preserved",
+  "tooling": "Feasibility proof uses read-only pinned upstream package/toolchain resolution; independent release install/lock pending"
+}

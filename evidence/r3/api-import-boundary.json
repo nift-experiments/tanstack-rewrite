@@ -1,0 +1,21 @@
+{
+  "scope": "Official compiler feasibility build import graph, including nested/orphan modules; independently provisioned release tooling pending",
+  "environments": [
+    {
+      "environment": "client",
+      "module_identifiers": 69,
+      "raw_manifest_sha256": "d1a8098c93d921054a829c680776495f391a61800773be75306a16cf5e207cfb",
+      "forbidden_site_inputs": [],
+      "owned_app_modules": []
+    },
+    {
+      "environment": "ssr",
+      "module_identifiers": 426,
+      "raw_manifest_sha256": "ecd3892c3b20ae307e4b969605b48b6d70a52d363b9fbd3a01a20a51df448e76",
+      "forbidden_site_inputs": [],
+      "owned_app_modules": []
+    }
+  ],
+  "backend_owns_site_shell": false,
+  "backend_owns_document_parser_or_sources": false
+}

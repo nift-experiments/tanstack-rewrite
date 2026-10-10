@@ -19,7 +19,9 @@
     "proof:real-literal": "node scripts/proof-real-literal.mjs",
     "proof:file-tabs": "node scripts/proof-file-tabs.mjs",
     "proof:package-controls": "node scripts/proof-package-controls.mjs",
-    "proof:framework-preferences": "node scripts/proof-framework-preferences.mjs"
+    "proof:framework-preferences": "node scripts/proof-framework-preferences.mjs",
+    "proof:api-protocol": "node scripts/proof-api-protocol.mjs",
+    "proof:api-imports": "node scripts/audit-api-imports.mjs"
   },
   "dependencies": {
     "@phosphor-icons/react": "2.1.10",
