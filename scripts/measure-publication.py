@@ -16,7 +16,7 @@ def identify(pid,entries):
  phase="orchestration"
  for key,value in [("compile-parser","docs compiler"),("compile-document","docs compiler"),("probe-shell-build","frontend browser bundle"),("probe-publication-ssr","publication SSR bundle"),("probe-full-api-build","backend bundle"),("build-worker","worker bundle"),("generate-corpus","corpus preparation"),("prepare-posts","posts preparation")]:
   if key in joined: phase=value;break
- if entries[pid][2].startswith("nift"): phase="Nift build (may include producer children)"
+ if entries[pid][2].startswith("nift"): phase="Nift "+(argv[1] if len(argv)>1 and argv[1] in {"build","status"} else "native process")+" (individual native process)"
  return {"pid":pid,"rssKiB":entries[pid][1],"name":entries[pid][2],"phase":phase,"executable":pathlib.Path(argv[0]).name if argv else None}
 with log.open('w') as stream:
  process=subprocess.Popen(['/usr/bin/time','-f','%e %M','-o',str(stat),*command],cwd=args.cwd,stdout=stream,stderr=subprocess.STDOUT);started=time.monotonic()
