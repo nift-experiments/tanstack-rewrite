@@ -97,3 +97,6 @@ frontend/dist/
 /content/application-envelope.html
 
 /content/static/
+
+# Local sibling-runtime dependency bridge; independently packaged dependencies pending.
+/services/node_modules

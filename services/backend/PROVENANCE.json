@@ -1,6 +1,6 @@
 {
   "upstream_commit": "862ccc3d191818320c3e6d217542883f80cb907a",
-  "scope": "Owned dependency closure discovered from public RPC-only client/server nested/orphan module graphs; byte-preserved source, no site/page route implementation; full API routes and protocol/DB/provider parity pending",
+  "scope": "Owned exact API, auth, database, provider and Worker-class dependency closure; authored transport adapters separate. Retention does not certify full runtime parity.",
   "files": [
     {
       "source": "src/auth/auth.server.ts",
@@ -19,6 +19,12 @@
       "target": "src/auth/capabilities.ts",
       "sha256": "fee6f1441c2a87dc5f01e2907f76646f0e52d76d95fa4a5b8822ba27c649b208",
       "bytes": 564
+    },
+    {
+      "source": "src/auth/cli-tickets.server.ts",
+      "target": "src/auth/cli-tickets.server.ts",
+      "sha256": "ce2b4450030f298df5dcdbc74209dc8be9ff4c7846c95c057b06393d8b739941",
+      "bytes": 2681
     },
     {
       "source": "src/auth/context.server.ts",
@@ -111,10 +117,40 @@
       "bytes": 3464
     },
     {
+      "source": "src/chat/core/answers.ts",
+      "target": "src/chat/core/answers.ts",
+      "sha256": "55da636098c08e447fa9e5b6c05509fec161a851da6f1d8e1a626b80616696cd",
+      "bytes": 2243
+    },
+    {
       "source": "src/chat/core/appearance.ts",
       "target": "src/chat/core/appearance.ts",
       "sha256": "515b2d7e98de41649b9d5dc5ad421b26243ee486b88dbc12c49a593643433a6c",
       "bytes": 8165
+    },
+    {
+      "source": "src/chat/core/assistant-progress.ts",
+      "target": "src/chat/core/assistant-progress.ts",
+      "sha256": "23f875484b2f0271203018424ddb9f4b35578639e313ba38a013449c63d6dda0",
+      "bytes": 1462
+    },
+    {
+      "source": "src/chat/core/bot-activity.ts",
+      "target": "src/chat/core/bot-activity.ts",
+      "sha256": "3329170663dd68604bb2b35390373bfd578498d6f515e69251f78098949501df",
+      "bytes": 4908
+    },
+    {
+      "source": "src/chat/core/context-observation.ts",
+      "target": "src/chat/core/context-observation.ts",
+      "sha256": "73b9c0ab86815aa32e89cf4a0ef012ac44b70760cc3e2d7dada094ace9cd4f56",
+      "bytes": 1892
+    },
+    {
+      "source": "src/chat/core/conversation-retry.ts",
+      "target": "src/chat/core/conversation-retry.ts",
+      "sha256": "55a0717f9c9469b85d7aac3758e413f21019735b439a4c42a05bc0b98f6866ca",
+      "bytes": 1767
     },
     {
       "source": "src/chat/core/conversation-runs.ts",
@@ -123,16 +159,76 @@
       "bytes": 6152
     },
     {
+      "source": "src/chat/core/delegated-task-view.ts",
+      "target": "src/chat/core/delegated-task-view.ts",
+      "sha256": "5267a60ce41c77c9dbd80c62905499172f539b4e1c9370d7e9c6102be88176ae",
+      "bytes": 2183
+    },
+    {
+      "source": "src/chat/core/delegation-budget.ts",
+      "target": "src/chat/core/delegation-budget.ts",
+      "sha256": "c1ee7d6b6e9aa447a2a0c6d9f624d901e1e643633f6266713c74c46eb3b6ef63",
+      "bytes": 2293
+    },
+    {
+      "source": "src/chat/core/delegation-report.ts",
+      "target": "src/chat/core/delegation-report.ts",
+      "sha256": "8c93e7d523f0bf8efcfb895f8b59553cdb3d5bf392954b80edfeaeb41661685d",
+      "bytes": 1047
+    },
+    {
+      "source": "src/chat/core/delegation-wait.ts",
+      "target": "src/chat/core/delegation-wait.ts",
+      "sha256": "bc08e8ac569bbdbf241e2a32847fce92858204a3f839af418be8e051c09264ab",
+      "bytes": 1156
+    },
+    {
+      "source": "src/chat/core/delegation.ts",
+      "target": "src/chat/core/delegation.ts",
+      "sha256": "031a01f85865fc870fe645ee163bf55f7c981ca4b4d2e808c0c2121b65e44145",
+      "bytes": 5106
+    },
+    {
+      "source": "src/chat/core/message-navigation.ts",
+      "target": "src/chat/core/message-navigation.ts",
+      "sha256": "9d19e4a92c477f95377a47db8db3e97b730837b8aeae36e62bc27a9e3ea23e61",
+      "bytes": 5730
+    },
+    {
       "source": "src/chat/core/message-references.ts",
       "target": "src/chat/core/message-references.ts",
       "sha256": "a43f2e16b5b7a2a1237a2f7be8fde1261288912a3a5212284ecc6f3a655ba638",
       "bytes": 8651
     },
     {
+      "source": "src/chat/core/project-events.ts",
+      "target": "src/chat/core/project-events.ts",
+      "sha256": "562e2145063ccc7a08618887c7998081a0728ca7e7b8e4d519203e50102e176c",
+      "bytes": 58
+    },
+    {
+      "source": "src/chat/core/reasoning-text.ts",
+      "target": "src/chat/core/reasoning-text.ts",
+      "sha256": "5f858f9e791fa86381db388085900872b9826f7318ea557608a553271c7b7968",
+      "bytes": 1132
+    },
+    {
+      "source": "src/chat/core/research-loop.ts",
+      "target": "src/chat/core/research-loop.ts",
+      "sha256": "1d4cf53d7e4e8f7d75c04104ebead5008edbd9b1a9d49cb2c0cca6ac436a8486",
+      "bytes": 10905
+    },
+    {
       "source": "src/chat/core/run-model.ts",
       "target": "src/chat/core/run-model.ts",
       "sha256": "fba4abd59bf818b2824b714b156d9a319a941888d9b01f45bc3e03785021007f",
       "bytes": 1417
+    },
+    {
+      "source": "src/chat/core/schedule-preview.ts",
+      "target": "src/chat/core/schedule-preview.ts",
+      "sha256": "470ab4721f69d58e47ff8702a10b31a67858088811bb294424a7c8e57f0884e1",
+      "bytes": 3069
     },
     {
       "source": "src/chat/core/schedules.ts",
@@ -147,10 +243,46 @@
       "bytes": 271
     },
     {
+      "source": "src/chat/core/task-usage.ts",
+      "target": "src/chat/core/task-usage.ts",
+      "sha256": "b6f886aa9447937736e956a2f928eed01bcaefd4d3b8b5e11fec8101ce09c288",
+      "bytes": 1907
+    },
+    {
+      "source": "src/chat/core/tool-evidence.ts",
+      "target": "src/chat/core/tool-evidence.ts",
+      "sha256": "9ec7d472a7795f70840f5bcb647b213497276e35c48b8607c53dc87715433760",
+      "bytes": 1774
+    },
+    {
       "source": "src/chat/core/types.ts",
       "target": "src/chat/core/types.ts",
       "sha256": "0b56d1e6ebd849ef1c0dc52739f026f422660acee11478bc72ccc3796dab6fb1",
       "bytes": 5004
+    },
+    {
+      "source": "src/chat/core/usage.ts",
+      "target": "src/chat/core/usage.ts",
+      "sha256": "680d7bab935678aed5bf3bdeb61529c2df552dcb41e911f2764b556addaf7225",
+      "bytes": 3699
+    },
+    {
+      "source": "src/chat/core/workflow-admission.ts",
+      "target": "src/chat/core/workflow-admission.ts",
+      "sha256": "26d611bd4a7070720ae531486f886dfd13381db1885a32194490e0dce9a22408",
+      "bytes": 1569
+    },
+    {
+      "source": "src/chat/core/workflow-input-reference.ts",
+      "target": "src/chat/core/workflow-input-reference.ts",
+      "sha256": "76b817bc5bc9d5ae4f105c24e97a66ac6a90b24fcab9785a570d18901b12e125",
+      "bytes": 588
+    },
+    {
+      "source": "src/chat/core/workflow-usage.ts",
+      "target": "src/chat/core/workflow-usage.ts",
+      "sha256": "dcc027802cca759e173eba63db83bc5d0aaff6d0e9f261d8ce2198e37da162b7",
+      "bytes": 1130
     },
     {
       "source": "src/chat/core/workflows.ts",
@@ -175,6 +307,564 @@
       "target": "src/chat/server/account-preferences.ts",
       "sha256": "bce22f23a4ca5d1167bee461f13192c3b60920dd7b3f63b1f1f11fe979faaf4d",
       "bytes": 3623
+    },
+    {
+      "source": "src/chat/server/answer-evidence.ts",
+      "target": "src/chat/server/answer-evidence.ts",
+      "sha256": "58a03cb2a04a2fe1e1fd957e7eb4bff816f4ba150fd18291556bff25032f1097",
+      "bytes": 8044
+    },
+    {
+      "source": "src/chat/server/appearance-html.ts",
+      "target": "src/chat/server/appearance-html.ts",
+      "sha256": "bc11d055b4cba29e77024b866bcb668488edaffa8b6f3dce59a5e41bc3f53e7c",
+      "bytes": 837
+    },
+    {
+      "source": "src/chat/server/assistant-capability-guidance.ts",
+      "target": "src/chat/server/assistant-capability-guidance.ts",
+      "sha256": "f0bc851325e7cff6c462365c8db8a8451cb4cf37c3a6ddb8adbc6a1501223778",
+      "bytes": 19427
+    },
+    {
+      "source": "src/chat/server/assistant-connection-tools.ts",
+      "target": "src/chat/server/assistant-connection-tools.ts",
+      "sha256": "87b0bfa3126c900aa6036677d3d12b606715b37c4ed28fb64a6e1d3817ebd10d",
+      "bytes": 5635
+    },
+    {
+      "source": "src/chat/server/assistant-context.ts",
+      "target": "src/chat/server/assistant-context.ts",
+      "sha256": "4e2cb761216823a804d6a3f7202faeb670570f92b5c186e8bb8521b3265d9e5e",
+      "bytes": 15842
+    },
+    {
+      "source": "src/chat/server/assistant-conversation-tools.ts",
+      "target": "src/chat/server/assistant-conversation-tools.ts",
+      "sha256": "fd36b488e3d3fbf5191d529bea3650bb198888d715cb58aa854f8f4cc07038d0",
+      "bytes": 15794
+    },
+    {
+      "source": "src/chat/server/assistant-delegation-tools.ts",
+      "target": "src/chat/server/assistant-delegation-tools.ts",
+      "sha256": "2449231a1fb826d5d92aa4627b8c9827176fcfc05d298c8b29ddf92a8131e6e3",
+      "bytes": 6572
+    },
+    {
+      "source": "src/chat/server/assistant-discovery.ts",
+      "target": "src/chat/server/assistant-discovery.ts",
+      "sha256": "a0dc605518caa5fcb8370466a99260dfe0f0afc473195d5075b67f96ca2d7d96",
+      "bytes": 5937
+    },
+    {
+      "source": "src/chat/server/assistant-file-tools.ts",
+      "target": "src/chat/server/assistant-file-tools.ts",
+      "sha256": "9b29699b95952fb50482d3d96bb9d3278a0dbcb166cb5844c506c90d956b8639",
+      "bytes": 14101
+    },
+    {
+      "source": "src/chat/server/assistant-instructions.ts",
+      "target": "src/chat/server/assistant-instructions.ts",
+      "sha256": "a7ac90f0aabac0d89ef560029f60c5ec6d3ff9f3100e5e7eb5ea37eb0eedb229",
+      "bytes": 25601
+    },
+    {
+      "source": "src/chat/server/assistant-kody-memory-tools.ts",
+      "target": "src/chat/server/assistant-kody-memory-tools.ts",
+      "sha256": "234119dd8794fc55edf296d10b23c6c997f5909b6f1b9f80565f571ea910f896",
+      "bytes": 3137
+    },
+    {
+      "source": "src/chat/server/assistant-kody-run-tools.ts",
+      "target": "src/chat/server/assistant-kody-run-tools.ts",
+      "sha256": "6177a03e95a21807588805d232b9b987d970625a82760b8ab72fc717d7b35516",
+      "bytes": 1955
+    },
+    {
+      "source": "src/chat/server/assistant-mcp-tools.ts",
+      "target": "src/chat/server/assistant-mcp-tools.ts",
+      "sha256": "40ab01cf2199e4fd60fdafd4e6a3860e33e2b1ab64ce7cb0f03dba06346ce500",
+      "bytes": 11892
+    },
+    {
+      "source": "src/chat/server/assistant-memory-tools.ts",
+      "target": "src/chat/server/assistant-memory-tools.ts",
+      "sha256": "1ef3070ede35913ea1b1c6afe43b55469a942ea8c282afb4b5a234f753c01894",
+      "bytes": 7700
+    },
+    {
+      "source": "src/chat/server/assistant-message-history.ts",
+      "target": "src/chat/server/assistant-message-history.ts",
+      "sha256": "3b6285378f1ce4c6f275b1364ee9dc820cc1d0ab3579eb7ad849e34a6be91be8",
+      "bytes": 1896
+    },
+    {
+      "source": "src/chat/server/assistant-plugin-tools.ts",
+      "target": "src/chat/server/assistant-plugin-tools.ts",
+      "sha256": "9be055a4f853db30a6c101b75e99d5e8b5984e0005682a6c76c5933db7db59dc",
+      "bytes": 5772
+    },
+    {
+      "source": "src/chat/server/assistant-progress.ts",
+      "target": "src/chat/server/assistant-progress.ts",
+      "sha256": "52c469e959f8b01bce61502ab8e5315870144bbbb8820b2b50a85f4025c86046",
+      "bytes": 6395
+    },
+    {
+      "source": "src/chat/server/assistant-project-tools.ts",
+      "target": "src/chat/server/assistant-project-tools.ts",
+      "sha256": "5205c0cd60a985f819fb344e451f6493a7dc36aefbcdb53a0494379aae4a2479",
+      "bytes": 16641
+    },
+    {
+      "source": "src/chat/server/assistant-schedule-policy.ts",
+      "target": "src/chat/server/assistant-schedule-policy.ts",
+      "sha256": "7e387ecb7fabd4deda0760645eb336576901410e06742196b4b5d5046d8eb066",
+      "bytes": 1290
+    },
+    {
+      "source": "src/chat/server/assistant-schedule-tools.ts",
+      "target": "src/chat/server/assistant-schedule-tools.ts",
+      "sha256": "f724841b1a8664550bb8b8558ae9ff6c3237f31202b7063d0ea5211634a194cf",
+      "bytes": 7136
+    },
+    {
+      "source": "src/chat/server/assistant-skill-tools.ts",
+      "target": "src/chat/server/assistant-skill-tools.ts",
+      "sha256": "0e50175338f2bc35b69867d3c2ef601af222cc5a3c03bb990d366b5457848a8e",
+      "bytes": 7384
+    },
+    {
+      "source": "src/chat/server/assistant-thread-tools.ts",
+      "target": "src/chat/server/assistant-thread-tools.ts",
+      "sha256": "2392bad16980f9842a332bb9ed05cdb327257c8710e8e21cd5ca893c18c6ecf7",
+      "bytes": 2448
+    },
+    {
+      "source": "src/chat/server/assistant-tool-failures.ts",
+      "target": "src/chat/server/assistant-tool-failures.ts",
+      "sha256": "fdd2626cecd87ab1a77e625f20a795b8471cdcee82452c351379409029df8f26",
+      "bytes": 3041
+    },
+    {
+      "source": "src/chat/server/assistant-workflow-tools.ts",
+      "target": "src/chat/server/assistant-workflow-tools.ts",
+      "sha256": "06bfd4c4df108aa5a0871acc9c6f6d22e6d8cf95d6487999cf16f6879891c816",
+      "bytes": 13621
+    },
+    {
+      "source": "src/chat/server/assistant-workspace-tools.ts",
+      "target": "src/chat/server/assistant-workspace-tools.ts",
+      "sha256": "19ac60ed9310394b8b4ecb6175009215d2c7db83fb9b3f795ec63a9ade0ba8d6",
+      "bytes": 4795
+    },
+    {
+      "source": "src/chat/server/batched-ranking.ts",
+      "target": "src/chat/server/batched-ranking.ts",
+      "sha256": "487da97f4fe2e399ab5f41b6e8e90541fb50b6486832dd73a30ce5f86ed6cfb7",
+      "bytes": 9502
+    },
+    {
+      "source": "src/chat/server/batched-values.ts",
+      "target": "src/chat/server/batched-values.ts",
+      "sha256": "365d8296a6d8f7f0be9a1df20f0733aa3986df87653565f76dd9b23c69a7b3bc",
+      "bytes": 3464
+    },
+    {
+      "source": "src/chat/server/catalog-evidence.ts",
+      "target": "src/chat/server/catalog-evidence.ts",
+      "sha256": "506afb02048c2f000a4a8eb7f73d35c4ffc7cbd5825cd5a5b0171e2f58b90dba",
+      "bytes": 638
+    },
+    {
+      "source": "src/chat/server/cloudflare-text.ts",
+      "target": "src/chat/server/cloudflare-text.ts",
+      "sha256": "3238bb9da3176a64c30edc8425a6f869c1556ff8d46503050a0bab85f4f60e91",
+      "bytes": 1194
+    },
+    {
+      "source": "src/chat/server/conversation-copy-storage.ts",
+      "target": "src/chat/server/conversation-copy-storage.ts",
+      "sha256": "2b6c9c395461c47736d88df3892be9e5ca3fd434a04877ca83e4280a57133c1e",
+      "bytes": 44876
+    },
+    {
+      "source": "src/chat/server/conversation-events.ts",
+      "target": "src/chat/server/conversation-events.ts",
+      "sha256": "73b61a8c2b954440cfd4779c44dfb43524acde6a0db78f6bd19d0cabf522bec0",
+      "bytes": 6996
+    },
+    {
+      "source": "src/chat/server/conversation-run-projection.ts",
+      "target": "src/chat/server/conversation-run-projection.ts",
+      "sha256": "9568ec56c30da805dd56bb9ad9340e8390a577e0ec26535a0f5e46cae7466808",
+      "bytes": 3648
+    },
+    {
+      "source": "src/chat/server/conversation-runs.ts",
+      "target": "src/chat/server/conversation-runs.ts",
+      "sha256": "759459679e1769d50486292bb594adb2c55c7d9ad750b99fa0a5e056f0738972",
+      "bytes": 8046
+    },
+    {
+      "source": "src/chat/server/conversation-stream.ts",
+      "target": "src/chat/server/conversation-stream.ts",
+      "sha256": "919ec8fe21e3053bee6a68fc8f7bca9cfd4e2788716dea9a9886de216ebbc5eb",
+      "bytes": 5292
+    },
+    {
+      "source": "src/chat/server/conversation.ts",
+      "target": "src/chat/server/conversation.ts",
+      "sha256": "592878d17c387aa39f3d02cc2f4e3a466410c74c9bddc5b3dff7f7c7b5f893f6",
+      "bytes": 385442
+    },
+    {
+      "source": "src/chat/server/delegation-admissions.ts",
+      "target": "src/chat/server/delegation-admissions.ts",
+      "sha256": "f480396f30ddcf7409550e2c1c8b2f74f8eb4a85d4a81b5761292af6d91f1470",
+      "bytes": 8818
+    },
+    {
+      "source": "src/chat/server/delegation-budget.ts",
+      "target": "src/chat/server/delegation-budget.ts",
+      "sha256": "8d46b56b22866d96aedad876b71cf5cf027be7339dab7c5ed874febaf5ef76bc",
+      "bytes": 5229
+    },
+    {
+      "source": "src/chat/server/delegation-waits.ts",
+      "target": "src/chat/server/delegation-waits.ts",
+      "sha256": "01e8dad5f43821c228ce729cbd7cb2857efee7081a95490f6edc4d481165990f",
+      "bytes": 4101
+    },
+    {
+      "source": "src/chat/server/delegations.ts",
+      "target": "src/chat/server/delegations.ts",
+      "sha256": "6245b63a8c778e2fa06e3370b45474f6049aeb205763898c1da131115d97e887",
+      "bytes": 13588
+    },
+    {
+      "source": "src/chat/server/discovery-model.ts",
+      "target": "src/chat/server/discovery-model.ts",
+      "sha256": "0905f303849795d8fa240dec6054ca8180a6197f0697d6776751748d1cda1ff3",
+      "bytes": 9689
+    },
+    {
+      "source": "src/chat/server/durable-results.ts",
+      "target": "src/chat/server/durable-results.ts",
+      "sha256": "382645e2235fbbf078cb03ed2466708af6acb7455723785546be553c79c51534",
+      "bytes": 2428
+    },
+    {
+      "source": "src/chat/server/execution-authority.ts",
+      "target": "src/chat/server/execution-authority.ts",
+      "sha256": "211c105c01f994cebe1f1660c23caa0cdccdbdf049da16d2f04b03bb07d8fb88",
+      "bytes": 3563
+    },
+    {
+      "source": "src/chat/server/gateway.ts",
+      "target": "src/chat/server/gateway.ts",
+      "sha256": "d38351d0860fd7af791a2c881fa47d75c0e2e0ba1ea7b603e8331c15cacefc79",
+      "bytes": 2834
+    },
+    {
+      "source": "src/chat/server/history-tools.ts",
+      "target": "src/chat/server/history-tools.ts",
+      "sha256": "5ab0b00fdee1fc86f7d91657397e4ce4d2a456b8bbe723eb381427f683f5a94d",
+      "bytes": 6579
+    },
+    {
+      "source": "src/chat/server/jev-arguments.ts",
+      "target": "src/chat/server/jev-arguments.ts",
+      "sha256": "1e9478280450d4b520cf410ec6da462cd5b7a5ec50035d7c52dcc05cc41c4578",
+      "bytes": 30050
+    },
+    {
+      "source": "src/chat/server/jev-array.ts",
+      "target": "src/chat/server/jev-array.ts",
+      "sha256": "77f19cab9df2a568e34fe1aee28c6f45e242daf70471d4afbfed79dd79aff23d",
+      "bytes": 6592
+    },
+    {
+      "source": "src/chat/server/jev-batched-arguments.ts",
+      "target": "src/chat/server/jev-batched-arguments.ts",
+      "sha256": "6a08abc38e9d3a5dcefd6cf120459a564f840ea9f42fd68121bd3c0f166027ce",
+      "bytes": 7679
+    },
+    {
+      "source": "src/chat/server/jev-call-review.ts",
+      "target": "src/chat/server/jev-call-review.ts",
+      "sha256": "4f787276ee0ad7e4cd98796a56caa299ceaba1ca31ace42f047ddc15232015df",
+      "bytes": 3738
+    },
+    {
+      "source": "src/chat/server/jev-router.ts",
+      "target": "src/chat/server/jev-router.ts",
+      "sha256": "f74c50f4e69d765dd31933b1d6d737480b2d3d270929cd4aa81f9a4eb03e3ffb",
+      "bytes": 8529
+    },
+    {
+      "source": "src/chat/server/jev-task-decisions.ts",
+      "target": "src/chat/server/jev-task-decisions.ts",
+      "sha256": "61a9b25751b3db67ecd8b3b0c0d9245a144171f94b392444d7bc753cc889f46d",
+      "bytes": 27352
+    },
+    {
+      "source": "src/chat/server/jev-verification.ts",
+      "target": "src/chat/server/jev-verification.ts",
+      "sha256": "676d0678178b7581a6a402effd7820d986d22819a2fb8a85a4a3bd2e12650f9e",
+      "bytes": 5838
+    },
+    {
+      "source": "src/chat/server/kody-assistant-discovery.ts",
+      "target": "src/chat/server/kody-assistant-discovery.ts",
+      "sha256": "a10fa8c512047d3e4db7005e2f4e2b1dceea59b4a6c426ae76cd0d1b477291e6",
+      "bytes": 2930
+    },
+    {
+      "source": "src/chat/server/kody-code-run.ts",
+      "target": "src/chat/server/kody-code-run.ts",
+      "sha256": "f6d26b46fcb5dfc3c08c5d0a7065a4625b47dceb53ecef5e1b73a851111ad2e6",
+      "bytes": 1098
+    },
+    {
+      "source": "src/chat/server/kody-guidance.ts",
+      "target": "src/chat/server/kody-guidance.ts",
+      "sha256": "6151cc59e2444e2f94d51ee50934876dd964c6108b45f8e5a511103267e7317e",
+      "bytes": 1175
+    },
+    {
+      "source": "src/chat/server/kody-search-synced-skills.ts",
+      "target": "src/chat/server/kody-search-synced-skills.ts",
+      "sha256": "e9e7171e700150e2b1af18e1f40c76989f8fcecc09c9fc362e49ecb72509bd43",
+      "bytes": 3222
+    },
+    {
+      "source": "src/chat/server/kody-setup-readiness.ts",
+      "target": "src/chat/server/kody-setup-readiness.ts",
+      "sha256": "fd15f82e0ddf9b4646d2e9ecb222a4377ca5f2de55b039be7fd432d72cba92f6",
+      "bytes": 4051
+    },
+    {
+      "source": "src/chat/server/local-task-tools.ts",
+      "target": "src/chat/server/local-task-tools.ts",
+      "sha256": "f92306bc1f89e651a2881ccc7810aa40c57825f32637125571b2e9ca3dd2a58e",
+      "bytes": 2929
+    },
+    {
+      "source": "src/chat/server/mcp-discovery.ts",
+      "target": "src/chat/server/mcp-discovery.ts",
+      "sha256": "da77e146c8f2342c9dbf2bd131784171e165cba8f476d54ad6e75e075df7db54",
+      "bytes": 15293
+    },
+    {
+      "source": "src/chat/server/mcp-session-store.ts",
+      "target": "src/chat/server/mcp-session-store.ts",
+      "sha256": "760c119836ff60cd194e7b4e4b6c1961bd479e05999b93a4a8e32cf8df853540",
+      "bytes": 1662
+    },
+    {
+      "source": "src/chat/server/mcp-task-host.ts",
+      "target": "src/chat/server/mcp-task-host.ts",
+      "sha256": "d745ddde24baa6b4fd96a3b3b8e0711a33f3ad08af14a8e6f61c18859614e983",
+      "bytes": 4197
+    },
+    {
+      "source": "src/chat/server/message-attachments.ts",
+      "target": "src/chat/server/message-attachments.ts",
+      "sha256": "2424152a36c4b41b4b33df4d8a08625d2de8d95d7d839e9f29c317ffa1b22a70",
+      "bytes": 1315
+    },
+    {
+      "source": "src/chat/server/native-file-delivery.ts",
+      "target": "src/chat/server/native-file-delivery.ts",
+      "sha256": "73d433eadea95043f977aa55d5db494d0d96e20463d0db25ef654b108ed73baf",
+      "bytes": 7535
+    },
+    {
+      "source": "src/chat/server/provider-observation.ts",
+      "target": "src/chat/server/provider-observation.ts",
+      "sha256": "7533d582aff711bc523dcec2a570ee9c34110f895c9436c21d71b4fd9f0e6830",
+      "bytes": 17628
+    },
+    {
+      "source": "src/chat/server/provider-request-shape.ts",
+      "target": "src/chat/server/provider-request-shape.ts",
+      "sha256": "c0253408bedd83440b7278c2e9bf70c1c57c56293165d5801c3b13b30397201f",
+      "bytes": 3774
+    },
+    {
+      "source": "src/chat/server/provider-token-totals.ts",
+      "target": "src/chat/server/provider-token-totals.ts",
+      "sha256": "f1d68a07020f3be32f5a12b6a40c6a0568f9819fb5ca9ac89d356ed2cd77f158",
+      "bytes": 2408
+    },
+    {
+      "source": "src/chat/server/providers.ts",
+      "target": "src/chat/server/providers.ts",
+      "sha256": "9e84ef2a86273fc144c091f28dcca7dd39425437486811f1b5f9f1ad348c276e",
+      "bytes": 5188
+    },
+    {
+      "source": "src/chat/server/research.ts",
+      "target": "src/chat/server/research.ts",
+      "sha256": "4714b07600d34e911ee3487cea254a00bdafd0e540e216da42bb94fd4ad18ede",
+      "bytes": 5778
+    },
+    {
+      "source": "src/chat/server/schedule-clock.ts",
+      "target": "src/chat/server/schedule-clock.ts",
+      "sha256": "959921027b2a694b706d14af63a377e08f1ef777f08ee1bce1ad172f5f69a1b5",
+      "bytes": 3107
+    },
+    {
+      "source": "src/chat/server/schedule-lifecycle.ts",
+      "target": "src/chat/server/schedule-lifecycle.ts",
+      "sha256": "c1defa25058e93db985ab9c4aa503c6760e5a2c4235902b4eabf5998c7e2bc6f",
+      "bytes": 3094
+    },
+    {
+      "source": "src/chat/server/schedule-time.ts",
+      "target": "src/chat/server/schedule-time.ts",
+      "sha256": "1bd2ae0b8ec46c9c34ba298413f8c18c0517d81ac32295090794fd5269b46719",
+      "bytes": 116
+    },
+    {
+      "source": "src/chat/server/schedules.ts",
+      "target": "src/chat/server/schedules.ts",
+      "sha256": "9faf4b299c05b2868c618bbf4ff89e01e528c22aa9708e849419c8d93cd285c4",
+      "bytes": 18592
+    },
+    {
+      "source": "src/chat/server/stored-results.ts",
+      "target": "src/chat/server/stored-results.ts",
+      "sha256": "cdae253c460b9dc8af05d52a0bcfbc879344aa4d6e48f9c4908e5d4ac9bfc0b6",
+      "bytes": 16091
+    },
+    {
+      "source": "src/chat/server/system-one-loop.ts",
+      "target": "src/chat/server/system-one-loop.ts",
+      "sha256": "1bb5d80609e7481321d39445874bfb91260b35041261a265da1fd2bf02f99ce3",
+      "bytes": 13928
+    },
+    {
+      "source": "src/chat/server/task-history.ts",
+      "target": "src/chat/server/task-history.ts",
+      "sha256": "9c4d9089830fc8d05d90c6434bbbfc1be5327585bcd0a980d54e2d34402b2d98",
+      "bytes": 4603
+    },
+    {
+      "source": "src/chat/server/task-plugins.ts",
+      "target": "src/chat/server/task-plugins.ts",
+      "sha256": "0ded1ac14367f845ba80ad33d4493f9bad5bcf0ba13b61c887892fd4f143a891",
+      "bytes": 1590
+    },
+    {
+      "source": "src/chat/server/task-skills.ts",
+      "target": "src/chat/server/task-skills.ts",
+      "sha256": "eda2d8a719ab1e2887895866306567379809a7834fe2fad34d04835541690495",
+      "bytes": 1500
+    },
+    {
+      "source": "src/chat/server/tool-proposals.ts",
+      "target": "src/chat/server/tool-proposals.ts",
+      "sha256": "0634b2e49eb9110fd37235c4a145b23986189383b41360e859042f3354cad2b7",
+      "bytes": 11743
+    },
+    {
+      "source": "src/chat/server/transcript-archive.ts",
+      "target": "src/chat/server/transcript-archive.ts",
+      "sha256": "77574a31d03afc3a4c5cc1e98b298f0ced92902528fe7437c9dfecadcc6a2161",
+      "bytes": 12868
+    },
+    {
+      "source": "src/chat/server/usage-cost.ts",
+      "target": "src/chat/server/usage-cost.ts",
+      "sha256": "7bca30f79dbfcd651eb301d7090155ef7ac4fa788b51a25fc2e8d11e6afa5bbf",
+      "bytes": 5732
+    },
+    {
+      "source": "src/chat/server/usage.ts",
+      "target": "src/chat/server/usage.ts",
+      "sha256": "e9d12c3b200cbca11e4afba6b030b64333e2a0d1bcecd86643ab0ff53d37b12b",
+      "bytes": 16675
+    },
+    {
+      "source": "src/chat/server/value-candidates.ts",
+      "target": "src/chat/server/value-candidates.ts",
+      "sha256": "0aff87aa0deee733128d5a025a1d33847b29f303a9761d68acaf73fb5f766102",
+      "bytes": 10915
+    },
+    {
+      "source": "src/chat/server/workflow-admissions.ts",
+      "target": "src/chat/server/workflow-admissions.ts",
+      "sha256": "7f2079b211a2e6bf9f4810bcd94dc0ad9f7c43ec9337e7e388c5111c028ba54a",
+      "bytes": 3856
+    },
+    {
+      "source": "src/chat/server/workflow-authority.ts",
+      "target": "src/chat/server/workflow-authority.ts",
+      "sha256": "5daa7e01b881adca9d21395522baff39ca79dfc485b5e6ccc2401974b8da3ece",
+      "bytes": 2393
+    },
+    {
+      "source": "src/chat/server/workflow-children.ts",
+      "target": "src/chat/server/workflow-children.ts",
+      "sha256": "cc795953b9a78a209796604dcf0883e77c58c5736cb7a662501037ca546fb03b",
+      "bytes": 2233
+    },
+    {
+      "source": "src/chat/server/workflow-context.ts",
+      "target": "src/chat/server/workflow-context.ts",
+      "sha256": "e38649fd221c97b787fab1ccee3ca834b8f04a2ac9dea3ea3ee99a02eb55d655",
+      "bytes": 2959
+    },
+    {
+      "source": "src/chat/server/workflow-driver.ts",
+      "target": "src/chat/server/workflow-driver.ts",
+      "sha256": "dbf52e72b64396a6b71347851d01f62ce7caab810c8e90b9793586a37e8573c2",
+      "bytes": 2454
+    },
+    {
+      "source": "src/chat/server/workflow-file-input.ts",
+      "target": "src/chat/server/workflow-file-input.ts",
+      "sha256": "6ba7ca1ea6d10f2961a3da344c140075f5303efd793bc4b973da1cdb98f57505",
+      "bytes": 2375
+    },
+    {
+      "source": "src/chat/server/workflow-input-store.ts",
+      "target": "src/chat/server/workflow-input-store.ts",
+      "sha256": "5964ff70a7fd58e2a83e593c3a6bd528b46ac6d81c59115294da214aa00bd799",
+      "bytes": 1907
+    },
+    {
+      "source": "src/chat/server/workflow-inputs.ts",
+      "target": "src/chat/server/workflow-inputs.ts",
+      "sha256": "3974e306908d3b73f03514b3822b862edeea5ae082a78005d0e5b7a4d4ffa43f",
+      "bytes": 1690
+    },
+    {
+      "source": "src/chat/server/workflow-launches.ts",
+      "target": "src/chat/server/workflow-launches.ts",
+      "sha256": "c2ef38f05b0ada629cbac33692e74597bec2c934b164e1203b25bb24347ea043",
+      "bytes": 2123
+    },
+    {
+      "source": "src/chat/server/workflow-results.ts",
+      "target": "src/chat/server/workflow-results.ts",
+      "sha256": "ad85ae34d7628433a5cc1173709284dd62e31c56d76a1543fa9606b253baf4bc",
+      "bytes": 4333
+    },
+    {
+      "source": "src/chat/server/workflow-runs.ts",
+      "target": "src/chat/server/workflow-runs.ts",
+      "sha256": "1eb33d9af7a0f30bd901593d8f7fa3d0d7aeab1eac3568fa9be01af6c4face84",
+      "bytes": 12250
+    },
+    {
+      "source": "src/chat/server/workspace-sync-object.ts",
+      "target": "src/chat/server/workspace-sync-object.ts",
+      "sha256": "39f418f662f57014d0cebfb1afb364cbed676abd465824fc27b329f9f6596a67",
+      "bytes": 1439
     },
     {
       "source": "src/chat/workspace.functions.ts",
@@ -327,10 +1017,46 @@
       "bytes": 1517
     },
     {
+      "source": "src/utils/builder-ai-package-resources.ts",
+      "target": "src/utils/builder-ai-package-resources.ts",
+      "sha256": "9bfcd2f08897fd41f2aeb22b2264bc445cb95ec8842346fc5b6112b27b5e7bbc",
+      "bytes": 21209
+    },
+    {
+      "source": "src/utils/builder-ai-progress.ts",
+      "target": "src/utils/builder-ai-progress.ts",
+      "sha256": "097e02b3e6256e6de12f8a1cdeb875094a7de53a3aa812689750eb937e1fda47",
+      "bytes": 7043
+    },
+    {
+      "source": "src/utils/builder-ai-workspace.ts",
+      "target": "src/utils/builder-ai-workspace.ts",
+      "sha256": "787c40f462a2858f71bf252bab2c65a7762a38c18e5ba2835c5895d398707638",
+      "bytes": 16198
+    },
+    {
       "source": "src/utils/builder-environment.ts",
       "target": "src/utils/builder-environment.ts",
       "sha256": "976487f8b1e09bd2a8b702d4dfe4cf90a06d75c90b9301ed744b7bcd05dab57c",
       "bytes": 18806
+    },
+    {
+      "source": "src/utils/builder-examples.ts",
+      "target": "src/utils/builder-examples.ts",
+      "sha256": "0a0bc85b6e2e3d945b4a9ba114587f6f371e2b1c158434330eb4077cbc161c45",
+      "bytes": 17342
+    },
+    {
+      "source": "src/utils/builder-project-draft.ts",
+      "target": "src/utils/builder-project-draft.ts",
+      "sha256": "027f295debf1595d77e8b80fbd4134a7197c7a003d4e91d972341af924b42ffd",
+      "bytes": 4223
+    },
+    {
+      "source": "src/utils/builder-workspace-tools.server.ts",
+      "target": "src/utils/builder-workspace-tools.server.ts",
+      "sha256": "2b49b34587a8ba3de2f9573645cc73ffeeec55346a60aa8b65201859511aadb0",
+      "bytes": 10387
     },
     {
       "source": "src/utils/cache.server.ts",
@@ -393,6 +1119,12 @@
       "bytes": 7972
     },
     {
+      "source": "src/utils/config.ts",
+      "target": "src/utils/config.ts",
+      "sha256": "ed9cce8379a9575a11f9b0cb0ac3ff90e0db61c483c6cf19e399419066542f85",
+      "bytes": 3769
+    },
+    {
       "source": "src/utils/crypto.server.ts",
       "target": "src/utils/crypto.server.ts",
       "sha256": "d71597b82a59d7211dc84b9255394b6b1b1abccdab124697524bfede05d62154",
@@ -445,6 +1177,12 @@
       "target": "src/utils/docs.functions.ts",
       "sha256": "47d407c33a5d73c636c45e8bb908813095a66b0cb39321a11fafe7fab0aa89db",
       "bytes": 16828
+    },
+    {
+      "source": "src/utils/docsNavTabs.ts",
+      "target": "src/utils/docsNavTabs.ts",
+      "sha256": "9f7cf4fadc0ddf918190e781183b811ded44741509a1e43032a6dec32b9bd701",
+      "bytes": 6110
     },
     {
       "source": "src/utils/documents.server.ts",
@@ -823,30 +1561,6 @@
       "target": "src/utils/workflow-runtime.server.ts",
       "sha256": "6f540bf5a6411add7160b109dec71636d709fe86923c454816b45df44c388fbc",
       "bytes": 8207
-    },
-    {
-      "source": "src/chat/server/appearance-html.ts",
-      "target": "src/chat/server/appearance-html.ts",
-      "sha256": "bc11d055b4cba29e77024b866bcb668488edaffa8b6f3dce59a5e41bc3f53e7c",
-      "bytes": 837
-    },
-    {
-      "source": "src/utils/config.ts",
-      "target": "src/utils/config.ts",
-      "sha256": "ed9cce8379a9575a11f9b0cb0ac3ff90e0db61c483c6cf19e399419066542f85",
-      "bytes": 3769
-    },
-    {
-      "source": "src/auth/cli-tickets.server.ts",
-      "target": "src/auth/cli-tickets.server.ts",
-      "sha256": "ce2b4450030f298df5dcdbc74209dc8be9ff4c7846c95c057b06393d8b739941",
-      "bytes": 2681
-    },
-    {
-      "source": "src/utils/docsNavTabs.ts",
-      "target": "src/utils/docsNavTabs.ts",
-      "sha256": "9f7cf4fadc0ddf918190e781183b811ded44741509a1e43032a6dec32b9bd701",
-      "bytes": 6110
     }
   ],
   "extractedRouteHandlers": [
@@ -896,5 +1610,10 @@
       "file": "src/utils/blog.functions.ts",
       "reason": "Export original pure aggregate helper for request-shell metadata; original server-function declaration and protocol retained."
     }
+  ],
+  "workerClassRoots": [
+    "chat/server/workspace-sync-object.ts",
+    "chat/server/conversation.ts",
+    "chat/server/workflow-driver.ts"
   ]
 }

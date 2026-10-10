@@ -1,0 +1,30 @@
+{
+  "scope": "Owned API and real workerd runtime classes; selected protocol/storage checks, not full runtime parity",
+  "responses": [
+    {
+      "pathname": "/__rewrite_missing__",
+      "status": 404,
+      "body": "API boundary only",
+      "contentType": "text/plain;charset=UTF-8"
+    },
+    {
+      "pathname": "/auth/signout",
+      "status": 302,
+      "body": "",
+      "contentType": null
+    }
+  ],
+  "providers": {
+    "status": 200,
+    "nodeBodyEqual": true
+  },
+  "csrf": {
+    "status": 403,
+    "nodeBodyEqual": true
+  },
+  "conversationInitialState": {
+    "messages": 0,
+    "usageSteps": 0,
+    "epoch": "9a620e35-4e69-4bd6-8445-bbeecea051a3"
+  }
+}

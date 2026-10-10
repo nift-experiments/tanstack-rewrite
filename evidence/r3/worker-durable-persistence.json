@@ -1,0 +1,19 @@
+{
+  "scope": "Actual owned API/class artifact in workerd; SQLite stream bytes and Conversation epoch survive process/runtime restart. Full chat, workflows and authorization still pending.",
+  "steps": [
+    {
+      "operation": "create",
+      "status": 201
+    },
+    {
+      "operation": "append",
+      "status": 204
+    },
+    {
+      "operation": "read-after-runtime-restart",
+      "status": 200,
+      "bytesEqual": true,
+      "conversationEpochPreserved": true
+    }
+  ]
+}

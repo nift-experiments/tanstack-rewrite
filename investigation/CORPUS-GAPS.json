@@ -331,6 +331,14 @@
       "status": "Nift native boundary and request-time application owner connected; full parity pending"
     },
     {
+      "pattern": "/admin/users",
+      "id": "/admin/users",
+      "pathname": "/admin/users",
+      "leaf": true,
+      "publicationKey": "admin_users",
+      "status": "Nift native boundary and request-time application owner connected; full parity pending"
+    },
+    {
       "pattern": "/application-starter/",
       "id": "/application-starter/",
       "pathname": "/application-starter/",
@@ -983,11 +991,6 @@
     {
       "pattern": "/.well-known/oauth-authorization-server",
       "classification": "backend/service protocol",
-      "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
-    },
-    {
-      "pattern": "/admin/users",
-      "classification": "auth/session-sensitive application",
       "status": "Not connected to authored static publication or application-family contract; runtime API coverage tracked separately"
     },
     {
@@ -1852,5 +1855,20 @@
     "documentation image/static-asset URL resolution",
     "Cloudflare Worker-backed chat stream runtime verification",
     "independent clean-checkout packaging"
-  ]
+  ],
+  "workerRuntime": {
+    "status": "Owned API/class artifact packages via native _build/worker; selected workerd protocol/persistence checks pass",
+    "evidence": [
+      "evidence/r3/worker-api-protocol.json",
+      "evidence/r3/worker-durable-persistence.json"
+    ],
+    "remaining": [
+      "Full chat and workflow execution",
+      "Authenticated class/service/provider parity",
+      "Publication hosting and portable document providers",
+      "Complete production bindings",
+      "Malformed server-function error-path parity",
+      "Independent dependencies/toolchains"
+    ]
+  }
 }
