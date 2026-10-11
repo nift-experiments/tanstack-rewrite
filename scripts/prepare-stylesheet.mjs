@@ -37,7 +37,7 @@ export async function prepareStylesheet(tracked,write){
 
  let checkedReferences=projectStylesheet('.work/styles/site.css','assets/site',tracked,write);
  const generated=new Map();
- for(const root of ['.work/shell-prototype/dist/client','.work/publication-ssr','.work/publication-preparation-ssr']){
+ for(const root of ['.work/shell-prototype/dist/client','.work/publication-ssr','.work/publication-preparation-ssr','.work/docs-preparation-ssr']){
   for(const directory of ['assets','static']){
    if(!fs.existsSync(root+'/'+directory))continue;
    for(const file of fs.readdirSync(root+'/'+directory,{recursive:true})){

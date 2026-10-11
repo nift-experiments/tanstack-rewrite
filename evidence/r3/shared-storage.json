@@ -1,0 +1,7 @@
+{
+  "retiredOwnedUncompressedShellFiles": 14247,
+  "retiredBytes": 4719488219,
+  "docsShellsExactlyEqualToPriorRenderer": 14107,
+  "docsShellsDifferentFromPriorRenderer": [],
+  "scope": "Retired only mapped, generated old shell caches after full native composition verification; maintained source/assets and parity evidence retained"
+}

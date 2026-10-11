@@ -1,0 +1,6 @@
+{
+  "completePageShellsVerified": 14247,
+  "shards": 4,
+  "comparison": "Exact shell bytes after existing checked publication URL normalization; no pixel masks or DOM normalization",
+  "scope": "Shared intermediate representation integrity, not final browser parity"
+}

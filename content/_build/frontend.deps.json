@@ -247,6 +247,8 @@
     "frontend/layout",
     "frontend/layout-proof",
     "frontend/layout-proof/client.tsx",
+    "frontend/layout-proof/docs-preparation-router.tsx",
+    "frontend/layout-proof/docs-preparation-server.tsx",
     "frontend/layout-proof/router.tsx",
     "frontend/layout-proof/server.tsx",
     "frontend/layout/DocsHead.ts",

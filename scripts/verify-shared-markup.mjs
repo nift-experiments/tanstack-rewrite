@@ -1,0 +1,8 @@
+import fs from 'node:fs';import assert from 'node:assert/strict';import {gunzipSync} from 'node:zlib';import {createHash} from 'node:crypto';import {readProjectPaths,resolveHtmlPaths} from './project-paths.mjs';
+const manifest=JSON.parse(fs.readFileSync('.work/corpus-manifest.json')),paths=readProjectPaths(),hash=value=>createHash('sha256').update(value).digest('hex');let verified=0;const shard=Number(process.argv[2]??0),shards=Number(process.argv[3]??1);let index=0;
+for(const pathname of ['/',...Object.keys({...manifest.routes,...manifest.landings,...manifest.marketing,...manifest.blog})]){
+ if(index++%shards!==shard)continue;
+ const key=pathname==='/'?'index':pathname.slice(1),raw=gunzipSync(fs.readFileSync('.work/site-shell/'+key+'.html.gz')).toString(),page=fs.readFileSync('public/'+key+'.html','utf8'),match=page.match(/<!--REQUEST_SHELL_START-->\n([\s\S]*)\n<!--REQUEST_SHELL_END-->/);assert.ok(match,'Native shell boundary missing '+pathname);
+ assert.equal(hash(resolveHtmlPaths(match[1],paths,pathname==='/'?'/index.html':pathname+'.html')),hash(resolveHtmlPaths(raw.replace(/\n$/,''),paths,'/')),'Shared literal composition changed bytes '+pathname);verified++;
+}
+const receipt={completePageShellsVerified:verified,comparison:'Exact shell bytes after existing checked publication URL normalization; no pixel masks or DOM normalization',scope:'Shared intermediate representation integrity, not final browser parity'};fs.writeFileSync(shards===1?'evidence/r3/shared-markup-verification.json':'.work/performance-optimized/shared-markup-shard-'+shard+'.json',JSON.stringify(receipt,null,2)+'\n');console.log(JSON.stringify(receipt));

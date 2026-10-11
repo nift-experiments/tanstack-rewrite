@@ -12,7 +12,7 @@ for(const [name,expected] of Object.entries({...pkg.devDependencies,...pkg.depen
   packages.push({name,version:installed.version});
 }
 const graphs=[];
-for(const filename of ['shell-module-manifests/client.json','ssr-module-manifests/publication.json','ssr-module-manifests/preparation.json','full-api-module-manifests/ssr.json','full-api-module-manifests/worker-ssr.json']) {
+for(const filename of ['shell-module-manifests/client.json','ssr-module-manifests/publication.json','ssr-module-manifests/preparation.json','ssr-module-manifests/docs-preparation.json','full-api-module-manifests/ssr.json','full-api-module-manifests/worker-ssr.json']) {
   const raw=fs.readFileSync('.work/module-manifests/'+filename);
   const identifiers=[];
   function walk(rows){for(const row of rows){if(row.identifier)identifiers.push(row.identifier);walk(row.modules??[])}}
@@ -21,4 +21,4 @@ for(const filename of ['shell-module-manifests/client.json','ssr-module-manifest
   graphs.push({filename,moduleIdentifiers:identifiers.length,sha256:createHash('sha256').update(raw).digest('hex')});
 }
 fs.writeFileSync('evidence/r3/owned-dependencies.json',JSON.stringify({scope:'Direct locked package versions and actual normal browser, request/preparation SSR, Node API and Worker compiler graphs. Clean-checkout and full runtime acceptance are separate gates.',packageManager:pkg.packageManager,packages,graphs},null,2)+'\n');
-console.log(`${packages.length} direct packages owned and pinned; five production compiler graphs exclude borrowed runtime/system packages`);
+console.log(`${packages.length} direct packages owned and pinned; ${graphs.length} production compiler graphs exclude borrowed runtime/system packages`);

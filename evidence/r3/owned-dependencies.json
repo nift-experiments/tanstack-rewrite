@@ -594,28 +594,33 @@
   "graphs": [
     {
       "filename": "shell-module-manifests/client.json",
-      "moduleIdentifiers": 9328,
-      "sha256": "df2b767483bf55f977543814d03eb527a6c87a30c778bc51517138f05c3f7fe1"
+      "moduleIdentifiers": 15826,
+      "sha256": "43c6294f63c4524a3841fa9ed668bf82807bb5b5385fd69be8b87cd8111834d9"
     },
     {
       "filename": "ssr-module-manifests/publication.json",
-      "moduleIdentifiers": 7686,
-      "sha256": "76d6ef997516bed57de39c0c3a8a5bf1d90bca0cab0c0b1718fe76e7ba108b8b"
+      "moduleIdentifiers": 14264,
+      "sha256": "b7a0e0fbbf24fe9d891c47fd4c23d5fafdf8ab4df1566708b474046e464d0b61"
     },
     {
       "filename": "ssr-module-manifests/preparation.json",
       "moduleIdentifiers": 3453,
-      "sha256": "8369c7aa5a47448b7f2045252e6e22d765b13f9abeaf45b42e8ebf73e0b5169b"
+      "sha256": "d3beb1ee6902650d439ed4fa781cc8ce48154f36c2d653e800d5126608bcd506"
+    },
+    {
+      "filename": "ssr-module-manifests/docs-preparation.json",
+      "moduleIdentifiers": 2453,
+      "sha256": "a993797c3c750eaddf310a1e1ed3872e1a2f747048ba373c639efd28fd31616d"
     },
     {
       "filename": "full-api-module-manifests/ssr.json",
       "moduleIdentifiers": 6656,
-      "sha256": "6b84b7295182cb69d0634a65118383b0c0d3b89fcd367ad6ff2509f4fa69fba5"
+      "sha256": "1c8c3309fc70f8ae4e7b14e8ea011dc53d364cb2c74d030130a715f83510265e"
     },
     {
       "filename": "full-api-module-manifests/worker-ssr.json",
       "moduleIdentifiers": 6672,
-      "sha256": "34ad6362fc2d2f66cdd90a6296572778998803becbb47dd481225110f0939902"
+      "sha256": "71622daedafae6f57bcbdbd93407ef6fc9191ed1ef6364f32a1e8fce1c2eeb42"
     }
   ]
 }

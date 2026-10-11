@@ -1,7 +1,7 @@
 import fs from 'node:fs';import path from 'node:path';import {createHash} from 'node:crypto';
 // Untransformed publication assets are maintained source, never startup copies.
 if(!fs.existsSync('sources/PUBLIC-ASSETS-PROVENANCE.json')||!fs.existsSync('public/images/hero-palm-gradient.jpg'))throw Error('Maintained publication assets missing; restore them from repository source.');
-export const publicationBundleRoots=['.work/shell-prototype/dist/client','.work/publication-ssr','.work/publication-preparation-ssr'];
+export const publicationBundleRoots=['.work/shell-prototype/dist/client','.work/publication-ssr','.work/publication-preparation-ssr','.work/docs-preparation-ssr'];
 // Resolve the complete producer set before writing: identical shared outputs are
 // valid, but one producer must never silently overwrite another's asset bytes.
 const outputs=new Map();

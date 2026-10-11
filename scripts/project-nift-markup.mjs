@@ -1,6 +1,8 @@
 import {projectIslandFlow} from './island-flow-boundary.mjs';
+import {createHash} from 'node:crypto';
 import fs from 'node:fs';import path from 'node:path';import {createRequire} from 'node:module';
 const {parseFragment}=createRequire(path.resolve('package.json'))('parse5');
+let sharedFiles;function knownSharedFiles(){if(!sharedFiles){fs.mkdirSync('.work/shared-markup',{recursive:true});sharedFiles=new Set(fs.readdirSync('.work/shared-markup'))}return sharedFiles}
 // Source offsets keep literal HTML/code bytes intact. Only actual URL attributes
 // become Nift expressions. Literal chunks are JSON values, never Nift source.
 export function projectNiftMarkup(html,pathname,routes,dataFile,binding="parts"){
@@ -11,7 +13,9 @@ export function projectNiftMarkup(html,pathname,routes,dataFile,binding="parts")
  const urls=attribute.name==='srcset'?[...value.matchAll(/(?:^|,\s*)([^\s,]+)/g)].map(m=>({url:m[1],index:m.index+m[0].indexOf(m[1])})):[{url:value,index:0}];
  for(const item of urls){const resolved=target(item.url);if(resolved)replacements.push({start:start+item.index,end:start+item.index+item.url.length,expression:'@path('+JSON.stringify(resolved.name)+')',suffix:resolved.suffix});}
  }for(const child of node.childNodes??[])visit(child);if(node.content)visit(node.content);}visit(document);
+ const sharedBindings=new Map();
+ function literal(index){const value=literals[index];if(Buffer.byteLength(value)<256)return '$['+binding+'['+index+']]';const key=createHash('sha256').update(value).digest('hex'),file='.work/shared-markup/'+key+'.json';const files=knownSharedFiles(),filename=key+'.json';if(!files.has(filename)){fs.writeFileSync(file,JSON.stringify(value));files.add(filename)}literals[index]='';const name=sharedBindings.get(key)??binding+'S'+sharedBindings.size,prefix=sharedBindings.has(key)?'':'@json('+name+', '+JSON.stringify(file)+')';sharedBindings.set(key,name);return prefix+'$['+name+']';}
  replacements.sort((a,b)=>a.start-b.start);const literals=[];let source='@json('+binding+', '+JSON.stringify(dataFile)+')',cursor=0,pendingSuffix='';
- for(const replacement of replacements){literals.push(pendingSuffix+html.slice(cursor,replacement.start));source+='$['+binding+'['+(literals.length-1)+']]'+replacement.expression;cursor=replacement.end;pendingSuffix=replacement.suffix??'';}literals.push(pendingSuffix+html.slice(cursor));source+='$['+binding+'['+(literals.length-1)+']]';
+ for(const replacement of replacements){literals.push(pendingSuffix+html.slice(cursor,replacement.start));source+=literal(literals.length-1)+replacement.expression;cursor=replacement.end;pendingSuffix=replacement.suffix??'';}literals.push(pendingSuffix+html.slice(cursor));source+=literal(literals.length-1);
  return {source,data:JSON.stringify(literals),checkedReferences:replacements.length,unknown:[...new Set(unknown)]};
 }

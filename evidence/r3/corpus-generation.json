@@ -1,4 +1,11 @@
 {
+  "pagePreparation": {
+    "completePages": 14247,
+    "prepared": 0,
+    "reused": 14247,
+    "preparedDocs": 0,
+    "reusedDocs": 14107
+  },
   "sourceLifecycle": {
     "discoveredInputs": 7601,
     "removedRoutes": [],
@@ -29,12 +36,12 @@
     "cli": 22,
     "workflow": 162
   },
-  "rendered": 14107,
-  "reused": 0,
+  "rendered": 0,
+  "reused": 14107,
   "emptyInputs": 1,
   "renderFailures": 0,
   "pendingComponentFamilies": {},
-  "elapsedSeconds": 355.79200054700004,
+  "elapsedSeconds": 73.017617122,
   "output": "public/<route>.html plus public/index.html; article fragments support native Router navigation",
   "siteShell": "Nift-published complete pages; declared session/shell slots evaluated at request time",
   "familyBindings": {
