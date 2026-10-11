@@ -1,3 +1,5 @@
+> **CLOSED — unsuccessful.** The single authorized performance pass failed. Do not resume optimization or parity work without a new user request.
+
 # HANDOVER.md
 v0.0.8
 
@@ -457,3 +459,9 @@ Non-critical parity polishing is paused. Before optimization, run three serializ
 The initial decision campaign establishes that the current implementation is unsuccessful: warm full 232.01s/5690 MiB; docs edit 63.40s/1603 MiB; shared layout 73.43s/5426 MiB; frontend edit 482.51s/5449 MiB. Unchanged publication is 5.79s/~114 MiB. Fresh/backend sampling was stopped by user direction. Full RSS is 5.56 GiB, not 5.69 GiB.
 
 Exactly one structural performance pass is authorized before further parity refinement. Separate intrinsic document rendering from frontend SSR; remove unnecessary whole-corpus cache reads; replace repeated shell intermediates. Retain native dependency ordering unless false invalidation is demonstrated: the measured docs edit rebuilt only 13 outputs. Gate targets are full publication competitive with ~32s migration, substantially below ~4.45 GiB, near single-digit docs iteration and frontend edits far below eight minutes. If the bounded pass misses these targets, close the rewrite as unsuccessful. No core or Labs changes. Existing parity evidence and five thin viewport differences remain preserved.
+
+## Final failed-gate handover
+
+Implementation `a68401f` preserves the working corpus and the measured optimization attempt. Full / unchanged / docs-edit / frontend-edit medians are 192.28 / 10.36 / 37.50 / 163.69 seconds. Full maximum individual RSS median is 2378.9 MiB, sampled tree RSS median 5364.9 MiB; retain both qualifications. The ~32-second full and near-single-digit docs gates were missed. The experiment is closed as unsuccessful.
+
+See investigation/STATUS.md and evidence/r3/focused-performance-gate.json for ranges, component costs, accepted-baseline scope and future candidates. All benchmark mutations were restored and normal publication completed. Existing parity evidence, candidate/source history and the baseline checkpoint remain preserved. Nift core, Labs and the faithful migration repositories were not changed. Do not run more optimization, parity polishing, fresh/five-sample campaigns or publication work for this experiment.

@@ -1,3 +1,5 @@
+> **CLOSED — unsuccessful.** The single authorized performance pass failed. Do not resume optimization or parity work without a new user request.
+
 # STATUS.md
 
 Resumable rewrite state (EXPERIMENTAL, v4.8). Read REWRITE.md, AGENTS.md and HANDOVER.md.
@@ -180,3 +182,37 @@ Non-critical parity polishing is paused. Before optimization, run three serializ
 The initial decision campaign establishes that the current implementation is unsuccessful: warm full 232.01s/5690 MiB; docs edit 63.40s/1603 MiB; shared layout 73.43s/5426 MiB; frontend edit 482.51s/5449 MiB. Unchanged publication is 5.79s/~114 MiB. Fresh/backend sampling was stopped by user direction. Full RSS is 5.56 GiB, not 5.69 GiB.
 
 Exactly one structural performance pass is authorized before further parity refinement. Separate intrinsic document rendering from frontend SSR; remove unnecessary whole-corpus cache reads; replace repeated shell intermediates. Retain native dependency ordering unless false invalidation is demonstrated: the measured docs edit rebuilt only 13 outputs. Gate targets are full publication competitive with ~32s migration, substantially below ~4.45 GiB, near single-digit docs iteration and frontend edits far below eight minutes. If the bounded pass misses these targets, close the rewrite as unsuccessful. No core or Labs changes. Existing parity evidence and five thin viewport differences remain preserved.
+
+## Closed as unsuccessful after the bounded performance pass
+
+The user-authorized single structural optimization pass failed its decision gate on 2026-10-11. Stop this rewrite. Earlier progress notes and remaining-work lists are historical and do not authorize another rescue pass, parity polish, a final five-sample campaign, or Nift core changes.
+
+The measured implementation is `a68401f`. Three serialized samples per selected scenario used pinned Node 25.9.0 and an identical frozen copy of Nift 4.10.0. Detailed medians, ranges, phase execution, memory qualifications, and accepted baseline scopes are in `evidence/r3/focused-performance-gate.json`.
+
+| Production scenario | Before (s) | After median (s) | After range (s) | Max individual RSS median (MiB) | Sampled tree RSS median (MiB) |
+| --- | ---: | ---: | --- | ---: | ---: |
+| warm-full | 232.01 | 192.28 | 187.08–194.47 | 2378.9 | 5364.9 |
+| unchanged | 5.79 | 10.36 | 9.92–11.06 | 114.2 | 173.1 |
+| docs-edit | 63.40 | 37.50 | 37.03–40.59 | 1525.7 | 1691.8 |
+| frontend-edit | 482.51 | 163.69 | 148.03–181.07 | 2216.1 | 3877.6 |
+
+The accepted faithful migration full publication is 32.42s and upstream is 31.22s. The rewrite remains about six times slower than the migration. The rewrite emits 14,247 complete static pages plus 14,107 fragments, whereas upstream and the faithful migration serve docs dynamically. This responsibility difference is stated explicitly; it does not waive the agreed viability gate.
+
+What improved: intrinsic Markdown rendering and docs shell SSR are separated from homepage/application SSR; all frontend-edit samples rendered zero docs and reused all 14,107 docs shells, with only 140 non-doc pages rerendered. Browser bundling ran and backend builds stayed off. Ordinary docs edits rendered six affected docs, with browser/backend builds off. Native dependency ordering was retained: the preparation receipt was not the cause of whole-corpus invalidation.
+
+The compact representation retired 14,247 mapped uncompressed shell caches (4,719,488,219 bytes). All 14,107 new docs shell bodies exactly match the previous renderer; all 14,247 composed shells, 14,107 article/download projections, 310 recorded assets, 17 stylesheets, and six compiler dependency graphs passed the relevant checks. Existing 96-state semantic / 91-state exact-pixel evidence and five thin viewport differences remain preserved; this is not final parity acceptance.
+
+What still failed: preparation continues traversing and serializing page contexts across the corpus. Fine-grained shared JSON chunks reduce stored literal duplication but increase native composition/dependency work. The unchanged command regressed. Individual-process RSS fell, but concurrent compiler targets keep sampled tree RSS substantial. Neither memory figure may be presented as the other.
+
+| Scenario | Frontend producer median (s) | Corpus preparation median (s) | Exclusive Nift build median (s) |
+| --- | ---: | ---: | ---: |
+| warm-full | 26.91 | 36.10 | 129.12 |
+| unchanged | 0.00 | 0.00 | 4.94 |
+| docs-edit | 0.00 | 27.51 | 5.45 |
+| frontend-edit | 21.14 | 32.05 | 104.33 |
+
+Exclusive Nift time includes native dependency/cache/composition/output/orchestration and excludes the union of producer intervals; it is not built-in Markdown performance. Parallel compiler durations cannot be summed as serialized wall time. Maximum individual process/phase RSS is not aggregate memory; sampled tree RSS can double-count shared pages and miss short peaks. Persistent preview/database services are excluded. Conversion, repair, cache settlement and correctness validation were not decision samples.
+
+Fresh application state, shared-layout edits and backend-only edits were not rerun after optimization: the hard full-build gate already failed. No final performance claim, migration recommendation, or demonstrated Nift core ceiling follows from this campaign.
+
+Future work, outside this closed experiment: represent chrome as bounded shared templates or grouped immutable data rather than many tiny per-page imports; avoid reserializing unchanged library configuration/page contexts; profile native composition overhead on the generated dependency graph; require a corpus-scale cost gate before extended parity refinement. These are candidates for separate Nift/tooling planning, not permission to reopen this rewrite.

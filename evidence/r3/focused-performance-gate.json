@@ -1,0 +1,959 @@
+{
+  "decision": "CLOSED_UNSUCCESSFUL",
+  "implementationRevision": "a68401f",
+  "campaign": "One bounded structural pass; three serialized samples per selected scenario; interim diagnostics, not final parity-certified benchmarks",
+  "niftVersion": "4.10.0",
+  "niftBinarySha256": "e6f0100771e79ae5b79ab9f00662482de254f35309a13147b5b9d242ad0508f6",
+  "nodeVersion": "25.9.0",
+  "results": {
+    "warm-full": {
+      "samples": 3,
+      "wallSeconds": {
+        "median": 192.28,
+        "range": [
+          187.08,
+          194.47
+        ]
+      },
+      "maximumIndividualProcessPhaseRssMiB": {
+        "median": 2378.8515625,
+        "range": [
+          2127.71875,
+          2433.16796875
+        ]
+      },
+      "sampledDescendantRssMiB": {
+        "median": 5364.92578125,
+        "range": [
+          5000.8671875,
+          5537.36328125
+        ]
+      },
+      "niftExclusiveWallSeconds": {
+        "median": 129.12,
+        "range": [
+          128.64,
+          129.563
+        ]
+      },
+      "phaseWallCosts": {
+        "frontend-producer": {
+          "medianSeconds": 26.907,
+          "rangeSeconds": [
+            26.346,
+            27.496
+          ]
+        },
+        "corpus-preparation": {
+          "medianSeconds": 36.101,
+          "rangeSeconds": [
+            30.797,
+            38.085
+          ]
+        },
+        "backend-producer": {
+          "medianSeconds": 20.151,
+          "rangeSeconds": [
+            19.445999999999998,
+            20.457
+          ]
+        },
+        "worker-producer": {
+          "medianSeconds": 16.289,
+          "rangeSeconds": [
+            15.478,
+            16.501
+          ]
+        },
+        "browser-bundle": {
+          "medianSeconds": 26.067,
+          "rangeSeconds": [
+            25.407,
+            26.526
+          ]
+        }
+      },
+      "browserBundlingRan": [
+        true,
+        true,
+        true
+      ],
+      "backendBuildRan": [
+        true,
+        true,
+        true
+      ],
+      "corpusRendering": [
+        {
+          "renderedDocs": 0,
+          "reusedDocs": 14107,
+          "pages": {
+            "completePages": 14247,
+            "prepared": 0,
+            "reused": 14247,
+            "preparedDocs": 0,
+            "reusedDocs": 14107
+          }
+        },
+        {
+          "renderedDocs": 0,
+          "reusedDocs": 14107,
+          "pages": {
+            "completePages": 14247,
+            "prepared": 0,
+            "reused": 14247,
+            "preparedDocs": 0,
+            "reusedDocs": 14107
+          }
+        },
+        {
+          "renderedDocs": 0,
+          "reusedDocs": 14107,
+          "pages": {
+            "completePages": 14247,
+            "prepared": 0,
+            "reused": 14247,
+            "preparedDocs": 0,
+            "reusedDocs": 14107
+          }
+        }
+      ],
+      "dominantIndividual": [
+        {
+          "pid": 3133805,
+          "rssKiB": 2438648,
+          "name": "node-MainThread",
+          "phase": "frontend browser bundle",
+          "executable": "node"
+        },
+        {
+          "pid": 3141797,
+          "rssKiB": 2182016,
+          "name": "node-MainThread",
+          "phase": "frontend browser bundle",
+          "executable": "node"
+        },
+        {
+          "pid": 3143096,
+          "rssKiB": 2493800,
+          "name": "node-MainThread",
+          "phase": "frontend browser bundle",
+          "executable": "node"
+        }
+      ],
+      "dominantTree": [
+        {
+          "pid": 3133806,
+          "rssKiB": 2066156,
+          "name": "node-MainThread",
+          "phase": "publication SSR bundle",
+          "executable": "node"
+        },
+        {
+          "pid": 3141798,
+          "rssKiB": 1720116,
+          "name": "node-MainThread",
+          "phase": "publication SSR bundle",
+          "executable": "node"
+        },
+        {
+          "pid": 3143096,
+          "rssKiB": 1881392,
+          "name": "node-MainThread",
+          "phase": "frontend browser bundle",
+          "executable": "node"
+        }
+      ]
+    },
+    "unchanged": {
+      "samples": 3,
+      "wallSeconds": {
+        "median": 10.36,
+        "range": [
+          9.92,
+          11.06
+        ]
+      },
+      "maximumIndividualProcessPhaseRssMiB": {
+        "median": 114.1796875,
+        "range": [
+          113.9296875,
+          114.578125
+        ]
+      },
+      "sampledDescendantRssMiB": {
+        "median": 173.11328125,
+        "range": [
+          170.04296875,
+          173.52734375
+        ]
+      },
+      "niftExclusiveWallSeconds": {
+        "median": 4.943,
+        "range": [
+          4.759,
+          5.558
+        ]
+      },
+      "phaseWallCosts": {
+        "frontend-producer": {
+          "medianSeconds": 0,
+          "rangeSeconds": [
+            0,
+            0
+          ]
+        },
+        "corpus-preparation": {
+          "medianSeconds": 0,
+          "rangeSeconds": [
+            0,
+            0
+          ]
+        },
+        "backend-producer": {
+          "medianSeconds": 0,
+          "rangeSeconds": [
+            0,
+            0
+          ]
+        },
+        "worker-producer": {
+          "medianSeconds": 0,
+          "rangeSeconds": [
+            0,
+            0
+          ]
+        },
+        "browser-bundle": {
+          "medianSeconds": 0,
+          "rangeSeconds": [
+            0,
+            0
+          ]
+        }
+      },
+      "browserBundlingRan": [
+        false,
+        false,
+        false
+      ],
+      "backendBuildRan": [
+        false,
+        false,
+        false
+      ],
+      "corpusRendering": [
+        {
+          "renderedDocs": 0,
+          "reusedDocs": 14107,
+          "pages": {
+            "completePages": 14247,
+            "prepared": 0,
+            "reused": 14247,
+            "preparedDocs": 0,
+            "reusedDocs": 14107
+          }
+        },
+        {
+          "renderedDocs": 0,
+          "reusedDocs": 14107,
+          "pages": {
+            "completePages": 14247,
+            "prepared": 0,
+            "reused": 14247,
+            "preparedDocs": 0,
+            "reusedDocs": 14107
+          }
+        },
+        {
+          "renderedDocs": 0,
+          "reusedDocs": 14107,
+          "pages": {
+            "completePages": 14247,
+            "prepared": 0,
+            "reused": 14247,
+            "preparedDocs": 0,
+            "reusedDocs": 14107
+          }
+        }
+      ],
+      "dominantIndividual": [
+        {
+          "pid": 3144263,
+          "rssKiB": 118620,
+          "name": "node-MainThread",
+          "phase": "orchestration",
+          "executable": "node"
+        },
+        {
+          "pid": 3144499,
+          "rssKiB": 118508,
+          "name": "node-MainThread",
+          "phase": "orchestration",
+          "executable": "node"
+        },
+        {
+          "pid": 3144600,
+          "rssKiB": 118680,
+          "name": "node-MainThread",
+          "phase": "orchestration",
+          "executable": "node"
+        }
+      ],
+      "dominantTree": [
+        {
+          "pid": 3144263,
+          "rssKiB": 118620,
+          "name": "node-MainThread",
+          "phase": "orchestration",
+          "executable": "node"
+        },
+        {
+          "pid": 3144499,
+          "rssKiB": 118508,
+          "name": "node-MainThread",
+          "phase": "orchestration",
+          "executable": "node"
+        },
+        {
+          "pid": 3144600,
+          "rssKiB": 118476,
+          "name": "node-MainThread",
+          "phase": "orchestration",
+          "executable": "node"
+        }
+      ]
+    },
+    "docs-edit": {
+      "samples": 3,
+      "wallSeconds": {
+        "median": 37.5,
+        "range": [
+          37.03,
+          40.59
+        ]
+      },
+      "maximumIndividualProcessPhaseRssMiB": {
+        "median": 1525.6796875,
+        "range": [
+          1450.921875,
+          1546.69921875
+        ]
+      },
+      "sampledDescendantRssMiB": {
+        "median": 1691.8125,
+        "range": [
+          1617.46875,
+          1715.9375
+        ]
+      },
+      "niftExclusiveWallSeconds": {
+        "median": 5.445,
+        "range": [
+          5.314,
+          5.474
+        ]
+      },
+      "phaseWallCosts": {
+        "frontend-producer": {
+          "medianSeconds": 0,
+          "rangeSeconds": [
+            0,
+            0
+          ]
+        },
+        "corpus-preparation": {
+          "medianSeconds": 27.509,
+          "rangeSeconds": [
+            26.956,
+            30.343
+          ]
+        },
+        "backend-producer": {
+          "medianSeconds": 0,
+          "rangeSeconds": [
+            0,
+            0
+          ]
+        },
+        "worker-producer": {
+          "medianSeconds": 0,
+          "rangeSeconds": [
+            0,
+            0
+          ]
+        },
+        "browser-bundle": {
+          "medianSeconds": 0,
+          "rangeSeconds": [
+            0,
+            0
+          ]
+        }
+      },
+      "browserBundlingRan": [
+        false,
+        false,
+        false
+      ],
+      "backendBuildRan": [
+        false,
+        false,
+        false
+      ],
+      "corpusRendering": [
+        {
+          "renderedDocs": 6,
+          "reusedDocs": 14101,
+          "pages": {
+            "completePages": 14247,
+            "prepared": 6,
+            "reused": 14241,
+            "preparedDocs": 6,
+            "reusedDocs": 14101
+          }
+        },
+        {
+          "renderedDocs": 6,
+          "reusedDocs": 14101,
+          "pages": {
+            "completePages": 14247,
+            "prepared": 6,
+            "reused": 14241,
+            "preparedDocs": 6,
+            "reusedDocs": 14101
+          }
+        },
+        {
+          "renderedDocs": 6,
+          "reusedDocs": 14101,
+          "pages": {
+            "completePages": 14247,
+            "prepared": 6,
+            "reused": 14241,
+            "preparedDocs": 6,
+            "reusedDocs": 14101
+          }
+        }
+      ],
+      "dominantIndividual": [
+        {
+          "pid": 3144724,
+          "rssKiB": 1543428,
+          "name": "node-MainThread",
+          "phase": "corpus preparation",
+          "executable": "node"
+        },
+        {
+          "pid": 3144915,
+          "rssKiB": 1467176,
+          "name": "node-MainThread",
+          "phase": "corpus preparation",
+          "executable": "node"
+        },
+        {
+          "pid": 3145182,
+          "rssKiB": 1564964,
+          "name": "node-MainThread",
+          "phase": "corpus preparation",
+          "executable": "node"
+        }
+      ],
+      "dominantTree": [
+        {
+          "pid": 3144724,
+          "rssKiB": 1543428,
+          "name": "node-MainThread",
+          "phase": "corpus preparation",
+          "executable": "node"
+        },
+        {
+          "pid": 3144915,
+          "rssKiB": 1467176,
+          "name": "node-MainThread",
+          "phase": "corpus preparation",
+          "executable": "node"
+        },
+        {
+          "pid": 3145182,
+          "rssKiB": 1564964,
+          "name": "node-MainThread",
+          "phase": "corpus preparation",
+          "executable": "node"
+        }
+      ]
+    },
+    "frontend-edit": {
+      "samples": 3,
+      "wallSeconds": {
+        "median": 163.69,
+        "range": [
+          148.03,
+          181.07
+        ]
+      },
+      "maximumIndividualProcessPhaseRssMiB": {
+        "median": 2216.05078125,
+        "range": [
+          2164.6640625,
+          2303.8203125
+        ]
+      },
+      "sampledDescendantRssMiB": {
+        "median": 3877.59765625,
+        "range": [
+          3777.5625,
+          4210.1640625
+        ]
+      },
+      "niftExclusiveWallSeconds": {
+        "median": 104.328,
+        "range": [
+          96.109,
+          122.762
+        ]
+      },
+      "phaseWallCosts": {
+        "frontend-producer": {
+          "medianSeconds": 21.137,
+          "rangeSeconds": [
+            20.272,
+            21.315
+          ]
+        },
+        "corpus-preparation": {
+          "medianSeconds": 32.055,
+          "rangeSeconds": [
+            26.782,
+            32.938
+          ]
+        },
+        "backend-producer": {
+          "medianSeconds": 0,
+          "rangeSeconds": [
+            0,
+            0
+          ]
+        },
+        "worker-producer": {
+          "medianSeconds": 0,
+          "rangeSeconds": [
+            0,
+            0
+          ]
+        },
+        "browser-bundle": {
+          "medianSeconds": 20.372,
+          "rangeSeconds": [
+            19.613,
+            20.48
+          ]
+        }
+      },
+      "browserBundlingRan": [
+        true,
+        true,
+        true
+      ],
+      "backendBuildRan": [
+        false,
+        false,
+        false
+      ],
+      "corpusRendering": [
+        {
+          "renderedDocs": 0,
+          "reusedDocs": 14107,
+          "pages": {
+            "completePages": 14247,
+            "prepared": 140,
+            "reused": 14107,
+            "preparedDocs": 0,
+            "reusedDocs": 14107
+          }
+        },
+        {
+          "renderedDocs": 0,
+          "reusedDocs": 14107,
+          "pages": {
+            "completePages": 14247,
+            "prepared": 140,
+            "reused": 14107,
+            "preparedDocs": 0,
+            "reusedDocs": 14107
+          }
+        },
+        {
+          "renderedDocs": 0,
+          "reusedDocs": 14107,
+          "pages": {
+            "completePages": 14247,
+            "prepared": 140,
+            "reused": 14107,
+            "preparedDocs": 0,
+            "reusedDocs": 14107
+          }
+        }
+      ],
+      "dominantIndividual": [
+        {
+          "pid": 3145817,
+          "rssKiB": 2219428,
+          "name": "node-MainThread",
+          "phase": "frontend browser bundle",
+          "executable": "node"
+        },
+        {
+          "pid": 3153479,
+          "rssKiB": 2271796,
+          "name": "node-MainThread",
+          "phase": "frontend browser bundle",
+          "executable": "node"
+        },
+        {
+          "pid": 3154414,
+          "rssKiB": 2362040,
+          "name": "node-MainThread",
+          "phase": "frontend browser bundle",
+          "executable": "node"
+        }
+      ],
+      "dominantTree": [
+        {
+          "pid": 3145818,
+          "rssKiB": 1871916,
+          "name": "node-MainThread",
+          "phase": "publication SSR bundle",
+          "executable": "node"
+        },
+        {
+          "pid": 3153480,
+          "rssKiB": 1888512,
+          "name": "node-MainThread",
+          "phase": "publication SSR bundle",
+          "executable": "node"
+        },
+        {
+          "pid": 3154414,
+          "rssKiB": 2245364,
+          "name": "node-MainThread",
+          "phase": "frontend browser bundle",
+          "executable": "node"
+        }
+      ]
+    }
+  },
+  "acceptedBaselines": {
+    "source": "/home/nick/Repositories/nift/nift-experiments/tanstack/evidence/t10/summary.json",
+    "rows": [
+      {
+        "implementation": "upstream",
+        "workload": "full",
+        "samples": 5,
+        "scope": "complete retained Vite production build",
+        "wall_seconds": {
+          "median": 31.22,
+          "min": 28.73,
+          "max": 36.26
+        },
+        "maximum_individual_process_rss_kib": {
+          "median": 4648552,
+          "min": 4561932,
+          "max": 4713448
+        },
+        "sampled_descendant_tree_peak_rss_kib": {
+          "median": 5129512,
+          "min": 5027896,
+          "max": 5201568
+        }
+      },
+      {
+        "implementation": "tanstack",
+        "workload": "full",
+        "samples": 5,
+        "scope": "complete Nift documents/assets publication and required retained Vite build",
+        "wall_seconds": {
+          "median": 32.42,
+          "min": 32.12,
+          "max": 36.31
+        },
+        "maximum_individual_process_rss_kib": {
+          "median": 4664400,
+          "min": 4630940,
+          "max": 4703936
+        },
+        "sampled_descendant_tree_peak_rss_kib": {
+          "median": 5294172,
+          "min": 5278928,
+          "max": 5336704
+        }
+      },
+      {
+        "implementation": "upstream",
+        "workload": "fresh",
+        "samples": 5,
+        "scope": "complete retained Vite production build",
+        "wall_seconds": {
+          "median": 24.31,
+          "min": 24.16,
+          "max": 24.5
+        },
+        "maximum_individual_process_rss_kib": {
+          "median": 4664756,
+          "min": 4616256,
+          "max": 4698192
+        },
+        "sampled_descendant_tree_peak_rss_kib": {
+          "median": 5151776,
+          "min": 5035476,
+          "max": 5193604
+        }
+      },
+      {
+        "implementation": "tanstack",
+        "workload": "fresh",
+        "samples": 5,
+        "scope": "complete Nift documents/assets publication and required retained Vite build",
+        "wall_seconds": {
+          "median": 33.09,
+          "min": 32.72,
+          "max": 34.87
+        },
+        "maximum_individual_process_rss_kib": {
+          "median": 4603296,
+          "min": 4554072,
+          "max": 4693116
+        },
+        "sampled_descendant_tree_peak_rss_kib": {
+          "median": 5259308,
+          "min": 5179788,
+          "max": 5328020
+        }
+      },
+      {
+        "implementation": "upstream",
+        "workload": "unchanged",
+        "samples": 5,
+        "scope": "complete retained Vite production build",
+        "wall_seconds": {
+          "median": 32.11,
+          "min": 31.0,
+          "max": 33.93
+        },
+        "maximum_individual_process_rss_kib": {
+          "median": 4593900,
+          "min": 4540060,
+          "max": 4642276
+        },
+        "sampled_descendant_tree_peak_rss_kib": {
+          "median": 4998452,
+          "min": 4959264,
+          "max": 5127956
+        }
+      },
+      {
+        "implementation": "tanstack",
+        "workload": "unchanged",
+        "samples": 5,
+        "scope": "complete Nift documents/assets publication and required retained Vite build",
+        "wall_seconds": {
+          "median": 7.04,
+          "min": 6.76,
+          "max": 7.85
+        },
+        "maximum_individual_process_rss_kib": {
+          "median": 504208,
+          "min": 500644,
+          "max": 506084
+        },
+        "sampled_descendant_tree_peak_rss_kib": {
+          "median": 697716,
+          "min": 687972,
+          "max": 706396
+        }
+      },
+      {
+        "implementation": "upstream",
+        "workload": "body-1",
+        "samples": 5,
+        "scope": "native local R2 invalidation, selected changed-document reads and Query path manifest refresh (plus redirects for missing paths), including helper startup; no Vite rebuild or live edge purge",
+        "wall_seconds": {
+          "median": 2.1,
+          "min": 1.98,
+          "max": 2.18
+        },
+        "maximum_individual_process_rss_kib": {
+          "median": 434312,
+          "min": 430116,
+          "max": 444952
+        },
+        "sampled_descendant_tree_peak_rss_kib": {
+          "median": 531444,
+          "min": 528200,
+          "max": 533460
+        }
+      },
+      {
+        "implementation": "tanstack",
+        "workload": "body-1",
+        "samples": 5,
+        "scope": "complete Nift documents/assets publication and required retained Vite build",
+        "wall_seconds": {
+          "median": 6.48,
+          "min": 6.11,
+          "max": 9.24
+        },
+        "maximum_individual_process_rss_kib": {
+          "median": 504648,
+          "min": 499560,
+          "max": 507660
+        },
+        "sampled_descendant_tree_peak_rss_kib": {
+          "median": 697780,
+          "min": 688468,
+          "max": 700092
+        }
+      },
+      {
+        "implementation": "upstream",
+        "workload": "navigation",
+        "samples": 5,
+        "scope": "native local R2 invalidation, selected changed-document reads and Query path manifest refresh (plus redirects for missing paths), including helper startup; no Vite rebuild or live edge purge",
+        "wall_seconds": {
+          "median": 2.11,
+          "min": 2.03,
+          "max": 2.15
+        },
+        "maximum_individual_process_rss_kib": {
+          "median": 444244,
+          "min": 437784,
+          "max": 445256
+        },
+        "sampled_descendant_tree_peak_rss_kib": {
+          "median": 531416,
+          "min": 528812,
+          "max": 533572
+        }
+      },
+      {
+        "implementation": "tanstack",
+        "workload": "navigation",
+        "samples": 5,
+        "scope": "complete Nift documents/assets publication and required retained Vite build",
+        "wall_seconds": {
+          "median": 6.98,
+          "min": 5.16,
+          "max": 7.65
+        },
+        "maximum_individual_process_rss_kib": {
+          "median": 501780,
+          "min": 500580,
+          "max": 505296
+        },
+        "sampled_descendant_tree_peak_rss_kib": {
+          "median": 699524,
+          "min": 691552,
+          "max": 706364
+        }
+      },
+      {
+        "implementation": "upstream",
+        "workload": "shared-shell",
+        "samples": 5,
+        "scope": "complete retained Vite production build",
+        "wall_seconds": {
+          "median": 36.48,
+          "min": 30.76,
+          "max": 40.51
+        },
+        "maximum_individual_process_rss_kib": {
+          "median": 4645396,
+          "min": 4571148,
+          "max": 4680456
+        },
+        "sampled_descendant_tree_peak_rss_kib": {
+          "median": 5114232,
+          "min": 5067036,
+          "max": 5194344
+        }
+      },
+      {
+        "implementation": "tanstack",
+        "workload": "shared-shell",
+        "samples": 5,
+        "scope": "complete Nift documents/assets publication and required retained Vite build",
+        "wall_seconds": {
+          "median": 39.72,
+          "min": 34.44,
+          "max": 43.77
+        },
+        "maximum_individual_process_rss_kib": {
+          "median": 4589948,
+          "min": 4550300,
+          "max": 4613220
+        },
+        "sampled_descendant_tree_peak_rss_kib": {
+          "median": 5200968,
+          "min": 5082740,
+          "max": 5262800
+        }
+      },
+      {
+        "implementation": "upstream",
+        "workload": "island",
+        "samples": 5,
+        "scope": "complete retained Vite production build",
+        "wall_seconds": {
+          "median": 32.63,
+          "min": 29.8,
+          "max": 33.68
+        },
+        "maximum_individual_process_rss_kib": {
+          "median": 4599844,
+          "min": 4585716,
+          "max": 4647908
+        },
+        "sampled_descendant_tree_peak_rss_kib": {
+          "median": 5095080,
+          "min": 5005636,
+          "max": 5125676
+        }
+      },
+      {
+        "implementation": "tanstack",
+        "workload": "island",
+        "samples": 5,
+        "scope": "complete Nift documents/assets publication and required retained Vite build",
+        "wall_seconds": {
+          "median": 38.09,
+          "min": 32.66,
+          "max": 40.57
+        },
+        "maximum_individual_process_rss_kib": {
+          "median": 4630280,
+          "min": 4585236,
+          "max": 4655408
+        },
+        "sampled_descendant_tree_peak_rss_kib": {
+          "median": 5263420,
+          "min": 5201836,
+          "max": 5296736
+        }
+      }
+    ]
+  },
+  "notMeasuredAfterOptimization": [
+    "fresh application state",
+    "shared layout/navigation edit",
+    "backend-only edit"
+  ],
+  "qualifications": [
+    "Rewrite emits 14,247 complete static pages and 14,107 article fragments; accepted upstream/faithful migration serve documentation dynamically. This workload difference does not waive the agreed viability gate.",
+    "Maximum individual process/phase RSS is not aggregate memory. Sampled descendant RSS sums shared pages and can miss brief peaks. Persistent preview/database services excluded.",
+    "Exclusive Nift wall time excludes union of producer execution intervals and includes native dependency/cache/composition/output/orchestration, not built-in Markdown performance.",
+    "Compiler phases run concurrently; their durations must not be added as if serialized.",
+    "Conversion/repair/settling and correctness-check timings excluded from controlled scenario samples.",
+    "Five existing thin viewport differences remain open; no final parity acceptance."
+  ],
+  "finding": "Full publication remains about six times slower than accepted faithful migration; docs edits remain tens of seconds. Cache boundaries and individual RSS improved, but native composition became slower and unchanged publication regressed. No second rescue pass authorized."
+}

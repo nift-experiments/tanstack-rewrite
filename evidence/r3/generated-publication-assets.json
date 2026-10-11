@@ -5,5 +5,5 @@
   "exactRecordedBytes": true,
   "cssExcludedFromCopyAndPrune": true,
   "previousManifestAndByteHashRequiredForPruning": true,
-  "removedVerifiedOutputs": 0
+  "removedVerifiedOutputs": 2
 }
